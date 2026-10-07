@@ -155,7 +155,7 @@
     const index = Number($('guide').value);
     const item = items[index];
     if (!item) {
-      clearMainImage('guide', dataLoaded ? '当前分类没有可用的用户案例。请调整分类。' : '正在读取用户案例…');
+      clearMainImage('guide', dataLoaded ? '当前选择没有可用的参考图片。请调整分类或参考来源。' : '正在读取参考图片…');
       $('guide-source').hidden = true; $('guide-note').textContent = ''; $('guide-caution').textContent = '';
       return;
     }

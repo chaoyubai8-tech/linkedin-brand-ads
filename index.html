@@ -30,11 +30,11 @@
 <a class="skip" href="#compare">跳到三列对比</a>
 <main>
   <header>
-    <div class="version"><strong>TRIPO / V9 公开审稿预览</strong><span>2026.10.07</span></div>
+    <div class="version"><strong>TRIPO / V9 公开审稿预览</strong><span>2026.10.07 <a href="https://www.figma.com/design/qUyEmSdVcrzgVY9bAv5pXR/Tripo?node-id=100-309" target="_blank" rel="noreferrer">打开 Figma 可编辑稿</a></span></div>
     <h1>领英品牌广告</h1>
-    <p id="catalog-summary" aria-live="polite">4 张 V9 创意草稿 × 静态档案案例 × 用户广告案例</p>
+    <p id="catalog-summary" aria-live="polite">4 张 V9 创意草稿 × 静态档案案例 × 用户广告案例与规范示例</p>
   </header>
-  <nav class="nav" aria-label="页面导航"><a href="#compare">三列对比</a><a href="#current-gallery">V9 四张创意</a><a href="#linkedin">AI / B2B 单图案例</a><a href="#user-cases">用户案例库</a><a href="#gif">轻动效 GIF</a><a href="#direction">两种风格如何融合</a></nav>
+  <nav class="nav" aria-label="页面导航"><a href="#compare">三列对比</a><a href="#current-gallery">V9 四张创意</a><a href="#linkedin">AI / B2B 单图案例</a><a href="#user-cases">用户案例库</a><a href="#tripo">内部规范示例</a><a href="#gif">轻动效 GIF</a><a href="#direction">两种风格如何融合</a></nav>
   <aside class="notice">
     <p><strong>公开审稿预览，未批准投放。</strong>对比的是表达方式，不是效果排名。用户案例不等于已验证的 LinkedIn 投放、模型或效果证据。</p>
     <details><summary>来源分类、Meshy 查询与历史参数边界</summary><p>中列只纳入已目视核对的静态案例；第三方档案与官方确认分别标注，未目视的新增候选不计入主图库。用户提供的图按原样展示；其中法语版本、8K、速度、面数和优惠是历史画面文案，当前适用性需另核验。图片本身不能证明真实模型、拓扑或处理耗时。</p><p>此前 Meshy 官方查询的 9 条结果未见 Single Image：3 条视频、1 条站内信、2 条关注公司、3 条招聘；Country / Date 未选择，不能推断 Meshy 从未投放单图。此后官方详情访问受阻。既有 Runway、Autodesk、Spline 保留各自档案来源，没有把视频封面或自然帖当作已验证单图。</p><a class="source" href="https://www.linkedin.com/ad-library/search?accountOwner=Meshy" target="_blank" rel="noreferrer">Meshy 官方查询 ↗</a><a class="source" href="static-reference-recheck-2026-10-07.md">既有研究记录</a></details>
@@ -62,10 +62,10 @@
         <a id="case-source" class="source" target="_blank" rel="noreferrer">官方广告详情 ↗</a><a id="case-archive" class="source" target="_blank" rel="noreferrer">第三方档案 ↗</a><p id="case-note" class="note"></p><details class="evidence-details"><summary>核验状态与观察细节</summary><div id="case-verification"></div></details>
       </article>
       <article>
-        <div class="column-controls"><h2>用户提供的广告案例</h2><input id="reference-kind" type="hidden" value="user"><div class="right-filter-row">
+        <div class="column-controls"><h2>我们的广告与规范参考</h2><div class="right-filter-row"><label class="reference-kind">参考来源<select id="reference-kind" aria-label="切换右列参考来源" aria-controls="guide right-user-filter"><option value="user">用户提供的案例</option><option value="guide">内部规范截图</option></select></label>
         <div id="right-user-filter" class="filters"><label>案例分类<select id="right-user-category" aria-label="按分类筛选用户案例" aria-controls="guide user-case-gallery"><option value="all">全部分类</option></select></label></div>
         </div><select id="guide" class="selection" aria-label="选择右列参考图片"></select></div>
-        <div class="image-wrap"><a id="guide-link" target="_blank" rel="noopener"><img id="guide-img" alt="用户提供的广告案例"></a><p class="image-error" id="guide-error" hidden></p></div>
+        <div class="image-wrap"><a id="guide-link" target="_blank" rel="noopener"><img id="guide-img" alt="用户广告案例或内部规范示例"></a><p class="image-error" id="guide-error" hidden></p></div>
         <div id="guide-caption" class="caption"></div><div id="guide-size" class="dimensions"></div>
         <a id="guide-source" class="source" target="_blank" rel="noreferrer">查看来源 ↗</a><p id="guide-note" class="note"></p><details class="evidence-details"><summary>来源与使用边界</summary><p id="guide-caution"></p></details>
       </article>
@@ -77,6 +77,7 @@
   <section class="section" id="current-gallery"><h2>四张 V9，两个产品各有重点。</h2><p>Teams 讲共享资产与团队工作区；API 讲可集成的生成能力与真实输入输出。静态画面先独立讲清楚，GIF 只是可选补充。</p><div class="downloads"><a class="download" href="assets/v9/Tripo-LinkedIn-V9-creatives.zip" download>下载 V9 全部素材 ZIP</a><span class="note">4 PNG + 4 SVG + 2 GIF + 使用说明 + 字体许可</span></div><div class="gallery ad-gallery" id="ad-gallery"></div></section>
   <section class="section" id="linkedin"><h2>AI / B2B 单图案例，看具体构图。</h2><p>保留既有 6 条；本轮从 7 个新增品牌扩充 13 条案例。主图库仅显示已目视核验的静态图，实际载入总数见下方。远程图片保持原站外链，失效时仍可打开来源。</p><div class="filters" aria-label="筛选静态案例图库"><label>品牌<select id="gallery-brand" aria-label="按品牌筛选案例图库" aria-controls="case-gallery case" disabled><option value="all">全部品牌</option></select></label><label>视觉类型<select id="gallery-visual" aria-label="按视觉类型筛选案例图库" aria-controls="case-gallery case" disabled><option value="all">全部类型</option></select></label></div><p id="case-gallery-count" class="filter-count" aria-live="polite"></p><div class="gallery case-gallery" id="case-gallery"></div><details id="candidate-details" class="archive-note" hidden><summary id="candidate-summary">尚未目视核验的候选</summary><p>只保留来源线索，不纳入主图库或已核验总数。</p><ul id="candidate-list" class="candidate-list"></ul></details></section>
   <section class="section" id="user-cases"><h2>用户提供的广告案例库</h2><p>原图原比例呈现，借鉴角色、拆分、材质、建筑与模型对照。两张 JPEG 更接近资产展示；案例来源不等于投放或产品能力已经验证。</p><div class="filters"><label>案例分类<select id="user-category" aria-label="按分类筛选用户广告案例库" aria-controls="user-case-gallery guide"><option value="all">全部分类</option></select></label></div><p id="user-case-count" class="filter-count" aria-live="polite"></p><div class="gallery case-gallery" id="user-case-gallery"></div></section>
+  <section class="section" id="tripo"><h2>六张内部示例，分别借鉴。</h2><p>保留文档水印与参考线，不把截图当高清原稿。借鉴结构、模型占比和对比方式；旧版本、优惠、倍率及 game-ready 字样不能直接沿用。来源文档是否可打开，取决于访客的飞书访问权限。</p><div class="gallery guide-gallery" id="guide-gallery"></div></section>
   <section class="section" id="gif"><h2>两张轻动效，点击才播放。</h2><p>首帧已包含完整主张。动画只强调关系连接，不模拟生成速度；停止播放会返回静态稿。</p><div class="gif-grid" id="gif-gallery"></div>
     <div class="format-note"><p><strong>会动的 GIF，不等于 LinkedIn 的 Dynamic Ads。</strong>Single Image 支持 JPG、PNG、GIF；动图最多 250 帧，文件上限 5 MB。两份本轮 GIF 均为 1200 × 1200、40 帧、4 秒。<a href="https://www.linkedin.com/help/linkedin/answer/a427596" target="_blank" rel="noreferrer">Single Image 官方规格 ↗</a></p><p>Dynamic Ads 是使用会员资料进行个性化的右侧栏广告类别，包括关注、焦点与招聘广告，不是“给单图加动画”的名称。素材格式达标也不等于已通过投放审核。<a href="https://www.linkedin.com/help/linkedin/answer/a421292" target="_blank" rel="noreferrer">Dynamic Ads 官方说明 ↗</a></p></div>
   </section>
@@ -105,6 +106,6 @@
   <details class="archive-note"><summary>研究记录与未纳入案例</summary><p>研究记录保留各阶段的访问与核验边界；当前图库以各条目后续目视核验状态为准。仅有档案 ID 不足以进入主图库；Meshy 官网和站外图也不作为实际 LinkedIn 单图证据。本预览不提供历史页面。</p><div class="archive-links"><a href="static-reference-recheck-2026-10-07.md">静态案例研究记录</a><a href="meshy-static-only-recheck-2026-10-07.md">Meshy 查询记录</a></div></details>
   <footer><span>公开审稿预览版；创意草稿不代表已投放或批准投放。</span><span>未操作广告账户，未作效果排名。 <a href="assets/v9/InstrumentSans-OFL.txt">Instrument Sans 字体许可</a></span></footer>
 </main>
-<script src="references.js"></script><script src="review-v9.js?v=20261007-public-preview"></script>
+<script src="references.js?v=20261007-public-guides"></script><script src="review-v9.js?v=20261007-public-guides"></script>
 </body>
 </html>
