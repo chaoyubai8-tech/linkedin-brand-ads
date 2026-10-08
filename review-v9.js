@@ -201,7 +201,7 @@
     renderGuide();
   }
   function updateCounts() {
-    $('catalog-summary').textContent = `4 张 V13 自有素材与真实白模新稿 · 保留 V12 / V11 / V10 / V9 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例 · 风格研究独立栏目`;
+    $('catalog-summary').textContent = `4 张 V13 自有素材与真实白模新稿 · 8 条站内信 · 保留 V12 / V11 / V10 / V9 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例 · 风格研究独立栏目`;
     const countText = `筛选显示 ${filteredCases.length} / ${staticCases.length} 条已目视案例`;
     $('case-filter-count').textContent = countText;
     $('case-gallery-count').textContent = countText;

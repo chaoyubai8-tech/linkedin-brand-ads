@@ -1,0 +1,299 @@
+/* Archived V8 copy, migrated without internal source URLs. */
+window.MESSAGE_DATA = {
+  "date": "2026-10-06",
+  "originals": [
+    {
+      "id": "US-M-01",
+      "region": "美国",
+      "angle": "Before / After",
+      "subject": "Got a 3D model. What comes next?",
+      "body": "Hi — still sending 3D files around after the first model?\n\nWith Tripo Teams, manage shared assets and member access in one workspace. With Tripo API, submit references from your tools, track tasks and retrieve models on success.\n\nWhich path fits: Teams, API or a use case?",
+      "type": "conversation",
+      "status": "V8修订 · 保留原分流",
+      "ctas": [
+        {
+          "label": "Explore Tripo Teams",
+          "destination": "Teams表单T1｜Explore Tripo Teams for your 3D workflow｜提交后进入Teams页面",
+          "route": "teams"
+        },
+        {
+          "label": "Explore Tripo API",
+          "destination": "API表单A1｜Explore Tripo API for your use case｜提交后进入API页面",
+          "route": "api"
+        },
+        {
+          "label": "See 3D Use Cases",
+          "destination": "Tripo 3D Use Cases页｜独立UTM",
+          "route": "usecases"
+        }
+      ],
+      "rationale": "美国英语；用first model之后继续传文件的具体问题切入，区分团队资产管理与程序化任务，保留三个原有分流按钮。",
+      "sourceRow": 7,
+      "banner": "assets/messages/message-banner-both.png",
+      "note": "V8短版改稿，基于原稿与2026-10-06官方能力核验；原ID、地区、CTA路径与目标描述保持不变。未写入飞书原表、未发送、未配置实际表单ID或发件人。",
+      "counts": {
+        "subject": 32,
+        "body": 272,
+        "ctas": [
+          19,
+          17,
+          16
+        ]
+      }
+    },
+    {
+      "id": "US-M-02",
+      "region": "美国",
+      "angle": "降本增效",
+      "subject": "How much work follows each 3D request?",
+      "body": "Hi — does every 3D request mean another upload, status check or file handoff?\n\nTripo Teams keeps shared assets and member controls together. Tripo API lets your tools handle submissions, task tracking and model retrieval on success.\n\nStart with Teams, API or a relevant use case.",
+      "type": "conversation",
+      "status": "V8修订 · 保留原分流",
+      "ctas": [
+        {
+          "label": "Explore Tripo Teams",
+          "destination": "Teams表单T1｜Explore Tripo Teams for your 3D workflow｜提交后进入Teams页面",
+          "route": "teams"
+        },
+        {
+          "label": "Explore Tripo API",
+          "destination": "API表单A1｜Explore Tripo API for your use case｜提交后进入API页面",
+          "route": "api"
+        },
+        {
+          "label": "See 3D Use Cases",
+          "destination": "Tripo 3D Use Cases页｜独立UTM",
+          "route": "usecases"
+        }
+      ],
+      "rationale": "美国英语；以重复上传、状态检查和文件交接解释效率痛点，不承诺量化节省；三个CTA继续分别承接Teams、API与用例。",
+      "sourceRow": 8,
+      "banner": "assets/messages/message-banner-both.png",
+      "note": "V8短版改稿，基于原稿与2026-10-06官方能力核验；原ID、地区、CTA路径与目标描述保持不变。未写入飞书原表、未发送、未配置实际表单ID或发件人。",
+      "counts": {
+        "subject": 38,
+        "body": 279,
+        "ctas": [
+          19,
+          17,
+          16
+        ]
+      }
+    },
+    {
+      "id": "US-M-03",
+      "region": "美国",
+      "angle": "商业化",
+      "subject": "A 3D demo. What will you build next?",
+      "body": "Hi — planning the next client brief or a 3D feature for your app?\n\nTripo Teams gives your team a workspace for shared assets and member access. Tripo API lets your app submit tasks and retrieve models on success.\n\nExplore Teams, API or a use case before deciding what fits.",
+      "type": "conversation",
+      "status": "V8修订 · 保留原分流",
+      "ctas": [
+        {
+          "label": "Explore Tripo Teams",
+          "destination": "Teams表单T1｜Explore Tripo Teams for your 3D workflow｜提交后进入Teams页面",
+          "route": "teams"
+        },
+        {
+          "label": "Explore Tripo API",
+          "destination": "API表单A1｜Explore Tripo API for your use case｜提交后进入API页面",
+          "route": "api"
+        },
+        {
+          "label": "See 3D Use Cases",
+          "destination": "Tripo 3D Use Cases页｜独立UTM",
+          "route": "usecases"
+        }
+      ],
+      "rationale": "美国英语；保留商业化方向，但落到下个客户brief或产品功能，不承诺收入或自动生产验收；末句说明是探索与评估。",
+      "sourceRow": 9,
+      "banner": "assets/messages/message-banner-both.png",
+      "note": "V8短版改稿，基于原稿与2026-10-06官方能力核验；原ID、地区、CTA路径与目标描述保持不变。未写入飞书原表、未发送、未配置实际表单ID或发件人。",
+      "counts": {
+        "subject": 36,
+        "body": 273,
+        "ctas": [
+          19,
+          17,
+          16
+        ]
+      }
+    },
+    {
+      "id": "EU-M-01",
+      "region": "UK/FR/DE｜英文区域版",
+      "angle": "Before / After",
+      "subject": "Where will the next 3D asset live?",
+      "body": "Hello — is the next 3D asset still passed between separate accounts?\n\nTripo Teams combines shared assets with member access controls. Tripo API lets your tools submit references, track tasks and retrieve models on success.\n\nWhich would you assess first: Teams, API or a use case?",
+      "type": "conversation",
+      "status": "V8修订 · 保留原分流",
+      "ctas": [
+        {
+          "label": "Explore Tripo Teams",
+          "destination": "Teams表单T1｜Explore Tripo Teams for your 3D workflow｜提交后进入Teams页面",
+          "route": "teams"
+        },
+        {
+          "label": "Explore Tripo API",
+          "destination": "API表单A1｜Explore Tripo API for your use case｜提交后进入API页面",
+          "route": "api"
+        },
+        {
+          "label": "See 3D Use Cases",
+          "destination": "Tripo 3D Use Cases页｜独立UTM",
+          "route": "usecases"
+        }
+      ],
+      "rationale": "UK/FR/DE英文区域版；从跨账户传资产转向有权限的共享工作区与可追踪API任务，保留Before/After逻辑，不暗示所有成员均可见全部资产。",
+      "sourceRow": 10,
+      "banner": "assets/messages/message-banner-both.png",
+      "note": "V8短版改稿，基于原稿与2026-10-06官方能力核验；原ID、地区、CTA路径与目标描述保持不变。未写入飞书原表、未发送、未配置实际表单ID或发件人。",
+      "counts": {
+        "subject": 34,
+        "body": 279,
+        "ctas": [
+          19,
+          17,
+          16
+        ]
+      }
+    },
+    {
+      "id": "EU-M-02",
+      "region": "UK/FR/DE｜英文区域版",
+      "angle": "降本增效",
+      "subject": "Still chasing the next 3D file?",
+      "body": "Hello — are file handovers and manual requests slowing your 3D workflow?\n\nWith Tripo Teams, manage shared assets and access in one workspace. With Tripo API, your tools can submit tasks and retrieve models on success.\n\nExplore team collaboration, API integration or a use case.",
+      "type": "conversation",
+      "status": "V8修订 · 保留原分流",
+      "ctas": [
+        {
+          "label": "Explore Tripo Teams",
+          "destination": "Teams表单T1｜Explore Tripo Teams for your 3D workflow｜提交后进入Teams页面",
+          "route": "teams"
+        },
+        {
+          "label": "Explore Tripo API",
+          "destination": "API表单A1｜Explore Tripo API for your use case｜提交后进入API页面",
+          "route": "api"
+        },
+        {
+          "label": "See 3D Use Cases",
+          "destination": "Tripo 3D Use Cases页｜独立UTM",
+          "route": "usecases"
+        }
+      ],
+      "rationale": "UK/FR/DE英文区域版；聚焦handover与manual requests，功能直接对应痛点；无地区专属权益或效率数字。",
+      "sourceRow": 11,
+      "banner": "assets/messages/message-banner-both.png",
+      "note": "V8短版改稿，基于原稿与2026-10-06官方能力核验；原ID、地区、CTA路径与目标描述保持不变。未写入飞书原表、未发送、未配置实际表单ID或发件人。",
+      "counts": {
+        "subject": 31,
+        "body": 277,
+        "ctas": [
+          19,
+          17,
+          16
+        ]
+      }
+    },
+    {
+      "id": "EU-M-03",
+      "region": "UK/FR/DE｜英文区域版",
+      "angle": "商业化",
+      "subject": "What does your next 3D delivery need?",
+      "body": "Hello — does the next client brief need shared assets, or does your product need 3D generation?\n\nTripo Teams provides a shared workspace with member controls. Tripo API supports generation tasks and model retrieval on success.\n\nChoose Teams, API or a relevant use case to explore.",
+      "type": "conversation",
+      "status": "V8修订 · 保留原分流",
+      "ctas": [
+        {
+          "label": "Explore Tripo Teams",
+          "destination": "Teams表单T1｜Explore Tripo Teams for your 3D workflow｜提交后进入Teams页面",
+          "route": "teams"
+        },
+        {
+          "label": "Explore Tripo API",
+          "destination": "API表单A1｜Explore Tripo API for your use case｜提交后进入API页面",
+          "route": "api"
+        },
+        {
+          "label": "See 3D Use Cases",
+          "destination": "Tripo 3D Use Cases页｜独立UTM",
+          "route": "usecases"
+        }
+      ],
+      "rationale": "UK/FR/DE英文区域版；把next delivery拆成团队交付和产品功能两种需求，维持商业化角度，同时保留用例分支。",
+      "sourceRow": 12,
+      "banner": "assets/messages/message-banner-both.png",
+      "note": "V8短版改稿，基于原稿与2026-10-06官方能力核验；原ID、地区、CTA路径与目标描述保持不变。未写入飞书原表、未发送、未配置实际表单ID或发件人。",
+      "counts": {
+        "subject": 37,
+        "body": 280,
+        "ctas": [
+          19,
+          17,
+          16
+        ]
+      }
+    }
+  ],
+  "suggested": [
+    {
+      "id": "NEW-T",
+      "region": "英语通用 · 待选地区",
+      "angle": "Teams · 小团队产能与管理",
+      "subject": "More assets. Less file chasing.",
+      "body": "Hi — is your game team's asset list growing across separate accounts?\n\nTripo Studio Team Plan puts shared assets, pooled credits and member controls in one workspace.\n\nExplore how it could fit your next game project.",
+      "type": "message",
+      "status": "V8修订 · 单产品",
+      "ctas": [
+        {
+          "label": "Explore Teams",
+          "destination": "沿用 Teams 表单 T1；提交后进入 Teams 页面。真实表单及链接待确认。",
+          "route": "teams"
+        }
+      ],
+      "rationale": "面向小型游戏团队负责人：资产分散是唯一痛点；共享资产、积分和成员控制给出具体解释；保留单产品、单CTA。",
+      "banner": "assets/messages/message-banner-teams.png",
+      "note": "V8短版改稿，基于原稿与2026-10-06官方能力核验；原ID、地区、CTA路径与目标描述保持不变。未写入飞书原表、未发送、未配置实际表单ID或发件人。",
+      "counts": {
+        "subject": 31,
+        "body": 216,
+        "ctas": [
+          13
+        ]
+      }
+    },
+    {
+      "id": "NEW-A",
+      "region": "英语通用 · 待选地区",
+      "angle": "API · 重复工作自动化",
+      "subject": "Bring 3D generation into your tools",
+      "body": "Hi — still uploading references and checking 3D tasks by hand?\n\nWith Tripo API, your tools can submit text or images, track tasks and retrieve models on success.\n\nExplore an API workflow for the game tools you build.",
+      "type": "message",
+      "status": "V8修订 · 单产品",
+      "ctas": [
+        {
+          "label": "Explore Tripo API",
+          "destination": "沿用 API 表单 A1；提交后进入 API 页面。真实表单及链接待确认。",
+          "route": "api"
+        }
+      ],
+      "rationale": "面向游戏工具开发者与技术负责人：用手动上传与查任务切入，明确提交、跟踪、成功取回；不暗示免代码、即刻生成或与Teams共用积分。",
+      "banner": "assets/messages/message-banner-api.png",
+      "note": "V8短版改稿，基于原稿与2026-10-06官方能力核验；原ID、地区、CTA路径与目标描述保持不变。未写入飞书原表、未发送、未配置实际表单ID或发件人。",
+      "counts": {
+        "subject": 35,
+        "body": 216,
+        "ctas": [
+          17
+        ]
+      }
+    }
+  ],
+  "specs": {
+    "conversation": "https://www.linkedin.com/help/lms/answer/a426057",
+    "message": "https://www.linkedin.com/help/linkedin/answer/a1344888"
+  },
+  "disclosure": "V8 review draft. Ads are not running; messages are not sent or connected to a real Lead Gen Form. Original CTA routing is retained; actual destinations and authorized senders still require setup."
+};

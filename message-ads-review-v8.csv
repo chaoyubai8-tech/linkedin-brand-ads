@@ -1,0 +1,41 @@
+﻿"id","region","type","angle","subject","body","cta_labels","destinations","subject_characters","body_characters","status"
+"US-M-01","美国","conversation","Before / After","Got a 3D model. What comes next?","Hi — still sending 3D files around after the first model?
+
+With Tripo Teams, manage shared assets and member access in one workspace. With Tripo API, submit references from your tools, track tasks and retrieve models on success.
+
+Which path fits: Teams, API or a use case?","Explore Tripo Teams | Explore Tripo API | See 3D Use Cases","Teams表单T1｜Explore Tripo Teams for your 3D workflow｜提交后进入Teams页面 | API表单A1｜Explore Tripo API for your use case｜提交后进入API页面 | Tripo 3D Use Cases页｜独立UTM","32","272","V8修订 · 保留原分流"
+"US-M-02","美国","conversation","降本增效","How much work follows each 3D request?","Hi — does every 3D request mean another upload, status check or file handoff?
+
+Tripo Teams keeps shared assets and member controls together. Tripo API lets your tools handle submissions, task tracking and model retrieval on success.
+
+Start with Teams, API or a relevant use case.","Explore Tripo Teams | Explore Tripo API | See 3D Use Cases","Teams表单T1｜Explore Tripo Teams for your 3D workflow｜提交后进入Teams页面 | API表单A1｜Explore Tripo API for your use case｜提交后进入API页面 | Tripo 3D Use Cases页｜独立UTM","38","279","V8修订 · 保留原分流"
+"US-M-03","美国","conversation","商业化","A 3D demo. What will you build next?","Hi — planning the next client brief or a 3D feature for your app?
+
+Tripo Teams gives your team a workspace for shared assets and member access. Tripo API lets your app submit tasks and retrieve models on success.
+
+Explore Teams, API or a use case before deciding what fits.","Explore Tripo Teams | Explore Tripo API | See 3D Use Cases","Teams表单T1｜Explore Tripo Teams for your 3D workflow｜提交后进入Teams页面 | API表单A1｜Explore Tripo API for your use case｜提交后进入API页面 | Tripo 3D Use Cases页｜独立UTM","36","273","V8修订 · 保留原分流"
+"EU-M-01","UK/FR/DE｜英文区域版","conversation","Before / After","Where will the next 3D asset live?","Hello — is the next 3D asset still passed between separate accounts?
+
+Tripo Teams combines shared assets with member access controls. Tripo API lets your tools submit references, track tasks and retrieve models on success.
+
+Which would you assess first: Teams, API or a use case?","Explore Tripo Teams | Explore Tripo API | See 3D Use Cases","Teams表单T1｜Explore Tripo Teams for your 3D workflow｜提交后进入Teams页面 | API表单A1｜Explore Tripo API for your use case｜提交后进入API页面 | Tripo 3D Use Cases页｜独立UTM","34","279","V8修订 · 保留原分流"
+"EU-M-02","UK/FR/DE｜英文区域版","conversation","降本增效","Still chasing the next 3D file?","Hello — are file handovers and manual requests slowing your 3D workflow?
+
+With Tripo Teams, manage shared assets and access in one workspace. With Tripo API, your tools can submit tasks and retrieve models on success.
+
+Explore team collaboration, API integration or a use case.","Explore Tripo Teams | Explore Tripo API | See 3D Use Cases","Teams表单T1｜Explore Tripo Teams for your 3D workflow｜提交后进入Teams页面 | API表单A1｜Explore Tripo API for your use case｜提交后进入API页面 | Tripo 3D Use Cases页｜独立UTM","31","277","V8修订 · 保留原分流"
+"EU-M-03","UK/FR/DE｜英文区域版","conversation","商业化","What does your next 3D delivery need?","Hello — does the next client brief need shared assets, or does your product need 3D generation?
+
+Tripo Teams provides a shared workspace with member controls. Tripo API supports generation tasks and model retrieval on success.
+
+Choose Teams, API or a relevant use case to explore.","Explore Tripo Teams | Explore Tripo API | See 3D Use Cases","Teams表单T1｜Explore Tripo Teams for your 3D workflow｜提交后进入Teams页面 | API表单A1｜Explore Tripo API for your use case｜提交后进入API页面 | Tripo 3D Use Cases页｜独立UTM","37","280","V8修订 · 保留原分流"
+"NEW-T","英语通用 · 待选地区","message","Teams · 小团队产能与管理","More assets. Less file chasing.","Hi — is your game team's asset list growing across separate accounts?
+
+Tripo Studio Team Plan puts shared assets, pooled credits and member controls in one workspace.
+
+Explore how it could fit your next game project.","Explore Teams","沿用 Teams 表单 T1；提交后进入 Teams 页面。真实表单及链接待确认。","31","216","V8修订 · 单产品"
+"NEW-A","英语通用 · 待选地区","message","API · 重复工作自动化","Bring 3D generation into your tools","Hi — still uploading references and checking 3D tasks by hand?
+
+With Tripo API, your tools can submit text or images, track tasks and retrieve models on success.
+
+Explore an API workflow for the game tools you build.","Explore Tripo API","沿用 API 表单 A1；提交后进入 API 页面。真实表单及链接待确认。","35","216","V8修订 · 单产品"

@@ -8,6 +8,12 @@
   <script>
     (() => {
       const forwardResearchLink = () => {
+        if (location.hash === '#messages' || /^#(?:US-M-|EU-M-|NEW-)/.test(location.hash)) {
+          const destination = new URL('messages.html', location.href);
+          destination.hash = location.hash;
+          location.replace(destination.href);
+          return;
+        }
         if (!/^#style-evidence(?:-|$)/.test(location.hash) && location.hash !== '#style-fusion') return;
         const destination = new URL('research.html', location.href);
         destination.search = location.search;
@@ -49,7 +55,7 @@
     <h1>领英品牌广告</h1>
     <p id="catalog-summary" aria-live="polite">四张 V13 自有素材与真实白模广告 · V12 / V11 与历史案例保留 · 风格研究独立栏目</p>
   </header>
-  <nav class="nav" aria-label="页面导航"><a href="#gpt-campaign">新广告</a><a href="research.html">风格研究 · 七项图证</a><a href="#iterations">V10 → V11 迭代</a><a href="#model-test">真实白模 × GPT 实验</a><a href="#compare">三列对比</a><a href="#current-gallery">最新与历史创意</a><a href="#linkedin">AI / B2B 单图案例</a><a href="#user-cases">用户案例库</a><a href="#tripo">内部规范示例</a><a href="#gif">历史 GIF</a><a href="#direction">两种风格如何融合</a></nav>
+  <nav class="nav" aria-label="页面导航"><a href="#gpt-campaign">新广告</a><a href="messages.html">站内信广告 · 8</a><a href="research.html">风格研究 · 七项图证</a><a href="#iterations">V10 → V11 迭代</a><a href="#model-test">真实白模 × GPT 实验</a><a href="#compare">三列对比</a><a href="#current-gallery">最新与历史创意</a><a href="#linkedin">AI / B2B 单图案例</a><a href="#user-cases">用户案例库</a><a href="#tripo">内部规范示例</a><a href="#gif">历史 GIF</a><a href="#direction">两种风格如何融合</a></nav>
   <aside class="notice">
     <p><strong>公开审稿预览，未批准投放。</strong>对比的是表达方式，不是效果排名。用户案例不等于已验证的 LinkedIn 投放、模型或效果证据。</p>
     <details><summary>来源分类、Meshy 查询与历史参数边界</summary><p>中列只纳入已目视核对的静态案例；第三方档案与官方确认分别标注，未目视的新增候选不计入主图库。用户提供的图按原样展示；其中法语版本、8K、速度、面数和优惠是历史画面文案，当前适用性需另核验。图片本身不能证明真实模型、拓扑或处理耗时。</p><p>此前 Meshy 官方查询的 9 条结果未见 Single Image：3 条视频、1 条站内信、2 条关注公司、3 条招聘；Country / Date 未选择，不能推断 Meshy 从未投放单图。此后官方详情访问受阻。既有 Runway、Autodesk、Spline 保留各自档案来源，没有把视频封面或自然帖当作已验证单图。</p><a class="source" href="https://www.linkedin.com/ad-library/search?accountOwner=Meshy" target="_blank" rel="noreferrer">Meshy 官方查询 ↗</a><a class="source" href="static-reference-recheck-2026-10-07.md">既有研究记录</a></details>
