@@ -39,6 +39,12 @@
     {id:'A14-01',title:'A14-01 · GPT 概念 / API 接入游戏工具',headline:'Add 3D creation to your tools.',caseId:'1345490926',guide:5,audience:'游戏工具开发者 / 技术美术与管线工程师',alt:'A14-01：原创 GPT 二维科考 rover 与 Your tool、Tripo API、3D assets 接入关系；AI-generated concept artwork / Workflow illustration，不是 API 实测。',audit:'rover 与 Your tool → Tripo API → 3D assets 说明可接入的工作关系。GPT 二维概念不是模型输出；仍需开发者实现，不表示已经完成引擎集成、零代码或同步返回。待审稿。'},
     {id:'A14-02',title:'A14-02 · GPT 概念 / API 异步任务',headline:'Submit. Track. Retrieve.',caseId:'1150183744',guide:3,audience:'游戏工具开发者 / 技术负责人',alt:'A14-02：原创 GPT 二维科考 rover 与提交图像、跟踪任务、成功后取回关系；AI-generated concept artwork / Workflow illustration。',audit:'Submit image / Track task / Retrieve on success 清楚分开异步阶段。无本次 API 运行收据，GPT 图不是实际输入输出，不暗示即时完成、成功保证、已绑骨或 game-ready。待审稿。'}
   ].map(x=>({...x,file:`assets/v14/${x.id}.png`,svg:`assets/v14/${x.id}.svg`,gifFile:null})));
+  currentAds.unshift(...[
+    {id:'T15-01',title:'T15-01 · 中台衍生 AI 主视觉 / Teams 共享资产库',headline:'One team. One asset library.',caseId:'919570584',guide:4,audience:'游戏工作室负责人 / 美术负责人',alt:'T15-01：自有中台输入衍生的 GPT hero 图39602与共享库关系；AI concept / Workspace concept，不是实际贴图模型或产品UI。',audit:'以自有中台输入衍生的GPT二维角色主视觉连接共享资产库。AI concept不是实际贴图模型，Workspace concept不是产品UI或实时共编；不证明自动风格一致、模型质量提升或无条件共享。待审稿。'},
+    {id:'T15-02',title:'T15-02 · 中台衍生 AI 主视觉 / Teams 积分与管理',headline:'Shared credits. Clear controls.',caseId:'919570584',guide:0,audience:'游戏制作负责人 / 工作室管理员',alt:'T15-02：中台输入衍生GPT角色与共享积分、成员、管理员关系；AI concept / Workspace concept，不是实际贴图模型。',audit:'共享积分、成员与管理员以概念关系图说明，无虚构余额或产量。角色是中台输入衍生GPT二维图，不是模型渲染；不表示API共用Studio积分或实时共编。待审稿。'},
+    {id:'A15-01',title:'A15-01 · 既有真实白模 / API 工具接入',headline:'Add 3D creation to your tools.',caseId:'1345490926',guide:5,audience:'游戏工具开发者 / 技术美术与管线工程师',alt:'A15-01：中台235对应既有真实FBX的Blender白模与工具接入示意；Existing mesh / Workflow illustration，不是本次API生成。',audit:'中台235既有真实FBX经Blender白模呈现，搭配工具、API与结果关系示意。旧资产不是本次API生成，批次不证明引擎版本；不承诺免代码、同步返回、现成引擎集成或game-ready。待审稿。'},
+    {id:'A15-02',title:'A15-02 · 真实网格局部 / API 异步任务',headline:'Submit. Track. Retrieve.',caseId:'1150183744',guide:3,audience:'游戏工具开发者 / 技术负责人',alt:'A15-02：中台235既有真实FBX的Blender白模和局部真实黑线框，搭配异步任务关系；不是GPT假线框或本次API生成。',audit:'真实白模与局部黑线框来自中台235既有网格，不使用失败三视图。Submit / Track / Retrieve是Workflow illustration，成功后取回；无本次API调用收据，不暗示即时成功、全四边面、重拓扑或游戏验收。待审稿。'}
+  ].map(x=>({...x,file:`assets/v15/${x.id}.png`,svg:`assets/v15/${x.id}.svg`,gifFile:null})));
   const caseNames = {
     '1345490926':'Runway · 一句话展示产品能力',
     '1150183744':'Runway · 直接展示编辑动作',
@@ -207,7 +213,7 @@
     renderGuide();
   }
   function updateCounts() {
-    $('catalog-summary').textContent = `4 张 V14 原创 GPT 二维概念新稿 · 8 条站内信 · 保留 V13 / V12 / V11 / V10 / V9 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例 · 风格研究独立栏目`;
+    $('catalog-summary').textContent = `4 张 V15 中台素材新稿 · Teams AI主视觉 / API既有真实白模 · 8 条站内信 · 保留 V14 至 V9 历史 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例 · 风格研究独立栏目`;
     const countText = `筛选显示 ${filteredCases.length} / ${staticCases.length} 条已目视案例`;
     $('case-filter-count').textContent = countText;
     $('case-gallery-count').textContent = countText;
@@ -407,6 +413,10 @@
     };
     const hashIndex = currentAds.findIndex(item => `#${item.id.toLowerCase()}` === location.hash.toLowerCase());
     selectAd(hashIndex < 0 ? 0 : hashIndex);
+    window.addEventListener('hashchange', () => {
+      const index = currentAds.findIndex(item => `#${item.id.toLowerCase()}` === location.hash.toLowerCase());
+      if (index >= 0) selectAd(index);
+    });
     const results = await Promise.allSettled([getItems('cases-linkedin.json'), getItems('cases-spline-static.json'), getItems('cases-ai-expanded.json', true), getItems('user-cases.json')]);
     const values = results.map(result => result.status === 'fulfilled' ? result.value : []);
     const legacy = [...values[0], ...values[1]].filter(item => item.type === 'image').map(item => normalizeCase(item, true));

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "title": "V14 · 有角色感，也讲清工作关系",
+  "intro": "四张原创 GPT 二维概念广告：Teams 讲共享资产与管理，API 讲工具接入与异步任务。不是 Tripo 模型成果或产品操作实测；V13 与更早版本继续保留。",
+  "updatedAt": "2026-10-08",
+  "workflowSamples": [
+    {
+      "title": "V13 历史对照 · 中台 AI 主视觉 × 固定品牌排版",
+      "summary": "历史制作实验，不是 V14 的生成过程。先以自有合格原图生成无字主视觉，再使用官方 Logo 与 Instrument Sans 固定排版。左侧是主稿 T13-01 的原始素材呈现，右侧为 AI 美术对照；AI 图不是贴图模型渲染或真实 3D 输出。",
+      "image": "assets/v13/T13-01-AI.png",
+      "svg": "assets/v13/T13-01-AI.svg",
+      "alt": "T13-01 AI 对照稿：以自有原图生成的二维 AI 主视觉，再以官方 Logo 和 Instrument Sans 排版；非真实 3D 输出。",
+      "sourceLabel": "AI concept · 非真实 3D 输出",
+      "compareImage": "assets/v13/T13-01.png",
+      "compareTitle": "主稿 T13-01 · 自有原始素材"
+    }
+  ],
+  "cards": [
+    {
+      "id": "T14-01",
+      "product": "Teams",
+      "title": "Teams · 一个项目，一套共享资产",
+      "audience": "游戏工作室负责人、美术负责人",
+      "headline": "One team. One asset library.",
+      "intro": "Keep your team's 3D assets in one shared workspace with Tripo Studio Team Plan.",
+      "concept": "探索角色、无人机与信标采用同一项目的设计语言；美术与开发连接到共同资产库，直接说明团队共享价值。",
+      "imageDescription": "原创 GPT 二维探索角色、无人机与信标的同项目资产套组，搭配共同资产库关系示意",
+      "notes": [
+        "AI-generated concept artwork：全部主体为原创 GPT 二维概念，不是 Tripo 生成模型、模型渲染或可下载的 3D 资产。",
+        "Workspace concept：美术、开发与共享库是概念关系图，不是产品 UI、客户工作区或实时共同编辑证据。",
+        "共享资产访问受管理员设置影响；同套组风格来自人工艺术指导，不证明自动跨资产风格一致。"
+      ],
+      "artworkLabel": "AI-generated concept artwork · Workspace concept",
+      "cta": "Explore Teams",
+      "introCharacterCount": 79,
+      "source": {
+        "basis": "2026-10-08 重读官方页面核验；概念图不是能力实测证据。",
+        "urls": [
+          "https://www.tripo3d.ai/programs/team-program",
+          "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan"
+        ],
+        "checkedAt": "2026-10-08"
+      },
+      "assets": {
+        "png": "assets/v14/T14-01.png",
+        "svg": "assets/v14/T14-01.svg"
+      },
+      "copyStatus": "verified_with_presentation_conditions",
+      "status": "ready"
+    },
+    {
+      "id": "T14-02",
+      "product": "Teams",
+      "title": "Teams · 共享积分，清楚管理",
+      "audience": "游戏制作负责人、工作室管理员",
+      "headline": "Shared credits. Clear controls.",
+      "intro": "Share credits and manage member access with Tripo Studio Team Plan. Give your next game project a shared workspace.",
+      "concept": "以同一探索角色建立项目语境，将共享积分、成员与管理员联系起来；不展示虚构余额、产量或权限统计。",
+      "imageDescription": "原创 GPT 二维探索角色，搭配共享积分、成员和管理员的无数字管理概念图",
+      "notes": [
+        "AI-generated concept artwork：角色是二维概念，不是 Tripo 输出或游戏质量验收结果。",
+        "Workspace concept：共享资源与管理关系为示意，不复刻或冒充实际产品界面，不补造余额和产出数据。",
+        "Teams 与 API 是分别提供的产品；此图不表示 API 共享 Studio 积分、成员实时共编或自动提高模型质量。"
+      ],
+      "artworkLabel": "AI-generated concept artwork · Workspace concept",
+      "cta": "Explore Teams",
+      "introCharacterCount": 115,
+      "source": {
+        "basis": "2026-10-08 重读官方页面核验；概念图不是能力实测证据。",
+        "urls": [
+          "https://www.tripo3d.ai/programs/team-program",
+          "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan"
+        ],
+        "checkedAt": "2026-10-08"
+      },
+      "assets": {
+        "png": "assets/v14/T14-02.png",
+        "svg": "assets/v14/T14-02.svg"
+      },
+      "copyStatus": "verified_with_presentation_conditions",
+      "status": "ready"
+    },
+    {
+      "id": "A14-01",
+      "product": "API",
+      "title": "API · 把生成能力接入工具",
+      "audience": "游戏工具开发者、技术美术与管线工程师",
+      "headline": "Add 3D creation to your tools.",
+      "intro": "Bring 3D generation into your game tools with Tripo API. Submit references, track tasks and retrieve successful results.",
+      "concept": "科考 rover 是视觉主角，Your tool → Tripo API → 3D assets 说明接口在自有工具与结果之间的位置。",
+      "imageDescription": "原创 GPT 二维科考 rover 与 Your tool、Tripo API、3D assets 的接入关系示意",
+      "notes": [
+        "AI-generated concept artwork：rover 是原创二维概念，不是本次接口生成的真实模型。",
+        "Workflow illustration：Your tool → Tripo API → 3D assets 为概念连接，不是运行日志、实际工具 UI 或已完成的引擎集成。",
+        "开发者仍需实现接入、任务处理与结果检查；不承诺免代码、同步返回或 game-ready。"
+      ],
+      "artworkLabel": "AI-generated concept artwork · Workflow illustration",
+      "cta": "Explore API",
+      "introCharacterCount": 120,
+      "source": {
+        "basis": "2026-10-08 重读官方页面核验；概念图不是能力实测证据。",
+        "urls": [
+          "https://developers.tripo3d.ai/en/docs/introduction",
+          "https://developers.tripo3d.ai/en/docs/task-query"
+        ],
+        "checkedAt": "2026-10-08"
+      },
+      "assets": {
+        "png": "assets/v14/A14-01.png",
+        "svg": "assets/v14/A14-01.svg"
+      },
+      "copyStatus": "verified_with_presentation_conditions",
+      "status": "ready"
+    },
+    {
+      "id": "A14-02",
+      "product": "API",
+      "title": "API · 提交、跟踪，成功后取回",
+      "audience": "游戏工具开发者、技术负责人",
+      "headline": "Submit. Track. Retrieve.",
+      "intro": "Submit an image, track the task and retrieve the model on success. Build your workflow with Tripo API.",
+      "concept": "同一科考 rover 与 Submit image / Track task / Retrieve on success 三步关系图，突出异步任务而非假装即时生成。",
+      "imageDescription": "原创 GPT 二维科考 rover 的白模风格概念，与异步流程示意；不是实际三维白模",
+      "notes": [
+        "AI-generated concept artwork：模型外观为二维美术概念，不是 Tripo 本次输入输出配对或 API 实测成果。",
+        "Workflow illustration：流程需要跟踪任务状态，成功后获取结果；不表示每个任务必然成功、即时完成或全部后处理自动完成。",
+        "没有本次调用收据、实际耗时、绑定或引擎测试证据；PNG/SVG 均只是审稿版式文件。"
+      ],
+      "artworkLabel": "AI-generated concept artwork · Workflow illustration",
+      "cta": "View API docs",
+      "introCharacterCount": 102,
+      "source": {
+        "basis": "2026-10-08 重读官方页面核验；概念图不是能力实测证据。",
+        "urls": [
+          "https://developers.tripo3d.ai/en/docs/introduction",
+          "https://developers.tripo3d.ai/en/docs/task-query"
+        ],
+        "checkedAt": "2026-10-08"
+      },
+      "assets": {
+        "png": "assets/v14/A14-02.png",
+        "svg": "assets/v14/A14-02.svg"
+      },
+      "copyStatus": "verified_with_presentation_conditions",
+      "status": "ready"
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "title": "V14 · 有角色感，也讲清工作关系",
-  "intro": "四张原创 GPT 二维概念广告：Teams 讲共享资产与管理，API 讲工具接入与异步任务。不是 Tripo 模型成果或产品操作实测；V13 与更早版本继续保留。",
+  "title": "V15 · 中台素材，把共享与接入讲清楚",
+  "intro": "Teams 使用自有中台输入衍生的 GPT 角色图；API 使用对应既有真实 FBX 的 Blender 白模。共享管理与接口流程均为示意，不是产品 UI 或本次 API 实测。",
   "updatedAt": "2026-10-08",
   "workflowSamples": [
     {
       "title": "V13 历史对照 · 中台 AI 主视觉 × 固定品牌排版",
-      "summary": "历史制作实验，不是 V14 的生成过程。先以自有合格原图生成无字主视觉，再使用官方 Logo 与 Instrument Sans 固定排版。左侧是主稿 T13-01 的原始素材呈现，右侧为 AI 美术对照；AI 图不是贴图模型渲染或真实 3D 输出。",
+      "summary": "V15 Teams 复用了这条中台工作流产出的无字主视觉，再重新排版；以下保留 V13 制作时的对照，不是本次重新生成。左侧是原始素材呈现，右侧为 AI 美术对照；AI 图不是贴图模型渲染或真实 3D 输出。",
       "image": "assets/v13/T13-01-AI.png",
       "svg": "assets/v13/T13-01-AI.svg",
       "alt": "T13-01 AI 对照稿：以自有原图生成的二维 AI 主视觉，再以官方 Logo 和 Instrument Sans 排版；非真实 3D 输出。",
@@ -17,20 +17,20 @@
   ],
   "cards": [
     {
-      "id": "T14-01",
+      "id": "T15-01",
       "product": "Teams",
-      "title": "Teams · 一个项目，一套共享资产",
+      "title": "Teams · 中台角色与共享资产库",
       "audience": "游戏工作室负责人、美术负责人",
       "headline": "One team. One asset library.",
       "intro": "Keep your team's 3D assets in one shared workspace with Tripo Studio Team Plan.",
-      "concept": "探索角色、无人机与信标采用同一项目的设计语言；美术与开发连接到共同资产库，直接说明团队共享价值。",
-      "imageDescription": "原创 GPT 二维探索角色、无人机与信标的同项目资产套组，搭配共同资产库关系示意",
+      "concept": "以自有中台输入衍生的 GPT 主视觉建立角色焦点，让资产与共享库的连接说明团队价值；美术处理不冒充真实模型贴图。",
+      "imageDescription": "自有中台输入衍生的 GPT 二维 hero 图 39602，搭配共享资产库关系示意",
       "notes": [
-        "AI-generated concept artwork：全部主体为原创 GPT 二维概念，不是 Tripo 生成模型、模型渲染或可下载的 3D 资产。",
-        "Workspace concept：美术、开发与共享库是概念关系图，不是产品 UI、客户工作区或实时共同编辑证据。",
-        "共享资产访问受管理员设置影响；同套组风格来自人工艺术指导，不证明自动跨资产风格一致。"
+        "AI concept：hero 图 39602 由自有中台输入衍生，为 GPT 二维美术图，不是对应 3D 模型的真实贴图渲染。",
+        "Workspace concept：共享库和团队连接是表达示意，不是产品 UI、真实客户工作区或实时共同编辑。",
+        "共享资产访问受管理员设置影响；角色视觉不能证明自动统一风格、模型质量提高或文件自动迁移。"
       ],
-      "artworkLabel": "AI-generated concept artwork · Workspace concept",
+      "artworkLabel": "AI concept · Workspace concept",
       "cta": "Explore Teams",
       "introCharacterCount": 79,
       "source": {
@@ -42,27 +42,33 @@
         "checkedAt": "2026-10-08"
       },
       "assets": {
-        "png": "assets/v14/T14-01.png",
-        "svg": "assets/v14/T14-01.svg"
+        "png": "assets/v15/T15-01.png",
+        "svg": "assets/v15/T15-01.svg"
       },
       "copyStatus": "verified_with_presentation_conditions",
-      "status": "ready"
+      "status": "ready",
+      "visualSource": {
+        "kind": "derived_ai_2d",
+        "source": "自有素材中台输入",
+        "derivation": "GPT hero 图 39602",
+        "notEvidenceOf": "实际贴图模型或本次产品操作"
+      }
     },
     {
-      "id": "T14-02",
+      "id": "T15-02",
       "product": "Teams",
-      "title": "Teams · 共享积分，清楚管理",
+      "title": "Teams · 共享积分与资源管理",
       "audience": "游戏制作负责人、工作室管理员",
       "headline": "Shared credits. Clear controls.",
       "intro": "Share credits and manage member access with Tripo Studio Team Plan. Give your next game project a shared workspace.",
-      "concept": "以同一探索角色建立项目语境，将共享积分、成员与管理员联系起来；不展示虚构余额、产量或权限统计。",
-      "imageDescription": "原创 GPT 二维探索角色，搭配共享积分、成员和管理员的无数字管理概念图",
+      "concept": "沿用中台输入衍生的 GPT 角色主视觉，以共享积分、成员和管理员的关系说明控制能力，不给虚构余额或效率数字。",
+      "imageDescription": "自有中台输入衍生的 GPT 二维 hero 图 39602，搭配共享积分、成员与管理员概念图",
       "notes": [
-        "AI-generated concept artwork：角色是二维概念，不是 Tripo 输出或游戏质量验收结果。",
-        "Workspace concept：共享资源与管理关系为示意，不复刻或冒充实际产品界面，不补造余额和产出数据。",
-        "Teams 与 API 是分别提供的产品；此图不表示 API 共享 Studio 积分、成员实时共编或自动提高模型质量。"
+        "AI concept：角色主视觉为自有输入衍生的 GPT 二维图，不是实际贴图模型或生成质量证明。",
+        "Workspace concept：共享资源与管理员关系不是实际产品界面；不补造余额、使用统计、产量或权限细目。",
+        "共享 Studio 积分不表示 Tripo API 使用同一积分池，也不表示实时共编或每次任务立即完成。"
       ],
-      "artworkLabel": "AI-generated concept artwork · Workspace concept",
+      "artworkLabel": "AI concept · Workspace concept",
       "cta": "Explore Teams",
       "introCharacterCount": 115,
       "source": {
@@ -74,27 +80,33 @@
         "checkedAt": "2026-10-08"
       },
       "assets": {
-        "png": "assets/v14/T14-02.png",
-        "svg": "assets/v14/T14-02.svg"
+        "png": "assets/v15/T15-02.png",
+        "svg": "assets/v15/T15-02.svg"
       },
       "copyStatus": "verified_with_presentation_conditions",
-      "status": "ready"
+      "status": "ready",
+      "visualSource": {
+        "kind": "derived_ai_2d",
+        "source": "自有素材中台输入",
+        "derivation": "GPT hero 图 39602",
+        "notEvidenceOf": "实际贴图模型或管理界面"
+      }
     },
     {
-      "id": "A14-01",
+      "id": "A15-01",
       "product": "API",
-      "title": "API · 把生成能力接入工具",
+      "title": "API · 真实白模与工具接入示意",
       "audience": "游戏工具开发者、技术美术与管线工程师",
       "headline": "Add 3D creation to your tools.",
       "intro": "Bring 3D generation into your game tools with Tripo API. Submit references, track tasks and retrieve successful results.",
-      "concept": "科考 rover 是视觉主角，Your tool → Tripo API → 3D assets 说明接口在自有工具与结果之间的位置。",
-      "imageDescription": "原创 GPT 二维科考 rover 与 Your tool、Tripo API、3D assets 的接入关系示意",
+      "concept": "用自有中台 235 既有真实 FBX 的 Blender 白模呈现形体，配合工具、Tripo API 与资产结果关系；旧模型不被称为本次 API 生成。",
+      "imageDescription": "中台 235 对应既有真实 FBX 的 Blender 白模渲染，搭配工具接入关系示意",
       "notes": [
-        "AI-generated concept artwork：rover 是原创二维概念，不是本次接口生成的真实模型。",
-        "Workflow illustration：Your tool → Tripo API → 3D assets 为概念连接，不是运行日志、实际工具 UI 或已完成的引擎集成。",
-        "开发者仍需实现接入、任务处理与结果检查；不承诺免代码、同步返回或 game-ready。"
+        "Existing mesh / Blender render：白模来自中台 235 对应真实 FBX；这是既有旧资产，不是本次调用 Tripo API 的生成结果。",
+        "Workflow illustration：工具 → Tripo API → 资产结果是关系图，不是产品 UI、接口运行收据或已完成的引擎集成。",
+        "素材上传批次不等于引擎版本；白模打光不能证明生成质量提高，也不证明绑定、完整拓扑或游戏运行验收。"
       ],
-      "artworkLabel": "AI-generated concept artwork · Workflow illustration",
+      "artworkLabel": "Existing mesh · Blender render · Workflow illustration",
       "cta": "Explore API",
       "introCharacterCount": 120,
       "source": {
@@ -106,27 +118,34 @@
         "checkedAt": "2026-10-08"
       },
       "assets": {
-        "png": "assets/v14/A14-01.png",
-        "svg": "assets/v14/A14-01.svg"
+        "png": "assets/v15/A15-01.png",
+        "svg": "assets/v15/A15-01.svg"
       },
       "copyStatus": "verified_with_presentation_conditions",
-      "status": "ready"
+      "status": "ready",
+      "visualSource": {
+        "kind": "existing_mesh_render",
+        "source": "自有素材中台 235 对应 FBX",
+        "render": "Blender 白模",
+        "generationVersion": "未依据本次材料确认",
+        "notEvidenceOf": "本次 API 生成、处理耗时或 game-ready"
+      }
     },
     {
-      "id": "A14-02",
+      "id": "A15-02",
       "product": "API",
-      "title": "API · 提交、跟踪，成功后取回",
+      "title": "API · 真实网格与异步任务示意",
       "audience": "游戏工具开发者、技术负责人",
       "headline": "Submit. Track. Retrieve.",
       "intro": "Submit an image, track the task and retrieve the model on success. Build your workflow with Tripo API.",
-      "concept": "同一科考 rover 与 Submit image / Track task / Retrieve on success 三步关系图，突出异步任务而非假装即时生成。",
-      "imageDescription": "原创 GPT 二维科考 rover 的白模风格概念，与异步流程示意；不是实际三维白模",
+      "concept": "以同一既有真实网格的白模和局部黑线框呈现几何，旁边分开提交、跟踪、成功后取回；不以流程图暗示现场生成。",
+      "imageDescription": "中台 235 对应既有 FBX 的 Blender 白模与局部真实黑线框，搭配异步任务关系",
       "notes": [
-        "AI-generated concept artwork：模型外观为二维美术概念，不是 Tripo 本次输入输出配对或 API 实测成果。",
-        "Workflow illustration：流程需要跟踪任务状态，成功后获取结果；不表示每个任务必然成功、即时完成或全部后处理自动完成。",
-        "没有本次调用收据、实际耗时、绑定或引擎测试证据；PNG/SVG 均只是审稿版式文件。"
+        "Existing mesh / Blender render：白模与局部黑线框来自中台 235 对应真实网格，不是 GPT 生成线框；资产为旧素材。",
+        "Workflow illustration：Submit / Track / Retrieve 仅说明异步任务，成功后才获取输出；不是该资产的本次 API 调用记录，不暗示每次成功或即时返回。",
+        "局部线框不代表全四边面、重新拓扑或生产质量验收；没有新调用收据、耗时、绑定或引擎测试证据。不使用失败三视图。"
       ],
-      "artworkLabel": "AI-generated concept artwork · Workflow illustration",
+      "artworkLabel": "Existing mesh · Real wireframe · Workflow illustration",
       "cta": "View API docs",
       "introCharacterCount": 102,
       "source": {
@@ -138,11 +157,18 @@
         "checkedAt": "2026-10-08"
       },
       "assets": {
-        "png": "assets/v14/A14-02.png",
-        "svg": "assets/v14/A14-02.svg"
+        "png": "assets/v15/A15-02.png",
+        "svg": "assets/v15/A15-02.svg"
       },
       "copyStatus": "verified_with_presentation_conditions",
-      "status": "ready"
+      "status": "ready",
+      "visualSource": {
+        "kind": "existing_mesh_render",
+        "source": "自有素材中台 235 对应 FBX",
+        "render": "Blender 白模及真实网格局部黑线框",
+        "generationVersion": "未依据本次材料确认",
+        "notEvidenceOf": "本次 API 生成、重拓扑或游戏质量验收"
+      }
     }
   ]
 }
