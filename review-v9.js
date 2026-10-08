@@ -27,6 +27,12 @@
     {id:'A12-01',title:'A12-01 · GPT 概念 / API 工具接入',headline:'Add 3D generation to your game tools.',caseId:'1345490926',guide:5,audience:'游戏工具开发者 / 管线工程师',audit:'修复机械兽为 GPT 概念主体，游戏工具与 API 连接为集成示意；不是实际接口输出、现成引擎插件或同步返回演示。'},
     {id:'A12-02',title:'A12-02 · GPT 概念 / API 异步编排',headline:'Build your 3D generation workflow.',caseId:'1150183744',guide:3,audience:'技术美术 / 管线工程师',audit:'Submit / Track / Retrieve 为异步流程概念；成功后取得输出。机械兽不是 Tripo 实际模型，也不声称已通过游戏验收。'}
   ].map(x=>({...x,file:`assets/v12/${x.id}.png`,svg:`assets/v12/${x.id}.svg`,gifFile:null})));
+  currentAds.unshift(...[
+    {id:'T13-01',title:'T13-01 · 自有素材 / Teams 共享资产',headline:'One team. One asset library.',caseId:'919570584',guide:4,audience:'游戏工作室负责人 / 美术负责人',alt:'T13-01 Teams 广告：自有角色原始彩色输入，搭配共享资产关系示意；不是贴图模型渲染或产品 UI。',audit:'原始彩色输入作为角色视觉，不冒充模型贴图渲染。Workspace concept 说明共享资产与管理关系；不表示实时共编或自动统一风格。待审稿。'},
+    {id:'T13-02',title:'T13-02 · 真实白模 / Teams 共享工作区',headline:'One team. One 3D workspace.',caseId:'919570584',guide:0,audience:'制作负责人 / 团队管理员',alt:'T13-02 Teams 广告：真实无贴图模型白模渲染及团队工作区示意。',audit:'对应真实无贴图模型用于看清几何；Workspace concept 是工作区关系示意，不是产品操作截图、自动迁移或实测效率。待审稿。'},
+    {id:'A13-01',title:'A13-01 · 真实白模 / API 工具接入示意',headline:'Add 3D to your tools.',caseId:'1345490926',guide:5,audience:'游戏开发者 / 工具与管线工程师',alt:'A13-01 API 广告：原始输入与对应真实白模，接口连接为 Workflow illustration；不是本次 API 实测结果。',audit:'原始输入与对应真实白模说明图像和模型的关系；接口连接为 Workflow illustration。没有该资产本次 API 运行收据，不称为 API 实测输出或已完成引擎集成。待审稿。'},
+    {id:'A13-02',title:'A13-02 · 真实白模 / API 异步流程示意',headline:'Your pipeline. A new dimension.',caseId:'1150183744',guide:3,audience:'技术美术 / 工具与管线工程师',alt:'A13-02 API 广告：原始输入和真实白模，提交、跟踪、成功后取回的异步流程示意。',audit:'Submit / Track / Retrieve 说明异步任务，成功后取回输出。Workflow illustration 不是本次调用日志；真实模型不代表 game-ready、已绑骨或 8K/PBR。待审稿。'}
+  ].map(x=>({...x,file:`assets/v13/${x.id}.png`,svg:`assets/v13/${x.id}.svg`,gifFile:null})));
   const caseNames = {
     '1345490926':'Runway · 一句话展示产品能力',
     '1150183744':'Runway · 直接展示编辑动作',
@@ -124,7 +130,7 @@
   }
   function setMainImage(kind, item, src = item.file) {
     $(kind+'-size').textContent = '正在读取图片…';
-    setImage($(kind+'-img'), $(kind+'-link'), $(kind+'-error'), src, item.headline || item.title, img => {
+    setImage($(kind+'-img'), $(kind+'-link'), $(kind+'-error'), src, item.alt || item.headline || item.title, img => {
       $(kind+'-size').textContent = img ? `${img.naturalWidth} × ${img.naturalHeight} px` : '未成功读取图片';
     });
     $(kind+'-caption').textContent = item.title;
@@ -143,7 +149,7 @@
     const img = el('img'); img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
     const error = el('p', null, 'image-error'); error.hidden = true;
     link.append(img); wrap.append(link, error);
-    setImage(img, link, error, item.file, item.headline || item.title);
+    setImage(img, link, error, item.file, item.alt || item.headline || item.title);
     return {wrap, link, img, error};
   }
   function renderCase() {
@@ -195,7 +201,7 @@
     renderGuide();
   }
   function updateCounts() {
-    $('catalog-summary').textContent = `4 张 V12 GPT 概念新稿 · 保留 V11 / V10 / V9 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例 · 风格研究独立栏目`;
+    $('catalog-summary').textContent = `4 张 V13 自有素材与真实白模新稿 · 保留 V12 / V11 / V10 / V9 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例 · 风格研究独立栏目`;
     const countText = `筛选显示 ${filteredCases.length} / ${staticCases.length} 条已目视案例`;
     $('case-filter-count').textContent = countText;
     $('case-gallery-count').textContent = countText;

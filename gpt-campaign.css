@@ -1,4 +1,4 @@
-/* Scoped V12 module. Inherits the review site's Instrument Sans and color tokens. */
+/* Current-campaign module. Legacy selector retained; inherits site typography and tokens. */
 #gpt-campaign {
   --gc-ink: var(--ink, #191d1c);
   --gc-muted: var(--muted, #5f6865);
@@ -58,6 +58,11 @@
 #gpt-campaign .gc-file-status { font-size: 12px; font-variant-numeric: tabular-nums; }
 #gpt-campaign .gc-boundaries { margin-top: 20px; padding-top: 12px; border-top: 1px solid var(--gc-line); }
 #gpt-campaign .gc-boundaries p { max-width: 100ch; font-size: 12px; }
+#gpt-campaign .gc-sample { margin: 18px 0 26px; }
+#gpt-campaign .gc-sample-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 16px; }
+#gpt-campaign .gc-sample-grid figure { margin: 0; min-width: 0; }
+#gpt-campaign .gc-sample-grid figcaption { min-height: 40px; font-size: 13px; line-height: 1.6; color: var(--gc-ink); }
+#gpt-campaign .gc-sample-image, #gpt-campaign .gc-sample-image img { display: block; width: 100%; height: auto; }
 #gpt-campaign .gc-updated, #gpt-campaign .gc-data-warning p, #gpt-campaign .gc-data-loading { font-size: 12px; }
 #gpt-campaign .gc-data-warning { margin-top: 16px; }
 @media (max-width: 767px) {
@@ -65,6 +70,7 @@
   #gpt-campaign .gc-grid { grid-template-columns: 1fr; gap: 30px; }
   #gpt-campaign .gc-intro { font-size: 14px; }
   #gpt-campaign .gc-controls { align-items: flex-start; }
+  #gpt-campaign .gc-sample-grid { grid-template-columns: 1fr; gap: 24px; }
 }
 @media (prefers-color-scheme: dark) {
   #gpt-campaign { --gc-ink: var(--ink, #eef1ed); --gc-muted: var(--muted, #b2bcb6); --gc-line: var(--line, #3e4942); --gc-surface: var(--surface, #1d221f); --gc-subtle: var(--subtle, #262e29); }

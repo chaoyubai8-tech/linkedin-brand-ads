@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "title": "V12 · Teams / API 概念广告",
+  "intro": "Teams 讲共享与管理，API 讲接入与编排。新角色与同世界道具用于 GPT 概念呈现，V11 真实模型版本保留对照。",
+  "updatedAt": "2026-10-08",
+  "cards": [
+    {
+      "id": "T12-01",
+      "product": "Teams",
+      "title": "Teams · 共享资产库",
+      "audience": "游戏工作室负责人、美术负责人",
+      "headline": "One team. One asset library.",
+      "subline": "Shared assets. Shared credits. Admin controls.",
+      "cta": "Explore Teams",
+      "intro": "Keep your team's 3D assets in a shared library, with pooled credits and admin controls. Explore Tripo Teams.",
+      "introCharacterCount": 108,
+      "concept": "鹭鸟潮汐档案师与同世界道具组成项目资产库；长喙、冠羽、标本箱建立职业辨识度，以分组和管理关系表达团队共享。",
+      "notes": [
+        "资产库与管理关系为创意示意，不是产品截图，也不表示实时共编。",
+        "共享资产可见范围受管理员设置影响；Teams 积分池不等于与 API 共用积分。",
+        "同世界风格来自本轮创意设计，不是自动跨资产一致性的产品承诺。"
+      ],
+      "source": {
+        "checkedAt": "2026-10-08",
+        "urls": ["https://www.tripo3d.ai/blog/tripo-turns-1-team-plan", "https://www.tripo3d.ai/programs/team-program"]
+      },
+      "assets": {"png": "assets/v12/T12-01.png", "svg": "assets/v12/T12-01.svg"},
+      "copyStatus": "verified",
+      "status": "ready"
+    },
+    {
+      "id": "T12-02",
+      "product": "Teams",
+      "title": "Teams · 从分散到共享",
+      "audience": "制作负责人、团队管理员",
+      "headline": "Less file chasing. More creating.",
+      "subline": "Create and organize 3D assets in one team workspace.",
+      "cta": "Explore Teams",
+      "intro": "Give your game team one workspace to create and organize 3D assets, with member access managed in one place.",
+      "introCharacterCount": 108,
+      "concept": "同一套角色与道具，从分散文件到团队工作区；仅对照组织关系，不改变模型视觉质量。",
+      "notes": [
+        "前后关系为工作方式示意，不是实测客户流程或自动迁移演示。",
+        "Less file chasing 是非量化利益表达，不承诺具体节时或产量。",
+        "左右复用同套视觉资产，不用右侧变精美暗示 Teams 改善生成质量。"
+      ],
+      "source": {
+        "checkedAt": "2026-10-08",
+        "urls": ["https://www.tripo3d.ai/blog/tripo-turns-1-team-plan", "https://www.tripo3d.ai/programs/team-program"]
+      },
+      "assets": {"png": "assets/v12/T12-02.png", "svg": "assets/v12/T12-02.svg"},
+      "copyStatus": "verified_with_interpretation",
+      "status": "ready"
+    },
+    {
+      "id": "A12-01",
+      "product": "API",
+      "title": "API · 接入游戏工具",
+      "audience": "游戏开发者、工具与管线工程师",
+      "headline": "Add 3D generation to your game tools.",
+      "subline": "Integrate with the Tripo API.",
+      "cta": "Explore the API",
+      "intro": "Add 3D generation to the tools your game team builds. Explore the Tripo API for custom integrations.",
+      "introCharacterCount": 100,
+      "concept": "以修复机械兽作为视觉主体，用游戏工具到 Tripo API 的连接关系讲清开发者接入。",
+      "notes": [
+        "工具与接口关系为集成示意，不是实际产品界面或已完成的引擎集成。",
+        "需要开发者实现接入；不暗示现成插件、无需代码或即时返回模型。",
+        "机械兽是 GPT 二维概念主视觉，不是 Tripo API 实际生成结果。"
+      ],
+      "source": {
+        "checkedAt": "2026-10-08",
+        "urls": ["https://developers.tripo3d.ai/en/docs/introduction"]
+      },
+      "assets": {"png": "assets/v12/A12-01.png", "svg": "assets/v12/A12-01.svg"},
+      "copyStatus": "verified",
+      "status": "ready"
+    },
+    {
+      "id": "A12-02",
+      "product": "API",
+      "title": "API · 编排异步流程",
+      "audience": "技术美术、工具与管线工程师",
+      "headline": "Build your 3D generation workflow.",
+      "subline": "Submit tasks. Track progress. Retrieve models.",
+      "cta": "Explore the API",
+      "intro": "Use the Tripo API to submit generation tasks, check progress, and retrieve completed models from your own code.",
+      "introCharacterCount": 111,
+      "concept": "延续机械兽视觉主题，以 Submit / Track / Retrieve 表达由开发者自行编排的异步生成流程。",
+      "notes": [
+        "流程示意应区分提交、等待或查询、成功后取得结果；不暗示同步即时返回。",
+        "任务成功后才有输出链接，不表示模型已通过游戏质量验收。",
+        "不是单请求自动完成全部处理，也不是实际输入输出对照或真实多视角证明。"
+      ],
+      "source": {
+        "checkedAt": "2026-10-08",
+        "urls": ["https://developers.tripo3d.ai/en/docs/introduction", "https://developers.tripo3d.ai/en/docs/quick-start", "https://developers.tripo3d.ai/en/docs/task-query"]
+      },
+      "assets": {"png": "assets/v12/A12-02.png", "svg": "assets/v12/A12-02.svg"},
+      "copyStatus": "verified",
+      "status": "ready"
+    }
+  ]
+}
