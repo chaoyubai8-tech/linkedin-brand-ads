@@ -1,0 +1,78 @@
+/* Scoped V12 module. Inherits the review site's Instrument Sans and color tokens. */
+#gpt-campaign {
+  --gc-ink: var(--ink, #191d1c);
+  --gc-muted: var(--muted, #5f6865);
+  --gc-line: var(--line, #ced3cf);
+  --gc-surface: var(--surface, #fcfcfb);
+  --gc-subtle: var(--subtle, #e9ede9);
+  --gc-accent: var(--yellow, #f9cf00);
+  color: var(--gc-ink);
+  margin-top: 42px;
+  padding-top: 30px;
+  border-top: 1px solid var(--gc-line);
+  scroll-margin-top: 24px;
+  min-width: 0;
+}
+#gpt-campaign, #gpt-campaign * { box-sizing: border-box; }
+#gpt-campaign [hidden] { display: none !important; }
+#gpt-campaign .gc-header { border: 0; padding: 0; }
+#gpt-campaign p { margin: 8px 0; color: var(--gc-muted); font-size: 14px; line-height: 1.75; }
+#gpt-campaign h2 { margin: 0 0 12px; color: var(--gc-ink); font-size: clamp(25px, 2.3vw, 34px); line-height: 1.25; letter-spacing: -.5px; }
+#gpt-campaign h3 { margin: 0 0 8px; color: var(--gc-ink); font-size: 20px; line-height: 1.4; }
+#gpt-campaign .gc-eyebrow { margin: 0 0 12px; font-size: 12px; font-weight: 600; letter-spacing: .08em; }
+#gpt-campaign .gc-intro { max-width: 76ch; font-size: 16px; }
+#gpt-campaign .gc-source-note { max-width: 85ch; font-size: 13px; }
+#gpt-campaign .gc-history { display: inline-block; padding: 8px 0; color: inherit; font-size: 13px; text-underline-offset: 3px; }
+#gpt-campaign .gc-controls { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 18px; margin: 24px 0 14px; }
+#gpt-campaign .gc-button, #gpt-campaign .gc-download { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 14px; border: 1px solid var(--gc-line); border-radius: 4px; background: var(--gc-surface); color: var(--gc-ink); font: inherit; font-size: 13px; line-height: 1.4; text-decoration: none; cursor: pointer; white-space: nowrap; }
+#gpt-campaign .gc-button:hover, #gpt-campaign .gc-download:not([aria-disabled="true"]):hover { background: var(--gc-subtle); }
+#gpt-campaign .gc-button[aria-pressed="true"] { color: #191d1c; background: var(--gc-accent); border-color: var(--gc-accent); }
+#gpt-campaign .gc-download[aria-disabled="true"] { opacity: .55; cursor: not-allowed; }
+#gpt-campaign .gc-button:disabled { opacity: .55; cursor: wait; }
+#gpt-campaign :is(button, a, summary, [tabindex]):focus-visible { outline: 3px solid var(--gc-accent); outline-offset: 4px; }
+#gpt-campaign .gc-width-status { margin: 0; font-size: 13px; }
+#gpt-campaign .gc-gallery-scroll { max-width: 100%; overflow-x: auto; overscroll-behavior-x: contain; padding: 4px 4px 16px; margin: 0 -4px; }
+#gpt-campaign .gc-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 36px 28px; align-items: start; }
+#gpt-campaign[data-review-width="360"] .gc-grid { grid-template-columns: repeat(2, 360px); gap: 36px 24px; width: max-content; }
+#gpt-campaign .gc-card { min-width: 0; margin: 0; }
+#gpt-campaign .gc-card-label { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin: 0 0 10px; color: var(--gc-muted); font-size: 13px; line-height: 1.5; }
+#gpt-campaign .gc-card-label strong { color: var(--gc-ink); font-size: 15px; }
+#gpt-campaign .gc-image-frame { display: grid; place-items: center; width: 100%; aspect-ratio: 1; overflow: hidden; background: var(--gc-subtle); outline: 1px solid var(--gc-line); outline-offset: -1px; }
+#gpt-campaign .gc-image-link { display: block; grid-area: 1 / 1; width: 100%; height: 100%; min-width: 0; }
+#gpt-campaign .gc-image-link img { display: block; width: 100%; height: 100%; object-fit: contain; }
+#gpt-campaign .gc-placeholder { grid-area: 1 / 1; padding: 24px; max-width: 340px; text-align: center; }
+#gpt-campaign .gc-placeholder strong { display: block; font-size: 16px; }
+#gpt-campaign .gc-placeholder p { font-size: 13px; }
+#gpt-campaign .gc-placeholder .gc-button { margin-top: 10px; }
+#gpt-campaign .gc-caption { padding-top: 17px; }
+#gpt-campaign .gc-headline { color: var(--gc-ink); font-size: 17px; font-weight: 600; overflow-wrap: anywhere; }
+#gpt-campaign .gc-concept { max-width: 66ch; }
+#gpt-campaign .gc-audience, #gpt-campaign .gc-card-details { font-size: 13px; }
+#gpt-campaign .gc-card-details { margin: 10px 0; color: var(--gc-muted); }
+#gpt-campaign summary { width: fit-content; min-height: 36px; padding: 8px 0; color: var(--gc-ink); cursor: pointer; font-size: 13px; }
+#gpt-campaign .gc-card-details p, #gpt-campaign .gc-card-details li { font-size: 13px; line-height: 1.75; }
+#gpt-campaign .gc-card-details ul { margin: 0 0 10px; padding-left: 20px; }
+#gpt-campaign .gc-downloads { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 14px 0 0; }
+#gpt-campaign .gc-direct, #gpt-campaign .gc-retry-files { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 4px; color: inherit; font: inherit; font-size: 13px; text-decoration: underline; text-underline-offset: 3px; }
+#gpt-campaign .gc-retry-files { border: 0; background: transparent; color: var(--gc-muted); cursor: pointer; }
+#gpt-campaign .gc-file-status { font-size: 12px; font-variant-numeric: tabular-nums; }
+#gpt-campaign .gc-boundaries { margin-top: 20px; padding-top: 12px; border-top: 1px solid var(--gc-line); }
+#gpt-campaign .gc-boundaries p { max-width: 100ch; font-size: 12px; }
+#gpt-campaign .gc-updated, #gpt-campaign .gc-data-warning p, #gpt-campaign .gc-data-loading { font-size: 12px; }
+#gpt-campaign .gc-data-warning { margin-top: 16px; }
+@media (max-width: 767px) {
+  #gpt-campaign { margin-top: 32px; padding-top: 24px; }
+  #gpt-campaign .gc-grid { grid-template-columns: 1fr; gap: 30px; }
+  #gpt-campaign .gc-intro { font-size: 14px; }
+  #gpt-campaign .gc-controls { align-items: flex-start; }
+}
+@media (prefers-color-scheme: dark) {
+  #gpt-campaign { --gc-ink: var(--ink, #eef1ed); --gc-muted: var(--muted, #b2bcb6); --gc-line: var(--line, #3e4942); --gc-surface: var(--surface, #1d221f); --gc-subtle: var(--subtle, #262e29); }
+}
+@media (prefers-reduced-motion: reduce) { #gpt-campaign button:active { transform: none; } }
+@media print {
+  #gpt-campaign .gc-controls, #gpt-campaign .gc-downloads, #gpt-campaign .gc-history, #gpt-campaign .gc-data-warning { display: none !important; }
+  #gpt-campaign .gc-gallery-scroll { overflow: visible; }
+  #gpt-campaign .gc-grid, #gpt-campaign[data-review-width="360"] .gc-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; }
+  #gpt-campaign .gc-card { break-inside: avoid; }
+}

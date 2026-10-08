@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="color-scheme" content="light dark">
+  <title>风格研究 · 领英品牌广告</title>
+  <meta name="description" content="Tripo 广告风格研究：以实际图片比较七个视觉维度，记录来源、观察及对新稿的具体启发。视觉研究不代表投放效果或产品能力证明。">
+  <link rel="stylesheet" href="research.css?v=20261008-1">
+  <link rel="stylesheet" href="style-evidence.css?v=20261008-1">
+</head>
+<body class="research-page">
+  <a class="skip" href="#style-evidence">跳到七项图证</a>
+  <main id="research-main">
+    <header class="research-header">
+      <div class="research-meta"><a href="index.html">← 返回广告首页</a><span>TRIPO · 创意研究</span></div>
+      <h1>风格研究</h1>
+      <p>把案例与自己的素材放在一起，逐项看清哪里值得借鉴，再回到广告创作。</p>
+    </header>
+    <nav class="research-nav" aria-label="栏目导航">
+      <a href="index.html#gpt-campaign">广告创作</a>
+      <a href="research.html" aria-current="page">风格研究</a>
+      <a href="#style-evidence">七项图证</a>
+      <a href="#style-fusion">五条融合原则</a>
+      <a href="index.html#iterations">V10 → V11 迭代</a>
+    </nav>
+    <section id="style-evidence" aria-label="领英行业参考与用户素材七项图证对照">
+      <noscript>
+        <h2>查看图证需要 JavaScript</h2>
+        <p>本页保留了七项比较、案例来源与五条改稿原则。可直接查看<a href="style-evidence-data.json">完整研究数据</a>，或返回<a href="index.html#user-cases">用户案例库</a>看原图。</p>
+      </noscript>
+    </section>
+    <footer class="research-footer">
+      <p>来源身份与核验边界逐图标注；本页不作投放效果排名，也不把概念图当作真实产品输出。</p>
+      <a href="index.html">返回广告首页 →</a>
+    </footer>
+  </main>
+  <script>
+    (() => {
+      if (location.hash !== '#style-fusion') return;
+      const root = document.getElementById('style-evidence');
+      const observer = new MutationObserver(() => {
+        const target = document.getElementById('style-fusion');
+        if (!target) return;
+        observer.disconnect();
+        requestAnimationFrame(() => target.scrollIntoView({block: 'start', behavior: 'instant'}));
+      });
+      observer.observe(root, {childList: true, subtree: true});
+    })();
+  </script>
+  <script src="style-evidence.js?v=20261008-1" defer></script>
+</body>
+</html>

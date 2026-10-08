@@ -21,6 +21,12 @@
     {id:'A11-01',title:'A11-01 · API 接入开发工具',headline:'Add 3D generation to your game tools.',caseId:'1345490926',guide:5,audience:'游戏开发者 / 管线工程师',audit:'真实模型配合工具接入概念；Submit / Track / Retrieve 保持异步，不声称已经完成引擎集成。'},
     {id:'A11-02',title:'A11-02 · API 真实输入输出',headline:'From reference to 3D.',caseId:'1150183744',guide:3,audience:'技术美术 / 资产工具开发者',audit:'原始参考图与对应 Tripo 模型，同一网格真实不同相机视角；不是镜像，不是 GPT 重绘，不承诺 game-ready。'}
   ].map(x=>({...x,file:`assets/v11/${x.id}.png`,svg:`assets/v11/${x.id}.svg`,gifFile:null})));
+  currentAds.unshift(...[
+    {id:'T12-01',title:'T12-01 · GPT 概念 / Teams 共享资产库',headline:'One team. One asset library.',caseId:'919570584',guide:4,audience:'游戏工作室负责人 / 美术负责人',audit:'原创鹭鸟档案师与道具套组为 GPT 二维概念，不是 Tripo 输出。分组表达共享资产库；不承诺自动统一风格或实时共编。'},
+    {id:'T12-02',title:'T12-02 · GPT 概念 / Teams 从分散到共享',headline:'Less file chasing. More creating.',caseId:'919570584',guide:0,audience:'游戏制作负责人 / 团队管理员',audit:'同一套 GPT 概念资产的组织关系示意；左右复用相同图，不表示 Teams 改善模型质量或自动迁移文件。'},
+    {id:'A12-01',title:'A12-01 · GPT 概念 / API 工具接入',headline:'Add 3D generation to your game tools.',caseId:'1345490926',guide:5,audience:'游戏工具开发者 / 管线工程师',audit:'修复机械兽为 GPT 概念主体，游戏工具与 API 连接为集成示意；不是实际接口输出、现成引擎插件或同步返回演示。'},
+    {id:'A12-02',title:'A12-02 · GPT 概念 / API 异步编排',headline:'Build your 3D generation workflow.',caseId:'1150183744',guide:3,audience:'技术美术 / 管线工程师',audit:'Submit / Track / Retrieve 为异步流程概念；成功后取得输出。机械兽不是 Tripo 实际模型，也不声称已通过游戏验收。'}
+  ].map(x=>({...x,file:`assets/v12/${x.id}.png`,svg:`assets/v12/${x.id}.svg`,gifFile:null})));
   const caseNames = {
     '1345490926':'Runway · 一句话展示产品能力',
     '1150183744':'Runway · 直接展示编辑动作',
@@ -189,7 +195,7 @@
     renderGuide();
   }
   function updateCounts() {
-    $('catalog-summary').textContent = `4 张 V11 + 4 张 V10 迭代 + 4 张 V9 历史 × ${staticCases.length} 条已目视静态档案 × ${userCases.length} 张用户案例${guides.length ? ` + ${guides.length} 张规范截图` : ''}`;
+    $('catalog-summary').textContent = `4 张 V12 GPT 概念新稿 · 保留 V11 / V10 / V9 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例 · 风格研究独立栏目`;
     const countText = `筛选显示 ${filteredCases.length} / ${staticCases.length} 条已目视案例`;
     $('case-filter-count').textContent = countText;
     $('case-gallery-count').textContent = countText;
@@ -367,6 +373,10 @@
       verification:typeof rawVerification === 'string' ? rawVerification : rawVerification ? JSON.stringify(rawVerification) : '已目视查看静态图片；官方投放身份及效果须以来源记录为准。'};
   }
   async function init() {
+    window.addEventListener('tripo:compare-ad', event => {
+      const index = currentAds.findIndex(item => item.id === event.detail?.id);
+      if (index >= 0) { selectAd(index); jumpToCompare(); }
+    });
     fillSelect('current', currentAds); refreshRightSelection();
     renderCurrentGallery(); renderGuidesGallery(); renderGifs();
     document.querySelectorAll('[data-v9-ad]').forEach(button => button.onclick = () => selectAd(Number(button.dataset.v9Ad)));
