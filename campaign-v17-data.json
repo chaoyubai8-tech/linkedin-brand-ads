@@ -1,0 +1,622 @@
+{
+  "schemaVersion": 1,
+  "title": "V17 · 已确认人群与方向",
+  "updatedAt": "2026-10-08",
+  "intro": "4 套主方向 + 2 套 Teams 再营销；每套含单图、英文图文文案、站内信正文与桌面配图。按用户最新要求暂停对照方向。概念审稿，未投放。",
+  "groups": [
+    {
+      "id": "teams-us",
+      "label": "Teams · 美国游戏",
+      "product": "Teams",
+      "region": "美国",
+      "audience": "游戏团队",
+      "focus": "降本增效 / Workflow"
+    },
+    {
+      "id": "teams-eu",
+      "label": "Teams · 欧洲游戏",
+      "product": "Teams",
+      "region": "欧洲",
+      "audience": "游戏团队",
+      "focus": "商业化 / 具体游戏项目用途"
+    },
+    {
+      "id": "api-us",
+      "label": "API · 美国游戏＋3D资产",
+      "product": "API",
+      "region": "美国",
+      "audience": "游戏与3D资产开发者",
+      "focus": "降本增效 / Workflow"
+    },
+    {
+      "id": "api-eu",
+      "label": "API · 欧洲企业内容",
+      "product": "API",
+      "region": "欧洲",
+      "audience": "企业内容平台团队",
+      "focus": "商业化 / 产品展示用途"
+    }
+  ],
+  "ads": [
+    {
+      "id": "T17-US",
+      "lane": "main",
+      "groupIds": [
+        "teams-us"
+      ],
+      "title": "少追文件，多做游戏。",
+      "status": "review-ready",
+      "artwork": {
+        "src": "assets/v17/T17-US.png",
+        "download": "assets/v17/T17-US.png",
+        "width": 1200,
+        "height": 1200,
+        "alt": "T17-US 少追文件，多做游戏。，GPT概念素材与工作方式示意",
+        "label": "1200 × 1200 PNG · GPT 二维概念素材 · 可审稿，非真实模型或客户案例"
+      },
+      "feed": {
+        "intro": "Keep game assets, shared credits and member access in one place with Tripo Studio Team Plan.",
+        "headline": "Less file chasing. More game-making.",
+        "cta": "Learn more",
+        "description": "",
+        "destinationLabel": "Teams 试用 / 项目需求页面；正式投放前确认表单",
+        "destinationUrl": "https://www.tripo3d.ai/programs/team-program"
+      },
+      "message": {
+        "type": "message",
+        "subject": "A shared workspace for game production",
+        "body": "Game production involves more than making a model.\n\nTripo Studio Team Plan brings a team asset library, shared credits and member controls into one workspace. Keep creation and asset handoffs connected as your project takes shape.\n\nExplore the Team Plan for your studio.",
+        "ctas": [
+          {
+            "label": "Explore Teams",
+            "destination": "https://www.tripo3d.ai/programs/team-program"
+          }
+        ],
+        "banner": {
+          "src": "assets/v17/banners/T17-US.png",
+          "download": "assets/v17/banners/T17-US.png",
+          "alt": "T17-US 站内信桌面配图，AI概念素材"
+        }
+      },
+      "strategy": {
+        "audience": "Teams · 美国游戏",
+        "angle": "降本增效 / Workflow。用 Tripo Studio Team Plan 将游戏资产、共享积分与成员管理集中到同一空间。",
+        "visual": "星仪探索者作为游戏资产主视觉；创建 → 共享库 → 查找复用的工作方式示意。不是产品界面截图。",
+        "test": "这只是本轮已选广告组的测试安排。素材后续按有效线索质量及实际使用表现筛选；点击、CTR、CPC 较好不等于业务转化最好。"
+      },
+      "evidence": {
+        "summary": "功能来源已核对；本稿用概念画面解释用途，不代表真实 Tripo 输出、已实现集成或已获投放批准。",
+        "items": [
+          {
+            "label": "Tripo Team Program",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://www.tripo3d.ai/programs/team-program"
+          },
+          {
+            "label": "Tripo Team Plan Is Now Live",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan"
+          },
+          {
+            "label": "主视觉来源",
+            "status": "illustrative",
+            "detail": "用户已确认的 V16 GPT 二维概念视觉；没有对应本次生成的三维模型。"
+          }
+        ],
+        "limitations": [
+          "未投放、未发送、未配置发送者或表单。",
+          "无工时、费用、收入或业务转化提升承诺。",
+          "站内信须使用兼容目标；不能直接放入 Brand Awareness 目标。",
+          "英语站内信需检查资料语言与账户资格。",
+          "GPT 画面不能作为真实模型输出、拓扑、贴图规格或集成成功证据。"
+        ]
+      },
+      "notes": [
+        "从模型之外的交接问题切入，介绍共享资产库、积分及管理能力，邀请了解团队版。",
+        "美国/欧洲的分工是本轮测试安排，不是地区审美或转化表现的普遍结论。"
+      ],
+      "charCounts": {
+        "feed": {
+          "primaryText": 92,
+          "headline": 36,
+          "onImageHeadline": 36,
+          "cta": 10
+        },
+        "message": {
+          "subject": 38,
+          "body": 270,
+          "cta": 13
+        }
+      }
+    },
+    {
+      "id": "T17-EU",
+      "lane": "main",
+      "groupIds": [
+        "teams-eu"
+      ],
+      "title": "下一款游戏，同一个共享工作区。",
+      "status": "review-ready",
+      "artwork": {
+        "src": "assets/v17/T17-EU.png",
+        "download": "assets/v17/T17-EU.png",
+        "width": 1200,
+        "height": 1200,
+        "alt": "T17-EU 下一款游戏，同一个共享工作区。，GPT概念素材与工作方式示意",
+        "label": "1200 × 1200 PNG · GPT 二维概念素材 · 可审稿，非真实模型或客户案例"
+      },
+      "feed": {
+        "intro": "Keep your game's characters, props and environment assets together in a shared workspace with Tripo Studio Team Plan.",
+        "headline": "Your next game. One shared workspace.",
+        "cta": "Learn more",
+        "description": "",
+        "destinationLabel": "Teams 试用 / 项目需求页面；正式投放前确认表单",
+        "destinationUrl": "https://www.tripo3d.ai/programs/team-program"
+      },
+      "message": {
+        "type": "message",
+        "subject": "Keep your game project's assets together",
+        "body": "A game project needs more than a standout character. It needs props and environments that belong in the same world.\n\nUse Tripo Studio Team Plan to organize the project's 3D assets in a shared library, with access managed for your team.\n\nExplore a workspace for building your next game.",
+        "ctas": [
+          {
+            "label": "Explore Teams",
+            "destination": "https://www.tripo3d.ai/programs/team-program"
+          }
+        ],
+        "banner": {
+          "src": "assets/v17/banners/T17-EU.png",
+          "download": "assets/v17/banners/T17-EU.png",
+          "alt": "T17-EU 站内信桌面配图，AI概念素材"
+        }
+      },
+      "strategy": {
+        "audience": "Teams · 欧洲游戏",
+        "angle": "商业化 / 具体游戏项目用途。让角色、道具与环境资产在 Tripo Studio Team Plan 共享工作区中有序归集。",
+        "visual": "同一幻想游戏项目中的探索者角色和温室天文台环境，置于明确的共享项目示意；不承诺自动构建完整游戏或自动保持风格一致。",
+        "test": "这只是本轮已选广告组的测试安排。素材后续按有效线索质量及实际使用表现筛选；点击、CTR、CPC 较好不等于业务转化最好。"
+      },
+      "evidence": {
+        "summary": "功能来源已核对；本稿用概念画面解释用途，不代表真实 Tripo 输出、已实现集成或已获投放批准。",
+        "items": [
+          {
+            "label": "Tripo Team Program",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://www.tripo3d.ai/programs/team-program"
+          },
+          {
+            "label": "Tripo Team Plan Is Now Live",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan"
+          },
+          {
+            "label": "主视觉来源",
+            "status": "illustrative",
+            "detail": "用户已确认的 V16 GPT 二维概念视觉；没有对应本次生成的三维模型。"
+          }
+        ],
+        "limitations": [
+          "未投放、未发送、未配置发送者或表单。",
+          "无工时、费用、收入或业务转化提升承诺。",
+          "站内信须使用兼容目标；不能直接放入 Brand Awareness 目标。",
+          "EEA / 瑞士只触达主动同意接收 Sponsored Messaging 的会员；英语站内信需匹配英语资料语言。",
+          "GPT 画面不能作为真实模型输出、拓扑、贴图规格或集成成功证据。"
+        ]
+      },
+      "notes": [
+        "沿同一游戏世界解释具体项目用途；协作和组织是已核实功能，美术风格一致性仍由团队判断。",
+        "美国/欧洲的分工是本轮测试安排，不是地区审美或转化表现的普遍结论。"
+      ],
+      "charCounts": {
+        "feed": {
+          "primaryText": 117,
+          "headline": 37,
+          "onImageHeadline": 37,
+          "cta": 10
+        },
+        "message": {
+          "subject": 40,
+          "body": 285,
+          "cta": 13
+        }
+      }
+    },
+    {
+      "id": "A17-US",
+      "lane": "main",
+      "groupIds": [
+        "api-us"
+      ],
+      "title": "3D 生成，接入你的生产管线。",
+      "status": "review-ready",
+      "artwork": {
+        "src": "assets/v17/A17-US.png",
+        "download": "assets/v17/A17-US.png",
+        "width": 1200,
+        "height": 1200,
+        "alt": "A17-US 3D 生成，接入你的生产管线。，GPT概念素材与工作方式示意",
+        "label": "1200 × 1200 PNG · GPT 二维概念素材 · 可审稿，非真实模型或客户案例"
+      },
+      "feed": {
+        "intro": "Submit a reference, track the task and retrieve a model with Tripo API. Review and refine it for your game's asset pipeline.",
+        "headline": "3D generation. Inside your pipeline.",
+        "cta": "Learn more",
+        "description": "",
+        "destinationLabel": "API 文档；正式投放前确认承接页",
+        "destinationUrl": "https://developers.tripo3d.ai/en/docs/introduction"
+      },
+      "message": {
+        "type": "message",
+        "subject": "Add 3D generation to your game tools",
+        "body": "Building a game editor or asset tool?\n\nWith Tripo API, submit a generation task, query its status and retrieve the model after success. Your application handles the next step: review, refinement and integration into the project.\n\nExplore the API documentation.",
+        "ctas": [
+          {
+            "label": "View API docs",
+            "destination": "https://developers.tripo3d.ai/en/docs/introduction"
+          }
+        ],
+        "banner": {
+          "src": "assets/v17/banners/A17-US.png",
+          "download": "assets/v17/banners/A17-US.png",
+          "alt": "A17-US 站内信桌面配图，AI概念素材"
+        }
+      },
+      "strategy": {
+        "audience": "API · 美国游戏＋3D资产",
+        "angle": "降本增效 / Workflow。用 Tripo API 提交参考图、跟踪任务并取回模型，再按游戏资产流程审核和打磨。",
+        "visual": "机械凤凰与 Submit / Track / Retrieve 异步工作流，说明开发者将生成接入工具；成功后仍需审查和精修。",
+        "test": "这只是本轮已选广告组的测试安排。素材后续按有效线索质量及实际使用表现筛选；点击、CTR、CPC 较好不等于业务转化最好。"
+      },
+      "evidence": {
+        "summary": "功能来源已核对；本稿用概念画面解释用途，不代表真实 Tripo 输出、已实现集成或已获投放批准。",
+        "items": [
+          {
+            "label": "Tripo API Introduction",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://developers.tripo3d.ai/en/docs/introduction"
+          },
+          {
+            "label": "Tripo Task Query",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://developers.tripo3d.ai/en/docs/task-query"
+          },
+          {
+            "label": "主视觉来源",
+            "status": "illustrative",
+            "detail": "用户已确认的 V16 GPT 二维概念视觉；没有对应本次生成的三维模型。"
+          }
+        ],
+        "limitations": [
+          "未投放、未发送、未配置发送者或表单。",
+          "无工时、费用、收入或业务转化提升承诺。",
+          "站内信须使用兼容目标；不能直接放入 Brand Awareness 目标。",
+          "英语站内信需检查资料语言与账户资格。",
+          "GPT 画面不能作为真实模型输出、拓扑、贴图规格或集成成功证据。"
+        ]
+      },
+      "notes": [
+        "面向开发工具与技术美术，明确异步成功后取回；后续项目接入不是自动完成。",
+        "美国/欧洲的分工是本轮测试安排，不是地区审美或转化表现的普遍结论。"
+      ],
+      "charCounts": {
+        "feed": {
+          "primaryText": 124,
+          "headline": 36,
+          "onImageHeadline": 36,
+          "cta": 10
+        },
+        "message": {
+          "subject": 36,
+          "body": 260,
+          "cta": 13
+        }
+      }
+    },
+    {
+      "id": "A17-EU",
+      "lane": "main",
+      "groupIds": [
+        "api-eu"
+      ],
+      "title": "用 3D 丰富产品体验。",
+      "status": "review-ready",
+      "artwork": {
+        "src": "assets/v17/A17-EU.png",
+        "download": "assets/v17/A17-EU.png",
+        "width": 1200,
+        "height": 1200,
+        "alt": "A17-EU 用 3D 丰富产品体验。，GPT概念素材与工作方式示意",
+        "label": "1200 × 1200 PNG · GPT 二维概念素材 · 可审稿，非真实模型或客户案例"
+      },
+      "feed": {
+        "intro": "Build image-to-3D generation into product-content tools with Tripo API. Review each model before using it.",
+        "headline": "3D for your product experiences.",
+        "cta": "Learn more",
+        "description": "",
+        "destinationLabel": "API 文档；正式投放前确认承接页",
+        "destinationUrl": "https://developers.tripo3d.ai/en/docs/introduction"
+      },
+      "message": {
+        "type": "message",
+        "subject": "3D generation for product-content tools",
+        "body": "Planning 3D product content?\n\nTripo API lets developers add image-to-3D generation to their tools. Submit a reference, track the task and retrieve a model for review. Your team builds the product visualization or interactive experience around it.\n\nExplore the API documentation.",
+        "ctas": [
+          {
+            "label": "View API docs",
+            "destination": "https://developers.tripo3d.ai/en/docs/introduction"
+          }
+        ],
+        "banner": {
+          "src": "assets/v17/banners/A17-EU.png",
+          "download": "assets/v17/banners/A17-EU.png",
+          "alt": "A17-EU 站内信桌面配图，AI概念素材"
+        }
+      },
+      "strategy": {
+        "audience": "API · 欧洲企业内容",
+        "angle": "商业化 / 产品展示用途。把 Tripo API 图生 3D 能力接入产品内容工具，审核模型后再用于业务。",
+        "visual": "机械凤凰作为原创装饰品，置于产品页展示示意，让业务用途可见。不是实际客户案例，也不是已实现的交互查看器。",
+        "test": "这只是本轮已选广告组的测试安排。素材后续按有效线索质量及实际使用表现筛选；点击、CTR、CPC 较好不等于业务转化最好。"
+      },
+      "evidence": {
+        "summary": "功能来源已核对；本稿用概念画面解释用途，不代表真实 Tripo 输出、已实现集成或已获投放批准。",
+        "items": [
+          {
+            "label": "Tripo API Introduction",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://developers.tripo3d.ai/en/docs/introduction"
+          },
+          {
+            "label": "Tripo Task Query",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://developers.tripo3d.ai/en/docs/task-query"
+          },
+          {
+            "label": "主视觉来源",
+            "status": "illustrative",
+            "detail": "用户已确认的 V16 GPT 二维概念视觉；没有对应本次生成的三维模型。"
+          }
+        ],
+        "limitations": [
+          "未投放、未发送、未配置发送者或表单。",
+          "无工时、费用、收入或业务转化提升承诺。",
+          "站内信须使用兼容目标；不能直接放入 Brand Awareness 目标。",
+          "EEA / 瑞士只触达主动同意接收 Sponsored Messaging 的会员；英语站内信需匹配英语资料语言。",
+          "GPT 画面不能作为真实模型输出、拓扑、贴图规格或集成成功证据。"
+        ]
+      },
+      "notes": [
+        "强调产品展示等业务用途是开发方向，不声称 API 自带展示网站或已为客户落地。",
+        "美国/欧洲的分工是本轮测试安排，不是地区审美或转化表现的普遍结论。"
+      ],
+      "charCounts": {
+        "feed": {
+          "primaryText": 106,
+          "headline": 32,
+          "onImageHeadline": 32,
+          "cta": 10
+        },
+        "message": {
+          "subject": 39,
+          "body": 278,
+          "cta": 13
+        }
+      }
+    },
+    {
+      "id": "R17-US",
+      "lane": "retargeting",
+      "groupIds": [
+        "teams-us"
+      ],
+      "title": "下一次资产交接，也在同一空间。",
+      "status": "needs-evidence",
+      "artwork": {
+        "src": "assets/v17/R17-US.png",
+        "download": "assets/v17/R17-US.png",
+        "width": 1200,
+        "height": 1200,
+"alt": "R17-US 下一次资产交接，也在同一空间。，GPT概念素材与工作方式示意",
+        "label": "1200 × 1200 PNG · GPT 二维概念素材 · 待补原视频、工作区与真实案例证据，不可启用"
+      },
+      "feed": {
+        "intro": "Bring your game team's assets into a shared library. Tripo Studio Team Plan adds shared credits and admin controls.",
+        "headline": "Keep the next asset handoff in one place.",
+        "cta": "Learn more",
+        "description": "",
+        "destinationLabel": "Teams 试用 / 项目需求页面；正式投放前确认表单",
+        "destinationUrl": "https://www.tripo3d.ai/programs/team-program"
+      },
+      "message": {
+        "type": "message",
+        "subject": "A shared home for your next game asset",
+        "body": "Keep the next asset handoff connected to the project.\n\nWith Tripo Studio Team Plan, organize assets in a shared library while admins manage member access and usage.\n\nRequest a team trial and share the asset workflow you want to explore.",
+        "ctas": [
+          {
+            "label": "Request a trial",
+            "destination": "https://www.tripo3d.ai/programs/team-program"
+          }
+        ],
+        "banner": {
+          "src": "assets/v17/banners/R17-US.png",
+          "download": "assets/v17/banners/R17-US.png",
+          "alt": "R17-US 站内信桌面配图，AI概念素材"
+        }
+      },
+      "strategy": {
+        "audience": "Teams · 美国游戏 · 符合条件的视频浏览再营销受众",
+        "angle": "承接原产品与场景，进一步讨论团队方案；引导申请试用或提交需求。",
+        "visual": "暂用探索者做版式草稿；启用前替换为原视频中同款场景资产并配真实团队工作区/案例证据。",
+        "test": "这只是本轮已选广告组的测试安排。素材后续按有效线索质量及实际使用表现筛选；点击、CTR、CPC 较好不等于业务转化最好。"
+      },
+      "evidence": {
+        "summary": "版式和文案已完成；原视频素材映射、真实案例及团队工作区证据未齐，不可直接启用。",
+        "items": [
+          {
+            "label": "Tripo Team Program",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://www.tripo3d.ai/programs/team-program"
+          },
+          {
+            "label": "Tripo Team Plan Is Now Live",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan"
+          },
+          {
+            "label": "LinkedIn Video Matched Audiences",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://www.linkedin.com/help/lms/answer/a427086"
+          },
+          {
+            "label": "主视觉来源",
+            "status": "illustrative",
+            "detail": "用户已确认的 V16 GPT 二维概念视觉；没有对应本次生成的三维模型。"
+          },
+          {
+            "label": "再营销来源与真实案例",
+            "status": "pending",
+            "detail": "需对应来源 ad set、creative/video ID、场景资产版本和 matched audience；同场景真实案例、团队工作区截图与具体方案仍待补齐。"
+          }
+        ],
+        "limitations": [
+          "未投放、未发送、未配置发送者或表单。",
+          "无工时、费用、收入或业务转化提升承诺。",
+          "站内信须使用兼容目标；不能直接放入 Brand Awareness 目标。",
+          "英语站内信需检查资料语言与账户资格。",
+          "GPT 画面不能作为真实模型输出、拓扑、贴图规格或集成成功证据。"
+        ]
+      },
+      "notes": [
+        "延续美国组的交接场景，不写“你刚看过”或“我注意到你”；先验证真实曝光源。",
+        "素材ID未知时不得声称用户看过某个具体场景；中性文案不替代来源核验。"
+      ],
+      "charCounts": {
+        "feed": {
+          "primaryText": 115,
+          "headline": 41,
+          "onImageHeadline": 38,
+          "cta": 10
+        },
+        "message": {
+          "subject": 38,
+          "body": 236,
+          "cta": 15
+        }
+      }
+    },
+    {
+      "id": "R17-EU",
+      "lane": "retargeting",
+      "groupIds": [
+        "teams-eu"
+      ],
+      "title": "同一个游戏世界，共享同一资产库。",
+      "status": "needs-evidence",
+      "artwork": {
+        "src": "assets/v17/R17-EU.png",
+        "download": "assets/v17/R17-EU.png",
+        "width": 1200,
+        "height": 1200,
+"alt": "R17-EU 同一个游戏世界，共享同一资产库。，GPT概念素材与工作方式示意",
+        "label": "1200 × 1200 PNG · GPT 二维概念素材 · 待补原视频、工作区与真实案例证据，不可启用"
+      },
+      "feed": {
+        "intro": "Keep the characters, props and environments for your game project together with Tripo Studio Team Plan.",
+        "headline": "One game world. A shared asset library.",
+        "cta": "Learn more",
+        "description": "",
+        "destinationLabel": "Teams 试用 / 项目需求页面；正式投放前确认表单",
+        "destinationUrl": "https://www.tripo3d.ai/programs/team-program"
+      },
+      "message": {
+        "type": "message",
+        "subject": "A shared library for your game project",
+        "body": "What does your next game project need?\n\nBring character, prop and environment work into a shared asset library with Tripo Studio Team Plan.\n\nTell us about your project, team size and asset requirements so we can discuss a suitable next step.",
+        "ctas": [
+          {
+            "label": "Share your needs",
+            "destination": "https://www.tripo3d.ai/programs/team-program"
+          }
+        ],
+        "banner": {
+          "src": "assets/v17/banners/R17-EU.png",
+          "download": "assets/v17/banners/R17-EU.png",
+          "alt": "R17-EU 站内信桌面配图，AI概念素材"
+        }
+      },
+      "strategy": {
+        "audience": "Teams · 欧洲游戏 · 符合条件的视频浏览再营销受众",
+        "angle": "承接原产品与场景，进一步讨论团队方案；引导申请试用或提交需求。",
+        "visual": "暂用温室天文台做项目方向版式草稿；启用前沿用原视频对应项目和资产，补真实案例及具体方案。",
+        "test": "这只是本轮已选广告组的测试安排。素材后续按有效线索质量及实际使用表现筛选；点击、CTR、CPC 较好不等于业务转化最好。"
+      },
+      "evidence": {
+        "summary": "版式和文案已完成；原视频素材映射、真实案例及团队工作区证据未齐，不可直接启用。",
+        "items": [
+          {
+            "label": "Tripo Team Program",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://www.tripo3d.ai/programs/team-program"
+          },
+          {
+            "label": "Tripo Team Plan Is Now Live",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan"
+          },
+          {
+            "label": "LinkedIn Video Matched Audiences",
+            "status": "confirmed",
+            "detail": "2026-10-08 核对公开官方资料；只支持对应功能承诺。",
+            "url": "https://www.linkedin.com/help/lms/answer/a427086"
+          },
+          {
+            "label": "主视觉来源",
+            "status": "illustrative",
+            "detail": "用户已确认的 V16 GPT 二维概念视觉；没有对应本次生成的三维模型。"
+          },
+          {
+            "label": "再营销来源与真实案例",
+            "status": "pending",
+            "detail": "需对应来源 ad set、creative/video ID、场景资产版本和 matched audience；同场景真实案例、团队工作区截图与具体方案仍待补齐。"
+          }
+        ],
+        "limitations": [
+          "未投放、未发送、未配置发送者或表单。",
+          "无工时、费用、收入或业务转化提升承诺。",
+          "站内信须使用兼容目标；不能直接放入 Brand Awareness 目标。",
+          "EEA / 瑞士只触达主动同意接收 Sponsored Messaging 的会员；英语站内信需匹配英语资料语言。",
+          "GPT 画面不能作为真实模型输出、拓扑、贴图规格或集成成功证据。"
+        ]
+      },
+      "notes": [
+        "延续欧洲组的具体项目用途；不假装对某个人的观看行为有一对一认知。",
+        "素材ID未知时不得声称用户看过某个具体场景；中性文案不替代来源核验。"
+      ],
+      "charCounts": {
+        "feed": {
+          "primaryText": 103,
+          "headline": 39,
+          "onImageHeadline": 37,
+          "cta": 10
+        },
+        "message": {
+          "subject": 38,
+          "body": 241,
+          "cta": 16
+        }
+      }
+    }
+  ]
+}

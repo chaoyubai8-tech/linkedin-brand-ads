@@ -1,0 +1,31 @@
+﻿"ID","Status","Audience","Direction","Feed primary","Feed headline","Feed CTA","Feed URL","Message subject","Message body","Message CTA","Message URL","Main PNG","Desktop banner PNG","Evidence boundary"
+"T17-US","review-ready","Teams · 美国游戏","降本增效 / Workflow","Keep game assets, shared credits and member access in one place with Tripo Studio Team Plan.","Less file chasing. More game-making.","Learn more","https://www.tripo3d.ai/programs/team-program","A shared workspace for game production","Game production involves more than making a model.
+
+Tripo Studio Team Plan brings a team asset library, shared credits and member controls into one workspace. Keep creation and asset handoffs connected as your project takes shape.
+
+Explore the Team Plan for your studio.","Explore Teams","https://www.tripo3d.ai/programs/team-program","assets/v17/T17-US.png","assets/v17/banners/T17-US.png","1200 × 1200 PNG · GPT 二维概念素材 · 可审稿，非真实模型或客户案例"
+"T17-EU","review-ready","Teams · 欧洲游戏","商业化 / 具体游戏项目用途","Keep your game's characters, props and environment assets together in a shared workspace with Tripo Studio Team Plan.","Your next game. One shared workspace.","Learn more","https://www.tripo3d.ai/programs/team-program","Keep your game project's assets together","A game project needs more than a standout character. It needs props and environments that belong in the same world.
+
+Use Tripo Studio Team Plan to organize the project's 3D assets in a shared library, with access managed for your team.
+
+Explore a workspace for building your next game.","Explore Teams","https://www.tripo3d.ai/programs/team-program","assets/v17/T17-EU.png","assets/v17/banners/T17-EU.png","1200 × 1200 PNG · GPT 二维概念素材 · 可审稿，非真实模型或客户案例"
+"A17-US","review-ready","API · 美国游戏＋3D资产","降本增效 / Workflow","Submit a reference, track the task and retrieve a model with Tripo API. Review and refine it for your game's asset pipeline.","3D generation. Inside your pipeline.","Learn more","https://developers.tripo3d.ai/en/docs/introduction","Add 3D generation to your game tools","Building a game editor or asset tool?
+
+With Tripo API, submit a generation task, query its status and retrieve the model after success. Your application handles the next step: review, refinement and integration into the project.
+
+Explore the API documentation.","View API docs","https://developers.tripo3d.ai/en/docs/introduction","assets/v17/A17-US.png","assets/v17/banners/A17-US.png","1200 × 1200 PNG · GPT 二维概念素材 · 可审稿，非真实模型或客户案例"
+"A17-EU","review-ready","API · 欧洲企业内容","商业化 / 产品展示用途","Build image-to-3D generation into product-content tools with Tripo API. Review each model before using it.","3D for your product experiences.","Learn more","https://developers.tripo3d.ai/en/docs/introduction","3D generation for product-content tools","Planning 3D product content?
+
+Tripo API lets developers add image-to-3D generation to their tools. Submit a reference, track the task and retrieve a model for review. Your team builds the product visualization or interactive experience around it.
+
+Explore the API documentation.","View API docs","https://developers.tripo3d.ai/en/docs/introduction","assets/v17/A17-EU.png","assets/v17/banners/A17-EU.png","1200 × 1200 PNG · GPT 二维概念素材 · 可审稿，非真实模型或客户案例"
+"R17-US","needs-evidence","Teams · 美国游戏","降本增效 / Workflow","Bring your game team's assets into a shared library. Tripo Studio Team Plan adds shared credits and admin controls.","Keep the next asset handoff in one place.","Learn more","https://www.tripo3d.ai/programs/team-program","A shared home for your next game asset","Keep the next asset handoff connected to the project.
+
+With Tripo Studio Team Plan, organize assets in a shared library while admins manage member access and usage.
+
+Request a team trial and share the asset workflow you want to explore.","Request a trial","https://www.tripo3d.ai/programs/team-program","assets/v17/R17-US.png","assets/v17/banners/R17-US.png","1200 × 1200 PNG · GPT 二维概念素材 · 待补原视频、工作区与真实案例证据，不可启用"
+"R17-EU","needs-evidence","Teams · 欧洲游戏","商业化 / 具体游戏项目用途","Keep the characters, props and environments for your game project together with Tripo Studio Team Plan.","One game world. A shared asset library.","Learn more","https://www.tripo3d.ai/programs/team-program","A shared library for your game project","What does your next game project need?
+
+Bring character, prop and environment work into a shared asset library with Tripo Studio Team Plan.
+
+Tell us about your project, team size and asset requirements so we can discuss a suitable next step.","Share your needs","https://www.tripo3d.ai/programs/team-program","assets/v17/R17-EU.png","assets/v17/banners/R17-EU.png","1200 × 1200 PNG · GPT 二维概念素材 · 待补原视频、工作区与真实案例证据，不可启用"

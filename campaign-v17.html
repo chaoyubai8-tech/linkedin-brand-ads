@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>V17 活动审稿 · 领英品牌广告</title>
+  <meta name="description" content="按产品、地区与受众审阅 Tripo V17 图文广告与站内信。4 套主方向与 2 套再营销独立查看，仅供审稿，未投放。">
+  <link rel="stylesheet" href="research.css?v=20261008-1">
+  <link rel="stylesheet" href="campaign-v17.css?v=20261008-1">
+</head>
+<body class="campaign-v17-page">
+  <a class="skip" href="#campaign-review">跳到活动审稿</a>
+  <main>
+    <header class="research-header">
+      <div class="research-meta"><a href="index.html">← 返回广告首页</a><span>TRIPO · V17 活动审稿</span></div>
+      <h1 id="campaign-title">V17 · 图文与站内信</h1>
+      <p id="campaign-intro">四组人群，4 套主方向与 2 套再营销分开审阅。每套同时检查视觉、文案和证据。</p>
+    </header>
+    <nav class="research-nav" aria-label="栏目导航">
+      <a href="campaign-v17.html" aria-current="page">V17 活动审稿</a>
+      <a href="index.html#gpt-campaign">单图广告与历史稿</a>
+      <a href="messages.html">历史站内信 · 8</a>
+      <a href="research.html">风格研究</a>
+      <a href="index.html#compare">三列对比</a>
+    </nav>
+    <aside class="campaign-notice" aria-label="使用边界">
+      <p><strong>仅供审稿，未投放、未发送。</strong>「可审稿」不代表投放批准或效果已验证。</p>
+      <div class="campaign-artwork-links"><a href="campaign-v17-copy.csv" download>下载六套文案 CSV</a><a href="assets/v17/v17-delivery.zip" download>图片与可编辑源 ZIP</a><a href="v17-claims.md">承诺与平台核验</a></div>
+      <details><summary>素材证据与发送边界</summary><p class="campaign-fine">AI 概念图、流程示意与真实模型证据分别标注；素材精美不能替代产品能力或投放表现验证。CTA 只展示文案与承接意图，不会打开联系表单或发送站内信。旧 8 条站内信原稿保留在独立历史栏目。</p></details>
+    </aside>
+    <section id="campaign-review" aria-label="V17 活动审稿" aria-busy="true">
+      <div id="campaign-loading" class="campaign-load" role="status">
+        <h2>正在读取活动资料</h2><p>加载后可按方向、人群与素材状态筛选。</p>
+        <div class="campaign-skeleton" aria-hidden="true"></div>
+      </div>
+      <div id="campaign-error" class="campaign-load" role="alert" hidden>
+        <h2>活动资料暂未加载</h2><p id="campaign-error-detail"></p>
+        <button type="button" id="campaign-retry">重新加载</button>
+        <a href="index.html">返回现有广告稿</a>
+      </div>
+      <div id="campaign-app" hidden>
+        <div class="campaign-overview"><h2>选择一套，完整审阅。</h2><p id="campaign-total"></p></div>
+        <div class="campaign-lanes" role="tablist" aria-label="活动类型">
+          <button type="button" role="tab" id="lane-main" data-lane="main" aria-selected="true" aria-controls="campaign-panel" tabindex="0">主方向 <span data-lane-count="main">0</span></button>
+          <button type="button" role="tab" id="lane-retargeting" data-lane="retargeting" aria-selected="false" aria-controls="campaign-panel" tabindex="-1">再营销 <span data-lane-count="retargeting">0</span></button>
+        </div>
+        <div id="campaign-panel" role="tabpanel" aria-labelledby="lane-main">
+          <div class="campaign-lane-summary"><p id="campaign-lane-description"></p><p id="campaign-lane-stats" class="campaign-fine"></p></div>
+          <div class="campaign-toolbar">
+            <label>产品 · 地区 · 人群<select id="campaign-group"><option value="all">全部人群</option></select></label>
+            <label>素材状态<select id="campaign-status"><option value="all">全部状态</option><option value="review-ready">可审稿</option><option value="needs-evidence">待补证据</option><option value="planned">规划中</option></select></label>
+            <button type="button" id="campaign-reset">清除筛选</button>
+          </div>
+          <p id="campaign-results" class="campaign-fine" aria-live="polite" aria-atomic="true"></p>
+          <div id="campaign-empty" class="campaign-load" hidden><h3>当前筛选下没有方案</h3><p>清除筛选，或切换上方活动类型查看其他方案。</p><button type="button" id="campaign-empty-reset">查看此方向全部方案</button></div>
+          <div id="campaign-workspace" class="campaign-workspace">
+            <aside class="campaign-picker" aria-label="选择广告方案"><ul id="campaign-ad-list"></ul></aside>
+            <article id="campaign-detail" class="campaign-detail" aria-labelledby="selected-title"></article>
+          </div>
+        </div>
+      </div>
+      <noscript><p>交互审稿需要 JavaScript。你仍可<a href="campaign-v17-data.json">打开完整 V17 文案数据</a>，或<a href="messages.html">查看历史站内信入口</a>。</p></noscript>
+    </section>
+    <p id="campaign-copy-result" class="campaign-copy-result" role="status" aria-live="polite" aria-atomic="true"></p>
+    <footer class="research-footer"><p id="campaign-version">V17 · 审稿工作台。本站不发送广告、站内信或联系表单，没有投放跟踪代码。</p><a href="messages.html">历史站内信 · 8 →</a></footer>
+  </main>
+  <script src="campaign-v17.js?v=20261008-1" defer></script>
+</body>
+</html>

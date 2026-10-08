@@ -213,7 +213,7 @@
     renderGuide();
   }
   function updateCounts() {
-    $('catalog-summary').textContent = `4 张 V15 中台素材新稿 · Teams AI主视觉 / API既有真实白模 · 8 条站内信 · 保留 V14 至 V9 历史 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例 · 风格研究独立栏目`;
+    $('catalog-summary').textContent = `V17：4 套主广告 + 2 套再营销草稿 · 每套含单图与站内信 · 保留历史稿和 8 条站内信 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例 · 风格研究独立栏目`;
     const countText = `筛选显示 ${filteredCases.length} / ${staticCases.length} 条已目视案例`;
     $('case-filter-count').textContent = countText;
     $('case-gallery-count').textContent = countText;
