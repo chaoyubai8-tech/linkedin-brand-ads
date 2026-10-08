@@ -1,0 +1,548 @@
+{
+  "title": "七个维度，把判断放回图片里。",
+  "updatedAt": "2026-10-08",
+  "intro": "左边是本次实际看过的 AI / 3D 专业产品 LinkedIn 静态视觉，右边是用户提供的历史素材。逐项看具体画面怎么吸引、怎么讲清楚，不将所有 LinkedIn 广告归为同一种审美，也不从设计推断投放效果。",
+  "evidenceNote": "Autodesk / Runway 为二级付费广告归档，官方广告详情本轮未核验；Adobe / Unity 为官方自然帖，未验证付费。右侧 8K、版本、速度、试用、拓扑与打印等文字仅属于历史素材，不能直接继承为当前产品承诺。",
+  "layoutNote": "对照均显示整图，不用裁切掩盖原始信息密度。点击图片可看原图；不同尺寸不等于不同质量。两张用户 JPEG 是资产展示，不是完整广告。",
+  "dimensions": [
+    {
+      "id": "attention",
+      "title": "第一眼吸引点",
+      "left": {
+        "summary": "Adobe：角色个性与一句主张同时建立焦点。",
+        "caseId": "adobe-substance-painter-12",
+        "observations": [
+          "右侧约三分之二是红发废土角色：单侧黑色机械臂，对侧缠绕布条并戴棕色手套，让剪影不对称；不是靠全身细碎金属花纹识别。",
+          "左上大粗白字与灰背景形成第一文字层；标题没有盖住面部，左侧竖向长工具与持握手臂连接两个区域。",
+          "角色的布、皮、金属分别可辨，身份与材料共同吸引注意；这是一张官方自然帖，不能据此外推点击率。"
+        ]
+      },
+      "right": {
+        "summary": "自有冒险角色：大主体、表情和受光先抓眼。",
+        "caseId": "own-10",
+        "observations": [
+          "右侧全身粉发角色占主画面，抱臂姿态、紫色披风与皮带装备组成清楚的大轮廓；头脸没有被字遮住。",
+          "上方暖光落到头发和肩部，暗森林退后；地面接触阴影让角色有落脚点，而非悬浮贴纸。",
+          "左侧大号 Tripo / H3.1 抢眼，但主要在讲版本；下一稿需要把这块注意力换成团队或开发者的具体利益。"
+        ]
+      },
+      "relatedCaseIds": [
+        "own-01",
+        "own-08"
+      ],
+      "takeaway": "保留角色主导与清楚塑形光，先设定职业/用途和一个主要识别器；标题改为一项工作利益，不直接复制某个参考人物。"
+    },
+    {
+      "id": "hierarchy",
+      "title": "信息结构",
+      "left": {
+        "summary": "Autodesk：标题、说明、CTA 与行业场景分区。",
+        "caseId": "autodesk-1474713154",
+        "observations": [
+          "左半黑色面板从上到下依次放 logo、黄色两行标题、白色说明和底部黄色 Learn More；阅读顺序靠对齐与间距建立。",
+          "右半建筑与起重机只承担行业场景，不再插多层参数或重复标语。",
+          "文字与主体有明确边界，复杂建筑细节不会成为正文背景；这是一种具体排版选择，不是所有 LinkedIn 广告的统一规范。"
+        ]
+      },
+      "right": {
+        "summary": "自有浮岛：处理关系比功能清单更直观。",
+        "caseId": "own-05",
+        "observations": [
+          "左上白模、右上三个材质球、右下彩色浮岛用两段黄色弧箭头串联，视线能找到“对象—材质—呈现”的顺序。",
+          "完整彩色城堡是最大的结果图；暖窗、藤蔓和石块层次比只写“高质量”更具体。",
+          "左下仍叠加主标题、8K 横条和 CTA；三段图也未证明真实处理链，下一稿需减少重复宣称并明确示意或实际来源。"
+        ]
+      },
+      "relatedCaseIds": [
+        "own-02",
+        "own-03",
+        "own-06"
+      ],
+      "takeaway": "借左侧的清晰层级，借右侧的可视关系；一张只保留一种主要叙事。Teams 讲分散到共享，API 讲提交到取回，不能混成同一流程。"
+    },
+    {
+      "id": "typography",
+      "title": "字体",
+      "left": {
+        "summary": "Unity：用字重、行数与对比建立强标题。",
+        "caseId": "unity-industry-webinar",
+        "observations": [
+          "中央到下半部是三行大写白字 LEARN HOW TO / BUILD AND SCALE / INDUSTRY APPS；整块文字成为稳定的矩形阅读区。",
+          "→ WEBINAR 和左下 logo 明显退到次层，没有再用第二套立体大字与主标题竞争。",
+          "可观察的是粗无衬线外观、行距与层级，未核实该图的具体字体文件；不能把它当作 Tripo 字体规范。"
+        ]
+      },
+      "right": {
+        "summary": "自有斗牛犬：重点突出，但文字样式同时争抢。",
+        "caseId": "own-01",
+        "observations": [
+          "顶部黄色窄粗字、黑色 Modèles 3D 黄底块、右上 en Un Clic 分成多个强调位置；“3D”确实容易被看到。",
+          "底部另有 AR 黄条与金属斜体 P1.0 徽标，阴影、描边、斜体又增加一层视觉口音。",
+          "借鉴关键词高反差，不照搬多套字形和版本徽章；图中“一键”、AR 与版本表述均为历史素材信息。"
+        ]
+      },
+      "relatedCaseIds": [
+        "own-04",
+        "own-09"
+      ],
+      "takeaway": "Tripo 仍用 Instrument Sans；通过大小、粗细和少量品牌黄区别主次。标题要大，不等于标题、参数、版本、优惠都要一样响。"
+    },
+    {
+      "id": "color",
+      "title": "配色与背景",
+      "left": {
+        "summary": "Runway：鲜明浅色背景也能承载专业产品表达。",
+        "caseId": "runway-1150183744",
+        "observations": [
+          "薄荷色背景与棕色玻璃瓶形成冷暖差，浅色水磨石台座分开前后；它并不是黑白极简。",
+          "黑色提示条给白色动作句稳定的高对比区，蓝紫色箭头只做小面积强调。",
+          "瓶身、液体、标签、橙子和木棒保留各自颜色与表面反射，背景简洁没有让所有材质变灰。"
+        ]
+      },
+      "right": {
+        "summary": "自有女王：材质色彩丰富，但装饰色占用了注意力。",
+        "caseId": "own-09",
+        "observations": [
+          "酒红丝绒、金色刺绣、白色领口与珠宝各有色彩身份；深背景使脸部和服装受光面清楚。",
+          "紫色斜线、外框、8K 字、圆形特写边框与 CTA 同时强调，底部又出现黄色徽章。",
+          "可保留衣料与金属的层次；需要压低非功能性的紫光装饰，而不是把人物整体去色。"
+        ]
+      },
+      "relatedCaseIds": [
+        "own-04",
+        "own-11",
+        "own-13"
+      ],
+      "takeaway": "品牌黄承担品牌和重点，背景随资产选择。少装饰不等于少材质、少色彩；不把米白或黑底当作 LinkedIn 的硬规则。"
+    },
+    {
+      "id": "model",
+      "title": "模型呈现",
+      "left": {
+        "summary": "Adobe：设计身份、大形与材料都要有主次。",
+        "caseId": "adobe-substance-painter-12",
+        "observations": [
+          "单侧黑色机械臂与对侧缠布手臂形成非对称识别点；布料、皮件和金属建立不同层次，没有让全身都等密度。",
+          "非对称装备和长功能道具让角色有工作/世界观暗示；辨识不只是脸好看或装甲更复杂。",
+          "简灰背景让轮廓、破旧材质与形体关系可读；这只是视觉参考，不是可以挪用的商用角色。"
+        ]
+      },
+      "right": {
+        "summary": "自有胸像：脸、发辫与披肩细节被真正放大。",
+        "caseId": "own-08",
+        "observations": [
+          "左上彩色胸像与右下较大的白模胸像呈对角关系，面部、蓝发辫、皮毛披肩、绳结及剑柄占据可检查面积。",
+          "彩色图帮助区分皮肤、毛发、布料和皮革；白模有助于看鼻梁、发束和披肩体积，不是所有用途都应只留白模。",
+          "灰底无广告标题、品牌或 CTA，更像资产展示；它不能证明完整身体、背面、绑定或实际处理前后。"
+        ]
+      },
+      "relatedCaseIds": [
+        "own-07",
+        "own-10",
+        "own-12"
+      ],
+      "takeaway": "先选一个有职业、玩法或故事的原创主体，再决定全身、半身或局部。把精细度放在脸、手、工具等重要区域，不用花纹数量代替设计质量。"
+    },
+    {
+      "id": "proof",
+      "title": "效果证明",
+      "left": {
+        "summary": "Runway：一句动作让能力可想象，但不等于实测前后。",
+        "caseId": "runway-1150183744",
+        "observations": [
+          "黑色输入条明确写 Change the lighting of this shot.，观众知道它在说哪一个动作。",
+          "画面同时给出材质丰富的对象，动作句与对象有关系，不是孤立功能名。",
+          "只有一个静态场景，未展示受控的前后对照；不能从此图验证实际编辑、速度或质量提升。"
+        ]
+      },
+      "right": {
+        "summary": "自有机器人：状态差一眼可见，产品事实仍需原始证据。",
+        "caseId": "own-02",
+        "observations": [
+          "左侧白模与右侧紫头、蓝躯干、红绿双臂、黄腿相近姿态并列，不用读小字也能看出部件分区。",
+          "深色视口将两个模型包在同一区域；顶部大字和下部 Segmentation V2 文案解释了想传达的功能。",
+          "分色不是已拆出独立闭合网格的证明，界面也未验证为真实当前操作；“几分钟到实物”不能直接复制。"
+        ]
+      },
+      "relatedCaseIds": [
+        "own-03",
+        "own-06",
+        "own-07",
+        "own-12",
+        "own-13"
+      ],
+      "takeaway": "画面先讲清一项可观察变化，再说明证据边界：真输入输出要同源，线框要真实网格，细节窗不证明 8K。GPT 美术一律是概念视觉，不叫 Tripo 实测输出。"
+    },
+    {
+      "id": "motion",
+      "title": "静态动势",
+      "left": {
+        "summary": "Autodesk：透视与斜置物件能形成方向，不一定需要箭头。",
+        "caseId": "autodesk-1476401124",
+        "observations": [
+          "书册在深木桌面上斜置，边缘、投影与左侧笔把视线带向封面，而不是依靠发光轨道。",
+          "封面工业装置有黄色框架与红蓝零件，构造关系制造前后层次。",
+          "这张的倾斜标题和小字号不适合作为手机大字模板；借其物体方向，不照搬整套版式。"
+        ]
+      },
+      "right": {
+        "summary": "自有机械龙：翼展、尾部与局部窗组织静态方向。",
+        "caseId": "own-11",
+        "observations": [
+          "左侧机械龙张翼形成由左下到右上的大斜线，尾巴向右弯出；主体即使不动也有张力。",
+          "右上圆形局部窗把注意力拉到翼部关节和金属层叠，右下 CTA 承接阅读末端。",
+          "静态画面不证明关节可运动、模型可绑定或真的发生动画；细密齿轮仍需手机尺寸检查。"
+        ]
+      },
+      "relatedCaseIds": [
+        "own-01",
+        "own-05",
+        "own-06"
+      ],
+      "takeaway": "让姿态、裁切、大小关系和一处有指向的细节窗建立动势。不要靠多箭头、光环或模糊线暗示不存在的旋转、AR 或生成过程。"
+    }
+  ],
+  "fusionPrinciples": [
+    {
+      "title": "大字要讲利益，主角要有身份。",
+      "caseIds": [
+        "adobe-substance-painter-12",
+        "unity-industry-webinar",
+        "own-10"
+      ],
+      "currentCaseIds": [
+        "v11-t01"
+      ],
+      "gap": "T11-01 的标题与 Teams 名称清楚，但中部人物仍是较通用的正面科幻装甲形象；资产卡和人物的关系更多靠标签。",
+      "action": "先重新定义角色职业、用途和独特大轮廓，再给同项目资产建立共享语义。保留大字，不靠换更繁复盔甲解决普通感。"
+    },
+    {
+      "title": "保留材质，不把高级感做成灰。",
+      "caseIds": [
+        "runway-1150183744",
+        "own-08",
+        "own-11"
+      ],
+      "currentCaseIds": [
+        "v11-a01",
+        "v11-t01"
+      ],
+      "gap": "V11 已有真实 PBR 与打光，优于纯灰陈列；但人物和设备都集中在白灰黑加少量黄，材质差异与角色性格仍偏克制。",
+      "action": "下一轮概念美术可让布、皮、金属和功能光有区分，背景退后、品牌黄保持重点。真实输出如需改进应重做资产或渲染，不能重画后冒充原输出。"
+    },
+    {
+      "title": "一张只组织一种产品关系。",
+      "caseIds": [
+        "autodesk-1474713154",
+        "own-05",
+        "own-02"
+      ],
+      "currentCaseIds": [
+        "v11-t02",
+        "v11-a01"
+      ],
+      "gap": "T11-02 已区分分散文件与共享，但右侧仍接近两个物件陈列；A11-01 API 接入关系较清楚，不宜再叠复杂画框或第二套流程。",
+      "action": "Teams 用同项目资产如何被一起使用/管理讲清共享；API 保留“工具—接口—结果”的单一关系。概念关系继续明确标示，不造官方 UI。"
+    },
+    {
+      "title": "把视觉差异和事实证明分开。",
+      "caseIds": [
+        "runway-1150183744",
+        "own-02",
+        "own-12"
+      ],
+      "currentCaseIds": [
+        "v11-a02"
+      ],
+      "gap": "A11-02 已把真实原始输入、同网格主视角及侧视归入正确区域；视觉张力可以提升，但证据关系不能被新的概念图替换。",
+      "action": "保留 V11 作为真实流程证据。新的 GPT 美术只标概念主视觉；8K、速度、拆分、拓扑或打印能力另取可核验记录，不从漂亮图片推导。"
+    },
+    {
+      "title": "用大小和方向增强画面，不牺牲移动可读性。",
+      "caseIds": [
+        "unity-industry-webinar",
+        "autodesk-1476401124",
+        "own-11"
+      ],
+      "currentCaseIds": [
+        "v11-t02",
+        "v11-a02"
+      ],
+      "gap": "T11-02 多个完整物件使角色在手机里变小；A11-02 的补充侧视虽有证据价值，但很难承担第一眼的视觉吸引。",
+      "action": "让主角或关键工具占明显优势，把小图降为辅助证据；可用自然姿态、非对称裁切和一处放大窗形成方向。360px 检查标题、主体、产品关系与 CTA，不增加无意义动效。"
+    }
+  ],
+  "cases": [
+    {
+      "id": "autodesk-1474713154",
+      "title": "Design Better. Build Smarter.",
+      "image": "assets/linkedin-autodesk-1474713154.jpg",
+      "sourceUrl": "https://www.foresightiq.co/ad-library/autodesk",
+      "originalImageUrl": "https://media.licdn.com/dms/image/v2/D4E10AQHzJJHfCEZ9gw/image-shrink_1280/B4EZ.VDdEHHAAc-/0/1784912138785/FY27_AEC_BIMopt2jpg?e=2147483647&v=beta&t=U6o9edjwejUH9RBEVh7B2R5OAjHoZzpd-GngWCb9BAE",
+      "officialAdUrl": "https://www.linkedin.com/ad-library/detail/1474713154",
+      "evidenceLabel": "LinkedIn 单图二级归档 · 官方详情本轮未核验",
+      "rightsNote": "原作者/品牌版权保留，仅作本页研究对照；公开可见不代表可用于我们的广告。",
+      "alt": "Design Better. Build Smarter.",
+      "kind": "secondary_archived_linkedin_single_image",
+      "visualVerification": "personally_viewed",
+      "caveat": "适合学习 B2B 排版与对象相关性，不是游戏角色美术的质量样板。"
+    },
+    {
+      "id": "autodesk-1476401124",
+      "title": "Why engineers design with parametric 3D",
+      "image": "assets/linkedin-autodesk-1476401124.jpg",
+      "sourceUrl": "https://www.foresightiq.co/ad-library/autodesk",
+      "originalImageUrl": "https://media.licdn.com/dms/image/v2/D4E10AQG1l1NjLIeFoA/image-shrink_1280/B4EZ.h3J6KH8Ac-/0/1785127018476/FY27Q2_DM_TT_LeadGen_Ad1?e=2147483647&v=beta&t=Vm3HeEiiiSr7pRimLq6F0ekn_q8V2xwbv5QTyTulJOY",
+      "officialAdUrl": "https://www.linkedin.com/ad-library/detail/1476401124",
+      "evidenceLabel": "LinkedIn 单图二级归档 · 官方详情本轮未核验",
+      "rightsNote": "原作者/品牌版权保留，仅作本页研究对照；公开可见不代表可用于我们的广告。",
+      "alt": "Why engineers design with parametric 3D",
+      "kind": "secondary_archived_linkedin_single_image",
+      "visualVerification": "personally_viewed",
+      "caveat": "这一例的对象完成度值得研究；版式本身不宜作为移动端 LinkedIn 大字模板。"
+    },
+    {
+      "id": "runway-1150183744",
+      "title": "Change the lighting of this shot.",
+      "image": "assets/linkedin-runway-1150183744.jpg",
+      "sourceUrl": "https://www.foresightiq.co/ad-library/runway",
+      "originalImageUrl": "https://media.licdn.com/dms/image/v2/D4E10AQGKPefVHCLuXg/image-shrink_1280/B4EZyStQOCGcAc-/0/1771987862888/ABTest?e=2147483647&v=beta&t=Nb33kk0Znl4jqSw-cWT3CVeG5igXhv7flgM7yS9JzW8",
+      "officialAdUrl": "https://www.linkedin.com/ad-library/detail/1150183744",
+      "evidenceLabel": "LinkedIn 单图二级归档 · 官方详情本轮未核验",
+      "rightsNote": "原作者/品牌版权保留，仅作本页研究对照；公开可见不代表可用于我们的广告。",
+      "alt": "Change the lighting of this shot.",
+      "kind": "secondary_archived_linkedin_single_image",
+      "visualVerification": "personally_viewed",
+      "caveat": "图中是编辑意图的概念表达；单张图并未让本轮核验到真实输入/输出或质量提升。"
+    },
+    {
+      "id": "unity-industry-webinar",
+      "title": "Learn how to build and scale industry apps",
+      "image": "assets/style-evidence/unity-industry-linkedin.jpg",
+      "sourceUrl": "https://www.linkedin.com/posts/unity_webinar-introduction-to-unity-industry-activity-7093302509976358912-x8Dt",
+      "originalImageUrl": "https://media.licdn.com/dms/image/v2/D5610AQEy5_sI25s4rg/image-shrink_1280/image-shrink_1280/0/1691175082596/dtwb7-02jpg?e=2147483647&t=hKcdamRRYk_QxIFFkPRRwth5tJnFKYlPQtvRNV3M_so&v=beta",
+      "officialAdUrl": null,
+      "evidenceLabel": "官方 LinkedIn 自然帖 · 未核验付费",
+      "rightsNote": "原作者/品牌版权保留，仅作本页研究对照；公开可见不代表可用于我们的广告。",
+      "alt": "Unity 黑灰机械形体与三行大写白字",
+      "kind": "official_linkedin_organic_static",
+      "visualVerification": "verified_by_parent_agent",
+      "caveat": "官方自然帖视觉，不是已核验付费广告或成效案例；字体与具体形体只能作为层级研究，不能直接搬用。"
+    },
+    {
+      "id": "adobe-substance-painter-12",
+      "title": "Substance 3D Painter 12.0 announcement",
+      "image": "assets/style-evidence/adobe-painter12-linkedin.jpg",
+      "sourceUrl": "https://www.linkedin.com/posts/substance3d_were-excited-to-share-that-substance-3d-activity-7436825635529842688-Yqoz",
+      "originalImageUrl": "https://media.licdn.com/dms/image/v2/D4E22AQHQk1a_0aMKkw/feedshare-image-high-res/B4EZzTRAI_H0AU-/0/1773070975997?e=2147483647&v=beta&t=vqazSRpnLwv-YOT8sbTjqCHHwF97ej_aGazTCLt-ZVw",
+      "officialAdUrl": null,
+      "evidenceLabel": "官方 LinkedIn 自然帖 · 未核验付费",
+      "rightsNote": "原作者/品牌版权保留，仅作本页研究对照；公开可见不代表可用于我们的广告。",
+      "alt": "Adobe Substance 灰背景红发废土角色与左上白色大标题",
+      "kind": "official_linkedin_organic_static",
+      "visualVerification": "verified_by_parent_agent",
+      "caveat": "官方自然帖，不是已核验付费投放。角色质量与构图可以研究，但不构成 Tripo 生成结果或性能证据。"
+    },
+    {
+      "id": "own-01",
+      "title": "法式斗牛犬角色与 AR 情境",
+      "image": "assets/user-cases/yxc90un09dah1.png",
+      "sourceUrl": "assets/user-cases/yxc90un09dah1.png",
+      "evidenceLabel": "用户自有历史案例 · 渠道与效果未核验",
+      "rightsNote": "用户提供，仅作对照。图中历史版本、8K、速度、试用或其他能力文字不构成本轮已核验的产品承诺。",
+      "alt": "法式斗牛犬角色与 AR 情境",
+      "kind": "user_historical_reference",
+      "visualVerification": "personally_viewed_2026-10-08",
+      "caveat": "环绕光效不能证明存在真实可旋转模型或已实现 AR；P1.0 与法语“一键”属于图中历史文案，当前适用性待核验。不能从图判断网格、生成耗时或投放渠道及效果。"
+    },
+    {
+      "id": "own-02",
+      "title": "机器人白模与彩色部件区分",
+      "image": "assets/user-cases/yj03ydn09dah1.png",
+      "sourceUrl": "assets/user-cases/yj03ydn09dah1.png",
+      "evidenceLabel": "用户自有历史案例 · 渠道与效果未核验",
+      "rightsNote": "用户提供，仅作对照。图中历史版本、8K、速度、试用或其他能力文字不构成本轮已核验的产品承诺。",
+      "alt": "机器人白模与彩色部件区分",
+      "kind": "user_historical_reference",
+      "visualVerification": "personally_viewed_2026-10-08",
+      "caveat": "分色不等于已成功拆出可打印的独立实体，界面外观也不能单独证明实际产品操作；Segmentation V2 与“几分钟到实物”等法语历史功能/速度主张待核验。图片无法验证模型、闭合性、打印结果或投放表现。"
+    },
+    {
+      "id": "own-03",
+      "title": "女巫角色白模与彩色部件区分",
+      "image": "assets/user-cases/yi1gt1n09dah1.png",
+      "sourceUrl": "assets/user-cases/yi1gt1n09dah1.png",
+      "evidenceLabel": "用户自有历史案例 · 渠道与效果未核验",
+      "rightsNote": "用户提供，仅作对照。图中历史版本、8K、速度、试用或其他能力文字不构成本轮已核验的产品承诺。",
+      "alt": "女巫角色白模与彩色部件区分",
+      "kind": "user_historical_reference",
+      "visualVerification": "personally_viewed_2026-10-08",
+      "caveat": "彩色区域并不证明网格已拆分、可装配或可打印；画面中的界面与法语 Segmentation V2、短时完成主张均需独立核验。不能据此判断真实模型、处理耗时或投放渠道效果。"
+    },
+    {
+      "id": "own-04",
+      "title": "长辫女王的珠宝与织物细节放大",
+      "image": "assets/user-cases/5hrv6fn09dah1.png",
+      "sourceUrl": "assets/user-cases/5hrv6fn09dah1.png",
+      "evidenceLabel": "用户自有历史案例 · 渠道与效果未核验",
+      "rightsNote": "用户提供，仅作对照。图中历史版本、8K、速度、试用或其他能力文字不构成本轮已核验的产品承诺。",
+      "alt": "长辫女王的珠宝与织物细节放大",
+      "kind": "user_historical_reference",
+      "visualVerification": "personally_viewed_2026-10-08",
+      "caveat": "静态人物图无法确认是真实模型渲染还是其他图像；“真正 8K”“少于两分钟”“免费试用”等法语历史参数/权益待核验。放大窗不证明贴图分辨率或拓扑质量；多层标题、边框和光带不宜全搬到简约移动广告，渠道表现未知。"
+    },
+    {
+      "id": "own-05",
+      "title": "浮岛城堡的白模、材质球与成品关系",
+      "image": "assets/user-cases/p0ej77n09dah1.png",
+      "sourceUrl": "assets/user-cases/p0ej77n09dah1.png",
+      "evidenceLabel": "用户自有历史案例 · 渠道与效果未核验",
+      "rightsNote": "用户提供，仅作对照。图中历史版本、8K、速度、试用或其他能力文字不构成本轮已核验的产品承诺。",
+      "alt": "浮岛城堡的白模、材质球与成品关系",
+      "kind": "user_historical_reference",
+      "visualVerification": "personally_viewed_2026-10-08",
+      "caveat": "不能只凭三段图确认是同一网格的真实处理链，也不能确认材质球实际用于该结果；8K 与免费试用为待核验历史文案。图片不验证模型来源、贴图尺寸、处理速度、游戏可用性或渠道效果。"
+    },
+    {
+      "id": "own-06",
+      "title": "街角建筑整体与栏杆立面细节",
+      "image": "assets/user-cases/uxqbz8n09dah1.png",
+      "sourceUrl": "assets/user-cases/uxqbz8n09dah1.png",
+      "evidenceLabel": "用户自有历史案例 · 渠道与效果未核验",
+      "rightsNote": "用户提供，仅作对照。图中历史版本、8K、速度、试用或其他能力文字不构成本轮已核验的产品承诺。",
+      "alt": "街角建筑整体与栏杆立面细节",
+      "kind": "user_historical_reference",
+      "visualVerification": "personally_viewed_2026-10-08",
+      "caveat": "小图到大图的箭头可能只是放大呈现，不能当作质量升级的实测前后；8K、少于两分钟及免费试用均为待核验历史法语主张。无法从图确认真实网格、可用拓扑、贴图分辨率或投放表现；装饰和文本较密。"
+    },
+    {
+      "id": "own-07",
+      "title": "绿皮怪物的贴图形象与线框展示",
+      "image": "assets/user-cases/abkvk1opraqh1.jpeg",
+      "sourceUrl": "assets/user-cases/abkvk1opraqh1.jpeg",
+      "evidenceLabel": "用户自有参考 · 资产展示，非完整广告",
+      "rightsNote": "用户提供，仅作对照。图中历史版本、8K、速度、试用或其他能力文字不构成本轮已核验的产品承诺。",
+      "alt": "绿皮怪物的贴图形象与线框展示",
+      "kind": "user_historical_reference",
+      "visualVerification": "personally_viewed_2026-10-08",
+      "caveat": "这张 JPEG 未见完整广告标题、品牌和 CTA，更像资产展示，不能与完整广告按同一信息任务评价。静态线框不能证明网格真实性、面数、减面过程或游戏可用性；需模型文件核对，也无法推断速度与投放渠道效果。"
+    },
+    {
+      "id": "own-08",
+      "title": "蓝发兽耳角色的贴图与白模胸像",
+      "image": "assets/user-cases/y1yuexnpraqh1.jpeg",
+      "sourceUrl": "assets/user-cases/y1yuexnpraqh1.jpeg",
+      "evidenceLabel": "用户自有参考 · 资产展示，非完整广告",
+      "rightsNote": "用户提供，仅作对照。图中历史版本、8K、速度、试用或其他能力文字不构成本轮已核验的产品承诺。",
+      "alt": "蓝发兽耳角色的贴图与白模胸像",
+      "kind": "user_historical_reference",
+      "visualVerification": "personally_viewed_2026-10-08",
+      "caveat": "这张 JPEG 更像资产展示而非完整广告，未见广告主张、品牌或 CTA。不能确认两幅是同一模型的实际两个状态，也不能把姿态/视角差异当作处理提升；胸像不能证明完整身体、背面、拓扑、绑定或投放效果。"
+    },
+    {
+      "id": "own-09",
+      "title": "高领女王的王冠与刺绣细节放大",
+      "image": "assets/user-cases/9kn52dn09dah1.png",
+      "sourceUrl": "assets/user-cases/9kn52dn09dah1.png",
+      "evidenceLabel": "用户自有历史案例 · 渠道与效果未核验",
+      "rightsNote": "用户提供，仅作对照。图中历史版本、8K、速度、试用或其他能力文字不构成本轮已核验的产品承诺。",
+      "alt": "高领女王的王冠与刺绣细节放大",
+      "kind": "user_historical_reference",
+      "visualVerification": "personally_viewed_2026-10-08",
+      "caveat": "画面不能确认人物是真实 Tripo 模型输出，局部放大也不证明实际 8K；法语中的分辨率、少于两分钟、免费试用为历史主张，当前适用性待核验。文本层级和装饰较多，不宜直接继承为移动端简约母版；无渠道表现证据。"
+    },
+    {
+      "id": "own-10",
+      "title": "粉发冒险角色的场景化英雄展示",
+      "image": "assets/user-cases/ho0cp6xgd5dh1.png",
+      "sourceUrl": "assets/user-cases/ho0cp6xgd5dh1.png",
+      "evidenceLabel": "用户自有历史案例 · 渠道与效果未核验",
+      "rightsNote": "用户提供，仅作对照。图中历史版本、8K、速度、试用或其他能力文字不构成本轮已核验的产品承诺。",
+      "alt": "粉发冒险角色的场景化英雄展示",
+      "kind": "user_historical_reference",
+      "visualVerification": "personally_viewed_2026-10-08",
+      "caveat": "场景化画面不能证明角色已进入游戏或来自可用三维网格；H3.1 与“最高 2M 多边形”属于图中历史版本/参数，需独立核验。单视角不能检查背面、拓扑或绑定，图片也不证明生成速度及投放效果。"
+    },
+    {
+      "id": "own-11",
+      "title": "机械巨龙的金属材质与翼部特写",
+      "image": "assets/user-cases/fn5jodn09dah1.png",
+      "sourceUrl": "assets/user-cases/fn5jodn09dah1.png",
+      "evidenceLabel": "用户自有历史案例 · 渠道与效果未核验",
+      "rightsNote": "用户提供，仅作对照。图中历史版本、8K、速度、试用或其他能力文字不构成本轮已核验的产品承诺。",
+      "alt": "机械巨龙的金属材质与翼部特写",
+      "kind": "user_historical_reference",
+      "visualVerification": "personally_viewed_2026-10-08",
+      "caveat": "可见的机械细节不能证明其网格结构合理或可运动，放大窗也不验证 8K 贴图；法语 8K/免费试用为待核验历史主张。整图无法确认真实模型、拓扑、生成耗时或渠道表现，细碎零件在移动端仍需检查。"
+    },
+    {
+      "id": "own-12",
+      "title": "宝石王冠的白模与贴图版本对照",
+      "image": "assets/user-cases/9xqvsbxgd5dh1.png",
+      "sourceUrl": "assets/user-cases/9xqvsbxgd5dh1.png",
+      "evidenceLabel": "用户自有历史案例 · 渠道与效果未核验",
+      "rightsNote": "用户提供，仅作对照。图中历史版本、8K、速度、试用或其他能力文字不构成本轮已核验的产品承诺。",
+      "alt": "宝石王冠的白模与贴图版本对照",
+      "kind": "user_historical_reference",
+      "visualVerification": "personally_viewed_2026-10-08",
+      "caveat": "“干净网格”是图中文字，不等于拓扑已验证；背景透视格也不是模型线框。两幅尺寸和位置不同，不足以证明同一网格的处理前后；悬垂细件的完整性需原模型检查。H3.1 历史版本待核验，不能推断速度或投放效果。"
+    },
+    {
+      "id": "own-13",
+      "title": "石屋庭院整体与石墙植被特写",
+      "image": "assets/user-cases/b38othn09dah1.png",
+      "sourceUrl": "assets/user-cases/b38othn09dah1.png",
+      "evidenceLabel": "用户自有历史案例 · 渠道与效果未核验",
+      "rightsNote": "用户提供，仅作对照。图中历史版本、8K、速度、试用或其他能力文字不构成本轮已核验的产品承诺。",
+      "alt": "石屋庭院整体与石墙植被特写",
+      "kind": "user_historical_reference",
+      "visualVerification": "personally_viewed_2026-10-08",
+      "caveat": "箭头和局部窗只说明展示关系，不能证明实际超分或纹理处理效果；8K、少于两分钟和免费试用为待核验历史法语主张。图片无法验证模型来源、植被几何、拓扑、贴图尺寸、处理耗时或渠道表现；高密度装饰不能直接等同高级感。"
+    },
+    {
+      "id": "v11-t01",
+      "title": "V11 · Teams 共享工作区",
+      "image": "assets/v11/T11-01.png",
+      "sourceUrl": "assets/v11/T11-01.png",
+      "evidenceLabel": "我们当前 V11 审稿 · 未投放",
+      "rightsNote": "真实模型/PBR 证据沿用既有 V11 记录；工作区及接入框图是已标注概念，不是实际产品 UI；无投放效果结论。",
+      "alt": "One team. One shared workspace. 角色与资产库概念",
+      "kind": "current_v11_draft",
+      "visualVerification": "personally_viewed_2026-10-08"
+    },
+    {
+      "id": "v11-t02",
+      "title": "V11 · Teams 从分散到共享",
+      "image": "assets/v11/T11-02.png",
+      "sourceUrl": "assets/v11/T11-02.png",
+      "evidenceLabel": "我们当前 V11 审稿 · 未投放",
+      "rightsNote": "真实模型/PBR 证据沿用既有 V11 记录；工作区及接入框图是已标注概念，不是实际产品 UI；无投放效果结论。",
+      "alt": "Less file chasing. More creating. 分散文件到共享工作区概念",
+      "kind": "current_v11_draft",
+      "visualVerification": "personally_viewed_2026-10-08"
+    },
+    {
+      "id": "v11-a01",
+      "title": "V11 · API 接入游戏工具",
+      "image": "assets/v11/A11-01.png",
+      "sourceUrl": "assets/v11/A11-01.png",
+      "evidenceLabel": "我们当前 V11 审稿 · 未投放",
+      "rightsNote": "真实模型/PBR 证据沿用既有 V11 记录；工作区及接入框图是已标注概念，不是实际产品 UI；无投放效果结论。",
+      "alt": "Add 3D generation to your game tools. 接口流程与扫描器",
+      "kind": "current_v11_draft",
+      "visualVerification": "personally_viewed_2026-10-08"
+    },
+    {
+      "id": "v11-a02",
+      "title": "V11 · API 真实输入与结果",
+      "image": "assets/v11/A11-02.png",
+      "sourceUrl": "assets/v11/A11-02.png",
+      "evidenceLabel": "我们当前 V11 审稿 · 未投放",
+      "rightsNote": "真实模型/PBR 证据沿用既有 V11 记录；工作区及接入框图是已标注概念，不是实际产品 UI；无投放效果结论。",
+      "alt": "From reference to 3D. 真实输入与同网格两个视角",
+      "kind": "current_v11_draft",
+      "visualVerification": "personally_viewed_2026-10-08"
+    }
+  ],
+  "closingNote": "这些是对具体图片的艺术指导判断，不是所有受众的审美共识，也不是哪一侧广告效果更好的结论。借鉴信息层级、材料和观察方式，不复制竞品角色、商标或未经授权资产。"
+}

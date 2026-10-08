@@ -7,6 +7,7 @@
   <meta name="color-scheme" content="light dark">
   <title>领英品牌广告</title>
   <link rel="stylesheet" href="iterations.css?v=20261008">
+  <link rel="stylesheet" href="style-evidence.css?v=20261008-1">
   <meta name="description" content="领英品牌广告公开审稿预览：Tripo Teams 与 API 创意、AI/B2B 单图案例及用户提供的广告案例对比。创意草稿不代表已投放或投放效果。">
   <style>
     @font-face{font-family:"Instrument Sans";src:url("assets/v9/InstrumentSans-Regular.ttf") format("truetype");font-weight:400;font-display:swap}
@@ -35,11 +36,12 @@
     <h1>领英品牌广告</h1>
     <p id="catalog-summary" aria-live="polite">V11 最新稿、V10 迭代对照、V9 历史稿 × 静态案例 × 用户广告与规范示例</p>
   </header>
-  <nav class="nav" aria-label="页面导航"><a href="#iterations">V10 → V11 迭代</a><a href="#model-test">真实白模 × GPT 实验</a><a href="#compare">三列对比</a><a href="#current-gallery">最新与历史创意</a><a href="#linkedin">AI / B2B 单图案例</a><a href="#user-cases">用户案例库</a><a href="#tripo">内部规范示例</a><a href="#gif">历史 GIF</a><a href="#direction">两种风格如何融合</a></nav>
+  <nav class="nav" aria-label="页面导航"><a href="#style-evidence">七项图证对照</a><a href="#iterations">V10 → V11 迭代</a><a href="#model-test">真实白模 × GPT 实验</a><a href="#compare">三列对比</a><a href="#current-gallery">最新与历史创意</a><a href="#linkedin">AI / B2B 单图案例</a><a href="#user-cases">用户案例库</a><a href="#tripo">内部规范示例</a><a href="#gif">历史 GIF</a><a href="#direction">两种风格如何融合</a></nav>
   <aside class="notice">
     <p><strong>公开审稿预览，未批准投放。</strong>对比的是表达方式，不是效果排名。用户案例不等于已验证的 LinkedIn 投放、模型或效果证据。</p>
     <details><summary>来源分类、Meshy 查询与历史参数边界</summary><p>中列只纳入已目视核对的静态案例；第三方档案与官方确认分别标注，未目视的新增候选不计入主图库。用户提供的图按原样展示；其中法语版本、8K、速度、面数和优惠是历史画面文案，当前适用性需另核验。图片本身不能证明真实模型、拓扑或处理耗时。</p><p>此前 Meshy 官方查询的 9 条结果未见 Single Image：3 条视频、1 条站内信、2 条关注公司、3 条招聘；Country / Date 未选择，不能推断 Meshy 从未投放单图。此后官方详情访问受阻。既有 Runway、Autodesk、Spline 保留各自档案来源，没有把视频封面或自然帖当作已验证单图。</p><a class="source" href="https://www.linkedin.com/ad-library/search?accountOwner=Meshy" target="_blank" rel="noreferrer">Meshy 官方查询 ↗</a><a class="source" href="static-reference-recheck-2026-10-07.md">既有研究记录</a></details>
   </aside>
+  <section id="style-evidence" aria-label="领英与 Tripo 广告七项图证对照"><noscript>图证对照需要启用 JavaScript；也可直接查看下方静态审稿与历史总结。</noscript></section>
   <section id="iterations"></section>
   <section id="model-test" class="section"><h2>真实白模与 GPT 白模效果图</h2><p>同一角色参考的两种呈现路线。GPT 是二维概念重绘，会改变局部结构，不能当成 Tripo 真实输出，也不构成算法质量测试。四张 V11 广告仍全部使用真实 Tripo 模型。</p><div class="gif-grid"><article><h3>真实 Tripo 网格 · Blender 白模</h3><div class="image-wrap" style="background:#505453"><a href="assets/model-test/real-clay.png" target="_blank" rel="noopener"><img src="assets/model-test/real-clay.png" alt="真实 Tripo ranger 网格，经 Blender 优化白模打光" loading="lazy"></a></div><p>保留同一网格与相机，白模材质与灯光针对体积重新设置；所有细节来自真实几何，能够换角度与继续编辑。</p></article><article><h3>GPT 图像生成 · 视觉概念</h3><div class="image-wrap" style="background:#505453"><a href="assets/model-test/gpt-clay.png" target="_blank" rel="noopener"><img src="assets/model-test/gpt-clay.png" alt="GPT 依据 ranger 参考生成的二维白模概念，不是 Tripo 输出" loading="lazy"></a></div><p>根据同一角色渲染生成的白模效果图。脸、装甲和布料细节可能重绘，不具备对应 3D 网格；适合审美探索，不用于产品成果证明。</p></article></div><div class="audit"><strong>实验结论</strong><p id="model-test-verdict">仅看本例的二维成图，GPT 版的发丝、面部、布料褶皱和装甲边缘更细腻；但它重画了脸型、设备和手部，边缘仍有少量彩色残留。真实白模在优化前侧光后，体积明显改善，细节上限仍受原始几何限制。结论：GPT 可帮助探索审美方向；真实输入输出、几何或能力证明继续使用实际模型。两者输出尺寸与生成方式不同，不据此判定产品算法优劣。</p></div><a class="source" href="assets/model-test/prompt.txt" target="_blank" rel="noopener">生成方式与完整提示词</a></section>
   <section id="compare" class="section" aria-label="三列图片对比">
@@ -86,6 +88,7 @@
   </section>
   <section class="section" id="direction">
     <h2>融合两种长处，而不是把质感抹平。</h2>
+    <p><a href="#style-evidence">查看新增七项图证对照与五条改稿结论 ↑</a>。下方保留此前六维框架及 V9 阶段的问题，便于追溯，不替代最新图证。</p>
     <p>本轮方向是大方清晰的 B2B 信息层级，加上有细节、有材质、有真实来源的模型证明。“高级”不是颜色少、模型变灰或功能藏进小字。</p>
     <dl class="lessons"><dt>版式清楚。</dt><dd>一个主张、大方字体、明确留白和一个 CTA。缩到 360px 仍能看懂标题与产品区别；这是本次创作方向，不泛称所有 LinkedIn 受众偏好同一种审美。</dd><dt>模型有说服力。</dt><dd>给主体足够面积与塑形光，呈现轮廓、材质和必要细节。每张只选一种主要证据：真实输入输出、部件拆分、材质变化或局部放大；图像不能替代原模型与处理记录。</dd></dl>
     <div class="style-table-wrap" role="region" aria-label="两种风格比较表；窄屏可横向滚动" tabindex="0">
@@ -109,6 +112,6 @@
   <details class="archive-note"><summary>研究记录与未纳入案例</summary><p>研究记录保留各阶段的访问与核验边界；当前图库以各条目后续目视核验状态为准。仅有档案 ID 不足以进入主图库；Meshy 官网和站外图也不作为实际 LinkedIn 单图证据。本预览不提供历史页面。</p><div class="archive-links"><a href="static-reference-recheck-2026-10-07.md">静态案例研究记录</a><a href="meshy-static-only-recheck-2026-10-07.md">Meshy 查询记录</a></div></details>
   <footer><span>公开审稿预览版；创意草稿不代表已投放或批准投放。</span><span>未操作广告账户，未作效果排名。 <a href="assets/v9/InstrumentSans-OFL.txt">Instrument Sans 字体许可</a></span></footer>
 </main>
-<script src="references.js?v=20261007-public-guides"></script><script src="review-v9.js?v=20261008-v11"></script><script src="iterations.js?v=20261008" defer></script>
+<script src="references.js?v=20261007-public-guides"></script><script src="review-v9.js?v=20261008-v11"></script><script src="iterations.js?v=20261008" defer></script><script src="style-evidence.js?v=20261008-1" defer></script>
 </body>
 </html>
