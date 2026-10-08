@@ -213,7 +213,7 @@
     renderGuide();
   }
   function updateCounts() {
-    $('catalog-summary').textContent = `V17：4 套主广告 + 2 套再营销草稿 · 每套含单图与站内信 · 保留历史稿和 8 条站内信 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例 · 风格研究独立栏目`;
+    $('catalog-summary').textContent = `V18：4 种视觉风格 × 8 张单图 · V17 六套图文与站内信、历史八条站内信均保留 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例 · 风格研究独立栏目`;
     const countText = `筛选显示 ${filteredCases.length} / ${staticCases.length} 条已目视案例`;
     $('case-filter-count').textContent = countText;
     $('case-gallery-count').textContent = countText;

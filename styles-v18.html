@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>V18 · 四种风格，八张单图 · 领英品牌广告</title>
+  <meta name="description" content="Tripo V18 静态单图广告审稿：明亮作品集、品牌大字、电影感场景、技术流程。按风格和人群筛选，查看英文图文及手机信息流示意。">
+  <link rel="stylesheet" href="research.css?v=20261008-1">
+  <link rel="stylesheet" href="styles-v18.css?v=20261009-1">
+</head>
+<body class="styles-v18-page">
+  <a class="skip" href="#v18-review">跳到广告画廊</a>
+  <main>
+    <header class="research-header">
+      <div class="research-meta"><a href="index.html#latest-v18">← 返回广告首页</a><span>TRIPO · V18 静态单图审稿</span></div>
+      <h1>四种风格，八张单图。</h1>
+      <p>先看视觉，再放进信息流。分别比较作品集、大字、场景与流程的表达，不把风格差异当作效果结论。</p>
+    </header>
+    <nav class="research-nav" aria-label="栏目导航">
+      <a href="styles-v18.html" aria-current="page">V18 单图 · 8</a>
+      <a href="campaign-v17.html#T17-US">V17 图文＋站内信 · 6</a>
+      <a href="messages.html">历史站内信 · 8</a>
+      <a href="research.html">风格研究</a>
+      <a href="index.html#compare">历史三列对比</a>
+    </nav>
+    <aside class="v18-notice"><p><strong>AI 概念静态草稿，未投放。</strong>不是 Tripo 真实模型输出、真实产品 UI 或 Before / After 证据。预览没有投放、发送或表单动作。</p></aside>
+    <section id="v18-review" aria-label="V18 单图审稿" aria-busy="true">
+      <div id="v18-loading" class="v18-load" role="status"><h2>正在读取八张广告稿</h2><p>加载完成后，可按风格或人群查看。</p><div class="v18-skeleton" aria-hidden="true"></div></div>
+      <div id="v18-error" class="v18-load" role="alert" hidden><h2>广告资料暂未加载</h2><p id="v18-error-text"></p><button type="button" id="v18-retry">重新加载</button><a href="campaign-v17.html">查看 V17 图文与站内信</a></div>
+      <div id="v18-app" hidden>
+        <div class="v18-style-tabs" role="tablist" aria-label="视觉风格">
+          <button type="button" role="tab" id="style-all" data-style="all" aria-controls="v18-panel" aria-selected="true" tabindex="0">全部 <span data-count="all">8</span></button>
+          <button type="button" role="tab" id="style-gallery" data-style="gallery" aria-controls="v18-panel" aria-selected="false" tabindex="-1">明亮作品集 <span data-count="gallery">2</span></button>
+          <button type="button" role="tab" id="style-bold" data-style="bold" aria-controls="v18-panel" aria-selected="false" tabindex="-1">品牌大字 <span data-count="bold">2</span></button>
+          <button type="button" role="tab" id="style-cinematic" data-style="cinematic" aria-controls="v18-panel" aria-selected="false" tabindex="-1">电影感场景 <span data-count="cinematic">2</span></button>
+          <button type="button" role="tab" id="style-technical" data-style="technical" aria-controls="v18-panel" aria-selected="false" tabindex="-1">技术流程 <span data-count="technical">2</span></button>
+        </div>
+        <div id="v18-panel" role="tabpanel" aria-labelledby="style-all">
+          <div class="v18-toolbar">
+            <label for="v18-group">产品 · 地区 · 人群<select id="v18-group"><option value="all">全部人群</option></select></label>
+            <div class="v18-view-switch" aria-label="查看方式"><button type="button" data-view="gallery" aria-pressed="true">画廊总览</button><button type="button" data-view="feed" aria-pressed="false">信息流预览</button></div>
+            <button type="button" id="v18-reset">清除筛选</button>
+          </div>
+          <p id="v18-results" class="v18-results" role="status" aria-live="polite" aria-atomic="true"></p>
+          <div id="v18-empty" class="v18-load" hidden><h2>这个风格下暂无对应人群的稿件</h2><p>每种风格各有两张，不是每个人群都有全部风格。可清除筛选，查看本轮完整八张。</p><button type="button" id="v18-empty-reset">查看全部八张</button></div>
+          <div id="v18-gallery" class="v18-gallery" aria-label="广告原图画廊"></div>
+          <section id="v18-single" class="v18-single" aria-label="选中广告的信息流预览" hidden>
+            <div class="v18-preview-toolbar">
+              <label for="v18-ad-select">当前方案<select id="v18-ad-select"></select></label>
+              <div class="v18-device-switch" aria-label="信息流预览宽度"><button type="button" data-device="desktop" aria-pressed="true">桌面</button><button type="button" data-device="mobile" aria-pressed="false">360px 手机</button></div>
+              <button type="button" id="v18-back-gallery">返回画廊</button>
+            </div>
+            <div class="v18-preview-layout">
+              <div class="v18-preview-column"><p id="v18-preview-label" class="v18-preview-label"></p><div id="v18-feed-wrap" class="v18-feed-wrap" data-device="desktop"><article id="v18-feed" class="v18-feed" aria-label="LinkedIn 信息流布局示意"></article></div><p class="v18-fine">信息流布局示意，不是已发布广告。图文原比例展示；手机模式为 360px 上限，小屏按可用宽度适配。</p></div>
+              <aside id="v18-detail" class="v18-detail" aria-label="英文文案、策略与证据"></aside>
+            </div>
+          </section>
+        </div>
+      </div>
+      <noscript><p>交互预览需要 JavaScript。可<a href="styles-v18-data.json">读取 V18 原始文案数据</a>，或前往<a href="campaign-v17.html">V17 图文与站内信</a>。</p></noscript>
+    </section>
+    <section class="v18-resources" aria-labelledby="v18-resources-title">
+      <h2 id="v18-resources-title">下载与核验记录</h2>
+      <p>图片、文案与使用边界放在一起；下载不代表已批准投放。</p>
+      <ul>
+        <li><a href="assets/v18/v18-eight-styles.zip" download>八张图与可编辑源 · ZIP</a></li>
+        <li><a href="styles-v18-copy.csv" download>八张图文文案 · CSV</a></li>
+        <li><a href="v18-claims.md">产品承诺核验</a></li>
+        <li><a href="v18-qa.md">质量检查记录</a></li>
+        <li><a href="v18-readme.md">交付与使用说明</a></li>
+      </ul>
+    </section>
+    <p id="v18-copy-result" class="v18-copy-result" role="status" aria-live="polite" aria-atomic="true"></p>
+    <footer class="research-footer"><p id="v18-version">V18 · 静态创意审稿。站内信仍保留在 V17 活动页及 V8 历史页，未被本轮单图覆盖。</p><a href="campaign-v17.html#T17-US">查看 V17 站内信 →</a></footer>
+  </main>
+  <script src="styles-v18.js?v=20261009-1" defer></script>
+</body>
+</html>
