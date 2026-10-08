@@ -1,0 +1,28 @@
+{
+  "title": "大字讲清价值，真实模型撑起画面。",
+  "intro": "先做 V10，再按 360px 审稿修成 V11。保留两轮，直接看哪里变好、哪里仍然不够。全部为静态单图，没有新造动效或投放广告。",
+  "updatedAt": "2026-10-08",
+  "note": "四张 V11 均使用已有真实 Tripo API 模型、原始 PBR 贴图和重新设置的 Blender 灯光；没有新增生模积分消耗。PNG 均为 1440×1440、不到 1 MB；SVG 保留可编辑文字。Figma 链接仍指向历史稿，未声称本轮已同步 Figma。GPT 白模实验另列，不用于这些广告的产品输出证明。",
+  "strengths": [
+    {"title":"AI / B2B 案例：先让人懂", "summary":"借鉴职业任务、清楚的大字和单一阅读顺序，不把“领英感”简化成黑白配色。", "points":["标题先回答：为谁，解决什么问题。","一项主张对应一个产品动作或视觉关系。","一个视觉焦点、有限强调色；不抄客户背书、数字和优惠。"]},
+    {"title":"我们的广告：先让人看见质量", "summary":"借鉴主体存在感、材质层次和真实状态差，不照搬发光边框与金属字。", "points":["角色、建筑或道具占据主画面，缩小后仍能识别。","白模/贴图、真实视角或细节特写，让差别直接可见。","保留 Tripo 字体、品牌黄和官方标志；历史 8K/速度/免费文案不直接沿用。"]}
+  ],
+  "pairs": [
+    {"key":"teams-workspace","title":"Teams：一处共享工作区","audience":"游戏工作室负责人、美术负责人",
+      "v10":{"headline":"One team. One shared workspace.","assetNote":"真实 ranger / scanner 模型原 PBR；共享流程为概念示意。"},
+      "v11":{"headline":"One team. One shared workspace.","assetNote":"同一批真实模型。共享分组是版式示意，不是实际产品截图，也不表示实时共编。"},
+      "review":{"v10Issue":"角色与设备合流后指向人物，容易被误读为模型合成；支持文字贴近身体。","changes":["移除合流箭头，以同一资产库分组表达共享。","给人物与支持文字独立区域，保留较大半身特写。"],"verdict":"Teams 关系更清楚，标题、人物和 CTA 在 360px 下可辨。","remaining":"人物本身的造型与装备仍偏通用；概念资产库不能替代真实产品操作证据。"}},
+    {"key":"teams-control","title":"Teams：从分散文件到共享管理","audience":"小型游戏团队、制作负责人",
+      "v10":{"headline":"Less file chasing. More creating.","assetNote":"相同模型表达组织方式，未声称管理功能改善生成质量。"},
+      "v11":{"headline":"Less file chasing. More creating.","assetNote":"前后复用同一批模型、材质与渲染，不故意降低左侧模型质量。"},
+      "review":{"v10Issue":"底部遮罩切断角色腿部与道具底座，组合图没有完整展示资产。","changes":["取消遮罩切图，重新安排独立完整角色与道具。","维持黑白分区，用单箭头连接分散与共享状态。"],"verdict":"结构性裁切已修正，工作方式的对比更直观。","remaining":"完整人物在手机里依然比半身特写细小，右侧仍有目录式陈列感；下一步需要更强的项目资产组。"}},
+    {"key":"api-integration","title":"API：接入自己的游戏工具","audience":"游戏开发者、工具与管线工程师",
+      "v10":{"headline":"Add 3D generation to your game tools.","assetNote":"真实 scanner 模型；工具接入示意不等于完成引擎集成。"},
+      "v11":{"headline":"Add 3D generation to your game tools.","assetNote":"同一真实模型完整基座；API 的提交、跟踪、取回保持异步说明。"},
+      "review":{"v10Issue":"底部大流程与左侧框图重复，并且截掉模型底座。","changes":["删掉重复的大流程，三步缩成工具接入旁的一行。","恢复完整扫描器轮廓，让结果与接入路径直接相连。"],"verdict":"四张中 API 身份最直接；产品图和流程不再互相挤压。","remaining":"模型材质得到改善，但形体和接缝的生成缺陷没有被重绘修饰。"}},
+    {"key":"api-image","title":"API：真实输入与多视角结果","audience":"技术美术、评估生成能力的开发者",
+      "v10":{"headline":"From reference to 3D.","assetNote":"原始 scanner 参考图与对应 Tripo 模型；侧视来自同网格。"},
+      "v11":{"headline":"From reference to 3D.","assetNote":"原始输入保持原样；输出两图为同模型的真实三分之四与 90°相机视角，不是镜像或 AI 改画。"},
+      "review":{"v10Issue":"侧视位于输入列，易被误读为第二张输入；底座与说明文字相碰。","changes":["把两幅 3D 视图归入同一输出区域并明确标为 3D side view。","给主模型完整底座和说明文字分别留空。"],"verdict":"输入与输出归属明确，比仅彩色变白模更能证明立体视角。","remaining":"输出主体还可以更有视觉张力，但不能靠重画冒充更好的实际输出。"}}
+  ]
+}

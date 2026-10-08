@@ -15,6 +15,12 @@
       audience:'技术美术 / 游戏工具开发者',
       audit:'对应展示原始参考图片与真实模型的 Blender 白模渲染。打光和材质用于看清几何，不把渲染美化称为生成质量提升，不承诺每个输出无需检查即可进入正式游戏。'}
   ].map(x => ({...x, file:`assets/v9/${x.id}.png`, svg:`assets/v9/${x.id}.svg`, gifFile:x.gif?`assets/v9/${x.id}.gif`:null}));
+  currentAds.unshift(...[
+    {id:'T11-01',title:'T11-01 · Teams 共享工作区',headline:'One team. One shared workspace.',caseId:'919570584',guide:4,audience:'游戏工作室负责人 / 美术负责人',audit:'真实模型原 PBR 与共享资产库概念分组。不是实际产品 UI，不暗示实时共同编辑。'},
+    {id:'T11-02',title:'T11-02 · Teams 从分散到共享',headline:'Less file chasing. More creating.',caseId:'919570584',guide:0,audience:'小型游戏团队 / 制作负责人',audit:'前后展示同一批真实模型，变化仅为文件组织示意；不声称模型质量或效率因此自动提高。'},
+    {id:'A11-01',title:'A11-01 · API 接入开发工具',headline:'Add 3D generation to your game tools.',caseId:'1345490926',guide:5,audience:'游戏开发者 / 管线工程师',audit:'真实模型配合工具接入概念；Submit / Track / Retrieve 保持异步，不声称已经完成引擎集成。'},
+    {id:'A11-02',title:'A11-02 · API 真实输入输出',headline:'From reference to 3D.',caseId:'1150183744',guide:3,audience:'技术美术 / 资产工具开发者',audit:'原始参考图与对应 Tripo 模型，同一网格真实不同相机视角；不是镜像，不是 GPT 重绘，不承诺 game-ready。'}
+  ].map(x=>({...x,file:`assets/v11/${x.id}.png`,svg:`assets/v11/${x.id}.svg`,gifFile:null})));
   const caseNames = {
     '1345490926':'Runway · 一句话展示产品能力',
     '1150183744':'Runway · 直接展示编辑动作',
@@ -183,7 +189,7 @@
     renderGuide();
   }
   function updateCounts() {
-    $('catalog-summary').textContent = `${currentAds.length} 张 V9 创意草稿 × ${staticCases.length} 条已目视静态档案 × ${userCases.length} 张用户案例${guides.length ? ` + ${guides.length} 张规范截图` : ''}`;
+    $('catalog-summary').textContent = `4 张 V11 + 4 张 V10 迭代 + 4 张 V9 历史 × ${staticCases.length} 条已目视静态档案 × ${userCases.length} 张用户案例${guides.length ? ` + ${guides.length} 张规范截图` : ''}`;
     const countText = `筛选显示 ${filteredCases.length} / ${staticCases.length} 条已目视案例`;
     $('case-filter-count').textContent = countText;
     $('case-gallery-count').textContent = countText;
@@ -397,7 +403,7 @@
     applyCaseFilters(currentAds[selectedAd].caseId); applyUserFilter(); renderCandidates();
     if (results.some(result => result.status === 'rejected')) {
       $('load-error').hidden = false;
-      $('load-error').textContent = `部分案例清单未加载：当前可用 ${staticCases.length} 条档案与 ${userCases.length} 张用户图。请刷新或稍后重试；V9 与 GIF 素材仍可用。`;
+      $('load-error').textContent = `部分案例清单未加载：当前可用 ${staticCases.length} 条档案与 ${userCases.length} 张用户图。请刷新或稍后重试；最新与历史素材仍可用。`;
     }
   }
   document.addEventListener('visibilitychange', () => {

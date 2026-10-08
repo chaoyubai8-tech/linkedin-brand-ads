@@ -1,0 +1,19 @@
+Mode: built-in image_gen (not CLI). Date: 2026-10-08.
+Purpose: art-direction comparison only. This image is a 2D generative interpretation, NOT a real Tripo 3D output.
+Reference: the existing project's ranger PBR Blender render.
+
+FIRST PASS
+Use case: style-transfer.
+Asset type: premium white-clay 3D-look character image for internal art-direction comparison, not a real generated 3D asset.
+Image 1 is the edit target: a real rendered sci-fi expedition ranger, cropped at upper thighs, neutral standing pose. Preserve this exact character identity, hairstyle, face proportions, armor design, equipment, camera angle, pose, silhouette and square composition as faithfully as possible. Do not redesign, add parts, invent decorations or change the framing.
+Primary request: transform the colored materials into a high-end neutral ivory/white clay sculpture presentation. All visible surfaces including skin, hair, armor, fabric and equipment become untextured white clay; carefully sculpted hard-surface planes and soft fabric forms should be clearly readable. Crisp clean edges, realistic nuanced depth, controlled contact creases, polished professional studio presentation, not cheap plastic.
+Lighting: broad soft key light from upper front-left, gentle right fill, delicate rim separation; controlled highlights, no blown-out faces, no crushed shadow. Focus on believable 3D volume and high-quality sculptural shading.
+Backdrop: genuinely transparent background, preserve alpha; no floor, no rectangular shadow, no vignette or checkerboard baked into the image.
+Constraints: single character only, no text, no watermark, no logo, no UI, no topology/wireframe. No dramatic pose change, no photorealistic colored skin, no added props. Keep the entire existing visible silhouette including hands and shoulder apparatus.
+
+EDGE CLEANUP PASS
+Use case: background-extraction / precise-object-edit.
+Image 1 is the edit target. Keep the entire existing white-clay sci-fi ranger exactly unchanged: same face, armor, hands, silhouette, framing, shading and white clay material. Only clean the cutout edge and background: remove the stray yellow/pink/red colored fragments in the empty gaps beside the waist and below the hands; remove stray white/gray floating specks outside the silhouette. Make ALL background and negative spaces genuinely transparent with clean antialiased alpha. No additional polishing, no redesign, no crop changes, no added backdrop. No text, no logo, no watermark.
+
+Review: despite edge-cleanup instructions, small edge residue remains. Face, equipment and fabric geometry also differ from the real source. Do not use as product-output proof.
+
