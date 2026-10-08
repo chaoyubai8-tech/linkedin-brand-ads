@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "title": "V13 · 自有素材广告",
+  "intro": "原始输入与真实白模，分别讲清 Teams 共享工作区和 API 接入流程。四张均为待审稿，V12 GPT 概念版本保留为历史对照。",
+  "updatedAt": "2026-10-08",
+  "workflowSamples": [
+    {
+      "title": "中台 AI 主视觉 × 固定品牌排版",
+      "summary": "先以自有合格原图生成无字主视觉，再使用官方 Logo 与 Instrument Sans 固定排版。左侧是主稿 T13-01 的原始素材呈现，右侧为 AI 美术对照；AI 图不是贴图模型渲染或真实 3D 输出。",
+      "image": "assets/v13/T13-01-AI.png",
+      "svg": "assets/v13/T13-01-AI.svg",
+      "alt": "T13-01 AI 对照稿：以自有原图生成的二维 AI 主视觉，再以官方 Logo 和 Instrument Sans 排版；非真实 3D 输出。",
+      "sourceLabel": "AI concept · 非真实 3D 输出",
+      "compareImage": "assets/v13/T13-01.png",
+      "compareTitle": "主稿 T13-01 · 自有原始素材"
+    }
+  ],
+  "cards": [
+    {
+      "id": "T13-01",
+      "product": "Teams",
+      "title": "Teams · 原始素材与共享资产",
+      "audience": "游戏工作室负责人、美术负责人",
+      "headline": "One team. One asset library.",
+      "intro": "Create and organize 3D assets in a shared team workspace. Shared credits and admin controls, with Tripo Studio Team Plan.",
+      "concept": "原始彩色角色输入作为视觉主体，以共享资产与管理关系说明团队价值。彩色输入不冒充模型贴图渲染。",
+      "notes": [
+        "Workspace concept：工作区与管理关系为表达示意，不是实际产品界面。",
+        "共享资产访问遵循管理员设置；不表示实时共同编辑同一模型。",
+        "使用自有合格素材，不把上传批次当作模型引擎版本，也不声明自动跨资产风格一致。"
+      ],
+      "introCharacterCount": 121,
+      "artworkLabel": "Workspace concept",
+      "cta": "Explore Teams",
+      "source": {
+        "checkedAt": "2026-10-08",
+        "urls": [
+          "https://www.tripo3d.ai/programs/team-program",
+          "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan"
+        ]
+      },
+      "assets": {
+        "png": "assets/v13/T13-01.png",
+        "svg": "assets/v13/T13-01.svg"
+      },
+      "copyStatus": "verified_with_presentation_conditions",
+      "status": "ready"
+    },
+    {
+      "id": "T13-02",
+      "product": "Teams",
+      "title": "Teams · 真实白模与共享工作区",
+      "audience": "制作负责人、团队管理员",
+      "headline": "One team. One 3D workspace.",
+      "intro": "Create and organize 3D assets in a shared team workspace. Shared credits and admin controls, with Tripo Studio Team Plan.",
+      "concept": "使用对应真实无贴图模型的白模渲染，展示角色几何，并将资产与团队工作区关系分开说明。",
+      "notes": [
+        "真实白模用于观察形体，不证明 8K、PBR 贴图、绑定或游戏运行验收。",
+        "Workspace concept：共享关系是示意，不声称自动迁移、实时共编或实测节省时间。",
+        "白模打光不改变原始模型来源，不将外部呈现优化归为未经干预的生成效果。"
+      ],
+      "introCharacterCount": 121,
+      "artworkLabel": "Workspace concept",
+      "cta": "Explore Teams",
+      "source": {
+        "checkedAt": "2026-10-08",
+        "urls": [
+          "https://www.tripo3d.ai/programs/team-program",
+          "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan"
+        ]
+      },
+      "assets": {
+        "png": "assets/v13/T13-02.png",
+        "svg": "assets/v13/T13-02.svg"
+      },
+      "copyStatus": "verified_with_presentation_conditions",
+      "status": "ready"
+    },
+    {
+      "id": "A13-01",
+      "product": "API",
+      "title": "API · 参考图与工具接入",
+      "audience": "游戏开发者、工具与管线工程师",
+      "headline": "Add 3D to your tools.",
+      "intro": "Submit an image, track the task, and retrieve the completed 3D model. Connect Tripo API to your own workflow.",
+      "concept": "原始输入与对应真实白模用于解释图像到模型的关系，接口连接只表达开发者可接入的工作流。",
+      "notes": [
+        "Workflow illustration：没有该资产的本次 API 运行收据，不称为 API 实测生成输出。",
+        "Reference 与 Untextured mesh 分开标识；不把彩色输入用作模型贴图品质的证明。",
+        "需要开发者实现接入；不表示现成引擎集成、免代码接入、即时响应或无需后续检查。"
+      ],
+      "introCharacterCount": 109,
+      "artworkLabel": "Workflow illustration",
+      "cta": "Explore the API",
+      "source": {
+        "checkedAt": "2026-10-08",
+        "urls": [
+          "https://developers.tripo3d.ai/en/docs/introduction",
+          "https://developers.tripo3d.ai/en/docs/task-query"
+        ]
+      },
+      "assets": {
+        "png": "assets/v13/A13-01.png",
+        "svg": "assets/v13/A13-01.svg"
+      },
+      "copyStatus": "verified_with_presentation_conditions",
+      "status": "ready"
+    },
+    {
+      "id": "A13-02",
+      "product": "API",
+      "title": "API · 异步流程示意",
+      "audience": "技术美术、工具与管线工程师",
+      "headline": "Your pipeline. A new dimension.",
+      "intro": "Submit an image, track the task, and retrieve the completed 3D model. Connect Tripo API to your own workflow.",
+      "concept": "结合原始输入和真实白模，以提交、跟踪与成功后取回结果说明异步任务编排。",
+      "notes": [
+        "Workflow illustration：流程图不是本次调用日志或已运行的产品界面。",
+        "任务可能排队、运行、失败或取消，成功后才获取输出；不暗示即时返回或成功保证。",
+        "真实模型不等于已通过游戏质量验收，不承诺一条请求完成全部后处理。"
+      ],
+      "introCharacterCount": 109,
+      "artworkLabel": "Workflow illustration",
+      "cta": "Explore the API",
+      "source": {
+        "checkedAt": "2026-10-08",
+        "urls": [
+          "https://developers.tripo3d.ai/en/docs/introduction",
+          "https://developers.tripo3d.ai/en/docs/task-query"
+        ]
+      },
+      "assets": {
+        "png": "assets/v13/A13-02.png",
+        "svg": "assets/v13/A13-02.svg"
+      },
+      "copyStatus": "verified_with_presentation_conditions",
+      "status": "ready"
+    }
+  ]
+}

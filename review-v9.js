@@ -33,6 +33,12 @@
     {id:'A13-01',title:'A13-01 · 真实白模 / API 工具接入示意',headline:'Add 3D to your tools.',caseId:'1345490926',guide:5,audience:'游戏开发者 / 工具与管线工程师',alt:'A13-01 API 广告：原始输入与对应真实白模，接口连接为 Workflow illustration；不是本次 API 实测结果。',audit:'原始输入与对应真实白模说明图像和模型的关系；接口连接为 Workflow illustration。没有该资产本次 API 运行收据，不称为 API 实测输出或已完成引擎集成。待审稿。'},
     {id:'A13-02',title:'A13-02 · 真实白模 / API 异步流程示意',headline:'Your pipeline. A new dimension.',caseId:'1150183744',guide:3,audience:'技术美术 / 工具与管线工程师',alt:'A13-02 API 广告：原始输入和真实白模，提交、跟踪、成功后取回的异步流程示意。',audit:'Submit / Track / Retrieve 说明异步任务，成功后取回输出。Workflow illustration 不是本次调用日志；真实模型不代表 game-ready、已绑骨或 8K/PBR。待审稿。'}
   ].map(x=>({...x,file:`assets/v13/${x.id}.png`,svg:`assets/v13/${x.id}.svg`,gifFile:null})));
+  currentAds.unshift(...[
+    {id:'T14-01',title:'T14-01 · GPT 概念 / Teams 共享资产库',headline:'One team. One asset library.',caseId:'919570584',guide:4,audience:'游戏工作室负责人 / 美术负责人',alt:'T14-01：原创 GPT 二维探索角色、无人机和信标在共同资产库；AI-generated concept artwork / Workspace concept，不是真实模型或产品 UI。',audit:'同项目的角色与道具连接美术、开发与共享库，讲清团队关系。全部为 GPT 二维概念；Workspace concept 不是实际工作区，不表示自动统一风格、实时共编或资产无条件可见。待审稿。'},
+    {id:'T14-02',title:'T14-02 · GPT 概念 / Teams 共享积分与管理',headline:'Shared credits. Clear controls.',caseId:'919570584',guide:0,audience:'游戏制作负责人 / 工作室管理员',alt:'T14-02：原创 GPT 二维探索角色与共享积分、成员、管理员关系；AI-generated concept artwork / Workspace concept，不是产品截图。',audit:'共享积分和成员管理以无数字关系图说明；不虚构余额、产出或统计。GPT 角色不是 Tripo 生成成果；Teams 资源不暗示 API 共用 Studio 积分。待审稿。'},
+    {id:'A14-01',title:'A14-01 · GPT 概念 / API 接入游戏工具',headline:'Add 3D creation to your tools.',caseId:'1345490926',guide:5,audience:'游戏工具开发者 / 技术美术与管线工程师',alt:'A14-01：原创 GPT 二维科考 rover 与 Your tool、Tripo API、3D assets 接入关系；AI-generated concept artwork / Workflow illustration，不是 API 实测。',audit:'rover 与 Your tool → Tripo API → 3D assets 说明可接入的工作关系。GPT 二维概念不是模型输出；仍需开发者实现，不表示已经完成引擎集成、零代码或同步返回。待审稿。'},
+    {id:'A14-02',title:'A14-02 · GPT 概念 / API 异步任务',headline:'Submit. Track. Retrieve.',caseId:'1150183744',guide:3,audience:'游戏工具开发者 / 技术负责人',alt:'A14-02：原创 GPT 二维科考 rover 与提交图像、跟踪任务、成功后取回关系；AI-generated concept artwork / Workflow illustration。',audit:'Submit image / Track task / Retrieve on success 清楚分开异步阶段。无本次 API 运行收据，GPT 图不是实际输入输出，不暗示即时完成、成功保证、已绑骨或 game-ready。待审稿。'}
+  ].map(x=>({...x,file:`assets/v14/${x.id}.png`,svg:`assets/v14/${x.id}.svg`,gifFile:null})));
   const caseNames = {
     '1345490926':'Runway · 一句话展示产品能力',
     '1150183744':'Runway · 直接展示编辑动作',
@@ -201,7 +207,7 @@
     renderGuide();
   }
   function updateCounts() {
-    $('catalog-summary').textContent = `4 张 V13 自有素材与真实白模新稿 · 8 条站内信 · 保留 V12 / V11 / V10 / V9 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例 · 风格研究独立栏目`;
+    $('catalog-summary').textContent = `4 张 V14 原创 GPT 二维概念新稿 · 8 条站内信 · 保留 V13 / V12 / V11 / V10 / V9 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例 · 风格研究独立栏目`;
     const countText = `筛选显示 ${filteredCases.length} / ${staticCases.length} 条已目视案例`;
     $('case-filter-count').textContent = countText;
     $('case-gallery-count').textContent = countText;

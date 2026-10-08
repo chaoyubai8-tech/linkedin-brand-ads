@@ -1,20 +1,20 @@
-/* Current V13 review module. Legacy #gpt-campaign anchor is retained for compatibility. */
+/* Current V14 concept review. Legacy #gpt-campaign anchor is retained for compatibility. */
 (() => {
   'use strict';
 
   const BASE = new URL('.', document.currentScript?.src || document.baseURI);
-  const IDS = ['T13-01', 'T13-02', 'A13-01', 'A13-02'];
+  const IDS = ['T14-01', 'T14-02', 'A14-01', 'A14-02'];
   const DEFAULTS = {
     schemaVersion: 1,
-    title: 'V13 · 自有素材与真实白模',
-    intro: 'Teams 讲共享工作区，API 讲接入与异步流程。使用自有合格素材的原始输入与对应真实白模，四张均为待审稿。',
+    title: 'V14 · 有角色感，也讲清工作关系',
+    intro: 'Teams 讲共享资产与管理，API 讲工具接入与异步任务。四张使用原创 GPT 二维概念，不是实际模型成果，均为待审稿。',
     workflowSamples: [],
     updatedAt: '',
     cards: IDS.map((id, index) => ({
       id,
       product: index < 2 ? 'Teams' : 'API',
-      title: ['原始素材与共享资产', '真实白模与团队工作区', '参考图与工具接入', '异步工作流示意'][index],
-      imageDescription: ['自有角色原始彩色输入，不是模型贴图渲染', '对应真实无贴图模型的白模渲染', '原始参考图与对应真实白模', '原始参考图、真实白模与异步流程关系'][index],
+      title: ['同项目资产与共享库', '共享积分与管理关系', '科考 rover 与工具接入', '提交、跟踪、成功后取回'][index],
+      imageDescription: ['原创 GPT 二维角色、无人机与信标概念套组', '原创 GPT 二维角色与资源管理概念', '原创 GPT 二维 rover 与接口连接示意', '原创 GPT 二维 rover 与异步任务示意'][index],
       audience: '',
       headline: '',
       concept: '创意说明待导出后核对。',
@@ -28,7 +28,7 @@
   }
 
   function localArtwork(value, svg = false) {
-    if (typeof value !== 'string' || !/^assets\/v13\/[a-zA-Z0-9._/-]+$/i.test(value) || value.includes('..')) return '';
+    if (typeof value !== 'string' || !/^assets\/v(?:13|14)\/[a-zA-Z0-9._/-]+$/i.test(value) || value.includes('..')) return '';
     return (svg ? /\.svg$/i : /\.(?:png|jpe?g|webp)$/i).test(value) ? value : '';
   }
 
@@ -55,7 +55,7 @@
           }).slice(0, 3) : [],
           concept: clean(card.concept, fallback.concept),
           imageDescription: clean(card.imageDescription, fallback.imageDescription),
-          artworkLabel: clean(card.artworkLabel, fallback.product === 'Teams' ? 'Workspace concept' : 'Workflow illustration'),
+          artworkLabel: clean(card.artworkLabel, 'AI-generated concept artwork · ' + (fallback.product === 'Teams' ? 'Workspace concept' : 'Workflow illustration')),
           notes: Array.isArray(card.notes) ? card.notes.slice(0, 5).map((note) => clean(note)).filter(Boolean) : [],
           status: card.status === 'ready' ? 'ready' : 'pending'
         };
@@ -96,8 +96,8 @@
   }
 
   function makeCard(card) {
-    const png = new URL(`assets/v13/${card.id}.png`, BASE);
-    const svg = new URL(`assets/v13/${card.id}.svg`, BASE);
+    const png = new URL(`assets/v14/${card.id}.png`, BASE);
+    const svg = new URL(`assets/v14/${card.id}.svg`, BASE);
     const article = el('article', 'gc-card');
     article.setAttribute('aria-labelledby', `gc-title-${card.id}`);
     const label = el('div', 'gc-card-label');
@@ -227,18 +227,22 @@
     root.replaceChildren();
     root.setAttribute('aria-labelledby', 'gc-heading');
     const header = el('header', 'gc-header');
-    header.append(el('p', 'gc-eyebrow', 'V13 / 静态创意审稿'));
+    header.append(el('p', 'gc-eyebrow', 'V14 / 原创二维概念 · 静态创意审稿'));
     const heading = el('h2', '', data.title);
     heading.id = 'gc-heading';
     header.append(heading, el('p', 'gc-intro', data.intro));
-    header.append(el('p', 'gc-source-note', '原始彩色输入不是贴图模型渲染；真实白模用于呈现几何。Teams 为 Workspace concept，API 为 Workflow illustration，不是本次 API 实测输出。'));
-    const history = el('a', 'gc-history', '查看 V12 / V11 / V9 历史稿 →');
+    header.append(el('p', 'gc-source-note', 'AI-generated concept artwork：本轮角色与 rover 均为 GPT 二维概念，不是 Tripo 生成结果。Teams 为 Workspace concept，API 为 Workflow illustration；不作为产品 UI 或本次 API 实测证据。'));
+    const history = el('a', 'gc-history', '查看 V13 / V12 / V11 / V9 历史稿 →');
     history.href = '#current-gallery';
     header.append(history);
     const research = el('a', 'gc-history', '风格研究独立栏目 ↗');
     research.href = 'research.html';
     research.style.marginLeft = '24px';
     header.append(research);
+    const review = el('a', 'gc-history', 'V14 质量检查记录 ↗');
+    review.href = 'assets/v14/REVIEW.md';
+    review.style.marginLeft = '24px';
+    header.append(review);
 
     const controls = el('div', 'gc-controls');
     const toggle = el('button', 'gc-button', '360px 审稿');
@@ -260,7 +264,7 @@
     scroll.id = 'gc-gallery';
     scroll.tabIndex = 0;
     scroll.setAttribute('role', 'region');
-    scroll.setAttribute('aria-label', 'V13 四张广告创意；360px 模式可用左右方向键横向浏览');
+    scroll.setAttribute('aria-label', 'V14 四张广告创意；360px 模式可用左右方向键横向浏览');
     scroll.addEventListener('keydown', (event) => {
       if (event.target !== scroll || !['ArrowLeft', 'ArrowRight'].includes(event.key) || scroll.scrollWidth <= scroll.clientWidth) return;
       event.preventDefault();
@@ -272,14 +276,17 @@
 
     const boundaries = el('details', 'gc-boundaries');
     boundaries.append(el('summary', '', '来源与使用边界'));
-    boundaries.append(el('p', '', 'V13 使用自有合格素材中的原始输入和对应真实无贴图模型。彩色输入、白模渲染与组织关系分别标识，不以彩色输入证明输出贴图质量，不以材质与打光改动证明生成质量提升。素材批次不等于模型引擎版本。'));
-    boundaries.append(el('p', '', '本轮没有该资产的 API 运行收据。API 图片仅说明可接入的异步工作流，不是 API 实测生成过程；Teams 图片中的工作区关系为示意，不是产品 UI 或实时共编。未验证绑定、拓扑、游戏运行表现、处理耗时或节省比例。'));
-    boundaries.append(el('p', '', 'V12 GPT 二维概念稿与 V11 / V9 历史稿继续保留。PNG 用于审稿，SVG 为版式文件，不是原始 3D 模型。本站不提供原始模型文件；未批准投放，不据此推断 CTR / CPM。'));
+    boundaries.append(el('p', '', 'V14 使用原创 GPT 二维概念主视觉；角色、无人机、信标与 rover 均不是 Tripo 真实模型、生成质量或输入输出配对证据。同项目套组来自人工艺术指导，不声明产品自动保持风格一致。'));
+    boundaries.append(el('p', '', 'Teams 的共享库、积分与管理员连接为 Workspace concept；API 的工具连接与任务流程为 Workflow illustration。不是产品 UI、实时共编或本次 API 调用日志；成功后才取回结果，不保证即时完成、零代码或每次成功。'));
+    boundaries.append(el('p', '', 'V13 自有原始输入与真实白模、V12 GPT 二维概念及更早版本保留各自说明。PNG 用于审稿，SVG 为版式文件，不是 3D 模型；未验证拓扑、绑定、游戏表现、耗时或节省比例，未批准投放，不据此推断 CTR / CPM。'));
+    const archive = el('a', 'gc-history', 'V13 原始创意说明归档 JSON ↗');
+    archive.href = 'gpt-campaign-v13-data.json';
+    boundaries.append(archive);
 
     const workflow = el('details', 'gc-boundaries');
     workflow.id = 'workflow-samples';
-    workflow.append(el('summary', '', data.workflowSamples.length ? '工作流样板对比' : '工作流样板对比 · 待补充'));
-    workflow.append(el('p', '', '比较素材、AI 主视觉与固定品牌排版的制作方式。AI 图不代表真实 3D 输出，界面与流程关系也不作为产品操作证据。'));
+    workflow.append(el('summary', '', data.workflowSamples.length ? 'V13 历史 AI 对照与制作样板' : '历史制作样板 · 待补充'));
+    workflow.append(el('p', '', '以下保留 V13 原始素材、AI 主视觉与固定品牌排版的制作对照，不是本轮 V14 的生成过程。AI 图不代表真实 3D 输出，界面与流程关系不作为产品操作证据。'));
     const samples = el('div', 'gc-workflow-list'); samples.id = 'gc-workflow-samples';
     data.workflowSamples.forEach(item => {
       const article = el('article', 'gc-sample');
@@ -331,7 +338,7 @@
     const root = document.getElementById('gpt-campaign');
     if (!root || root.dataset.gcMounted === 'true') return;
     root.dataset.gcMounted = 'true';
-    root.append(el('p', 'gc-data-loading', '正在读取 V13 创意…'));
+    root.append(el('p', 'gc-data-loading', '正在读取 V14 创意…'));
     void load(root);
   }
 

@@ -1,0 +1,28 @@
+{
+  "createdAt": "2026-10-08",
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "file": "sources/expedition-assets.png",
+      "mode": "generate",
+      "prompt": "Use case: stylized-concept. Asset type: original 3D-render-style game asset ensemble for a premium LinkedIn B2B single-image ad; artwork only, no text. Create a striking ORIGINAL full-body amphibian expedition cartographer, not an existing character: tall agile teal salamander with small swept-back sensory fins, intelligent amber eyes, broad expressive face, cream technical canvas coat with a cropped rust-orange shoulder cape, dark leather utility belts, sand-colored articulated boots, one hand holding a chunky brass survey instrument. Two companion assets from the SAME original exploration game: a compact brass-and-ceramic three-legged surveying drone and a portable folding field beacon with an arched bronze antenna. Professional collectible-quality 3D rendered concept art with believable sculpted anatomy, sharp edges, tactile stitched canvas, brushed brass, glazed ceramic, restrained patina, clear separation of materials. Landscape composition 3:2, all three subjects fully visible with generous separation and no overlaps: character on left 50%, tripod drone center 25%, beacon right 25%, grounded same baseline, subtle contact shadows. Warm near-white seamless studio background, large soft frontal-left key light, crisp contact occlusion, calm premium product-shot art direction. Exaggerated appealing silhouette and functional equipment, not generic armor, no crown, no military weapon, no tiny all-over ornament, no text, no logo, no frame, no watermark, no wireframe. This is illustrative original AI concept artwork, not a screenshot or proof of any 3D generator output."
+    },
+    {
+      "file": "sources/survey-rover.png",
+      "mode": "generate",
+      "prompt": "Use case: stylized-concept. Asset type: premium 3D-render-style original game prop artwork for a Tripo API LinkedIn B2B ad, no typography. Create a distinctive ORIGINAL autonomous survey rover with a triangular low center of gravity: three large articulated rubber wheels, a folded ivory ceramic-and-graphite shell, an asymmetrical telescoping copper sensor mast with a single smoked-glass optical lens, one small robust clamp arm holding a rock sample. Clearly engineered, functional shape language with beautiful tangible material separation: satin ivory ceramic panels, graphite rubber treads, brushed titanium pivots, restrained copper edges, small mustard-yellow safety insert. No humanoid face, no weapon, no cute toy eyes, no existing IP. Full vehicle visible in three-quarter front view, subject occupies 75% of square frame, strong diagonal energy in mast but balanced stable wheels, generous safe margin on all sides. Sculptural high-end product rendering, technically convincing joints and clean chamfered edges, sparing wear, big clear silhouette, readable at small size. Deep charcoal seamless studio background and ground, broad softbox frontal-left key and controlled warm rim, rich contrast yet visible dark tires, soft contact shadow. No text, logos, wireframe, interface, external branding, diagrams or watermark. This is original illustrative AI concept artwork, not evidence of any actual 3D generation."
+    },
+    {
+      "file": "sources/survey-rover-clay-concept.png",
+      "mode": "edit",
+      "target": "sources/survey-rover.png",
+      "prompt": "Edit target: the supplied original AI concept image of a three-wheel survey rover. Change ONLY material/rendering presentation and background. Preserve exactly the same rover design, three-wheel silhouette, wheels, optical sensor mast, gripper holding rock, camera angle, composition, and all main mechanical structure. Render it as an elegant warm-white untextured clay sculpture concept on a clean near-white seamless studio background. Matte porcelain-like surface, no colored textures, strong broad front-left studio key light, soft side fill, well-defined contact occlusion in joints and tread detail, subtle contact shadow, clear depth without dark harsh outlines. Full rover visible with generous margins. No wireframe, grid, UI, logo, text, or watermark. This remains an AI-generated clay concept illustration, not an actual 3D mesh or generator output."
+    },
+    {
+      "file": "sources/cartographer.png",
+      "mode": "edit",
+      "target": "sources/expedition-assets.png",
+      "prompt": "Edit target: supplied AI concept ensemble. Make a portrait 3:4 standalone asset of ONLY the amphibian expedition cartographer on the left. Remove the two companion machines entirely. Keep this character's exact face, teal skin, sensory fins, costume, equipment, brass instrument, pose and all anatomy unchanged. Show the complete character including full tail, boots, held instrument and backpack with comfortable margins, centered on the same warm near-white studio background. Retain material quality, lighting, and original render finish. No additional objects, no text, no logo, no wireframe. This is an AI-generated concept illustration."
+    }
+  ]
+}
