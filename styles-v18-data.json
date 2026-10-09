@@ -14,7 +14,7 @@
       "angle": "Workflow efficiency through a shared, reusable vehicle and prop library.",
       "visual": "One direct shared-assets claim replaces the longer two-part headline. Removed the Find/Share/Reuse sidebar, repeated metadata and footer copy. A single shared-library band and team icon connect the large, complete rover to the collaboration use case. Final spacing revision: centered the image at 1024 × 600 within its 1072px pale-gray container, retaining cover and 42.5% vertical positioning, to increase breathing room around the mast and wheels. Viewed again at 1200 and 360 pixels.",
       "evidenceNote": "Shared asset organization and reuse are verified capabilities, subject to team permissions. The pictured collection is concept artwork, not Tripo model output or proof of measured time savings.",
-      "image": "assets/v18/T18-US-01.png?v=20261009-layout20"
+      "image": "assets/v18/T18-US-01.png?v=20261009-layout20-all"
     },
     {
       "id": "T18-US-02",
@@ -29,7 +29,7 @@
       "angle": "Reduce fragmented asset handoffs through centralized assets and team administration.",
       "visual": "Removed repeated workspace/footer statements and asset numbers. One continuous shared-library heading groups the character and environment without pretending to show the actual product UI. Retained brand yellow and assembled the logo from original official PNG crops on a black icon backing; no logo redraw.",
       "evidenceNote": "Shared workspace, team credits and member administration are verified. Less file chasing is a qualitative benefit, not a quantified efficiency result or real-time co-editing promise.",
-      "image": "assets/v18/T18-US-02.png?v=20261009-layout20"
+      "image": "assets/v18/T18-US-02.png?v=20261009-layout20-all"
     },
     {
       "id": "T18-EU-01",
@@ -44,7 +44,7 @@
       "angle": "A concrete game project: keep a harbor world's assets together for the team.",
       "visual": "The purpose sentence names an exploration-game project and explicitly links its assets to a shared workspace. Removed the micro-inventory and duplicate footer slogan. Preserved the main tower and environment, with one left-aligned text system and a contrast gradient.",
       "evidenceNote": "The shared workspace is verified. The harbor is a project-use illustration, not a customer game, engine capture, or promise to generate a complete world.",
-      "image": "assets/v18/T18-EU-01.png?v=20261009-layout20"
+      "image": "assets/v18/T18-EU-01.png?v=20261009-layout20-all"
     },
     {
       "id": "T18-EU-02",
@@ -59,7 +59,7 @@
       "angle": "Organize the character, prop and environment work belonging to the same game project.",
       "visual": "Two clear top text columns separate the claim from the concrete project use. Removed asset numbers, project micro-labels, arrow row and duplicate footer slogan. Enlarged the paired assets under one shared-project-library heading; shortened the final title to eliminate a heading/subtitle collision.",
       "evidenceNote": "The library capability is verified. The atlas is GPT-generated 2D concept art; it does not prove automatic style consistency, support for every file type, or production readiness.",
-      "image": "assets/v18/T18-EU-02.png?v=20261009-layout20"
+      "image": "assets/v18/T18-EU-02.png?v=20261009-layout20-all"
     },
     {
       "id": "A18-US-01",
@@ -74,7 +74,7 @@
       "angle": "Asynchronous 3D generation integrated into game and asset tools.",
       "visual": "单一主标题与用途；右列只留提交、查询、成功后取回；删除第二套流程及图内标签。",
       "evidenceNote": "API task creation, status queries and successful-result retrieval are verified. This is a workflow illustration with GPT 2D artwork, not an executed API example or a game-ready result.",
-      "image": "assets/v18/A18-US-01.png?v=20261009-layout20"
+      "image": "assets/v18/A18-US-01.png?v=20261009-layout20-all"
     },
     {
       "id": "A18-US-02",
@@ -89,7 +89,7 @@
       "angle": "Make 3D generation part of an existing developer-controlled tool workflow.",
       "visual": "保留品牌大字与大模型；删竖排边栏、重复任务关系及微标签，工作流细节留在配文。",
       "evidenceNote": "Developer integration is verified as an API capability. Integration requires engineering; pictured GPT 2D art is not a returned mesh, and one request does not automatically finish the whole pipeline.",
-      "image": "assets/v18/A18-US-02.png?v=20261009-layout20"
+      "image": "assets/v18/A18-US-02.png?v=20261009-layout20-all"
     },
     {
       "id": "A18-EU-01",
@@ -104,7 +104,7 @@
       "angle": "Business use: model generation as part of a product-display content workflow.",
       "visual": "统一顶部标题与用途层级，完整产品居中展示，删装饰编号和重复产品标签；CTA独立底部。",
       "evidenceNote": "Image-to-3D integration is verified; product-display use is an intended application. The chair is concept art, not an exact digital twin, verified model, or an implemented viewer.",
-      "image": "assets/v18/A18-EU-01.png?v=20261009-layout20"
+      "image": "assets/v18/A18-EU-01.png?v=20261009-layout20-all"
     },
     {
       "id": "A18-EU-02",
@@ -117,9 +117,9 @@
       "destinationUrl": "https://developers.tripo3d.ai/en/docs/introduction",
       "audience": "European enterprise product-content, design-technology and application teams",
       "angle": "Connect asynchronous model generation to enterprise product-content tools.",
-      "visual": "重建两列：左列标题、用途、CTA共轴；右列完整产品。删掉平台加号公式、重复步骤与图下标签。",
+      "visual": "重建两列：左列标题、用途、CTA共轴；右列完整产品。删掉平台加号公式、重复步骤与图下标签；副文改为完整两行，避免 tools. 孤行。",
       "evidenceNote": "Task retrieval and developer integration are verified. The product-experience direction is illustrative, not a deployed customer solution, exact product reproduction, or measured business result.",
-      "image": "assets/v18/A18-EU-02.png?v=20261009-layout20"
+      "image": "assets/v18/A18-EU-02.png?v=20261009-layout20-all"
     }
   ],
   "title": "V18 · 八张多风格图文 · V20排版修订"

@@ -1,0 +1,1060 @@
+{
+  "revision": "20261009-layout20-all",
+  "covers": [
+    {
+      "id": "T18-US-01",
+      "originalId": "T18-US-01",
+      "title": "Assets. Shared.",
+      "subtitle": "Keep your game team's assets in one workspace.",
+      "originalTitle": "Less file chasing.\nMore game-making.",
+      "originalSubtitle": "Your game assets. One shared workspace.",
+      "audience": "US game teams — shared-asset workflow",
+      "style": "Bright studio / large asset hero",
+      "cta": "Explore Teams",
+      "disclosure": "AI concept artwork · Not a Tripo output",
+      "png": "finals/T18-US-01.png",
+      "qa": "qa/T18-US-01-360.png",
+      "assets": [
+        "assets/rover.png"
+      ],
+      "changes": "One direct shared-assets claim replaces the longer two-part headline. Removed the Find/Share/Reuse sidebar, repeated metadata and footer copy. A single shared-library band and team icon connect the large, complete rover to the collaboration use case. Final spacing revision: centered the image at 1024 × 600 within its 1072px pale-gray container, retaining cover and 42.5% vertical positioning, to increase breathing room around the mast and wheels. Viewed again at 1200 and 360 pixels.",
+      "section": "teams",
+      "image": "assets/v18/T18-US-01.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#T18-US-01",
+      "group": "Teams · 美国"
+    },
+    {
+      "id": "T18-US-02",
+      "originalId": "T18-US-02",
+      "title": "Create together. Build on it.",
+      "subtitle": "A shared library for your game's assets.",
+      "originalTitle": "Create together.\nReuse together.",
+      "originalSubtitle": "One shared library for your game's assets.",
+      "audience": "US game teams — shared library and reuse",
+      "style": "Brand yellow / shared character-and-world collection",
+      "cta": "Explore Teams",
+      "disclosure": "AI concept artwork · Not a Tripo output",
+      "png": "finals/T18-US-02.png",
+      "qa": "qa/T18-US-02-360.png",
+      "assets": [
+        "assets/explorer.png",
+        "assets/observatory.png"
+      ],
+      "changes": "Removed repeated workspace/footer statements and asset numbers. One continuous shared-library heading groups the character and environment without pretending to show the actual product UI. Retained brand yellow and assembled the logo from original official PNG crops on a black icon backing; no logo redraw.",
+      "section": "teams",
+      "image": "assets/v18/T18-US-02.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#T18-US-02",
+      "group": "Teams · 美国"
+    },
+    {
+      "id": "T18-EU-01",
+      "originalId": "T18-EU-01",
+      "title": "A world to build. A place to share.",
+      "subtitle": "Bring your exploration game's assets into one shared workspace.",
+      "originalTitle": "Build a world.\nBring your team.",
+      "originalSubtitle": "Your game's assets. Together in one workspace.",
+      "audience": "European game teams — exploration-game world project",
+      "style": "Cinematic environment / dark editorial",
+      "cta": "Explore Teams",
+      "disclosure": "AI concept artwork · Not a customer project",
+      "png": "finals/T18-EU-01.png",
+      "qa": "qa/T18-EU-01-360.png",
+      "assets": [
+        "assets/harbor.png"
+      ],
+      "changes": "The purpose sentence names an exploration-game project and explicitly links its assets to a shared workspace. Removed the micro-inventory and duplicate footer slogan. Preserved the main tower and environment, with one left-aligned text system and a contrast gradient.",
+      "section": "teams",
+      "image": "assets/v18/T18-EU-01.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#T18-EU-01",
+      "group": "Teams · 欧洲"
+    },
+    {
+      "id": "T18-EU-02",
+      "originalId": "T18-EU-02",
+      "title": "One game. One library.",
+      "subtitle": "Keep characters and worlds together for your next exploration game.",
+      "originalTitle": "One project.\nEvery asset.",
+      "originalSubtitle": "Keep your game's\ncharacters and worlds\nin a shared workspace.",
+      "audience": "European game teams — character-and-world project library",
+      "style": "Technical project board / muted green",
+      "cta": "Explore Teams",
+      "disclosure": "AI concept artwork · Not a Tripo output",
+      "png": "finals/T18-EU-02.png",
+      "qa": "qa/T18-EU-02-360.png",
+      "assets": [
+        "assets/explorer.png",
+        "assets/observatory.png"
+      ],
+      "changes": "Two clear top text columns separate the claim from the concrete project use. Removed asset numbers, project micro-labels, arrow row and duplicate footer slogan. Enlarged the paired assets under one shared-project-library heading; shortened the final title to eliminate a heading/subtitle collision.",
+      "section": "teams",
+      "image": "assets/v18/T18-EU-02.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#T18-EU-02",
+      "group": "Teams · 欧洲"
+    },
+    {
+      "id": "A18-US-01",
+      "title": "3D generation. Your pipeline.",
+      "subtitle": "Build 3D generation into your game-asset tools.",
+      "changes": "单一主标题与用途；右列只留提交、查询、成功后取回；删除第二套流程及图内标签。",
+      "section": "api",
+      "image": "assets/v18/A18-US-01.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#A18-US-01",
+      "group": "API · 美国"
+    },
+    {
+      "id": "A18-US-02",
+      "title": "Your tools. A new dimension.",
+      "subtitle": "Connect 3D generation to your game-asset workflow.",
+      "changes": "保留品牌大字与大模型；删竖排边栏、重复任务关系及微标签，工作流细节留在配文。",
+      "section": "api",
+      "image": "assets/v18/A18-US-02.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#A18-US-02",
+      "group": "API · 美国"
+    },
+    {
+      "id": "A18-EU-01",
+      "title": "Put products in perspective.",
+      "subtitle": "3D generation for your product-content tools.",
+      "changes": "统一顶部标题与用途层级，完整产品居中展示，删装饰编号和重复产品标签；CTA独立底部。",
+      "section": "api",
+      "image": "assets/v18/A18-EU-01.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#A18-EU-01",
+      "group": "API · 欧洲"
+    },
+    {
+      "id": "A18-EU-02",
+      "title": "Make room for 3D.",
+      "subtitle": "3D generation for your product content.",
+      "changes": "重建两列：左列标题、用途、CTA共轴；右列完整产品。删掉平台加号公式、重复步骤与图下标签；副文改为完整两行，避免 tools. 孤行。",
+      "section": "api",
+      "image": "assets/v18/A18-EU-02.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#A18-EU-02",
+      "group": "API · 欧洲"
+    },
+    {
+      "originalId": "T19-US",
+      "file": "finals/T19-US.png",
+      "audience": "US game teams",
+      "product": "Teams",
+      "title": "One team. One asset library.",
+      "subtitle": "Share game assets in one workspace.",
+      "cta": "Explore Teams",
+      "layout": "Two related assets on two shared alignment axes; large character plus supporting vehicle.",
+      "removed": [
+        "Find. Share. Reuse. duplicate list",
+        "Your project / your team’s library restatement",
+        "Shared assets. One workspace. footer"
+      ],
+      "changeReason": "One clear shared-library promise replaces three repetitions; keep the character and vehicle connected by project meaning rather than fictitious UI.",
+      "id": "T19-US",
+      "section": "models",
+      "image": "assets/v19/T19-US.png?v=20261009-layout20-all",
+      "page": "models-v19.html?v=20261009-layout20-all#T19-US",
+      "changes": "One clear shared-library promise replaces three repetitions; keep the character and vehicle connected by project meaning rather than fictitious UI.",
+      "group": "Teams · 美国"
+    },
+    {
+      "originalId": "T19-EU",
+      "file": "finals/T19-EU.png",
+      "audience": "EU game project teams",
+      "product": "Teams",
+      "title": "One world. Shared assets.",
+      "subtitle": "Keep your game’s assets in one shared workspace.",
+      "cta": "Explore Teams",
+      "layout": "Large complete architectural asset at right; left purpose and action column.",
+      "removed": [
+        "Characters + Props + Environments micro-row",
+        "One shared library repeated label",
+        "Keep your game’s assets together footer"
+      ],
+      "changeReason": "Replace repeated statements and narrow bottom strips with a direct project purpose and a bigger uninterrupted model.",
+      "id": "T19-EU",
+      "section": "models",
+      "image": "assets/v19/T19-EU.png?v=20261009-layout20-all",
+      "page": "models-v19.html?v=20261009-layout20-all#T19-EU",
+      "changes": "Replace repeated statements and narrow bottom strips with a direct project purpose and a bigger uninterrupted model.",
+      "group": "Teams · 欧洲"
+    },
+    {
+      "originalId": "A19-US",
+      "file": "finals/A19-US.png",
+      "audience": "US game and 3D-asset tool developers",
+      "product": "API",
+      "title": "3D generation. Inside your tools.",
+      "subtitle": "Create game assets through Tripo API.",
+      "cta": "Explore API",
+      "flow": [
+        "Submit task",
+        "Track status",
+        "Retrieve result — After success"
+      ],
+      "layout": "Dark asset-led frame with one asynchronous workflow, aligned on two columns.",
+      "removed": [
+        "Your tool → Tripo API → Review & refine second flow",
+        "Your pipeline. Your next asset. footer",
+        "01/02/03 labels"
+      ],
+      "changeReason": "Keep only the task lifecycle needed to explain API integration; remove the parallel process and footer that previously competed with the model and CTA.",
+      "id": "A19-US",
+      "section": "models",
+      "image": "assets/v19/A19-US.png?v=20261009-layout20-all",
+      "page": "models-v19.html?v=20261009-layout20-all#A19-US",
+      "changes": "Keep only the task lifecycle needed to explain API integration; remove the parallel process and footer that previously competed with the model and CTA.",
+      "group": "API · 美国"
+    },
+    {
+      "originalId": "A19-EU",
+      "file": "finals/A19-EU.png",
+      "audience": "EU enterprise product-content platforms",
+      "product": "API",
+      "title": "Product content. In 3D.",
+      "subtitle": "Connect your platform to Tripo API.",
+      "cta": "Explore API",
+      "layout": "Two-line full-width headline; grouped left purpose/action and complete large product at right.",
+      "removed": [
+        "Your platform. Tripo API. repeated module",
+        "Generate / Review / Build it in list",
+        "From content tools to product experiences footer"
+      ],
+      "changeReason": "Keep Product content together on one line, group the purpose with its CTA, and give the coffee-machine asset one large uninterrupted area.",
+      "id": "A19-EU",
+      "section": "models",
+      "image": "assets/v19/A19-EU.png?v=20261009-layout20-all",
+      "page": "models-v19.html?v=20261009-layout20-all#A19-EU",
+      "changes": "Keep Product content together on one line, group the purpose with its CTA, and give the coffee-machine asset one large uninterrupted area.",
+      "group": "API · 欧洲"
+    },
+    {
+      "id": "T17-US",
+      "title": "Less file chasing.\nMore game-making.",
+      "subtitle": "Keep your team's assets in the same workspace.",
+      "cta": "Explore Teams",
+      "disclosure": "AI concept artwork · Not a Tripo output",
+      "width": 1200,
+      "height": 1200,
+      "font": true,
+      "imagesLoaded": true,
+      "overflow": [],
+      "textBoxes": {
+        "brand": {
+          "x": 64,
+          "y": 52,
+          "width": 1072,
+          "height": 56,
+          "right": 1136,
+          "bottom": 108
+        },
+        "H1": {
+          "x": 64,
+          "y": 156,
+          "width": 1072,
+          "height": 203.5,
+          "right": 1136,
+          "bottom": 359.5
+        },
+        "purpose": {
+          "x": 64,
+          "y": 480,
+          "width": 336,
+          "height": 225.25,
+          "right": 400,
+          "bottom": 705.25
+        },
+        "FOOTER": {
+          "x": 64,
+          "y": 745.25,
+          "width": 340.328125,
+          "height": 73.390625,
+          "right": 404.328125,
+          "bottom": 818.640625
+        },
+        "FIGCAPTION": {
+          "x": 440,
+          "y": 388,
+          "width": 696,
+          "height": 56,
+          "right": 1136,
+          "bottom": 444
+        },
+        "disclosure": {
+          "x": 64,
+          "y": 1142.40625,
+          "width": 1072,
+          "height": 33.59375,
+          "right": 1136,
+          "bottom": 1176
+        }
+      },
+      "spacing": {
+        "ctaBox": {
+          "x": 64,
+          "y": 745.25,
+          "width": 340.328125,
+          "height": 73.390625,
+          "right": 404.328125,
+          "bottom": 818.640625
+        },
+        "heroBox": {
+          "x": 440,
+          "y": 388,
+          "width": 696,
+          "height": 652,
+          "right": 1136,
+          "bottom": 1040
+        },
+        "purposeToCta": 40,
+        "heroToCta": null,
+        "horizontalCtaToHero": 35.671875,
+        "overlapsHero": false
+      },
+      "assets": [
+        "assets/tripo-black.png",
+        "assets/explorer.png"
+      ],
+      "headlineMatchesAuthority": true,
+      "originalId": "T17-US",
+      "sourceTitle": "少追文件，多做游戏。",
+      "audience": "Teams · 美国游戏",
+      "status": "review-ready",
+      "changes": [
+        "Removed the repeated Create/Find/Reuse sidebar and domain footer.",
+        "One purpose sentence sits beside a larger character under a single shared-library label."
+      ],
+      "png": "finals/T17-US.png",
+      "qa": "qa/T17-US-360.png",
+      "bytes": 473873,
+      "section": "campaign",
+      "group": "Teams · 美国",
+      "image": "assets/v17/T17-US.png?v=20261009-layout20-all",
+      "page": "campaign-v17.html?v=20261009-layout20-all#T17-US",
+      "lane": "main"
+    },
+    {
+      "id": "T17-EU",
+      "title": "Your next game.\nOne shared workspace.",
+      "subtitle": "Keep characters and environments together.",
+      "cta": "Explore Teams",
+      "disclosure": "AI concept assets · Shared-project illustration",
+      "width": 1200,
+      "height": 1200,
+      "font": true,
+      "imagesLoaded": true,
+      "overflow": [],
+      "textBoxes": {
+        "brand": {
+          "x": 64,
+          "y": 52,
+          "width": 1072,
+          "height": 56,
+          "right": 1136,
+          "bottom": 108
+        },
+        "H1": {
+          "x": 64,
+          "y": 156,
+          "width": 1072,
+          "height": 192.59375,
+          "right": 1136,
+          "bottom": 348.59375
+        },
+        "purpose": {
+          "x": 64,
+          "y": 376,
+          "width": 1072,
+          "height": 52,
+          "right": 1136,
+          "bottom": 428
+        },
+        "library-heading": {
+          "x": 64,
+          "y": 448,
+          "width": 1072,
+          "height": 56,
+          "right": 1136,
+          "bottom": 504
+        },
+        "FOOTER": {
+          "x": 64,
+          "y": 1054.609375,
+          "width": 1072,
+          "height": 73.390625,
+          "right": 1136,
+          "bottom": 1128
+        },
+        "disclosure": {
+          "x": 64,
+          "y": 1142.40625,
+          "width": 1072,
+          "height": 33.59375,
+          "right": 1136,
+          "bottom": 1176
+        }
+      },
+      "spacing": {
+        "ctaBox": {
+          "x": 795.671875,
+          "y": 1054.609375,
+          "width": 340.328125,
+          "height": 73.390625,
+          "right": 1136,
+          "bottom": 1128
+        },
+        "heroBox": {
+          "x": 64,
+          "y": 448,
+          "width": 1072,
+          "height": 568,
+          "right": 1136,
+          "bottom": 1016
+        },
+        "purposeToCta": null,
+        "heroToCta": 38.609375,
+        "horizontalCtaToHero": null,
+        "overlapsHero": false
+      },
+      "assets": [
+        "assets/tripo-black.png",
+        "assets/explorer.png",
+        "assets/observatory.png"
+      ],
+      "headlineMatchesAuthority": true,
+      "originalId": "T17-EU",
+      "sourceTitle": "下一款游戏，同一个共享工作区。",
+      "audience": "Teams · 欧洲游戏",
+      "status": "review-ready",
+      "changes": [
+        "Kept the paired character/environment relationship, removed small asset badges.",
+        "Unified the project heading and shared-project label; larger assets and a consistent footer baseline."
+      ],
+      "png": "finals/T17-EU.png",
+      "qa": "qa/T17-EU-360.png",
+      "bytes": 775352,
+      "section": "campaign",
+      "group": "Teams · 欧洲",
+      "image": "assets/v17/T17-EU.png?v=20261009-layout20-all",
+      "page": "campaign-v17.html?v=20261009-layout20-all#T17-EU",
+      "lane": "main"
+    },
+    {
+      "id": "A17-US",
+      "title": "3D generation.\nInside your pipeline.",
+      "subtitle": "Review and refine models for your game.",
+      "cta": "View API docs",
+      "disclosure": "AI concept artwork · Integration illustration",
+      "width": 1200,
+      "height": 1200,
+      "font": true,
+      "imagesLoaded": true,
+      "overflow": [],
+      "textBoxes": {
+        "brand": {
+          "x": 64,
+          "y": 52,
+          "width": 1072,
+          "height": 56,
+          "right": 1136,
+          "bottom": 108
+        },
+        "H1": {
+          "x": 64,
+          "y": 156,
+          "width": 1072,
+          "height": 207.34375,
+          "right": 1136,
+          "bottom": 363.34375
+        },
+        "purpose": {
+          "x": 64,
+          "y": 388,
+          "width": 1072,
+          "height": 52,
+          "right": 1136,
+          "bottom": 440
+        },
+        "api-steps": {
+          "x": 64,
+          "y": 492,
+          "width": 336,
+          "height": 352.78125,
+          "right": 400,
+          "bottom": 844.78125
+        },
+        "FOOTER": {
+          "x": 64,
+          "y": 884.78125,
+          "width": 329.453125,
+          "height": 73.390625,
+          "right": 393.453125,
+          "bottom": 958.171875
+        },
+        "disclosure": {
+          "x": 64,
+          "y": 1142.40625,
+          "width": 1072,
+          "height": 33.59375,
+          "right": 1136,
+          "bottom": 1176
+        }
+      },
+      "spacing": {
+        "ctaBox": {
+          "x": 64,
+          "y": 884.78125,
+          "width": 329.453125,
+          "height": 73.390625,
+          "right": 393.453125,
+          "bottom": 958.171875
+        },
+        "heroBox": {
+          "x": 464,
+          "y": 448,
+          "width": 672,
+          "height": 592,
+          "right": 1136,
+          "bottom": 1040
+        },
+        "purposeToCta": 40,
+        "heroToCta": null,
+        "horizontalCtaToHero": 70.546875,
+        "overlapsHero": false
+      },
+      "assets": [
+        "assets/tripo-white.png",
+        "assets/phoenix.png"
+      ],
+      "headlineMatchesAuthority": true,
+      "originalId": "A17-US",
+      "sourceTitle": "3D 生成，接入你的生产管线。",
+      "audience": "API · 美国游戏＋3D资产",
+      "status": "review-ready",
+      "changes": [
+        "Removed the duplicate Your tool + API heading and long sidebar paragraph.",
+        "A short ordered Submit/Track/Retrieve sequence preserves the success condition; dark field separates the technical direction."
+      ],
+      "png": "finals/A17-US.png",
+      "qa": "qa/A17-US-360.png",
+      "bytes": 608894,
+      "section": "campaign",
+      "group": "API · 美国",
+      "image": "assets/v17/A17-US.png?v=20261009-layout20-all",
+      "page": "campaign-v17.html?v=20261009-layout20-all#A17-US",
+      "lane": "main"
+    },
+    {
+      "id": "A17-EU",
+      "title": "3D for your\nproduct experiences.",
+      "subtitle": "Build image-to-3D into product-content tools.",
+      "cta": "Explore the API",
+      "disclosure": "AI concept product · Business-use illustration",
+      "width": 1200,
+      "height": 1200,
+      "font": true,
+      "imagesLoaded": true,
+      "overflow": [],
+      "textBoxes": {
+        "brand": {
+          "x": 64,
+          "y": 52,
+          "width": 1072,
+          "height": 56,
+          "right": 1136,
+          "bottom": 108
+        },
+        "H1": {
+          "x": 64,
+          "y": 156,
+          "width": 1072,
+          "height": 203.5,
+          "right": 1136,
+          "bottom": 359.5
+        },
+        "purpose": {
+          "x": 64,
+          "y": 464,
+          "width": 352,
+          "height": 156,
+          "right": 416,
+          "bottom": 620
+        },
+        "FIGCAPTION": {
+          "x": 464,
+          "y": 400,
+          "width": 672,
+          "height": 56,
+          "right": 1136,
+          "bottom": 456
+        },
+        "FOOTER": {
+          "x": 64,
+          "y": 1054.609375,
+          "width": 1072,
+          "height": 73.390625,
+          "right": 1136,
+          "bottom": 1128
+        },
+        "disclosure": {
+          "x": 64,
+          "y": 1142.40625,
+          "width": 1072,
+          "height": 33.59375,
+          "right": 1136,
+          "bottom": 1176
+        }
+      },
+      "spacing": {
+        "ctaBox": {
+          "x": 783.96875,
+          "y": 1054.609375,
+          "width": 352.03125,
+          "height": 73.390625,
+          "right": 1136,
+          "bottom": 1128
+        },
+        "heroBox": {
+          "x": 464,
+          "y": 400,
+          "width": 672,
+          "height": 616,
+          "right": 1136,
+          "bottom": 1016
+        },
+        "purposeToCta": null,
+        "heroToCta": 38.609375,
+        "horizontalCtaToHero": null,
+        "overlapsHero": false
+      },
+      "assets": [
+        "assets/tripo-black.png",
+        "assets/phoenix.png"
+      ],
+      "headlineMatchesAuthority": true,
+      "originalId": "A17-EU",
+      "sourceTitle": "用 3D 丰富产品体验。",
+      "audience": "API · 欧洲企业内容",
+      "status": "review-ready",
+      "changes": [
+        "Removed the repeated business headings and product-feature list.",
+        "Final revision removes the oversized empty image-stage gutters; a larger phoenix sits beside one purpose sentence and the preserved review condition."
+      ],
+      "png": "finals/A17-EU.png",
+      "qa": "qa/A17-EU-360.png",
+      "bytes": 554141,
+      "section": "campaign",
+      "group": "API · 欧洲",
+      "image": "assets/v17/A17-EU.png?v=20261009-layout20-all",
+      "page": "campaign-v17.html?v=20261009-layout20-all#A17-EU",
+      "lane": "main"
+    },
+    {
+      "id": "R17-US",
+      "title": "Keep the next asset\nhandoff in one place.",
+      "subtitle": "Bring your game team's assets into a shared library.",
+      "cta": "Request a trial",
+      "disclosure": "AI concept · Retargeting draft / source match pending",
+      "width": 1200,
+      "height": 1200,
+      "font": true,
+      "imagesLoaded": true,
+      "overflow": [],
+      "textBoxes": {
+        "brand": {
+          "x": 64,
+          "y": 52,
+          "width": 1072,
+          "height": 56,
+          "right": 1136,
+          "bottom": 108
+        },
+        "H1": {
+          "x": 64,
+          "y": 156,
+          "width": 1072,
+          "height": 195.03125,
+          "right": 1136,
+          "bottom": 351.03125
+        },
+        "purpose": {
+          "x": 64,
+          "y": 484,
+          "width": 352,
+          "height": 225.25,
+          "right": 416,
+          "bottom": 709.25
+        },
+        "FOOTER": {
+          "x": 64,
+          "y": 749.25,
+          "width": 333.390625,
+          "height": 73.390625,
+          "right": 397.390625,
+          "bottom": 822.640625
+        },
+        "disclosure": {
+          "x": 64,
+          "y": 1137.609375,
+          "width": 1072,
+          "height": 38.390625,
+          "right": 1136,
+          "bottom": 1176
+        }
+      },
+      "spacing": {
+        "ctaBox": {
+          "x": 64,
+          "y": 749.25,
+          "width": 333.390625,
+          "height": 73.390625,
+          "right": 397.390625,
+          "bottom": 822.640625
+        },
+        "heroBox": {
+          "x": 440,
+          "y": 412,
+          "width": 696,
+          "height": 628,
+          "right": 1136,
+          "bottom": 1040
+        },
+        "purposeToCta": 40,
+        "heroToCta": null,
+        "horizontalCtaToHero": 42.609375,
+        "overlapsHero": false
+      },
+      "assets": [
+        "assets/tripo-white.png",
+        "assets/tripo-black.png",
+        "assets/explorer.png"
+      ],
+      "headlineMatchesAuthority": true,
+      "originalId": "R17-US",
+      "sourceTitle": "下一次资产交接，也在同一空间。",
+      "audience": "Teams · 美国游戏 · 符合条件的视频浏览再营销受众",
+      "status": "needs-evidence",
+      "changes": [
+        "Reconciled the image headline to the authoritative current-site asset-handoff headline.",
+        "Removed the fragmented three-item list and side stripe; larger character, brand-yellow field and one request action.",
+        "Retargeting remains needs-evidence; no launch readiness is implied."
+      ],
+      "png": "finals/R17-US.png",
+      "qa": "qa/R17-US-360.png",
+      "bytes": 549745,
+      "section": "campaign",
+      "group": "Teams · 美国",
+      "image": "assets/v17/R17-US.png?v=20261009-layout20-all",
+      "page": "campaign-v17.html?v=20261009-layout20-all#R17-US",
+      "lane": "retargeting"
+    },
+    {
+      "id": "R17-EU",
+      "title": "One game world.\nA shared asset library.",
+      "subtitle": "Share your project and asset needs.",
+      "cta": "Share your needs",
+      "disclosure": "AI concept · Retargeting draft / source match pending",
+      "width": 1200,
+      "height": 1200,
+      "font": true,
+      "imagesLoaded": true,
+      "overflow": [],
+      "textBoxes": {
+        "brand": {
+          "x": 64,
+          "y": 52,
+          "width": 1072,
+          "height": 56,
+          "right": 1136,
+          "bottom": 108
+        },
+        "H1": {
+          "x": 64,
+          "y": 156,
+          "width": 1072,
+          "height": 198.71875,
+          "right": 1136,
+          "bottom": 354.71875
+        },
+        "purpose": {
+          "x": 64,
+          "y": 500,
+          "width": 352,
+          "height": 168.9375,
+          "right": 416,
+          "bottom": 668.9375
+        },
+        "FOOTER": {
+          "x": 64,
+          "y": 708.9375,
+          "width": 347.828125,
+          "height": 71.09375,
+          "right": 411.828125,
+          "bottom": 780.03125
+        },
+        "disclosure": {
+          "x": 64,
+          "y": 1137.609375,
+          "width": 1072,
+          "height": 38.390625,
+          "right": 1136,
+          "bottom": 1176
+        }
+      },
+      "spacing": {
+        "ctaBox": {
+          "x": 64,
+          "y": 708.9375,
+          "width": 347.828125,
+          "height": 71.09375,
+          "right": 411.828125,
+          "bottom": 780.03125
+        },
+        "heroBox": {
+          "x": 440,
+          "y": 412,
+          "width": 696,
+          "height": 628,
+          "right": 1136,
+          "bottom": 1040
+        },
+        "purposeToCta": 40,
+        "heroToCta": null,
+        "horizontalCtaToHero": 28.171875,
+        "overlapsHero": false
+      },
+      "assets": [
+        "assets/tripo-white.png",
+        "assets/observatory.png"
+      ],
+      "headlineMatchesAuthority": true,
+      "originalId": "R17-EU",
+      "sourceTitle": "同一个游戏世界，共享同一资产库。",
+      "audience": "Teams · 欧洲游戏 · 符合条件的视频浏览再营销受众",
+      "status": "needs-evidence",
+      "changes": [
+        "Reconciled the image headline to the authoritative current-site shared-game-world headline.",
+        "Removed the fragmented list and side stripe; complete environment beside one project-needs sentence.",
+        "Retargeting remains needs-evidence; no launch readiness is implied."
+      ],
+      "png": "finals/R17-EU.png",
+      "qa": "qa/R17-EU-360.png",
+      "bytes": 654837,
+      "section": "campaign",
+      "group": "Teams · 欧洲",
+      "image": "assets/v17/R17-EU.png?v=20261009-layout20-all",
+      "page": "campaign-v17.html?v=20261009-layout20-all#R17-EU",
+      "lane": "retargeting"
+    }
+  ],
+  "banners": [
+    {
+      "id": "T17-US",
+      "title": "One team. One asset library.",
+      "cta": "Explore Teams",
+      "asset": "assets/explorer.png",
+      "changes": [
+        "Title reflowed into three short lines to separate it from the model.",
+        "Full source image contained in a 136px square; the old contain box displayed its square image at 123px. Neither version stretches the image.",
+        "CTA and disclosure have dedicated non-overlapping rows."
+      ]
+    },
+    {
+      "id": "T17-EU",
+      "title": "One game. One asset library.",
+      "cta": "Explore Teams",
+      "asset": "assets/observatory.png",
+      "changes": [
+        "One shared-library benefit now directly relates the game asset to Teams.",
+        "Environment image remains complete; no crop or pixel editing.",
+        "Removed diagonal arrow from visual CTA to avoid cramped decoration."
+      ]
+    },
+    {
+      "id": "A17-US",
+      "title": "3D in your tools.",
+      "cta": "View API docs",
+      "asset": "assets/phoenix.png",
+      "changes": [
+        "Compressed the proposition without adding a speed or readiness promise.",
+        "Separated title, complete asset and documentation CTA.",
+        "Omitted the redundant visual arrow; authoritative message CTA retained."
+      ]
+    },
+    {
+      "id": "A17-EU",
+      "title": "Product content. In 3D.",
+      "cta": "View API docs",
+      "asset": "assets/phoenix.png",
+      "changes": [
+        "Kept the enterprise-content angle with a short three-line proposition.",
+        "Corrected image CTA from Explore API to the existing message CTA View API docs.",
+        "No changes to subject, body, destination or product promises."
+      ]
+    },
+    {
+      "id": "R17-US",
+      "title": "A shared home for 3D assets.",
+      "cta": "Request a trial",
+      "asset": "assets/explorer.png",
+      "changes": [
+        "One shared-asset benefit, no supplementary feature list.",
+        "Retained the same concept as a retargeting layout draft only.",
+        "Source-match and audience evidence remain pending; no status upgrade."
+      ]
+    },
+    {
+      "id": "R17-EU",
+      "title": "A shared library for your game.",
+      "cta": "Share your needs",
+      "asset": "assets/observatory.png",
+      "changes": [
+        "Game project and shared-library meaning are stated directly.",
+        "CTA matches the existing message field exactly.",
+        "Retargeting evidence remains pending; original concept artwork unchanged."
+      ]
+    }
+  ],
+  "files": [
+    {
+      "id": "T17-US",
+      "kind": "campaign",
+      "file": "assets/v17/T17-US.png",
+      "sha256": "ca11c2057c027f9103cb6deaacf20ad071895fd66bd6215b2efcaf7653f5bd2e"
+    },
+    {
+      "id": "T17-US",
+      "kind": "message-banners",
+      "file": "assets/v17/banners/T17-US.png",
+      "sha256": "cecc9e402cd665a9a758ead82547b1e520910985a148ab84d307ba3051f6ca7e"
+    },
+    {
+      "id": "T17-EU",
+      "kind": "campaign",
+      "file": "assets/v17/T17-EU.png",
+      "sha256": "5cbebe8fe0fc7b284da88130ca6efe676f159471294e73c80f783aab9eabc8f5"
+    },
+    {
+      "id": "T17-EU",
+      "kind": "message-banners",
+      "file": "assets/v17/banners/T17-EU.png",
+      "sha256": "e717467cf02bf609f090ccdac6b8f3884106db3ddb1d7ced4d65c59e8dbb9b05"
+    },
+    {
+      "id": "A17-US",
+      "kind": "campaign",
+      "file": "assets/v17/A17-US.png",
+      "sha256": "59e0a61513826eef07ea25fc53def320bd9e33bf7c1b58e1422fa6d7c4433e91"
+    },
+    {
+      "id": "A17-US",
+      "kind": "message-banners",
+      "file": "assets/v17/banners/A17-US.png",
+      "sha256": "ca103149993f09eb768fb9b02c12ad275b7fe64f0a0948cfd216a62880f6b773"
+    },
+    {
+      "id": "A17-EU",
+      "kind": "campaign",
+      "file": "assets/v17/A17-EU.png",
+      "sha256": "2ac85e38a26592e19a0d34cf6cc5ca5dc00a4176397659b4e8422d611bb91844"
+    },
+    {
+      "id": "A17-EU",
+      "kind": "message-banners",
+      "file": "assets/v17/banners/A17-EU.png",
+      "sha256": "3bbd99666302162739f6a964c5b71eaec41bb50985800770aac6397a62c59d84"
+    },
+    {
+      "id": "R17-US",
+      "kind": "campaign",
+      "file": "assets/v17/R17-US.png",
+      "sha256": "19a3e2b1af6ef06d55ca764fd672cd50dfdbcb80533170e6cac991ea44e5cb79"
+    },
+    {
+      "id": "R17-US",
+      "kind": "message-banners",
+      "file": "assets/v17/banners/R17-US.png",
+      "sha256": "70360d3914b46ab68e02d22dd162f3ca4e9361bfb351d6358af0a07e2de80ac7"
+    },
+    {
+      "id": "R17-EU",
+      "kind": "campaign",
+      "file": "assets/v17/R17-EU.png",
+      "sha256": "5db402df93200c798abddd6cc9cb8884e93c222c71f426e527980030c3653a52"
+    },
+    {
+      "id": "R17-EU",
+      "kind": "message-banners",
+      "file": "assets/v17/banners/R17-EU.png",
+      "sha256": "ed49bc53c4344e53798914f6b7307767b4faab0d13f162b358e5c07780edcd04"
+    },
+    {
+      "id": "T18-US-01",
+      "kind": "cover",
+      "file": "assets/v18/T18-US-01.png",
+      "sha256": "cd75b6547a83b780af7122e60f7a55d5d938bbb3a3580a767ce4a58ad515d39e"
+    },
+    {
+      "id": "T18-US-02",
+      "kind": "cover",
+      "file": "assets/v18/T18-US-02.png",
+      "sha256": "6a53559b4a7b8afe8d14a10700ddb2461367a14936fdd7a5786eb2938d694a6c"
+    },
+    {
+      "id": "T18-EU-01",
+      "kind": "cover",
+      "file": "assets/v18/T18-EU-01.png",
+      "sha256": "c958d27568181920895043f94b3a50160d6b5a1e23b0d79129c701a1026b1c7c"
+    },
+    {
+      "id": "T18-EU-02",
+      "kind": "cover",
+      "file": "assets/v18/T18-EU-02.png",
+      "sha256": "e13fe8db1f6468d491029592cc1657b2ef2dd3e0b502b5e1535e96325bbe7bd1"
+    },
+    {
+      "id": "A18-US-01",
+      "kind": "cover",
+      "file": "assets/v18/A18-US-01.png",
+      "sha256": "040687e44b7d67c4555a1e9c8efa44b0abb48c40c72a8d74f01e452578253524"
+    },
+    {
+      "id": "A18-US-02",
+      "kind": "cover",
+      "file": "assets/v18/A18-US-02.png",
+      "sha256": "15a519e2218d20da5d2c3f9f90a09d54ee2ac5fab83cafbeacc1ad4bda2a0f5f"
+    },
+    {
+      "id": "A18-EU-01",
+      "kind": "cover",
+      "file": "assets/v18/A18-EU-01.png",
+      "sha256": "12bc005b4cb5e55f0105372d74e6725b5812a9d51200e826b8c282d617924991"
+    },
+    {
+      "id": "A18-EU-02",
+      "kind": "cover",
+      "file": "assets/v18/A18-EU-02.png",
+      "sha256": "5ab32dbb68c9ece528a116a6c12129c7ead634be16d06a971939e41e7f7973f1"
+    },
+    {
+      "id": "T19-US",
+      "kind": "cover",
+      "file": "assets/v19/T19-US.png",
+      "sha256": "ac2507c6553c42960388c4462245fc067b78e999f862def26df20774740566f4"
+    },
+    {
+      "id": "T19-EU",
+      "kind": "cover",
+      "file": "assets/v19/T19-EU.png",
+      "sha256": "3d80bb4c11aa37d057be4fab0cbaf336cf137e0a55dfd31c03dfb671132b0198"
+    },
+    {
+      "id": "A19-US",
+      "kind": "cover",
+      "file": "assets/v19/A19-US.png",
+      "sha256": "8f61348bd0ab03ff16ceab74fda158b3505cde9cc82e947fd8ba0e439b58094b"
+    },
+    {
+      "id": "A19-EU",
+      "kind": "cover",
+      "file": "assets/v19/A19-EU.png",
+      "sha256": "c068562e100886aa459684ef37c49dfa369cb924d3e637244be8db6ae284ffea"
+    }
+  ]
+}

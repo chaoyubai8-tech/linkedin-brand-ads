@@ -1,5 +1,5 @@
 {
-  "revision": "20261009-layout20",
+  "revision": "20261009-layout20-all",
   "ads": [
     {
       "id": "T18-US-01",
@@ -19,8 +19,8 @@
       ],
       "changes": "One direct shared-assets claim replaces the longer two-part headline. Removed the Find/Share/Reuse sidebar, repeated metadata and footer copy. A single shared-library band and team icon connect the large, complete rover to the collaboration use case. Final spacing revision: centered the image at 1024 × 600 within its 1072px pale-gray container, retaining cover and 42.5% vertical positioning, to increase breathing room around the mast and wheels. Viewed again at 1200 and 360 pixels.",
       "section": "teams",
-      "image": "assets/v18/T18-US-01.png?v=20261009-layout20",
-      "page": "styles-v18.html?v=20261009-layout20#T18-US-01",
+      "image": "assets/v18/T18-US-01.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#T18-US-01",
       "group": "Teams · 美国"
     },
     {
@@ -42,8 +42,8 @@
       ],
       "changes": "Removed repeated workspace/footer statements and asset numbers. One continuous shared-library heading groups the character and environment without pretending to show the actual product UI. Retained brand yellow and assembled the logo from original official PNG crops on a black icon backing; no logo redraw.",
       "section": "teams",
-      "image": "assets/v18/T18-US-02.png?v=20261009-layout20",
-      "page": "styles-v18.html?v=20261009-layout20#T18-US-02",
+      "image": "assets/v18/T18-US-02.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#T18-US-02",
       "group": "Teams · 美国"
     },
     {
@@ -64,8 +64,8 @@
       ],
       "changes": "The purpose sentence names an exploration-game project and explicitly links its assets to a shared workspace. Removed the micro-inventory and duplicate footer slogan. Preserved the main tower and environment, with one left-aligned text system and a contrast gradient.",
       "section": "teams",
-      "image": "assets/v18/T18-EU-01.png?v=20261009-layout20",
-      "page": "styles-v18.html?v=20261009-layout20#T18-EU-01",
+      "image": "assets/v18/T18-EU-01.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#T18-EU-01",
       "group": "Teams · 欧洲"
     },
     {
@@ -87,8 +87,8 @@
       ],
       "changes": "Two clear top text columns separate the claim from the concrete project use. Removed asset numbers, project micro-labels, arrow row and duplicate footer slogan. Enlarged the paired assets under one shared-project-library heading; shortened the final title to eliminate a heading/subtitle collision.",
       "section": "teams",
-      "image": "assets/v18/T18-EU-02.png?v=20261009-layout20",
-      "page": "styles-v18.html?v=20261009-layout20#T18-EU-02",
+      "image": "assets/v18/T18-EU-02.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#T18-EU-02",
       "group": "Teams · 欧洲"
     },
     {
@@ -97,8 +97,8 @@
       "subtitle": "Build 3D generation into your game-asset tools.",
       "changes": "单一主标题与用途；右列只留提交、查询、成功后取回；删除第二套流程及图内标签。",
       "section": "api",
-      "image": "assets/v18/A18-US-01.png?v=20261009-layout20",
-      "page": "styles-v18.html?v=20261009-layout20#A18-US-01",
+      "image": "assets/v18/A18-US-01.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#A18-US-01",
       "group": "API · 美国"
     },
     {
@@ -107,8 +107,8 @@
       "subtitle": "Connect 3D generation to your game-asset workflow.",
       "changes": "保留品牌大字与大模型；删竖排边栏、重复任务关系及微标签，工作流细节留在配文。",
       "section": "api",
-      "image": "assets/v18/A18-US-02.png?v=20261009-layout20",
-      "page": "styles-v18.html?v=20261009-layout20#A18-US-02",
+      "image": "assets/v18/A18-US-02.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#A18-US-02",
       "group": "API · 美国"
     },
     {
@@ -117,18 +117,18 @@
       "subtitle": "3D generation for your product-content tools.",
       "changes": "统一顶部标题与用途层级，完整产品居中展示，删装饰编号和重复产品标签；CTA独立底部。",
       "section": "api",
-      "image": "assets/v18/A18-EU-01.png?v=20261009-layout20",
-      "page": "styles-v18.html?v=20261009-layout20#A18-EU-01",
+      "image": "assets/v18/A18-EU-01.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#A18-EU-01",
       "group": "API · 欧洲"
     },
     {
       "id": "A18-EU-02",
       "title": "Make room for 3D.",
-      "subtitle": "Add 3D generation to your product-content tools.",
-      "changes": "重建两列：左列标题、用途、CTA共轴；右列完整产品。删掉平台加号公式、重复步骤与图下标签。",
+      "subtitle": "3D generation for your product content.",
+      "changes": "重建两列：左列标题、用途、CTA共轴；右列完整产品。删掉平台加号公式、重复步骤与图下标签；副文改为完整两行，避免 tools. 孤行。",
       "section": "api",
-      "image": "assets/v18/A18-EU-02.png?v=20261009-layout20",
-      "page": "styles-v18.html?v=20261009-layout20#A18-EU-02",
+      "image": "assets/v18/A18-EU-02.png?v=20261009-layout20-all",
+      "page": "styles-v18.html?v=20261009-layout20-all#A18-EU-02",
       "group": "API · 欧洲"
     },
     {
@@ -148,8 +148,8 @@
       "changeReason": "One clear shared-library promise replaces three repetitions; keep the character and vehicle connected by project meaning rather than fictitious UI.",
       "id": "T19-US",
       "section": "models",
-      "image": "assets/v19/T19-US.png?v=20261009-layout20",
-      "page": "models-v19.html?v=20261009-layout20#T19-US",
+      "image": "assets/v19/T19-US.png?v=20261009-layout20-all",
+      "page": "models-v19.html?v=20261009-layout20-all#T19-US",
       "changes": "One clear shared-library promise replaces three repetitions; keep the character and vehicle connected by project meaning rather than fictitious UI.",
       "group": "Teams · 美国"
     },
@@ -170,8 +170,8 @@
       "changeReason": "Replace repeated statements and narrow bottom strips with a direct project purpose and a bigger uninterrupted model.",
       "id": "T19-EU",
       "section": "models",
-      "image": "assets/v19/T19-EU.png?v=20261009-layout20",
-      "page": "models-v19.html?v=20261009-layout20#T19-EU",
+      "image": "assets/v19/T19-EU.png?v=20261009-layout20-all",
+      "page": "models-v19.html?v=20261009-layout20-all#T19-EU",
       "changes": "Replace repeated statements and narrow bottom strips with a direct project purpose and a bigger uninterrupted model.",
       "group": "Teams · 欧洲"
     },
@@ -197,8 +197,8 @@
       "changeReason": "Keep only the task lifecycle needed to explain API integration; remove the parallel process and footer that previously competed with the model and CTA.",
       "id": "A19-US",
       "section": "models",
-      "image": "assets/v19/A19-US.png?v=20261009-layout20",
-      "page": "models-v19.html?v=20261009-layout20#A19-US",
+      "image": "assets/v19/A19-US.png?v=20261009-layout20-all",
+      "page": "models-v19.html?v=20261009-layout20-all#A19-US",
       "changes": "Keep only the task lifecycle needed to explain API integration; remove the parallel process and footer that previously competed with the model and CTA.",
       "group": "API · 美国"
     },
@@ -210,18 +210,18 @@
       "title": "Product content. In 3D.",
       "subtitle": "Connect your platform to Tripo API.",
       "cta": "Explore API",
-      "layout": "Compact three-line left headline/purpose/action; complete large product concept at right.",
+      "layout": "Two-line full-width headline; grouped left purpose/action and complete large product at right.",
       "removed": [
         "Your platform. Tripo API. repeated module",
         "Generate / Review / Build it in list",
         "From content tools to product experiences footer"
       ],
-      "changeReason": "Give the product-content purpose one direct sentence and the coffee-machine asset one large uninterrupted area instead of scattering the same idea across four blocks.",
+      "changeReason": "Keep Product content together on one line, group the purpose with its CTA, and give the coffee-machine asset one large uninterrupted area.",
       "id": "A19-EU",
       "section": "models",
-      "image": "assets/v19/A19-EU.png?v=20261009-layout20",
-      "page": "models-v19.html?v=20261009-layout20#A19-EU",
-      "changes": "Give the product-content purpose one direct sentence and the coffee-machine asset one large uninterrupted area instead of scattering the same idea across four blocks.",
+      "image": "assets/v19/A19-EU.png?v=20261009-layout20-all",
+      "page": "models-v19.html?v=20261009-layout20-all#A19-EU",
+      "changes": "Keep Product content together on one line, group the purpose with its CTA, and give the coffee-machine asset one large uninterrupted area.",
       "group": "API · 欧洲"
     }
   ],
@@ -229,32 +229,32 @@
     {
       "id": "T18-US-01",
       "file": "assets/v18/T18-US-01.png",
-      "sha256": "647e7d0336a8e9754c97a884d6f848992e2e5dce1a4f10bdda819825ff277337"
+      "sha256": "cd75b6547a83b780af7122e60f7a55d5d938bbb3a3580a767ce4a58ad515d39e"
     },
     {
       "id": "T18-US-02",
       "file": "assets/v18/T18-US-02.png",
-      "sha256": "eca26ae3cefe6d132faa6cadaf49934d74ebd070301bb7b3b9446aec47e6a7df"
+      "sha256": "6a53559b4a7b8afe8d14a10700ddb2461367a14936fdd7a5786eb2938d694a6c"
     },
     {
       "id": "T18-EU-01",
       "file": "assets/v18/T18-EU-01.png",
-      "sha256": "0b657ce708fd2a08b79f751740af91a066fc2d56eb020907737c51a27db362a6"
+      "sha256": "c958d27568181920895043f94b3a50160d6b5a1e23b0d79129c701a1026b1c7c"
     },
     {
       "id": "T18-EU-02",
       "file": "assets/v18/T18-EU-02.png",
-      "sha256": "bde10380a47426166260ab700ec32d993bb0275460228f2b135cb8ecf436e47f"
+      "sha256": "e13fe8db1f6468d491029592cc1657b2ef2dd3e0b502b5e1535e96325bbe7bd1"
     },
     {
       "id": "A18-US-01",
       "file": "assets/v18/A18-US-01.png",
-      "sha256": "88f4230e1a4be3342697a989d1dbcc658b504716de8d83539e486f24ec3ac929"
+      "sha256": "040687e44b7d67c4555a1e9c8efa44b0abb48c40c72a8d74f01e452578253524"
     },
     {
       "id": "A18-US-02",
       "file": "assets/v18/A18-US-02.png",
-      "sha256": "698d9c36b92caafb171b11c41294707c5cc8328544015b185818e24cafb73a7a"
+      "sha256": "15a519e2218d20da5d2c3f9f90a09d54ee2ac5fab83cafbeacc1ad4bda2a0f5f"
     },
     {
       "id": "A18-EU-01",
@@ -264,17 +264,17 @@
     {
       "id": "A18-EU-02",
       "file": "assets/v18/A18-EU-02.png",
-      "sha256": "1a1f4fdd0801653c1f43c75f466deb53ac4b1d9053433af633ff696a46448add"
+      "sha256": "5ab32dbb68c9ece528a116a6c12129c7ead634be16d06a971939e41e7f7973f1"
     },
     {
       "id": "T19-US",
       "file": "assets/v19/T19-US.png",
-      "sha256": "8b28cb01123ccc3e5854e7b5adf7f6b2ad7bfe0cf705767105b8ee815bf00c13"
+      "sha256": "ac2507c6553c42960388c4462245fc067b78e999f862def26df20774740566f4"
     },
     {
       "id": "T19-EU",
       "file": "assets/v19/T19-EU.png",
-      "sha256": "eae211df68236d637e1b03de8f8606c1e9d4dee4bbec370063921c402f28867c"
+      "sha256": "3d80bb4c11aa37d057be4fab0cbaf336cf137e0a55dfd31c03dfb671132b0198"
     },
     {
       "id": "A19-US",
@@ -284,7 +284,7 @@
     {
       "id": "A19-EU",
       "file": "assets/v19/A19-EU.png",
-      "sha256": "aa8b742ba027c26b262a39f2d633f9a2810035bbf430513b97e27b8843ec0db1"
+      "sha256": "c068562e100886aa459684ef37c49dfa369cb924d3e637244be8db6ae284ffea"
     }
   ]
 }

@@ -213,7 +213,7 @@
     renderGuide();
   }
   function updateCounts() {
-    $('catalog-summary').textContent = `12 张封面已重排（V18 × 8 + V19 × 4）· V17 六套站内信与历史八条均保留 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例`;
+    $('catalog-summary').textContent = `18 张当前封面与 6 张站内信配图已重排 · 历史八条站内信保留 · ${staticCases.length} 条静态档案与 ${userCases.length} 张用户案例`;
     const countText = `筛选显示 ${filteredCases.length} / ${staticCases.length} 条已目视案例`;
     $('case-filter-count').textContent = countText;
     $('case-gallery-count').textContent = countText;

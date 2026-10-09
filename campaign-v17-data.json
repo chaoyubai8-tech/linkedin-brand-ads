@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "title": "V17 · 已确认人群与方向",
-  "updatedAt": "2026-10-08",
+  "updatedAt": "2026-10-09 · 方图与站内信配图统一排版修订",
   "intro": "4 套主方向 + 2 套 Teams 再营销；每套含单图、英文图文文案、站内信正文与桌面配图。按用户最新要求暂停对照方向。概念审稿，未投放。",
   "groups": [
     {
@@ -47,8 +47,8 @@
       "title": "少追文件，多做游戏。",
       "status": "review-ready",
       "artwork": {
-        "src": "assets/v17/T17-US.png",
-        "download": "assets/v17/T17-US.png",
+        "src": "assets/v17/T17-US.png?v=20261009-layout20-all",
+        "download": "assets/v17/T17-US.png?v=20261009-layout20-all",
         "width": 1200,
         "height": 1200,
         "alt": "T17-US 少追文件，多做游戏。，GPT概念素材与工作方式示意",
@@ -73,8 +73,8 @@
           }
         ],
         "banner": {
-          "src": "assets/v17/banners/T17-US.png",
-          "download": "assets/v17/banners/T17-US.png",
+          "src": "assets/v17/banners/T17-US.png?v=20261009-layout20-all",
+          "download": "assets/v17/banners/T17-US.png?v=20261009-layout20-all",
           "alt": "T17-US 站内信桌面配图，AI概念素材"
         }
       },
@@ -129,6 +129,19 @@
           "body": 270,
           "cta": 13
         }
+      },
+      "layoutRevision": {
+        "version": "20261009-layout20-all",
+        "onImageHeadline": "Less file chasing.\nMore game-making.",
+        "coverChanges": [
+          "Removed the repeated Create/Find/Reuse sidebar and domain footer.",
+          "One purpose sentence sits beside a larger character under a single shared-library label."
+        ],
+        "bannerChanges": [
+          "Title reflowed into three short lines to separate it from the model.",
+          "Full source image contained in a 136px square; the old contain box displayed its square image at 123px. Neither version stretches the image.",
+          "CTA and disclosure have dedicated non-overlapping rows."
+        ]
       }
     },
     {
@@ -140,8 +153,8 @@
       "title": "下一款游戏，同一个共享工作区。",
       "status": "review-ready",
       "artwork": {
-        "src": "assets/v17/T17-EU.png",
-        "download": "assets/v17/T17-EU.png",
+        "src": "assets/v17/T17-EU.png?v=20261009-layout20-all",
+        "download": "assets/v17/T17-EU.png?v=20261009-layout20-all",
         "width": 1200,
         "height": 1200,
         "alt": "T17-EU 下一款游戏，同一个共享工作区。，GPT概念素材与工作方式示意",
@@ -166,8 +179,8 @@
           }
         ],
         "banner": {
-          "src": "assets/v17/banners/T17-EU.png",
-          "download": "assets/v17/banners/T17-EU.png",
+          "src": "assets/v17/banners/T17-EU.png?v=20261009-layout20-all",
+          "download": "assets/v17/banners/T17-EU.png?v=20261009-layout20-all",
           "alt": "T17-EU 站内信桌面配图，AI概念素材"
         }
       },
@@ -222,6 +235,19 @@
           "body": 285,
           "cta": 13
         }
+      },
+      "layoutRevision": {
+        "version": "20261009-layout20-all",
+        "onImageHeadline": "Your next game.\nOne shared workspace.",
+        "coverChanges": [
+          "Kept the paired character/environment relationship, removed small asset badges.",
+          "Unified the project heading and shared-project label; larger assets and a consistent footer baseline."
+        ],
+        "bannerChanges": [
+          "One shared-library benefit now directly relates the game asset to Teams.",
+          "Environment image remains complete; no crop or pixel editing.",
+          "Removed diagonal arrow from visual CTA to avoid cramped decoration."
+        ]
       }
     },
     {
@@ -233,8 +259,8 @@
       "title": "3D 生成，接入你的生产管线。",
       "status": "review-ready",
       "artwork": {
-        "src": "assets/v17/A17-US.png",
-        "download": "assets/v17/A17-US.png",
+        "src": "assets/v17/A17-US.png?v=20261009-layout20-all",
+        "download": "assets/v17/A17-US.png?v=20261009-layout20-all",
         "width": 1200,
         "height": 1200,
         "alt": "A17-US 3D 生成，接入你的生产管线。，GPT概念素材与工作方式示意",
@@ -259,8 +285,8 @@
           }
         ],
         "banner": {
-          "src": "assets/v17/banners/A17-US.png",
-          "download": "assets/v17/banners/A17-US.png",
+          "src": "assets/v17/banners/A17-US.png?v=20261009-layout20-all",
+          "download": "assets/v17/banners/A17-US.png?v=20261009-layout20-all",
           "alt": "A17-US 站内信桌面配图，AI概念素材"
         }
       },
@@ -315,6 +341,19 @@
           "body": 260,
           "cta": 13
         }
+      },
+      "layoutRevision": {
+        "version": "20261009-layout20-all",
+        "onImageHeadline": "3D generation.\nInside your pipeline.",
+        "coverChanges": [
+          "Removed the duplicate Your tool + API heading and long sidebar paragraph.",
+          "A short ordered Submit/Track/Retrieve sequence preserves the success condition; dark field separates the technical direction."
+        ],
+        "bannerChanges": [
+          "Compressed the proposition without adding a speed or readiness promise.",
+          "Separated title, complete asset and documentation CTA.",
+          "Omitted the redundant visual arrow; authoritative message CTA retained."
+        ]
       }
     },
     {
@@ -326,8 +365,8 @@
       "title": "用 3D 丰富产品体验。",
       "status": "review-ready",
       "artwork": {
-        "src": "assets/v17/A17-EU.png",
-        "download": "assets/v17/A17-EU.png",
+        "src": "assets/v17/A17-EU.png?v=20261009-layout20-all",
+        "download": "assets/v17/A17-EU.png?v=20261009-layout20-all",
         "width": 1200,
         "height": 1200,
         "alt": "A17-EU 用 3D 丰富产品体验。，GPT概念素材与工作方式示意",
@@ -352,8 +391,8 @@
           }
         ],
         "banner": {
-          "src": "assets/v17/banners/A17-EU.png",
-          "download": "assets/v17/banners/A17-EU.png",
+          "src": "assets/v17/banners/A17-EU.png?v=20261009-layout20-all",
+          "download": "assets/v17/banners/A17-EU.png?v=20261009-layout20-all",
           "alt": "A17-EU 站内信桌面配图，AI概念素材"
         }
       },
@@ -408,6 +447,19 @@
           "body": 278,
           "cta": 13
         }
+      },
+      "layoutRevision": {
+        "version": "20261009-layout20-all",
+        "onImageHeadline": "3D for your\nproduct experiences.",
+        "coverChanges": [
+          "Removed the repeated business headings and product-feature list.",
+          "Final revision removes the oversized empty image-stage gutters; a larger phoenix sits beside one purpose sentence and the preserved review condition."
+        ],
+        "bannerChanges": [
+          "Kept the enterprise-content angle with a short three-line proposition.",
+          "Corrected image CTA from Explore API to the existing message CTA View API docs.",
+          "No changes to subject, body, destination or product promises."
+        ]
       }
     },
     {
@@ -419,11 +471,11 @@
       "title": "下一次资产交接，也在同一空间。",
       "status": "needs-evidence",
       "artwork": {
-        "src": "assets/v17/R17-US.png",
-        "download": "assets/v17/R17-US.png",
+        "src": "assets/v17/R17-US.png?v=20261009-layout20-all",
+        "download": "assets/v17/R17-US.png?v=20261009-layout20-all",
         "width": 1200,
         "height": 1200,
-"alt": "R17-US 下一次资产交接，也在同一空间。，GPT概念素材与工作方式示意",
+        "alt": "R17-US 下一次资产交接，也在同一空间。，GPT概念素材与工作方式示意",
         "label": "1200 × 1200 PNG · GPT 二维概念素材 · 待补原视频、工作区与真实案例证据，不可启用"
       },
       "feed": {
@@ -445,8 +497,8 @@
           }
         ],
         "banner": {
-          "src": "assets/v17/banners/R17-US.png",
-          "download": "assets/v17/banners/R17-US.png",
+          "src": "assets/v17/banners/R17-US.png?v=20261009-layout20-all",
+          "download": "assets/v17/banners/R17-US.png?v=20261009-layout20-all",
           "alt": "R17-US 站内信桌面配图，AI概念素材"
         }
       },
@@ -512,6 +564,20 @@
           "body": 236,
           "cta": 15
         }
+      },
+      "layoutRevision": {
+        "version": "20261009-layout20-all",
+        "onImageHeadline": "Keep the next asset\nhandoff in one place.",
+        "coverChanges": [
+          "Reconciled the image headline to the authoritative current-site asset-handoff headline.",
+          "Removed the fragmented three-item list and side stripe; larger character, brand-yellow field and one request action.",
+          "Retargeting remains needs-evidence; no launch readiness is implied."
+        ],
+        "bannerChanges": [
+          "One shared-asset benefit, no supplementary feature list.",
+          "Retained the same concept as a retargeting layout draft only.",
+          "Source-match and audience evidence remain pending; no status upgrade."
+        ]
       }
     },
     {
@@ -523,11 +589,11 @@
       "title": "同一个游戏世界，共享同一资产库。",
       "status": "needs-evidence",
       "artwork": {
-        "src": "assets/v17/R17-EU.png",
-        "download": "assets/v17/R17-EU.png",
+        "src": "assets/v17/R17-EU.png?v=20261009-layout20-all",
+        "download": "assets/v17/R17-EU.png?v=20261009-layout20-all",
         "width": 1200,
         "height": 1200,
-"alt": "R17-EU 同一个游戏世界，共享同一资产库。，GPT概念素材与工作方式示意",
+        "alt": "R17-EU 同一个游戏世界，共享同一资产库。，GPT概念素材与工作方式示意",
         "label": "1200 × 1200 PNG · GPT 二维概念素材 · 待补原视频、工作区与真实案例证据，不可启用"
       },
       "feed": {
@@ -549,8 +615,8 @@
           }
         ],
         "banner": {
-          "src": "assets/v17/banners/R17-EU.png",
-          "download": "assets/v17/banners/R17-EU.png",
+          "src": "assets/v17/banners/R17-EU.png?v=20261009-layout20-all",
+          "download": "assets/v17/banners/R17-EU.png?v=20261009-layout20-all",
           "alt": "R17-EU 站内信桌面配图，AI概念素材"
         }
       },
@@ -616,6 +682,20 @@
           "body": 241,
           "cta": 16
         }
+      },
+      "layoutRevision": {
+        "version": "20261009-layout20-all",
+        "onImageHeadline": "One game world.\nA shared asset library.",
+        "coverChanges": [
+          "Reconciled the image headline to the authoritative current-site shared-game-world headline.",
+          "Removed the fragmented list and side stripe; complete environment beside one project-needs sentence.",
+          "Retargeting remains needs-evidence; no launch readiness is implied."
+        ],
+        "bannerChanges": [
+          "Game project and shared-library meaning are stated directly.",
+          "CTA matches the existing message field exactly.",
+          "Retargeting evidence remains pending; original concept artwork unchanged."
+        ]
       }
     }
   ]

@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const DATA_URL = 'campaign-v17-data.json';
+  const DATA_URL = 'campaign-v17-data.json?v=20261009-layout20-all';
   const LANES = {
     main: { label: '主方向', description: '按产品、地区与受众分别建立价值主张。图文与站内信属于同一方向，但分别审阅。' },
     retargeting: { label: '再营销', description: '沿用美国游戏工作流与欧洲游戏项目方向。需核对真实已曝光素材及受众来源，不能把概念稿当成已投放记录。' }
