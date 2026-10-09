@@ -1,0 +1,290 @@
+{
+  "revision": "20261009-layout20",
+  "ads": [
+    {
+      "id": "T18-US-01",
+      "originalId": "T18-US-01",
+      "title": "Assets. Shared.",
+      "subtitle": "Keep your game team's assets in one workspace.",
+      "originalTitle": "Less file chasing.\nMore game-making.",
+      "originalSubtitle": "Your game assets. One shared workspace.",
+      "audience": "US game teams — shared-asset workflow",
+      "style": "Bright studio / large asset hero",
+      "cta": "Explore Teams",
+      "disclosure": "AI concept artwork · Not a Tripo output",
+      "png": "finals/T18-US-01.png",
+      "qa": "qa/T18-US-01-360.png",
+      "assets": [
+        "assets/rover.png"
+      ],
+      "changes": "One direct shared-assets claim replaces the longer two-part headline. Removed the Find/Share/Reuse sidebar, repeated metadata and footer copy. A single shared-library band and team icon connect the large, complete rover to the collaboration use case. Final spacing revision: centered the image at 1024 × 600 within its 1072px pale-gray container, retaining cover and 42.5% vertical positioning, to increase breathing room around the mast and wheels. Viewed again at 1200 and 360 pixels.",
+      "section": "teams",
+      "image": "assets/v18/T18-US-01.png?v=20261009-layout20",
+      "page": "styles-v18.html?v=20261009-layout20#T18-US-01",
+      "group": "Teams · 美国"
+    },
+    {
+      "id": "T18-US-02",
+      "originalId": "T18-US-02",
+      "title": "Create together. Build on it.",
+      "subtitle": "A shared library for your game's assets.",
+      "originalTitle": "Create together.\nReuse together.",
+      "originalSubtitle": "One shared library for your game's assets.",
+      "audience": "US game teams — shared library and reuse",
+      "style": "Brand yellow / shared character-and-world collection",
+      "cta": "Explore Teams",
+      "disclosure": "AI concept artwork · Not a Tripo output",
+      "png": "finals/T18-US-02.png",
+      "qa": "qa/T18-US-02-360.png",
+      "assets": [
+        "assets/explorer.png",
+        "assets/observatory.png"
+      ],
+      "changes": "Removed repeated workspace/footer statements and asset numbers. One continuous shared-library heading groups the character and environment without pretending to show the actual product UI. Retained brand yellow and assembled the logo from original official PNG crops on a black icon backing; no logo redraw.",
+      "section": "teams",
+      "image": "assets/v18/T18-US-02.png?v=20261009-layout20",
+      "page": "styles-v18.html?v=20261009-layout20#T18-US-02",
+      "group": "Teams · 美国"
+    },
+    {
+      "id": "T18-EU-01",
+      "originalId": "T18-EU-01",
+      "title": "A world to build. A place to share.",
+      "subtitle": "Bring your exploration game's assets into one shared workspace.",
+      "originalTitle": "Build a world.\nBring your team.",
+      "originalSubtitle": "Your game's assets. Together in one workspace.",
+      "audience": "European game teams — exploration-game world project",
+      "style": "Cinematic environment / dark editorial",
+      "cta": "Explore Teams",
+      "disclosure": "AI concept artwork · Not a customer project",
+      "png": "finals/T18-EU-01.png",
+      "qa": "qa/T18-EU-01-360.png",
+      "assets": [
+        "assets/harbor.png"
+      ],
+      "changes": "The purpose sentence names an exploration-game project and explicitly links its assets to a shared workspace. Removed the micro-inventory and duplicate footer slogan. Preserved the main tower and environment, with one left-aligned text system and a contrast gradient.",
+      "section": "teams",
+      "image": "assets/v18/T18-EU-01.png?v=20261009-layout20",
+      "page": "styles-v18.html?v=20261009-layout20#T18-EU-01",
+      "group": "Teams · 欧洲"
+    },
+    {
+      "id": "T18-EU-02",
+      "originalId": "T18-EU-02",
+      "title": "One game. One library.",
+      "subtitle": "Keep characters and worlds together for your next exploration game.",
+      "originalTitle": "One project.\nEvery asset.",
+      "originalSubtitle": "Keep your game's\ncharacters and worlds\nin a shared workspace.",
+      "audience": "European game teams — character-and-world project library",
+      "style": "Technical project board / muted green",
+      "cta": "Explore Teams",
+      "disclosure": "AI concept artwork · Not a Tripo output",
+      "png": "finals/T18-EU-02.png",
+      "qa": "qa/T18-EU-02-360.png",
+      "assets": [
+        "assets/explorer.png",
+        "assets/observatory.png"
+      ],
+      "changes": "Two clear top text columns separate the claim from the concrete project use. Removed asset numbers, project micro-labels, arrow row and duplicate footer slogan. Enlarged the paired assets under one shared-project-library heading; shortened the final title to eliminate a heading/subtitle collision.",
+      "section": "teams",
+      "image": "assets/v18/T18-EU-02.png?v=20261009-layout20",
+      "page": "styles-v18.html?v=20261009-layout20#T18-EU-02",
+      "group": "Teams · 欧洲"
+    },
+    {
+      "id": "A18-US-01",
+      "title": "3D generation. Your pipeline.",
+      "subtitle": "Build 3D generation into your game-asset tools.",
+      "changes": "单一主标题与用途；右列只留提交、查询、成功后取回；删除第二套流程及图内标签。",
+      "section": "api",
+      "image": "assets/v18/A18-US-01.png?v=20261009-layout20",
+      "page": "styles-v18.html?v=20261009-layout20#A18-US-01",
+      "group": "API · 美国"
+    },
+    {
+      "id": "A18-US-02",
+      "title": "Your tools. A new dimension.",
+      "subtitle": "Connect 3D generation to your game-asset workflow.",
+      "changes": "保留品牌大字与大模型；删竖排边栏、重复任务关系及微标签，工作流细节留在配文。",
+      "section": "api",
+      "image": "assets/v18/A18-US-02.png?v=20261009-layout20",
+      "page": "styles-v18.html?v=20261009-layout20#A18-US-02",
+      "group": "API · 美国"
+    },
+    {
+      "id": "A18-EU-01",
+      "title": "Put products in perspective.",
+      "subtitle": "3D generation for your product-content tools.",
+      "changes": "统一顶部标题与用途层级，完整产品居中展示，删装饰编号和重复产品标签；CTA独立底部。",
+      "section": "api",
+      "image": "assets/v18/A18-EU-01.png?v=20261009-layout20",
+      "page": "styles-v18.html?v=20261009-layout20#A18-EU-01",
+      "group": "API · 欧洲"
+    },
+    {
+      "id": "A18-EU-02",
+      "title": "Make room for 3D.",
+      "subtitle": "Add 3D generation to your product-content tools.",
+      "changes": "重建两列：左列标题、用途、CTA共轴；右列完整产品。删掉平台加号公式、重复步骤与图下标签。",
+      "section": "api",
+      "image": "assets/v18/A18-EU-02.png?v=20261009-layout20",
+      "page": "styles-v18.html?v=20261009-layout20#A18-EU-02",
+      "group": "API · 欧洲"
+    },
+    {
+      "originalId": "T19-US",
+      "file": "finals/T19-US.png",
+      "audience": "US game teams",
+      "product": "Teams",
+      "title": "One team. One asset library.",
+      "subtitle": "Share game assets in one workspace.",
+      "cta": "Explore Teams",
+      "layout": "Two related assets on two shared alignment axes; large character plus supporting vehicle.",
+      "removed": [
+        "Find. Share. Reuse. duplicate list",
+        "Your project / your team’s library restatement",
+        "Shared assets. One workspace. footer"
+      ],
+      "changeReason": "One clear shared-library promise replaces three repetitions; keep the character and vehicle connected by project meaning rather than fictitious UI.",
+      "id": "T19-US",
+      "section": "models",
+      "image": "assets/v19/T19-US.png?v=20261009-layout20",
+      "page": "models-v19.html?v=20261009-layout20#T19-US",
+      "changes": "One clear shared-library promise replaces three repetitions; keep the character and vehicle connected by project meaning rather than fictitious UI.",
+      "group": "Teams · 美国"
+    },
+    {
+      "originalId": "T19-EU",
+      "file": "finals/T19-EU.png",
+      "audience": "EU game project teams",
+      "product": "Teams",
+      "title": "One world. Shared assets.",
+      "subtitle": "Keep your game’s assets in one shared workspace.",
+      "cta": "Explore Teams",
+      "layout": "Large complete architectural asset at right; left purpose and action column.",
+      "removed": [
+        "Characters + Props + Environments micro-row",
+        "One shared library repeated label",
+        "Keep your game’s assets together footer"
+      ],
+      "changeReason": "Replace repeated statements and narrow bottom strips with a direct project purpose and a bigger uninterrupted model.",
+      "id": "T19-EU",
+      "section": "models",
+      "image": "assets/v19/T19-EU.png?v=20261009-layout20",
+      "page": "models-v19.html?v=20261009-layout20#T19-EU",
+      "changes": "Replace repeated statements and narrow bottom strips with a direct project purpose and a bigger uninterrupted model.",
+      "group": "Teams · 欧洲"
+    },
+    {
+      "originalId": "A19-US",
+      "file": "finals/A19-US.png",
+      "audience": "US game and 3D-asset tool developers",
+      "product": "API",
+      "title": "3D generation. Inside your tools.",
+      "subtitle": "Create game assets through Tripo API.",
+      "cta": "Explore API",
+      "flow": [
+        "Submit task",
+        "Track status",
+        "Retrieve result — After success"
+      ],
+      "layout": "Dark asset-led frame with one asynchronous workflow, aligned on two columns.",
+      "removed": [
+        "Your tool → Tripo API → Review & refine second flow",
+        "Your pipeline. Your next asset. footer",
+        "01/02/03 labels"
+      ],
+      "changeReason": "Keep only the task lifecycle needed to explain API integration; remove the parallel process and footer that previously competed with the model and CTA.",
+      "id": "A19-US",
+      "section": "models",
+      "image": "assets/v19/A19-US.png?v=20261009-layout20",
+      "page": "models-v19.html?v=20261009-layout20#A19-US",
+      "changes": "Keep only the task lifecycle needed to explain API integration; remove the parallel process and footer that previously competed with the model and CTA.",
+      "group": "API · 美国"
+    },
+    {
+      "originalId": "A19-EU",
+      "file": "finals/A19-EU.png",
+      "audience": "EU enterprise product-content platforms",
+      "product": "API",
+      "title": "Product content. In 3D.",
+      "subtitle": "Connect your platform to Tripo API.",
+      "cta": "Explore API",
+      "layout": "Compact three-line left headline/purpose/action; complete large product concept at right.",
+      "removed": [
+        "Your platform. Tripo API. repeated module",
+        "Generate / Review / Build it in list",
+        "From content tools to product experiences footer"
+      ],
+      "changeReason": "Give the product-content purpose one direct sentence and the coffee-machine asset one large uninterrupted area instead of scattering the same idea across four blocks.",
+      "id": "A19-EU",
+      "section": "models",
+      "image": "assets/v19/A19-EU.png?v=20261009-layout20",
+      "page": "models-v19.html?v=20261009-layout20#A19-EU",
+      "changes": "Give the product-content purpose one direct sentence and the coffee-machine asset one large uninterrupted area instead of scattering the same idea across four blocks.",
+      "group": "API · 欧洲"
+    }
+  ],
+  "files": [
+    {
+      "id": "T18-US-01",
+      "file": "assets/v18/T18-US-01.png",
+      "sha256": "647e7d0336a8e9754c97a884d6f848992e2e5dce1a4f10bdda819825ff277337"
+    },
+    {
+      "id": "T18-US-02",
+      "file": "assets/v18/T18-US-02.png",
+      "sha256": "eca26ae3cefe6d132faa6cadaf49934d74ebd070301bb7b3b9446aec47e6a7df"
+    },
+    {
+      "id": "T18-EU-01",
+      "file": "assets/v18/T18-EU-01.png",
+      "sha256": "0b657ce708fd2a08b79f751740af91a066fc2d56eb020907737c51a27db362a6"
+    },
+    {
+      "id": "T18-EU-02",
+      "file": "assets/v18/T18-EU-02.png",
+      "sha256": "bde10380a47426166260ab700ec32d993bb0275460228f2b135cb8ecf436e47f"
+    },
+    {
+      "id": "A18-US-01",
+      "file": "assets/v18/A18-US-01.png",
+      "sha256": "88f4230e1a4be3342697a989d1dbcc658b504716de8d83539e486f24ec3ac929"
+    },
+    {
+      "id": "A18-US-02",
+      "file": "assets/v18/A18-US-02.png",
+      "sha256": "698d9c36b92caafb171b11c41294707c5cc8328544015b185818e24cafb73a7a"
+    },
+    {
+      "id": "A18-EU-01",
+      "file": "assets/v18/A18-EU-01.png",
+      "sha256": "12bc005b4cb5e55f0105372d74e6725b5812a9d51200e826b8c282d617924991"
+    },
+    {
+      "id": "A18-EU-02",
+      "file": "assets/v18/A18-EU-02.png",
+      "sha256": "1a1f4fdd0801653c1f43c75f466deb53ac4b1d9053433af633ff696a46448add"
+    },
+    {
+      "id": "T19-US",
+      "file": "assets/v19/T19-US.png",
+      "sha256": "8b28cb01123ccc3e5854e7b5adf7f6b2ad7bfe0cf705767105b8ee815bf00c13"
+    },
+    {
+      "id": "T19-EU",
+      "file": "assets/v19/T19-EU.png",
+      "sha256": "eae211df68236d637e1b03de8f8606c1e9d4dee4bbec370063921c402f28867c"
+    },
+    {
+      "id": "A19-US",
+      "file": "assets/v19/A19-US.png",
+      "sha256": "8f61348bd0ab03ff16ceab74fda158b3505cde9cc82e947fd8ba0e439b58094b"
+    },
+    {
+      "id": "A19-EU",
+      "file": "assets/v19/A19-EU.png",
+      "sha256": "aa8b742ba027c26b262a39f2d633f9a2810035bbf430513b97e27b8843ec0db1"
+    }
+  ]
+}
