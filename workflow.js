@@ -1,7 +1,8 @@
 // Progressive enhancement only: the complete workflow is readable without JavaScript.
 (() => {
   const links = [...document.querySelectorAll('.sidebar nav a')];
-  const sections = links.map(link => document.getElementById(link.hash.slice(1))).filter(Boolean);
+  const sections = links.map(link => document.getElementById(link.hash.slice(1))).filter(Boolean)
+    .sort((a, b) => a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1);
   let queued = false;
   function highlight() {
     let active = sections[0];
