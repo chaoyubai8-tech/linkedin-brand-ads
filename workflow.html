@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Tripo 领英品牌广告制作工作流：人群、案例、模型、文案、排版、验收与交付，以及每步所需 Skills 和资料入口。">
+  <meta name="color-scheme" content="light">
+  <title>广告制作工作流 · 领英品牌广告</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f9cf00'/%3E%3Cpath d='M8 9h16M8 16h16M8 23h10' stroke='%23191d1c' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="workflow.css?v=20261009-1">
+  <script src="workflow.js?v=20261009-1" defer></script>
+</head>
+<body>
+<a class="skip" href="#overview">跳到工作流内容</a>
+<header class="site-header">
+  <a class="site-brand" href="index.html">TRIPO <span>领英品牌广告</span></a>
+  <nav aria-label="项目导航"><a href="index.html">广告首页</a><a href="layout-v20.html">当前成稿</a><a href="campaign-v17.html">图文与站内信</a><a href="research.html">风格研究</a></nav>
+</header>
+<div class="workbench">
+  <aside class="sidebar">
+    <p class="sidebar-title">制作工作流</p>
+    <nav aria-label="工作流步骤">
+      <a href="#overview" aria-current="location">总览与当前进度</a>
+      <ol>
+        <li><a href="#brief"><span>01</span>人群与任务</a></li>
+        <li><a href="#references"><span>02</span>案例与视觉方向</a></li>
+        <li><a href="#selection"><span>03</span>模型选型</a></li>
+        <li><a href="#production"><span>04</span>主体制作</a></li>
+        <li><a href="#copy"><span>05</span>文案与证据构图</a></li>
+        <li><a href="#layout"><span>06</span>排版与导出</a></li>
+        <li><a href="#review"><span>07</span>全量验收</a></li>
+        <li><a href="#delivery"><span>08</span>审稿网站发布</a></li>
+        <li><a href="#learning"><span>09</span>反馈与复盘</a></li>
+      </ol>
+      <a href="#skills">Skills 职责速查</a>
+      <a href="#platforms">网站与文档导航</a>
+    </nav>
+    <p class="sidebar-note">先选对素材，再扩展版式。<br>流程可复用，验收不能跳过。</p>
+  </aside>
+  <main id="content">
+    <section id="overview" class="overview" aria-labelledby="page-title">
+      <div class="page-meta"><span>制作说明 / 执行链路</span><time datetime="2026-10-09">状态快照：2026.10.09</time></div>
+      <h1 id="page-title">广告制作工作流</h1>
+      <p class="lead">从「给谁看」到「交付什么」，把每一步的素材、Skills、工具和验收标准放在一起。</p>
+      <p>Skills 提供规则，AI 按规则执行，工具完成制作，审稿决定是否通过。这不是一键生图，也不是运行一个 skill 就自动完成整套广告。</p>
+      <div class="status-summary">
+        <div><span class="status-label">已有可复用基线</span><h2>排版与交付已跑通</h2><p>V20：18 张封面＋6 张当前站内信配图完成排版修订并上线。最新制作源是 HTML/CSS，未同步到历史 Figma 稿。</p><a href="layout-v20.html">查看当前全部成稿</a></div>
+        <div><span class="status-label pending">当前缺口</span><h2>新模型还没有验收完成</h2><p>当前主体仍主要是 GPT 二维概念图。中台流程曾运行，旧模型渲染已校准，但优质新模型的选型与全量替换未完成。</p><a href="#selection">查看选型验收条件</a></div>
+      </div>
+      <ol class="flow-map" aria-label="九步执行顺序">
+        <li><a href="#brief"><b>01</b>定人群</a></li><li><a href="#references"><b>02</b>看案例</a></li><li><a href="#selection"><b>03</b>选模型</a></li><li><a href="#production"><b>04</b>做主体</a></li><li><a href="#copy"><b>05</b>写文案</a></li><li><a href="#layout"><b>06</b>排版</a></li><li><a href="#review"><b>07</b>验收</a></li><li><a href="#delivery"><b>08</b>交付</a></li><li><a href="#learning"><b>09</b>复盘</a></li>
+      </ol>
+      <p class="conclusion"><strong>执行原则：</strong>先比较候选模型，再做少量完整样稿；样稿确认后才批量扩展。技术检查通过，不等于素材好看、品牌批准或获准投放。</p>
+    </section>
+
+    <section id="brief" class="step" aria-labelledby="brief-title">
+      <header class="step-heading"><span class="step-number">01</span><div><h2 id="brief-title">先确定人群，不从模型开始</h2><p>本轮四组策略已确认，后续制作围绕它们展开。</p></div><span class="tag">方向已确认</span></header>
+      <div class="skill-row"><span>使用 Skills</span><a href="#skill-workbench">tripo-ad-workbench</a><a href="#skill-claims">tripo-ad-claims</a></div>
+      <div class="table-scroll" role="region" aria-label="四组人群与素材方向；窄屏可横向滚动" tabindex="0"><table><caption>本轮人群与主方向，不代表欧美用户的普遍偏好</caption><thead><tr><th scope="col">广告组</th><th scope="col">主要利益</th><th scope="col">画面应讲清什么</th></tr></thead><tbody>
+        <tr><th scope="row">Teams · 美国游戏</th><td>流程效率</td><td>同一项目的角色、道具和环境资产如何创建、集中管理与复用，减少交接和重复操作。</td></tr>
+        <tr><th scope="row">Teams · 欧洲游戏</th><td>具体项目用途</td><td>让人看到这套团队方案能帮助制作什么游戏项目，而不只是摆放几个模型。</td></tr>
+        <tr><th scope="row">API · 美国游戏＋资产</th><td>接入制作流程</td><td>在自己的工具中提交任务、查询状态，成功后取回模型并进行后续使用。</td></tr>
+        <tr><th scope="row">API · 欧洲企业内容</th><td>具体业务用途</td><td>围绕产品展示等业务，说明生成结果如何接入企业内容平台。</td></tr>
+      </tbody></table></div>
+      <dl class="io"><div><dt>输入</dt><dd>已确认人群、投放目标、产品范围。</dd></div><div><dt>产出</dt><dd>每张一个主利益、一个场景、一个 CTA。</dd></div><div><dt>验收条件</dt><dd>能回答「给谁看、为什么相关、下一步做什么」。</dd></div></dl>
+      <p class="conclusion"><strong>本步结论：</strong>美国已选游戏／资产人群讲流程效率；欧洲已选游戏／企业内容人群讲业务用途。Before / After 对照方向暂停。</p>
+      <p class="note">两条 Teams 视频浏览再营销保留，但需补原视频、场景与受众对应证据；状态仍为 needs-evidence，换图不会自动解除。</p>
+      <div class="resource-links"><a href="campaign-v17.html">查看当前六套图文与站内信</a><a href="campaign-v17-data.json">查看当前创意数据</a></div>
+    </section>
+
+    <section id="references" class="step" aria-labelledby="references-title">
+      <header class="step-heading"><span class="step-number">02</span><div><h2 id="references-title">看具体案例，确定视觉方向</h2><p>不是只写「高级、简约」，而是指出哪张图的哪种处理值得借鉴。</p></div></header>
+      <div class="skill-row"><span>使用 Skills</span><a href="#skill-art">tripo-ad-art-direction</a></div>
+      <ul class="action-list"><li>以 LinkedIn 单图／图文为主要对标，观察大标题、主体、配色、信息层级和职业场景。</li><li>对照 Tripo 自有案例，保留模型的材质、结构、辨识度和可视化证据。</li><li>为每个参考记录图片、来源和借鉴点，区分已核验付费广告、官方自然帖、第三方档案与作品集。</li></ul>
+      <dl class="io"><div><dt>输入</dt><dd>人群任务＋有出处的参考图片。</dd></div><div><dt>产出</dt><dd>参考板＋具体构图、字体、配色与主体方案。</dd></div><div><dt>验收条件</dt><dd>每条风格判断有对应图片；不把审美参考当效果证明。</dd></div></dl>
+      <p class="conclusion"><strong>本步结论：</strong>借鉴清楚的信息层级，不牺牲 Tripo 的模型质感；「领英感」不等于普通人物、全灰白或没有个性。</p>
+      <div class="resource-links"><a href="research.html">七项图证风格对照</a><a href="index.html#linkedin">AI / B2B 单图案例</a><a href="index.html#user-cases">自有广告案例库</a><a href="https://a9ihi0un9c.feishu.cn/wiki/KGWBwpXy6iGlLQk023gcsROCnYg" target="_blank" rel="noopener noreferrer">视觉规范 · 需内部权限</a></div>
+    </section>
+
+    <section id="selection" class="step" aria-labelledby="selection-title">
+      <header class="step-heading"><span class="step-number">03</span><div><h2 id="selection-title">按用途选模型，先过视觉验收</h2><p>不能先拿一个容易获取的角色，再套进所有 Teams / API 卖点。</p></div><span class="tag tag-pending">当前重点待完成</span></header>
+      <div class="skill-row"><span>使用 Skills</span><a href="#skill-model">tripo-model-showcase</a><a href="#skill-art">tripo-ad-art-direction</a></div>
+      <ol class="action-list"><li><strong>先看用途：</strong>Teams 看同项目资产与团队关系；API 看工具流程或业务中的使用对象。</li><li><strong>再看吸引力：</strong>缩图下轮廓清楚、识别点集中，有结构与材质层次，不靠堆花纹和装饰。</li><li><strong>检查真实模型：</strong>主、侧、背视角和易错细节都要看；分清是网格缺陷、渲染缺陷，还是用途不匹配。</li><li><strong>确认来源：</strong>记录输入、模型、版本及使用许可，形成采用／修复／淘汰理由。</li></ol>
+      <dl class="io"><div><dt>输入</dt><dd>优秀模型表、中台候选、已有授权资产。</dd></div><div><dt>产出</dt><dd>候选并排图＋来源记录＋明确选择理由。</dd></div><div><dt>验收条件</dt><dd>用途、外观、结构与授权都成立；有 GLB 或高面数不等于通过。</dd></div></dl>
+      <p class="conclusion"><strong>本步结论：</strong>模型没选对就先换模型，不进入批量套版。中台已入库、流程能运行，都不能代替选型质量。</p>
+      <div class="resource-links"><a href="https://a9ihi0un9c.feishu.cn/wiki/EaEzwsIubiGU3akfW8FcIvIkndc?sheet=8XZJ6k" target="_blank" rel="noopener noreferrer">品牌市场优秀模型表 · 需内部权限</a><a href="https://vast-material.tripo3d.com/assets/brand?folder_id=3150" target="_blank" rel="noopener noreferrer">素材中台模型目录 · 需内部权限</a><a href="models-v19.html">现有模型主视觉概念稿</a></div>
+    </section>
+
+    <section id="production" class="step" aria-labelledby="production-title">
+      <header class="step-heading"><span class="step-number">04</span><div><h2 id="production-title">主体制作分两条路线</h2><p>概念图可以探索审美；真实模型才能提供真实几何与多视角证据。</p></div></header>
+      <div class="route-grid">
+        <article class="route"><span class="route-label">路线 A · 真实模型</span><h3>网格 → Blender → 渲染图</h3><p>取得已有合法 GLB / FBX；必要且已授权时，通过 Tripo Studio 或 API 生成。</p><ol><li>核对输入、模型和来源。</li><li>检查比例、朝向、法线与贴图连接。</li><li>渲染主／侧／背白模及主视角原材质。</li><li>仅采用 <code>status=complete</code> 的渲染记录，仍须目视检查实际图片。</li></ol><p><strong>可证明：</strong>同一模型的形体、材质和不同观察角度。</p><p class="note">Blender 打光不是改进原始网格；白模与材质视图也不自动构成质量提升对照。</p><div class="skill-row"><a href="#skill-model">tripo-model-showcase</a><a href="#skill-tools">tripo-3d / Blender</a></div></article>
+        <article class="route"><span class="route-label">路线 B · GPT 概念图</span><h3>原创描述／参考 → 图像生成</h3><p>适合探索主体、场景与构图，或制作明确披露的概念广告。它没有自动附带对应三维网格。</p><ol><li>使用原创或有授权的参考。</li><li>生成主体并检查结构、边缘和细节。</li><li>标识为 AI concept／概念视觉。</li><li>若要证明真实模型效果，回到路线 A。</li></ol><p><strong>可表达：</strong>创意意图与视觉方向，不能证明真实生成能力。</p><p class="note">AI 白模外观、AI 线框、镜像或变形图片，不是真实三维结构证据。</p><div class="skill-row"><a href="#skill-tools">imagegen</a><a href="#skill-art">tripo-ad-art-direction</a></div></article>
+      </div>
+      <p class="conclusion"><strong>本步结论：</strong>两条路线可以配合，但必须保留来源标签。目前只用旧 Scanner 完成真实网格渲染校准，新优质模型的全量替换仍待完成。</p>
+      <div class="resource-links"><a href="https://studio.tripo3d.ai/" target="_blank" rel="noopener noreferrer">Tripo Studio</a><a href="https://vast-material.tripo3d.com/skill-agent?conversation=346" target="_blank" rel="noopener noreferrer">中台历史 Skill Agent 会话 · 需内部权限</a><a href="index.html#model-test">历史白模与 GPT 实验</a></div>
+    </section>
+
+    <section id="copy" class="step" aria-labelledby="copy-title">
+      <header class="step-heading"><span class="step-number">05</span><div><h2 id="copy-title">让标题与画面证明同一件事</h2><p>不是把功能目录塞进一张图，也不是只用一句大标题替代证据。</p></div></header>
+      <div class="skill-row"><span>使用 Skills</span><a href="#skill-copy">ad-creative / copy-editing</a><a href="#skill-claims">tripo-ad-claims</a><a href="#skill-art">tripo-ad-art-direction</a></div>
+      <ul class="action-list"><li><strong>Teams：</strong>画面需要共享资产、同一工作区或团队管理的关系。几个无关模型不能独自证明团队方案。</li><li><strong>API：</strong>提交、跟踪、成功后获取结果与后续使用要分清；集成示意不能伪装成已完成的客户项目。</li><li><strong>图文与站内信：</strong>主利益、素材、正文和 CTA 一致。换模型默认不改既有人群、编号、正文、按钮和目的地。</li><li><strong>承诺核验：</strong>速度、额度、权益、性能或「可直接上线」等表述必须核对当前官方依据，没有证据就收窄或删除。</li></ul>
+      <dl class="io"><div><dt>输入</dt><dd>合格素材＋主利益＋当前官方来源。</dd></div><div><dt>产出</dt><dd>标题、正文、CTA、画面结构与承诺记录。</dd></div><div><dt>验收条件</dt><dd>遮住产品名仍能理解卖点；画面没有暗示未经证实的能力。</dd></div></dl>
+      <p class="conclusion"><strong>本步结论：</strong>文案负责说清价值，画面负责解释价值；不能用未经核验的参数或漂亮模型代替产品差异。</p>
+      <div class="resource-links"><a href="https://www.tripo3d.ai/programs/team-program" target="_blank" rel="noopener noreferrer">Team Program</a><a href="https://developers.tripo3d.ai/en/docs/introduction" target="_blank" rel="noopener noreferrer">API 官方文档</a><a href="https://developers.tripo3d.ai/en/docs/task-query" target="_blank" rel="noopener noreferrer">Task Query</a><a href="v17-claims.md">项目已有承诺核验记录</a></div>
+    </section>
+
+    <section id="layout" class="step" aria-labelledby="layout-title">
+      <header class="step-heading"><span class="step-number">06</span><div><h2 id="layout-title">精确排版，分别适配图文和站内信</h2><p>标题、说明、主体和 CTA 应有明确归属，而不是分别漂在画布上。</p></div><span class="tag">V20 基线已完成</span></header>
+      <div class="skill-row"><span>使用 Skills</span><a href="#skill-impeccable">Impeccable · layout / typeset / polish</a><a href="#skill-art">tripo-ad-art-direction</a></div>
+      <ul class="action-list"><li>沿用官方 Logo、Instrument Sans、品牌黄 <code>#F9CF00</code>；背景和风格随素材选择，不把米白当固定品牌要求。</li><li>检查共用对齐轴、语义断行、字号层级、间距与主体比例。加号居中只是局部问题，整张阅读顺序更重要。</li><li>本轮方图为 1200 × 1200；站内信配图独立制作 300 × 250，不直接缩小方图。每次投放前重新核对对应格式规格。</li><li>当前使用 HTML/CSS 精确排版，由浏览器导出 PNG；不需要 Figma AI。Figma 只保留历史稿，本轮尚未同步。</li></ul>
+      <details class="example"><summary>查看两种实际交付尺寸</summary><div class="example-grid"><figure><a href="assets/v18/A18-EU-02.png" target="_blank" rel="noopener"><img src="assets/v18/A18-EU-02.png" width="1200" height="1200" loading="lazy" alt="A18-EU-02 当前排版稿，GPT 产品概念素材，非真实 API 输出"></a><figcaption>图文方图 · 1200 × 1200<br>当前 GPT 概念素材，排版样例。</figcaption></figure><figure class="banner-example"><a href="assets/v17/banners/A17-EU.png" target="_blank" rel="noopener"><img src="assets/v17/banners/A17-EU.png" width="300" height="250" loading="lazy" alt="A17-EU 独立设计的站内信配图，300乘250，GPT概念素材"></a><figcaption>站内信配图 · 300 × 250<br>独立布局，不是方图缩略版。</figcaption></figure></div></details>
+      <dl class="io"><div><dt>输入</dt><dd>已定文案、主体、品牌规范。</dd></div><div><dt>产出</dt><dd>可编辑源＋方图 PNG＋独立站内信配图。</dd></div><div><dt>验收条件</dt><dd>文字与主体清楚、布局成组、CTA 可辨、尺寸正确。</dd></div></dl>
+      <p class="conclusion"><strong>本步结论：</strong>同一套质量标准不等于同一个模板。本轮明确执行了 layout＋polish；并非所有 Impeccable 子命令都已执行。</p>
+      <div class="resource-links"><a href="layout-v20.html">18 张封面＋6 张配图</a><a href="assets/layout-v20/all-current-creatives.zip" download>下载当前 PNG 与可编辑源</a><a href="https://www.figma.com/design/qUyEmSdVcrzgVY9bAv5pXR/Tripo-%25C2%25B7-LinkedIn-Game-Ads-%25C2%25B7-Editable-V3" target="_blank" rel="noopener noreferrer">历史 Figma · 本轮未同步</a></div>
+    </section>
+
+    <section id="review" class="step" aria-labelledby="review-title">
+      <header class="step-heading"><span class="step-number">07</span><div><h2 id="review-title">把模型、排版与承诺分开验收</h2><p>自动检查用来找缺陷，不能给「好看」或「可投放」盖章。</p></div></header>
+      <div class="skill-row"><span>使用 Skills</span><a href="#skill-impeccable">Impeccable · critique / audit / polish 按需</a><a href="#skill-model">tripo-model-showcase</a><a href="#skill-claims">tripo-ad-claims</a></div>
+      <div class="table-scroll" role="region" aria-label="验收分工表；窄屏可横向滚动" tabindex="0"><table><thead><tr><th scope="col">检查层</th><th scope="col">检查内容</th><th scope="col">不能替代什么</th></tr></thead><tbody><tr><th scope="row">模型与来源</th><td>真实几何、主侧背、细节、材质、用途、许可。</td><td>渲染成功不等于模型合格。</td></tr><tr><th scope="row">视觉与排版</th><td>原尺寸、360px 信息流缩图、原生配图；断行、对齐、裁切、留白。</td><td>没有溢出不等于有吸引力。</td></tr><tr><th scope="row">事实与规范</th><td>Logo、字体、文案、权益、UI、CTA、产品来源标识。</td><td>概念示意不等于真实产品结果。</td></tr><tr><th scope="row">技术与交付</th><td>字体／图片加载、尺寸、文件大小、页面链接、下载包与清单一致。</td><td>本地通过不等于公网内容已更新。</td></tr></tbody></table></div>
+      <p class="conclusion"><strong>本步结论：</strong>三项分别判断，最后再对照完整视觉规范。换模型后必须重新看图，不能沿用旧稿的通过状态。</p>
+      <p class="note">2026.10.09 的 V20 记录包含 460 项自动回归和逐张视觉复核；这是当时的排版检查结果，不是实时保证、完整无障碍认证或新模型验收。</p>
+      <div class="resource-links"><a href="layout-v20-qa.md">V20 检查记录</a><a href="https://a9ihi0un9c.feishu.cn/wiki/KGWBwpXy6iGlLQk023gcsROCnYg" target="_blank" rel="noopener noreferrer">完整视觉规范 · 需内部权限</a><a href="https://www.linkedin.com/help/linkedin/answer/a427596/" target="_blank" rel="noopener noreferrer">LinkedIn 单图规格</a><a href="https://www.linkedin.com/help/linkedin/answer/a1344888" target="_blank" rel="noopener noreferrer">Message Ads 官方说明</a></div>
+    </section>
+
+    <section id="delivery" class="step" aria-labelledby="delivery-title">
+      <header class="step-heading"><span class="step-number">08</span><div><h2 id="delivery-title">同步审稿网站，保留历史</h2><p>发布的是审稿网站，不是投放广告或发送站内信。</p></div><span class="tag">已有 GitHub 交付链路</span></header>
+      <div class="skill-row"><span>使用 Skills</span><a href="#skill-workbench">tripo-ad-workbench</a><span class="tool-label">工具：导出脚本、Git、GitHub Pages</span></div>
+      <ol class="action-list"><li>同步图片、文案数据、来源说明、编号与下载包，不只替换页面上的一张图。</li><li>检查总览、各组图文、当前站内信和历史栏目；保留原 ID、正文、CTA、目的地及状态。</li><li>按授权提交并发布 GitHub Pages，确认线上页面和图片清单与本地一致。</li><li>交付可访问链接、版本与尚未解决的问题；内部交接包、私有模型和凭据不上传公开站。</li></ol>
+      <dl class="io"><div><dt>输入</dt><dd>验收后的图片、文案、可编辑源与来源记录。</dd></div><div><dt>产出</dt><dd>在线审稿页、下载包、版本与校验清单。</dd></div><div><dt>验收条件</dt><dd>线上可访问，内容与下载一致，历史记录没有丢失。</dd></div></dl>
+      <p class="conclusion"><strong>本步结论：</strong>当前六套与历史八条站内信分别保留，共 14 条站内信、9 张唯一配图。四主方向可审稿，两条再营销仍待补证据，均不代表已批准投放。</p>
+      <div class="resource-links"><a href="index.html">广告网站首页</a><a href="campaign-v17.html">当前六套图文与站内信</a><a href="messages.html">历史八条站内信</a><a href="https://github.com/chaoyubai8-tech/linkedin-brand-ads" target="_blank" rel="noopener noreferrer">GitHub 仓库</a><a href="assets/layout-v20/all-manifest.json">当前 24 张图片清单</a></div>
+    </section>
+
+    <section id="learning" class="step" aria-labelledby="learning-title">
+      <header class="step-heading"><span class="step-number">09</span><div><h2 id="learning-title">先记录事实，再形成经验</h2><p>设计反馈与投放结果是两类证据，不能互相替代。</p></div></header>
+      <div class="skill-row"><span>使用 Skills</span><a href="#skill-learning">tripo-ad-learning</a></div>
+      <ul class="action-list"><li>审稿阶段记录模型、版式、文案的问题与修改，不把个人偏好写成所有领英用户的规律。</li><li>有真实投放数据后，按地区、人群、目标、时间窗口与点击口径比较，保留消耗与样本量。</li><li>素材随后按有效线索和实际使用表现筛选；CTR、CPM 等只解释相应环节。</li><li>确需沉淀长期规则时，写清旧规则、新规则、证据、适用范围和版本，不自动覆盖云端规则库。</li></ul>
+      <dl class="io"><div><dt>输入</dt><dd>审稿反馈；投放后的广告与线索数据。</dd></div><div><dt>产出</dt><dd>有限结论、待验证假设与规则更新提案。</dd></div><div><dt>验收条件</dt><dd>结论有范围、有证据，不把点击好称为业务转化最好。</dd></div></dl>
+      <p class="conclusion"><strong>本步结论：</strong>目前没有这一轮新稿的投放实验结果。先完成素材与审稿，不能提前宣布效果提升。</p>
+    </section>
+
+    <section id="skills" class="appendix" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills 职责速查</h2>
+      <p>按当前任务调用，不需要每张广告把所有技能跑一遍。以下版本来自本地采用记录；云端库读取未成功，未确认实时同步。</p>
+      <dl class="skill-directory">
+        <div id="skill-workbench"><dt>tripo-ad-workbench <span>1.0.0</span></dt><dd>总控：读取规则、选择所需技能、记录版本与边界。它不是自动投放器。</dd></div>
+        <div id="skill-art"><dt>tripo-ad-art-direction <span>1.1.0</span></dt><dd>视觉方向：让产品利益有画面证据，组织标题、主体、品牌与 CTA，检查手机可读性。</dd></div>
+        <div id="skill-model"><dt>tripo-model-showcase <span>1.1.0</span></dt><dd>模型选择、来源对应、真实渲染和质量检查。调用不自动授权新增生成费用。</dd></div>
+        <div id="skill-claims"><dt>tripo-ad-claims <span>1.0.0</span></dt><dd>核查文案与画面中的功能、权益和效果承诺，记录来源、日期与条件。</dd></div>
+        <div id="skill-copy"><dt>ad-creative / copy-editing <span>2.8.2 / 2.0.0</span></dt><dd>需要时创作、扩展或精简文案；不能覆盖已确认的人群策略或替代产品事实核验。</dd></div>
+        <div id="skill-impeccable"><dt>impeccable <span>本轮采用 3.5.0</span></dt><dd><code>layout</code> 管分组、对齐、间距；<code>typeset</code> 管字体与层级；<code>polish</code> 做收尾；<code>critique / audit</code> 按需评审。仍需实际看图，不是审美保证。</dd></div>
+        <div id="skill-tools"><dt>imagegen / tripo-3d / tripo-blender-demo <span>按任务使用</span></dt><dd>分别处理概念图片、真实 3D 生成和 API／Blender 演示。静态模型可用现有 Blender 渲染脚本；游戏导入任务才按需增加 tripo-game-asset。</dd></div>
+        <div id="skill-learning"><dt>tripo-ad-learning <span>1.0.0</span></dt><dd>区分事实、解释与假设，维护有证据的规则变更。按用户最新目标评价，不机械沿用旧指标优先级。</dd></div>
+      </dl>
+      <p class="conclusion"><strong>边界：</strong>Skill 是执行说明，Blender、浏览器和 Git 是工具，素材中台是资源与工作流平台。三者都不能替代审稿判断。这里公开职责摘要，不公开内部技能全文或完整交接包。</p>
+    </section>
+
+    <section id="platforms" class="appendix" aria-labelledby="platforms-title">
+      <h2 id="platforms-title">网站与文档，各自管什么</h2>
+      <div class="platform-list">
+        <article><h3><a href="index.html">GitHub 广告审稿网站</a></h3><p>看成稿、站内信、研究和历史版本。当前网站没有自动生成模型或自动投放功能。</p><span class="access">公开入口</span></article>
+        <article><h3><a href="https://vast-material.tripo3d.com/assets/brand?folder_id=3150" target="_blank" rel="noopener noreferrer">VAST 素材中台</a></h3><p>挑资产、取得模型及运行中台已有工作流。已运行工作流不等于素材已被认可。</p><span class="access">需要内部账号权限</span></article>
+        <article><h3><a href="https://a9ihi0un9c.feishu.cn/wiki/KGWBwpXy6iGlLQk023gcsROCnYg" target="_blank" rel="noopener noreferrer">广告素材视觉规范</a></h3><p>检查品牌、字体、Logo、模型展示和素材使用要求。开工时读，成稿后再逐条核对。</p><span class="access">需要飞书访问权限</span></article>
+        <article><h3><a href="https://a9ihi0un9c.feishu.cn/wiki/EaEzwsIubiGU3akfW8FcIvIkndc?sheet=8XZJ6k" target="_blank" rel="noopener noreferrer">品牌市场优秀模型表</a></h3><p>查候选原图、白模、材质和模型链接。表格分类或「优秀」名称不代替本轮用途与质量检查。</p><span class="access">需要飞书访问权限</span></article>
+        <article><h3><a href="https://tripo-creative-skills.chaoyubai8.chatgpt.site" target="_blank" rel="noopener noreferrer">私有 Tripo 技能库</a></h3><p>保存规则与版本，不是独立自动研究代理。读取失败时明确使用的本地版本，不宣称已同步。</p><span class="access">私有入口 · 当前未核对云端最新版</span></article>
+        <article><h3><a href="https://studio.tripo3d.ai/" target="_blank" rel="noopener noreferrer">Tripo Studio 与 API</a></h3><p>生成或取得实际 3D 输出。按任务来源标识 Studio、API 或已有中台资产，不混称本次 API 实测。</p><span class="access">模型操作通常需要账号与相应授权</span></article>
+      </div>
+      <p class="conclusion"><strong>阅读顺序：</strong>先看本页的当前状态与九步链路，再打开对应资料。不需要为了了解流程登录所有平台；内部链接是否可访问取决于已有权限。</p>
+    </section>
+    <footer><p>流程说明更新于 2026.10.09。广告状态以带日期的审稿与版本记录为准；本页不是投放批准或自动执行入口。</p><a href="index.html">返回领英品牌广告</a><a href="#overview">回到工作流顶部</a></footer>
+  </main>
+</div>
+</body>
+</html>
