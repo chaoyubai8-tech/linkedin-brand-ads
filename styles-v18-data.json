@@ -14,7 +14,7 @@
       "angle": "Workflow efficiency through a shared, reusable vehicle and prop library.",
       "visual": "明亮作品集：单个探索载具概念与 Find / Share / Reuse 排列，强调共享工作区；不是资产库截图。",
       "evidenceNote": "Shared asset organization and reuse are verified capabilities, subject to team permissions. The pictured collection is concept artwork, not Tripo model output or proof of measured time savings.",
-      "image": "assets/v18/T18-US-01.png"
+      "image": "assets/v18/T18-US-01.png?v=20261009-layout2"
     },
     {
       "id": "T18-US-02",
@@ -29,7 +29,7 @@
       "angle": "Reduce fragmented asset handoffs through centralized assets and team administration.",
       "visual": "品牌黄大字：同一游戏概念的角色与天文台环境，配共享资产库的清楚主张。",
       "evidenceNote": "Shared workspace, team credits and member administration are verified. Less file chasing is a qualitative benefit, not a quantified efficiency result or real-time co-editing promise.",
-      "image": "assets/v18/T18-US-02.png"
+      "image": "assets/v18/T18-US-02.png?v=20261009-layout2"
     },
     {
       "id": "T18-EU-01",
@@ -44,7 +44,7 @@
       "angle": "A concrete game project: keep a harbor world's assets together for the team.",
       "visual": "电影感场景：蓝调港湾游戏世界概念，展示团队方案可以服务的项目语境；不是完整生成场景或客户游戏。",
       "evidenceNote": "The shared workspace is verified. The harbor is a project-use illustration, not a customer game, engine capture, or promise to generate a complete world.",
-      "image": "assets/v18/T18-EU-01.png"
+      "image": "assets/v18/T18-EU-01.png?v=20261009-layout2"
     },
     {
       "id": "T18-EU-02",
@@ -59,7 +59,7 @@
       "angle": "Organize the character, prop and environment work belonging to the same game project.",
       "visual": "项目图册：角色与天文台环境按资产类别归集，线性关系表示共享资产库，不是产品UI。",
       "evidenceNote": "The library capability is verified. The atlas is GPT-generated 2D concept art; it does not prove automatic style consistency, support for every file type, or production readiness.",
-      "image": "assets/v18/T18-EU-02.png"
+      "image": "assets/v18/T18-EU-02.png?v=20261009-layout2"
     },
     {
       "id": "A18-US-01",
@@ -74,7 +74,7 @@
       "angle": "Asynchronous 3D generation integrated into game and asset tools.",
       "visual": "技术流程：深蓝版面把提交、查询、成功后取回写清楚，配原创游戏载具概念。",
       "evidenceNote": "API task creation, status queries and successful-result retrieval are verified. This is a workflow illustration with GPT 2D artwork, not an executed API example or a game-ready result.",
-      "image": "assets/v18/A18-US-01.png"
+      "image": "assets/v18/A18-US-01.png?v=20261009-layout2"
     },
     {
       "id": "A18-US-02",
@@ -89,7 +89,7 @@
       "angle": "Make 3D generation part of an existing developer-controlled tool workflow.",
       "visual": "大字分栏：品牌黄标出 dimension，横向异步任务流程连接开发者的工具场景。",
       "evidenceNote": "Developer integration is verified as an API capability. Integration requires engineering; pictured GPT 2D art is not a returned mesh, and one request does not automatically finish the whole pipeline.",
-      "image": "assets/v18/A18-US-02.png"
+      "image": "assets/v18/A18-US-02.png?v=20261009-layout2"
     },
     {
       "id": "A18-EU-01",
@@ -104,7 +104,7 @@
       "angle": "Business use: model generation as part of a product-display content workflow.",
       "visual": "设计作品集：留白、焦糖皮革与铝材产品概念，强调企业产品内容工具的用途。",
       "evidenceNote": "Image-to-3D integration is verified; product-display use is an intended application. The chair is concept art, not an exact digital twin, verified model, or an implemented viewer.",
-      "image": "assets/v18/A18-EU-01.png"
+      "image": "assets/v18/A18-EU-01.png?v=20261009-layout2"
     },
     {
       "id": "A18-EU-02",
@@ -119,7 +119,7 @@
       "angle": "Connect asynchronous model generation to enterprise product-content tools.",
       "visual": "深色产品展示：皮革与金属主体配深炭色框架，把产品体验与平台接入放在同一页。",
       "evidenceNote": "Task retrieval and developer integration are verified. The product-experience direction is illustrative, not a deployed customer solution, exact product reproduction, or measured business result.",
-      "image": "assets/v18/A18-EU-02.png"
+      "image": "assets/v18/A18-EU-02.png?v=20261009-layout2"
     }
   ],
   "title": "V18 · 八张多风格图文"
