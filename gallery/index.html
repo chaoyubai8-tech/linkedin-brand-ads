@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="领英品牌广告全部版本素材：浏览广告成图、AI 精修图像、对应文案与版本下载。">
+  <meta name="color-scheme" content="light">
+  <title>全部版本素材 · 领英品牌广告</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script src="catalog.js" defer></script>
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#materials">跳到素材</a>
+  <header class="site-header">
+    <a class="site-brand" href="../"><strong>TRIPO</strong><span>领英品牌广告</span></a>
+    <nav aria-label="项目导航">
+      <a href="../">广告首页</a>
+      <a href="./" aria-current="page">全部版本素材</a>
+      <a href="../workflow.html">制作工作流</a>
+    </nav>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div>
+        <h1 id="page-title">全部版本素材</h1>
+        <p class="intro-copy">广告成图、AI 精修图像与版本下载，集中在这里。</p>
+        <p id="library-summary" class="library-summary" aria-live="polite">正在读取素材目录…</p>
+      </div>
+      <div class="intro-actions"><a id="all-download" class="all-download" hidden>一次下载全部图片</a><p id="all-download-size" class="all-download-size"></p><div class="intro-links"><a href="#downloads">分版本下载</a><a href="#archive-notes">版本说明</a></div></div>
+    </section>
+
+    <section id="materials" aria-labelledby="materials-title">
+      <h2 id="materials-title" class="visually-hidden">浏览素材</h2>
+      <form id="filters" class="filter-bar" role="search" aria-label="筛选素材">
+        <fieldset class="kind-filter">
+          <legend>素材类型</legend>
+          <div class="kind-buttons">
+            <button type="button" data-kind="ad" aria-pressed="true">广告成图</button>
+            <button type="button" data-kind="refined" aria-pressed="false">AI 精修</button>
+          </div>
+        </fieldset>
+        <div class="filter-field">
+          <label for="version-filter">版本</label>
+          <select id="version-filter" name="version" aria-controls="asset-grid"><option value="">全部版本</option></select>
+        </div>
+        <div class="filter-field search-field">
+          <label for="search-filter">关键词</label>
+          <input id="search-filter" name="q" type="search" placeholder="搜索编号、标题或中文概念" aria-controls="asset-grid" autocomplete="off">
+        </div>
+        <button id="reset-filters" class="text-button" type="reset" disabled>清除筛选</button>
+      </form>
+
+      <div class="results-heading">
+        <div><h2 id="results-title">全部广告成图</h2><p id="version-description" class="version-description"></p></div>
+        <p id="results-count" class="results-count" role="status" aria-live="polite"></p>
+      </div>
+      <div id="asset-grid" class="asset-grid" aria-label="素材列表" aria-busy="true"></div>
+      <div id="empty-state" class="empty-state" hidden>
+        <h3 id="empty-title">没有找到匹配素材</h3>
+        <p id="empty-description">试试其他版本，或缩短关键词。</p>
+        <button id="empty-action" type="button">清除筛选</button>
+      </div>
+      <noscript><p class="no-script">请启用 JavaScript 查看筛选图库。已有公开历史稿可从<a href="../layout-v20.html">广告首页的历史成图</a>查看。</p></noscript>
+    </section>
+
+    <section id="downloads" class="download-section" aria-labelledby="downloads-title">
+      <div class="section-heading"><h2 id="downloads-title">版本下载</h2><p id="downloads-context">图片素材按版本整理，原始模型另列。</p></div>
+      <div id="standard-downloads"></div>
+      <p id="downloads-empty" class="subtle" hidden>当前筛选版本暂无下载包。</p>
+      <section id="model-download-section" class="model-download-section" aria-labelledby="model-download-title" hidden>
+        <h3 id="model-download-title">模型源文件</h3>
+        <p class="subtle">单独下载模型源，可与上方广告图像对应查看。</p>
+        <div id="model-downloads"></div>
+      </section>
+    </section>
+
+    <section id="archive-notes" class="archive-notes" aria-labelledby="notes-title">
+      <h2 id="notes-title">版本说明</h2>
+      <p>历史方案保留，具体状态见各版本记录。</p>
+      <ul id="notes-list"></ul>
+    </section>
+  </main>
+  <footer class="site-footer"><p id="updated-at"></p><a href="../workflow.html">查看制作工作流</a><a href="../">返回广告首页</a><a href="#page-title">回到顶部</a></footer>
+</body>
+</html>
