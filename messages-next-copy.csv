@@ -1,0 +1,71 @@
+﻿"id","group","lane","subject","body","cta","destination","footer","bannerId","banner"
+"M-T-US-A","Teams · 美国游戏","main","Keep game assets in one team workspace","Hi,
+
+Still passing character and prop files between individual accounts?
+
+Tripo Studio Team Plan gives your team a shared asset library, pooled credits and member access controls. Create 3D assets, organize them in the team workspace, and find shared models for the next task.
+
+Request a team trial to evaluate the workflow with your own game project.","Request a trial","https://www.tripo3d.ai/programs/team-program","Trial approval and program terms apply.","B-T-US","assets/v17/banners/T17-US.png"
+"M-T-US-B","Teams · 美国游戏","main","Keep game assets in one team workspace","Hi,
+
+What if your team could find shared characters and props in one place?
+
+Tripo Studio Team Plan gives your team a shared asset library, pooled credits and member access controls. Create 3D assets, organize them in the team workspace, and find shared models for the next task.
+
+Request a team trial to evaluate the workflow with your own game project.","Request a trial","https://www.tripo3d.ai/programs/team-program","Trial approval and program terms apply.","B-T-US","assets/v17/banners/T17-US.png"
+"M-T-EU-A","Teams · 欧洲游戏","main","A shared workspace for your next game","Hi,
+
+Planning a new game level and the characters, props and environments it needs?
+
+With Tripo Studio Team Plan, your team can create and organize 3D assets in a shared workspace. Keep the project's character, prop and environment models in a library your authorized teammates can access.
+
+Request a team trial and evaluate it against your game's asset brief.","Request a trial","https://www.tripo3d.ai/programs/team-program","Trial approval and program terms apply.","B-T-EU","assets/v17/banners/T17-EU.png"
+"M-T-EU-B","Teams · 欧洲游戏","main","A shared workspace for your next game","Hi,
+
+Bringing a new game world to life starts with the assets your team needs to build.
+
+With Tripo Studio Team Plan, your team can create and organize 3D assets in a shared workspace. Keep the project's character, prop and environment models in a library your authorized teammates can access.
+
+Request a team trial and evaluate it against your game's asset brief.","Request a trial","https://www.tripo3d.ai/programs/team-program","Trial approval and program terms apply.","B-T-EU","assets/v17/banners/T17-EU.png"
+"M-A-US-A","API · 美国游戏＋3D资产","main","Add 3D generation to your asset workflow","Hi,
+
+Still handling 3D generation requests outside the tools your team uses?
+
+Use Tripo API to submit a generation task, check its status, and retrieve the model after it succeeds. Connect that sequence to the game tools or asset workflow you build.
+
+Start with the Quick Start, then review the output against your project's requirements before using it in production.","View API docs","https://developers.tripo3d.ai/en/docs/quick-start","Output requires project-specific review before production use.","B-A-US","assets/v17/banners/A17-US.png"
+"M-A-US-B","API · 美国游戏＋3D资产","main","Add 3D generation to your asset workflow","Hi,
+
+Building a game tool or asset pipeline that needs a 3D generation step?
+
+Use Tripo API to submit a generation task, check its status, and retrieve the model after it succeeds. Connect that sequence to the game tools or asset workflow you build.
+
+Start with the Quick Start, then review the output against your project's requirements before using it in production.","View API docs","https://developers.tripo3d.ai/en/docs/quick-start","Output requires project-specific review before production use.","B-A-US","assets/v17/banners/A17-US.png"
+"M-A-EU-A","API · 欧洲企业内容","main","Bring 3D into your product content platform","Hi,
+
+Building a product viewer that needs 3D assets, not just flat catalog images?
+
+Tripo API can generate a 3D model from a reference image. Submit a task, track it, and retrieve the successful output for review. Your team can then integrate approved assets into the product viewer or content experience you build.
+
+Explore the API Quick Start for your platform.","View API docs","https://developers.tripo3d.ai/en/docs/quick-start","Viewer integration and asset review are performed by your team.","B-A-EU","assets/v17/banners/A17-EU.png"
+"M-A-EU-B","API · 欧洲企业内容","main","Bring 3D into your product content platform","Hi,
+
+Planning a 3D product showcase inside your company's content platform?
+
+Tripo API can generate a 3D model from a reference image. Submit a task, track it, and retrieve the successful output for review. Your team can then integrate approved assets into the product viewer or content experience you build.
+
+Explore the API Quick Start for your platform.","View API docs","https://developers.tripo3d.ai/en/docs/quick-start","Viewer integration and asset review are performed by your team.","B-A-EU","assets/v17/banners/A17-EU.png"
+"M-R-US","Teams · 美国再营销","reserve","Evaluate Teams with your own game project","Hi,
+
+Considering a shared 3D workflow for your studio?
+
+Evaluate Tripo Studio Team Plan with your own game project: create assets in a shared workspace, organize them in the team library, and manage access for your teammates.
+
+Request a team trial and tell us what your studio needs to build next.","Request a trial","https://www.tripo3d.ai/programs/team-program","Trial approval and program terms apply.","B-R-US","assets/v17/banners/R17-US.png"
+"M-R-EU","Teams · 欧洲再营销","reserve","Tell us about your next game's asset needs","Hi,
+
+Choosing a team workspace for the assets in your next game?
+
+Tripo Studio Team Plan brings 3D creation and shared asset organization into one team workspace. Describe your project's asset needs through the Team Program page so we can discuss whether the plan fits your workflow.
+
+Share your project needs to start the conversation.","Share your needs","https://www.tripo3d.ai/programs/team-program","Availability and program terms apply.","B-R-EU","assets/v17/banners/R17-EU.png"

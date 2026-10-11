@@ -1,0 +1,33 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const root=new URL('./',import.meta.url);
+const data=JSON.parse(await fs.readFile(new URL('messages-next-data.json',root),'utf8'));
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const records=data.groups.flatMap(g=>g.variants.map(v=>({...v,groupId:g.id,group:g.label,lane:g.lane,subject:g.subject,body:v.opening+'\n\n'+g.commonBody,cta:g.cta,destination:g.destination,footer:g.footer,banner:g.banner,bannerId:g.bannerId})));
+assert.equal(records.length,10);assert.equal(records.filter(r=>r.lane==='main').length,8);
+assert.equal(new Set(records.map(r=>r.banner)).size,6);
+for(const r of records)for(const k of ['subject','body','cta','destination'])assert(r[k].length<=data.limits[k==='destination'?'url':k],r.id+' '+k+' exceeds limit');
+for(const g of data.groups){
+ const b=await fs.readFile(new URL(g.banner,root));
+ assert(b.subarray(1,4).toString()==='PNG',g.banner+' must be PNG');
+ assert.equal(b.readUInt32BE(16),300);assert.equal(b.readUInt32BE(20),250);assert(b.length<2*1024*1024);
+}
+const csv=s=>'"'+String(s??'').replaceAll('"','""')+'"';
+const fields=['id','group','lane','subject','body','cta','destination','footer','bannerId','banner'];
+await fs.writeFile(new URL('messages-next-copy.csv',root),'\uFEFF'+[fields.map(csv).join(','),...records.map(r=>fields.map(k=>csv(r[k])).join(','))].join('\r\n'));
+await fs.writeFile(new URL('messages-next-copy.json',root),JSON.stringify({version:data.version,format:data.format,status:data.status,records},null,2)+'\n');
+const raw=JSON.stringify(data).replaceAll('<','\\u003c');
+const html=`<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>领英站内信广告 · 8套主投＋2套预留</title><meta name="description" content="按Teams美国游戏、Teams欧洲游戏、API美国游戏与3D资产、API欧洲企业内容重写的10套LinkedIn站内信。含A/B开场、消息预览、中文释义、配图、字符验收与文案导出。审稿，未发送。"><link rel="stylesheet" href="messages-next.css?v=20261011-1"></head>
+<body><a class="skip" href="#message-review">跳到站内信审稿</a><header class="topbar"><strong>Tripo / 领英品牌广告</strong><nav aria-label="全站导航"><a href="index.html">广告首页</a><a href="workflow.html">制作工作流</a><a href="messages.html">历史8套</a><a href="https://github.com/chaoyubai8-tech/linkedin-brand-ads">GitHub源码</a></nav></header>
+<main><header class="page-intro"><div><h1>领英站内信广告</h1><p class="quantity">8套主投 + 2套再营销预留 · 共用6张桌面配图</p><p>美国讲流程效率，欧洲讲具体业务用途。按你确认的四个人群重写，每组先比较开场，产品、主利益、正文和按钮保持一致。</p></div><a class="download-link" href="messages-next-copy.csv" download>下载全部10套 CSV ↓</a></header>
+<aside class="status-line"><p><strong>本轮文案审稿 · 未发送</strong> 2026.10.11。发件人、承接配置和真实画面证据仍待验收。配图沿用历史概念稿，不是本轮素材中台产出，不代表真实Tripo输出或已完成客户项目。</p></aside>
+<div class="review-layout" id="message-review"><nav class="audiences" aria-label="选择人群"><h2>主投 · 每组2套</h2>${data.groups.map(g=>`${g.lane==='reserve'&&g.id==='retarget-us'?'<h2 class="reserve-title">再营销 · 预留</h2>':''}<a href="#${esc(g.variants[0].id)}" data-group="${esc(g.id)}"><strong>${esc(g.label)}</strong><span>${esc(g.direction)} · ${g.variants.length}套</span></a>`).join('')}</nav><div class="review-main"><div id="review-loading">正在加载站内信预览。也可以查看下方全部文案或下载CSV。</div><div id="review-content" hidden></div></div></div>
+<section class="section-bottom" aria-labelledby="quantity-title"><h2 id="quantity-title">这轮具体要做多少？</h2><div class="table-scroll"><table><thead><tr><th>人群</th><th>主方向</th><th>文案</th><th>配图</th><th>本轮安排</th></tr></thead><tbody>${data.groups.map(g=>`<tr><td>${esc(g.label)}</td><td>${esc(g.direction)}</td><td>${g.variants.length}套</td><td>1张</td><td>${g.lane==='main'?'A/B主投，配图共用':'预留，证据补齐后再启用'}</td></tr>`).join('')}</tbody><tfoot><tr><td>合计</td><td>4主方向＋2再营销</td><td>10套</td><td>6张</td><td>8套主投＋2套预留</td></tr></tfoot></table></div><p class="conclusion">结论：先投4个站内信组，每组2套；不是10个广告组。再营销不默认启用，配图也不需要按每套文案重复做。</p><p>本站只展示站内信。总表另外安排主投12张单图，其中8张首轮、4张备用；与本页的6张桌面配图分别计数。Before / After仍暂停。</p></section>
+<section class="section-bottom" aria-labelledby="test-title"><h2 id="test-title">一次只比较一个变量</h2><p>本轮A/B只改开场第一句。主题、正文、CTA、发件人、受众、配图、offer和落地页固定。四组之间方向不同，不能把它们当同一人群内的严格A/B。</p><p>Message Ad采用一个主要业务CTA；平台还会自动附加Not interested。本站不用历史的Teams／API／案例三路分流，避免同一条消息让受众自己猜产品。</p><p class="conclusion">结论：打开率、按钮点击是过程指标。Teams最终看有效线索、试用与成交；API看注册、Key、首次调用成功、实际付费。点击较好不等于业务转化最好。</p></section>
+<section class="section-bottom" aria-labelledby="gate-title"><h2 id="gate-title">上线前还要补齐这些</h2><ul><li>发件人本人授权、资料和头像；本页“发件人待确认”不是可上传的广告正文。</li><li>Teams核对试用申请、注册邮箱要求及跟进；API核对注册到首次成功调用路径。按钮链接可查，但表单、UTM和事件回传未在本站配置。</li><li>欧洲英文文案只覆盖英文资料用户；法国、德国等EEA成员还需同意接收Sponsored Messaging。可覆盖规模在实际账户复查。</li><li>6张配图先进入素材中台核对选材与工作流，补输入／结果记录，再按原始《广告素材视觉规范》逐项验收。没有真实项目／模型证据就保持概念稿状态。</li><li>Teams再营销须匹配原视频与应用场景，确认可用受众、真实案例及工作区证据后再启用。</li></ul><p class="conclusion">结论：现在可审文案与版式，不等于批准发送。正文必须独立讲清用途，不能依赖手机上不可见的桌面侧边图。</p></section>
+<section class="section-bottom" aria-labelledby="sources-title"><h2 id="sources-title">核验依据与版本</h2><p>人群和方向来自本轮已确认计划；产品与平台表述于2026.10.11核对。没有工时节省、收入提升、直接game-ready、免费额度或折扣承诺。</p><details><summary>查看官方来源、适用条件与规格冲突</summary><ul>${data.sources.map(s=>`<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)}</a> · ${esc(s.checked)}<br>${esc(s.note)}</li>`).join('')}</ul><p>${esc(data.specNote)}</p><p>本轮本地技能：ad-creative 2.8.2、tripo-ad-workbench 1.0.0、tripo-ad-claims 1.0.0、tripo-ad-art-direction 1.1.0、impeccable 3.5.0。私有技能库读取返回403，未声称云端已同步。本站由HTML/CSS/JavaScript排版，不是Figma导出。</p></details></section>
+<section class="section-bottom all-copies" aria-labelledby="copies-title"><h2 id="copies-title">全部10套完整文案</h2><p>不依赖JavaScript也能查看。英文为投放草稿；中文释义用于内部审稿。<a href="messages-next-copy.json" download>下载JSON</a></p>${records.map(r=>`<details id="copy-${esc(r.id)}"><summary>${esc(r.id)} · ${esc(r.group)} · ${esc(r.label)}</summary><pre lang="en">Subject: ${esc(r.subject)}\n\n${esc(r.body)}\n\nCTA: ${esc(r.cta)}\nFooter: ${esc(r.footer)}\nDestination: ${esc(r.destination)}</pre></details>`).join('')}</section>
+</main><footer><span>2026.10.11 · 公开审稿，不含真实客户、广告账户、预算或联系人数据。</span><a href="messages-next-README.md">交付说明与开源范围</a></footer><script type="application/json" id="review-data">${raw}</script><script src="messages-next.js?v=20261011-1" defer></script></body></html>`;
+await fs.writeFile(new URL('messages-next.html',root),html);
+console.log(JSON.stringify({page:'messages-next.html',main:8,reserve:2,banners:6,checks:records.map(r=>({id:r.id,subject:r.subject.length,body:r.body.length,cta:r.cta.length})),bannerDimensions:'300x250',passed:true},null,2));
