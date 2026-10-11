@@ -1,71 +1,131 @@
-﻿"id","group","lane","subject","body","cta","destination","footer","bannerId","banner"
-"M-T-US-A","Teams · 美国游戏","main","Keep game assets in one team workspace","Hi,
+﻿"id","group","lane","priority","subject","subjectZh","body","bodyZh","cta","ctaZh","destination","destinationLabel","footer","footerZh","bannerId","banner","copyNote"
+"M-T-US-A","Teams · 美国游戏","main","primary","Keep game assets in reach of your team","让团队找到需要的游戏资产","Hi,
 
-Still passing character and prop files between individual accounts?
+Does the next asset task start with another request for a character or prop file?
 
-Tripo Studio Team Plan gives your team a shared asset library, pooled credits and member access controls. Create 3D assets, organize them in the team workspace, and find shared models for the next task.
+With Tripo Studio Team Plan, create 3D assets in a shared workspace and keep them in a searchable team library. Authorized teammates can find and reuse shared models, rather than request another file transfer.
 
-Request a team trial to evaluate the workflow with your own game project.","Request a trial","https://www.tripo3d.ai/programs/team-program","Trial approval and program terms apply.","B-T-US","assets/v17/banners/T17-US.png"
-"M-T-US-B","Teams · 美国游戏","main","Keep game assets in one team workspace","Hi,
+Request a team trial and try the workflow with your own game's asset list.","你好，
 
-What if your team could find shared characters and props in one place?
+每次开始下一项资产任务，都得先找人要一次角色或道具文件吗？
 
-Tripo Studio Team Plan gives your team a shared asset library, pooled credits and member access controls. Create 3D assets, organize them in the team workspace, and find shared models for the next task.
+通过 Tripo Studio 团队版，在共享工作区创建 3D 资产，并把它们放进可搜索的团队资产库。授权成员可以查找和复用共享模型，不必为此再请求传一次文件。
 
-Request a team trial to evaluate the workflow with your own game project.","Request a trial","https://www.tripo3d.ai/programs/team-program","Trial approval and program terms apply.","B-T-US","assets/v17/banners/T17-US.png"
-"M-T-EU-A","Teams · 欧洲游戏","main","A shared workspace for your next game","Hi,
+申请团队试用，用自己游戏的资产清单体验这套工作流程。","Request a trial","申请团队试用","https://www.tripo3d.ai/programs/team-program","官方Teams试用申请页","Trial access is subject to program terms and availability.","能否获得试用，以活动条款和可用名额为准。","B-T-US","assets/v17/banners/T17-US.png","从积分与权限功能清单改成“找文件→查找与复用资产”的具体工作任务；不虚构节省工时。"
+"M-T-US-B","Teams · 美国游戏","main","backup","Keep game assets in reach of your team","让团队找到需要的游戏资产","Hi,
 
-Planning a new game level and the characters, props and environments it needs?
+Give your team one place to find the characters and props it needs for the next task.
 
-With Tripo Studio Team Plan, your team can create and organize 3D assets in a shared workspace. Keep the project's character, prop and environment models in a library your authorized teammates can access.
+With Tripo Studio Team Plan, create 3D assets in a shared workspace and keep them in a searchable team library. Authorized teammates can find and reuse shared models, rather than request another file transfer.
 
-Request a team trial and evaluate it against your game's asset brief.","Request a trial","https://www.tripo3d.ai/programs/team-program","Trial approval and program terms apply.","B-T-EU","assets/v17/banners/T17-EU.png"
-"M-T-EU-B","Teams · 欧洲游戏","main","A shared workspace for your next game","Hi,
+Request a team trial and try the workflow with your own game's asset list.","你好，
 
-Bringing a new game world to life starts with the assets your team needs to build.
+让团队在同一个地方，找到下一项任务需要的角色和道具。
 
-With Tripo Studio Team Plan, your team can create and organize 3D assets in a shared workspace. Keep the project's character, prop and environment models in a library your authorized teammates can access.
+通过 Tripo Studio 团队版，在共享工作区创建 3D 资产，并把它们放进可搜索的团队资产库。授权成员可以查找和复用共享模型，不必为此再请求传一次文件。
 
-Request a team trial and evaluate it against your game's asset brief.","Request a trial","https://www.tripo3d.ai/programs/team-program","Trial approval and program terms apply.","B-T-EU","assets/v17/banners/T17-EU.png"
-"M-A-US-A","API · 美国游戏＋3D资产","main","Add 3D generation to your asset workflow","Hi,
+申请团队试用，用自己游戏的资产清单体验这套工作流程。","Request a trial","申请团队试用","https://www.tripo3d.ai/programs/team-program","官方Teams试用申请页","Trial access is subject to program terms and availability.","能否获得试用，以活动条款和可用名额为准。","B-T-US","assets/v17/banners/T17-US.png","从积分与权限功能清单改成“找文件→查找与复用资产”的具体工作任务；不虚构节省工时。"
+"M-T-EU-A","Teams · 欧洲游戏","main","primary","Build an asset library for your next level","为下一个游戏关卡建立资产库","Hi,
 
-Still handling 3D generation requests outside the tools your team uses?
+A new level needs more than a hero character. It needs props, scenery and a team that can work from the same asset library.
 
-Use Tripo API to submit a generation task, check its status, and retrieve the model after it succeeds. Connect that sequence to the game tools or asset workflow you build.
+Use Tripo Studio Team Plan to create and organize those 3D assets in a shared workspace. Keep the project's models together so authorized teammates can find assets for the scene they are building.
 
-Start with the Quick Start, then review the output against your project's requirements before using it in production.","View API docs","https://developers.tripo3d.ai/en/docs/quick-start","Output requires project-specific review before production use.","B-A-US","assets/v17/banners/A17-US.png"
-"M-A-US-B","API · 美国游戏＋3D资产","main","Add 3D generation to your asset workflow","Hi,
+Request a team trial and evaluate it against a level or prototype brief from your own game.","你好，
 
-Building a game tool or asset pipeline that needs a 3D generation step?
+一个新关卡不只需要主角，还需要道具、场景，以及能使用同一资产库的团队。
 
-Use Tripo API to submit a generation task, check its status, and retrieve the model after it succeeds. Connect that sequence to the game tools or asset workflow you build.
+用 Tripo Studio 团队版，在共享工作区创建并整理这些 3D 资产。把项目模型集中放在一起，让授权成员能找到正在搭建的场景所需的资产。
 
-Start with the Quick Start, then review the output against your project's requirements before using it in production.","View API docs","https://developers.tripo3d.ai/en/docs/quick-start","Output requires project-specific review before production use.","B-A-US","assets/v17/banners/A17-US.png"
-"M-A-EU-A","API · 欧洲企业内容","main","Bring 3D into your product content platform","Hi,
+申请团队试用，用自己游戏的关卡或原型需求来评估这套方案。","Request a trial","申请团队试用","https://www.tripo3d.ai/programs/team-program","官方Teams试用申请页","Trial access is subject to program terms and availability.","能否获得试用，以活动条款和可用名额为准。","B-T-EU","assets/v17/banners/T17-EU.png","从泛泛的游戏世界愿景落到具体关卡／原型所需的角色、道具和环境；不暗示已完成客户项目或直接可上线。"
+"M-T-EU-B","Teams · 欧洲游戏","main","backup","Build an asset library for your next level","为下一个游戏关卡建立资产库","Hi,
 
-Building a product viewer that needs 3D assets, not just flat catalog images?
+Planning the characters, props and environments for your next game level?
 
-Tripo API can generate a 3D model from a reference image. Submit a task, track it, and retrieve the successful output for review. Your team can then integrate approved assets into the product viewer or content experience you build.
+Use Tripo Studio Team Plan to create and organize those 3D assets in a shared workspace. Keep the project's models together so authorized teammates can find assets for the scene they are building.
 
-Explore the API Quick Start for your platform.","View API docs","https://developers.tripo3d.ai/en/docs/quick-start","Viewer integration and asset review are performed by your team.","B-A-EU","assets/v17/banners/A17-EU.png"
-"M-A-EU-B","API · 欧洲企业内容","main","Bring 3D into your product content platform","Hi,
+Request a team trial and evaluate it against a level or prototype brief from your own game.","你好，
 
-Planning a 3D product showcase inside your company's content platform?
+正在为下一个游戏关卡规划角色、道具和环境资产吗？
 
-Tripo API can generate a 3D model from a reference image. Submit a task, track it, and retrieve the successful output for review. Your team can then integrate approved assets into the product viewer or content experience you build.
+用 Tripo Studio 团队版，在共享工作区创建并整理这些 3D 资产。把项目模型集中放在一起，让授权成员能找到正在搭建的场景所需的资产。
 
-Explore the API Quick Start for your platform.","View API docs","https://developers.tripo3d.ai/en/docs/quick-start","Viewer integration and asset review are performed by your team.","B-A-EU","assets/v17/banners/A17-EU.png"
-"M-R-US","Teams · 美国再营销","reserve","Evaluate Teams with your own game project","Hi,
+申请团队试用，用自己游戏的关卡或原型需求来评估这套方案。","Request a trial","申请团队试用","https://www.tripo3d.ai/programs/team-program","官方Teams试用申请页","Trial access is subject to program terms and availability.","能否获得试用，以活动条款和可用名额为准。","B-T-EU","assets/v17/banners/T17-EU.png","从泛泛的游戏世界愿景落到具体关卡／原型所需的角色、道具和环境；不暗示已完成客户项目或直接可上线。"
+"M-A-US-A","API · 美国游戏＋3D资产","main","primary","Put 3D generation inside your game tools","把 3D 生成接入自己的游戏工具","Hi,
 
-Considering a shared 3D workflow for your studio?
+Does your asset workflow still depend on manually submitting requests, checking progress and downloading models?
 
-Evaluate Tripo Studio Team Plan with your own game project: create assets in a shared workspace, organize them in the team library, and manage access for your teammates.
+Connect Tripo API to your tool: submit a generation task, track its status, then retrieve the model when the task succeeds. Your team can review the result and continue its asset workflow from there.
 
-Request a team trial and tell us what your studio needs to build next.","Request a trial","https://www.tripo3d.ai/programs/team-program","Trial approval and program terms apply.","B-R-US","assets/v17/banners/R17-US.png"
-"M-R-EU","Teams · 欧洲再营销","reserve","Tell us about your next game's asset needs","Hi,
+Open the Quick Start to see the request and response examples for your integration.","你好，
 
-Choosing a team workspace for the assets in your next game?
+你的资产流程，还需要人工提交请求、查看进度，再下载模型吗？
 
-Tripo Studio Team Plan brings 3D creation and shared asset organization into one team workspace. Describe your project's asset needs through the Team Program page so we can discuss whether the plan fits your workflow.
+把 Tripo API 接入自己的工具：提交生成任务、跟踪状态，在任务成功后取回模型。团队随后可以检查结果，并继续后续的资产制作流程。
 
-Share your project needs to start the conversation.","Share your needs","https://www.tripo3d.ai/programs/team-program","Availability and program terms apply.","B-R-EU","assets/v17/banners/R17-EU.png"
+打开 Quick Start，查看接入所需的请求和响应示例。","View API docs","查看 API 文档","https://developers.tripo3d.ai/en/docs/quick-start","官方API Quick Start","Review generated models against your project's production requirements.","生成模型仍须按项目的生产要求进行检查。","B-A-US","assets/v17/banners/A17-US.png","把“支持API”具体化为提交、查询、成功取回三个动作，并说明文档里能看到什么；任务成功不等于生产验收通过。"
+"M-A-US-B","API · 美国游戏＋3D资产","main","backup","Put 3D generation inside your game tools","把 3D 生成接入自己的游戏工具","Hi,
+
+Building a game tool that needs to turn a 3D generation request into a model your team can review?
+
+Connect Tripo API to your tool: submit a generation task, track its status, then retrieve the model when the task succeeds. Your team can review the result and continue its asset workflow from there.
+
+Open the Quick Start to see the request and response examples for your integration.","你好，
+
+正在开发游戏工具，需要把一次 3D 生成请求变成团队可以检查的模型吗？
+
+把 Tripo API 接入自己的工具：提交生成任务、跟踪状态，在任务成功后取回模型。团队随后可以检查结果，并继续后续的资产制作流程。
+
+打开 Quick Start，查看接入所需的请求和响应示例。","View API docs","查看 API 文档","https://developers.tripo3d.ai/en/docs/quick-start","官方API Quick Start","Review generated models against your project's production requirements.","生成模型仍须按项目的生产要求进行检查。","B-A-US","assets/v17/banners/A17-US.png","把“支持API”具体化为提交、查询、成功取回三个动作，并说明文档里能看到什么；任务成功不等于生产验收通过。"
+"M-A-EU-A","API · 欧洲企业内容","main","primary","Add 3D assets to your product showcase","为产品展示加入 3D 资产","Hi,
+
+Planning a product page where customers can explore an item in 3D?
+
+Use Tripo API to generate a 3D model from a reference image. Retrieve the model once the task succeeds, review it, and integrate approved assets into the product viewer your team builds.
+
+Explore the Quick Start to evaluate this workflow for your product content platform.","你好，
+
+计划制作一个让客户能以 3D 方式查看商品的产品页面吗？
+
+用 Tripo API 根据参考图片生成 3D 模型。任务成功后取回模型，进行检查，再把验收过的资产接入团队自己构建的产品查看器。
+
+查看 Quick Start，评估这套流程是否适合你的产品内容平台。","View API docs","查看 API 文档","https://developers.tripo3d.ai/en/docs/quick-start","官方API Quick Start","Your team handles asset validation and viewer integration.","资产验收和查看器接入由你的团队负责。","B-A-EU","assets/v17/banners/A17-EU.png","从抽象的内容体验落到产品页面和3D展示；明确调用方负责查看器接入，不承诺精确还原、内置查看器或收入提升。"
+"M-A-EU-B","API · 欧洲企业内容","main","backup","Add 3D assets to your product showcase","为产品展示加入 3D 资产","Hi,
+
+Building a content platform that needs product models as well as catalog photos?
+
+Use Tripo API to generate a 3D model from a reference image. Retrieve the model once the task succeeds, review it, and integrate approved assets into the product viewer your team builds.
+
+Explore the Quick Start to evaluate this workflow for your product content platform.","你好，
+
+正在构建一个除了商品目录图片，也需要产品模型的内容平台吗？
+
+用 Tripo API 根据参考图片生成 3D 模型。任务成功后取回模型，进行检查，再把验收过的资产接入团队自己构建的产品查看器。
+
+查看 Quick Start，评估这套流程是否适合你的产品内容平台。","View API docs","查看 API 文档","https://developers.tripo3d.ai/en/docs/quick-start","官方API Quick Start","Your team handles asset validation and viewer integration.","资产验收和查看器接入由你的团队负责。","B-A-EU","assets/v17/banners/A17-EU.png","从抽象的内容体验落到产品页面和3D展示；明确调用方负责查看器接入，不承诺精确还原、内置查看器或收入提升。"
+"M-R-US","Teams · 美国再营销","reserve","reserve","Try a shared workflow with your own game","用自己的游戏项目体验共享工作流程","Hi,
+
+Ready to see how a shared asset workspace fits your studio's next project?
+
+Bring your game's asset brief to a Tripo Studio Team Plan trial. Create 3D assets, organize them in the team library, and let authorized teammates find the shared models.
+
+Request a team trial to evaluate the workflow with the people and assets in your project.","你好，
+
+想了解共享资产工作区如何适配工作室的下一个项目吗？
+
+带着自己的游戏资产需求，体验 Tripo Studio 团队版。创建 3D 资产，在团队库中整理，让授权成员找到共享模型。
+
+申请团队试用，用项目中的实际成员和资产评估这套工作流程。","Request a trial","申请团队试用","https://www.tripo3d.ai/programs/team-program","官方Teams试用与需求表单","Trial access is subject to program terms and availability.","能否获得试用，以活动条款和可用名额为准。","B-R-US","assets/v17/banners/R17-US.png","从泛泛考虑Teams改成带自己的资产需求做试用评估；没有声称已知用户观看或点击行为，真实场景承接待补。"
+"M-R-EU","Teams · 欧洲再营销","reserve","reserve","Plan the 3D assets for your next game","规划下一款游戏的 3D 资产","Hi,
+
+What does your next game need: characters, environment pieces, props, or a mix of all three?
+
+Tripo Studio Team Plan gives your team a shared workspace to create and organize 3D assets for that project.
+
+Tell us about your asset list and team workflow on the Team Program page. We can discuss whether the plan fits your project and what to evaluate in a trial.","你好，
+
+下一款游戏需要哪些资产：角色、环境部件、道具，还是三者都需要？
+
+Tripo Studio 团队版提供共享工作区，让团队为这个项目创建并整理 3D 资产。
+
+在 Team Program 页面说明你的资产清单和团队工作流程。我们可以据此讨论方案是否适合你的项目，以及试用时应重点评估什么。","Share your needs","提交项目需求","https://www.tripo3d.ai/programs/team-program","官方Team Program项目需求入口","Trial access is subject to program terms and availability.","能否获得试用，以活动条款和可用名额为准。","B-R-EU","assets/v17/banners/R17-EU.png","需求沟通聚焦实际资产清单和团队流程，不使用未经核验的成功客户案例；补原视频匹配后再启用。"
