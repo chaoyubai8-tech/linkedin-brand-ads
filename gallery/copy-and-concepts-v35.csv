@@ -1,0 +1,252 @@
+﻿version,title,headline,support,translation,concept,cta,sourceId
+V35,V35-T01 · Teams · 战术外骨骼男性,Build your game. Together.,,一起制作你的游戏。 ,以战术外骨骼男性作为项目中的游戏资产，展示美术、设计与开发汇入同一个共享资产库。,Explore Teams,segment08
+V35,V35-T02 · Teams · 紫绒长裙女法师,One team. Shared assets.,,一个团队，共享资产。 ,以紫绒长裙女法师作为项目中的游戏资产，展示美术、设计与开发汇入同一个共享资产库。,Explore Teams,rigging47
+V35,V35-T03 · Teams · 黑金冠饰女祭司,Your team. One library.,,你的团队，同一个资产库。 ,以黑金冠饰女祭司作为项目中的游戏资产，展示美术、设计与开发汇入同一个共享资产库。,Explore Teams,rigging76
+V35,V35-T04 · Teams · 夜翼飞龙,A shared home for game assets.,,给游戏资产一个共享空间。 ,以夜翼飞龙作为项目中的游戏资产，展示美术、设计与开发汇入同一个共享资产库。,Explore Teams,rigging45
+V35,V35-T05 · Teams · 鳞甲龙鱼,Create 3D assets. Share them.,,制作3D资产，与团队共享。 ,以鳞甲龙鱼作为项目中的游戏资产，展示美术、设计与开发汇入同一个共享资产库。,Explore Teams,rigging59
+V35,V35-T06 · Teams · 枝上变色龙,Keep game assets within reach.,,让游戏资产随手可用。 ,以枝上变色龙作为项目中的游戏资产，展示美术、设计与开发汇入同一个共享资产库。,Explore Teams,pbr66
+V35,V35-T07 · Teams · 纹章巨蛾,Find assets. Keep creating together.,,找到资产，继续一起创作。 ,以纹章巨蛾作为项目中的游戏资产，展示美术、设计与开发汇入同一个共享资产库。,Explore Teams,rigging38
+V35,V35-T08 · Teams · 帆布木制篷车,Bring your world into one workspace.,,把你的世界汇入一个工作区。 ,以帆布木制篷车作为项目中的游戏资产，展示美术、设计与开发汇入同一个共享资产库。,Explore Teams,pbr64
+V35,V35-T09 · Teams · 黑甲女战士,Shared assets for your next project.,,让共享资产继续服务新项目。 ,以黑甲女战士作为项目中的游戏资产，展示美术、设计与开发汇入同一个共享资产库。,Explore Teams,rigging70
+V35,V35-T10 · Teams · 蒸汽风冒险家,Your project. One shared collection.,,你的项目，共享的一组资产。 ,以蒸汽风冒险家作为项目中的游戏资产，展示美术、设计与开发汇入同一个共享资产库。,Explore Teams,rigging72
+V35,V35-A01 · API · 银白长袍战士,3D generation. In your pipeline.,,让3D生成进入你的制作管线。 ,以银白长袍战士展示资产题材，通过提交、跟踪、成功后获取的流程，说明3D生成如何接入自有工具。,Explore API,rigging68
+V35,V35-A02 · API · 机械鳐鱼飞船,Submit. Track. Retrieve your model.,,提交、跟踪，获取模型。 ,以机械鳐鱼飞船展示资产题材，通过提交、跟踪、成功后获取的流程，说明3D生成如何接入自有工具。,Explore API,rigging56
+V35,V35-A03 · API · 青绿机械蜂鸟,Your tools. Now in 3D.,,让你的工具拥有3D生成能力。 ,以青绿机械蜂鸟展示资产题材，通过提交、跟踪、成功后获取的流程，说明3D生成如何接入自有工具。,Explore API,rigging44
+V35,V35-A04 · API · 蓝绿虹彩甲虫,One request. A new 3D task.,,一次请求，启动一项3D任务。 ,以蓝绿虹彩甲虫展示资产题材，通过提交、跟踪、成功后获取的流程，说明3D生成如何接入自有工具。,Explore API,rigging39
+V35,V35-A05 · API · 兰花螳螂,Keep track of your 3D tasks.,,掌握你的3D任务状态。 ,以兰花螳螂展示资产题材，通过提交、跟踪、成功后获取的流程，说明3D生成如何接入自有工具。,Explore API,rigging41
+V35,V35-A06 · API · 蓝灰钝口螈,From request to 3D model output.,,从请求走向3D模型输出。 ,以蓝灰钝口螈展示资产题材，通过提交、跟踪、成功后获取的流程，说明3D生成如何接入自有工具。,Explore API,rigging42
+V35,V35-A07 · API · 复古机械侦察蛛,Bring 3D into your asset tools.,,把3D生成接入资产工具。 ,以复古机械侦察蛛展示资产题材，通过提交、跟踪、成功后获取的流程，说明3D生成如何接入自有工具。,Explore API,rigging37
+V35,V35-A08 · API · 皮革棒球手套,Your app. Its next 3D workflow.,,为你的应用接入3D工作流。 ,以皮革棒球手套展示资产题材，通过提交、跟踪、成功后获取的流程，说明3D生成如何接入自有工具。,Explore API,pbr67
+V35,V35-A09 · API · 复古重型潜水服,Track progress. Retrieve successful model outputs.,,跟踪进度，获取成功任务的模型输出。 ,以复古重型潜水服展示资产题材，通过提交、跟踪、成功后获取的流程，说明3D生成如何接入自有工具。,Explore API,segment03
+V35,V35-A10 · API · 驮具公羊,Make 3D part of your pipeline.,,让3D成为你制作管线的一环。 ,以驮具公羊展示资产题材，通过提交、跟踪、成功后获取的流程，说明3D生成如何接入自有工具。,Explore API,smartmesh06
+V34,V34-T01 · Teams · rigging73,Build your game. Together.,,一起制作你的游戏。 ,以金白女王作为游戏项目的角色资产，让美术、设计与开发汇入同一共享库。,Explore Teams,rigging73
+V34,V34-T02 · Teams · rigging63,One team. Shared assets.,"Create, organize and share game assets.",一个团队，共享资产。 创建、整理并共享游戏资产。,黑银女王与共享资产关系并置，表达团队一起创建、整理和分享游戏资产。,Explore Teams,rigging63
+V34,V34-T03 · Teams · segment07,Your team. One library.,Keep your game assets together.,你的团队，同一个资产库。 将游戏资产集中在一起。,以机械角色呈现团队资产库：同一份角色资产，集中整理与共享。,Explore Teams,segment07
+V34,V34-A01 · API · rigging73,3D generation. In your pipeline.,,让3D生成进入你的制作管线。 ,金白女王展示角色资产题材，纵向任务流程说明3D生成如何进入制作管线。,Explore API,rigging73
+V34,V34-A02 · API · rigging63,Submit. Track. Retrieve your model.,,提交、跟踪，获取模型。 ,用黑银女王与提交、跟踪、获取三步流程，说明任务成功后取得模型文件。,Explore API,rigging63
+V34,V34-A03 · API · segment07,Your tools. Now in 3D.,Build 3D generation into your tools.,让你的工具拥有3D生成能力。 将3D生成接入你的工具。,机械角色与工具接入文案结合，表达为自有工具加入3D生成能力。,Explore API,segment07
+V32,V32-T01 · Teams · 223-phoenix-armor,One team. Shared assets.,"Create, organize and share your game assets.",一个团队，共享资产。 创建、整理并共享游戏资产。,铜金与红织物用暖素底；完整双肩翼、长袍和护腕，左侧共享关系成组。,Explore Teams,223-phoenix-armor
+V32,V32-A01 · API · 164-oath-knight,Your tools. Now in 3D.,Build 3D generation into the tools you use.,让你的工具拥有3D生成。 将3D生成接入你正在使用的工具。,冷素底，完整成年骑士在右侧；剑尖留在网格窗右方，盾不盖利益句。左列纵向API流程。,Explore API,164-oath-knight
+V32,V32-T02 · Teams · 205-stag-mount,Build games. Together.,One shared workspace for your game team.,一起做游戏。 一个共享工作区，服务整个游戏团队。,暖素底，鹿角与四足完整，鹿头朝向左文案；角尖保持与标题实际轮廓间距，鞍包不缩成小件。,Explore Teams,205-stag-mount
+V32,V32-A02 · API · 224-dragon-armor,3D generation. In your pipeline.,Connect Tripo to your own tools.,让3D生成进入你的生产管线。 将Tripo连接到你自己的工具。,冷素底，完整头盔与靴子拉长视觉；龙肩甲与银蓝服装在右侧。保留左列输入/生成/获取。,Explore API,224-dragon-armor
+V32,V32-T03 · Teams · 204-expedition-kit,Your world. Shared.,Keep your game assets in one team workspace.,你的游戏世界，团队共享。 将游戏资产集中在一个团队工作区。,暖素底，大炊具组合占右半；暖黄锅是主焦点，凳腿/勺柄/毯卷完整。单一共享资产库关系不假称拆件可模块化。,Explore Teams,204-expedition-kit
+V32,V32-A03 · API · 214-leather-jacket,3D generation. In your pipeline.,Connect Tripo to your own tools.,让3D生成进入你的生产管线。 将Tripo连接到你自己的工具。,服装资产进入工具流程。完整夹克偏右下显示，左侧独立API三步。,Explore API,214-leather-jacket
+V32,V32-T04 · Teams · 186-tanner-artisan,One team. Shared assets.,"Create, organize and share your game assets.",一个团队，共享资产。 创建、整理并共享游戏资产。,团队共享职业角色资产。完整制革匠连同皮架与刀具占右侧；皮架避开左下网格窗。,Explore Teams,186-tanner-artisan
+V32,V32-A04 · API · ivory-loft,Your tools. Now in 3D.,Build 3D generation into the tools you use.,让你的工具拥有3D生成。 将3D生成接入你正在使用的工具。,象牙色双层室内空间作为API场景资产示例；大场景偏右下，保留楼梯、楼板和开口，左侧输入/生成/获取为独立概念。,Explore API,ivory-loft
+V32,V32-T05 · Teams · loft-desert,Your world. Shared.,Keep your game assets in one team workspace.,你的游戏世界，团队共享。 将游戏资产集中在一个团队工作区。,沙色双层居住空间成为共享库中的场景资产；左侧成员汇入同一资产库，完整两层和楼梯保留。,Explore Teams,loft-desert
+V31,V31-T01 · 鹦鹉 · Teams,Build games. Together.,One shared workspace for your game team.,一起做游戏。 一个共享工作区，服务整个游戏团队。,一起做游戏：团队成员围绕同一资产库协作，大鹦鹉作为项目生物资产；共享关系和网格局部共同说明用途。,Explore Teams,new-concept/V31-T01
+V31,V31-T02 · 完整狼角色 · Teams,One team. Shared assets.,"Create, organize and share your game assets.",一个团队，共享资产。 创建、整理并共享游戏资产。,角色制作协作：完整狼战士占据主画面，Art、Design、Dev连到同一资产库；胸肩网格局部强调可辨结构。,Explore Teams,new-concept/V31-T02
+V31,V31-T03 · 阅读室 · Teams,Your world. Shared.,Keep your game assets in one team workspace.,你的游戏世界，团队共享。 将游戏资产集中在一个团队工作区。,场景资产共享：大阅读室呈现完整空间，团队关系汇到共享资产库；白模线框放大展示书架与楼板。,Explore Teams,new-concept/V31-T03
+V31,V31-A01 · 科幻战锤 · API,3D generation. In your pipeline.,Connect Tripo to your own tools.,让3D生成进入你的生产管线。 将Tripo连接到你自己的工具。,道具生产管线：输入、生成、获取三个节点组成纵向流程，战锤作为资产示例；局部真实线框提供结构观察点。,Explore API,new-concept/V31-A01
+V31,V31-A02 · 鹦鹉 · API,From prompt. To pipeline.,Bring 3D generation into your workflow.,从提示到生产流程。 将3D生成加入你的工作流。,生物资产工作流：横向输入、生成、获取流程与大鹦鹉相连；网格放大框提供同一资产的技术视角。,Explore API,new-concept/V31-A02
+V31,V31-A03 · 完整狼角色 · API,Your tools. Now in 3D.,Build 3D generation into the tools you use.,让你的工具拥有3D生成。 将3D生成接入你正在使用的工具。,角色生产接入：独立流程模块和连接端口表达API集成，完整角色保持视觉主导；线框仅作为模型结构展示。,Explore API,new-concept/V31-A03
+V30-R2,V30-S01 · 完整狼角色 · Teams US,One team. Shared assets.,One shared workspace for your game team.,一个团队，共享资产。 为你的游戏团队提供一个共享工作区。,团队共享游戏角色资产。用完整狼角色建立视觉焦点，AI 雕塑图像说明形体，护肩与毛皮局部展示广告图像细节；共享价值由一条工作区利益句讲清。,Explore Teams,teams/T18-US-01
+V30-R2,V30-S02 · 完整狼角色 · API EU,3D characters. In your tools.,Bring 3D generation into your own workflow.,让3D角色进入你的工具。 把3D生成能力融入你自己的工作流。,面向角色生产工具的API接入。用同一狼角色的正面成图、AI 雕塑图像和胸甲局部呈现资产，让3D生成与自有工作流的关系由文案表达，不冒充实际API调用结果。,Explore API,api/A18-EU-01
+V30-R2,V30-S03 · 鹦鹉 · Teams US,Your team. One library.,"Create, organize and share your game assets.",你的团队，一个资产库。 创建、整理并共享你的游戏资产。,团队统一管理生物资产。鹦鹉成图、AI 雕塑图像和羽翼细节体现同一资产的不同展示信息，强调资产库中的创建、整理与共享。,Explore Teams,teams/T18-US-02
+V30-R2,V30-S04 · 鹦鹉 · API US,Your tools. In 3D.,Add 3D generation inside your workflow.,让3D走进你的工具。 在你的工作流中加入3D生成能力。,在既有工具流程中加入3D生成。侧视鹦鹉保留完整动势，AI 雕塑图像与翼部特写辅助理解资产；画面是资产示例，不是软件操作截图。,Explore API,api/A18-US-01
+V30-R2,V30-S05 · 阅读室 · Teams EU,Your world. Shared.,One team workspace. Every asset in its place.,你的游戏世界，团队共享。 一个团队工作区，每份资产各就其位。,团队整理与共享场景资产。以同一阅读室的完整彩图、AI 雕塑图像和局部细节表现资产的整体与细部；不是自动整理功能演示，屋内物件不被描述为单独导出的模型。,Explore Teams,models/T19-EU
+V30-R2,V30-S06 · 科幻战锤 · API US,Your tools. In 3D.,Build 3D generation into the tools you use.,让3D走进你的工具。 把3D生成能力接入你正在使用的工具。,面向道具生产的API工具接入。完整战锤、AI 雕塑图像和表面局部建立形体与图像质感层次；原模型无纹理，彩色表现是二维AI finish。,Explore API,api/A18-US-02
+V30-R2,V30-B01 · 完整狼角色 · Teams US,Assets. Shared.,One workspace. For game teams.,资产，团队共享。 一个工作区，面向游戏团队。,共享角色资产的站内信配图。完整狼角色吸引注意，AI 雕塑图像与小特写辅助展示，用极短工作区利益句说明Teams价值。,Explore Teams,message-banners/T17-US
+V30-R2,V30-B02 · 阅读室 · Teams EU,One shared library.,"Create, organize and share.",一个共享资产库。 创建、整理与共享。,共享场景资产库的站内信配图。阅读室主图配AI 雕塑图像与局部，强调创建、整理和共享；有色表面仍是二维广告处理。,Explore Teams,message-banners/T17-EU
+V30-R2,V30-B03 · 鹦鹉 · API US,3D in your tools.,Add 3D generation to your workflow.,让3D走进你的工具。 将3D生成能力加入你的工作流。,API工作流配图。大鹦鹉加AI 雕塑图像和同图羽翼特写，配一句把3D生成接入工作流的说明；不宣称速度、价格或原生纹理等级。,Explore API,message-banners/A17-US
+V30,V30-S01 · 完整狼角色 · Teams US,One team. Shared assets.,One shared workspace for your game team.,一个团队，共享资产。 为你的游戏团队提供一个共享工作区。,团队共享游戏角色资产。用完整狼角色建立视觉焦点，真实白模说明形体，护肩与毛皮局部展示广告图像细节；共享价值由一条工作区利益句讲清。,Explore Teams,teams/T18-US-01
+V30,V30-S02 · 完整狼角色 · API EU,3D characters. In your tools.,Bring 3D generation into your own workflow.,让3D角色进入你的工具。 把3D生成能力融入你自己的工作流。,面向角色生产工具的API接入。用同一狼角色的正面成图、白模和胸甲局部呈现资产，让3D生成与自有工作流的关系由文案表达，不冒充实际API调用结果。,Explore API,api/A18-EU-01
+V30,V30-S03 · 鹦鹉 · Teams US,Your team. One library.,"Create, organize and share your game assets.",你的团队，一个资产库。 创建、整理并共享你的游戏资产。,团队统一管理生物资产。鹦鹉成图、真实白模和羽翼细节体现同一资产的不同展示信息，强调资产库中的创建、整理与共享。,Explore Teams,teams/T18-US-02
+V30,V30-S04 · 鹦鹉 · API US,Your tools. In 3D.,Add 3D generation inside your workflow.,让3D走进你的工具。 在你的工作流中加入3D生成能力。,在既有工具流程中加入3D生成。侧视鹦鹉保留完整动势，真实白模与翼部特写辅助理解资产；画面是资产示例，不是软件操作截图。,Explore API,api/A18-US-01
+V30,V30-S05 · 阅读室 · Teams EU,Your world. Shared.,One team workspace. Every asset in its place.,你的游戏世界，团队共享。 一个团队工作区，每份资产各就其位。,团队整理与共享场景资产。以同一阅读室的完整彩图、原白模和局部细节表现资产的整体与细部；不是自动整理功能演示，屋内物件不被描述为单独导出的模型。,Explore Teams,models/T19-EU
+V30,V30-S06 · 科幻战锤 · API US,Your tools. In 3D.,Build 3D generation into the tools you use.,让3D走进你的工具。 把3D生成能力接入你正在使用的工具。,面向道具生产的API工具接入。完整战锤、真实白模和表面局部建立形体与图像质感层次；原模型无纹理，彩色表现是二维AI finish。,Explore API,api/A18-US-02
+V30,V30-B01 · 完整狼角色 · Teams US,Assets. Shared.,One workspace. For game teams.,资产，团队共享。 一个工作区，面向游戏团队。,共享角色资产的站内信配图。完整狼角色吸引注意，白模与小特写辅助展示，用极短工作区利益句说明Teams价值。,Explore Teams,message-banners/T17-US
+V30,V30-B02 · 阅读室 · Teams EU,One shared library.,"Create, organize and share.",一个共享资产库。 创建、整理与共享。,共享场景资产库的站内信配图。阅读室主图配原白模与局部，强调创建、整理和共享；有色表面仍是二维广告处理。,Explore Teams,message-banners/T17-EU
+V30,V30-B03 · 鹦鹉 · API US,3D in your tools.,Add 3D generation to your workflow.,让3D走进你的工具。 将3D生成能力加入你的工作流。,API工作流配图。大鹦鹉加真实白模和同图羽翼特写，配一句把3D生成接入工作流的说明；不宣称速度、价格或原生纹理等级。,Explore API,message-banners/A17-US
+V29-R5,V29-S01 · 狼战士 · 深绿底,Assets. Shared.,One shared workspace for your game team.,资产，团队共享。 为你的游戏团队提供一个共享工作区。,团队共享工作区。用完整角色代表团队要管理和共享的游戏资产，表达“团队围绕同一份资产协作”。,Explore Teams,T18-US-01
+V29-R5,V29-S02 · 狼战士 · 灰蓝底,Characters. In 3D.,Bring 3D generation into your own tools.,让角色立体呈现。 把 3D 生成能力接入你自己的工具。,角色生成接入工具。以完整角色作为 3D 资产示例，面向开发者表达“把 3D 生成嵌入自有工具”。,Explore API,A18-EU-01
+V29-R5,V29-S03 · 鹦鹉 · 米白底,Your team. One library.,"Create, organize, and share game assets.",一个团队，一个资产库。 创建、整理并共享游戏资产。,团队共用资产库。用生物资产承载团队资产库的概念，强调创建、整理、共享这三个动作。,Explore Teams,T18-US-02
+V29-R5,V29-S04 · 鹦鹉 · 深色底,3D for your tools.,Add 3D generation to your existing workflow.,为你的工具加入 3D。 把 3D 生成加入你现有的工作流。,为现有流程增加 3D 生成。面向已有工具和制作流程的团队，用生物资产示例表达 API 接入后的创作方向。,Explore API,A18-US-01
+V29-R5,V29-S05 · 阅读室 · 米白底,Your world. Shared.,One workspace for your game’s assets.,共享你的游戏世界。 在一个工作区里集中管理你的游戏资产。,围绕游戏项目归集资产。以小场景呼应游戏世界的概念，实际文案落点是把项目资产放进共享工作区。,Explore Teams,T19-EU
+V29-R5,V29-S06 · 战锤 · 米白底,Your tools. In 3D.,Connect your workflow to Tripo API.,让你的工具拥有 3D 能力。 将你的工作流接入 Tripo API。,道具工作流接入 API。以游戏道具作为视觉示例，表达工具和制作流程可以连接 Tripo API。,Explore API,A18-US-02
+V29-R5,V29-B01 · 狼战士 · 小横幅,Assets. Shared.,One workspace. For game teams.,资产，团队共享。 面向游戏团队的统一工作区。,游戏团队共享资产。站内信配图的精简版本：用角色吸引注意，用共享工作区说明 Teams 的价值。,Explore Teams,T17-US
+V29-R5,V29-B02 · 阅读室 · 小横幅,One shared library.,"Create, organize and share.",一个共享资产库。 创建、整理、共享。,游戏项目共享资产库。用小场景承接“同一个游戏项目”的语境，配合 Teams 站内信中的资产组织与共享主题。,Explore Teams,T17-EU
+V29-R5,V29-B03 · 鹦鹉 · 小横幅,3D in your tools.,Add 3D generation.,让 3D 进入你的工具。 加入 3D 生成功能。,把 3D 生成接入工具。API 站内信配图的精简版本：用生物资产吸引注意，说明工具接入 3D 生成的方向。,Explore API,A17-US
+V29-R4,V29-S01,Assets. Shared.,,,,Explore Teams,
+V29-R4,V29-S02,Characters. In 3D.,,,,Explore API,
+V29-R4,V29-S03,Your team. One library.,,,,Explore Teams,
+V29-R4,V29-S04,3D for your tools.,,,,Explore API,
+V29-R4,V29-S05,Your world. Shared.,,,,Explore Teams,
+V29-R4,V29-S06,Your tools. In 3D.,,,,Explore API,
+V29-R4,V29-B01,Assets. Shared.,,,,Explore Teams,
+V29-R4,V29-B02,One shared library.,,,,Explore Teams,
+V29-R4,V29-B03,3D in your tools.,,,,Explore API,
+V29-R3,V29-S01,Assets. Shared.,Keep your game team's assets in one workspace.,,,Explore Teams,
+V29-R3,V29-S02,Character assets. In 3D.,Connect your workflow to Tripo API.,,,Explore the API,
+V29-R3,V29-S03,Create together. Build on it.,A shared library for your game's assets.,,,Explore Teams,
+V29-R3,V29-S04,3D generation. Your pipeline.,Build 3D generation into your game-asset tools.,,,Explore the API,
+V29-R3,V29-S05,One world. Shared assets.,Keep your game’s assets in one shared workspace.,,,Explore Teams,
+V29-R3,V29-S06,Your tools. A new dimension.,Connect 3D generation to your game-asset workflow.,,,Explore the API,
+V29-R3,V29-B01,One team. One asset library.,,,,Explore Teams,
+V29-R3,V29-B02,One game. One asset library.,,,,Explore Teams,
+V29-R3,V29-B03,3D in your tools.,,,,View API docs,
+V29-R2,V29-S01,Assets. Shared.,Keep your game team's assets in one workspace.,,,Explore Teams,
+V29-R2,V29-S02,Character assets. In 3D.,Connect your workflow to Tripo API.,,,Explore the API,
+V29-R2,V29-S03,Create together. Build on it.,A shared library for your game's assets.,,,Explore Teams,
+V29-R2,V29-S04,3D generation. Your pipeline.,Build 3D generation into your game-asset tools.,,,Explore the API,
+V29-R2,V29-S05,One world. Shared assets.,Keep your game’s assets in one shared workspace.,,,Explore Teams,
+V29-R2,V29-S06,Your tools. A new dimension.,Connect 3D generation to your game-asset workflow.,,,Explore the API,
+V29-R2,V29-B01,One team. One asset library.,,,,Explore Teams,
+V29-R2,V29-B02,One game. One asset library.,,,,Explore Teams,
+V29-R2,V29-B03,3D in your tools.,,,,View API docs,
+V29,V29-S01,Assets. Shared.,Keep your game team's assets in one workspace.,,,Explore Teams,
+V29,V29-S02,Character assets. In 3D.,Connect your workflow to Tripo API.,,,Explore the API,
+V29,V29-S03,Create together. Build on it.,A shared library for your game's assets.,,,Explore Teams,
+V29,V29-S04,3D generation. Your pipeline.,Build 3D generation into your game-asset tools.,,,Explore the API,
+V29,V29-S05,One world. Shared assets.,Keep your game’s assets in one shared workspace.,,,Explore Teams,
+V29,V29-S06,Your tools. A new dimension.,Connect 3D generation to your game-asset workflow.,,,Explore the API,
+V29,V29-B01,One team. One asset library.,,,,Explore Teams,
+V29,V29-B02,One game. One asset library.,,,,Explore Teams,
+V29,V29-B03,3D in your tools.,,,,View API docs,
+V28,A18-EU-01,,,,,,
+V28,A18-US-01,,,,,,
+V28,T18-US-01,,,,,,
+V28,T19-EU,,,,,,
+V28,api-A18-EU-02,,,,,,
+V28,api-A18-US-02,,,,,,
+V28,campaign-A17-EU,,,,,,
+V28,campaign-A17-US,,,,,,
+V28,campaign-R17-EU,,,,,,
+V28,campaign-R17-US,,,,,,
+V28,campaign-T17-EU,,,,,,
+V28,campaign-T17-US,,,,,,
+V28,models-A19-EU,,,,,,
+V28,models-A19-US,,,,,,
+V28,models-T19-US,,,,,,
+V28,teams-T18-EU-01,,,,,,
+V28,teams-T18-EU-02,,,,,,
+V28,teams-T18-US-02,,,,,,
+V28,A17-EU,,,,,,
+V28,A17-US,,,,,,
+V28,R17-EU,,,,,,
+V28,R17-US,,,,,,
+V28,T17-EU,,,,,,
+V28,T17-US,,,,,,
+V27,T18-US-01-ai-refined-v1,,,,,,
+V26,A18-EU-01,,,,,,
+V26,A18-US-01,,,,,,
+V26,T18-US-01,,,,,,
+V26,T19-EU,,,,,,
+V26,api-A18-EU-02,,,,,,
+V26,api-A18-US-02,,,,,,
+V26,campaign-A17-EU,,,,,,
+V26,campaign-A17-US,,,,,,
+V26,campaign-R17-EU,,,,,,
+V26,campaign-R17-US,,,,,,
+V26,campaign-T17-EU,,,,,,
+V26,campaign-T17-US,,,,,,
+V26,models-A19-EU,,,,,,
+V26,models-A19-US,,,,,,
+V26,models-T19-US,,,,,,
+V26,teams-T18-EU-01,,,,,,
+V26,teams-T18-EU-02,,,,,,
+V26,teams-T18-US-02,,,,,,
+V26,A17-EU,,,,,,
+V26,A17-US,,,,,,
+V26,R17-EU,,,,,,
+V26,R17-US,,,,,,
+V26,T17-EU,,,,,,
+V26,T17-US,,,,,,
+V25,A18-EU-01,,,,,,
+V25,A18-US-01,,,,,,
+V25,T18-US-01,,,,,,
+V25,T19-EU,,,,,,
+V24,V24-S01,,,,,,
+V24,V24-S02,,,,,,
+V23,V23-S01,,,,,,
+V23,V23-S02,,,,,,
+V22,V22-01,,,,,,
+V22,V22-02,,,,,,
+V22,V22-03,,,,,,
+V22,V22-04,,,,,,
+V22,V22-05,,,,,,
+V22,V22-06,,,,,,
+V22,V22-07,,,,,,
+V22,V22-08,,,,,,
+V22,V22-09,,,,,,
+V22,V22-10,,,,,,
+V21,A17-EU,,,,,,
+V21,A17-US,,,,,,
+V21,A18-EU-01,,,,,,
+V21,A18-EU-02,,,,,,
+V21,A18-US-01,,,,,,
+V21,A18-US-02,,,,,,
+V21,A19-EU,,,,,,
+V21,A19-US,,,,,,
+V21,R17-EU,,,,,,
+V21,R17-US,,,,,,
+V21,T17-EU,,,,,,
+V21,T17-US,,,,,,
+V21,T18-EU-01,,,,,,
+V21,T18-EU-02,,,,,,
+V21,T18-US-01,,,,,,
+V21,T18-US-02,,,,,,
+V21,T19-EU,,,,,,
+V21,T19-US,,,,,,
+V21,A17-EU,,,,,,
+V21,A17-US,,,,,,
+V21,R17-EU,,,,,,
+V21,R17-US,,,,,,
+V21,T17-EU,,,,,,
+V21,T17-US,,,,,,
+V20,A17-EU,,,,,,V17
+V20,A17-US,,,,,,V17
+V20,A18-EU-01,,,,,,V18
+V20,A18-EU-02,,,,,,V18
+V20,A18-US-01,,,,,,V18
+V20,A18-US-02,,,,,,V18
+V20,A19-EU,,,,,,V19
+V20,A19-US,,,,,,V19
+V20,R17-EU,,,,,,V17
+V20,R17-US,,,,,,V17
+V20,T17-EU,,,,,,V17
+V20,T17-US,,,,,,V17
+V20,T18-EU-01,,,,,,V18
+V20,T18-EU-02,,,,,,V18
+V20,T18-US-01,,,,,,V18
+V20,T18-US-02,,,,,,V18
+V20,T19-EU,,,,,,V19
+V20,T19-US,,,,,,V19
+V20,A17-EU · 站内信,,,,,,V17
+V20,A17-US · 站内信,,,,,,V17
+V20,R17-EU · 站内信,,,,,,V17
+V20,R17-US · 站内信,,,,,,V17
+V20,T17-EU · 站内信,,,,,,V17
+V20,T17-US · 站内信,,,,,,V17
+V15,A15-01,,,,,,
+V15,A15-02,,,,,,
+V15,T15-01,,,,,,
+V15,T15-02,,,,,,
+V14,A14-01,,,,,,
+V14,A14-02,,,,,,
+V14,T14-01,,,,,,
+V14,T14-02,,,,,,
+V13,A13-01,,,,,,
+V13,A13-02,,,,,,
+V13,T13-01-AI,,,,,,
+V13,T13-01,,,,,,
+V13,T13-02,,,,,,
+V12,A12-01,,,,,,
+V12,A12-02,,,,,,
+V12,T12-01,,,,,,
+V12,T12-02,,,,,,
+V11,A11-01,,,,,,
+V11,A11-02,,,,,,
+V11,T11-01,,,,,,
+V11,T11-02,,,,,,
+V10,A10-01,,,,,,
+V10,A10-02,,,,,,
+V10,T10-01,,,,,,
+V10,T10-02,,,,,,
+V9,A9-01,,,,,,
+V9,A9-02,,,,,,
+V9,T9-01,,,,,,
+V9,T9-02,,,,,,
+V8,message-banner-api,,,,,,
+V8,message-banner-both,,,,,,
+V8,message-banner-teams,,,,,,
