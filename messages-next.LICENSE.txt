@@ -2,8 +2,10 @@ MIT License (new station-message website code only)
 
 Copyright (c) 2026 chaoyubai8-tech
 
-This license applies only to messages-next.html, messages-next.css,
-messages-next.js, and build-messages-next.mjs. Embedded advertising content,
+This license applies only to messages-next.html, messages-single.html,
+messages-next.css, messages-next.js, build-messages-next.mjs,
+messages-conversation.css, messages-conversation.js, and build-conversation.mjs.
+Embedded advertising content,
 brand names, trademarks, logos, images, fonts, and third-party works are excluded.
 It does not apply retroactively to other repository files.
 

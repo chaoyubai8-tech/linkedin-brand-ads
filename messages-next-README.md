@@ -1,51 +1,53 @@
-# 领英站内信广告 · 2026-10-11
+# 领英站内信广告 · Conversation Ad 修订版
 
-在线审稿：[messages-next.html](https://chaoyubai8-tech.github.io/linkedin-brand-ads/messages-next.html)
+日期：2026-10-11。在线审稿：[4套对话流程](https://chaoyubai8-tech.github.io/linkedin-brand-ads/messages-next.html)。[原10套单按钮稿](https://chaoyubai8-tech.github.io/linkedin-brand-ads/messages-single.html)保留为备选／历史，不默认双倍上线。
 
-本轮检查范围与未通过条件：[验收记录](messages-next-QA.md)。
+## 格式与数量
 
-## 数量与结构
+原正文＋一个业务CTA是合法Message Ad。用户PDF案例为Conversation Ads，按钮触发预写回复或目的地，不是开放输入的AI聊天。本轮按其机制重磨4套主流程。
 
-四个主方向各1套首轮主稿（A），共4套；各保留1套可选开场备稿（B），共4套。Teams美国、欧洲再营销各预留1套，共2套。10套是文案库，不是10个广告组，也不是必须同时上线的数量。
+| 已确认人群 | 核心诉求 | ID |
+| --- | --- | --- |
+| Teams · 美国游戏 | 创建、查找与复用共享游戏资产 | C-T-US |
+| Teams · 欧洲游戏 | 关卡／原型的具体资产用途 | C-T-EU |
+| API · 美国游戏＋3D资产 | 异步生成任务接入自己的游戏工具 | C-A-US |
+| API · 欧洲企业内容 | 审核后的3D模型用于自己的产品展示平台 | C-A-EU |
 
-首轮优先准备4套主稿和4张300×250桌面配图；备稿共用同组配图，再营销2张配图预留。信息流单图与站内信桌面配图分别计数。
+结论：4套，每套开场＋工作流程回复＋试用／接入检查回复；共12条消息、20个自定义按钮。不是12或20个广告组，不增加预算。直接行动置于首按钮，回复均有网页出口。
 
-- Teams美国游戏：Workflow／共享资产与交接。
-- Teams欧洲游戏：具体游戏项目资产用途。
-- API美国游戏＋3D资产：异步任务接入自己的工具。
-- API欧洲企业内容：产品展示等实际业务用途。
-- Teams再营销：原视频、真实案例与人群匹配完成后启用，当前不默认上线。
+Teams出口为官方Team Program申请页；API出口为Quick Start，不冒充已集成或已产生有效线索。旧4主稿＋4备稿＋2再营销预留仍在单独页面；再营销证据／覆盖待确认，Before / After继续暂停。没有已验证的新旧格式转化优劣。
 
-若安排A/B比较，只换开场段落。主题、正文、CTA、配图和目的地保持一致；打开率不能归因于消息内部开场。正式广告仅上传英文投放字段，不上传中文释义、审稿标签或来源说明。
+## 修改与生成
 
-中文默认展开，完整包含主题、正文、按钮、补充说明和目的地。英文／中文复制分别提供，本条TXT和全量CSV／JSON均含双语。CSV是审稿导出，不是LinkedIn平台直传模板。
+新版改 `messages-conversation-data.json`，执行 `node build-conversation.mjs`，生成主入口 `messages-next.html` 和 `messages-conversation-copy.csv/json`。
 
-本次修改理由、原稿与承诺来源：[修订记录](messages-next-revision.md)。
+旧版改 `messages-next-data.json`，执行 `node build-messages-next.mjs`，现在生成 `messages-single.html` 和旧Message Ad导出，**不会覆盖新版入口**。两种格式的数据、上限和生成器分开。
 
-## 如何修改
+新版校验4人群、12节点、20按钮、全部中文、字符长度、动作目的地、无环／可达／无死路以及历史配图尺寸。中文包含主题、正文、所有按钮与补充说明；复制和本套双语TXT在浏览器本地完成；CSV/JSON是审稿与后台手工配置参考，非LinkedIn直传模板。下方完整稿静态嵌入HTML，不依赖JavaScript。
 
-修改 `messages-next-data.json`，然后执行：
+静态HTML/CSS/JS，无服务器、发送接口、分析代码或客户数据。Pages发布gh-pages分支根目录。原主稿深链转到对应新版；旧再营销 `#M-R-US`／`#M-R-EU` 转到单按钮页面的正确预留稿。历史8套不覆盖。
 
-```sh
-node build-messages-next.mjs
-```
+## 现行规格与未完成项
 
-生成器会核对10套文案、4首轮＋4备选＋2预留、六张配图、完整中文字段、字符长度、PNG尺寸和文件大小，并生成HTML、CSV、JSON。网站无需构建框架或服务端；本地使用任意静态HTTP服务器，GitHub Pages发布 `gh-pages` 分支根目录。
+Conversation Ad现行规格：可选主题60；消息8000；CTA25；URL2000；每消息最多5、整套50个按钮。首条平台自动Not Interested占1，勿重复上传。本轮消息≤500是内部编辑标准，不是官方硬上限。
 
-页面预览、复制与下载都只在浏览器运行。不存在发送接口、表单、账号授权、分析代码或客户数据。全部10套完整文案静态嵌入HTML，不启用JavaScript仍可查看。
+本轮采用Visit website和Show next message。若投Lead generation目标，**须另配置至少一个原生Lead Gen Form CTA**、有效表单、隐私说明和后续承接。文档点击或外部申请入口不等于该目标已配置完成。发送者授权、实际账户目标兼容、预览／测试消息、UTM与有效线索归因均待验收。
 
-## 上线限制
+英文仅覆盖英文资料用户；EEA／瑞士仅覆盖已opt-in成员，实际资格及覆盖需核对，不沿用历史欧洲禁投说法。
 
-英文仅覆盖英文资料用户；EEA与瑞士仅覆盖已同意接收Sponsored Messaging的成员。实际账户资格、覆盖、发送者、兼容目标、试用承接和事件回传均须在发送前确认。
+桌面banner为可选300×250 PNG/JPG≤2MB；消息内250×250图是另一字段，本轮不加。4张历史banner仅参考，非本轮中台产出，未获准作真实效果证据。API欧洲旧机械角色不匹配产品展示，待替换。
 
-官方技术Help Center：主题60／正文1500／CTA20；营销规格页出现较宽松字段。本稿采用较严格上限，不把检查通过等同账户审核通过。所有按钮链接官方Teams或API页面；不含内部预算、账户ID、联系人或私有文档内容。
+正式配图必须走素材中台选材与记录→真实模型／渲染证据→允许范围内AI精修→精确排版→按《广告素材视觉规范》逐项验收→中台回存。这次未新生成模型或执行中台制作。
 
-6张配图沿用V17／2026-10-09历史GPT概念稿。这次没有新生成模型，也没有新执行素材中台工作流。概念图不是实际Tripo模型、真实客户项目或生产可用性的证明。正式视觉须走素材中台并依据原始广告素材视觉规范逐项验收。
+结论：当前是**双语文案与路径审稿版**，未配置、未发送；真实配图与后台门槛尚未完成。
 
-## 开源范围
+## 依据、验收与许可
 
-新增站内信网站代码（`messages-next.html`、`messages-next.css`、`messages-next.js`、`build-messages-next.mjs`）采用本目录 `messages-next.LICENSE.txt` 的MIT条款。品牌、logo、广告文案与图片、字体及第三方参考不自动纳入MIT许可。字体沿用其OFL文件；其他素材需由权利人授权。该代码许可不追溯覆盖仓库既有文件。
+- [修订理由与承诺核验](messages-conversation-revision.md)
+- [本轮测试记录](messages-conversation-QA.md)
+- [原Message Ad验收](messages-next-QA.md)／[原文案修订](messages-next-revision.md)
+- [官方规格](https://www.linkedin.com/help/lms/answer/a426057)／[创建规则](https://www.linkedin.com/help/lms/answer/a425089)
 
-旧 `messages.html` 和V17记录保留，不覆盖历史广告。
+代码许可见 `messages-next.LICENSE.txt`：新增审稿代码MIT；品牌、文案、图片、字体及第三方案例不自动纳入。PDF仅内部研究，未公开附件或联系人截图。
 
-本次修订技能：ad-creative 2.8.2、copy-editing 2.0.0、tripo-ad-workbench 1.0.0、tripo-ad-claims 1.0.0、impeccable 3.5.0。广告文案与校对用于缩减功能罗列、突出具体任务；承诺核验保留试用条件及下游验收责任；界面澄清用于完整双语显示与主稿／备稿标签。本次认证读取私有技能库仍为403，采用本地规则回退，未改云端规则。
+技能：PDF逐页观察；ad-creative 2.8.2／copy-editing 2.0.0重磨任务与分支；tripo-ad-workbench 1.0.0／tripo-ad-claims 1.0.0核验承诺与制作门槛；impeccable 3.5.0澄清双语审稿界面。私有技能库本轮认证连接失败，采用本地规则回退，未宣称云端已同步或修改云端规则。页面不是Figma导出。

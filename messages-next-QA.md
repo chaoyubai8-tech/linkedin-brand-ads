@@ -1,5 +1,7 @@
 # 站内信网站验收 · 2026-10-11 · copy2
 
+后续版本：Conversation Ad主流程验收见 `messages-conversation-QA.md`；本文件仅保留原Message Ad测试。旧10套现在位于 `messages-single.html`。
+
 范围：网站、文案、导出和历史入口。没有发送广告，也没有确认广告账户覆盖、预算或真实模型生产验收。
 
 ## 已检查
