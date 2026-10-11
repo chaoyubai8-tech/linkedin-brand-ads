@@ -1,0 +1,514 @@
+[
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-field-017/segment08-tactical-exosuit/quad-model.obj",
+    "faces": 92624,
+    "method": "Blender QuadriFlow + closest-point surface projection on independent baked copies",
+    "source": "production-v35/assets/models/segment08-tactical-exosuit-original.glb",
+    "source_sha256": "67bad911d4e3dee5a4bfac1920e0758051c0ff5feff83e9aaff770951306a97e",
+    "actual_face_histogram": {
+      "4": 92624
+    },
+    "obj_sha256": "7064aae19fdc2b13d60be6420f3a6d8f471fdf8050091cf36abded9d409f841d",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging47-velvet-mage/quad-model.obj",
+    "faces": 105300,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging47-velvet-mage-original.glb",
+    "source_sha256": "c00332f14a889668cc783962a5cc74746bc007f2ea77e48f5854dbbd1dcddf56",
+    "actual_face_histogram": {
+      "4": 105300
+    },
+    "obj_sha256": "c6e8dbe5532b761031223ba9c4f269af86b935e47dd8ca57a46c91e083b593b0",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging76-halo-priestess/quad-model.obj",
+    "faces": 115295,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging76-halo-priestess-original.glb",
+    "source_sha256": "56a45abe87c304e30d66b53fba4f6d63f9ccd66b6841feced875e6734ff35f27",
+    "actual_face_histogram": {
+      "4": 115295
+    },
+    "obj_sha256": "7e27f2b493842170fc369781fd9de54e890007d96a0bcfb6783fe86490df11f0",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging45-night-wyvern/quad-model.obj",
+    "faces": 118813,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging45-night-wyvern-original.glb",
+    "source_sha256": "b6b993f88a847487c5d5f82306e07219a19598e544880e40056edb31e7aa7c14",
+    "actual_face_histogram": {
+      "4": 118813
+    },
+    "obj_sha256": "52641723b9240733c14a65975c5f8c23bda2f050f11b32765d09467c62618bbd",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging59-armored-dragonfish/quad-model.obj",
+    "faces": 184988,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging59-armored-dragonfish-original.glb",
+    "source_sha256": "0709bb95e5b87e079724f72f61b124221d4a554a13555a787a3e78b8b42c9f3b",
+    "actual_face_histogram": {
+      "4": 184988
+    },
+    "obj_sha256": "cb8e4e87c7bbe1bfbdb4d43ed9b3bdecfe3049843adbe2264bb74853c50bd460",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-field-017/pbr66-chameleon/quad-model.obj",
+    "faces": 94716,
+    "method": "Blender QuadriFlow + closest-point surface projection on independent baked copies",
+    "source": "production-v35/assets/models/pbr66-chameleon-original.glb",
+    "source_sha256": "7f843e834850001363048da20a5bd7a77e341ed17303159537ebe760963fdb6a",
+    "actual_face_histogram": {
+      "4": 94716
+    },
+    "obj_sha256": "3ccf2d8ac399cc61eb80621b0f823e6f46945247ee43b17ae0172878800ec60d",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging38-heraldic-moth/quad-model.obj",
+    "faces": 108985,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging38-heraldic-moth-original.glb",
+    "source_sha256": "58dce06bdd387f1f672218ddf342e5e7f17f638f680b79760f252f68ddde0ad8",
+    "actual_face_histogram": {
+      "4": 108985
+    },
+    "obj_sha256": "e75566af2278ecf7d1230b9f3889be15a87f92064508b88609e6162c7b47adfa",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-field-017/pbr64-covered-wagon/quad-model.obj",
+    "faces": 95396,
+    "method": "Blender QuadriFlow + closest-point surface projection on independent baked copies",
+    "source": "production-v35/assets/models/pbr64-covered-wagon-original.glb",
+    "source_sha256": "75e95ae3fe5b74607ef1da39263465933295aeb1fbeb1f146c233f75acb4e175",
+    "actual_face_histogram": {
+      "4": 95396
+    },
+    "obj_sha256": "4e6f6c3b0048ee5eb05bd1648f9717cad17208955d608082d51c8f23e97ed0db",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging70-obsidian-knight/quad-model.obj",
+    "faces": 116705,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging70-obsidian-knight-original.glb",
+    "source_sha256": "94046624cf12dbf3062b4a5b26895d19e2f30c06ac6d4d5ac3619843fc04e50c",
+    "actual_face_histogram": {
+      "4": 116705
+    },
+    "obj_sha256": "9357d68b0125e4aec5c046ad9638454c599ee7a403c30ea7bbfce14388f708fc",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging72-steampunk-adventurer/quad-model.obj",
+    "faces": 115420,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging72-steampunk-adventurer-original.glb",
+    "source_sha256": "331657e94354fa3f3c9cf05f65888783bb7bff43a75624cb98db9997ed9b4831",
+    "actual_face_histogram": {
+      "4": 115420
+    },
+    "obj_sha256": "0c631dcd70a09cf36a76b6d07399fc53db92c31ef16f28fb78cff52199446246",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging68-silver-warrior/quad-model.obj",
+    "faces": 113893,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging68-silver-warrior-original.glb",
+    "source_sha256": "474ece915c11e97da7ece7bbd354b519f5f1f34b6862418d124963d52d930ae6",
+    "actual_face_histogram": {
+      "4": 113893
+    },
+    "obj_sha256": "4eb9489109ea8651b9eafe052bb51fe3fba455dde08c7ef1e8ed75c5bb1526f1",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging56-manta-starship/quad-model.obj",
+    "faces": 112309,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging56-manta-starship-original.glb",
+    "source_sha256": "c9dd5849674bc739f8c57a0c57f39aec3a5b49aba89f05265cef0915d8b152b6",
+    "actual_face_histogram": {
+      "4": 112309
+    },
+    "obj_sha256": "0405dd5e8f02202f3f6eae3a6a9083a279e52773d941b9bce3ec29f70a4066df",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging44-mechanical-hummingbird/quad-model.obj",
+    "faces": 122879,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging44-mechanical-hummingbird-original.glb",
+    "source_sha256": "93d541a9fec160740b06cfb7851a047636f546dbdb0602acc8fe85220af16f3b",
+    "actual_face_histogram": {
+      "4": 122879
+    },
+    "obj_sha256": "a0e33e801d1ac32a24ccc981faeea9be7052c00bf23f1e17309826027b03d93d",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging39-iridescent-beetle/quad-model.obj",
+    "faces": 116070,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging39-iridescent-beetle-original.glb",
+    "source_sha256": "b90153ca9e62141f01bc30e5c73e3c78183d1a8618ef24f7f31577abe3d695ad",
+    "actual_face_histogram": {
+      "4": 116070
+    },
+    "obj_sha256": "96103bb9fb1b361eff1de52b67beb5478cec0ccba351d1133ee33d0c045e8091",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging41-orchid-mantis/quad-model.obj",
+    "faces": 126072,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging41-orchid-mantis-original.glb",
+    "source_sha256": "dd42b8b422ca80ac50fc5f0885e69cea2dbe6b8821d32e35a6709fed60e58a1a",
+    "actual_face_histogram": {
+      "4": 126072
+    },
+    "obj_sha256": "1a64063645fd6fdb143899075fc06d1b60b43d0387c6cdc349ca52474b9b5492",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging42-axolotl/quad-model.obj",
+    "faces": 117564,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging42-axolotl-original.glb",
+    "source_sha256": "d7e40942efc82f3660140263fb486ac82024c79f3190a126b3cbe5fb921647db",
+    "actual_face_histogram": {
+      "4": 117564
+    },
+    "obj_sha256": "98930d5894238d091dc3097b269a46a4d8d2d60062b72b1ecdf62eebdaf763b0",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/rigging37-scout-spider/quad-model.obj",
+    "faces": 121762,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/rigging37-scout-spider-original.glb",
+    "source_sha256": "77e5b79aa2bf56efba4ad2843b3d3f29a53f49e9cc710ba33ea06c27bdd43dbc",
+    "actual_face_histogram": {
+      "4": 121762
+    },
+    "obj_sha256": "582f01e26691d8125ac99bbdf042de068b2f5f3e5d4fb5f3449767286ea9e8eb",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/pbr67-leather-glove/quad-model.obj",
+    "faces": 60652,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/pbr67-leather-glove-original.glb",
+    "source_sha256": "9145e64bf76af866e503559ee2911122c1214c3d736730f8da98800f45f79d41",
+    "actual_face_histogram": {
+      "4": 60652
+    },
+    "obj_sha256": "1d7ea994e23585688656920463adec4ff4cea3369bb55e51a20a2db35dac3a81",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-field-017/segment03-diving-suit/quad-model.obj",
+    "faces": 91153,
+    "method": "Blender QuadriFlow + closest-point surface projection on independent baked copies",
+    "source": "production-v35/assets/models/segment03-diving-suit-original.glb",
+    "source_sha256": "8d88870abf52cf277fefd705f3a0c897efab42a62f84a71b1b83450118d33ca9",
+    "actual_face_histogram": {
+      "4": 91153
+    },
+    "obj_sha256": "2e2ea2db7a11115a157d914820510246981dd093439bcf9af3906e2e5ffae366",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/smartmesh06-pack-ram/quad-model.obj",
+    "faces": 74322,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v35/assets/models/smartmesh06-pack-ram-original.glb",
+    "source_sha256": "a587be1e52a165d96fee4ebfedd4f3033df3a3c5eb15a2c49d386f8f21e36823",
+    "actual_face_histogram": {
+      "4": 74322
+    },
+    "obj_sha256": "754b98789b75776a09ce129afa730d3c36ea820d9860ec6a46d5deaf5b32a2d8",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-quad-001/rigging73/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-quad-001/rigging73/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/rigging73/quad-model.obj",
+    "faces": 115045,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v33/assets/models/rigging73-ivory-gold-queen-original.glb",
+    "source_sha256": "4829317318cc017ab9068d6a16e45c246573cfdfcf214be32365835a9a3d1c0c",
+    "actual_face_histogram": {
+      "4": 115045
+    },
+    "obj_sha256": "c60a586286cc5af3667d0d31dc97207dab11f00fa6eeb6fe813a57ddc7a9aeb5",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-quad-001/rigging63/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-quad-001/rigging63/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/rigging63/quad-model.obj",
+    "faces": 115846,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v33/assets/models/rigging63-black-silver-queen-original.glb",
+    "source_sha256": "6752c09c3d7546f27d715f9b421068e05096aebfcc4f6925ae4a3bac468cc836",
+    "actual_face_histogram": {
+      "4": 115846
+    },
+    "obj_sha256": "6e815f7a0cc8236c04f6b43aa44fe48d085a5c63910b92f3a433f0ce7c5fc80f",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-field-002/segment07/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-field-002/segment07/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-field-002/segment07/quad-model.obj",
+    "faces": 92711,
+    "method": "Blender QuadriFlow + closest-point surface projection on independent baked copies",
+    "source": "production-v33/assets/models/segment07-ivory-cyborg-original.glb",
+    "source_sha256": "cddc288e1ddb86110ed9d01045f41aa7c22d09c4302cd1e2c6921da02b313766",
+    "actual_face_histogram": {
+      "4": 92711
+    },
+    "obj_sha256": "597fb3bc5e87d9b0697f274483c2c9a4fe734dd9ab9dacaf3fc928a597673037",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-quad-001/223-phoenix-armor/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-quad-001/223-phoenix-armor/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/223-phoenix-armor/quad-model.obj",
+    "faces": 94574,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v32/assets/models/223-phoenix-armor.fbx",
+    "source_sha256": "52092ef682687443377b1f9a55d4d6d7bae4147fad972015acc02161ed8b1844",
+    "actual_face_histogram": {
+      "4": 94574
+    },
+    "obj_sha256": "11b6260d9e2efa55fe4ce08f5dcba36285831599987b84a009dddf7f7e70d869",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-normal-review-003/164-oath-knight/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-normal-review-003/164-oath-knight/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/164-oath-knight/quad-model.obj",
+    "faces": 99077,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v32/assets/models/164-oath-knight.fbx",
+    "source_sha256": "4e3dc05c4e9650c09c40e5da5380809d4c8bf9a448a7e0e5b9c515dedadf2ed8",
+    "actual_face_histogram": {
+      "4": 99077
+    },
+    "obj_sha256": "b32b0d9073dd287e50570e3969b6f7b0f5c5cdc14286d1d6536bf9083162bd0e",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-quad-001/205-stag-mount/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-quad-001/205-stag-mount/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/205-stag-mount/quad-model.obj",
+    "faces": 116203,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v32/assets/models/205-stag-mount.fbx",
+    "source_sha256": "7f9cfa0891090a7b197924b127a417503b3d1fdc068d311b3dd6a875671f47b4",
+    "actual_face_histogram": {
+      "4": 116203
+    },
+    "obj_sha256": "5faaa66b899e273aa7a823dbf50769c4f31bcca97d2e820589376bfff053437c",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-quad-001/224-dragon-armor/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-quad-001/224-dragon-armor/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/224-dragon-armor/quad-model.obj",
+    "faces": 112667,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v32/assets/models/224-dragon-armor.fbx",
+    "source_sha256": "3a4e02d19bd481d33790eae4e60a950f570448e44e5f41a14aa2ddd842877731",
+    "actual_face_histogram": {
+      "4": 112667
+    },
+    "obj_sha256": "1c47580a1890d67a4d9f9fd26c85888075efd8d6b4ba8e915ffca2a85f007cf5",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-quad-001/204-expedition-kit/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-quad-001/204-expedition-kit/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/204-expedition-kit/quad-model.obj",
+    "faces": 106435,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v32/assets/models/204-expedition-kit.fbx",
+    "source_sha256": "c10338cc3d3642fb00c64149f12e6133db9d3f2142c3c99f7df62ef225bab932",
+    "actual_face_histogram": {
+      "4": 106435
+    },
+    "obj_sha256": "2e9eec20e8bdc63826e17410b9b81b3f8cdedb478fde095738ab543ed2ed3090",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-quad-001/214-leather-jacket/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-quad-001/214-leather-jacket/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/214-leather-jacket/quad-model.obj",
+    "faces": 104267,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v32/assets/models/214-leather-jacket.fbx",
+    "source_sha256": "f99bce9f9eb74cc3e5d69f2408f8309f8a81ead4ac6bc87c60b1039775803747",
+    "actual_face_histogram": {
+      "4": 104267
+    },
+    "obj_sha256": "98ca857b63adf0bcb1d4931d936557196cb4e0ed558a60604ffde4aa572f3793",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-quad-001/186-tanner-artisan/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-quad-001/186-tanner-artisan/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/186-tanner-artisan/quad-model.obj",
+    "faces": 93670,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v32/assets/models/186-tanner-artisan.fbx",
+    "source_sha256": "c5918e2fead00ca1433f291f54f41a636d0600a59c7be4b5fb9c1b8e7043a00f",
+    "actual_face_histogram": {
+      "4": 93670
+    },
+    "obj_sha256": "2eae85d293fa474d8e6cf227c2b08233e5b8268e88b3df05c928ebf68bfe5031",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-quad-001/ivory-loft/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-quad-001/ivory-loft/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/ivory-loft/quad-model.obj",
+    "faces": 104891,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v32/assets/models/ivory-loft.glb",
+    "source_sha256": "58f933a4354a207ba2e941fe6c6baa96ae7799c0e7eec40f5909ca8ab44fde54",
+    "actual_face_histogram": {
+      "4": 104891
+    },
+    "obj_sha256": "7888b314b335c22bc19a0631895e43f0b5ba6073134f630c325bd853d1dbaa6d",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-quad-001/loft-desert-cleaned-display/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-quad-001/loft-desert-cleaned-display/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/loft-desert-cleaned-display/quad-model.obj",
+    "faces": 106511,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v32/assets/models/derived/loft-desert-cleaned-display-v2.glb",
+    "source_sha256": "17179878c57c83d3500212f9e1337991835e05c45ab26406f929ef89804ea6ca",
+    "actual_face_histogram": {
+      "4": 106511
+    },
+    "obj_sha256": "1a72cf30cfe6ae7dbb0ee2883fd1dadb1ef4b3801773dbc379d2d28087dc9c48",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-normal-review-003/parrot/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-normal-review-003/parrot/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/parrot/quad-model.obj",
+    "faces": 20302,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v29/models/parrot/model.glb",
+    "source_sha256": "28aff7b3b85d9d7552b65d14df55d586e16efc11f79a3bf5029a71d546fab119",
+    "actual_face_histogram": {
+      "4": 20302
+    },
+    "obj_sha256": "fdc010fb277154bd29da75705903cda338151dcc033cf9704e37012770c05324",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-field-002/wolf-guardian/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-field-002/wolf-guardian/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-field-002/wolf-guardian/quad-model.obj",
+    "faces": 87990,
+    "method": "Blender QuadriFlow + closest-point surface projection on independent baked copies",
+    "source": "production-v29/models/wolf-guardian/model.glb",
+    "source_sha256": "8cab488db1b41188c1e668a265bf064aff5d169c295d4d944deb7d82f9453098",
+    "actual_face_histogram": {
+      "4": 87990
+    },
+    "obj_sha256": "fb53437be949394f77060c814906164293918da9b69b5c9ff92f00b5740bf509",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-quad-001/reading-room/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-quad-001/reading-room/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/reading-room/quad-model.obj",
+    "faces": 110442,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v29/models/reading-room/model.glb",
+    "source_sha256": "d35f95df51ac53de0bc5a30e388dc1d1fbc75db60686b80b1759f00c6498290c",
+    "actual_face_histogram": {
+      "4": 110442
+    },
+    "obj_sha256": "ad858efaecc3f117792535c36da0ea1a4545f60c5b46bae42309e8a3cd6eb2b4",
+    "all_quads": true
+  },
+  {
+    "clay": "production-v38/assets/evidence/historical-quad-001/hammer/detail-clay.png",
+    "wire": "production-v38/assets/evidence/historical-quad-001/hammer/detail-wire-quad.png",
+    "obj": "production-v38/assets/quad-retopology/historical-quad-001/hammer/quad-model.obj",
+    "faces": 21282,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v29/models/hammer/model.glb",
+    "source_sha256": "68bb1e1dd31df5a36c92b438e91275715d9199131caa052c44c28b77bede7d29",
+    "actual_face_histogram": {
+      "4": 21282
+    },
+    "obj_sha256": "19c8b1d441287050fef80d11224db4129e6aa2d5801def86c04f21367302c3cc",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/R28/quad-model.obj",
+    "faces": 95991,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v26/models/R28-whitehair-textured-4K.glb",
+    "source_sha256": "d3216de786cc55ec3075b473542507f756421c427f0c27fa87d68282748c4012",
+    "actual_face_histogram": {
+      "4": 95991
+    },
+    "obj_sha256": "2d141b4f65bb8887ea1f3095fc8311aa590fd156e28682f5b3def300f3c490e3",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/R29/quad-model.obj",
+    "faces": 112451,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v26/models/R29-bluehair-textured-4K.glb",
+    "source_sha256": "599ea47b276287a502dc893d79dc7550b33c3f5566014239ed226be28223f3a7",
+    "actual_face_histogram": {
+      "4": 112451
+    },
+    "obj_sha256": "090cfc5f1e2905111f026dcdd078ff5e9d19a47365db4dc71c4b6e890c768834",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/R30/quad-model.obj",
+    "faces": 89457,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v26/models/R30-lavender-textured-4K.glb",
+    "source_sha256": "360ca532e083e35975b1374d2a2ebfe932d5b2b1aef7ab69690dc271564df3c7",
+    "actual_face_histogram": {
+      "4": 89457
+    },
+    "obj_sha256": "632398c08ae3426f8f74768831d2ee132364af502083f2fc5c4a739fff39abc8",
+    "all_quads": true
+  },
+  {
+    "obj": "production-v36/assets/quad-retopology/quad-preserve-017/R31/quad-model.obj",
+    "faces": 90936,
+    "method": "Shape-preserving actual quad polygon conversion",
+    "source": "production-v26/models/R31-darkhair-original.glb",
+    "source_sha256": "907a8f439a9f0202bfcc389cd163d87510e5d3fcedcf6bbc06729ddcdc461a9e",
+    "actual_face_histogram": {
+      "4": 90936
+    },
+    "obj_sha256": "46bf6ee1cce13cacb7772dd819097d159e7f3b01d0ab9a517587837fe1928037",
+    "all_quads": true
+  }
+]
