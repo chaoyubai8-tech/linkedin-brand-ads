@@ -6,6 +6,7 @@
   const form = $('filters');
   const versionSelect = $('version-filter');
   const searchInput = $('search-filter');
+  const auditSelect = $('audit-filter');
   const resetButton = $('reset-filters');
   const empty = $('empty-state');
   const emptyAction = $('empty-action');
@@ -63,7 +64,8 @@
   let state = {
     kind: params.get('kind') === 'refined' ? 'refined' : 'ad',
     version: versionById.has(params.get('version')) ? params.get('version') : '',
-    query: params.get('q') || ''
+    query: params.get('q') || '',
+    audit: ['hold','no_wire'].includes(params.get('audit')) ? params.get('audit') : ''
   };
 
   versions.forEach((version) => {
@@ -108,17 +110,20 @@
     const meta = make('div', 'asset-meta');
     meta.append(make('p', '', ids.map(versionLabel).join(' · ')), make('span', '', asset.kind === 'ad' ? '广告成图' : 'AI 精修'));
     card.append(meta, make('h3', '', title));
+    if(asset.audit_label)card.append(make('p','audit-status '+(asset.audit_status==='hold'?'is-held':''),asset.audit_label));
+    if(asset.audit_note)card.append(make('p','audit-note',asset.audit_note));
     const statuses = [...new Set(ids.map(versionStatus).filter(Boolean))];
     if (statuses.length) card.append(make('p', 'asset-status', statuses.join(' · ')));
     const links = make('div', 'asset-links');
     const used = new Set();
-    (Array.isArray(asset.formats) ? asset.formats : []).forEach((format) => {
+    (asset.audit_status==='hold' ? [] : Array.isArray(asset.formats) ? asset.formats : []).forEach((format) => {
       const url = safeUrl(format?.url);
       if (!url || used.has(url)) return;
       used.add(url);
       links.append(makeLink(url, `下载 ${textValue(format.label) || '文件'}`, true));
     });
-    if (imageUrl) links.append(makeLink(imageUrl, '查看原图'));
+    if (imageUrl) links.append(makeLink(imageUrl, asset.audit_status==='hold' ? '历史原图 · 待整改' : '查看原图'));
+    if(asset.audit_status==='hold')card.classList.add('is-held');
     if (links.childElementCount) card.append(links);
     const detailValues = [asset.headline, asset.support, asset.translation, asset.concept, asset.cta, asset.sourceId];
     if (detailValues.some((v) => textValue(v))) {
@@ -196,7 +201,7 @@
     renderDownloadGroups($('model-downloads'), models);
     $('model-download-section').hidden = !models.length;
     $('downloads-empty').hidden = entries.length > 0;
-    $('downloads-context').textContent = state.version ? `${versionLabel(state.version)} 的图片素材与原始模型下载。` : '图片素材按版本整理，原始模型另列。';
+    $('downloads-context').textContent = state.version ? `${versionLabel(state.version)} 的图片素材与原始模型下载。` : '历史图片按版本留档；旧压缩包含待整改稿，不代表审核通过。';
   };
   const updateUrl = () => {
     try {
@@ -204,6 +209,7 @@
       if (state.version) query.set('version', state.version); else query.delete('version');
       if (state.kind !== 'ad') query.set('kind', state.kind); else query.delete('kind');
       if (state.query.trim()) query.set('q', state.query.trim()); else query.delete('q');
+      if(state.audit)query.set('audit',state.audit);else query.delete('audit');
       const suffix = query.toString();
       window.history.replaceState(null, '', window.location.pathname + (suffix ? '?' + suffix : '') + window.location.hash);
     } catch { /* The library still works when local preview restricts history. */ }
@@ -211,11 +217,13 @@
   const render = () => {
     versionSelect.value = state.version;
     searchInput.value = state.query;
+    auditSelect.value = state.audit;
     kindButtons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.kind === state.kind)));
-    resetButton.disabled = !state.version && !state.query && state.kind === 'ad';
+    resetButton.disabled = !state.version && !state.query && !state.audit && state.kind === 'ad';
     const terms = state.query.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
     const filtered = assets.filter((asset) => {
       if (asset.kind !== state.kind) return false;
+      if(state.audit && asset.audit_status!==state.audit)return false;
       const ids = membership(asset);
       if (state.version && !ids.includes(state.version)) return false;
       const haystack = [asset.id, asset.title, asset.headline, asset.support, asset.translation, asset.concept, asset.cta, asset.sourceId, ...ids, ...ids.map(versionLabel)].map(textValue).join(' ').toLocaleLowerCase();
@@ -235,7 +243,9 @@
     updateUrl();
   };
   let searchTimer;
+  auditSelect.addEventListener('change',()=>{state.audit=auditSelect.value;render();});
   const reset = () => {
+    state.audit='';
     clearTimeout(searchTimer);
     state = {kind: 'ad', version: '', query: ''};
     render();
