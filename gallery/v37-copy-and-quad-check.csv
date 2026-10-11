@@ -1,0 +1,25 @@
+﻿编号,产品,模型,英文标题,中文概念,CTA,四边面数,四边面比例,处理方法,复查状态
+V37-T01,Teams,战术外骨骼男性,Build your game. Together.,一起制作游戏，以共享角色资产把美术、设计和开发联系起来。,Explore Teams,92624,100%,Blender QuadriFlow + closest-point surface projection on independent baked copies,四边面调整与实际成图复查完成；非投放批准
+V37-T02,Teams,紫绒长裙女法师,Create. Share. Build.,女法师以大半身呈现，服装与人物资产汇入团队共享库。,Explore Teams,105300,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-T03,Teams,黑金冠饰女祭司,Your team. One shared library.,华丽祭司的脸与冠饰作为共享人物资产的展示重点。,Explore Teams,115295,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-T04,Teams,夜翼飞龙,Build worlds. Share assets.,大幅展翼飞龙与共享资产库关系，强调团队共同构建游戏世界。,Explore Teams,118813,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-T05,Teams,鳞甲龙鱼,Create assets. Keep them together.,鳞甲龙鱼横跨画面，重点展示鳞甲与真实几何，围绕同一工作区共享。,Explore Teams,184988,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-T06,Teams,枝上变色龙,One team. Create together.,变色龙以大轮廓展示，团队共享资产减少分散管理。,Explore Teams,94716,100%,Blender QuadriFlow + closest-point surface projection on independent baked copies,四边面调整与实际成图复查完成；非投放批准
+V37-T07,Teams,纹章翼蛾,Your game. Shared assets.,纹章翼蛾的完整展开轮廓与团队共享模型集合建立关系。,Explore Teams,108985,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-A01,API,银白长衣战士,Your 3D. Your pipeline.,银白长衣战士放大脸与盔甲，配异步生成管线关系。,Explore API,113893,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-A02,API,机械鳐鱼飞船,Your 3D. Your pipeline.,机械鳐鱼飞船横跨画面，输入任务、查询进展、成功后获取模型。,Explore API,112309,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-A03,API,青绿机械蜂鸟,Generate 3D. In your tools.,机械蜂鸟的大翼面和结构特写，展示接入工具的3D生成。,Explore API,122879,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-A04,API,虹彩甲虫,Submit. Track. Retrieve.,虹彩甲虫近距离质感与真实网格对应异步任务输出。,Explore API,116070,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-A05,API,兰花螳螂,Your app. Its 3D workflow.,兰花螳螂的大幅关节与表面，配自有应用的生成管线示意。,Explore API,126072,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-A06,API,蓝灰美西螈,Request. Track. Retrieve.,美西螈以大幅自然轮廓和脸部网格，表达异步生成。,Explore API,117564,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-A07,API,侦察机械蜘蛛,Connect 3D to your workflow.,侦察机械蜘蛛放大硬表面，表达把3D生成接入资产工具。,Explore API,121762,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-T08,Teams,冒险篷车,Build worlds. Share assets.,冒险篷车的大幅木材与帆布细节，服务游戏团队的资产组织。,Explore Teams,95396,100%,Blender QuadriFlow + closest-point surface projection on independent baked copies,四边面调整与实际成图复查完成；非投放批准
+V37-T09,Teams,黑甲白发女骑士,Share assets. Create together.,黑甲女骑士以近距离盔甲与人物特写呈现团队共享资产。,Explore Teams,116705,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-T10,Teams,蒸汽长衣冒险者,One team. Keep creating together.,蒸汽长衣冒险者放大皮革与金属，突出共享工作区。,Explore Teams,115420,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-A08,API,精细皮革手套,Your details. Your workflow.,皮革手套以大幅针脚、褶皱和真实几何局部，配API工作流概念。,Explore API,60652,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-A09,API,复古重型潜水装备,Submit. Track. Retrieve.,复古潜水装备以大幅头盔和结构网格，配任务提交查询获取关系。,Explore API,91153,100%,Blender QuadriFlow + closest-point surface projection on independent baked copies,四边面调整与实际成图复查完成；非投放批准
+V37-A10,API,行囊山羊,3D assets. In your pipeline.,行囊山羊放大皮革和动物结构，通过API流程关系解释模型获取。,Explore API,74322,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-P01,Teams,白发针织帽女性,Create. Share. Together.,团队共同制作与共享人物资产,Explore Teams,95991,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-P02,API,蓝发角色,Your 3D. Your pipeline.,把角色模型接入开发管线,Explore API,112451,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-P03,Teams,紫发女性,One team. One asset library.,同一团队使用同一人物资产库,Explore Teams,89457,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准
+V37-P04,API,黑发女性,Submit. Track. Retrieve.,提交任务、跟踪与获取模型,Explore API,90936,100%,Shape-preserving actual quad polygon conversion,四边面调整与实际成图复查完成；非投放批准

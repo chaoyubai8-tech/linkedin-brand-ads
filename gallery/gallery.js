@@ -65,7 +65,7 @@
     kind: params.get('kind') === 'refined' ? 'refined' : 'ad',
     version: versionById.has(params.get('version')) ? params.get('version') : '',
     query: params.get('q') || '',
-    audit: ['hold','no_wire'].includes(params.get('audit')) ? params.get('audit') : ''
+    audit: ['hold','no_wire','quad_adjusted'].includes(params.get('audit')) ? params.get('audit') : ''
   };
 
   versions.forEach((version) => {
