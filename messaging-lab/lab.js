@@ -2,9 +2,9 @@
   'use strict';
   const groups = [
     {id:'teams-us',label:'Teams · 美国游戏',direction:'降本增效 / Workflow',conclusion:'用真实团队任务解释创建、查找与复用；不以好看的单个模型替代共享工作区价值。'},
-    {id:'teams-eu',label:'Teams · 欧洲游戏',direction:'具体游戏项目用途',conclusion:'围绕一个真实项目范围评估资产与团队方案；商业化不是收入或完成整款游戏的保证。'},
+    {id:'teams-eu',label:'Teams · 欧洲游戏',direction:'商业化 / 具体游戏项目用途',conclusion:'同一欧洲游戏人群，说明角色与道具在游戏项目中的用途；不增加细分角色或收益保证。'},
     {id:'api-us',label:'API · 美国游戏＋3D资产',direction:'降本增效 / Workflow',conclusion:'说明生成如何接入自己的工具，并区分任务成功、资产验收和后续使用。'},
-    {id:'api-eu',label:'API · 欧洲企业内容',direction:'产品展示等业务用途',conclusion:'从产品内容的实际用途出发；模型验收和查看器接入由调用方负责。'}
+    {id:'api-eu',label:'API · 欧洲企业内容',direction:'商业化 / 产品展示用途',conclusion:'同一欧洲企业内容人群，固定自有内容平台的产品展示用途；生成审核和展示接入仍由调用方负责。'}
   ];
   const modes=['preview','path','why','check'];
   const $=id=>document.getElementById(id);
@@ -38,7 +38,7 @@
     $('group-nav').innerHTML=`<label class="mobile-group-select" for="group-select"><span>已确认人群</span><select id="group-select">${groups.map(group=>`<option value="${esc(group.id)}" ${selected.groupId===group.id?'selected':''}>${esc(group.label)} · ${esc(group.direction)}</option>`).join('')}</select></label>${groups.map(group=>`<button type="button" class="group-button" data-group="${esc(group.id)}" aria-pressed="${selected.groupId===group.id}"><strong>${esc(group.label)}</strong><span>${esc(group.direction)}</span></button>`).join('')}`;
   }
   function renderVariants(){
-    $('variant-list').innerHTML=data.variants.filter(item=>item.groupId===selected.groupId).map(item=>{const [role,...angle]=item.label.split(' · ');return `<button type="button" class="variant-list-item" data-variant="${esc(item.id)}" aria-pressed="${item.id===selected.id}"><strong>${esc(item.id)} · ${esc(role)}</strong><span>${esc(angle.join(' · ')||item.hookStyle||'具体工作任务切入')}</span></button>`;}).join('');
+    $('variant-list').innerHTML=data.variants.filter(item=>item.groupId===selected.groupId).map(item=>{const [version,...style]=item.label.split(' · ');return `<button type="button" class="variant-list-item" data-variant="${esc(item.id)}" aria-pressed="${item.id===selected.id}"><strong>${esc(item.id)} · ${esc(version)}</strong><span>${esc(style.join(' · ')||item.hookStyle||'同一诉求的文案表达')}</span></button>`;}).join('');
   }
   function renderHeading(){
     $('selected-heading').innerHTML=`<div class="variant-id">${esc(activeGroup().label)} / ${esc(selected.id)} · 创意候选</div><h2 tabindex="-1">${esc(selected.label)}</h2><p>${esc(selected.job)}</p>${selected.reviewStatus?`<p class="meta">本套状态：${esc(selected.reviewStatus)}</p>`:''}`;
@@ -70,9 +70,9 @@
   }
   function relevantCases(){const all=Array.isArray(research.cases)?research.cases:[];return all.filter(item=>!item.groups&&!item.groupIds||[...(item.groups||[]),...(item.groupIds||[])].includes(selected.groupId));}
   function renderWhy(){
-    const rows=[['吸引谁',selected.persona],['正在完成的工作',selected.job],['为什么与这个角色有关',selected.whyRelevant],['适合与不适合的需求',selected.qualification],['必须回答的顾虑',selected.objection],['这一套的表达方式',selected.angle]];
+    const rows=[['固定人群',selected.persona],['固定工作需要',selected.job],['固定主张',selected.copyIntent],['本版表达为什么这样写',selected.whyRelevant],['人群范围不变',selected.qualification],['同组共同回答的顾虑',selected.objection],['本轮变化范围',selected.angle]];
     const groupContext=collection(research.groups).find(group=>group.id===selected.groupId);
-    $('mode-why').innerHTML=`<dl class="reason-list">${rows.filter(([,value])=>value).map(([label,value])=>`<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`).join('')}</dl><p class="conclusion">组结论：${esc(groupContext?.conclusion||activeGroup().conclusion)}</p><div class="evidence-note"><strong>相关性是假设，产品能力要有来源。</strong><p>${esc(data.evidenceNote||'角色与痛点来自已确认方向和产品上下文，不是访谈结论；该切入是否吸引有效线索须实际验证。')}</p></div><h3>案例借鉴：只学习路径，不搬运业绩</h3>${relevantCases().map(item=>`<details class="case-note"><summary>${esc(item.label||item.title||item.name||'案例观察')}${item.page?` · PDF 第 ${esc(item.page)} 页`:''}</summary><p>${esc(item.learning||item.lesson||item.observation||item.note||'案例用于理解直接行动与继续了解的分流，不证明 Tripo 广告效果。')}</p>${item.application?`<p><strong>应用到本稿：</strong>${esc(item.application)}</p>`:''}${item.conclusion||item.boundary?`<p><strong>结论：</strong>${esc(item.conclusion||item.boundary)}</p>`:''}${safeUrl(item.url)?`<a href="${esc(safeUrl(item.url))}" target="_blank" rel="noopener noreferrer">查看案例来源</a>`:''}</details>`).join('')||'<p>参考所提供案例中的直接行动与继续了解路径；不照搬案例成效或冒充 Tripo 客户。</p>'}<h3>产品与平台来源</h3>${sourceHtml()}`;
+    $('mode-why').innerHTML=`<dl class="reason-list">${rows.filter(([,value])=>value).map(([label,value])=>`<div><dt>${esc(label)}</dt><dd>${esc(value)}</dd></div>`).join('')}</dl><p class="conclusion">组结论：${esc(groupContext?.conclusion||activeGroup().conclusion)}</p><div class="evidence-note"><strong>文案仍是候选，产品能力要有来源。</strong><p>${esc(data.evidenceNote||'四组已确认人群与主诉求固定，每组仅比较主题与开场表达；CTA和后续回复保持相同，不新增场景或策略。')}</p></div><h3>案例借鉴：只学习路径，不搬运业绩</h3>${relevantCases().map(item=>`<details class="case-note"><summary>${esc(item.label||item.title||item.name||'案例观察')}${item.page?` · PDF 第 ${esc(item.page)} 页`:''}</summary><p>${esc(item.learning||item.lesson||item.observation||item.note||'案例用于理解直接行动与继续了解的分流，不证明 Tripo 广告效果。')}</p>${item.application?`<p><strong>应用到本稿：</strong>${esc(item.application)}</p>`:''}${item.conclusion||item.boundary?`<p><strong>结论：</strong>${esc(item.conclusion||item.boundary)}</p>`:''}${safeUrl(item.url)?`<a href="${esc(safeUrl(item.url))}" target="_blank" rel="noopener noreferrer">查看案例来源</a>`:''}</details>`).join('')||'<p>参考所提供案例中的直接行动与继续了解路径；不照搬案例成效或冒充 Tripo 客户。</p>'}<h3>产品与平台来源</h3>${sourceHtml()}`;
   }
   function collection(value){return Array.isArray(value)?value:Object.entries(value||{}).map(([id,item])=>typeof item==='string'?{id,label:id,note:item}:{id,...item});}
   function itemDetail(item){return item.detail||item.finding||item.requirement||item.check||item.rule||item.description||item.note||item.boundary||item.action||item.reason||'';}

@@ -1,361 +1,361 @@
 ﻿"creative","group","field","English","中文","action","target/url"
-"TU-01","teams-us","subject","Can your team find the prop it needs?","团队能找到需要的那个道具吗？","",""
+"TU-01","teams-us","subject","Still chasing the same game asset files?","还在重复找人要游戏资产文件吗？","",""
 "TU-01","teams-us","intro","Hi, I’m with Tripo.
 
-When a teammate needs a prop, can they find it without asking who has the file?
+Still asking teammates to resend the same character or prop file?
 
-Tripo Studio Team Plan gives your team a shared workspace to create and organize 3D assets. Authorized members can find shared models for their next task.
+Tripo Studio Team Plan gives your game team a shared workspace to create and organize character and prop models. Authorized teammates can find and reuse those assets, rather than request another file handoff.
 
-See the workflow, or apply for a team trial.","你好，我来自 Tripo。
+See the workflow, or request a team trial.","你好，我来自 Tripo。
 
-同事需要一个道具时，能直接找到它，而不必先问文件在谁手里吗？
+还在请同事重复发送同一个角色或道具文件吗？
 
-Tripo Studio 团队版提供共享工作区，让团队创建并整理 3D 资产。授权成员可以为下一项任务找到需要的共享模型。
+Tripo Studio 团队版提供共享工作区，让游戏团队创建并整理角色与道具模型。授权成员可以查找并复用这些资产，减少重复索要和交接文件的操作。
 
 可以先了解工作流程，也可以申请团队试用。","",""
 "TU-01","teams-us","intro/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
 "TU-01","teams-us","intro/workflow","See the shared workflow","了解共享资产流程","next","workflow"
 "TU-01","teams-us","intro/preflight","Plan an asset-list test","用资产清单规划测试","next","preflight"
-"TU-01","teams-us","workflow","Create a model in the team workspace and organize it in the library. An authorized teammate can then search for the shared model and reuse it for another task.
+"TU-01","teams-us","workflow","Create character and prop models in the team workspace, then organize them in the library. Authorized teammates can find shared models and reuse them for another task.
 
-Your team can then review and develop the model in the tools it already uses for game assets.","在团队工作区创建模型，并在资产库中整理。随后，授权成员可以搜索共享模型，并在另一项任务中复用。
+Keep review and refinement in the tools your team already uses. The shared workspace supports asset handoffs; it does not replace project-specific quality checks.","在团队工作区创建角色与道具模型，再集中整理到资产库中。授权成员可以找到共享模型，并在后续任务中复用。
 
-团队随后可以在已有的游戏资产工具中检查并完善模型。","",""
+审核与完善仍放在团队已有的工具里。共享工作区支持资产交接，但不能替代项目所需的质量检查。","",""
 "TU-01","teams-us","workflow/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
-"TU-01","teams-us","preflight","Choose a short prop list from your game and involve the people who need those assets. Check whether they can find the shared models, then review the outputs against the project's art and technical requirements.
+"TU-01","teams-us","preflight","Choose a short character and prop list from your game. Have the teammates who need those assets test how they create, find and reuse shared models.
 
-Describe your team and that test on the trial application page.","从自己的游戏中选一份简短的道具清单，让实际需要这些资产的成员一起参与。检查成员能否找到共享模型，再按项目的美术与技术要求评估输出。
+Review each output against your project's art and technical requirements. Use the trial application to describe your team and the workflow you want to evaluate.","从自己的游戏中选一份简短的角色与道具清单，让需要这些资产的成员测试创建、查找和复用共享模型的过程。
 
-在试用申请页说明团队情况和这项测试。","",""
+再按项目的美术与技术要求评估每个输出。在试用申请中说明团队情况，以及希望评估的工作流程。","",""
 "TU-01","teams-us","preflight/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
 "TU-01","teams-us","footer","Apply with an email registered with Tripo. Trial access is subject to program terms and availability.","申请时使用已在 Tripo 注册的邮箱。能否获得试用，以活动条款和可用名额为准。","",""
-"TU-02","teams-us","subject","Before a new prop, check your team's library","开始新道具前，先看看团队资产库","",""
+"TU-02","teams-us","subject","Create and manage game assets as a team","团队一起创建与管理游戏资产","",""
 "TU-02","teams-us","intro","Hi, I’m with Tripo.
 
-Before starting another prop, see what your team already has.
+Create, organize and reuse your game's 3D assets in a shared workspace.
 
-With Tripo Studio Team Plan, authorized members can find shared 3D models in one workspace. Your artists decide which models to reuse and what needs further work.
+Tripo Studio Team Plan gives your game team a shared workspace to create and organize character and prop models. Authorized teammates can find and reuse those assets, rather than request another file handoff.
 
-Explore that workflow, or apply for a team trial.","你好，我来自 Tripo。
+See the workflow, or request a team trial.","你好，我来自 Tripo。
 
-开始制作另一个道具前，先看看团队已经有哪些资产。
+在共享工作区中创建、整理和复用游戏 3D 资产。
 
-使用 Tripo Studio 团队版，授权成员可以在同一个工作区找到共享 3D 模型。由美术成员决定哪些模型值得复用，以及哪些部分需要继续完善。
+Tripo Studio 团队版提供共享工作区，让游戏团队创建并整理角色与道具模型。授权成员可以查找并复用这些资产，减少重复索要和交接文件的操作。
 
-可以先了解这套流程，也可以申请团队试用。","",""
+可以先了解工作流程，也可以申请团队试用。","",""
 "TU-02","teams-us","intro/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
-"TU-02","teams-us","intro/workflow","Explore model reuse","了解模型复用流程","next","workflow"
-"TU-02","teams-us","intro/preflight","What needs art review?","哪些内容需要美术审核？","next","preflight"
-"TU-02","teams-us","workflow","Create starting models, keep them organized in the team library and let authorized artists find them for a new brief.
+"TU-02","teams-us","intro/workflow","See the shared workflow","了解共享资产流程","next","workflow"
+"TU-02","teams-us","intro/preflight","Plan an asset-list test","用资产清单规划测试","next","preflight"
+"TU-02","teams-us","workflow","Create character and prop models in the team workspace, then organize them in the library. Authorized teammates can find shared models and reuse them for another task.
 
-A shared model can be a starting point. Your team still checks its shape, style and technical fit, then refines it in the tools used for the project.","生成初始模型，在团队资产库中整理，让授权美术成员能为新的制作需求找到它们。
+Keep review and refinement in the tools your team already uses. The shared workspace supports asset handoffs; it does not replace project-specific quality checks.","在团队工作区创建角色与道具模型，再集中整理到资产库中。授权成员可以找到共享模型，并在后续任务中复用。
 
-共享模型可以成为制作起点。团队仍需要检查形状、风格和技术适用性，再在项目使用的工具中继续完善。","",""
+审核与完善仍放在团队已有的工具里。共享工作区支持资产交接，但不能替代项目所需的质量检查。","",""
 "TU-02","teams-us","workflow/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
-"TU-02","teams-us","preflight","Use a few prop or character briefs with clear art requirements. Check whether the team can find useful starting models, and record the changes each one needs before project use.
+"TU-02","teams-us","preflight","Choose a short character and prop list from your game. Have the teammates who need those assets test how they create, find and reuse shared models.
 
-Use your project's art and technical checks to decide which models to develop further. Evaluate both asset reuse and your review process.","选择几个美术要求明确的道具或角色需求。检查团队能否找到有用的初始模型，并记录每个模型在项目使用前需要做的修改。
+Review each output against your project's art and technical requirements. Use the trial application to describe your team and the workflow you want to evaluate.","从自己的游戏中选一份简短的角色与道具清单，让需要这些资产的成员测试创建、查找和复用共享模型的过程。
 
-用项目的美术和技术检查项，决定哪些模型值得继续完善。同时评估资产复用和团队的审核过程。","",""
+再按项目的美术与技术要求评估每个输出。在试用申请中说明团队情况，以及希望评估的工作流程。","",""
 "TU-02","teams-us","preflight/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
 "TU-02","teams-us","footer","Apply with an email registered with Tripo. Trial access is subject to program terms and availability.","申请时使用已在 Tripo 注册的邮箱。能否获得试用，以活动条款和可用名额为准。","",""
-"TU-03","teams-us","subject","Small game team, growing asset list?","团队不大，游戏资产清单却越来越长？","",""
+"TU-03","teams-us","subject","Game assets your team can find and reuse","让团队能找到并复用游戏资产","",""
 "TU-03","teams-us","intro","Hi, I’m with Tripo.
 
-Small game team, growing asset list?
+Keep character and prop models within your team's reach.
 
-Tripo Studio Team Plan brings 3D creation and shared models into one team workspace. Members can create assets, organize them and find models for the work ahead.
+Tripo Studio Team Plan gives your game team a shared workspace to create and organize character and prop models. Authorized teammates can find and reuse those assets, rather than request another file handoff.
 
-Start with a small set from your game. See the steps, or apply for a team trial.","你好，我来自 Tripo。
+See the workflow, or request a team trial.","你好，我来自 Tripo。
 
-游戏团队不大，需要制作的资产却越来越多吗？
+让角色与道具模型可供团队查找。
 
-Tripo Studio 团队版把 3D 创建和共享模型放进同一个团队工作区。成员可以创建、整理资产，并为接下来的任务找到需要的模型。
+Tripo Studio 团队版提供共享工作区，让游戏团队创建并整理角色与道具模型。授权成员可以查找并复用这些资产，减少重复索要和交接文件的操作。
 
-先从自己游戏的一小组资产开始。可以了解具体步骤，也可以申请团队试用。","",""
+可以先了解工作流程，也可以申请团队试用。","",""
 "TU-03","teams-us","intro/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
-"TU-03","teams-us","intro/workflow","See the team steps","了解团队操作步骤","next","workflow"
-"TU-03","teams-us","intro/preflight","Plan a small-team test","规划小团队测试","next","preflight"
-"TU-03","teams-us","workflow","Take a short asset list: props for one scene, for example. Create starting models in the team workspace and organize them in the shared library so authorized members can find them.
+"TU-03","teams-us","intro/workflow","See the shared workflow","了解共享资产流程","next","workflow"
+"TU-03","teams-us","intro/preflight","Plan an asset-list test","用资产清单规划测试","next","preflight"
+"TU-03","teams-us","workflow","Create character and prop models in the team workspace, then organize them in the library. Authorized teammates can find shared models and reuse them for another task.
 
-Keep task assignments in your existing process. Use the trial to see how shared assets fit that process.","先选一份简短的资产清单，例如某个场景需要的一组道具。在团队工作区生成初始模型，并在共享资产库中整理，让授权成员能够找到它们。
+Keep review and refinement in the tools your team already uses. The shared workspace supports asset handoffs; it does not replace project-specific quality checks.","在团队工作区创建角色与道具模型，再集中整理到资产库中。授权成员可以找到共享模型，并在后续任务中复用。
 
-任务分配仍沿用团队已有的方式。用试用评估共享资产如何适配这套流程。","",""
+审核与完善仍放在团队已有的工具里。共享工作区支持资产交接，但不能替代项目所需的质量检查。","",""
 "TU-03","teams-us","workflow/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
-"TU-03","teams-us","preflight","Bring the teammates who will create and use the models. Test creation, shared access and finding an asset for the next task. Then check the models in your project's tools.
+"TU-03","teams-us","preflight","Choose a short character and prop list from your game. Have the teammates who need those assets test how they create, find and reuse shared models.
 
-Check how that handoff works with your existing scene and asset tools. Apply with your team details and this small test in mind.","让实际创建和使用模型的成员一起参与。测试模型创建、共享访问，以及为下一项任务查找资产的过程，再在项目使用的工具中检查模型。
+Review each output against your project's art and technical requirements. Use the trial application to describe your team and the workflow you want to evaluate.","从自己的游戏中选一份简短的角色与道具清单，让需要这些资产的成员测试创建、查找和复用共享模型的过程。
 
-检查这段交接如何衔接现有的场景和资产工具。带着团队信息和这项小规模测试，申请试用。","",""
+再按项目的美术与技术要求评估每个输出。在试用申请中说明团队情况，以及希望评估的工作流程。","",""
 "TU-03","teams-us","preflight/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
 "TU-03","teams-us","footer","Apply with an email registered with Tripo. Trial access is subject to program terms and availability.","申请时使用已在 Tripo 注册的邮箱。能否获得试用，以活动条款和可用名额为准。","",""
-"TE-01","teams-eu","subject","Build the asset list for your next level","为下一个关卡准备资产清单","",""
+"TE-01","teams-eu","subject","Which 3D assets does your game project need?","游戏项目需要哪些 3D 资产？","",""
 "TE-01","teams-eu","intro","Hi, I’m with Tripo.
 
-A new level starts with an asset list: props, characters and environment pieces.
+Which character and prop assets does your game project need?
 
-Use Tripo Studio Team Plan to create starting models and keep them in a shared workspace for your team to review and develop.
+Tripo Studio Team Plan lets your team create and organize character and prop models in a shared workspace. Review and refine the assets in your existing tools, then use the models that meet the project's requirements.
 
-Explore a level workflow, or apply with a project you want to test.","你好，我来自 Tripo。
+See the workflow, or request a team trial.","你好，我来自 Tripo。
 
-新的游戏关卡，先从一份资产清单开始：道具、角色和环境部件。
+游戏项目需要哪些角色与道具资产？
 
-用 Tripo Studio 团队版创建初始模型，并放在共享工作区中，让团队继续检查和完善。
+Tripo Studio 团队版让团队在共享工作区中创建并整理角色与道具模型。先在已有工具中检查和完善资产，再把符合项目要求的模型用于项目。
 
-可以先了解关卡资产流程，也可以带着希望测试的项目申请试用。","",""
+可以先了解工作流程，也可以申请团队试用。","",""
 "TE-01","teams-eu","intro/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
-"TE-01","teams-eu","intro/workflow","See a level workflow","了解关卡资产流程","next","workflow"
-"TE-01","teams-eu","intro/preflight","Check scene requirements","检查场景要求","next","preflight"
-"TE-01","teams-eu","workflow","For a level test, choose a prop set and a few environment pieces from the same brief. Generate starting models and organize them in the team library. Authorized teammates can find them for review.
+"TE-01","teams-eu","intro/workflow","See the project workflow","了解项目资产流程","next","workflow"
+"TE-01","teams-eu","intro/preflight","Plan a project test","规划项目评估","next","preflight"
+"TE-01","teams-eu","workflow","Start with the characters and props your game project needs. Create starting models and organize them in the team library so authorized teammates can find them.
 
-After your team checks and refines the assets, test them in the scene using your existing tools.","测试关卡流程时，从同一份需求中选择一组道具和几个环境部件。生成初始模型，并在团队资产库中整理，授权成员便能找到模型进行评估。
+Your team checks and refines the assets, then tests their use in the project with its existing tools. This is an example workflow, not a claim about a completed customer game.","从游戏项目需要的角色与道具出发，创建初始模型并整理到团队资产库，方便授权成员查找。
 
-由团队检查并完善资产后，再用现有工具把它们放进场景中测试。","",""
+由团队检查、完善资产，再通过已有工具测试它们在项目中的用途。这是流程示例，不是在宣称已有客户用它完成了一款游戏。","",""
 "TE-01","teams-eu","workflow/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
-"TE-01","teams-eu","preflight","Choose one small part of the level. Define its scale, visual style and technical requirements before testing.
+"TE-01","teams-eu","preflight","Choose a small part of your game project's asset list. Define how the characters or props will be used, along with the visual and technical requirements.
 
-Review the assets in that scene and record which changes are needed before project use. Also check how teammates find shared models. Describe this project in the trial application.","先选择关卡的一小部分，在测试前明确比例、美术风格和技术要求。
+Evaluate model fit and how the team accesses shared assets. Describe that project in your trial application; generation alone does not complete the game or guarantee commercial results.","从游戏项目的资产清单中选取一小部分，明确角色或道具的用途，以及美术和技术要求。
 
-在该场景中评估资产，并记录项目使用前需要做的修改；同时检查团队成员查找共享模型的过程。在试用申请中说明这项项目需求。","",""
+评估模型是否适用，以及团队访问共享资产的过程。在试用申请中说明这项项目需求；生成资产本身不等于完成游戏，也不保证商业结果。","",""
 "TE-01","teams-eu","preflight/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
 "TE-01","teams-eu","footer","Apply with an email registered with Tripo. Trial access is subject to program terms and availability.","申请时使用已在 Tripo 注册的邮箱。能否获得试用，以活动条款和可用名额为准。","",""
-"TE-02","teams-eu","subject","What does your next playtest need to show?","下一轮原型测试需要展示什么？","",""
+"TE-02","teams-eu","subject","Use character and prop models in your game project","让角色与道具模型用于游戏项目","",""
 "TE-02","teams-eu","intro","Hi, I’m with Tripo.
 
-Which characters and props does your next gameplay prototype need?
+Put character and prop models to work in your game project.
 
-Tripo Studio Team Plan can help your team create starting 3D models and keep them together for review. Your team checks and develops the assets before using them in the scene.
+Tripo Studio Team Plan lets your team create and organize character and prop models in a shared workspace. Review and refine the assets in your existing tools, then use the models that meet the project's requirements.
 
-See the prototype workflow, or apply for a team trial.","你好，我来自 Tripo。
+See the workflow, or request a team trial.","你好，我来自 Tripo。
 
-下一个玩法原型需要哪些角色和道具？
+把角色与道具模型用于具体的游戏项目。
 
-Tripo Studio 团队版可以帮助团队创建初始 3D 模型，并集中整理以供审核。由团队检查并完善资产，再用于原型场景。
+Tripo Studio 团队版让团队在共享工作区中创建并整理角色与道具模型。先在已有工具中检查和完善资产，再把符合项目要求的模型用于项目。
 
-可以先了解原型资产流程，也可以申请团队试用。","",""
+可以先了解工作流程，也可以申请团队试用。","",""
 "TE-02","teams-eu","intro/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
-"TE-02","teams-eu","intro/workflow","See a prototype workflow","了解原型资产流程","next","workflow"
-"TE-02","teams-eu","intro/preflight","Plan one gameplay test","规划一项玩法原型测试","next","preflight"
-"TE-02","teams-eu","workflow","For example, a prototype might need a character and a few pickup props. Create starting models from that brief and keep them in the shared library for authorized teammates.
+"TE-02","teams-eu","intro/workflow","See the project workflow","了解项目资产流程","next","workflow"
+"TE-02","teams-eu","intro/preflight","Plan a project test","规划项目评估","next","preflight"
+"TE-02","teams-eu","workflow","Start with the characters and props your game project needs. Create starting models and organize them in the team library so authorized teammates can find them.
 
-Your team reviews and refines the models, then places them in its prototype. Your own tools handle the gameplay and scene setup.","例如，一项原型可能需要一个角色和几个可拾取道具。围绕这份需求创建初始模型，并在共享资产库中整理，供授权成员使用。
+Your team checks and refines the assets, then tests their use in the project with its existing tools. This is an example workflow, not a claim about a completed customer game.","从游戏项目需要的角色与道具出发，创建初始模型并整理到团队资产库，方便授权成员查找。
 
-由团队检查并完善模型，再放进自己的原型。玩法和场景配置仍在团队自己的工具中完成。","",""
+由团队检查、完善资产，再通过已有工具测试它们在项目中的用途。这是流程示例，不是在宣称已有客户用它完成了一款游戏。","",""
 "TE-02","teams-eu","workflow/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
-"TE-02","teams-eu","preflight","Pick one gameplay test and list the visible assets it needs. Define what your team must check before the models enter the prototype, including scale and geometry.
+"TE-02","teams-eu","preflight","Choose a small part of your game project's asset list. Define how the characters or props will be used, along with the visual and technical requirements.
 
-Evaluate asset creation and shared access separately from gameplay results. Use this scope in the team trial application.","选择一项玩法测试，列出需要的可见资产。明确模型进入原型前必须检查的条件，包括比例和几何结构。
+Evaluate model fit and how the team accesses shared assets. Describe that project in your trial application; generation alone does not complete the game or guarantee commercial results.","从游戏项目的资产清单中选取一小部分，明确角色或道具的用途，以及美术和技术要求。
 
-把资产创建、共享访问的评估与玩法测试结果分别记录。申请团队试用时说明这个范围。","",""
+评估模型是否适用，以及团队访问共享资产的过程。在试用申请中说明这项项目需求；生成资产本身不等于完成游戏，也不保证商业结果。","",""
 "TE-02","teams-eu","preflight/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
 "TE-02","teams-eu","footer","Apply with an email registered with Tripo. Trial access is subject to program terms and availability.","申请时使用已在 Tripo 注册的邮箱。能否获得试用，以活动条款和可用名额为准。","",""
-"TE-03","teams-eu","subject","Give your team trial a real game brief","带着真实游戏需求做团队试用","",""
+"TE-03","teams-eu","subject","From models to assets for your game project","从模型走向游戏项目需要的资产","",""
 "TE-03","teams-eu","intro","Hi, I’m with Tripo.
 
-Have a game project in mind, but not sure where a team workspace would fit?
+Move from character and prop ideas to models your team can develop.
 
-Test Tripo Studio Team Plan with one small part of that project. Create starting 3D assets, share them with authorized teammates and review them for the scene.
+Tripo Studio Team Plan lets your team create and organize character and prop models in a shared workspace. Review and refine the assets in your existing tools, then use the models that meet the project's requirements.
 
-Explore the trial steps, or apply with your brief.","你好，我来自 Tripo。
+See the workflow, or request a team trial.","你好，我来自 Tripo。
 
-已有游戏项目需求，但还不确定团队工作区适合哪一段制作吗？
+把角色与道具想法转成模型，供团队继续完善。
 
-可以用项目的一小部分测试 Tripo Studio 团队版：创建初始 3D 资产、与授权成员共享，再按场景需求进行评估。
+Tripo Studio 团队版让团队在共享工作区中创建并整理角色与道具模型。先在已有工具中检查和完善资产，再把符合项目要求的模型用于项目。
 
-可以先了解试用步骤，也可以带着需求申请。","",""
+可以先了解工作流程，也可以申请团队试用。","",""
 "TE-03","teams-eu","intro/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
-"TE-03","teams-eu","intro/workflow","See the trial steps","了解项目试用步骤","next","workflow"
-"TE-03","teams-eu","intro/preflight","Define a useful test","明确有用的测试范围","next","preflight"
-"TE-03","teams-eu","workflow","Choose a scene or prototype with a clear asset list. Create models in the team workspace and organize them for authorized teammates to find.
+"TE-03","teams-eu","intro/workflow","See the project workflow","了解项目资产流程","next","workflow"
+"TE-03","teams-eu","intro/preflight","Plan a project test","规划项目评估","next","preflight"
+"TE-03","teams-eu","workflow","Start with the characters and props your game project needs. Create starting models and organize them in the team library so authorized teammates can find them.
 
-Then check and refine the assets in your project's tools. Evaluate the trial against that specific scene or prototype, using the requirements your team defines.","选择一个资产清单明确的场景或原型。在团队工作区创建模型，并进行整理，让授权成员能够找到它们。
+Your team checks and refines the assets, then tests their use in the project with its existing tools. This is an example workflow, not a claim about a completed customer game.","从游戏项目需要的角色与道具出发，创建初始模型并整理到团队资产库，方便授权成员查找。
 
-再在项目使用的工具中检查和完善资产。用团队自己明确的要求，评估试用如何适用于该场景或原型。","",""
+由团队检查、完善资产，再通过已有工具测试它们在项目中的用途。这是流程示例，不是在宣称已有客户用它完成了一款游戏。","",""
 "TE-03","teams-eu","workflow/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
-"TE-03","teams-eu","preflight","Agree on the test before generating: which assets, which teammates and which scene requirements?
+"TE-03","teams-eu","preflight","Choose a small part of your game project's asset list. Define how the characters or props will be used, along with the visual and technical requirements.
 
-Check model fit and the shared workflow separately. Record any further work needed before deciding what to adopt. The application page lets you describe your team and project.","生成前先明确测试：哪些资产、哪些参与成员，以及哪些场景要求？
+Evaluate model fit and how the team accesses shared assets. Describe that project in your trial application; generation alone does not complete the game or guarantee commercial results.","从游戏项目的资产清单中选取一小部分，明确角色或道具的用途，以及美术和技术要求。
 
-分别评估模型适用性和共享流程，记录后续还需要做的工作，再决定采用什么。在申请页说明团队和项目需求。","",""
+评估模型是否适用，以及团队访问共享资产的过程。在试用申请中说明这项项目需求；生成资产本身不等于完成游戏，也不保证商业结果。","",""
 "TE-03","teams-eu","preflight/trial","Request a team trial","申请团队试用","website","https://www.tripo3d.ai/programs/team-program"
 "TE-03","teams-eu","footer","Apply with an email registered with Tripo. Trial access is subject to program terms and availability.","申请时使用已在 Tripo 注册的邮箱。能否获得试用，以活动条款和可用名额为准。","",""
-"AU-01","api-us","subject","Add 3D generation to the tool artists already use","把 3D 生成加入美术已经在用的工具","",""
+"AU-01","api-us","subject","Can 3D generation fit your asset workflow?","3D 生成能否接入你的资产流程？","",""
 "AU-01","api-us","intro","Hi, I’m with Tripo.
 
-Adding a 3D generation step to the tool your artists already use?
+Still moving between 3D generation and your game or asset tools?
 
-With Tripo API, your tool can submit a task, check its status and retrieve the model after success. Your team builds the integration and keeps asset review in its existing workflow.
+Tripo API lets your tool submit a generation task, check its status and retrieve the model after success. Your team builds the integration, then reviews and develops the result in its existing game or asset tools.
 
-Explore the handoff, or open the Quick Start.","你好，我来自 Tripo。
+See the workflow, or open the Quick Start.","你好，我来自 Tripo。
 
-想在美术已经使用的工具中加入 3D 生成步骤吗？
+还在 3D 生成与游戏或资产工具之间来回切换吗？
 
-使用 Tripo API，你的工具可以提交任务、查询状态，并在成功后取回模型。由团队实现工具接入，资产审核仍放在已有工作流程中。
+Tripo API 让自有工具提交生成任务、查询状态，并在成功后取回模型。由团队实现工具接入，再在已有的游戏或资产工具中检查并完善结果。
 
-可以先了解如何衔接，也可以打开 Quick Start。","",""
+可以先了解工作流程，也可以打开 Quick Start。","",""
 "AU-01","api-us","intro/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AU-01","api-us","intro/workflow","See the tool handoff","了解工具衔接流程","next","workflow"
-"AU-01","api-us","intro/preflight","Plan one tool request","规划一条工具请求","next","preflight"
-"AU-01","api-us","workflow","Your tool sends a generation request and receives a task ID. Check the task's status, then retrieve the output when it succeeds.
+"AU-01","api-us","intro/workflow","See the API workflow","了解 API 工作流程","next","workflow"
+"AU-01","api-us","intro/preflight","Plan a first request","规划首次请求","next","preflight"
+"AU-01","api-us","workflow","Your tool submits a generation request and receives a task ID. Track the task's status and retrieve the model after success.
 
-Your team builds the connection to its asset review step, so artists can review and refine the result in the tools they already use.","你的工具发送生成请求，并收到任务 ID。查询任务状态，在成功后取回输出。
+Connect the result to your existing asset review and refinement steps. Your team builds the integration and checks the model for its intended game or asset workflow; a successful task is not production approval.","你的工具提交生成请求并收到任务 ID，跟踪任务状态，在成功后取回模型。
 
-由团队把结果接到自己的资产审核环节，让美术成员在已有工具中检查并完善模型。","",""
+再将结果衔接到已有的资产审核和完善步骤。接入由团队实现，模型也需按实际游戏或资产流程检查；任务成功不等于通过生产验收。","",""
 "AU-01","api-us","workflow/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AU-01","api-us","preflight","Choose one asset request and define where its result should appear in your tool. Test submission, status handling and retrieval before extending the integration.
+"AU-01","api-us","preflight","Choose one asset request and define where its result should enter your tool or asset workflow. Test submission, status handling and retrieval, including what happens if a task fails.
 
-Then review the model against your game requirements. Start with the request and response examples in the Quick Start.","选择一项资产请求，明确结果应出现于自有工具的哪个环节。先测试任务提交、状态处理和模型取回，再扩展接入范围。
+Then inspect the model against your project's requirements before using it. The Quick Start provides request and response examples for this first integration check.","选择一项资产请求，明确结果应进入工具或资产流程的哪个环节。测试提交、状态处理和结果取回，包括任务失败时的处理。
 
-随后按游戏项目要求评估模型。可以从 Quick Start 中的请求和响应示例开始。","",""
+随后按项目要求检查模型，再用于后续工作。Quick Start 提供请求与响应示例，便于验证首次接入。","",""
 "AU-01","api-us","preflight/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
 "AU-01","api-us","footer","Your team builds the integration and reviews generated models against project requirements.","工具接入由你的团队实现，生成模型仍须按项目要求进行检查。","",""
-"AU-02","api-us","subject","A 3D request is sent. What happens next?","3D 请求提交后，下一步怎么处理？","",""
+"AU-02","api-us","subject","Submit tasks and retrieve models with Tripo API","用 Tripo API 提交任务并取回模型","",""
 "AU-02","api-us","intro","Hi, I’m with Tripo.
 
-The request is sent. What happens while the 3D model is generating?
+Bring 3D generation into your game or asset workflow.
 
-Tripo API returns a task ID your tool can use to check status and retrieve the model after success. Build those steps into your game's asset workflow, including how to handle failed tasks.
+Tripo API lets your tool submit a generation task, check its status and retrieve the model after success. Your team builds the integration, then reviews and develops the result in its existing game or asset tools.
 
-See the task flow, or open the Quick Start.","你好，我来自 Tripo。
+See the workflow, or open the Quick Start.","你好，我来自 Tripo。
 
-请求已经提交。3D 模型生成期间，工具怎么处理？
+把 3D 生成接入游戏或资产工作流程。
 
-Tripo API 返回任务 ID，你的工具可以用它查询状态，并在成功后取回模型。把这些步骤接入游戏资产流程，也包括失败任务的处理方式。
+Tripo API 让自有工具提交生成任务、查询状态，并在成功后取回模型。由团队实现工具接入，再在已有的游戏或资产工具中检查并完善结果。
 
-可以先了解任务流程，也可以打开 Quick Start。","",""
+可以先了解工作流程，也可以打开 Quick Start。","",""
 "AU-02","api-us","intro/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AU-02","api-us","intro/workflow","See the task flow","了解异步任务流程","next","workflow"
-"AU-02","api-us","intro/preflight","Check status handling","检查状态处理方式","next","preflight"
-"AU-02","api-us","workflow","Submit a task, keep its ID and use it to query status. When it succeeds, retrieve the model; when it fails, follow the handling path your team designed.
+"AU-02","api-us","intro/workflow","See the API workflow","了解 API 工作流程","next","workflow"
+"AU-02","api-us","intro/preflight","Plan a first request","规划首次请求","next","preflight"
+"AU-02","api-us","workflow","Your tool submits a generation request and receives a task ID. Track the task's status and retrieve the model after success.
 
-Then pass a successful result to your asset review step. Your artists decide how to develop it for the project.","提交任务，保存任务 ID，并用它查询状态。任务成功后取回模型；失败时，进入团队自己设计的处理路径。
+Connect the result to your existing asset review and refinement steps. Your team builds the integration and checks the model for its intended game or asset workflow; a successful task is not production approval.","你的工具提交生成请求并收到任务 ID，跟踪任务状态，在成功后取回模型。
 
-随后把成功取回的结果交给资产审核环节，由美术成员判断如何为项目继续完善。","",""
+再将结果衔接到已有的资产审核和完善步骤。接入由团队实现，模型也需按实际游戏或资产流程检查；任务成功不等于通过生产验收。","",""
 "AU-02","api-us","workflow/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AU-02","api-us","preflight","Test one request end to end. Check how your tool stores the task ID, handles status checks and retrieves a successful result. Decide what it should show when generation has not finished or fails.
+"AU-02","api-us","preflight","Choose one asset request and define where its result should enter your tool or asset workflow. Test submission, status handling and retrieval, including what happens if a task fails.
 
-Use the Quick Start for the API steps. Your team designs the tool's behavior and reviews the model.","用一条请求测试完整链路。检查工具如何保存任务 ID、处理状态查询，并取回成功结果；同时明确生成尚未完成或失败时，工具应如何展示和处理。
+Then inspect the model against your project's requirements before using it. The Quick Start provides request and response examples for this first integration check.","选择一项资产请求，明确结果应进入工具或资产流程的哪个环节。测试提交、状态处理和结果取回，包括任务失败时的处理。
 
-API 操作可参考 Quick Start。工具行为设计和模型审核由你的团队负责。","",""
+随后按项目要求检查模型，再用于后续工作。Quick Start 提供请求与响应示例，便于验证首次接入。","",""
 "AU-02","api-us","preflight/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
 "AU-02","api-us","footer","Your team builds the integration and reviews generated models against project requirements.","工具接入由你的团队实现，生成模型仍须按项目要求进行检查。","",""
-"AU-03","api-us","subject","Task success is not the end of an asset pipeline","任务成功，不是资产管线的终点","",""
+"AU-03","api-us","subject","Generated models for your existing asset tools","让生成模型衔接已有的资产工具","",""
 "AU-03","api-us","intro","Hi, I’m with Tripo.
 
-A successful task is not the end of an asset pipeline.
+Keep model generation connected to the asset tools your team already uses.
 
-Use Tripo API to generate and retrieve a 3D model, then evaluate it in your existing game or asset workflow. Your team decides what needs refinement and which outputs to use.
+Tripo API lets your tool submit a generation task, check its status and retrieve the model after success. Your team builds the integration, then reviews and develops the result in its existing game or asset tools.
 
-See how to plan the evaluation, or open the Quick Start.","你好，我来自 Tripo。
+See the workflow, or open the Quick Start.","你好，我来自 Tripo。
 
-任务成功，并不是资产管线的终点。
+让模型生成衔接到团队已经使用的资产工具。
 
-用 Tripo API 生成并取回 3D 模型，再在已有的游戏或资产流程中评估。由团队判断哪些部分需要完善，以及采用哪些输出。
+Tripo API 让自有工具提交生成任务、查询状态，并在成功后取回模型。由团队实现工具接入，再在已有的游戏或资产工具中检查并完善结果。
 
-可以先了解如何规划评估，也可以打开 Quick Start。","",""
+可以先了解工作流程，也可以打开 Quick Start。","",""
 "AU-03","api-us","intro/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AU-03","api-us","intro/workflow","See the review handoff","了解模型审核衔接","next","workflow"
-"AU-03","api-us","intro/preflight","Plan an asset evaluation","规划资产评估","next","preflight"
-"AU-03","api-us","workflow","Submit a generation task, check its status and retrieve the output after success. Your integration then hands the model to the next step in your asset process.
+"AU-03","api-us","intro/workflow","See the API workflow","了解 API 工作流程","next","workflow"
+"AU-03","api-us","intro/preflight","Plan a first request","规划首次请求","next","preflight"
+"AU-03","api-us","workflow","Your tool submits a generation request and receives a task ID. Track the task's status and retrieve the model after success.
 
-Keep generation success and asset approval separate. Artists and technical staff review and refine the model in the tools your project uses.","提交生成任务、查询状态，在成功后取回输出。自有接入再把模型交给资产流程的下一步。
+Connect the result to your existing asset review and refinement steps. Your team builds the integration and checks the model for its intended game or asset workflow; a successful task is not production approval.","你的工具提交生成请求并收到任务 ID，跟踪任务状态，在成功后取回模型。
 
-把生成成功与资产验收分开记录。美术和技术成员在项目使用的工具中检查并完善模型。","",""
+再将结果衔接到已有的资产审核和完善步骤。接入由团队实现，模型也需按实际游戏或资产流程检查；任务成功不等于通过生产验收。","",""
 "AU-03","api-us","workflow/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AU-03","api-us","preflight","Select one representative asset brief. Test the API steps, then inspect geometry, materials and scale against your project requirements. Record the remaining work before deciding whether to use the output.
+"AU-03","api-us","preflight","Choose one asset request and define where its result should enter your tool or asset workflow. Test submission, status handling and retrieval, including what happens if a task fails.
 
-The Quick Start covers the request flow; your team defines the asset acceptance checks.","选择一项有代表性的资产需求。先测试 API 操作，再按项目要求检查几何结构、材质和比例。在决定采用输出前，记录仍需完成的工作。
+Then inspect the model against your project's requirements before using it. The Quick Start provides request and response examples for this first integration check.","选择一项资产请求，明确结果应进入工具或资产流程的哪个环节。测试提交、状态处理和结果取回，包括任务失败时的处理。
 
-Quick Start 说明请求流程；资产的验收标准由你的团队确定。","",""
+随后按项目要求检查模型，再用于后续工作。Quick Start 提供请求与响应示例，便于验证首次接入。","",""
 "AU-03","api-us","preflight/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
 "AU-03","api-us","footer","Your team builds the integration and reviews generated models against project requirements.","工具接入由你的团队实现，生成模型仍须按项目要求进行检查。","",""
-"AE-01","api-eu","subject","Planning a product page beyond a single image?","产品页面想不只展示一张图片？","",""
+"AE-01","api-eu","subject","Where could 3D fit in your product display?","3D 如何用于你的产品展示？","",""
 "AE-01","api-eu","intro","Hi, I’m with Tripo.
 
-Planning a product page beyond a single image?
+Want to add 3D models to product displays in your content platform?
 
-Use Tripo API to generate a 3D model from a product reference image. Your team reviews the result, then connects approved assets to its own product viewer.
+Use Tripo API to generate a model from a product reference image. Your team reviews the result, then builds the integration to use approved assets for product display in its own content platform.
 
-Explore the product-page workflow, or open the Quick Start.","你好，我来自 Tripo。
+See the workflow, or open the Quick Start.","你好，我来自 Tripo。
 
-希望产品页面不只展示一张图片吗？
+想为内容平台中的产品展示加入 3D 模型吗？
 
-用 Tripo API 根据产品参考图片生成 3D 模型。由团队审核结果，再把验收通过的资产接入自己的产品查看器。
+用 Tripo API 根据产品参考图片生成模型。由团队审核结果，再实现接入，把验收通过的资产用于自有内容平台的产品展示。
 
-可以先了解产品页工作流程，也可以打开 Quick Start。","",""
+可以先了解工作流程，也可以打开 Quick Start。","",""
 "AE-01","api-eu","intro/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AE-01","api-eu","intro/workflow","See the product-page flow","了解产品页展示流程","next","workflow"
-"AE-01","api-eu","intro/preflight","Check one product first","先检查一件实际产品","next","preflight"
-"AE-01","api-eu","workflow","For example, start with an image of a chair or lamp you are authorized to use. Submit a generation task and retrieve the model after success.
+"AE-01","api-eu","intro/workflow","See the content workflow","了解内容接入流程","next","workflow"
+"AE-01","api-eu","intro/preflight","Plan a product test","规划产品模型评估","next","preflight"
+"AE-01","api-eu","workflow","Your content platform submits a generation task, checks its status and retrieves the model after success. Review it against the actual product before using it in a display.
 
-Review it against the actual product. Your team can then connect the approved model to its own viewer on the product page.","例如，先选一张有权使用的椅子或台灯图片。提交生成任务，在成功后取回模型。
+Your team connects the approved model to its own product display experience. The API supplies generation; the display integration is yours to build.","企业自己的内容平台提交生成任务、查询状态，并在成功后取回模型。在用于展示前，先与实际产品核对。
 
-把模型与实际产品对照检查。随后由团队把验收通过的模型接入产品页上的自有查看器。","",""
+由团队把通过检查的模型接入自己的产品展示体验。API 提供生成能力，展示接入仍由调用方实现。","",""
 "AE-01","api-eu","workflow/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AE-01","api-eu","preflight","Choose one product and compare the generated model with its real shape, details and materials. Define what would need correction before customer-facing use.
+"AE-01","api-eu","preflight","Choose one product and define where a 3D model would appear in your content platform. Test generation and retrieval, then check shape, details and materials against the real product.
 
-Use the Quick Start to plan the API steps, then test the handoff to the product viewer your team builds.","选择一件产品，把生成模型与实际形状、细节和材质对照检查。明确面向客户使用前，需要修正什么。
+Evaluate the model in your own display experience before wider use. It is not a guarantee of exact dimensions or a ready-made viewer.","选择一件产品，明确 3D 模型应出现于自有内容平台的什么位置。测试生成与取回，再将形状、细节和材质与真实产品核对。
 
-用 Quick Start 规划 API 操作，再测试模型如何衔接到团队自己构建的产品查看器。","",""
+扩大使用前，在自己的展示体验中评估模型；这不代表尺寸精确的保证，也不代表已有现成查看器。","",""
 "AE-01","api-eu","preflight/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AE-01","api-eu","footer","Your team handles asset approval and viewer integration before customer-facing use.","用于面向客户的内容前，资产验收和查看器接入由你的团队负责。","",""
-"AE-02","api-eu","subject","Where would 3D fit in your product catalog?","3D 内容应放在商品目录的哪一步？","",""
+"AE-01","api-eu","footer","Your team builds the display integration and checks generated models against the actual product.","产品展示接入由你的团队实现，生成模型须与实际产品核对。","",""
+"AE-02","api-eu","subject","Add 3D models to product display in your platform","为自有平台的产品展示加入 3D 模型","",""
 "AE-02","api-eu","intro","Hi, I’m with Tripo.
 
-Where would 3D fit in your product catalog?
+Bring generated 3D product models into your own content platform.
 
-Use Tripo API to generate a model from a reference image. Your team builds the link to its catalog, reviews the result and connects approved models to the right product records.
+Use Tripo API to generate a model from a product reference image. Your team reviews the result, then builds the integration to use approved assets for product display in its own content platform.
 
-Start with one catalog item. See the workflow, or open the Quick Start.","你好，我来自 Tripo。
+See the workflow, or open the Quick Start.","你好，我来自 Tripo。
 
-3D 内容应放在你的商品目录哪一步？
+把生成的 3D 产品模型接入自有内容平台。
 
-用 Tripo API 根据参考图片生成模型。由团队实现与自有目录的衔接、审核结果，再把验收通过的模型关联到对应的商品记录。
+用 Tripo API 根据产品参考图片生成模型。由团队审核结果，再实现接入，把验收通过的资产用于自有内容平台的产品展示。
 
-先从一件目录商品开始。可以了解工作流程，也可以打开 Quick Start。","",""
+可以先了解工作流程，也可以打开 Quick Start。","",""
 "AE-02","api-eu","intro/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AE-02","api-eu","intro/workflow","See the catalog workflow","了解商品目录流程","next","workflow"
-"AE-02","api-eu","intro/preflight","Plan one catalog item","规划一件目录商品测试","next","preflight"
-"AE-02","api-eu","workflow","Your platform submits a product image and keeps the task ID linked to its own product record. Query status and retrieve the output after success.
+"AE-02","api-eu","intro/workflow","See the content workflow","了解内容接入流程","next","workflow"
+"AE-02","api-eu","intro/preflight","Plan a product test","规划产品模型评估","next","preflight"
+"AE-02","api-eu","workflow","Your content platform submits a generation task, checks its status and retrieves the model after success. Review it against the actual product before using it in a display.
 
-Review the model against that item before adding it to the catalog's content flow. Your team builds the record linking, approval steps and display integration.","自有平台提交商品图片，并把任务 ID 与自己的商品记录关联。查询状态，在成功后取回输出。
+Your team connects the approved model to its own product display experience. The API supplies generation; the display integration is yours to build.","企业自己的内容平台提交生成任务、查询状态，并在成功后取回模型。在用于展示前，先与实际产品核对。
 
-先把模型与该商品对照审核，再接入目录的内容流程。记录关联、审核步骤和展示接入由你的团队实现。","",""
+由团队把通过检查的模型接入自己的产品展示体验。API 提供生成能力，展示接入仍由调用方实现。","",""
 "AE-02","api-eu","workflow/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AE-02","api-eu","preflight","Pick one catalog item with reference material you are authorized to use. Check that your system associates the correct request and output with the item, then review the model's product details.
+"AE-02","api-eu","preflight","Choose one product and define where a 3D model would appear in your content platform. Test generation and retrieval, then check shape, details and materials against the real product.
 
-Record corrections and handling steps before expanding the test. Keep product checks and catalog approval in your existing process.","选择一件目录商品，使用有权使用的参考资料。检查系统是否把正确的请求和输出关联到该商品，再审核模型中的产品细节。
+Evaluate the model in your own display experience before wider use. It is not a guarantee of exact dimensions or a ready-made viewer.","选择一件产品，明确 3D 模型应出现于自有内容平台的什么位置。测试生成与取回，再将形状、细节和材质与真实产品核对。
 
-扩大测试前，先记录所需修正和处理步骤。产品核验与目录内容验收，仍沿用团队已有的流程。","",""
+扩大使用前，在自己的展示体验中评估模型；这不代表尺寸精确的保证，也不代表已有现成查看器。","",""
 "AE-02","api-eu","preflight/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AE-02","api-eu","footer","Your team builds catalog integration and approves models before customer-facing use.","商品目录接入由你的团队实现；面向客户使用前须对模型进行验收。","",""
-"AE-03","api-eu","subject","Could 3D generation be a feature in your platform?","3D 生成能否成为你平台里的一项功能？","",""
+"AE-02","api-eu","footer","Your team builds the display integration and checks generated models against the actual product.","产品展示接入由你的团队实现，生成模型须与实际产品核对。","",""
+"AE-03","api-eu","subject","3D models for your product content","用于产品内容的 3D 模型","",""
 "AE-03","api-eu","intro","Hi, I’m with Tripo.
 
-Could 3D generation be a feature in the content platform you build?
+Give your content platform another way to show a product.
 
-Tripo API gives your platform a way to submit generation tasks and retrieve models after success. You design how users provide references, review results and use approved assets.
+Use Tripo API to generate a model from a product reference image. Your team reviews the result, then builds the integration to use approved assets for product display in its own content platform.
 
-Explore a feature workflow, or open the Quick Start.","你好，我来自 Tripo。
+See the workflow, or open the Quick Start.","你好，我来自 Tripo。
 
-3D 生成能否成为你构建的内容平台中的一项功能？
+让内容平台多一种展示产品的方式。
 
-Tripo API 让平台可以提交生成任务，并在成功后取回模型。由你的团队设计用户如何提供参考资料、审核结果和使用验收通过的资产。
+用 Tripo API 根据产品参考图片生成模型。由团队审核结果，再实现接入，把验收通过的资产用于自有内容平台的产品展示。
 
-可以先了解功能流程，也可以打开 Quick Start。","",""
+可以先了解工作流程，也可以打开 Quick Start。","",""
 "AE-03","api-eu","intro/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AE-03","api-eu","intro/workflow","See a feature workflow","了解平台功能流程","next","workflow"
-"AE-03","api-eu","intro/preflight","Scope one content use","限定一项内容用途","next","preflight"
-"AE-03","api-eu","workflow","A platform feature might let a user provide a product reference image, then submit a task and track its status. After success, retrieve the model for review.
+"AE-03","api-eu","intro/workflow","See the content workflow","了解内容接入流程","next","workflow"
+"AE-03","api-eu","intro/preflight","Plan a product test","规划产品模型评估","next","preflight"
+"AE-03","api-eu","workflow","Your content platform submits a generation task, checks its status and retrieves the model after success. Review it against the actual product before using it in a display.
 
-Your team builds the input, review and display steps around the API. Start with one business use and define the checks a model must pass before publication.","一项平台功能可以让用户提供产品参考图片，再提交任务并跟踪状态。任务成功后，取回模型供审核。
+Your team connects the approved model to its own product display experience. The API supplies generation; the display integration is yours to build.","企业自己的内容平台提交生成任务、查询状态，并在成功后取回模型。在用于展示前，先与实际产品核对。
 
-围绕 API 的输入、审核和展示步骤由你的团队实现。先从一项业务用途开始，明确模型发布前必须通过哪些检查。","",""
+由团队把通过检查的模型接入自己的产品展示体验。API 提供生成能力，展示接入仍由调用方实现。","",""
 "AE-03","api-eu","workflow/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AE-03","api-eu","preflight","Choose one content use and define who supplies the references, who reviews the model and where approved assets will appear. Test the request, status checks and retrieval within that scope.
+"AE-03","api-eu","preflight","Choose one product and define where a 3D model would appear in your content platform. Test generation and retrieval, then check shape, details and materials against the real product.
 
-Then assess the integration and remaining asset work before expanding the feature. Your team controls those decisions.","选择一项内容用途，明确谁提供参考资料、谁审核模型，以及验收通过的资产展示在哪里。在这个范围内测试请求提交、状态查询和模型取回。
+Evaluate the model in your own display experience before wider use. It is not a guarantee of exact dimensions or a ready-made viewer.","选择一件产品，明确 3D 模型应出现于自有内容平台的什么位置。测试生成与取回，再将形状、细节和材质与真实产品核对。
 
-扩展功能前，再评估接入过程和资产仍需完成的工作。这些决定由你的团队掌握。","",""
+扩大使用前，在自己的展示体验中评估模型；这不代表尺寸精确的保证，也不代表已有现成查看器。","",""
 "AE-03","api-eu","preflight/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
-"AE-03","api-eu","footer","Your team builds the platform workflow and reviews generated assets before use.","平台工作流程由你的团队构建；生成资产使用前须由团队检查。","",""
+"AE-03","api-eu","footer","Your team builds the display integration and checks generated models against the actual product.","产品展示接入由你的团队实现，生成模型须与实际产品核对。","",""

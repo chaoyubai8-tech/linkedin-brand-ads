@@ -1,12 +1,12 @@
 {
-  "version": "2026-10-11-r1",
+  "version": "2026-10-11-r2-fixed-audiences",
   "reviewDate": "2026-10-11",
-  "conclusion": "建议先选每组最贴合真实工作任务的母版，再各做两个开场版本，共8个；这是本轮测试建议，不是旧策略数量或预算已获批。12 套是概念候选，不是12个新增定向，也不是12套同时上线。",
+  "conclusion": "严格沿用四组已确认人群与方向。每组3个文案版本，只变化主题和开场表达；产品说明、收尾、CTA与后续回复固定，不拆角色、不扩展场景、不新增策略。12版是文案数量，不是广告组或上线数量。",
   "groups": [
-    {"id":"teams-us","label":"Teams · 美国游戏","direction":"工作流程效率","task":"找到、共享、复用团队已有角色与道具","angles":["制作负责人：找资产","美术负责人：决定如何复用","小团队负责人：协调增长的资产清单"],"conclusion":"共享库的价值要落到下一项任务。先测查找与团队承接，不承诺替代全部文件或版本管理系统。","action":"官方团队试用申请","success":"申请 → 有效线索 → 实际试用 → 成交"},
-    {"id":"teams-eu","label":"Teams · 欧洲游戏","direction":"具体项目用途","task":"为关卡、玩法原型或真实项目准备可评估的资产","angles":["关卡负责人：同一场景资产","玩法团队：原型可见对象","项目负责人：小范围真实项目评估"],"conclusion":"商业化在这里是具体游戏项目用途，不是收入或完成整款游戏的保证。资产生成与项目整合分开验收。","action":"带项目需求申请团队试用","success":"申请 → 项目需求有效性 → 实际试用 → 成交"},
-    {"id":"api-us","label":"API · 美国游戏＋3D资产","direction":"工作流程效率","task":"把生成、任务处理和模型审核接入现有工具","angles":["工具开发者：原工具内发起生成","技术美术：处理异步状态","资产管线负责人：结果验收与后续使用"],"conclusion":"分别吸引做工具、接任务、验资产的人。请求成功与资产采用是不同环节，开发和艺术决定仍在团队手里。","action":"Quick Start → 自己的一次资产调用","success":"注册 → API Key → 首次成功调用 → 实际付费"},
-    {"id":"api-eu","label":"API · 欧洲企业内容","direction":"具体业务用途","task":"让经审核的产品模型进入自有内容平台","angles":["产品页负责人：产品展示","目录平台负责人：商品记录衔接","内容平台产品负责人：一个明确业务功能"],"conclusion":"吸引负责产品内容功能与系统接入的人；产品页、目录是使用场景假设，不新增电商定向，也不承诺精密还原或现成查看器。","action":"Quick Start → 单个产品模型适用性评估","success":"注册 → API Key → 首次成功调用 → 业务使用 → 实际付费"}
+    {"id":"teams-us","label":"Teams · 美国游戏","direction":"降本增效／Workflow","task":"创建、集中管理和复用角色与道具资产，减少重复操作与文件交接","wordingStyles":["A：提问开场","B：直接陈述","C：用途结果开场"],"conclusion":"同一美国游戏人群、同一资产工作流诉求。三版只比较表达，不拆岗位、不新增策略；共享工作区不等于版本控制或自动质量验收。","action":"官方团队试用申请","success":"申请 → 有效线索 → 实际试用 → 成交"},
+    {"id":"teams-eu","label":"Teams · 欧洲游戏","direction":"商业化／具体游戏项目用途","task":"围绕游戏项目的角色与道具需求，展示团队方案支持的资产准备与使用","wordingStyles":["A：提问开场","B：直接陈述","C：用途结果开场"],"conclusion":"同一欧洲游戏人群，固定具体游戏项目用途。三版不延伸其他场景；项目使用须由团队验收，不承诺收入或完成整款游戏。","action":"带项目需求申请团队试用","success":"申请 → 项目需求有效性 → 实际试用 → 成交"},
+    {"id":"api-us","label":"API · 美国游戏＋3D资产","direction":"降本增效／Workflow","task":"将3D生成接入自己的游戏工具或资产制作流程，提交任务、取回模型及后续使用","wordingStyles":["A：提问开场","B：直接陈述","C：用途结果开场"],"conclusion":"同一美国游戏＋3D资产人群，固定工具／资产流程接入诉求。三版只换主题与开场，请求成功仍须与资产验收分开。","action":"Quick Start → 自己的一次资产调用","success":"注册 → API Key → 首次成功调用 → 实际付费"},
+    {"id":"api-eu","label":"API · 欧洲企业内容","direction":"商业化／产品展示用途","task":"将3D生成接入自有企业内容平台，围绕产品展示说明生成结果如何用于业务","wordingStyles":["A：提问开场","B：直接陈述","C：用途结果开场"],"conclusion":"同一欧洲企业内容人群，固定自有内容平台产品展示用途。三版不扩展目录或电商定向；模型审核和展示接入由调用方完成。","action":"Quick Start → 单个产品模型适用性评估","success":"注册 → API Key → 首次成功调用 → 业务使用 → 实际付费"}
   ],
   "sources": [
     {"key":"approved-audiences","title":"用户本轮已确认的4组方向","type":"用户策略","note":"美国讲流程效率；欧洲已选组讲具体用途。是本轮测试安排，不是地区文化结论。"},
@@ -30,7 +30,7 @@
     {"key":"linkedin-flowchart","title":"Conversation Ads Flowchart与报告","type":"LinkedIn官方","url":"https://www.linkedin.com/help/lms/answer/a425769","note":"编辑后Flowchart只显示最近版本点击；其他报告可能汇总版本，复盘需creative版本ID。"}
   ],
   "cases": [
-    {"title":"Hired / B2Linked","url":"https://business.linkedin.com/advertise/customer-stories/hired-and-b2linked","observation":"先用相关性问题，再给匹配资源或注册入口。官方历史案例，页面未标发布日期。","application":"每套围绕一个工作任务，不把所有角色都导向同一句功能介绍。","conclusion":"问题必须改变后续信息；用户已经确认的4组定向不需要在首屏重新筛选行业。"},
+    {"title":"Hired / B2Linked","url":"https://business.linkedin.com/advertise/customer-stories/hired-and-b2linked","observation":"先用相关性问题，再给匹配资源或注册入口。官方历史案例，页面未标发布日期。","application":"同组围绕同一已确认任务写三个开场；读者选择直接行动、流程说明或首次评估时，后续各回答一个不同的问题。","conclusion":"沿用四组原定人群；案例只用于理解分支，不作为拆角色或增加定向的依据。"},
     {"title":"Autodesk · 2020-12-17","url":"https://www.linkedin.com/business/marketing/blog/content-marketing/how-autodesk-used-retargeting-and-conversation-ads-to-supercharge","observation":"向看过相关项目管理内容的受众提供具体资源，延续既有兴趣。","application":"Teams再营销应承接用户已看过的场景；本轮资格与真实案例尚未补齐，继续暂缓。","conclusion":"学习承接逻辑，不把历史案例业绩搬成Tripo预测。"},
     {"title":"LucaNet","url":"https://business.linkedin.com/content/dam/me/business/en-us/marketing-solutions/case-studies/pdfs/lucanet-full-casestudy.pdf","observation":"询问决策者关注的问题，据此提供匹配的活动内容。官方历史PDF，未标具体发布日期。","application":"流程分支讲操作和责任；首次评估分支讲范围和验收，两条回复不重复首屏。","conclusion":"只能提供实际存在的内容；不虚构可下载指南、案例页或demo。"},
     {"title":"提供的PDF · Huawei / Jabra / Toucan Toco","observation":"第5页区分联系与技术了解；第9页保留低意向信息路径；第10页从行业正在发生的工作需要切入。","application":"直接行动、流程说明、首次评估三种意图。当前有真实申请页和Quick Start，尚无专属demo或新指南。","conclusion":"保留选择权，但每个出口都必须能兑现；不是自由输入的AI聊天。"}
@@ -54,7 +54,7 @@
     {"item":"正式投放配置","status":"待账户验收","sourceKey":"linkedin-create","finding":"审核网页不是Campaign Manager配置。Sender、objective、表单和发送范围需要实际核对。","change":"当前只有Website visits草稿动作；Lead Gen升级仅为建议，不假装已建表单或已经取得sender授权。"}
   ],
   "launchChecklist": [
-    {"item":"选母版与开场测试","status":"待选择","detail":"每组从3个概念中选1个母版，然后固定sender、offer、CTA、配图与承接，仅测试开场或subject。若整条路径一起改，记录为概念探索。"},
+    {"item":"固定人群与文案变化范围","status":"已按用户要求收窄","detail":"四组原定人群与方向不变。每组A／B／C只变化主题与开场表达，主体说明、收尾、CTA、两条回复和目的页相同。12版供审稿，不规定同时上线数量，也不新增广告组、预算或策略。"},
     {"item":"目标与表单","status":"待配置","detail":"Website visits至少1个网站CTA。若目标是Lead generation，每条creative需关联1张真实原生Lead Gen Form并有打开它的按钮，包含隐私政策与确认页。"},
     {"item":"Sender","status":"待授权","detail":"实际成员sender须授权；公司名sender需官方支持。网页上的Tripo示意身份不等于完成配置。"},
     {"item":"按钮和路径","status":"文案结构已检查","detail":"每套3节点、5自定义＋首条1系统按钮；首屏3自定义＋系统Not Interested示意。系统按钮不作为自定义导出。点击下一条增加对应信息，终点到同组正式产品页。"},
