@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Tripo 领英站内信工作室：按四组已确认人群审阅十二套双语对话广告候选，逐条核对分支、文案、品牌与上线条件。">
+  <title>Tripo 站内信工作室</title>
+  <link rel="preload" href="../assets/v9/InstrumentSans-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="lab.css">
+  <script src="lab.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">跳到文案审阅</a>
+  <header class="topbar">
+    <a class="wordmark" href="../index.html" aria-label="返回领英品牌广告网站"><strong>TRIPO</strong></a>
+    <nav aria-label="项目导航"><a href="../messages-next.html">上轮对话稿</a><a href="../messages-single.html">单按钮历史稿</a><a href="../workflow.html">制作工作流</a></nav>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <div><h1 id="page-title">站内信工作室</h1><p>先确定要吸引谁，再检查每句话与每个出口。</p></div>
+      <p class="version-note">研究与审稿 · 2026.10.11<br>Conversation Ads · 未发送</p>
+    </section>
+    <div class="scope-note"><strong>12 套候选，4 组已确认人群。</strong><span>每组 3 个工作任务切入；建议先选母版，再准备每组 2 个开场版本，共 8 个。数量是本轮建议，不是旧策略原有安排；12 套整稿探索不是单变量 A/B，也不是 12 个新广告组。</span></div>
+    <p id="review-status" class="review-status"><strong>验收未完成：</strong>品牌语言仅部分核对；对外合规正文、配图与账户配置仍待核查。本站不是可直接上线的批准稿。</p>
+    <nav id="group-nav" class="group-nav" aria-label="已确认人群"><p>正在读取四组文案。若读取失败，可在下方查看静态全文。</p></nav>
+    <section id="workspace" class="workspace" aria-label="文案审阅工作区">
+      <aside class="variant-sidebar" aria-labelledby="variant-list-title"><h2 id="variant-list-title">本组的 3 个切入</h2><div id="variant-list"></div><p class="sidebar-note">角色与痛点是文案假设，不代表新增定向或已验证的偏好。</p></aside>
+      <div class="review-area">
+        <header id="selected-heading" class="selected-heading"><h2>选择一套候选稿开始</h2></header>
+        <div id="mode-nav" class="mode-nav" role="tablist" aria-label="审阅方式">
+          <button id="tab-preview" role="tab" aria-selected="true" aria-controls="mode-preview" tabindex="0" data-mode="preview">对话预览</button>
+          <button id="tab-path" role="tab" aria-selected="false" aria-controls="mode-path" tabindex="-1" data-mode="path">路径与全文</button>
+          <button id="tab-why" role="tab" aria-selected="false" aria-controls="mode-why" tabindex="-1" data-mode="why">为什么这样写</button>
+          <button id="tab-check" role="tab" aria-selected="false" aria-controls="mode-check" tabindex="-1" data-mode="check">品牌与上线核对</button>
+        </div>
+        <section id="mode-preview" role="tabpanel" aria-labelledby="tab-preview" class="mode-panel"><p class="loading">正在读取双语文案与分支。</p></section>
+        <section id="mode-path" role="tabpanel" aria-labelledby="tab-path" class="mode-panel" hidden></section>
+        <section id="mode-why" role="tabpanel" aria-labelledby="tab-why" class="mode-panel" hidden></section>
+        <section id="mode-check" role="tabpanel" aria-labelledby="tab-check" class="mode-panel" hidden></section>
+        <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+    <section id="static-copy" class="static-copy" aria-labelledby="static-title">
+      <h2 id="static-title">静态全文与研究记录</h2>
+      <p>交互只是审稿演示，不是领英后台，也不会发送消息、提交表单或保存你的选择。</p>
+      <!-- STATIC_COPY_START -->
+      <p><a href="all-copy.html">打开 12 套静态双语全文</a> · <a href="copy.csv" download>下载文案 CSV</a> · <a href="copy.json">双语文案 JSON</a> · <a href="research.json">研究记录 JSON</a>。交互不可用时，亦可查看<a href="../messages-next.html">上轮对话广告稿</a>。</p>
+      <!-- STATIC_COPY_END -->
+    </section>
+  </main>
+  <footer><span>公开审稿站 · 文案不是产品能力或投放效果证明</span><a href="../index.html">返回领英品牌广告</a></footer>
+</body>
+</html>
