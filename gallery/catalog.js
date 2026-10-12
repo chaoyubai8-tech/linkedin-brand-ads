@@ -1,23 +1,23 @@
 window.MATERIAL_LIBRARY = {
-  "updated": "2026-10-11 · V38素材规范整改",
+  "updated": "2026-10-12 · V40新版排版与V39真实网格整改",
   "versions": [
     {
       "id": "V37",
       "label": "V37 · 24张真实四边面广告",
       "summary": "20个不同模型与V28四个人物；素色背景、大主图、真实白模与四边面局部；高清2400 × 2400。",
-      "status": "V38素材规范整改稿 · 已复查；非投放批准"
+      "status": "V40当前稿 · 新排版或真实网格局部整改 · 已复查"
     },
     {
       "id": "V35",
       "label": "V35 · 20个不同模型广告",
       "summary": "Teams 10张、API 10张；大主体、素色背景、真实白模与网格局部。",
-      "status": "V38素材规范整改稿 · 已复查；非投放批准"
+      "status": "V40当前稿 · 新排版或真实网格局部整改 · 已复查"
     },
     {
       "id": "V34",
       "label": "V34 · 三个人物广告",
       "summary": "金白女王、黑银女王与机械角色的Teams／API广告。",
-      "status": "V38素材规范整改稿 · 已复查；非投放批准"
+      "status": "V40当前稿 · 新排版或真实网格局部整改 · 已复查"
     },
     {
       "id": "V33",
@@ -29,25 +29,25 @@ window.MATERIAL_LIBRARY = {
       "id": "V32",
       "label": "V32 · 历史模型探索",
       "summary": "保留实际导出的9张广告，用于版本对照。",
-      "status": "V38素材规范整改稿 · 已复查；非投放批准"
+      "status": "V40当前稿 · 新排版或真实网格局部整改 · 已复查"
     },
     {
       "id": "V31",
       "label": "V31 · Teams 协作 / API 管线",
       "summary": "素色背景、大主模型与真实网格局部；Teams 展示共享协作，API 展示生产流程。",
-      "status": "V38素材规范整改稿 · 已复查；非投放批准"
+      "status": "V40当前稿 · 新排版或真实网格局部整改 · 已复查"
     },
     {
       "id": "V30-R2",
       "label": "V30-R2 · AI 白模精修",
       "summary": "原AI白模版已整改为真实四边面模型白模与网格；保留对应主体和文案。",
-      "status": "V38素材规范整改稿 · 已复查；非投放批准"
+      "status": "V40当前稿 · 新排版或真实网格局部整改 · 已复查"
     },
     {
       "id": "V30",
       "label": "V30 · 主模型、白模与细节",
       "summary": "精修主图、同模型真实白模与材质图像细节，附最终中英文文案。",
-      "status": "V38素材规范整改稿 · 已复查；非投放批准"
+      "status": "V40当前稿 · 新排版或真实网格局部整改 · 已复查"
     },
     {
       "id": "V29-R5",
@@ -137,7 +137,7 @@ window.MATERIAL_LIBRARY = {
       "id": "V15",
       "label": "V15 · 早期探索",
       "summary": "中台输入衍生概念与真实白模示意。",
-      "status": "V38素材规范整改稿 · 已复查；非投放批准"
+      "status": "V40当前稿 · 新排版或真实网格局部整改 · 已复查"
     },
     {
       "id": "V14",
@@ -149,7 +149,7 @@ window.MATERIAL_LIBRARY = {
       "id": "V13",
       "label": "V13 · 早期探索",
       "summary": "原输入、真实白模与二维衍生混合探索。",
-      "status": "V38素材规范整改稿 · 已复查；非投放批准"
+      "status": "V40当前稿 · 新排版或真实网格局部整改 · 已复查"
     },
     {
       "id": "V12",
@@ -194,7 +194,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-T01--exports.jpg"
+          "url": "v40--V37--V37-T01--exports.jpg"
         }
       ],
       "headline": "Build your game. Together.",
@@ -206,11 +206,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-T01--exports.jpg",
+      "src": "v40--V37--V37-T01--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共92,624个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-T02:exports",
@@ -223,7 +223,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-T02--exports.jpg"
+          "url": "v40--V37--V37-T02--exports.jpg"
         }
       ],
       "headline": "Create. Share. Build.",
@@ -235,11 +235,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-T02--exports.jpg",
+      "src": "v40--V37--V37-T02--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共185,368个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-T03:exports",
@@ -252,7 +252,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-T03--exports.jpg"
+          "url": "v40--V37--V37-T03--exports.jpg"
         }
       ],
       "headline": "Your team. One shared library.",
@@ -264,11 +264,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-T03--exports.jpg",
+      "src": "v40--V37--V37-T03--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共150,444个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-T04:exports",
@@ -281,7 +281,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-T04--exports.jpg"
+          "url": "v40--V37--V37-T04--exports.jpg"
         }
       ],
       "headline": "Build worlds. Share assets.",
@@ -293,11 +293,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-T04--exports.jpg",
+      "src": "v40--V37--V37-T04--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共148,275个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-T05:exports",
@@ -310,7 +310,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-T05--exports.jpg"
+          "url": "v40--V37--V37-T05--exports.jpg"
         }
       ],
       "headline": "Create assets. Keep them together.",
@@ -322,11 +322,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-T05--exports.jpg",
+      "src": "v40--V37--V37-T05--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共221,034个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-T06:exports",
@@ -339,7 +339,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-T06--exports.jpg"
+          "url": "v40--V37--V37-T06--exports.jpg"
         }
       ],
       "headline": "One team. Create together.",
@@ -351,11 +351,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-T06--exports.jpg",
+      "src": "v40--V37--V37-T06--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共94,716个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-T07:exports",
@@ -368,7 +368,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-T07--exports.jpg"
+          "url": "v40--V37--V37-T07--exports.jpg"
         }
       ],
       "headline": "Your game. Shared assets.",
@@ -380,11 +380,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-T07--exports.jpg",
+      "src": "v40--V37--V37-T07--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共166,532个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-A01:exports",
@@ -397,7 +397,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-A01--exports.jpg"
+          "url": "v40--V37--V37-A01--exports.jpg"
         }
       ],
       "headline": "Your 3D. Your pipeline.",
@@ -409,11 +409,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-A01--exports.jpg",
+      "src": "v40--V37--V37-A01--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共185,015个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-A02:exports",
@@ -426,7 +426,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-A02--exports.jpg"
+          "url": "v40--V37--V37-A02--exports.jpg"
         }
       ],
       "headline": "Your 3D. Your pipeline.",
@@ -438,11 +438,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-A02--exports.jpg",
+      "src": "v40--V37--V37-A02--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共186,274个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-A03:exports",
@@ -455,7 +455,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-A03--exports.jpg"
+          "url": "v40--V37--V37-A03--exports.jpg"
         }
       ],
       "headline": "Generate 3D. In your tools.",
@@ -467,11 +467,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-A03--exports.jpg",
+      "src": "v40--V37--V37-A03--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共196,189个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-A04:exports",
@@ -484,7 +484,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-A04--exports.jpg"
+          "url": "v40--V37--V37-A04--exports.jpg"
         }
       ],
       "headline": "Submit. Track. Retrieve.",
@@ -496,11 +496,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-A04--exports.jpg",
+      "src": "v40--V37--V37-A04--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共143,996个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-A05:exports",
@@ -513,7 +513,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-A05--exports.jpg"
+          "url": "v40--V37--V37-A05--exports.jpg"
         }
       ],
       "headline": "Your app. Its 3D workflow.",
@@ -525,11 +525,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-A05--exports.jpg",
+      "src": "v40--V37--V37-A05--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共186,401个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-A06:exports",
@@ -542,7 +542,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-A06--exports.jpg"
+          "url": "v40--V37--V37-A06--exports.jpg"
         }
       ],
       "headline": "Request. Track. Retrieve.",
@@ -554,11 +554,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-A06--exports.jpg",
+      "src": "v40--V37--V37-A06--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共162,985个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-A07:exports",
@@ -571,7 +571,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-A07--exports.jpg"
+          "url": "v40--V37--V37-A07--exports.jpg"
         }
       ],
       "headline": "Connect 3D to your workflow.",
@@ -583,11 +583,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-A07--exports.jpg",
+      "src": "v40--V37--V37-A07--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共168,649个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-T08:exports",
@@ -600,7 +600,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-T08--exports.jpg"
+          "url": "v40--V37--V37-T08--exports.jpg"
         }
       ],
       "headline": "Build worlds. Share assets.",
@@ -612,11 +612,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-T08--exports.jpg",
+      "src": "v40--V37--V37-T08--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共95,396个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-T09:exports",
@@ -629,7 +629,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-T09--exports.jpg"
+          "url": "v40--V37--V37-T09--exports.jpg"
         }
       ],
       "headline": "Share assets. Create together.",
@@ -641,11 +641,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-T09--exports.jpg",
+      "src": "v40--V37--V37-T09--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共171,030个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-T10:exports",
@@ -658,7 +658,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-T10--exports.jpg"
+          "url": "v40--V37--V37-T10--exports.jpg"
         }
       ],
       "headline": "One team. Keep creating together.",
@@ -670,11 +670,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-T10--exports.jpg",
+      "src": "v40--V37--V37-T10--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共146,745个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-A08:exports",
@@ -687,7 +687,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-A08--exports.jpg"
+          "url": "v40--V37--V37-A08--exports.jpg"
         }
       ],
       "headline": "Your details. Your workflow.",
@@ -699,11 +699,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-A08--exports.jpg",
+      "src": "v40--V37--V37-A08--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共86,577个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-A09:exports",
@@ -716,7 +716,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-A09--exports.jpg"
+          "url": "v40--V37--V37-A09--exports.jpg"
         }
       ],
       "headline": "Submit. Track. Retrieve.",
@@ -728,11 +728,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-A09--exports.jpg",
+      "src": "v40--V37--V37-A09--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共91,153个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-A10:exports",
@@ -745,7 +745,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-A10--exports.jpg"
+          "url": "v40--V37--V37-A10--exports.jpg"
         }
       ],
       "headline": "3D assets. In your pipeline.",
@@ -757,11 +757,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-A10--exports.jpg",
+      "src": "v40--V37--V37-A10--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共128,031个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-P01:exports",
@@ -774,7 +774,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-P01--exports.jpg"
+          "url": "v40--V37--V37-P01--exports.jpg"
         }
       ],
       "headline": "Create. Share. Together.",
@@ -786,11 +786,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-P01--exports.jpg",
+      "src": "v40--V37--V37-P01--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共95,991个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-P02:exports",
@@ -803,7 +803,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-P02--exports.jpg"
+          "url": "v40--V37--V37-P02--exports.jpg"
         }
       ],
       "headline": "Your 3D. Your pipeline.",
@@ -815,11 +815,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-P02--exports.jpg",
+      "src": "v40--V37--V37-P02--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共112,451个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-P03:exports",
@@ -832,7 +832,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-P03--exports.jpg"
+          "url": "v40--V37--V37-P03--exports.jpg"
         }
       ],
       "headline": "One team. One asset library.",
@@ -844,11 +844,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-P03--exports.jpg",
+      "src": "v40--V37--V37-P03--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共89,457个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V37:V37-P04:exports",
@@ -861,7 +861,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V37--V37-P04--exports.jpg"
+          "url": "v40--V37--V37-P04--exports.jpg"
         }
       ],
       "headline": "Submit. Track. Retrieve.",
@@ -873,11 +873,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V37--V37-P04--exports.jpg",
+      "src": "v40--V37--V37-P04--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共90,936个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-T01:exports",
@@ -890,7 +890,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-T01--exports.jpg"
+          "url": "v40--V35--V35-T01--exports.jpg"
         }
       ],
       "headline": "Build your game. Together.",
@@ -902,11 +902,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-T01--exports.jpg",
+      "src": "v40--V35--V35-T01--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：92,624面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共92,624个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-T02:exports",
@@ -919,7 +919,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-T02--exports.jpg"
+          "url": "v40--V35--V35-T02--exports.jpg"
         }
       ],
       "headline": "One team. Shared assets.",
@@ -931,11 +931,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-T02--exports.jpg",
+      "src": "v40--V35--V35-T02--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：105,300面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共185,368个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-T03:exports",
@@ -948,7 +948,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-T03--exports.jpg"
+          "url": "v40--V35--V35-T03--exports.jpg"
         }
       ],
       "headline": "Your team. One library.",
@@ -960,11 +960,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-T03--exports.jpg",
+      "src": "v40--V35--V35-T03--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：115,295面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共150,444个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-T04:exports",
@@ -977,7 +977,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-T04--exports.jpg"
+          "url": "v40--V35--V35-T04--exports.jpg"
         }
       ],
       "headline": "A shared home for game assets.",
@@ -989,11 +989,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-T04--exports.jpg",
+      "src": "v40--V35--V35-T04--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：118,813面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共148,275个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-T05:exports",
@@ -1006,7 +1006,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-T05--exports.jpg"
+          "url": "v40--V35--V35-T05--exports.jpg"
         }
       ],
       "headline": "Create 3D assets. Share them.",
@@ -1018,11 +1018,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-T05--exports.jpg",
+      "src": "v40--V35--V35-T05--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：184,988面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共221,034个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-T06:exports",
@@ -1035,7 +1035,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-T06--exports.jpg"
+          "url": "v40--V35--V35-T06--exports.jpg"
         }
       ],
       "headline": "Keep game assets within reach.",
@@ -1047,11 +1047,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-T06--exports.jpg",
+      "src": "v40--V35--V35-T06--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：94,716面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共94,716个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-T07:exports",
@@ -1064,7 +1064,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-T07--exports.jpg"
+          "url": "v40--V35--V35-T07--exports.jpg"
         }
       ],
       "headline": "Find assets. Keep creating together.",
@@ -1076,11 +1076,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-T07--exports.jpg",
+      "src": "v40--V35--V35-T07--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：108,985面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共166,532个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-T08:exports",
@@ -1093,7 +1093,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-T08--exports.jpg"
+          "url": "v40--V35--V35-T08--exports.jpg"
         }
       ],
       "headline": "Bring your world into one workspace.",
@@ -1105,11 +1105,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-T08--exports.jpg",
+      "src": "v40--V35--V35-T08--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：95,396面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共95,396个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-T09:exports",
@@ -1122,7 +1122,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-T09--exports.jpg"
+          "url": "v40--V35--V35-T09--exports.jpg"
         }
       ],
       "headline": "Shared assets for your next project.",
@@ -1134,11 +1134,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-T09--exports.jpg",
+      "src": "v40--V35--V35-T09--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：116,705面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共171,030个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-T10:exports",
@@ -1151,7 +1151,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-T10--exports.jpg"
+          "url": "v40--V35--V35-T10--exports.jpg"
         }
       ],
       "headline": "Your project. One shared collection.",
@@ -1163,11 +1163,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-T10--exports.jpg",
+      "src": "v40--V35--V35-T10--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：115,420面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共146,745个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-A01:exports",
@@ -1180,7 +1180,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-A01--exports.jpg"
+          "url": "v40--V35--V35-A01--exports.jpg"
         }
       ],
       "headline": "3D generation. In your pipeline.",
@@ -1192,11 +1192,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-A01--exports.jpg",
+      "src": "v40--V35--V35-A01--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：113,893面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共185,015个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-A02:exports",
@@ -1209,7 +1209,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-A02--exports.jpg"
+          "url": "v40--V35--V35-A02--exports.jpg"
         }
       ],
       "headline": "Submit. Track. Retrieve your model.",
@@ -1221,11 +1221,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-A02--exports.jpg",
+      "src": "v40--V35--V35-A02--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：112,309面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共186,274个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-A03:exports",
@@ -1238,7 +1238,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-A03--exports.jpg"
+          "url": "v40--V35--V35-A03--exports.jpg"
         }
       ],
       "headline": "Your tools. Now in 3D.",
@@ -1250,11 +1250,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-A03--exports.jpg",
+      "src": "v40--V35--V35-A03--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：122,879面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共196,189个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-A04:exports",
@@ -1267,7 +1267,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-A04--exports.jpg"
+          "url": "v40--V35--V35-A04--exports.jpg"
         }
       ],
       "headline": "One request. A new 3D task.",
@@ -1279,11 +1279,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-A04--exports.jpg",
+      "src": "v40--V35--V35-A04--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：116,070面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共143,996个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-A05:exports",
@@ -1296,7 +1296,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-A05--exports.jpg"
+          "url": "v40--V35--V35-A05--exports.jpg"
         }
       ],
       "headline": "Keep track of your 3D tasks.",
@@ -1308,11 +1308,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-A05--exports.jpg",
+      "src": "v40--V35--V35-A05--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：126,072面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共186,401个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-A06:exports",
@@ -1325,7 +1325,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-A06--exports.jpg"
+          "url": "v40--V35--V35-A06--exports.jpg"
         }
       ],
       "headline": "From request to 3D model output.",
@@ -1337,11 +1337,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-A06--exports.jpg",
+      "src": "v40--V35--V35-A06--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：117,564面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共162,985个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-A07:exports",
@@ -1354,7 +1354,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-A07--exports.jpg"
+          "url": "v40--V35--V35-A07--exports.jpg"
         }
       ],
       "headline": "Bring 3D into your asset tools.",
@@ -1366,11 +1366,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-A07--exports.jpg",
+      "src": "v40--V35--V35-A07--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：121,762面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共168,649个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-A08:exports",
@@ -1383,7 +1383,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-A08--exports.jpg"
+          "url": "v40--V35--V35-A08--exports.jpg"
         }
       ],
       "headline": "Your app. Its next 3D workflow.",
@@ -1395,11 +1395,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-A08--exports.jpg",
+      "src": "v40--V35--V35-A08--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：60,652面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共86,577个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-A09:exports",
@@ -1412,7 +1412,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-A09--exports.jpg"
+          "url": "v40--V35--V35-A09--exports.jpg"
         }
       ],
       "headline": "Track progress. Retrieve successful model outputs.",
@@ -1424,11 +1424,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-A09--exports.jpg",
+      "src": "v40--V35--V35-A09--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：91,153面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共91,153个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:V35-A10:exports",
@@ -1441,7 +1441,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V35--V35-A10--exports.jpg"
+          "url": "v40--V35--V35-A10--exports.jpg"
         }
       ],
       "headline": "Make 3D part of your pipeline.",
@@ -1453,11 +1453,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V35--V35-A10--exports.jpg",
+      "src": "v40--V35--V35-A10--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：74,322面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共128,031个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V35:pbr64-cutout:refined",
@@ -1870,7 +1870,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V34--V34-T01--exports.jpg"
+          "url": "v40--V34--V34-T01--exports.jpg"
         }
       ],
       "headline": "Build your game. Together.",
@@ -1882,11 +1882,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V34--V34-T01--exports.jpg",
+      "src": "v40--V34--V34-T01--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：115,045面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共162,711个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V34:V34-T02:exports",
@@ -1899,7 +1899,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V34--V34-T02--exports.jpg"
+          "url": "v40--V34--V34-T02--exports.jpg"
         }
       ],
       "headline": "One team. Shared assets.",
@@ -1911,11 +1911,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V34--V34-T02--exports.jpg",
+      "src": "v40--V34--V34-T02--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：115,846面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共154,518个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V34:V34-T03:exports",
@@ -1928,7 +1928,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V34--V34-T03--exports.jpg"
+          "url": "v40--V34--V34-T03--exports.jpg"
         }
       ],
       "headline": "Your team. One library.",
@@ -1940,11 +1940,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V34--V34-T03--exports.jpg",
+      "src": "v40--V34--V34-T03--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：92,711面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共92,711个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V34:V34-A01:exports",
@@ -1957,7 +1957,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V34--V34-A01--exports.jpg"
+          "url": "v40--V34--V34-A01--exports.jpg"
         }
       ],
       "headline": "3D generation. In your pipeline.",
@@ -1969,11 +1969,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V34--V34-A01--exports.jpg",
+      "src": "v40--V34--V34-A01--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：115,045面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共162,711个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V34:V34-A02:exports",
@@ -1986,7 +1986,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V34--V34-A02--exports.jpg"
+          "url": "v40--V34--V34-A02--exports.jpg"
         }
       ],
       "headline": "Submit. Track. Retrieve your model.",
@@ -1998,11 +1998,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V34--V34-A02--exports.jpg",
+      "src": "v40--V34--V34-A02--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：115,846面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共154,518个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V34:V34-A03:exports",
@@ -2015,7 +2015,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V34--V34-A03--exports.jpg"
+          "url": "v40--V34--V34-A03--exports.jpg"
         }
       ],
       "headline": "Your tools. Now in 3D.",
@@ -2027,11 +2027,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V34--V34-A03--exports.jpg",
+      "src": "v40--V34--V34-A03--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：92,711面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共92,711个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V33:pbr21-adventurer-ai-refined:refined",
@@ -2244,7 +2244,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V32--V32-T01--exports.jpg"
+          "url": "v40--V32--V32-T01--exports.jpg"
         }
       ],
       "headline": "One team. Shared assets.",
@@ -2256,11 +2256,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V32--V32-T01--exports.jpg",
+      "src": "v40--V32--V32-T01--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：94,574面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共339,385个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V32:V32-A01:exports",
@@ -2273,7 +2273,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V32--V32-A01--exports.jpg"
+          "url": "v40--V32--V32-A01--exports.jpg"
         }
       ],
       "headline": "Your tools. Now in 3D.",
@@ -2285,11 +2285,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V32--V32-A01--exports.jpg",
+      "src": "v40--V32--V32-A01--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：99,077面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共474,004个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V32:V32-T02:exports",
@@ -2302,7 +2302,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V32--V32-T02--exports.jpg"
+          "url": "v40--V32--V32-T02--exports.jpg"
         }
       ],
       "headline": "Build games. Together.",
@@ -2314,11 +2314,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V32--V32-T02--exports.jpg",
+      "src": "v40--V32--V32-T02--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：116,203面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共421,288个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V32:V32-A02:exports",
@@ -2331,7 +2331,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V32--V32-A02--exports.jpg"
+          "url": "v40--V32--V32-A02--exports.jpg"
         }
       ],
       "headline": "3D generation. In your pipeline.",
@@ -2343,11 +2343,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V32--V32-A02--exports.jpg",
+      "src": "v40--V32--V32-A02--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：112,667面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共571,881个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V32:V32-T03:exports",
@@ -2360,7 +2360,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V32--V32-T03--exports.jpg"
+          "url": "v40--V32--V32-T03--exports.jpg"
         }
       ],
       "headline": "Your world. Shared.",
@@ -2372,11 +2372,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V32--V32-T03--exports.jpg",
+      "src": "v40--V32--V32-T03--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：106,435面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共424,812个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V32:V32-A03:exports",
@@ -2389,7 +2389,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V32--V32-A03--exports.jpg"
+          "url": "v40--V32--V32-A03--exports.jpg"
         }
       ],
       "headline": "3D generation. In your pipeline.",
@@ -2401,11 +2401,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V32--V32-A03--exports.jpg",
+      "src": "v40--V32--V32-A03--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：104,267面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共454,644个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V32:V32-T04:exports",
@@ -2418,7 +2418,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V32--V32-T04--exports.jpg"
+          "url": "v40--V32--V32-T04--exports.jpg"
         }
       ],
       "headline": "One team. Shared assets.",
@@ -2430,11 +2430,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V32--V32-T04--exports.jpg",
+      "src": "v40--V32--V32-T04--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：93,670面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共512,676个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V32:V32-A04:exports",
@@ -2447,7 +2447,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V32--V32-A04--exports.jpg"
+          "url": "v40--V32--V32-A04--exports.jpg"
         }
       ],
       "headline": "Your tools. Now in 3D.",
@@ -2459,11 +2459,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V32--V32-A04--exports.jpg",
+      "src": "v40--V32--V32-A04--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：104,891面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共432,166个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V32:V32-T05:exports",
@@ -2476,7 +2476,7 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V32--V32-T05--exports.jpg"
+          "url": "v40--V32--V32-T05--exports.jpg"
         }
       ],
       "headline": "Your world. Shared.",
@@ -2488,11 +2488,11 @@ window.MATERIAL_LIBRARY = {
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
-      "src": "v38--V32--V32-T05--exports.jpg",
+      "src": "v40--V32--V32-T05--exports.jpg",
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：106,511面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共351,300个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V31:V31-T01:exports",
@@ -2505,10 +2505,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V31--V31-T01--exports.jpg"
+          "url": "v40--V31--V31-T01--exports.jpg"
         }
       ],
-      "src": "v38--V31--V31-T01--exports.jpg",
+      "src": "v40--V31--V31-T01--exports.jpg",
       "headline": "Build games. Together.",
       "support": "One shared workspace for your game team.",
       "translation": "一起制作游戏。",
@@ -2519,9 +2519,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：20,302面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共23,150个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V31:V31-T02:exports",
@@ -2534,10 +2534,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V31--V31-T02--exports.jpg"
+          "url": "v40--V31--V31-T02--exports.jpg"
         }
       ],
-      "src": "v38--V31--V31-T02--exports.jpg",
+      "src": "v40--V31--V31-T02--exports.jpg",
       "headline": "One team. Shared assets.",
       "support": "Create, organize and share your game assets.",
       "translation": "同一个团队，共享资产。",
@@ -2548,9 +2548,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：87,990面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共87,990个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V31:V31-T03:exports",
@@ -2563,10 +2563,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V31--V31-T03--exports.jpg"
+          "url": "v40--V31--V31-T03--exports.jpg"
         }
       ],
-      "src": "v38--V31--V31-T03--exports.jpg",
+      "src": "v40--V31--V31-T03--exports.jpg",
       "headline": "Your world. Shared.",
       "support": "Keep your game assets in one team workspace.",
       "translation": "你的世界，与团队共享。",
@@ -2577,9 +2577,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：110,442面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共370,745个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V31:V31-A01:exports",
@@ -2592,10 +2592,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V31--V31-A01--exports.jpg"
+          "url": "v40--V31--V31-A01--exports.jpg"
         }
       ],
-      "src": "v38--V31--V31-A01--exports.jpg",
+      "src": "v40--V31--V31-A01--exports.jpg",
       "headline": "3D generation. In your pipeline.",
       "support": "Connect Tripo to your own tools.",
       "translation": "在你的管线中生成3D。",
@@ -2606,9 +2606,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：21,282面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共90,884个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V31:V31-A02:exports",
@@ -2621,10 +2621,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V31--V31-A02--exports.jpg"
+          "url": "v40--V31--V31-A02--exports.jpg"
         }
       ],
-      "src": "v38--V31--V31-A02--exports.jpg",
+      "src": "v40--V31--V31-A02--exports.jpg",
       "headline": "From prompt. To pipeline.",
       "support": "Bring 3D generation into your workflow.",
       "translation": "从提示词，到制作管线。",
@@ -2635,9 +2635,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：20,302面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共23,150个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V31:V31-A03:exports",
@@ -2650,10 +2650,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V31--V31-A03--exports.jpg"
+          "url": "v40--V31--V31-A03--exports.jpg"
         }
       ],
-      "src": "v38--V31--V31-A03--exports.jpg",
+      "src": "v40--V31--V31-A03--exports.jpg",
       "headline": "Your tools. Now in 3D.",
       "support": "Build 3D generation into the tools you use.",
       "translation": "现在，为你的工具加入3D。",
@@ -2664,9 +2664,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：87,990面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共87,990个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30-R2:V30-S01:exports",
@@ -2679,10 +2679,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30-R2--V30-S01--exports.jpg"
+          "url": "v40--V30-R2--V30-S01--exports.jpg"
         }
       ],
-      "src": "v38--V30-R2--V30-S01--exports.jpg",
+      "src": "v40--V30-R2--V30-S01--exports.jpg",
       "headline": "One team. Shared assets.",
       "support": "One shared workspace for your game team.",
       "translation": "同一个团队，共享资产。",
@@ -2693,9 +2693,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：87,990面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共87,990个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30-R2:V30-S02:exports",
@@ -2708,10 +2708,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30-R2--V30-S02--exports.jpg"
+          "url": "v40--V30-R2--V30-S02--exports.jpg"
         }
       ],
-      "src": "v38--V30-R2--V30-S02--exports.jpg",
+      "src": "v40--V30-R2--V30-S02--exports.jpg",
       "headline": "3D characters. In your tools.",
       "support": "Bring 3D generation into your own workflow.",
       "translation": "在你的工具中使用3D角色。",
@@ -2722,9 +2722,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：87,990面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共87,990个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30-R2:V30-S03:exports",
@@ -2737,10 +2737,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30-R2--V30-S03--exports.jpg"
+          "url": "v40--V30-R2--V30-S03--exports.jpg"
         }
       ],
-      "src": "v38--V30-R2--V30-S03--exports.jpg",
+      "src": "v40--V30-R2--V30-S03--exports.jpg",
       "headline": "Your team. One library.",
       "support": "Create, organize and share your game assets.",
       "translation": "你的团队，同一个资产库。",
@@ -2751,9 +2751,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：20,302面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共23,150个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30-R2:V30-S04:exports",
@@ -2766,10 +2766,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30-R2--V30-S04--exports.jpg"
+          "url": "v40--V30-R2--V30-S04--exports.jpg"
         }
       ],
-      "src": "v38--V30-R2--V30-S04--exports.jpg",
+      "src": "v40--V30-R2--V30-S04--exports.jpg",
       "headline": "Your tools. In 3D.",
       "support": "Add 3D generation inside your workflow.",
       "translation": "在你的工具中使用3D。",
@@ -2780,9 +2780,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：20,302面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共23,150个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30-R2:V30-S05:exports",
@@ -2795,10 +2795,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30-R2--V30-S05--exports.jpg"
+          "url": "v40--V30-R2--V30-S05--exports.jpg"
         }
       ],
-      "src": "v38--V30-R2--V30-S05--exports.jpg",
+      "src": "v40--V30-R2--V30-S05--exports.jpg",
       "headline": "Your world. Shared.",
       "support": "One team workspace. Every asset in its place.",
       "translation": "你的世界，与团队共享。",
@@ -2809,9 +2809,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：110,442面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共370,745个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30-R2:V30-S06:exports",
@@ -2824,10 +2824,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30-R2--V30-S06--exports.jpg"
+          "url": "v40--V30-R2--V30-S06--exports.jpg"
         }
       ],
-      "src": "v38--V30-R2--V30-S06--exports.jpg",
+      "src": "v40--V30-R2--V30-S06--exports.jpg",
       "headline": "Your tools. In 3D.",
       "support": "Build 3D generation into the tools you use.",
       "translation": "在你的工具中使用3D。",
@@ -2838,9 +2838,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：21,282面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共90,884个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30-R2:V30-B01:exports",
@@ -2853,23 +2853,23 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30-R2--V30-B01--exports.jpg"
+          "url": "v40--V30-R2--V30-B01--exports.jpg"
         }
       ],
-      "src": "v38--V30-R2--V30-B01--exports.jpg",
+      "src": "v40--V30-R2--V30-B01--exports.jpg",
       "headline": "Assets. Shared.",
       "support": "One workspace. For game teams.",
       "translation": "资产，一起共享。",
       "concept": "共享角色资产的站内信配图。完整狼角色吸引注意，AI 雕塑图像与小特写辅助展示，用极短工作区利益句说明Teams价值。",
       "cta": "Explore Teams",
       "sourceId": "message-banners/T17-US",
-      "width": 300,
-      "height": 250,
+      "width": 2400,
+      "height": 2400,
       "nativeBanner": true,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：87,990面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共87,990个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30-R2:V30-B02:exports",
@@ -2882,23 +2882,23 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30-R2--V30-B02--exports.jpg"
+          "url": "v40--V30-R2--V30-B02--exports.jpg"
         }
       ],
-      "src": "v38--V30-R2--V30-B02--exports.jpg",
+      "src": "v40--V30-R2--V30-B02--exports.jpg",
       "headline": "One shared library.",
       "support": "Create, organize and share.",
       "translation": "一个共享资产库。",
       "concept": "共享场景资产库的站内信配图。阅读室主图配AI 雕塑图像与局部，强调创建、整理和共享；有色表面仍是二维广告处理。",
       "cta": "Explore Teams",
       "sourceId": "message-banners/T17-EU",
-      "width": 300,
-      "height": 250,
+      "width": 2400,
+      "height": 2400,
       "nativeBanner": true,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：110,442面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共370,745个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30-R2:V30-B03:exports",
@@ -2911,23 +2911,23 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30-R2--V30-B03--exports.jpg"
+          "url": "v40--V30-R2--V30-B03--exports.jpg"
         }
       ],
-      "src": "v38--V30-R2--V30-B03--exports.jpg",
+      "src": "v40--V30-R2--V30-B03--exports.jpg",
       "headline": "3D in your tools.",
       "support": "Add 3D generation to your workflow.",
       "translation": "在你的工具中使用3D。",
       "concept": "API工作流配图。大鹦鹉加AI 雕塑图像和同图羽翼特写，配一句把3D生成接入工作流的说明；不宣称速度、价格或原生纹理等级。",
       "cta": "Explore API",
       "sourceId": "message-banners/A17-US",
-      "width": 300,
-      "height": 250,
+      "width": 2400,
+      "height": 2400,
       "nativeBanner": true,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：20,302面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共23,150个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30:V30-S01:exports",
@@ -2940,10 +2940,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30--V30-S01--exports.jpg"
+          "url": "v40--V30--V30-S01--exports.jpg"
         }
       ],
-      "src": "v38--V30--V30-S01--exports.jpg",
+      "src": "v40--V30--V30-S01--exports.jpg",
       "headline": "One team. Shared assets.",
       "support": "One shared workspace for your game team.",
       "translation": "同一个团队，共享资产。",
@@ -2954,9 +2954,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：87,990面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共87,990个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30:V30-S02:exports",
@@ -2969,10 +2969,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30--V30-S02--exports.jpg"
+          "url": "v40--V30--V30-S02--exports.jpg"
         }
       ],
-      "src": "v38--V30--V30-S02--exports.jpg",
+      "src": "v40--V30--V30-S02--exports.jpg",
       "headline": "3D characters. In your tools.",
       "support": "Bring 3D generation into your own workflow.",
       "translation": "在你的工具中使用3D角色。",
@@ -2983,9 +2983,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：87,990面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共87,990个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30:V30-S03:exports",
@@ -2998,10 +2998,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30--V30-S03--exports.jpg"
+          "url": "v40--V30--V30-S03--exports.jpg"
         }
       ],
-      "src": "v38--V30--V30-S03--exports.jpg",
+      "src": "v40--V30--V30-S03--exports.jpg",
       "headline": "Your team. One library.",
       "support": "Create, organize and share your game assets.",
       "translation": "你的团队，同一个资产库。",
@@ -3012,9 +3012,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：20,302面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共23,150个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30:V30-S04:exports",
@@ -3027,10 +3027,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30--V30-S04--exports.jpg"
+          "url": "v40--V30--V30-S04--exports.jpg"
         }
       ],
-      "src": "v38--V30--V30-S04--exports.jpg",
+      "src": "v40--V30--V30-S04--exports.jpg",
       "headline": "Your tools. In 3D.",
       "support": "Add 3D generation inside your workflow.",
       "translation": "在你的工具中使用3D。",
@@ -3041,9 +3041,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：20,302面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共23,150个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30:V30-S05:exports",
@@ -3056,10 +3056,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30--V30-S05--exports.jpg"
+          "url": "v40--V30--V30-S05--exports.jpg"
         }
       ],
-      "src": "v38--V30--V30-S05--exports.jpg",
+      "src": "v40--V30--V30-S05--exports.jpg",
       "headline": "Your world. Shared.",
       "support": "One team workspace. Every asset in its place.",
       "translation": "你的世界，与团队共享。",
@@ -3070,9 +3070,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：110,442面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共370,745个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30:V30-S06:exports",
@@ -3085,10 +3085,10 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30--V30-S06--exports.jpg"
+          "url": "v40--V30--V30-S06--exports.jpg"
         }
       ],
-      "src": "v38--V30--V30-S06--exports.jpg",
+      "src": "v40--V30--V30-S06--exports.jpg",
       "headline": "Your tools. In 3D.",
       "support": "Build 3D generation into the tools you use.",
       "translation": "在你的工具中使用3D。",
@@ -3099,9 +3099,9 @@ window.MATERIAL_LIBRARY = {
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：21,282面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共90,884个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30:V30-B01:exports",
@@ -3114,23 +3114,23 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30--V30-B01--exports.jpg"
+          "url": "v40--V30--V30-B01--exports.jpg"
         }
       ],
-      "src": "v38--V30--V30-B01--exports.jpg",
+      "src": "v40--V30--V30-B01--exports.jpg",
       "headline": "Assets. Shared.",
       "support": "One workspace. For game teams.",
       "translation": "资产，一起共享。",
       "concept": "共享角色资产的站内信配图。完整狼角色吸引注意，白模与小特写辅助展示，用极短工作区利益句说明Teams价值。",
       "cta": "Explore Teams",
       "sourceId": "message-banners/T17-US",
-      "width": 300,
-      "height": 250,
+      "width": 2400,
+      "height": 2400,
       "nativeBanner": true,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：87,990面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共87,990个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30:V30-B02:exports",
@@ -3143,23 +3143,23 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30--V30-B02--exports.jpg"
+          "url": "v40--V30--V30-B02--exports.jpg"
         }
       ],
-      "src": "v38--V30--V30-B02--exports.jpg",
+      "src": "v40--V30--V30-B02--exports.jpg",
       "headline": "One shared library.",
       "support": "Create, organize and share.",
       "translation": "一个共享资产库。",
       "concept": "共享场景资产库的站内信配图。阅读室主图配原白模与局部，强调创建、整理和共享；有色表面仍是二维广告处理。",
       "cta": "Explore Teams",
       "sourceId": "message-banners/T17-EU",
-      "width": 300,
-      "height": 250,
+      "width": 2400,
+      "height": 2400,
       "nativeBanner": true,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：110,442面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共370,745个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V30:V30-B03:exports",
@@ -3172,23 +3172,23 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V30--V30-B03--exports.jpg"
+          "url": "v40--V30--V30-B03--exports.jpg"
         }
       ],
-      "src": "v38--V30--V30-B03--exports.jpg",
+      "src": "v40--V30--V30-B03--exports.jpg",
       "headline": "3D in your tools.",
       "support": "Add 3D generation to your workflow.",
       "translation": "在你的工具中使用3D。",
       "concept": "API工作流配图。大鹦鹉加真实白模和同图羽翼特写，配一句把3D生成接入工作流的说明；不宣称速度、价格或原生纹理等级。",
       "cta": "Explore API",
       "sourceId": "message-banners/A17-US",
-      "width": 300,
-      "height": 250,
+      "width": 2400,
+      "height": 2400,
       "nativeBanner": true,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：20,302面。",
-      "revision": "V38"
+      "audit_label": "新版排版 · 真实网格局部复查",
+      "audit_note": "真实处理后模型共23,150个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
+      "revision": "V40"
     },
     {
       "id": "V29-R5:V29-S01:exports",
@@ -7980,21 +7980,21 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V15--A15-02--v15.jpg"
+          "url": "v40--V15--A15-02--v15.jpg"
         }
       ],
-      "src": "v38--V15--A15-02--v15.jpg",
+      "src": "v40--V15--A15-02--v15.jpg",
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：113,893面。 原网格插图对应模型无法追溯；改用已核验的近期银发战士模型。原稿保留。",
+      "audit_label": "真实网格局部复查",
+      "audit_note": "真实处理后模型共185,015个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
       "headline": "Submit. Track. Retrieve.",
       "translation": "提交、跟踪、获取结果。",
       "concept": "提交、跟踪、获取结果。 将3D生成接入已有工具；提交任务、跟踪状态，并在成功后获取结果，画面是管线概念示意。",
       "cta": "Explore API",
-      "revision": "V38"
+      "revision": "V40"
     },
     {
       "id": "V15:T15-01:v15",
@@ -8196,21 +8196,21 @@ window.MATERIAL_LIBRARY = {
       "formats": [
         {
           "label": "JPG",
-          "url": "v38--V13--A13-02--v13.jpg"
+          "url": "v40--V13--A13-02--v13.jpg"
         }
       ],
-      "src": "v38--V13--A13-02--v13.jpg",
+      "src": "v40--V13--A13-02--v13.jpg",
       "width": 2400,
       "height": 2400,
       "nativeBanner": false,
       "audit_status": "quad_adjusted",
-      "audit_label": "素材规范已整改 · 真实四边面已复查",
-      "audit_note": "字体、官方Logo、文字颜色和布局已按规范整改。 白模/网格来自实际四边面模型：113,893面。 原网格插图对应模型无法追溯；改用已核验的近期银发战士模型。原稿保留。",
+      "audit_label": "真实网格局部复查",
+      "audit_note": "真实处理后模型共185,015个四边面；已检查广告可见局部及多视角形体。AI精修主图单独披露。未作完整模型生产验收。",
       "headline": "Submit. Track. Retrieve.",
       "translation": "提交、跟踪、获取结果。",
       "concept": "提交、跟踪、获取结果。 将3D生成接入已有工具；提交任务、跟踪状态，并在成功后获取结果，画面是管线概念示意。",
       "cta": "Explore API",
-      "revision": "V38"
+      "revision": "V40"
     },
     {
       "id": "V13:T13-01-AI:v13",
@@ -8896,55 +8896,6 @@ window.MATERIAL_LIBRARY = {
       ]
     },
     {
-      "version": "V37",
-      "title": "V37 · 素材规范整改JPG · 24张",
-      "url": "v38-v37-corrected-jpg.zip",
-      "bytes": 9648266,
-      "kind": "ads"
-    },
-    {
-      "version": "V35",
-      "title": "V35 · 素材规范整改JPG · 20张",
-      "url": "v38-v35-corrected-jpg.zip",
-      "bytes": 7147874,
-      "kind": "ads"
-    },
-    {
-      "version": "V34",
-      "title": "V34 · 素材规范整改JPG · 6张",
-      "url": "v38-v34-corrected-jpg.zip",
-      "bytes": 2129073,
-      "kind": "ads"
-    },
-    {
-      "version": "V32",
-      "title": "V32 · 素材规范整改JPG · 9张",
-      "url": "v38-v32-corrected-jpg.zip",
-      "bytes": 3882035,
-      "kind": "ads"
-    },
-    {
-      "version": "V31",
-      "title": "V31 · 素材规范整改JPG · 6张",
-      "url": "v38-v31-corrected-jpg.zip",
-      "bytes": 2271221,
-      "kind": "ads"
-    },
-    {
-      "version": "V30-R2",
-      "title": "V30-R2 · 素材规范整改JPG · 9张",
-      "url": "v38-v30-r2-corrected-jpg.zip",
-      "bytes": 2385389,
-      "kind": "ads"
-    },
-    {
-      "version": "V30",
-      "title": "V30 · 素材规范整改JPG · 9张",
-      "url": "v38-v30-corrected-jpg.zip",
-      "bytes": 2385439,
-      "kind": "ads"
-    },
-    {
       "version": "V29-R5",
       "title": "V29-R5 · 素材规范整改JPG · 9张",
       "url": "v38-v29-r5-corrected-jpg.zip",
@@ -9043,24 +8994,10 @@ window.MATERIAL_LIBRARY = {
       "kind": "ads"
     },
     {
-      "version": "V15",
-      "title": "V15 · 素材规范整改JPG · 4张",
-      "url": "v38-v15-corrected-jpg.zip",
-      "bytes": 1052055,
-      "kind": "ads"
-    },
-    {
       "version": "V14",
       "title": "V14 · 素材规范整改JPG · 4张",
       "url": "v38-v14-corrected-jpg.zip",
       "bytes": 1070088,
-      "kind": "ads"
-    },
-    {
-      "version": "V13",
-      "title": "V13 · 素材规范整改JPG · 5张",
-      "url": "v38-v13-corrected-jpg.zip",
-      "bytes": 1386143,
       "kind": "ads"
     },
     {
@@ -9104,14 +9041,103 @@ window.MATERIAL_LIBRARY = {
       "url": "v38-copy-and-material-check.csv",
       "bytes": 142970,
       "kind": "sources"
+    },
+    {
+      "version": "V13",
+      "title": "V13 · 当前广告JPG · 第1/1包 · 5张",
+      "url": "v40-v13-current-01.zip",
+      "bytes": 1549530,
+      "kind": "ads"
+    },
+    {
+      "version": "V15",
+      "title": "V15 · 当前广告JPG · 第1/1包 · 4张",
+      "url": "v40-v15-current-01.zip",
+      "bytes": 1215442,
+      "kind": "ads"
+    },
+    {
+      "version": "V30",
+      "title": "V30 · 当前广告JPG · 第1/1包 · 9张",
+      "url": "v40-v30-current-01.zip",
+      "bytes": 7436920,
+      "kind": "ads"
+    },
+    {
+      "version": "V30-R2",
+      "title": "V30-R2 · 当前广告JPG · 第1/1包 · 9张",
+      "url": "v40-v30-r2-current-01.zip",
+      "bytes": 7437004,
+      "kind": "ads"
+    },
+    {
+      "version": "V31",
+      "title": "V31 · 当前广告JPG · 第1/1包 · 6张",
+      "url": "v40-v31-current-01.zip",
+      "bytes": 4875993,
+      "kind": "ads"
+    },
+    {
+      "version": "V32",
+      "title": "V32 · 当前广告JPG · 第1/1包 · 9张",
+      "url": "v40-v32-current-01.zip",
+      "bytes": 7993692,
+      "kind": "ads"
+    },
+    {
+      "version": "V34",
+      "title": "V34 · 当前广告JPG · 第1/1包 · 6张",
+      "url": "v40-v34-current-01.zip",
+      "bytes": 4250164,
+      "kind": "ads"
+    },
+    {
+      "version": "V35",
+      "title": "V35 · 当前广告JPG · 第1/2包 · 11张",
+      "url": "v40-v35-current-01.zip",
+      "bytes": 8083516,
+      "kind": "ads"
+    },
+    {
+      "version": "V35",
+      "title": "V35 · 当前广告JPG · 第2/2包 · 9张",
+      "url": "v40-v35-current-02.zip",
+      "bytes": 7163086,
+      "kind": "ads"
+    },
+    {
+      "version": "V37",
+      "title": "V37 · 当前广告JPG · 第1/3包 · 12张",
+      "url": "v40-v37-current-01.zip",
+      "bytes": 8550979,
+      "kind": "ads"
+    },
+    {
+      "version": "V37",
+      "title": "V37 · 当前广告JPG · 第2/3包 · 10张",
+      "url": "v40-v37-current-02.zip",
+      "bytes": 8581612,
+      "kind": "ads"
+    },
+    {
+      "version": "V37",
+      "title": "V37 · 当前广告JPG · 第3/3包 · 2张",
+      "url": "v40-v37-current-03.zip",
+      "bytes": 1796393,
+      "kind": "ads"
+    },
+    {
+      "version": null,
+      "title": "V40 · 85张文案、中文概念与新版对应表",
+      "url": "v40-copy-and-concepts.csv",
+      "bytes": 34408,
+      "kind": "sources"
     }
   ],
   "notes": [
-    "本轮V38覆盖全部275张广告，包括251张历史稿和24张V37；独立AI精修45张保留，图库共320张。",
-    "字体、官方Logo、黑白文字、品牌黄和版面按素材规范整改；全部完成加载、尺寸、文字边界和逐图缩图检查。",
-    "61张历史白模/网格广告重新使用真实几何证据；V37原24张真实四边面展示延用。四边面转换与重拓扑都是处理后展示，不能当作原始未经处理的Tripo输出。",
-    "V13 A13-02和V15 A15-02旧网格插画不可追溯，已更换为rigging68银色战士，详见逐图对照表。",
-    "历史概念图保留AI概念/精修披露。此处的成图复查不是用户审美采用、模型生产验收或投放批准。",
-    "普通广告2400×2400，原生横幅300×250；本轮公开下载为JPG，旧PNG与旧下载包不混入本轮整改稿。"
+    "V30起83张广告按用户新样稿重排：大标题、大模型、大细节窗、大黄色按钮；Teams/API文案及按钮分别对应。",
+    "本轮真实网格局部整改覆盖85张：30个处理后显示模型重新渲染，10个此前可见局部合格模型保留。全部40个实际OBJ为四边面；广告局部复查不代表完整模型生产验收。",
+    "主图为已采用AI精修图片，白模与线框为实际模型渲染；外部处理另作披露。",
+    "其余190张广告沿用V38素材规范稿，45张独立精修保留；总图库仍为320张、30个版本。"
   ]
 };
