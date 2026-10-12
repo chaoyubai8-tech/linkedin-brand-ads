@@ -1,14 +1,21 @@
 {
-  "version": "2026-10-12-messaging-lab-r3-leadgen",
-  "status": "创意候选／未投放。Studio定位与视觉规范文字已核对；品牌语言首页及3.3/3.4部分已读，尚未完整通读，L1合规正文待读取，配图与账户待验收。",
-  "evidenceNote": "严格沿用用户已确认的四组人群和方向。每组3个文案版本只改变主题与开场表达，其他主体说明、CTA和回复组内相同。本轮仅将Teams六版改为原生留资审稿方案，API六版文案不变；不新增人群、场景、预算或上线数量。网站表单仅模拟，不会收集或提交资料。",
+  "version": "2026-10-12-messaging-lab-r6-product-selling-points",
+  "status": "产品卖点修订审核稿／未投放。实际能力已按本轮官方页面核对；完整品牌与合规、配图和广告账户仍待验收。",
+  "evidenceNote": "沿用四组已确认人群和方向、12个版本与既有承接路径。本轮按用户提供的产品卖点全览和阿里云／华为对话案例结构，明确3D生成、网格、材质、导出及团队能力；每组三版仅主题与开场表达不同。不新增人群、预算、行业案例或投放。网站表单仍仅模拟。",
   "sourceMap": {
     "approved-audiences": "用户本轮确认：美国 Teams 游戏与 API 游戏＋3D 资产讲工作流程；欧洲 Teams 游戏与 API 企业内容讲具体业务用途。",
     "product-context": "Tripo Studio Context · 2026-10-08；本轮已读正文。",
     "team-program": "https://www.tripo3d.ai/programs/team-program",
     "team-workspace": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan",
     "api-quick-start": "https://developers.tripo3d.ai/en/docs/quick-start",
-    "api-introduction": "https://developers.tripo3d.ai/en/docs/introduction"
+    "api-introduction": "https://developers.tripo3d.ai/en/docs/introduction",
+    "selling-points-r6": "用户提供产品卖点全览8页与阿里云／华为对话案例截图；仅提炼能力和表达结构，当前事实重新核对官方来源，不公开内部PDF原件。",
+    "studio-image-to-3d": "https://www.tripo3d.ai/features/image-to-3d-model",
+    "studio-text-to-3d": "https://www.tripo3d.ai/features/text-to-3d-model",
+    "api-texture": "https://developers.tripo3d.ai/en/docs/models-texture",
+    "api-retopology": "https://developers.tripo3d.ai/en/docs/mesh-decimate",
+    "api-convert": "https://developers.tripo3d.ai/en/docs/models-convert",
+    "api-rig-check": "https://developers.tripo3d.ai/en/docs/animations-rig-check"
   },
   "variants": [
     {
@@ -39,14 +46,14 @@
       "hookStyle": "提问开场",
       "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
       "whyRelevant": "用同一工作需要提问，让读者先判断这件事是否与自己有关；不改变人群或诉求。",
-      "subject": "Still chasing the same game asset files?",
-      "subjectZh": "还在重复找人要游戏资产文件吗？",
+      "subject": "Still building each game asset from scratch?",
+      "subjectZh": "还在从零制作每一个游戏资产吗？",
       "nodes": [
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, we’re Tripo.\n\nStill asking teammates to resend the same character or prop file?\n\nTripo Studio Team Plan gives your game team a shared workspace to create and organize character and prop models. Authorized teammates can find and reuse those assets, rather than request another file handoff.\n\nSee the workflow, or leave your details to discuss a team trial. Tripo will follow up about your team's needs and trial availability.",
-          "messageZh": "你好，我们是 Tripo。\n\n还在请同事重复发送同一个角色或道具文件吗？\n\nTripo Studio 团队版提供共享工作区，让游戏团队创建并整理角色与道具模型。授权成员可以查找并复用这些资产，减少重复索要和交接文件的操作。\n\n可以先了解工作流程，也可以留下联系方式，沟通团队试用。Tripo 官方团队将跟进团队需求及试用安排。",
+          "message": "Hi, we’re Tripo.\n\nNeed more game assets without building every model from scratch?\n\nTripo Studio Team Plan brings AI 3D creation into a shared workspace:\n• Turn text or images into 3D character and prop models.\n• Use HD Model for up to 2M polygons or Smart Mesh for quad meshes; refine PBR materials.\n• Pool team credits; find and reuse models in a shared library.\n\nLeave your details to discuss a team trial.",
+          "messageZh": "你好，我们是 Tripo。\n\n需要更多游戏资产，但不想每个模型都从零制作吗？\n\nTripo Studio 团队版把 AI 3D 创作带入共享工作区：\n• 用文本或图片生成 3D 角色与道具模型。\n• 用 HD Model 生成最高 200 万多边形的模型，或用 Smart Mesh 生成四边面网格；继续精修 PBR 材质。\n• 使用团队共享积分，在共享资产库中查找并复用模型。\n\n留下联系方式，沟通团队试用。",
           "buttons": [
             {
               "id": "trial",
@@ -73,14 +80,14 @@
         },
         {
           "id": "workflow",
-          "labelZh": "回复 · 创建、集中管理与复用",
-          "message": "Create character and prop models in the team workspace, then organize them in the library. Authorized teammates can find shared models and reuse them for another task.\n\nKeep review and refinement in the tools your team already uses. The shared workspace supports asset handoffs; it does not replace project-specific quality checks.",
-          "messageZh": "在团队工作区创建角色与道具模型，再集中整理到资产库中。授权成员可以找到共享模型，并在后续任务中复用。\n\n审核与完善仍放在团队已有的工具里。共享工作区支持资产交接，但不能替代项目所需的质量检查。",
+          "labelZh": "回复 · 创建、精修与团队复用",
+          "message": "Start from a text brief or reference image. Use HD Model for detailed geometry or Smart Mesh for quad topology, then develop PBR materials with the texture tools. The team shares credits and keeps assets in a searchable library.\n\nLeave your details to discuss this workflow and a team trial.",
+          "messageZh": "从文本需求或参考图片开始。用 HD Model 制作细节丰富的几何模型，或用 Smart Mesh 生成四边面拓扑，再用贴图工具完善 PBR 材质。团队共享积分，并把资产保留在可搜索的资产库中。\n\n留下联系方式，沟通这套工作流程与团队试用。",
           "buttons": [
             {
               "id": "trial",
               "label": "Discuss a team trial",
-              "labelZh": "留资沟通团队试用",
+              "labelZh": "沟通团队试用",
               "action": "leadgen",
               "formId": "teams-trial"
             }
@@ -89,13 +96,13 @@
         {
           "id": "preflight",
           "labelZh": "回复 · 用同一份资产清单评估",
-          "message": "Choose a short character and prop list from your game. Have the teammates who need those assets test how they create, find and reuse shared models.\n\nReview each output against your project's art and technical requirements. Leave your contact details to discuss this workflow and a team trial with Tripo.",
-          "messageZh": "从自己的游戏中选一份简短的角色与道具清单，让需要这些资产的成员测试创建、查找和复用共享模型的过程。\n\n再按项目的美术与技术要求评估每个输出。留下联系方式，与 Tripo 官方团队沟通这项工作流程及团队试用。",
+          "message": "Bring a short character and prop list. In a team trial, evaluate model detail, meshes and materials against your game's requirements, then test how authorized members find and reuse assets. Admins can manage seats, permissions and per-member usage.\n\nLeave your details; Tripo will follow up about your workflow and trial availability.",
+          "messageZh": "准备一份简短的角色与道具清单。团队试用时，按游戏要求评估模型细节、网格与材质，再测试授权成员如何查找和复用资产。管理员可以管理席位、权限及每位成员的用量。\n\n留下联系方式；Tripo 将跟进你的工作流程需求和试用安排。",
           "buttons": [
             {
               "id": "trial",
               "label": "Discuss a team trial",
-              "labelZh": "留资沟通团队试用",
+              "labelZh": "沟通团队试用",
               "action": "leadgen",
               "formId": "teams-trial"
             }
@@ -133,14 +140,14 @@
       "hookStyle": "直接陈述",
       "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
       "whyRelevant": "直接说明同一项工作价值，减少开场铺垫；不增加新的用途、产品承诺或人群条件。",
-      "subject": "Create and manage game assets as a team",
-      "subjectZh": "团队一起创建与管理游戏资产",
+      "subject": "Generate and refine 3D game assets as a team",
+      "subjectZh": "团队一起生成并精修 3D 游戏资产",
       "nodes": [
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, we’re Tripo.\n\nCreate, organize and reuse your game's 3D assets in a shared workspace.\n\nTripo Studio Team Plan gives your game team a shared workspace to create and organize character and prop models. Authorized teammates can find and reuse those assets, rather than request another file handoff.\n\nSee the workflow, or leave your details to discuss a team trial. Tripo will follow up about your team's needs and trial availability.",
-          "messageZh": "你好，我们是 Tripo。\n\n在共享工作区中创建、整理和复用游戏 3D 资产。\n\nTripo Studio 团队版提供共享工作区，让游戏团队创建并整理角色与道具模型。授权成员可以查找并复用这些资产，减少重复索要和交接文件的操作。\n\n可以先了解工作流程，也可以留下联系方式，沟通团队试用。Tripo 官方团队将跟进团队需求及试用安排。",
+          "message": "Hi, we’re Tripo.\n\nGenerate and refine 3D game assets in one team workspace.\n\nTripo Studio Team Plan brings AI 3D creation into a shared workspace:\n• Turn text or images into 3D character and prop models.\n• Use HD Model for up to 2M polygons or Smart Mesh for quad meshes; refine PBR materials.\n• Pool team credits; find and reuse models in a shared library.\n\nLeave your details to discuss a team trial.",
+          "messageZh": "你好，我们是 Tripo。\n\n在同一个团队工作区中生成并精修 3D 游戏资产。\n\nTripo Studio 团队版把 AI 3D 创作带入共享工作区：\n• 用文本或图片生成 3D 角色与道具模型。\n• 用 HD Model 生成最高 200 万多边形的模型，或用 Smart Mesh 生成四边面网格；继续精修 PBR 材质。\n• 使用团队共享积分，在共享资产库中查找并复用模型。\n\n留下联系方式，沟通团队试用。",
           "buttons": [
             {
               "id": "trial",
@@ -167,14 +174,14 @@
         },
         {
           "id": "workflow",
-          "labelZh": "回复 · 创建、集中管理与复用",
-          "message": "Create character and prop models in the team workspace, then organize them in the library. Authorized teammates can find shared models and reuse them for another task.\n\nKeep review and refinement in the tools your team already uses. The shared workspace supports asset handoffs; it does not replace project-specific quality checks.",
-          "messageZh": "在团队工作区创建角色与道具模型，再集中整理到资产库中。授权成员可以找到共享模型，并在后续任务中复用。\n\n审核与完善仍放在团队已有的工具里。共享工作区支持资产交接，但不能替代项目所需的质量检查。",
+          "labelZh": "回复 · 创建、精修与团队复用",
+          "message": "Start from a text brief or reference image. Use HD Model for detailed geometry or Smart Mesh for quad topology, then develop PBR materials with the texture tools. The team shares credits and keeps assets in a searchable library.\n\nLeave your details to discuss this workflow and a team trial.",
+          "messageZh": "从文本需求或参考图片开始。用 HD Model 制作细节丰富的几何模型，或用 Smart Mesh 生成四边面拓扑，再用贴图工具完善 PBR 材质。团队共享积分，并把资产保留在可搜索的资产库中。\n\n留下联系方式，沟通这套工作流程与团队试用。",
           "buttons": [
             {
               "id": "trial",
               "label": "Discuss a team trial",
-              "labelZh": "留资沟通团队试用",
+              "labelZh": "沟通团队试用",
               "action": "leadgen",
               "formId": "teams-trial"
             }
@@ -183,13 +190,13 @@
         {
           "id": "preflight",
           "labelZh": "回复 · 用同一份资产清单评估",
-          "message": "Choose a short character and prop list from your game. Have the teammates who need those assets test how they create, find and reuse shared models.\n\nReview each output against your project's art and technical requirements. Leave your contact details to discuss this workflow and a team trial with Tripo.",
-          "messageZh": "从自己的游戏中选一份简短的角色与道具清单，让需要这些资产的成员测试创建、查找和复用共享模型的过程。\n\n再按项目的美术与技术要求评估每个输出。留下联系方式，与 Tripo 官方团队沟通这项工作流程及团队试用。",
+          "message": "Bring a short character and prop list. In a team trial, evaluate model detail, meshes and materials against your game's requirements, then test how authorized members find and reuse assets. Admins can manage seats, permissions and per-member usage.\n\nLeave your details; Tripo will follow up about your workflow and trial availability.",
+          "messageZh": "准备一份简短的角色与道具清单。团队试用时，按游戏要求评估模型细节、网格与材质，再测试授权成员如何查找和复用资产。管理员可以管理席位、权限及每位成员的用量。\n\n留下联系方式；Tripo 将跟进你的工作流程需求和试用安排。",
           "buttons": [
             {
               "id": "trial",
               "label": "Discuss a team trial",
-              "labelZh": "留资沟通团队试用",
+              "labelZh": "沟通团队试用",
               "action": "leadgen",
               "formId": "teams-trial"
             }
@@ -227,14 +234,14 @@
       "hookStyle": "用途结果开场",
       "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
       "whyRelevant": "先说同一任务希望达到的状态，再解释产品能力；这不是新增商业收益或效果保证。",
-      "subject": "Game assets your team can find and reuse",
-      "subjectZh": "让团队能找到并复用游戏资产",
+      "subject": "From asset ideas to a shared 3D library",
+      "subjectZh": "从资产想法到共享 3D 资产库",
       "nodes": [
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, we’re Tripo.\n\nKeep character and prop models within your team's reach.\n\nTripo Studio Team Plan gives your game team a shared workspace to create and organize character and prop models. Authorized teammates can find and reuse those assets, rather than request another file handoff.\n\nSee the workflow, or leave your details to discuss a team trial. Tripo will follow up about your team's needs and trial availability.",
-          "messageZh": "你好，我们是 Tripo。\n\n让角色与道具模型可供团队查找。\n\nTripo Studio 团队版提供共享工作区，让游戏团队创建并整理角色与道具模型。授权成员可以查找并复用这些资产，减少重复索要和交接文件的操作。\n\n可以先了解工作流程，也可以留下联系方式，沟通团队试用。Tripo 官方团队将跟进团队需求及试用安排。",
+          "message": "Hi, we’re Tripo.\n\nGive your team 3D models to refine, share and reuse.\n\nTripo Studio Team Plan brings AI 3D creation into a shared workspace:\n• Turn text or images into 3D character and prop models.\n• Use HD Model for up to 2M polygons or Smart Mesh for quad meshes; refine PBR materials.\n• Pool team credits; find and reuse models in a shared library.\n\nLeave your details to discuss a team trial.",
+          "messageZh": "你好，我们是 Tripo。\n\n让团队拥有可以继续精修、共享和复用的 3D 模型。\n\nTripo Studio 团队版把 AI 3D 创作带入共享工作区：\n• 用文本或图片生成 3D 角色与道具模型。\n• 用 HD Model 生成最高 200 万多边形的模型，或用 Smart Mesh 生成四边面网格；继续精修 PBR 材质。\n• 使用团队共享积分，在共享资产库中查找并复用模型。\n\n留下联系方式，沟通团队试用。",
           "buttons": [
             {
               "id": "trial",
@@ -261,14 +268,14 @@
         },
         {
           "id": "workflow",
-          "labelZh": "回复 · 创建、集中管理与复用",
-          "message": "Create character and prop models in the team workspace, then organize them in the library. Authorized teammates can find shared models and reuse them for another task.\n\nKeep review and refinement in the tools your team already uses. The shared workspace supports asset handoffs; it does not replace project-specific quality checks.",
-          "messageZh": "在团队工作区创建角色与道具模型，再集中整理到资产库中。授权成员可以找到共享模型，并在后续任务中复用。\n\n审核与完善仍放在团队已有的工具里。共享工作区支持资产交接，但不能替代项目所需的质量检查。",
+          "labelZh": "回复 · 创建、精修与团队复用",
+          "message": "Start from a text brief or reference image. Use HD Model for detailed geometry or Smart Mesh for quad topology, then develop PBR materials with the texture tools. The team shares credits and keeps assets in a searchable library.\n\nLeave your details to discuss this workflow and a team trial.",
+          "messageZh": "从文本需求或参考图片开始。用 HD Model 制作细节丰富的几何模型，或用 Smart Mesh 生成四边面拓扑，再用贴图工具完善 PBR 材质。团队共享积分，并把资产保留在可搜索的资产库中。\n\n留下联系方式，沟通这套工作流程与团队试用。",
           "buttons": [
             {
               "id": "trial",
               "label": "Discuss a team trial",
-              "labelZh": "留资沟通团队试用",
+              "labelZh": "沟通团队试用",
               "action": "leadgen",
               "formId": "teams-trial"
             }
@@ -277,13 +284,13 @@
         {
           "id": "preflight",
           "labelZh": "回复 · 用同一份资产清单评估",
-          "message": "Choose a short character and prop list from your game. Have the teammates who need those assets test how they create, find and reuse shared models.\n\nReview each output against your project's art and technical requirements. Leave your contact details to discuss this workflow and a team trial with Tripo.",
-          "messageZh": "从自己的游戏中选一份简短的角色与道具清单，让需要这些资产的成员测试创建、查找和复用共享模型的过程。\n\n再按项目的美术与技术要求评估每个输出。留下联系方式，与 Tripo 官方团队沟通这项工作流程及团队试用。",
+          "message": "Bring a short character and prop list. In a team trial, evaluate model detail, meshes and materials against your game's requirements, then test how authorized members find and reuse assets. Admins can manage seats, permissions and per-member usage.\n\nLeave your details; Tripo will follow up about your workflow and trial availability.",
+          "messageZh": "准备一份简短的角色与道具清单。团队试用时，按游戏要求评估模型细节、网格与材质，再测试授权成员如何查找和复用资产。管理员可以管理席位、权限及每位成员的用量。\n\n留下联系方式；Tripo 将跟进你的工作流程需求和试用安排。",
           "buttons": [
             {
               "id": "trial",
               "label": "Discuss a team trial",
-              "labelZh": "留资沟通团队试用",
+              "labelZh": "沟通团队试用",
               "action": "leadgen",
               "formId": "teams-trial"
             }
@@ -321,14 +328,14 @@
       "hookStyle": "提问开场",
       "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
       "whyRelevant": "用同一工作需要提问，让读者先判断这件事是否与自己有关；不改变人群或诉求。",
-      "subject": "Which 3D assets does your game project need?",
-      "subjectZh": "游戏项目需要哪些 3D 资产？",
+      "subject": "How will your ideas become 3D game assets?",
+      "subjectZh": "怎样把想法变成 3D 游戏资产？",
       "nodes": [
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, we’re Tripo.\n\nWhich character and prop assets does your game project need?\n\nTripo Studio Team Plan lets your team create and organize character and prop models in a shared workspace. Review and refine the assets in your existing tools, then use the models that meet the project's requirements.\n\nSee the workflow, or leave your details to discuss a team trial. Tripo will follow up about your team's needs and trial availability.",
-          "messageZh": "你好，我们是 Tripo。\n\n游戏项目需要哪些角色与道具资产？\n\nTripo Studio 团队版让团队在共享工作区中创建并整理角色与道具模型。先在已有工具中检查和完善资产，再把符合项目要求的模型用于项目。\n\n可以先了解工作流程，也可以留下联系方式，沟通团队试用。Tripo 官方团队将跟进团队需求及试用安排。",
+          "message": "Hi, we’re Tripo.\n\nHow will your character and prop ideas become assets for the game?\n\nTripo Studio Team Plan is an AI 3D workspace for game asset production:\n• Generate character and prop models from text or images.\n• Choose Smart Mesh for quad topology; add PBR materials with 8K texture options.\n• Rig suitable characters and export to Blender, Unity or Unreal.\n\nLeave your details to discuss a team trial for your project.",
+          "messageZh": "你好，我们是 Tripo。\n\n怎样把角色与道具想法，变成游戏项目需要的资产？\n\nTripo Studio 团队版是游戏资产制作的 AI 3D 工作区：\n• 用文本或图片生成角色与道具模型。\n• 选择 Smart Mesh 生成四边面拓扑，添加 PBR 材质，并可选用 8K 贴图。\n• 为适用的角色绑定骨骼，再导出到 Blender、Unity 或 Unreal 中继续使用。\n\n留下联系方式，沟通项目的团队试用。",
           "buttons": [
             {
               "id": "trial",
@@ -355,14 +362,14 @@
         },
         {
           "id": "workflow",
-          "labelZh": "回复 · 资产用于具体游戏项目",
-          "message": "Start with the characters and props your game project needs. Create starting models and organize them in the team library so authorized teammates can find them.\n\nYour team checks and refines the assets, then tests their use in the project with its existing tools. This is an example workflow, not a claim about a completed customer game.",
-          "messageZh": "从游戏项目需要的角色与道具出发，创建初始模型并整理到团队资产库，方便授权成员查找。\n\n由团队检查、完善资产，再通过已有工具测试它们在项目中的用途。这是流程示例，不是在宣称已有客户用它完成了一款游戏。",
+          "labelZh": "回复 · 模型用于具体游戏项目",
+          "message": "Build a character or prop from text or a reference image. Choose HD Model for detailed geometry or Smart Mesh for quad topology, then add PBR materials with 8K texture options. Use rigging for suitable characters and DCC bridges to continue in Blender, Unity or Unreal.\n\nLeave your details to discuss this workflow for your game.",
+          "messageZh": "根据文本或参考图片生成角色或道具。用 HD Model 制作细节丰富的几何模型，或用 Smart Mesh 生成四边面拓扑，再添加 PBR 材质，按需选用 8K 贴图。为适用的角色绑定骨骼，通过 DCC 插件接入 Blender、Unity 或 Unreal，继续项目制作。\n\n留下联系方式，沟通这套流程如何用于你的游戏。",
           "buttons": [
             {
               "id": "trial",
               "label": "Discuss a team trial",
-              "labelZh": "留资沟通团队试用",
+              "labelZh": "沟通团队试用",
               "action": "leadgen",
               "formId": "teams-trial"
             }
@@ -371,13 +378,13 @@
         {
           "id": "preflight",
           "labelZh": "回复 · 按项目用途评估",
-          "message": "Choose a small part of your game project's asset list. Define how the characters or props will be used, along with the visual and technical requirements.\n\nEvaluate model fit and how the team accesses shared assets. Leave your contact details to discuss the project and trial options with Tripo. Generation alone does not complete the game.",
-          "messageZh": "从游戏项目的资产清单中选取一小部分，明确角色或道具的用途，以及美术和技术要求。\n\n评估模型是否适用，以及团队访问共享资产的过程。留下联系方式，与 Tripo 官方团队沟通项目和试用安排。生成资产本身不等于完成游戏。",
+          "message": "Choose a small character and prop set from your project. Define how the assets will be used, then test geometry, materials and any character rig in your own scene. Use the shared library to keep the team's assets together.\n\nLeave your details to discuss your game project's needs and a team trial with Tripo.",
+          "messageZh": "从项目中选一小组角色与道具。明确资产用途，再在自己的场景中测试几何结构、材质，以及需要使用的角色骨骼绑定。用共享资产库把团队的资产集中放在一起。\n\n留下联系方式，与 Tripo 沟通游戏项目需求和团队试用。",
           "buttons": [
             {
               "id": "trial",
               "label": "Discuss a team trial",
-              "labelZh": "留资沟通团队试用",
+              "labelZh": "沟通团队试用",
               "action": "leadgen",
               "formId": "teams-trial"
             }
@@ -415,14 +422,14 @@
       "hookStyle": "直接陈述",
       "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
       "whyRelevant": "直接说明同一项工作价值，减少开场铺垫；不增加新的用途、产品承诺或人群条件。",
-      "subject": "Use character and prop models in your game project",
-      "subjectZh": "让角色与道具模型用于游戏项目",
+      "subject": "Build characters and props for your game project",
+      "subjectZh": "为游戏项目制作角色与道具",
       "nodes": [
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, we’re Tripo.\n\nPut character and prop models to work in your game project.\n\nTripo Studio Team Plan lets your team create and organize character and prop models in a shared workspace. Review and refine the assets in your existing tools, then use the models that meet the project's requirements.\n\nSee the workflow, or leave your details to discuss a team trial. Tripo will follow up about your team's needs and trial availability.",
-          "messageZh": "你好，我们是 Tripo。\n\n把角色与道具模型用于具体的游戏项目。\n\nTripo Studio 团队版让团队在共享工作区中创建并整理角色与道具模型。先在已有工具中检查和完善资产，再把符合项目要求的模型用于项目。\n\n可以先了解工作流程，也可以留下联系方式，沟通团队试用。Tripo 官方团队将跟进团队需求及试用安排。",
+          "message": "Hi, we’re Tripo.\n\nTurn character and prop concepts into 3D assets for your project.\n\nTripo Studio Team Plan is an AI 3D workspace for game asset production:\n• Generate character and prop models from text or images.\n• Choose Smart Mesh for quad topology; add PBR materials with 8K texture options.\n• Rig suitable characters and export to Blender, Unity or Unreal.\n\nLeave your details to discuss a team trial for your project.",
+          "messageZh": "你好，我们是 Tripo。\n\n把角色与道具概念转成项目需要的 3D 资产。\n\nTripo Studio 团队版是游戏资产制作的 AI 3D 工作区：\n• 用文本或图片生成角色与道具模型。\n• 选择 Smart Mesh 生成四边面拓扑，添加 PBR 材质，并可选用 8K 贴图。\n• 为适用的角色绑定骨骼，再导出到 Blender、Unity 或 Unreal 中继续使用。\n\n留下联系方式，沟通项目的团队试用。",
           "buttons": [
             {
               "id": "trial",
@@ -449,14 +456,14 @@
         },
         {
           "id": "workflow",
-          "labelZh": "回复 · 资产用于具体游戏项目",
-          "message": "Start with the characters and props your game project needs. Create starting models and organize them in the team library so authorized teammates can find them.\n\nYour team checks and refines the assets, then tests their use in the project with its existing tools. This is an example workflow, not a claim about a completed customer game.",
-          "messageZh": "从游戏项目需要的角色与道具出发，创建初始模型并整理到团队资产库，方便授权成员查找。\n\n由团队检查、完善资产，再通过已有工具测试它们在项目中的用途。这是流程示例，不是在宣称已有客户用它完成了一款游戏。",
+          "labelZh": "回复 · 模型用于具体游戏项目",
+          "message": "Build a character or prop from text or a reference image. Choose HD Model for detailed geometry or Smart Mesh for quad topology, then add PBR materials with 8K texture options. Use rigging for suitable characters and DCC bridges to continue in Blender, Unity or Unreal.\n\nLeave your details to discuss this workflow for your game.",
+          "messageZh": "根据文本或参考图片生成角色或道具。用 HD Model 制作细节丰富的几何模型，或用 Smart Mesh 生成四边面拓扑，再添加 PBR 材质，按需选用 8K 贴图。为适用的角色绑定骨骼，通过 DCC 插件接入 Blender、Unity 或 Unreal，继续项目制作。\n\n留下联系方式，沟通这套流程如何用于你的游戏。",
           "buttons": [
             {
               "id": "trial",
               "label": "Discuss a team trial",
-              "labelZh": "留资沟通团队试用",
+              "labelZh": "沟通团队试用",
               "action": "leadgen",
               "formId": "teams-trial"
             }
@@ -465,13 +472,13 @@
         {
           "id": "preflight",
           "labelZh": "回复 · 按项目用途评估",
-          "message": "Choose a small part of your game project's asset list. Define how the characters or props will be used, along with the visual and technical requirements.\n\nEvaluate model fit and how the team accesses shared assets. Leave your contact details to discuss the project and trial options with Tripo. Generation alone does not complete the game.",
-          "messageZh": "从游戏项目的资产清单中选取一小部分，明确角色或道具的用途，以及美术和技术要求。\n\n评估模型是否适用，以及团队访问共享资产的过程。留下联系方式，与 Tripo 官方团队沟通项目和试用安排。生成资产本身不等于完成游戏。",
+          "message": "Choose a small character and prop set from your project. Define how the assets will be used, then test geometry, materials and any character rig in your own scene. Use the shared library to keep the team's assets together.\n\nLeave your details to discuss your game project's needs and a team trial with Tripo.",
+          "messageZh": "从项目中选一小组角色与道具。明确资产用途，再在自己的场景中测试几何结构、材质，以及需要使用的角色骨骼绑定。用共享资产库把团队的资产集中放在一起。\n\n留下联系方式，与 Tripo 沟通游戏项目需求和团队试用。",
           "buttons": [
             {
               "id": "trial",
               "label": "Discuss a team trial",
-              "labelZh": "留资沟通团队试用",
+              "labelZh": "沟通团队试用",
               "action": "leadgen",
               "formId": "teams-trial"
             }
@@ -509,14 +516,14 @@
       "hookStyle": "用途结果开场",
       "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
       "whyRelevant": "先说同一任务希望达到的状态，再解释产品能力；这不是新增商业收益或效果保证。",
-      "subject": "From models to assets for your game project",
-      "subjectZh": "从模型走向游戏项目需要的资产",
+      "subject": "From game concepts to meshes, materials and rigs",
+      "subjectZh": "从游戏概念到网格、材质与骨骼绑定",
       "nodes": [
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, we’re Tripo.\n\nMove from character and prop ideas to models your team can develop.\n\nTripo Studio Team Plan lets your team create and organize character and prop models in a shared workspace. Review and refine the assets in your existing tools, then use the models that meet the project's requirements.\n\nSee the workflow, or leave your details to discuss a team trial. Tripo will follow up about your team's needs and trial availability.",
-          "messageZh": "你好，我们是 Tripo。\n\n把角色与道具想法转成模型，供团队继续完善。\n\nTripo Studio 团队版让团队在共享工作区中创建并整理角色与道具模型。先在已有工具中检查和完善资产，再把符合项目要求的模型用于项目。\n\n可以先了解工作流程，也可以留下联系方式，沟通团队试用。Tripo 官方团队将跟进团队需求及试用安排。",
+          "message": "Hi, we’re Tripo.\n\nBring your game ideas into 3D models your team can develop.\n\nTripo Studio Team Plan is an AI 3D workspace for game asset production:\n• Generate character and prop models from text or images.\n• Choose Smart Mesh for quad topology; add PBR materials with 8K texture options.\n• Rig suitable characters and export to Blender, Unity or Unreal.\n\nLeave your details to discuss a team trial for your project.",
+          "messageZh": "你好，我们是 Tripo。\n\n把游戏想法转成 3D 模型，让团队继续完善。\n\nTripo Studio 团队版是游戏资产制作的 AI 3D 工作区：\n• 用文本或图片生成角色与道具模型。\n• 选择 Smart Mesh 生成四边面拓扑，添加 PBR 材质，并可选用 8K 贴图。\n• 为适用的角色绑定骨骼，再导出到 Blender、Unity 或 Unreal 中继续使用。\n\n留下联系方式，沟通项目的团队试用。",
           "buttons": [
             {
               "id": "trial",
@@ -543,14 +550,14 @@
         },
         {
           "id": "workflow",
-          "labelZh": "回复 · 资产用于具体游戏项目",
-          "message": "Start with the characters and props your game project needs. Create starting models and organize them in the team library so authorized teammates can find them.\n\nYour team checks and refines the assets, then tests their use in the project with its existing tools. This is an example workflow, not a claim about a completed customer game.",
-          "messageZh": "从游戏项目需要的角色与道具出发，创建初始模型并整理到团队资产库，方便授权成员查找。\n\n由团队检查、完善资产，再通过已有工具测试它们在项目中的用途。这是流程示例，不是在宣称已有客户用它完成了一款游戏。",
+          "labelZh": "回复 · 模型用于具体游戏项目",
+          "message": "Build a character or prop from text or a reference image. Choose HD Model for detailed geometry or Smart Mesh for quad topology, then add PBR materials with 8K texture options. Use rigging for suitable characters and DCC bridges to continue in Blender, Unity or Unreal.\n\nLeave your details to discuss this workflow for your game.",
+          "messageZh": "根据文本或参考图片生成角色或道具。用 HD Model 制作细节丰富的几何模型，或用 Smart Mesh 生成四边面拓扑，再添加 PBR 材质，按需选用 8K 贴图。为适用的角色绑定骨骼，通过 DCC 插件接入 Blender、Unity 或 Unreal，继续项目制作。\n\n留下联系方式，沟通这套流程如何用于你的游戏。",
           "buttons": [
             {
               "id": "trial",
               "label": "Discuss a team trial",
-              "labelZh": "留资沟通团队试用",
+              "labelZh": "沟通团队试用",
               "action": "leadgen",
               "formId": "teams-trial"
             }
@@ -559,13 +566,13 @@
         {
           "id": "preflight",
           "labelZh": "回复 · 按项目用途评估",
-          "message": "Choose a small part of your game project's asset list. Define how the characters or props will be used, along with the visual and technical requirements.\n\nEvaluate model fit and how the team accesses shared assets. Leave your contact details to discuss the project and trial options with Tripo. Generation alone does not complete the game.",
-          "messageZh": "从游戏项目的资产清单中选取一小部分，明确角色或道具的用途，以及美术和技术要求。\n\n评估模型是否适用，以及团队访问共享资产的过程。留下联系方式，与 Tripo 官方团队沟通项目和试用安排。生成资产本身不等于完成游戏。",
+          "message": "Choose a small character and prop set from your project. Define how the assets will be used, then test geometry, materials and any character rig in your own scene. Use the shared library to keep the team's assets together.\n\nLeave your details to discuss your game project's needs and a team trial with Tripo.",
+          "messageZh": "从项目中选一小组角色与道具。明确资产用途，再在自己的场景中测试几何结构、材质，以及需要使用的角色骨骼绑定。用共享资产库把团队的资产集中放在一起。\n\n留下联系方式，与 Tripo 沟通游戏项目需求和团队试用。",
           "buttons": [
             {
               "id": "trial",
               "label": "Discuss a team trial",
-              "labelZh": "留资沟通团队试用",
+              "labelZh": "沟通团队试用",
               "action": "leadgen",
               "formId": "teams-trial"
             }
@@ -598,14 +605,14 @@
       "hookStyle": "提问开场",
       "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
       "whyRelevant": "用同一工作需要提问，让读者先判断这件事是否与自己有关；不改变人群或诉求。",
-      "subject": "Can 3D generation fit your asset workflow?",
-      "subjectZh": "3D 生成能否接入你的资产流程？",
+      "subject": "Generate and prepare game assets through an API?",
+      "subjectZh": "用 API 生成并准备游戏资产？",
       "nodes": [
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, I’m with Tripo.\n\nStill moving between 3D generation and your game or asset tools?\n\nTripo API lets your tool submit a generation task, check its status and retrieve the model after success. Your team builds the integration, then reviews and develops the result in its existing game or asset tools.\n\nSee the workflow, or open the Quick Start.",
-          "messageZh": "你好，我来自 Tripo。\n\n还在 3D 生成与游戏或资产工具之间来回切换吗？\n\nTripo API 让自有工具提交生成任务、查询状态，并在成功后取回模型。由团队实现工具接入，再在已有的游戏或资产工具中检查并完善结果。\n\n可以先了解工作流程，也可以打开 Quick Start。",
+          "message": "Hi, we’re Tripo.\n\nStill preparing game characters and props across separate manual steps?\n\nTripo API brings AI 3D generation and asset preparation into your own tools:\n• Text or images to 3D characters and props.\n• Polycount control and supported quad topology for mesh prep.\n• PBR textures for material detail; rig supported characters for animation.\n\nRetrieve GLB or convert to FBX for your tools. Explore the workflow or open Quick Start.",
+          "messageZh": "你好，我们是 Tripo。\n\n游戏角色与道具的资产准备，还需要分步手动完成吗？\n\n用 Tripo API，把 AI 3D 生成与资产准备接入自己的工具：\n• 根据文字或图片生成 3D 角色与道具。\n• 控制面数，选用受支持的四边面拓扑，准备模型网格。\n• 用 PBR 纹理表现材质细节，为受支持的角色绑定骨骼以用于动画。\n\n取回 GLB，或转换为 FBX 后接入自己的工具。可以先了解工作流程，也可以打开 Quick Start。",
           "buttons": [
             {
               "id": "docs",
@@ -616,15 +623,15 @@
             },
             {
               "id": "workflow",
-              "label": "See the API workflow",
-              "labelZh": "了解 API 工作流程",
+              "label": "Explore asset workflow",
+              "labelZh": "了解资产制作流程",
               "action": "next",
               "target": "workflow"
             },
             {
               "id": "preflight",
-              "label": "Plan a first request",
-              "labelZh": "规划首次请求",
+              "label": "Choose API steps",
+              "labelZh": "选择要接入的 API 步骤",
               "action": "next",
               "target": "preflight"
             }
@@ -632,9 +639,9 @@
         },
         {
           "id": "workflow",
-          "labelZh": "回复 · 提交、跟踪和取回模型",
-          "message": "Your tool submits a generation request and receives a task ID. Track the task's status and retrieve the model after success.\n\nConnect the result to your existing asset review and refinement steps. Your team builds the integration and checks the model for its intended game or asset workflow; a successful task is not production approval.",
-          "messageZh": "你的工具提交生成请求并收到任务 ID，跟踪任务状态，在成功后取回模型。\n\n再将结果衔接到已有的资产审核和完善步骤。接入由团队实现，模型也需按实际游戏或资产流程检查；任务成功不等于通过生产验收。",
+          "labelZh": "回复 · 如何衔接生成与资产准备",
+          "message": "Generate a game character or prop from text or images. Use mesh simplification or supported quad settings to prepare its geometry, then add PBR textures. For a character, check rigging support before requesting a rig.\n\nRetrieve the GLB output and convert to FBX if your tools need it. Your integration handles task submission, status and successful retrieval, while artists refine the assets.\n\nOpen Quick Start for the API steps.",
+          "messageZh": "根据文字或图片生成游戏角色或道具。通过网格简化或受支持的四边面设置准备几何结构，再添加 PBR 纹理。角色需要先检查绑定支持情况，再请求骨骼绑定。\n\n取回 GLB 输出，并按工具需要转换为 FBX。自有接入负责提交任务、查询状态和成功取回；美术成员继续完善资产。\n\n打开 Quick Start，了解 API 步骤。",
           "buttons": [
             {
               "id": "docs",
@@ -647,9 +654,9 @@
         },
         {
           "id": "preflight",
-          "labelZh": "回复 · 验证一条完整请求链路",
-          "message": "Choose one asset request and define where its result should enter your tool or asset workflow. Test submission, status handling and retrieval, including what happens if a task fails.\n\nThen inspect the model against your project's requirements before using it. The Quick Start provides request and response examples for this first integration check.",
-          "messageZh": "选择一项资产请求，明确结果应进入工具或资产流程的哪个环节。测试提交、状态处理和结果取回，包括任务失败时的处理。\n\n随后按项目要求检查模型，再用于后续工作。Quick Start 提供请求与响应示例，便于验证首次接入。",
+          "labelZh": "回复 · 选择接入步骤与资产用途",
+          "message": "Choose the asset-prep stages your tool should run:\n• Text/image generation for characters and props.\n• Mesh simplification or supported quad topology.\n• PBR texturing and compatible-character rigging.\n\nRetrieve GLB, or convert to FBX, then evaluate the assets in your project tools. Rigging support depends on the character; your team chooses the route and builds the integration.\n\nOpen Quick Start to begin.",
+          "messageZh": "选择让自有工具执行的资产准备步骤：\n• 根据文字或图片生成角色与道具。\n• 网格简化或受支持的四边面拓扑。\n• PBR 纹理和兼容角色的骨骼绑定。\n\n取回 GLB，或转换为 FBX，再在项目工具中评估资产。绑定支持取决于角色；调用路径和工具接入由团队决定并实现。\n\n打开 Quick Start，开始了解。",
           "buttons": [
             {
               "id": "docs",
@@ -686,14 +693,14 @@
       "hookStyle": "直接陈述",
       "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
       "whyRelevant": "直接说明同一项工作价值，减少开场铺垫；不增加新的用途、产品承诺或人群条件。",
-      "subject": "Submit tasks and retrieve models with Tripo API",
-      "subjectZh": "用 Tripo API 提交任务并取回模型",
+      "subject": "3D generation and asset prep inside your tools",
+      "subjectZh": "把 3D 生成与资产准备接入自有工具",
       "nodes": [
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, I’m with Tripo.\n\nBring 3D generation into your game or asset workflow.\n\nTripo API lets your tool submit a generation task, check its status and retrieve the model after success. Your team builds the integration, then reviews and develops the result in its existing game or asset tools.\n\nSee the workflow, or open the Quick Start.",
-          "messageZh": "你好，我来自 Tripo。\n\n把 3D 生成接入游戏或资产工作流程。\n\nTripo API 让自有工具提交生成任务、查询状态，并在成功后取回模型。由团队实现工具接入，再在已有的游戏或资产工具中检查并完善结果。\n\n可以先了解工作流程，也可以打开 Quick Start。",
+          "message": "Hi, we’re Tripo.\n\nGenerate and prepare game characters and props inside your own tools.\n\nTripo API brings AI 3D generation and asset preparation into your own tools:\n• Text or images to 3D characters and props.\n• Polycount control and supported quad topology for mesh prep.\n• PBR textures for material detail; rig supported characters for animation.\n\nRetrieve GLB or convert to FBX for your tools. Explore the workflow or open Quick Start.",
+          "messageZh": "你好，我们是 Tripo。\n\n在自己的工具中生成并准备游戏角色与道具。\n\n用 Tripo API，把 AI 3D 生成与资产准备接入自己的工具：\n• 根据文字或图片生成 3D 角色与道具。\n• 控制面数，选用受支持的四边面拓扑，准备模型网格。\n• 用 PBR 纹理表现材质细节，为受支持的角色绑定骨骼以用于动画。\n\n取回 GLB，或转换为 FBX 后接入自己的工具。可以先了解工作流程，也可以打开 Quick Start。",
           "buttons": [
             {
               "id": "docs",
@@ -704,15 +711,15 @@
             },
             {
               "id": "workflow",
-              "label": "See the API workflow",
-              "labelZh": "了解 API 工作流程",
+              "label": "Explore asset workflow",
+              "labelZh": "了解资产制作流程",
               "action": "next",
               "target": "workflow"
             },
             {
               "id": "preflight",
-              "label": "Plan a first request",
-              "labelZh": "规划首次请求",
+              "label": "Choose API steps",
+              "labelZh": "选择要接入的 API 步骤",
               "action": "next",
               "target": "preflight"
             }
@@ -720,9 +727,9 @@
         },
         {
           "id": "workflow",
-          "labelZh": "回复 · 提交、跟踪和取回模型",
-          "message": "Your tool submits a generation request and receives a task ID. Track the task's status and retrieve the model after success.\n\nConnect the result to your existing asset review and refinement steps. Your team builds the integration and checks the model for its intended game or asset workflow; a successful task is not production approval.",
-          "messageZh": "你的工具提交生成请求并收到任务 ID，跟踪任务状态，在成功后取回模型。\n\n再将结果衔接到已有的资产审核和完善步骤。接入由团队实现，模型也需按实际游戏或资产流程检查；任务成功不等于通过生产验收。",
+          "labelZh": "回复 · 如何衔接生成与资产准备",
+          "message": "Generate a game character or prop from text or images. Use mesh simplification or supported quad settings to prepare its geometry, then add PBR textures. For a character, check rigging support before requesting a rig.\n\nRetrieve the GLB output and convert to FBX if your tools need it. Your integration handles task submission, status and successful retrieval, while artists refine the assets.\n\nOpen Quick Start for the API steps.",
+          "messageZh": "根据文字或图片生成游戏角色或道具。通过网格简化或受支持的四边面设置准备几何结构，再添加 PBR 纹理。角色需要先检查绑定支持情况，再请求骨骼绑定。\n\n取回 GLB 输出，并按工具需要转换为 FBX。自有接入负责提交任务、查询状态和成功取回；美术成员继续完善资产。\n\n打开 Quick Start，了解 API 步骤。",
           "buttons": [
             {
               "id": "docs",
@@ -735,9 +742,9 @@
         },
         {
           "id": "preflight",
-          "labelZh": "回复 · 验证一条完整请求链路",
-          "message": "Choose one asset request and define where its result should enter your tool or asset workflow. Test submission, status handling and retrieval, including what happens if a task fails.\n\nThen inspect the model against your project's requirements before using it. The Quick Start provides request and response examples for this first integration check.",
-          "messageZh": "选择一项资产请求，明确结果应进入工具或资产流程的哪个环节。测试提交、状态处理和结果取回，包括任务失败时的处理。\n\n随后按项目要求检查模型，再用于后续工作。Quick Start 提供请求与响应示例，便于验证首次接入。",
+          "labelZh": "回复 · 选择接入步骤与资产用途",
+          "message": "Choose the asset-prep stages your tool should run:\n• Text/image generation for characters and props.\n• Mesh simplification or supported quad topology.\n• PBR texturing and compatible-character rigging.\n\nRetrieve GLB, or convert to FBX, then evaluate the assets in your project tools. Rigging support depends on the character; your team chooses the route and builds the integration.\n\nOpen Quick Start to begin.",
+          "messageZh": "选择让自有工具执行的资产准备步骤：\n• 根据文字或图片生成角色与道具。\n• 网格简化或受支持的四边面拓扑。\n• PBR 纹理和兼容角色的骨骼绑定。\n\n取回 GLB，或转换为 FBX，再在项目工具中评估资产。绑定支持取决于角色；调用路径和工具接入由团队决定并实现。\n\n打开 Quick Start，开始了解。",
           "buttons": [
             {
               "id": "docs",
@@ -774,14 +781,14 @@
       "hookStyle": "用途结果开场",
       "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
       "whyRelevant": "先说同一任务希望达到的状态，再解释产品能力；这不是新增商业收益或效果保证。",
-      "subject": "Generated models for your existing asset tools",
-      "subjectZh": "让生成模型衔接已有的资产工具",
+      "subject": "Meshes, textures and rigs for your asset workflow",
+      "subjectZh": "让网格、纹理与绑定结果进入资产流程",
       "nodes": [
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, I’m with Tripo.\n\nKeep model generation connected to the asset tools your team already uses.\n\nTripo API lets your tool submit a generation task, check its status and retrieve the model after success. Your team builds the integration, then reviews and develops the result in its existing game or asset tools.\n\nSee the workflow, or open the Quick Start.",
-          "messageZh": "你好，我来自 Tripo。\n\n让模型生成衔接到团队已经使用的资产工具。\n\nTripo API 让自有工具提交生成任务、查询状态，并在成功后取回模型。由团队实现工具接入，再在已有的游戏或资产工具中检查并完善结果。\n\n可以先了解工作流程，也可以打开 Quick Start。",
+          "message": "Hi, we’re Tripo.\n\nBring generated meshes, textures and rigs into your asset workflow.\n\nTripo API brings AI 3D generation and asset preparation into your own tools:\n• Text or images to 3D characters and props.\n• Polycount control and supported quad topology for mesh prep.\n• PBR textures for material detail; rig supported characters for animation.\n\nRetrieve GLB or convert to FBX for your tools. Explore the workflow or open Quick Start.",
+          "messageZh": "你好，我们是 Tripo。\n\n把生成的网格、纹理和骨骼绑定结果衔接到自己的资产流程。\n\n用 Tripo API，把 AI 3D 生成与资产准备接入自己的工具：\n• 根据文字或图片生成 3D 角色与道具。\n• 控制面数，选用受支持的四边面拓扑，准备模型网格。\n• 用 PBR 纹理表现材质细节，为受支持的角色绑定骨骼以用于动画。\n\n取回 GLB，或转换为 FBX 后接入自己的工具。可以先了解工作流程，也可以打开 Quick Start。",
           "buttons": [
             {
               "id": "docs",
@@ -792,15 +799,15 @@
             },
             {
               "id": "workflow",
-              "label": "See the API workflow",
-              "labelZh": "了解 API 工作流程",
+              "label": "Explore asset workflow",
+              "labelZh": "了解资产制作流程",
               "action": "next",
               "target": "workflow"
             },
             {
               "id": "preflight",
-              "label": "Plan a first request",
-              "labelZh": "规划首次请求",
+              "label": "Choose API steps",
+              "labelZh": "选择要接入的 API 步骤",
               "action": "next",
               "target": "preflight"
             }
@@ -808,9 +815,9 @@
         },
         {
           "id": "workflow",
-          "labelZh": "回复 · 提交、跟踪和取回模型",
-          "message": "Your tool submits a generation request and receives a task ID. Track the task's status and retrieve the model after success.\n\nConnect the result to your existing asset review and refinement steps. Your team builds the integration and checks the model for its intended game or asset workflow; a successful task is not production approval.",
-          "messageZh": "你的工具提交生成请求并收到任务 ID，跟踪任务状态，在成功后取回模型。\n\n再将结果衔接到已有的资产审核和完善步骤。接入由团队实现，模型也需按实际游戏或资产流程检查；任务成功不等于通过生产验收。",
+          "labelZh": "回复 · 如何衔接生成与资产准备",
+          "message": "Generate a game character or prop from text or images. Use mesh simplification or supported quad settings to prepare its geometry, then add PBR textures. For a character, check rigging support before requesting a rig.\n\nRetrieve the GLB output and convert to FBX if your tools need it. Your integration handles task submission, status and successful retrieval, while artists refine the assets.\n\nOpen Quick Start for the API steps.",
+          "messageZh": "根据文字或图片生成游戏角色或道具。通过网格简化或受支持的四边面设置准备几何结构，再添加 PBR 纹理。角色需要先检查绑定支持情况，再请求骨骼绑定。\n\n取回 GLB 输出，并按工具需要转换为 FBX。自有接入负责提交任务、查询状态和成功取回；美术成员继续完善资产。\n\n打开 Quick Start，了解 API 步骤。",
           "buttons": [
             {
               "id": "docs",
@@ -823,9 +830,9 @@
         },
         {
           "id": "preflight",
-          "labelZh": "回复 · 验证一条完整请求链路",
-          "message": "Choose one asset request and define where its result should enter your tool or asset workflow. Test submission, status handling and retrieval, including what happens if a task fails.\n\nThen inspect the model against your project's requirements before using it. The Quick Start provides request and response examples for this first integration check.",
-          "messageZh": "选择一项资产请求，明确结果应进入工具或资产流程的哪个环节。测试提交、状态处理和结果取回，包括任务失败时的处理。\n\n随后按项目要求检查模型，再用于后续工作。Quick Start 提供请求与响应示例，便于验证首次接入。",
+          "labelZh": "回复 · 选择接入步骤与资产用途",
+          "message": "Choose the asset-prep stages your tool should run:\n• Text/image generation for characters and props.\n• Mesh simplification or supported quad topology.\n• PBR texturing and compatible-character rigging.\n\nRetrieve GLB, or convert to FBX, then evaluate the assets in your project tools. Rigging support depends on the character; your team chooses the route and builds the integration.\n\nOpen Quick Start to begin.",
+          "messageZh": "选择让自有工具执行的资产准备步骤：\n• 根据文字或图片生成角色与道具。\n• 网格简化或受支持的四边面拓扑。\n• PBR 纹理和兼容角色的骨骼绑定。\n\n取回 GLB，或转换为 FBX，再在项目工具中评估资产。绑定支持取决于角色；调用路径和工具接入由团队决定并实现。\n\n打开 Quick Start，开始了解。",
           "buttons": [
             {
               "id": "docs",
@@ -855,21 +862,21 @@
         "visual-guideline",
         "linkedin-spec"
       ],
-      "footer": "Your team builds the display integration and checks generated models against the actual product.",
-      "footerZh": "产品展示接入由你的团队实现，生成模型须与实际产品核对。",
+      "footer": "Your team builds the display integration and reviews generated models. 8K texture options use additional credits and depend on model settings.",
+      "footerZh": "展示接入由你的团队实现，生成模型仍须审核。8K 贴图选项需额外积分，并取决于所用模型与设置。",
       "id": "AE-01",
       "label": "版本 A · 提问开场",
       "hookStyle": "提问开场",
       "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
       "whyRelevant": "用同一工作需要提问，让读者先判断这件事是否与自己有关；不改变人群或诉求。",
-      "subject": "Where could 3D fit in your product display?",
-      "subjectZh": "3D 如何用于你的产品展示？",
+      "subject": "Turn product images into detailed 3D content?",
+      "subjectZh": "把产品图片转成细节丰富的 3D 内容？",
       "nodes": [
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, I’m with Tripo.\n\nWant to add 3D models to product displays in your content platform?\n\nUse Tripo API to generate a model from a product reference image. Your team reviews the result, then builds the integration to use approved assets for product display in its own content platform.\n\nSee the workflow, or open the Quick Start.",
-          "messageZh": "你好，我来自 Tripo。\n\n想为内容平台中的产品展示加入 3D 模型吗？\n\n用 Tripo API 根据产品参考图片生成模型。由团队审核结果，再实现接入，把验收通过的资产用于自有内容平台的产品展示。\n\n可以先了解工作流程，也可以打开 Quick Start。",
+          "message": "Hi, we’re Tripo.\n\nWant to offer 3D product views alongside your existing images?\n\nTripo API turns product images into AI-generated 3D content for your platform:\n• Single-image or multi-view generation for product models.\n• 8K PBR texture options for close-up material detail.\n• GLB output and USDZ conversion for your own product display.\n\nExplore the workflow or open Quick Start.",
+          "messageZh": "你好，我们是 Tripo。\n\n想在现有产品图片之外，加入 3D 产品展示吗？\n\n用 Tripo API 的 AI 3D 生成能力，把产品图片转成自有平台的 3D 内容：\n• 根据单张图片或多视角图片生成产品模型。\n• 可选 8K PBR 纹理，表现近景中的材质细节。\n• 取回 GLB，或转换为 USDZ，衔接自有产品展示。\n\n可以先了解工作流程，也可以打开 Quick Start。",
           "buttons": [
             {
               "id": "docs",
@@ -880,15 +887,15 @@
             },
             {
               "id": "workflow",
-              "label": "See the content workflow",
-              "labelZh": "了解内容接入流程",
+              "label": "See product workflow",
+              "labelZh": "了解产品展示流程",
               "action": "next",
               "target": "workflow"
             },
             {
               "id": "preflight",
-              "label": "Plan a product test",
-              "labelZh": "规划产品模型评估",
+              "label": "Explore 3D outputs",
+              "labelZh": "了解 3D 输出如何使用",
               "action": "next",
               "target": "preflight"
             }
@@ -896,9 +903,9 @@
         },
         {
           "id": "workflow",
-          "labelZh": "回复 · 从生成到产品展示",
-          "message": "Your content platform submits a generation task, checks its status and retrieves the model after success. Review it against the actual product before using it in a display.\n\nYour team connects the approved model to its own product display experience. The API supplies generation; the display integration is yours to build.",
-          "messageZh": "企业自己的内容平台提交生成任务、查询状态，并在成功后取回模型。在用于展示前，先与实际产品核对。\n\n由团队把通过检查的模型接入自己的产品展示体验。API 提供生成能力，展示接入仍由调用方实现。",
+          "labelZh": "回复 · 图片到自有产品展示",
+          "message": "Use single-image or supported multi-view generation to create a 3D product model. Add PBR textures, with an optional 8K tier for material detail in close-up content.\n\nRetrieve GLB, or convert the model to USDZ. Review it against the real product, then reuse the approved asset in your own interactive product display. Your team implements the viewer and display integration.\n\nOpen Quick Start to plan the API calls.",
+          "messageZh": "通过单张图片或受支持的多视角生成方式，创建 3D 产品模型。添加 PBR 纹理，也可选择 8K 档位，表现近景内容中的材质细节。\n\n取回 GLB，或把模型转换为 USDZ。先与实际产品对照审核，再把验收通过的资产复用于自己的交互式产品展示。查看器和展示接入由团队实现。\n\n打开 Quick Start，规划 API 调用。",
           "buttons": [
             {
               "id": "docs",
@@ -911,9 +918,9 @@
         },
         {
           "id": "preflight",
-          "labelZh": "回复 · 按产品展示用途评估",
-          "message": "Choose one product and define where a 3D model would appear in your content platform. Test generation and retrieval, then check shape, details and materials against the real product.\n\nEvaluate the model in your own display experience before wider use. It is not a guarantee of exact dimensions or a ready-made viewer.",
-          "messageZh": "选择一件产品，明确 3D 模型应出现于自有内容平台的什么位置。测试生成与取回，再将形状、细节和材质与真实产品核对。\n\n扩大使用前，在自己的展示体验中评估模型；这不代表尺寸精确的保证，也不代表已有现成查看器。",
+          "labelZh": "回复 · 输出资产如何接入产品内容",
+          "message": "Combine the API functions your product content needs:\n• Image or multi-view generation for a 3D model.\n• PBR textures, including 8K options for close-up views.\n• GLB output or USDZ conversion for display formats.\n\nYour developers use approved assets in their own content platform. Your team controls product checks, the viewer and where content is published.\n\n8K options cost extra credits. Start with Quick Start.",
+          "messageZh": "组合产品内容需要的 API 功能：\n• 根据图片或多视角图片生成 3D 模型。\n• PBR 纹理，包括面向近景展示的可选 8K 档位。\n• 取回 GLB，或转换为 USDZ，选择展示格式。\n\n开发团队将验收通过的资产用于自有内容平台。产品核验、查看器以及内容发布位置都由团队控制。\n\n8K 选项需要额外积分。先从 Quick Start 开始。",
           "buttons": [
             {
               "id": "docs",
@@ -943,21 +950,21 @@
         "visual-guideline",
         "linkedin-spec"
       ],
-      "footer": "Your team builds the display integration and checks generated models against the actual product.",
-      "footerZh": "产品展示接入由你的团队实现，生成模型须与实际产品核对。",
+      "footer": "Your team builds the display integration and reviews generated models. 8K texture options use additional credits and depend on model settings.",
+      "footerZh": "展示接入由你的团队实现，生成模型仍须审核。8K 贴图选项需额外积分，并取决于所用模型与设置。",
       "id": "AE-02",
       "label": "版本 B · 直接陈述",
       "hookStyle": "直接陈述",
       "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
       "whyRelevant": "直接说明同一项工作价值，减少开场铺垫；不增加新的用途、产品承诺或人群条件。",
-      "subject": "Add 3D models to product display in your platform",
-      "subjectZh": "为自有平台的产品展示加入 3D 模型",
+      "subject": "Build 3D product content with Tripo API",
+      "subjectZh": "用 Tripo API 构建 3D 产品内容",
       "nodes": [
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, I’m with Tripo.\n\nBring generated 3D product models into your own content platform.\n\nUse Tripo API to generate a model from a product reference image. Your team reviews the result, then builds the integration to use approved assets for product display in its own content platform.\n\nSee the workflow, or open the Quick Start.",
-          "messageZh": "你好，我来自 Tripo。\n\n把生成的 3D 产品模型接入自有内容平台。\n\n用 Tripo API 根据产品参考图片生成模型。由团队审核结果，再实现接入，把验收通过的资产用于自有内容平台的产品展示。\n\n可以先了解工作流程，也可以打开 Quick Start。",
+          "message": "Hi, we’re Tripo.\n\nAdd 3D product models to the content platform you already run.\n\nTripo API turns product images into AI-generated 3D content for your platform:\n• Single-image or multi-view generation for product models.\n• 8K PBR texture options for close-up material detail.\n• GLB output and USDZ conversion for your own product display.\n\nExplore the workflow or open Quick Start.",
+          "messageZh": "你好，我们是 Tripo。\n\n为已有内容平台加入 3D 产品模型。\n\n用 Tripo API 的 AI 3D 生成能力，把产品图片转成自有平台的 3D 内容：\n• 根据单张图片或多视角图片生成产品模型。\n• 可选 8K PBR 纹理，表现近景中的材质细节。\n• 取回 GLB，或转换为 USDZ，衔接自有产品展示。\n\n可以先了解工作流程，也可以打开 Quick Start。",
           "buttons": [
             {
               "id": "docs",
@@ -968,15 +975,15 @@
             },
             {
               "id": "workflow",
-              "label": "See the content workflow",
-              "labelZh": "了解内容接入流程",
+              "label": "See product workflow",
+              "labelZh": "了解产品展示流程",
               "action": "next",
               "target": "workflow"
             },
             {
               "id": "preflight",
-              "label": "Plan a product test",
-              "labelZh": "规划产品模型评估",
+              "label": "Explore 3D outputs",
+              "labelZh": "了解 3D 输出如何使用",
               "action": "next",
               "target": "preflight"
             }
@@ -984,9 +991,9 @@
         },
         {
           "id": "workflow",
-          "labelZh": "回复 · 从生成到产品展示",
-          "message": "Your content platform submits a generation task, checks its status and retrieves the model after success. Review it against the actual product before using it in a display.\n\nYour team connects the approved model to its own product display experience. The API supplies generation; the display integration is yours to build.",
-          "messageZh": "企业自己的内容平台提交生成任务、查询状态，并在成功后取回模型。在用于展示前，先与实际产品核对。\n\n由团队把通过检查的模型接入自己的产品展示体验。API 提供生成能力，展示接入仍由调用方实现。",
+          "labelZh": "回复 · 图片到自有产品展示",
+          "message": "Use single-image or supported multi-view generation to create a 3D product model. Add PBR textures, with an optional 8K tier for material detail in close-up content.\n\nRetrieve GLB, or convert the model to USDZ. Review it against the real product, then reuse the approved asset in your own interactive product display. Your team implements the viewer and display integration.\n\nOpen Quick Start to plan the API calls.",
+          "messageZh": "通过单张图片或受支持的多视角生成方式，创建 3D 产品模型。添加 PBR 纹理，也可选择 8K 档位，表现近景内容中的材质细节。\n\n取回 GLB，或把模型转换为 USDZ。先与实际产品对照审核，再把验收通过的资产复用于自己的交互式产品展示。查看器和展示接入由团队实现。\n\n打开 Quick Start，规划 API 调用。",
           "buttons": [
             {
               "id": "docs",
@@ -999,9 +1006,9 @@
         },
         {
           "id": "preflight",
-          "labelZh": "回复 · 按产品展示用途评估",
-          "message": "Choose one product and define where a 3D model would appear in your content platform. Test generation and retrieval, then check shape, details and materials against the real product.\n\nEvaluate the model in your own display experience before wider use. It is not a guarantee of exact dimensions or a ready-made viewer.",
-          "messageZh": "选择一件产品，明确 3D 模型应出现于自有内容平台的什么位置。测试生成与取回，再将形状、细节和材质与真实产品核对。\n\n扩大使用前，在自己的展示体验中评估模型；这不代表尺寸精确的保证，也不代表已有现成查看器。",
+          "labelZh": "回复 · 输出资产如何接入产品内容",
+          "message": "Combine the API functions your product content needs:\n• Image or multi-view generation for a 3D model.\n• PBR textures, including 8K options for close-up views.\n• GLB output or USDZ conversion for display formats.\n\nYour developers use approved assets in their own content platform. Your team controls product checks, the viewer and where content is published.\n\n8K options cost extra credits. Start with Quick Start.",
+          "messageZh": "组合产品内容需要的 API 功能：\n• 根据图片或多视角图片生成 3D 模型。\n• PBR 纹理，包括面向近景展示的可选 8K 档位。\n• 取回 GLB，或转换为 USDZ，选择展示格式。\n\n开发团队将验收通过的资产用于自有内容平台。产品核验、查看器以及内容发布位置都由团队控制。\n\n8K 选项需要额外积分。先从 Quick Start 开始。",
           "buttons": [
             {
               "id": "docs",
@@ -1031,21 +1038,21 @@
         "visual-guideline",
         "linkedin-spec"
       ],
-      "footer": "Your team builds the display integration and checks generated models against the actual product.",
-      "footerZh": "产品展示接入由你的团队实现，生成模型须与实际产品核对。",
+      "footer": "Your team builds the display integration and reviews generated models. 8K texture options use additional credits and depend on model settings.",
+      "footerZh": "展示接入由你的团队实现，生成模型仍须审核。8K 贴图选项需额外积分，并取决于所用模型与设置。",
       "id": "AE-03",
       "label": "版本 C · 用途结果开场",
       "hookStyle": "用途结果开场",
       "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
       "whyRelevant": "先说同一任务希望达到的状态，再解释产品能力；这不是新增商业收益或效果保证。",
-      "subject": "3D models for your product content",
-      "subjectZh": "用于产品内容的 3D 模型",
+      "subject": "Product images to 3D assets for your platform",
+      "subjectZh": "从产品图片到自有平台的 3D 资产",
       "nodes": [
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, I’m with Tripo.\n\nGive your content platform another way to show a product.\n\nUse Tripo API to generate a model from a product reference image. Your team reviews the result, then builds the integration to use approved assets for product display in its own content platform.\n\nSee the workflow, or open the Quick Start.",
-          "messageZh": "你好，我来自 Tripo。\n\n让内容平台多一种展示产品的方式。\n\n用 Tripo API 根据产品参考图片生成模型。由团队审核结果，再实现接入，把验收通过的资产用于自有内容平台的产品展示。\n\n可以先了解工作流程，也可以打开 Quick Start。",
+          "message": "Hi, we’re Tripo.\n\nTurn product images into 3D assets for the experiences you build.\n\nTripo API turns product images into AI-generated 3D content for your platform:\n• Single-image or multi-view generation for product models.\n• 8K PBR texture options for close-up material detail.\n• GLB output and USDZ conversion for your own product display.\n\nExplore the workflow or open Quick Start.",
+          "messageZh": "你好，我们是 Tripo。\n\n把产品图片转成 3D 资产，用于自己构建的展示体验。\n\n用 Tripo API 的 AI 3D 生成能力，把产品图片转成自有平台的 3D 内容：\n• 根据单张图片或多视角图片生成产品模型。\n• 可选 8K PBR 纹理，表现近景中的材质细节。\n• 取回 GLB，或转换为 USDZ，衔接自有产品展示。\n\n可以先了解工作流程，也可以打开 Quick Start。",
           "buttons": [
             {
               "id": "docs",
@@ -1056,15 +1063,15 @@
             },
             {
               "id": "workflow",
-              "label": "See the content workflow",
-              "labelZh": "了解内容接入流程",
+              "label": "See product workflow",
+              "labelZh": "了解产品展示流程",
               "action": "next",
               "target": "workflow"
             },
             {
               "id": "preflight",
-              "label": "Plan a product test",
-              "labelZh": "规划产品模型评估",
+              "label": "Explore 3D outputs",
+              "labelZh": "了解 3D 输出如何使用",
               "action": "next",
               "target": "preflight"
             }
@@ -1072,9 +1079,9 @@
         },
         {
           "id": "workflow",
-          "labelZh": "回复 · 从生成到产品展示",
-          "message": "Your content platform submits a generation task, checks its status and retrieves the model after success. Review it against the actual product before using it in a display.\n\nYour team connects the approved model to its own product display experience. The API supplies generation; the display integration is yours to build.",
-          "messageZh": "企业自己的内容平台提交生成任务、查询状态，并在成功后取回模型。在用于展示前，先与实际产品核对。\n\n由团队把通过检查的模型接入自己的产品展示体验。API 提供生成能力，展示接入仍由调用方实现。",
+          "labelZh": "回复 · 图片到自有产品展示",
+          "message": "Use single-image or supported multi-view generation to create a 3D product model. Add PBR textures, with an optional 8K tier for material detail in close-up content.\n\nRetrieve GLB, or convert the model to USDZ. Review it against the real product, then reuse the approved asset in your own interactive product display. Your team implements the viewer and display integration.\n\nOpen Quick Start to plan the API calls.",
+          "messageZh": "通过单张图片或受支持的多视角生成方式，创建 3D 产品模型。添加 PBR 纹理，也可选择 8K 档位，表现近景内容中的材质细节。\n\n取回 GLB，或把模型转换为 USDZ。先与实际产品对照审核，再把验收通过的资产复用于自己的交互式产品展示。查看器和展示接入由团队实现。\n\n打开 Quick Start，规划 API 调用。",
           "buttons": [
             {
               "id": "docs",
@@ -1087,9 +1094,9 @@
         },
         {
           "id": "preflight",
-          "labelZh": "回复 · 按产品展示用途评估",
-          "message": "Choose one product and define where a 3D model would appear in your content platform. Test generation and retrieval, then check shape, details and materials against the real product.\n\nEvaluate the model in your own display experience before wider use. It is not a guarantee of exact dimensions or a ready-made viewer.",
-          "messageZh": "选择一件产品，明确 3D 模型应出现于自有内容平台的什么位置。测试生成与取回，再将形状、细节和材质与真实产品核对。\n\n扩大使用前，在自己的展示体验中评估模型；这不代表尺寸精确的保证，也不代表已有现成查看器。",
+          "labelZh": "回复 · 输出资产如何接入产品内容",
+          "message": "Combine the API functions your product content needs:\n• Image or multi-view generation for a 3D model.\n• PBR textures, including 8K options for close-up views.\n• GLB output or USDZ conversion for display formats.\n\nYour developers use approved assets in their own content platform. Your team controls product checks, the viewer and where content is published.\n\n8K options cost extra credits. Start with Quick Start.",
+          "messageZh": "组合产品内容需要的 API 功能：\n• 根据图片或多视角图片生成 3D 模型。\n• PBR 纹理，包括面向近景展示的可选 8K 档位。\n• 取回 GLB，或转换为 USDZ，选择展示格式。\n\n开发团队将验收通过的资产用于自有内容平台。产品核验、查看器以及内容发布位置都由团队控制。\n\n8K 选项需要额外积分。先从 Quick Start 开始。",
           "buttons": [
             {
               "id": "docs",
@@ -1185,6 +1192,6 @@
     "newAudiences": 0,
     "newStrategies": 0
   },
-  "skillFallback": "2026-10-12技能云端读取失败；本轮使用本地copy-editing 2.0.0、Tripo workbench/claims 1.0.0及impeccable 3.5.0。未宣称云端规则已同步。",
+  "skillFallback": "2026-10-12私有技能库认证读取返回403；本轮使用本地Tripo workbench/claims 1.0.0、ad-creative 2.8.2与copy-editing 2.0.0。能力另以本轮官方文档核对，未宣称云端规则已同步。",
   "senderIdentityGate": "用户已确认Tripo官方领英发送者开通（2026-10-12）。网站按此使用官方身份；本次未登录广告后台独立验证，也未配置原生表单或线索接收权限。"
 }

@@ -1,72 +1,676 @@
 {
-  "version": "2026-10-12-r3-teams-leadgen",
+  "version": "2026-10-12-r6-product-selling-points",
   "reviewDate": "2026-10-12",
-  "conclusion": "严格沿用四组已确认人群与方向。每组3个文案版本，只变化主题和开场表达；产品说明、收尾、CTA与后续回复固定，不拆角色、不扩展场景、不新增策略。12版是文案数量，不是广告组或上线数量。",
+  "conclusion": "四组已确认人群与方向、12个版本及原承接不变。每组开场补齐三条相关的真实产品卖点，后续回复解释实际用途。仅借鉴提供案例的表达结构，不借用客户、数字或效果。",
   "groups": [
-    {"id":"teams-us","label":"Teams · 美国游戏","direction":"降本增效／Workflow","task":"创建、集中管理和复用角色与道具资产，减少重复操作与文件交接","wordingStyles":["A：提问开场","B：直接陈述","C：用途结果开场"],"conclusion":"同一美国游戏人群、同一资产工作流诉求。三版只比较表达，主按钮统一原生留资，不拆岗位；共享工作区不等于版本控制或自动质量验收。","action":"原生留资表单 → Tripo官方团队沟通试用","success":"留资 → 有效需求 → 核实试用条件 → 实际试用 → 成交"},
-    {"id":"teams-eu","label":"Teams · 欧洲游戏","direction":"商业化／具体游戏项目用途","task":"围绕游戏项目的角色与道具需求，展示团队方案支持的资产准备与使用","wordingStyles":["A：提问开场","B：直接陈述","C：用途结果开场"],"conclusion":"同一欧洲游戏人群，固定具体游戏项目用途。三版主按钮统一原生留资，不延伸其他场景；资产须由团队验收，不承诺收入或完成整款游戏。","action":"原生留资表单 → Tripo官方团队沟通项目及试用","success":"留资 → 项目需求有效性 → 核实试用条件 → 实际试用 → 成交"},
-    {"id":"api-us","label":"API · 美国游戏＋3D资产","direction":"降本增效／Workflow","task":"将3D生成接入自己的游戏工具或资产制作流程，提交任务、取回模型及后续使用","wordingStyles":["A：提问开场","B：直接陈述","C：用途结果开场"],"conclusion":"同一美国游戏＋3D资产人群，固定工具／资产流程接入诉求。三版只换主题与开场，请求成功仍须与资产验收分开。","action":"Quick Start → 自己的一次资产调用","success":"注册 → API Key → 首次成功调用 → 实际付费"},
-    {"id":"api-eu","label":"API · 欧洲企业内容","direction":"商业化／产品展示用途","task":"将3D生成接入自有企业内容平台，围绕产品展示说明生成结果如何用于业务","wordingStyles":["A：提问开场","B：直接陈述","C：用途结果开场"],"conclusion":"同一欧洲企业内容人群，固定自有内容平台产品展示用途。三版不扩展目录或电商定向；模型审核和展示接入由调用方完成。","action":"Quick Start → 单个产品模型适用性评估","success":"注册 → API Key → 首次成功调用 → 业务使用 → 实际付费"}
+    {
+      "id": "teams-us",
+      "label": "Teams · 美国游戏",
+      "direction": "降本增效／Workflow",
+      "task": "创建、集中管理和复用角色与道具资产，减少重复操作与文件交接",
+      "wordingStyles": [
+        "A：提问开场",
+        "B：直接陈述",
+        "C：用途结果开场"
+      ],
+      "conclusion": "同一美国游戏人群、同一资产工作流诉求。三版只比较表达，主按钮统一原生留资，不拆岗位；共享工作区不等于版本控制或自动质量验收。",
+      "action": "原生留资表单 → Tripo官方团队沟通试用",
+      "success": "留资 → 有效需求 → 核实试用条件 → 实际试用 → 成交"
+    },
+    {
+      "id": "teams-eu",
+      "label": "Teams · 欧洲游戏",
+      "direction": "商业化／具体游戏项目用途",
+      "task": "围绕游戏项目的角色与道具需求，展示团队方案支持的资产准备与使用",
+      "wordingStyles": [
+        "A：提问开场",
+        "B：直接陈述",
+        "C：用途结果开场"
+      ],
+      "conclusion": "同一欧洲游戏人群，固定具体游戏项目用途。三版主按钮统一原生留资，不延伸其他场景；资产须由团队验收，不承诺收入或完成整款游戏。",
+      "action": "原生留资表单 → Tripo官方团队沟通项目及试用",
+      "success": "留资 → 项目需求有效性 → 核实试用条件 → 实际试用 → 成交"
+    },
+    {
+      "id": "api-us",
+      "label": "API · 美国游戏＋3D资产",
+      "direction": "降本增效／Workflow",
+      "task": "将3D生成接入自己的游戏工具或资产制作流程，提交任务、取回模型及后续使用",
+      "wordingStyles": [
+        "A：提问开场",
+        "B：直接陈述",
+        "C：用途结果开场"
+      ],
+      "conclusion": "同一美国游戏＋3D资产人群，固定工具／资产流程接入诉求。三版只换主题与开场，请求成功仍须与资产验收分开。",
+      "action": "Quick Start → 自己的一次资产调用",
+      "success": "注册 → API Key → 首次成功调用 → 实际付费"
+    },
+    {
+      "id": "api-eu",
+      "label": "API · 欧洲企业内容",
+      "direction": "商业化／产品展示用途",
+      "task": "将3D生成接入自有企业内容平台，围绕产品展示说明生成结果如何用于业务",
+      "wordingStyles": [
+        "A：提问开场",
+        "B：直接陈述",
+        "C：用途结果开场"
+      ],
+      "conclusion": "同一欧洲企业内容人群，固定自有内容平台产品展示用途。三版不扩展目录或电商定向；模型审核和展示接入由调用方完成。",
+      "action": "Quick Start → 单个产品模型适用性评估",
+      "success": "注册 → API Key → 首次成功调用 → 业务使用 → 实际付费"
+    }
   ],
   "sources": [
-    {"key":"approved-audiences","title":"用户本轮已确认的4组方向","type":"用户策略","note":"美国讲流程效率；欧洲已选组讲具体用途。是本轮测试安排，不是地区文化结论。"},
-    {"key":"product-context","title":"Tripo Studio Context","type":"内部手册 · 已读正文","url":"https://a9ihi0un9c.feishu.cn/docx/Rubedb0bZoy7YGxMGfdckwcNn5e","note":"按资产用于什么工作来写；嵌入既有工作流，不以积分清单代替价值。公开页不转载内部原文、价格表或竞争数据。"},
-    {"key":"brand-language","title":"品牌语言系统 正文","type":"内部手册 · 部分章节已读","url":"https://a9ihi0un9c.feishu.cn/wiki/VS6vwhfqNiMSdLkysV5cTRSNnTe","note":"已读首页Tripo语气要求及3.3/3.4的部分正文；未完整通读，不能标整体通过。"},
-    {"key":"compliance","title":"L1 对外合规披露与舆论风险管理规范 卷1","type":"内部手册 · 待完整读取","url":"https://a9ihi0un9c.feishu.cn/wiki/ORhqwup47iP96BkoJ2KcX3KmnUb","note":"只确认文档身份；标题不能证明具体披露要求已核对。不构成法律合规结论。"},
-    {"key":"visual-guideline","title":"TRIPO广告素材视觉规范","type":"内部手册 · 已读文字","url":"https://a9ihi0un9c.feishu.cn/wiki/KGWBwpXy6iGlLQk023gcsROCnYg","note":"文案、命名、CTA及模型呈现文字规则已核对；本次不制作配图，不把图片示例标为已验收。"},
-    {"key":"team-program","title":"Tripo Team Program","type":"产品官方","url":"https://www.tripo3d.ai/programs/team-program","note":"共享工作区与试用申请真实存在；注册邮箱、条款和名额由申请页说明。本稿不主讲限时数字。"},
-    {"key":"team-workspace","title":"Tripo Team Plan — Now Live","type":"产品官方","url":"https://www.tripo3d.ai/blog/tripo-turns-1-team-plan","note":"成员按可见性设置访问共享资产。文案不把共享误写成实时共编或自动审批。"},
-    {"key":"api-quick-start","title":"Tripo API Quick Start","type":"产品官方","url":"https://developers.tripo3d.ai/en/docs/quick-start","checked":"2026-10-11","note":"提交任务、查询状态、成功后取回模型。调用方继续实现工具衔接与资产审核；当前model_url约5分钟过期，工程实现应及时下载，而非保存为永久模型链接。"},
-    {"key":"api-introduction","title":"Tripo API Introduction","type":"产品官方","url":"https://developers.tripo3d.ai/en/docs/introduction","note":"生成能力可接入自己的产品；本稿不保证产品尺寸准确、零后处理或免费API。"},
-    {"key":"linkedin-spec","title":"Conversation Ads现行规格","type":"LinkedIn官方","url":"https://www.linkedin.com/help/lms/answer/a426057","note":"可选subject60、CTA25、每条5按钮／整套50；首条系统Not Interested占1。8000是正文硬上限，500为精简建议，本稿自行采用≤500。"},
-    {"key":"linkedin-create","title":"Conversation Ads创建流程","type":"LinkedIn官方","url":"https://www.linkedin.com/help/lms/answer/a425089","note":"Visit website／Show next message／Lead Gen Form。Teams改为Lead Gen审稿方案；本网站模拟动作不是已创建的后台表单。API保留网站与站内回复。"},
-    {"key":"linkedin-region","title":"Sponsored Messaging区域规则","type":"LinkedIn官方","url":"https://www.linkedin.com/help/lms/answer/a544586","note":"EEA和瑞士需接收者opt-in。不能沿用旧全面禁投结论。"},
-    {"key":"linkedin-language","title":"Sponsored Messaging说明","type":"LinkedIn官方","url":"https://www.linkedin.com/help/linkedin/answer/a421723/","note":"English Sponsored Messaging对应English profile；发送、打开、按钮点击、有效线索应分别记录。"},
-    {"key":"linkedin-best-practices","title":"Conversation Ads Best Practices Guide","type":"LinkedIn官方","url":"https://business.linkedin.com/content/dam/lem/business/en/advertise/ads/sponsored-message/conversation-ads-best-practices-guide1.pdf","note":"先定期望行动；首条说明谁联系与为什么；按钮回应具体问题，不为了层数增加无用回答。"},
-    {"key":"provided-pdf","title":"用户提供：LinkedIn Conversation Ads – Case Study","type":"提供的案例PDF","note":"参考第5、9、10页的分支意图与承接，不复制业绩、联系人或全套案例截图。"},
-    {"key":"linkedin-sender","title":"Sponsored Messaging Sender权限","type":"LinkedIn官方＋用户确认","url":"https://www.linkedin.com/help/lms/answer/a427571","note":"用户于2026-10-12确认Tripo官方发送者已开通，本网站按已确认身份展示；本次未进入广告后台重复验证或修改授权。"},
-    {"key":"linkedin-form","title":"原生Lead Gen Form创建","type":"LinkedIn官方","url":"https://www.linkedin.com/help/lms/answer/a427102","note":"Teams审稿方案含5个基础字段、真实隐私政策链接与提交后文案；实际表单、线索权限和承接仍需后台配置，网页不会收集资料。"},
-    {"key":"linkedin-form-spec","title":"原生表单字段与规格","type":"LinkedIn官方","checked":"2026-10-12","url":"https://www.linkedin.com/help/lms/answer/a423364","note":"表单标题≤60、说明≤160、确认文案≤300；自定义问题为必填，本次不新增需求长问答。每条对话广告只关联1张原生表单。"},
-    {"key":"linkedin-form-fields","title":"原生表单预填与可编辑字段","type":"LinkedIn官方","checked":"2026-10-12","url":"https://www.linkedin.com/help/lms/answer/a425337","note":"标准联系／职业字段可预填，邮箱可编辑；本网站只展示禁用空字段，不读取任何领英个人资料。"},
-    {"key":"linkedin-conversation","title":"Conversation Ads目标与表单要求","type":"LinkedIn官方","checked":"2026-10-12","url":"https://www.linkedin.com/help/linkedin/answer/a425071","note":"Website visits至少一个网站CTA；Lead generation至少一个打开原生表单的CTA且每creative只关联一张表单。不能把Website visits的要求无差别套到留资目标。"},
-    {"key":"tripo-privacy","title":"Tripo隐私政策","type":"Tripo官方","checked":"2026-10-12","url":"https://www.tripo3d.ai/privacy","note":"地址从官方Team Program的隐私政策链接取得；展示链接不等于已完成公司内部合规正文审核。"},
-    {"key":"linkedin-preview","title":"Conversation Ads预览与测试","type":"LinkedIn官方","url":"https://www.linkedin.com/help/lms/answer/a422397","note":"本网站不发送测试消息；经授权后才使用后台正式预览与测试。"},
-    {"key":"linkedin-flowchart","title":"Conversation Ads Flowchart与报告","type":"LinkedIn官方","url":"https://www.linkedin.com/help/lms/answer/a425769","note":"编辑后Flowchart只显示最近版本点击；其他报告可能汇总版本，复盘需creative版本ID。"}
+    {
+      "key": "approved-audiences",
+      "title": "用户本轮已确认的4组方向",
+      "type": "用户策略",
+      "note": "美国讲流程效率；欧洲已选组讲具体用途。是本轮测试安排，不是地区文化结论。"
+    },
+    {
+      "key": "product-context",
+      "title": "Tripo Studio Context",
+      "type": "内部手册 · 已读正文",
+      "url": "https://a9ihi0un9c.feishu.cn/docx/Rubedb0bZoy7YGxMGfdckwcNn5e",
+      "note": "按资产用于什么工作来写；嵌入既有工作流，不以积分清单代替价值。公开页不转载内部原文、价格表或竞争数据。"
+    },
+    {
+      "key": "brand-language",
+      "title": "品牌语言系统 正文",
+      "type": "内部手册 · 部分章节已读",
+      "url": "https://a9ihi0un9c.feishu.cn/wiki/VS6vwhfqNiMSdLkysV5cTRSNnTe",
+      "note": "已读首页Tripo语气要求及3.3/3.4的部分正文；未完整通读，不能标整体通过。"
+    },
+    {
+      "key": "compliance",
+      "title": "L1 对外合规披露与舆论风险管理规范 卷1",
+      "type": "内部手册 · 待完整读取",
+      "url": "https://a9ihi0un9c.feishu.cn/wiki/ORhqwup47iP96BkoJ2KcX3KmnUb",
+      "note": "只确认文档身份；标题不能证明具体披露要求已核对。不构成法律合规结论。"
+    },
+    {
+      "key": "visual-guideline",
+      "title": "TRIPO广告素材视觉规范",
+      "type": "内部手册 · 已读文字",
+      "url": "https://a9ihi0un9c.feishu.cn/wiki/KGWBwpXy6iGlLQk023gcsROCnYg",
+      "note": "文案、命名、CTA及模型呈现文字规则已核对；本次不制作配图，不把图片示例标为已验收。"
+    },
+    {
+      "key": "team-program",
+      "title": "Tripo Team Program",
+      "type": "产品官方",
+      "url": "https://www.tripo3d.ai/programs/team-program",
+      "note": "共享工作区与试用申请真实存在；注册邮箱、条款和名额由申请页说明。本稿不主讲限时数字。"
+    },
+    {
+      "key": "team-workspace",
+      "title": "Tripo Team Plan — Now Live",
+      "type": "产品官方",
+      "url": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan",
+      "note": "成员按可见性设置访问共享资产。文案不把共享误写成实时共编或自动审批。"
+    },
+    {
+      "key": "api-quick-start",
+      "title": "Tripo API Quick Start",
+      "type": "产品官方",
+      "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+      "checked": "2026-10-11",
+      "note": "提交任务、查询状态、成功后取回模型。调用方继续实现工具衔接与资产审核；当前model_url约5分钟过期，工程实现应及时下载，而非保存为永久模型链接。"
+    },
+    {
+      "key": "api-introduction",
+      "title": "Tripo API Introduction",
+      "type": "产品官方",
+      "url": "https://developers.tripo3d.ai/en/docs/introduction",
+      "note": "生成能力可接入自己的产品；本稿不保证产品尺寸准确、零后处理或免费API。"
+    },
+    {
+      "key": "linkedin-spec",
+      "title": "Conversation Ads现行规格",
+      "type": "LinkedIn官方",
+      "url": "https://www.linkedin.com/help/lms/answer/a426057",
+      "note": "Conversation intro/reply 8000 字符硬上限，500为推荐反馈；本轮编辑边界700，实际仍低于500。Subject60、CTA25、每条5按钮，首条系统Not Interested占1。"
+    },
+    {
+      "key": "linkedin-create",
+      "title": "Conversation Ads创建流程",
+      "type": "LinkedIn官方",
+      "url": "https://www.linkedin.com/help/lms/answer/a425089",
+      "note": "Visit website／Show next message／Lead Gen Form。Teams改为Lead Gen审稿方案；本网站模拟动作不是已创建的后台表单。API保留网站与站内回复。"
+    },
+    {
+      "key": "linkedin-region",
+      "title": "Sponsored Messaging区域规则",
+      "type": "LinkedIn官方",
+      "url": "https://www.linkedin.com/help/lms/answer/a544586",
+      "note": "EEA和瑞士需接收者opt-in。不能沿用旧全面禁投结论。"
+    },
+    {
+      "key": "linkedin-language",
+      "title": "Sponsored Messaging说明",
+      "type": "LinkedIn官方",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a421723/",
+      "note": "English Sponsored Messaging对应English profile；发送、打开、按钮点击、有效线索应分别记录。"
+    },
+    {
+      "key": "linkedin-best-practices",
+      "title": "Conversation Ads Best Practices Guide",
+      "type": "LinkedIn官方",
+      "url": "https://business.linkedin.com/content/dam/lem/business/en/advertise/ads/sponsored-message/conversation-ads-best-practices-guide1.pdf",
+      "note": "先定期望行动；首条说明谁联系与为什么；按钮回应具体问题，不为了层数增加无用回答。"
+    },
+    {
+      "key": "provided-pdf",
+      "title": "用户提供：LinkedIn Conversation Ads – Case Study",
+      "type": "提供的案例PDF",
+      "note": "参考第5、9、10页的分支意图与承接，不复制业绩、联系人或全套案例截图。"
+    },
+    {
+      "key": "linkedin-sender",
+      "title": "Sponsored Messaging Sender权限",
+      "type": "LinkedIn官方＋用户确认",
+      "url": "https://www.linkedin.com/help/lms/answer/a427571",
+      "note": "用户于2026-10-12确认Tripo官方发送者已开通，本网站按已确认身份展示；本次未进入广告后台重复验证或修改授权。"
+    },
+    {
+      "key": "linkedin-form",
+      "title": "原生Lead Gen Form创建",
+      "type": "LinkedIn官方",
+      "url": "https://www.linkedin.com/help/lms/answer/a427102",
+      "note": "Teams审稿方案含5个基础字段、真实隐私政策链接与提交后文案；实际表单、线索权限和承接仍需后台配置，网页不会收集资料。"
+    },
+    {
+      "key": "linkedin-form-spec",
+      "title": "原生表单字段与规格",
+      "type": "LinkedIn官方",
+      "checked": "2026-10-12",
+      "url": "https://www.linkedin.com/help/lms/answer/a423364",
+      "note": "表单标题≤60、说明≤160、确认文案≤300；自定义问题为必填，本次不新增需求长问答。每条对话广告只关联1张原生表单。"
+    },
+    {
+      "key": "linkedin-form-fields",
+      "title": "原生表单预填与可编辑字段",
+      "type": "LinkedIn官方",
+      "checked": "2026-10-12",
+      "url": "https://www.linkedin.com/help/lms/answer/a425337",
+      "note": "标准联系／职业字段可预填，邮箱可编辑；本网站只展示禁用空字段，不读取任何领英个人资料。"
+    },
+    {
+      "key": "linkedin-conversation",
+      "title": "Conversation Ads目标与表单要求",
+      "type": "LinkedIn官方",
+      "checked": "2026-10-12",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a425071",
+      "note": "Website visits至少一个网站CTA；Lead generation至少一个打开原生表单的CTA且每creative只关联一张表单。不能把Website visits的要求无差别套到留资目标。"
+    },
+    {
+      "key": "tripo-privacy",
+      "title": "Tripo隐私政策",
+      "type": "Tripo官方",
+      "checked": "2026-10-12",
+      "url": "https://www.tripo3d.ai/privacy",
+      "note": "地址从官方Team Program的隐私政策链接取得；展示链接不等于已完成公司内部合规正文审核。"
+    },
+    {
+      "key": "linkedin-preview",
+      "title": "Conversation Ads预览与测试",
+      "type": "LinkedIn官方",
+      "url": "https://www.linkedin.com/help/lms/answer/a422397",
+      "note": "本网站不发送测试消息；经授权后才使用后台正式预览与测试。"
+    },
+    {
+      "key": "linkedin-flowchart",
+      "title": "Conversation Ads Flowchart与报告",
+      "type": "LinkedIn官方",
+      "url": "https://www.linkedin.com/help/lms/answer/a425769",
+      "note": "编辑后Flowchart只显示最近版本点击；其他报告可能汇总版本，复盘需creative版本ID。"
+    },
+    {
+      "key": "r6-R6-T-GENERATION",
+      "title": "R6-T-GENERATION official capability",
+      "type": "产品官方",
+      "url": "https://www.tripo3d.ai/features/text-to-3d-model",
+      "checked": "2026-10-12",
+      "note": "Text workflow may generate a reference image before 3D. No fixed speed, exact reconstruction or automatic production approval."
+    },
+    {
+      "key": "r6-R6-T-HD",
+      "title": "R6-T-HD official capability",
+      "type": "产品官方",
+      "url": "https://www.tripo3d.ai/programs/team-program",
+      "checked": "2026-10-12",
+      "note": "Upper capability limit, not every output's count or target-game performance guarantee."
+    },
+    {
+      "key": "r6-R6-T-MESH",
+      "title": "R6-T-MESH official capability",
+      "type": "产品官方",
+      "url": "https://www.tripo3d.ai/programs/team-program",
+      "checked": "2026-10-12",
+      "note": "Quad-mesh capability; project-specific review remains needed, not zero-cleanup or a completed game."
+    },
+    {
+      "key": "r6-R6-T-PBR",
+      "title": "R6-T-PBR official capability",
+      "type": "产品官方",
+      "url": "https://www.tripo3d.ai/features/image-to-3d-model",
+      "checked": "2026-10-12",
+      "note": "Available material tools and optional resolution tier; not every texture automatically approved for the project."
+    },
+    {
+      "key": "r6-R6-T-TEAM",
+      "title": "R6-T-TEAM official capability",
+      "type": "产品官方",
+      "url": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan",
+      "checked": "2026-10-12",
+      "note": "Access follows team visibility settings; admins retain workspace visibility. Team credits are not API credits. No quota number used."
+    },
+    {
+      "key": "r6-R6-T-RIG-EXPORT",
+      "title": "R6-T-RIG-EXPORT official capability",
+      "type": "产品官方",
+      "url": "https://www.tripo3d.ai/programs/team-program",
+      "checked": "2026-10-12",
+      "note": "Rigging for suitable models, export/plugins for subsequent work, not a guarantee every character rigs or a game ships."
+    },
+    {
+      "key": "r6-R6-A-GENERATION",
+      "title": "R6-A-GENERATION official capability",
+      "type": "产品官方",
+      "url": "https://developers.tripo3d.ai/en/docs/introduction",
+      "checked": "2026-10-12",
+      "note": "Supported inputs, selected model and asynchronous task completion; not exact CAD/product dimensions."
+    },
+    {
+      "key": "r6-R6-A-MESH",
+      "title": "R6-A-MESH official capability",
+      "type": "产品官方",
+      "url": "https://developers.tripo3d.ai/en/docs/mesh-decimate",
+      "checked": "2026-10-12",
+      "note": "Target counts/quad support depend on algorithm/model and parameters; separate processing tasks, no engine-performance promise."
+    },
+    {
+      "key": "r6-R6-A-PBR-RIG",
+      "title": "R6-A-PBR-RIG official capability",
+      "type": "产品官方",
+      "url": "https://developers.tripo3d.ai/en/docs/models-texture",
+      "checked": "2026-10-12",
+      "note": "PBR materials available; rig-check may return false. No promise arbitrary mesh supports rigging or passes animation QA."
+    },
+    {
+      "key": "r6-R6-A-8K",
+      "title": "R6-A-8K official capability",
+      "type": "产品官方",
+      "url": "https://developers.tripo3d.ai/en/docs/models-texture",
+      "checked": "2026-10-12",
+      "note": "PBR option plus extreme 8K tier; extra credits and model settings, disclosed in EU footer. No promise actual material accuracy or free/default 8K."
+    },
+    {
+      "key": "r6-R6-A-FORMAT",
+      "title": "R6-A-FORMAT official capability",
+      "type": "产品官方",
+      "url": "https://developers.tripo3d.ai/en/docs/introduction",
+      "checked": "2026-10-12",
+      "note": "Generated GLB result plus format conversion tasks; not all formats returned in one call. Caller builds and validates its display/integration."
+    },
+    {
+      "key": "r6-product-input",
+      "title": "用户提供：Teams 与 API 产品卖点全览及阿里云／华为对话案例",
+      "type": "私有输入与结构参考",
+      "note": "仅提炼并核对产品能力和表达结构，不发布原PDF、联系人或截图。"
+    }
   ],
   "cases": [
-    {"title":"Hired / B2Linked","url":"https://business.linkedin.com/advertise/customer-stories/hired-and-b2linked","observation":"先用相关性问题，再给匹配资源或注册入口。官方历史案例，页面未标发布日期。","application":"同组围绕同一已确认任务写三个开场；读者选择直接行动、流程说明或首次评估时，后续各回答一个不同的问题。","conclusion":"沿用四组原定人群；案例只用于理解分支，不作为拆角色或增加定向的依据。"},
-    {"title":"Autodesk · 2020-12-17","url":"https://www.linkedin.com/business/marketing/blog/content-marketing/how-autodesk-used-retargeting-and-conversation-ads-to-supercharge","observation":"向看过相关项目管理内容的受众提供具体资源，延续既有兴趣。","application":"Teams再营销应承接用户已看过的场景；本轮资格与真实案例尚未补齐，继续暂缓。","conclusion":"学习承接逻辑，不把历史案例业绩搬成Tripo预测。"},
-    {"title":"LucaNet","url":"https://business.linkedin.com/content/dam/me/business/en-us/marketing-solutions/case-studies/pdfs/lucanet-full-casestudy.pdf","observation":"询问决策者关注的问题，据此提供匹配的活动内容。官方历史PDF，未标具体发布日期。","application":"流程分支讲操作和责任；首次评估分支讲范围和验收，两条回复不重复首屏。","conclusion":"只能提供实际存在的内容；不虚构可下载指南、案例页或demo。"},
-    {"title":"提供的PDF · Huawei / Jabra / Toucan Toco","observation":"第5页区分联系与技术了解；第9页保留低意向信息路径；第10页从行业正在发生的工作需要切入。","application":"直接行动、流程说明、首次评估三种意图。当前有真实申请页和Quick Start，尚无专属demo或新指南。","conclusion":"保留选择权，但每个出口都必须能兑现；不是自由输入的AI聊天。"}
+    {
+      "title": "Hired / B2Linked",
+      "url": "https://business.linkedin.com/advertise/customer-stories/hired-and-b2linked",
+      "observation": "先用相关性问题，再给匹配资源或注册入口。官方历史案例，页面未标发布日期。",
+      "application": "同组围绕同一已确认任务写三个开场；读者选择直接行动、流程说明或首次评估时，后续各回答一个不同的问题。",
+      "conclusion": "沿用四组原定人群；案例只用于理解分支，不作为拆角色或增加定向的依据。"
+    },
+    {
+      "title": "Autodesk · 2020-12-17",
+      "url": "https://www.linkedin.com/business/marketing/blog/content-marketing/how-autodesk-used-retargeting-and-conversation-ads-to-supercharge",
+      "observation": "向看过相关项目管理内容的受众提供具体资源，延续既有兴趣。",
+      "application": "Teams再营销应承接用户已看过的场景；本轮资格与真实案例尚未补齐，继续暂缓。",
+      "conclusion": "学习承接逻辑，不把历史案例业绩搬成Tripo预测。"
+    },
+    {
+      "title": "LucaNet",
+      "url": "https://business.linkedin.com/content/dam/me/business/en-us/marketing-solutions/case-studies/pdfs/lucanet-full-casestudy.pdf",
+      "observation": "询问决策者关注的问题，据此提供匹配的活动内容。官方历史PDF，未标具体发布日期。",
+      "application": "流程分支讲操作和责任；首次评估分支讲范围和验收，两条回复不重复首屏。",
+      "conclusion": "只能提供实际存在的内容；不虚构可下载指南、案例页或demo。"
+    },
+    {
+      "title": "提供的PDF · Huawei / Jabra / Toucan Toco",
+      "observation": "第5页区分联系与技术了解；第9页保留低意向信息路径；第10页从行业正在发生的工作需要切入。",
+      "application": "直接行动、流程说明、首次评估三种意图。当前有真实申请页和Quick Start，尚无专属demo或新指南。",
+      "conclusion": "保留选择权，但每个出口都必须能兑现；不是自由输入的AI聊天。"
+    }
   ],
   "claimAudit": [
-    {"item":"T-01 · 团队资产工作区","product":"teams","status":"confirmed · 能力已核对","sourceKey":"team-workspace","checked":"2026-10-11","finding":"Team Plan可用于创建、管理和分享团队3D资产。","change":"可以讲集中资产与复用；不写多人实时共编、内置审批、完整项目管理或自动版本控制。"},
-    {"item":"T-02 · 共享模型的可见性","product":"teams","status":"conditional · 按权限设置","sourceKey":"team-workspace","checked":"2026-10-11","finding":"成员按团队可见性设置访问共享模型。","change":"不称所有模型默认向全员开放，也不把共享资产扩大为Teams与API共用权益。"},
-    {"item":"T-03 · 团队试用咨询","product":"teams","status":"conditional · 留资不等于开通","sourceKey":"team-program","checked":"2026-10-12","finding":"官方试用发放受已注册Tripo邮箱、条款及名额条件约束。","change":"主CTA改Discuss a team trial；先留资沟通，发放前核对注册邮箱与条件，不保证获批或自动开通。"},
-    {"item":"L-01 · 原生留资表单","product":"teams","status":"conditional · 方案不是后台配置","sourceKey":"linkedin-conversation","checked":"2026-10-12","finding":"Lead generation对话广告需打开原生表单的CTA，每creative仅关联一张表单。","change":"Teams六版的全部留资CTA关联同一拟配置表单。网站只模拟表单和感谢页，未发送、未收集资料、未创建后台表单，也未承诺CRM自动同步。"},
-    {"item":"A-01 · 自有产品中的3D生成","product":"api","status":"confirmed · 能力已核对","sourceKey":"api-introduction","checked":"2026-10-11","finding":"开发者可将图片或文字生成3D的能力接入自己的产品。","change":"目录关联、记录管理、模型审核与产品展示由调用方实现；这些场景不等于API内置目录或原生查看器。"},
-    {"item":"A-02 · 异步任务与结果取回","product":"api","status":"conditional · 成功后取回","sourceKey":"api-quick-start","checked":"2026-10-11","finding":"提交任务取得task ID，查询状态，成功后获取输出。当前model_url约5分钟过期。","change":"不画成同步即时返回；工程验收应含失败／取消处理和及时下载，不能承诺永久下载链接。"},
-    {"item":"A-03 · 接到后续工具","product":"api","status":"conditional · 自有开发接入","sourceKey":"api-introduction","checked":"2026-10-11","finding":"输出可由开发者连接到资产工具、审核步骤或自有产品体验。","change":"不称免开发、已安装插件、端到端内置方案；未测试界面只能作为集成示意。"},
-    {"item":"Q-01 · 资产采用与质量验收","product":"all","status":"interpretation · 本轮审核约定","sourceKey":"api-quick-start","checked":"2026-10-11","finding":"文案将生成成功与模型采用分开，由团队核对形状、风格、材质及技术适用性。","change":"这是本轮责任边界，不是官方质量保证；不写自动game-ready、精准SKU还原、无需完善或必然提高收益。"}
+    {
+      "item": "T-01 · 团队资产工作区",
+      "product": "teams",
+      "status": "confirmed · 能力已核对",
+      "sourceKey": "team-workspace",
+      "checked": "2026-10-11",
+      "finding": "Team Plan可用于创建、管理和分享团队3D资产。",
+      "change": "可以讲集中资产与复用；不写多人实时共编、内置审批、完整项目管理或自动版本控制。"
+    },
+    {
+      "item": "T-02 · 共享模型的可见性",
+      "product": "teams",
+      "status": "conditional · 按权限设置",
+      "sourceKey": "team-workspace",
+      "checked": "2026-10-11",
+      "finding": "成员按团队可见性设置访问共享模型。",
+      "change": "不称所有模型默认向全员开放，也不把共享资产扩大为Teams与API共用权益。"
+    },
+    {
+      "item": "T-03 · 团队试用咨询",
+      "product": "teams",
+      "status": "conditional · 留资不等于开通",
+      "sourceKey": "team-program",
+      "checked": "2026-10-12",
+      "finding": "官方试用发放受已注册Tripo邮箱、条款及名额条件约束。",
+      "change": "主CTA改Discuss a team trial；先留资沟通，发放前核对注册邮箱与条件，不保证获批或自动开通。"
+    },
+    {
+      "item": "L-01 · 原生留资表单",
+      "product": "teams",
+      "status": "conditional · 方案不是后台配置",
+      "sourceKey": "linkedin-conversation",
+      "checked": "2026-10-12",
+      "finding": "Lead generation对话广告需打开原生表单的CTA，每creative仅关联一张表单。",
+      "change": "Teams六版的全部留资CTA关联同一拟配置表单。网站只模拟表单和感谢页，未发送、未收集资料、未创建后台表单，也未承诺CRM自动同步。"
+    },
+    {
+      "item": "A-01 · 自有产品中的3D生成",
+      "product": "api",
+      "status": "confirmed · 能力已核对",
+      "sourceKey": "api-introduction",
+      "checked": "2026-10-11",
+      "finding": "开发者可将图片或文字生成3D的能力接入自己的产品。",
+      "change": "目录关联、记录管理、模型审核与产品展示由调用方实现；这些场景不等于API内置目录或原生查看器。"
+    },
+    {
+      "item": "A-02 · 异步任务与结果取回",
+      "product": "api",
+      "status": "conditional · 成功后取回",
+      "sourceKey": "api-quick-start",
+      "checked": "2026-10-11",
+      "finding": "提交任务取得task ID，查询状态，成功后获取输出。当前model_url约5分钟过期。",
+      "change": "不画成同步即时返回；工程验收应含失败／取消处理和及时下载，不能承诺永久下载链接。"
+    },
+    {
+      "item": "A-03 · 接到后续工具",
+      "product": "api",
+      "status": "conditional · 自有开发接入",
+      "sourceKey": "api-introduction",
+      "checked": "2026-10-11",
+      "finding": "输出可由开发者连接到资产工具、审核步骤或自有产品体验。",
+      "change": "不称免开发、已安装插件、端到端内置方案；未测试界面只能作为集成示意。"
+    },
+    {
+      "item": "Q-01 · 资产采用与质量验收",
+      "product": "all",
+      "status": "interpretation · 本轮审核约定",
+      "sourceKey": "api-quick-start",
+      "checked": "2026-10-11",
+      "finding": "文案将生成成功与模型采用分开，由团队核对形状、风格、材质及技术适用性。",
+      "change": "这是本轮责任边界，不是官方质量保证；不写自动game-ready、精准SKU还原、无需完善或必然提高收益。"
+    },
+    {
+      "item": "R6-T-GENERATION",
+      "product": "teams",
+      "status": "confirmed",
+      "sourceKey": "r6-R6-T-GENERATION",
+      "sourceUrls": [
+        "https://www.tripo3d.ai/features/text-to-3d-model",
+        "https://www.tripo3d.ai/features/image-to-3d-model"
+      ],
+      "checked": "2026-10-12",
+      "finding": "Turn text or images into 3D character and prop models. / Generate character and prop models from text or images.",
+      "findingZh": "用文本或图片生成 3D 角色与道具模型。 / 用文本或图片生成角色与道具模型。",
+      "change": "Text workflow may generate a reference image before 3D. No fixed speed, exact reconstruction or automatic production approval."
+    },
+    {
+      "item": "R6-T-HD",
+      "product": "teams",
+      "status": "conditional",
+      "sourceKey": "r6-R6-T-HD",
+      "sourceUrls": [
+        "https://www.tripo3d.ai/programs/team-program"
+      ],
+      "checked": "2026-10-12",
+      "finding": "HD Model for up to 2M polygons",
+      "findingZh": "HD Model 生成最高 200 万多边形的模型",
+      "change": "Upper capability limit, not every output's count or target-game performance guarantee."
+    },
+    {
+      "item": "R6-T-MESH",
+      "product": "teams",
+      "status": "confirmed",
+      "sourceKey": "r6-R6-T-MESH",
+      "sourceUrls": [
+        "https://www.tripo3d.ai/programs/team-program",
+        "https://www.tripo3d.ai/features/image-to-3d-model"
+      ],
+      "checked": "2026-10-12",
+      "finding": "Smart Mesh for quad meshes / Smart Mesh for quad topology",
+      "findingZh": "Smart Mesh 生成四边面网格 / Smart Mesh 生成四边面拓扑",
+      "change": "Quad-mesh capability; project-specific review remains needed, not zero-cleanup or a completed game."
+    },
+    {
+      "item": "R6-T-PBR",
+      "product": "teams",
+      "status": "confirmed",
+      "sourceKey": "r6-R6-T-PBR",
+      "sourceUrls": [
+        "https://www.tripo3d.ai/features/image-to-3d-model",
+        "https://www.tripo3d.ai/programs/team-program"
+      ],
+      "checked": "2026-10-12",
+      "finding": "refine PBR materials / add PBR materials with 8K texture options",
+      "findingZh": "精修 PBR 材质 / 添加 PBR 材质，并可选用 8K 贴图",
+      "change": "Available material tools and optional resolution tier; not every texture automatically approved for the project."
+    },
+    {
+      "item": "R6-T-TEAM",
+      "product": "teams",
+      "status": "conditional",
+      "sourceKey": "r6-R6-T-TEAM",
+      "sourceUrls": [
+        "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan",
+        "https://www.tripo3d.ai/programs/team-program"
+      ],
+      "checked": "2026-10-12",
+      "finding": "Pool team credits; find and reuse models in a shared library.",
+      "findingZh": "使用团队共享积分，在共享资产库中查找并复用模型。",
+      "change": "Access follows team visibility settings; admins retain workspace visibility. Team credits are not API credits. No quota number used."
+    },
+    {
+      "item": "R6-T-RIG-EXPORT",
+      "product": "teams",
+      "status": "conditional",
+      "sourceKey": "r6-R6-T-RIG-EXPORT",
+      "sourceUrls": [
+        "https://www.tripo3d.ai/programs/team-program",
+        "https://www.tripo3d.ai/features/image-to-3d-model"
+      ],
+      "checked": "2026-10-12",
+      "finding": "Rig suitable characters and export to Blender, Unity or Unreal.",
+      "findingZh": "为适用的角色绑定骨骼，再导出到 Blender、Unity 或 Unreal 中继续使用。",
+      "change": "Rigging for suitable models, export/plugins for subsequent work, not a guarantee every character rigs or a game ships."
+    },
+    {
+      "item": "R6-A-GENERATION",
+      "product": "api",
+      "status": "confirmed",
+      "sourceKey": "r6-R6-A-GENERATION",
+      "sourceUrls": [
+        "https://developers.tripo3d.ai/en/docs/introduction"
+      ],
+      "checked": "2026-10-12",
+      "finding": "Text or images to 3D characters and props. / Single-image or multi-view generation for product models.",
+      "findingZh": "根据文字或图片生成 3D 角色与道具。 / 根据单张图片或多视角图片生成产品模型。",
+      "change": "Supported inputs, selected model and asynchronous task completion; not exact CAD/product dimensions."
+    },
+    {
+      "item": "R6-A-MESH",
+      "product": "api",
+      "status": "conditional",
+      "sourceKey": "r6-R6-A-MESH",
+      "sourceUrls": [
+        "https://developers.tripo3d.ai/en/docs/mesh-decimate"
+      ],
+      "checked": "2026-10-12",
+      "finding": "Polycount control and supported quad topology for mesh prep.",
+      "findingZh": "控制面数，选用受支持的四边面拓扑，准备模型网格。",
+      "change": "Target counts/quad support depend on algorithm/model and parameters; separate processing tasks, no engine-performance promise."
+    },
+    {
+      "item": "R6-A-PBR-RIG",
+      "product": "api",
+      "status": "conditional",
+      "sourceKey": "r6-R6-A-PBR-RIG",
+      "sourceUrls": [
+        "https://developers.tripo3d.ai/en/docs/models-texture",
+        "https://developers.tripo3d.ai/en/docs/animations-rig-check",
+        "https://developers.tripo3d.ai/en/docs/introduction"
+      ],
+      "checked": "2026-10-12",
+      "finding": "PBR textures for material detail; rig supported characters for animation.",
+      "findingZh": "用 PBR 纹理表现材质细节，为受支持的角色绑定骨骼以用于动画。",
+      "change": "PBR materials available; rig-check may return false. No promise arbitrary mesh supports rigging or passes animation QA."
+    },
+    {
+      "item": "R6-A-8K",
+      "product": "api",
+      "status": "conditional",
+      "sourceKey": "r6-R6-A-8K",
+      "sourceUrls": [
+        "https://developers.tripo3d.ai/en/docs/models-texture"
+      ],
+      "checked": "2026-10-12",
+      "finding": "8K PBR texture options for close-up material detail.",
+      "findingZh": "可选 8K PBR 纹理，表现近景中的材质细节。",
+      "change": "PBR option plus extreme 8K tier; extra credits and model settings, disclosed in EU footer. No promise actual material accuracy or free/default 8K."
+    },
+    {
+      "item": "R6-A-FORMAT",
+      "product": "api",
+      "status": "conditional",
+      "sourceKey": "r6-R6-A-FORMAT",
+      "sourceUrls": [
+        "https://developers.tripo3d.ai/en/docs/introduction",
+        "https://developers.tripo3d.ai/en/docs/mesh-decimate",
+        "https://developers.tripo3d.ai/en/docs/models-convert"
+      ],
+      "checked": "2026-10-12",
+      "finding": "Retrieve GLB or convert to FBX for your tools. / GLB output and USDZ conversion for your own product display.",
+      "findingZh": "取回 GLB，或转换为 FBX 后接入自己的工具。 / 取回 GLB，或转换为 USDZ，衔接自有产品展示。",
+      "change": "Generated GLB result plus format conversion tasks; not all formats returned in one call. Caller builds and validates its display/integration."
+    }
   ],
   "brandAudit": [
-    {"item":"Tripo语气","status":"部分已核对","sourceKey":"brand-language","finding":"专业但不堆术语；避免低龄娱乐语气；给读者选择而非替用户决策。","change":"用一个具体工作问题开场，保留直接行动与了解流程。仍有未读章节，不宣布品牌全文验收。"},
-    {"item":"信息密度与语调","status":"部分章节已核对","sourceKey":"brand-language","finding":"已读语调强度和切换规则的部分正文；用户价值优先，控制信息密度，段内保持表达一致。","change":"把技术边界留给对应分支和核对区，首条只讲一项工作需要；删除无依据的数字利益和混杂促销语气。其他章节仍待核查。"},
-    {"item":"产品定位与价值","status":"已核对","sourceKey":"product-context","finding":"资产应嵌进现有工作流；按用途而不是按积分叙事。","change":"Teams围绕找资产、复用、项目；API围绕工具接入、成功取回、业务展示。艺术控制和工具整合仍由团队完成。"},
-    {"item":"品牌词与CTA","status":"已核对文字","sourceKey":"visual-guideline","finding":"AI、3D大小写正确；行动需对应真实内容，不使用泛泛免费利益点。","change":"统一Tripo Studio Team Plan / Tripo API；Teams主CTA为Discuss a team trial，API保留Open Quick Start。不虚构Guide、客户案例、节省比例、收益或限时优惠。"},
-    {"item":"AI内容披露／国内外适用范围","status":"待核对","sourceKey":"compliance","finding":"尚未读到规范正文，不能从标题推断具体标签、元数据或适用范围。","change":"公开页保持创意草稿／未投放标记。最终是否需要AI标签等，待正文与实际渠道核查；不称合规已通过。"},
-    {"item":"模型、证据与配图","status":"待制作和验收","sourceKey":"visual-guideline","finding":"本轮是文案与路径迭代，不是完整广告视觉交付。不能以AI概念图或假布线代替真实生成证明。","change":"后续通过素材中台选取真实来源，再核对输入输出、立体感、锐利边缘、尺寸／Logo／语言和权利；不自动复用历史不匹配图片。"},
-    {"item":"正式投放配置","status":"官方sender用户已确认／表单后台待配置","sourceKey":"linkedin-create","finding":"用户确认Tripo官方sender已开通。审稿网页不是Campaign Manager，本次不改变账户。","change":"Teams提供Lead generation原生留资审稿方案；API维持原路径。表单是否实际建好、线索权限、区域与承接仍待后台验收，不虚构部署或线索收集。"}
+    {
+      "item": "Tripo语气",
+      "status": "部分已核对",
+      "sourceKey": "brand-language",
+      "finding": "专业但不堆术语；避免低龄娱乐语气；给读者选择而非替用户决策。",
+      "change": "用一个具体工作问题开场，保留直接行动与了解流程。仍有未读章节，不宣布品牌全文验收。"
+    },
+    {
+      "item": "信息密度与语调",
+      "status": "部分章节已核对",
+      "sourceKey": "brand-language",
+      "finding": "已读语调强度和切换规则的部分正文；用户价值优先，控制信息密度，段内保持表达一致。",
+      "change": "把技术边界留给对应分支和核对区，首条只讲一项工作需要；删除无依据的数字利益和混杂促销语气。其他章节仍待核查。"
+    },
+    {
+      "item": "产品定位与价值",
+      "status": "已核对",
+      "sourceKey": "product-context",
+      "finding": "资产应嵌进现有工作流；按用途而不是按积分叙事。",
+      "change": "Teams围绕找资产、复用、项目；API围绕工具接入、成功取回、业务展示。艺术控制和工具整合仍由团队完成。"
+    },
+    {
+      "item": "品牌词与CTA",
+      "status": "已核对文字",
+      "sourceKey": "visual-guideline",
+      "finding": "AI、3D大小写正确；行动需对应真实内容，不使用泛泛免费利益点。",
+      "change": "统一Tripo Studio Team Plan / Tripo API；Teams主CTA为Discuss a team trial，API保留Open Quick Start。不虚构Guide、客户案例、节省比例、收益或限时优惠。"
+    },
+    {
+      "item": "AI内容披露／国内外适用范围",
+      "status": "待核对",
+      "sourceKey": "compliance",
+      "finding": "尚未读到规范正文，不能从标题推断具体标签、元数据或适用范围。",
+      "change": "公开页保持创意草稿／未投放标记。最终是否需要AI标签等，待正文与实际渠道核查；不称合规已通过。"
+    },
+    {
+      "item": "模型、证据与配图",
+      "status": "待制作和验收",
+      "sourceKey": "visual-guideline",
+      "finding": "本轮是文案与路径迭代，不是完整广告视觉交付。不能以AI概念图或假布线代替真实生成证明。",
+      "change": "后续通过素材中台选取真实来源，再核对输入输出、立体感、锐利边缘、尺寸／Logo／语言和权利；不自动复用历史不匹配图片。"
+    },
+    {
+      "item": "正式投放配置",
+      "status": "官方sender用户已确认／表单后台待配置",
+      "sourceKey": "linkedin-create",
+      "finding": "用户确认Tripo官方sender已开通。审稿网页不是Campaign Manager，本次不改变账户。",
+      "change": "Teams提供Lead generation原生留资审稿方案；API维持原路径。表单是否实际建好、线索权限、区域与承接仍待后台验收，不虚构部署或线索收集。"
+    }
   ],
   "launchChecklist": [
-    {"item":"固定人群与文案变化范围","status":"已按用户要求收窄","detail":"四组原定人群与方向不变。每组A／B／C只变化主题与开场表达，主体说明、收尾、CTA、两条回复和目的页相同。12版供审稿，不规定同时上线数量，也不新增广告组、预算或策略。"},
-    {"item":"目标与表单","status":"待配置","detail":"Website visits至少1个网站CTA。若目标是Lead generation，每条creative需关联1张真实原生Lead Gen Form并有打开它的按钮，包含隐私政策与确认页。"},
-    {"item":"Sender","status":"用户已确认开通","detail":"2026-10-12用户确认自己的Tripo官方领英sender已开通。本网站使用该身份，不再要求另找个人sender；本次未进入后台独立验证或修改任何权限。"},
-    {"item":"按钮和路径","status":"文案结构已检查","detail":"每版3节点、5自定义＋首条1系统按钮。Teams主按钮打开原生留资模拟，两条回复仍可进入同一表单；API仍至Quick Start。感谢页官网入口是后续了解，不再把跳官网当作Teams主要留资动作。"},
-    {"item":"字段、URL与宏","status":"基础文本已检查／后台待查","detail":"可选subject≤60、CTA≤25、正文8000硬上限（本稿自设≤500）、URL≤2000。当前不使用个性化宏；上线时核对宏展开与回退、UTM编码、实际落地页与跳转。"},
-    {"item":"区域与语言","status":"待账户核对","detail":"欧洲EEA／瑞士仅opt-in；英文Sponsored Messaging仅覆盖英文profile。当地语言须另设语言广告组，中文仅内部释义。"},
-    {"item":"图像制作","status":"待素材中台","detail":"desktop banner最大300×250、PNG/JPG、≤2MB；可选正文图250×250、PNG/JPG、≤5MB。实际展示因设备不同，不能把两种图混成单图广告封面。"},
-    {"item":"发送前预览","status":"未发送","detail":"在Campaign Manager以View/Flowchart逐条检查，再经用户授权做后台测试；本网站不会实际发站内信或提交申请。"},
-    {"item":"业务衡量","status":"待数据","detail":"分别记录发送、打开、分支点击、官网到达、提交及有效线索。点击不等于商机；API首次成功调用不等于付费，Teams申请不等于成交。保留creative版本ID，Flowchart最近版点击不与跨版本汇总混算。"}
+    {
+      "item": "固定人群与文案变化范围",
+      "status": "已按用户要求收窄",
+      "detail": "四组原定人群与方向不变。每组A／B／C只变化主题与开场表达，主体说明、收尾、CTA、两条回复和目的页相同。12版供审稿，不规定同时上线数量，也不新增广告组、预算或策略。"
+    },
+    {
+      "item": "目标与表单",
+      "status": "待配置",
+      "detail": "Website visits至少1个网站CTA。若目标是Lead generation，每条creative需关联1张真实原生Lead Gen Form并有打开它的按钮，包含隐私政策与确认页。"
+    },
+    {
+      "item": "Sender",
+      "status": "用户已确认开通",
+      "detail": "2026-10-12用户确认自己的Tripo官方领英sender已开通。本网站使用该身份，不再要求另找个人sender；本次未进入后台独立验证或修改任何权限。"
+    },
+    {
+      "item": "按钮和路径",
+      "status": "文案结构已检查",
+      "detail": "每版3节点、5自定义＋首条1系统按钮。Teams主按钮打开原生留资模拟，两条回复仍可进入同一表单；API仍至Quick Start。感谢页官网入口是后续了解，不再把跳官网当作Teams主要留资动作。"
+    },
+    {
+      "item": "字段、URL与宏",
+      "status": "基础文本已检查／后台待查",
+      "detail": "可选subject≤60、CTA≤25、正文8000硬上限（本稿自设≤500）、URL≤2000。当前不使用个性化宏；上线时核对宏展开与回退、UTM编码、实际落地页与跳转。"
+    },
+    {
+      "item": "区域与语言",
+      "status": "待账户核对",
+      "detail": "欧洲EEA／瑞士仅opt-in；英文Sponsored Messaging仅覆盖英文profile。当地语言须另设语言广告组，中文仅内部释义。"
+    },
+    {
+      "item": "图像制作",
+      "status": "待素材中台",
+      "detail": "desktop banner最大300×250、PNG/JPG、≤2MB；可选正文图250×250、PNG/JPG、≤5MB。实际展示因设备不同，不能把两种图混成单图广告封面。"
+    },
+    {
+      "item": "发送前预览",
+      "status": "未发送",
+      "detail": "在Campaign Manager以View/Flowchart逐条检查，再经用户授权做后台测试；本网站不会实际发站内信或提交申请。"
+    },
+    {
+      "item": "业务衡量",
+      "status": "待数据",
+      "detail": "分别记录发送、打开、分支点击、官网到达、提交及有效线索。点击不等于商机；API首次成功调用不等于付费，Teams申请不等于成交。保留creative版本ID，Flowchart最近版点击不与跨版本汇总混算。"
+    }
   ]
 }
