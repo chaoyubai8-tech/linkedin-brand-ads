@@ -6,11 +6,11 @@
     {id:'api-us',label:'API · 美国游戏＋3D资产'},
     {id:'api-eu',label:'API · 欧洲企业内容'}
   ];
-  const modes=['path','preview'];
+  const modes=['preview','path'];
   const $=id=>document.getElementById(id);
   const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const safeUrl=value=>{try{if(!/^https?:\/\//i.test(String(value)))return '';const url=new URL(String(value));return ['http:','https:'].includes(url.protocol)?url.href:'';}catch{return '';}};
-  let data, selected, mode='path', steps=[], route=null, activeForm=null;
+  let data, selected, mode='preview', steps=[], route=null, activeForm=null;
   let renderReady=false;
   const activeGroup=()=>groups.find(group=>group.id===selected?.groupId)||groups[0];
   const getNode=id=>selected?.nodes.find(node=>node.id===id);
@@ -31,7 +31,11 @@
     element.focus({preventScroll:true});element.scrollIntoView({block:'center',behavior:'auto'});
   }
   const paragraphs=text=>`<div class="message-body">${esc(text)}</div>`;
-  function resetThread(){steps=[{id:'intro',choice:null}];route=null;activeForm=null;}
+  function resetThread(){
+    steps=[{id:'intro',choice:null}];route=null;activeForm=null;
+    const button=getNode('intro')?.buttons.find(item=>item.action==='leadgen');
+    if(button&&getLeadForm(button.formId)?.simulationOnly===true)activeForm={id:button.formId,nodeId:'intro',buttonId:button.id,stage:'form'};
+  }
   function setHash(){const hash=`#${selected.id}/${mode}`;if(location.hash!==hash)history.replaceState(null,'',hash);}
   function choose(id,shouldFocus=false){
     const variant=data.variants.find(item=>item.id===id);if(!variant)return;
@@ -144,7 +148,7 @@
     const button=event.target.closest('button');if(!button||!renderReady)return;
     if(button.dataset.group){choose(data.variants.find(item=>item.groupId===button.dataset.group).id,true);return;}
     if(button.dataset.variant){choose(button.dataset.variant,true);return;}
-    if(button.dataset.mode){mode=modes.includes(button.dataset.mode)?button.dataset.mode:'path';renderModeNav();setHash();return;}
+    if(button.dataset.mode){mode=modes.includes(button.dataset.mode)?button.dataset.mode:'preview';renderModeNav();setHash();return;}
     if(button.hasAttribute('data-reset')){resetThread();renderPreview();$('mode-preview').querySelector('[data-reset]').focus({preventScroll:true});announce('已回到开场。');return;}
     if(button.dataset.copy){copy(button.dataset.copy);return;}
     if(button.hasAttribute('data-download')){download();return;}
@@ -191,14 +195,14 @@
   function restoreHash(){
     if(!data)return;
     const [id,requestedMode]=location.hash.slice(1).split('/');
-    selected=data.variants.find(item=>item.id===id)||selected||data.variants[0];mode=modes.includes(requestedMode)?requestedMode:'path';resetThread();renderAll();setHash();
+    selected=data.variants.find(item=>item.id===id)||selected||data.variants[0];mode=modes.includes(requestedMode)?requestedMode:'preview';resetThread();renderAll();setHash();
   }
   window.addEventListener('hashchange',restoreHash);
   async function start(){
     try{
       const response=await fetch('copy.json',{cache:'no-cache'});if(!response.ok)throw new Error('copy unavailable');data=await response.json();
       if(!Array.isArray(data.variants)||data.variants.length!==12||data.variants.some(item=>!groups.some(group=>group.id===item.groupId)||!Array.isArray(item.nodes)||!item.nodes.find(node=>node.id==='intro')))throw new Error('copy invalid');
-      const [id,requestedMode]=location.hash.slice(1).split('/');selected=data.variants.find(item=>item.id===id)||data.variants[0];mode=modes.includes(requestedMode)?requestedMode:'path';
+      const [id,requestedMode]=location.hash.slice(1).split('/');selected=data.variants.find(item=>item.id===id)||data.variants[0];mode=modes.includes(requestedMode)?requestedMode:'preview';
       resetThread();renderAll();setHash();renderReady=true;
     }catch{
       renderReady=false;mode='path';renderModeNav();

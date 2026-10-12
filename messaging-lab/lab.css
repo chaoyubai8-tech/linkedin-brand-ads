@@ -154,7 +154,7 @@ footer a{display:inline-flex;min-height:44px;align-items:center}
   .variant-sidebar{position:sticky;top:24px;margin-bottom:0}
   .group-nav{margin-bottom:32px}
 }
-@media(min-width:1220px){.bilingual-preview{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:20px}}
+@media(min-width:900px){.bilingual-preview{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}}
 @media(max-width:719px){
   .intro{flex-direction:column;gap:12px}
   .version-note{text-align:left}
