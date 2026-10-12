@@ -1,7 +1,7 @@
 {
-  "version": "2026-10-11-messaging-lab-r2",
+  "version": "2026-10-12-messaging-lab-r3-leadgen",
   "status": "创意候选／未投放。Studio定位与视觉规范文字已核对；品牌语言首页及3.3/3.4部分已读，尚未完整通读，L1合规正文待读取，配图与账户待验收。",
-  "evidenceNote": "严格沿用用户已确认的四组人群和方向，不增加角色、定向、场景或策略。每组3个文案版本只改变主题与开场表达；产品说明、收尾、CTA、两条回复和正式目的页逐字固定。文案数量不代表广告组或上线数量，未设置新的预算或投放安排。",
+  "evidenceNote": "严格沿用用户已确认的四组人群和方向。每组3个文案版本只改变主题与开场表达，其他主体说明、CTA和回复组内相同。本轮仅将Teams六版改为原生留资审稿方案，API六版文案不变；不新增人群、场景、预算或上线数量。网站表单仅模拟，不会收集或提交资料。",
   "sourceMap": {
     "approved-audiences": "用户本轮确认：美国 Teams 游戏与 API 游戏＋3D 资产讲工作流程；欧洲 Teams 游戏与 API 企业内容讲具体业务用途。",
     "product-context": "Tripo Studio Context · 2026-10-08；本轮已读正文。",
@@ -25,10 +25,15 @@
         "team-workspace",
         "brand-language",
         "visual-guideline",
-        "linkedin-spec"
+        "linkedin-spec",
+        "linkedin-form",
+        "linkedin-form-spec",
+        "linkedin-form-fields",
+        "linkedin-conversation",
+        "tripo-privacy"
       ],
-      "footer": "Apply with an email registered with Tripo. Trial access is subject to program terms and availability.",
-      "footerZh": "申请时使用已在 Tripo 注册的邮箱。能否获得试用，以活动条款和可用名额为准。",
+      "footer": "Trial access is subject to program terms and availability. A Tripo-registered email is required before trial benefits can be issued.",
+      "footerZh": "试用以活动条款和可用名额为准。试用权益发放前，需要核对已在 Tripo 注册的邮箱。",
       "id": "TU-01",
       "label": "版本 A · 提问开场",
       "hookStyle": "提问开场",
@@ -40,15 +45,15 @@
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, I’m with Tripo.\n\nStill asking teammates to resend the same character or prop file?\n\nTripo Studio Team Plan gives your game team a shared workspace to create and organize character and prop models. Authorized teammates can find and reuse those assets, rather than request another file handoff.\n\nSee the workflow, or request a team trial.",
-          "messageZh": "你好，我来自 Tripo。\n\n还在请同事重复发送同一个角色或道具文件吗？\n\nTripo Studio 团队版提供共享工作区，让游戏团队创建并整理角色与道具模型。授权成员可以查找并复用这些资产，减少重复索要和交接文件的操作。\n\n可以先了解工作流程，也可以申请团队试用。",
+          "message": "Hi, we’re Tripo.\n\nStill asking teammates to resend the same character or prop file?\n\nTripo Studio Team Plan gives your game team a shared workspace to create and organize character and prop models. Authorized teammates can find and reuse those assets, rather than request another file handoff.\n\nSee the workflow, or leave your details to discuss a team trial. Tripo will follow up about your team's needs and trial availability.",
+          "messageZh": "你好，我们是 Tripo。\n\n还在请同事重复发送同一个角色或道具文件吗？\n\nTripo Studio 团队版提供共享工作区，让游戏团队创建并整理角色与道具模型。授权成员可以查找并复用这些资产，减少重复索要和交接文件的操作。\n\n可以先了解工作流程，也可以留下联系方式，沟通团队试用。Tripo 官方团队将跟进团队需求及试用安排。",
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             },
             {
               "id": "workflow",
@@ -74,30 +79,31 @@
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             }
           ]
         },
         {
           "id": "preflight",
           "labelZh": "回复 · 用同一份资产清单评估",
-          "message": "Choose a short character and prop list from your game. Have the teammates who need those assets test how they create, find and reuse shared models.\n\nReview each output against your project's art and technical requirements. Use the trial application to describe your team and the workflow you want to evaluate.",
-          "messageZh": "从自己的游戏中选一份简短的角色与道具清单，让需要这些资产的成员测试创建、查找和复用共享模型的过程。\n\n再按项目的美术与技术要求评估每个输出。在试用申请中说明团队情况，以及希望评估的工作流程。",
+          "message": "Choose a short character and prop list from your game. Have the teammates who need those assets test how they create, find and reuse shared models.\n\nReview each output against your project's art and technical requirements. Leave your contact details to discuss this workflow and a team trial with Tripo.",
+          "messageZh": "从自己的游戏中选一份简短的角色与道具清单，让需要这些资产的成员测试创建、查找和复用共享模型的过程。\n\n再按项目的美术与技术要求评估每个输出。留下联系方式，与 Tripo 官方团队沟通这项工作流程及团队试用。",
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             }
           ]
         }
       ],
-      "reviewStatus": "部分品牌核对／创意候选／未投放"
+      "objective": "lead-generation",
+      "reviewStatus": "部分品牌核对／原生留资审稿／未配置后台表单／未投放"
     },
     {
       "groupId": "teams-us",
@@ -113,10 +119,15 @@
         "team-workspace",
         "brand-language",
         "visual-guideline",
-        "linkedin-spec"
+        "linkedin-spec",
+        "linkedin-form",
+        "linkedin-form-spec",
+        "linkedin-form-fields",
+        "linkedin-conversation",
+        "tripo-privacy"
       ],
-      "footer": "Apply with an email registered with Tripo. Trial access is subject to program terms and availability.",
-      "footerZh": "申请时使用已在 Tripo 注册的邮箱。能否获得试用，以活动条款和可用名额为准。",
+      "footer": "Trial access is subject to program terms and availability. A Tripo-registered email is required before trial benefits can be issued.",
+      "footerZh": "试用以活动条款和可用名额为准。试用权益发放前，需要核对已在 Tripo 注册的邮箱。",
       "id": "TU-02",
       "label": "版本 B · 直接陈述",
       "hookStyle": "直接陈述",
@@ -128,15 +139,15 @@
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, I’m with Tripo.\n\nCreate, organize and reuse your game's 3D assets in a shared workspace.\n\nTripo Studio Team Plan gives your game team a shared workspace to create and organize character and prop models. Authorized teammates can find and reuse those assets, rather than request another file handoff.\n\nSee the workflow, or request a team trial.",
-          "messageZh": "你好，我来自 Tripo。\n\n在共享工作区中创建、整理和复用游戏 3D 资产。\n\nTripo Studio 团队版提供共享工作区，让游戏团队创建并整理角色与道具模型。授权成员可以查找并复用这些资产，减少重复索要和交接文件的操作。\n\n可以先了解工作流程，也可以申请团队试用。",
+          "message": "Hi, we’re Tripo.\n\nCreate, organize and reuse your game's 3D assets in a shared workspace.\n\nTripo Studio Team Plan gives your game team a shared workspace to create and organize character and prop models. Authorized teammates can find and reuse those assets, rather than request another file handoff.\n\nSee the workflow, or leave your details to discuss a team trial. Tripo will follow up about your team's needs and trial availability.",
+          "messageZh": "你好，我们是 Tripo。\n\n在共享工作区中创建、整理和复用游戏 3D 资产。\n\nTripo Studio 团队版提供共享工作区，让游戏团队创建并整理角色与道具模型。授权成员可以查找并复用这些资产，减少重复索要和交接文件的操作。\n\n可以先了解工作流程，也可以留下联系方式，沟通团队试用。Tripo 官方团队将跟进团队需求及试用安排。",
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             },
             {
               "id": "workflow",
@@ -162,30 +173,31 @@
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             }
           ]
         },
         {
           "id": "preflight",
           "labelZh": "回复 · 用同一份资产清单评估",
-          "message": "Choose a short character and prop list from your game. Have the teammates who need those assets test how they create, find and reuse shared models.\n\nReview each output against your project's art and technical requirements. Use the trial application to describe your team and the workflow you want to evaluate.",
-          "messageZh": "从自己的游戏中选一份简短的角色与道具清单，让需要这些资产的成员测试创建、查找和复用共享模型的过程。\n\n再按项目的美术与技术要求评估每个输出。在试用申请中说明团队情况，以及希望评估的工作流程。",
+          "message": "Choose a short character and prop list from your game. Have the teammates who need those assets test how they create, find and reuse shared models.\n\nReview each output against your project's art and technical requirements. Leave your contact details to discuss this workflow and a team trial with Tripo.",
+          "messageZh": "从自己的游戏中选一份简短的角色与道具清单，让需要这些资产的成员测试创建、查找和复用共享模型的过程。\n\n再按项目的美术与技术要求评估每个输出。留下联系方式，与 Tripo 官方团队沟通这项工作流程及团队试用。",
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             }
           ]
         }
       ],
-      "reviewStatus": "部分品牌核对／创意候选／未投放"
+      "objective": "lead-generation",
+      "reviewStatus": "部分品牌核对／原生留资审稿／未配置后台表单／未投放"
     },
     {
       "groupId": "teams-us",
@@ -201,10 +213,15 @@
         "team-workspace",
         "brand-language",
         "visual-guideline",
-        "linkedin-spec"
+        "linkedin-spec",
+        "linkedin-form",
+        "linkedin-form-spec",
+        "linkedin-form-fields",
+        "linkedin-conversation",
+        "tripo-privacy"
       ],
-      "footer": "Apply with an email registered with Tripo. Trial access is subject to program terms and availability.",
-      "footerZh": "申请时使用已在 Tripo 注册的邮箱。能否获得试用，以活动条款和可用名额为准。",
+      "footer": "Trial access is subject to program terms and availability. A Tripo-registered email is required before trial benefits can be issued.",
+      "footerZh": "试用以活动条款和可用名额为准。试用权益发放前，需要核对已在 Tripo 注册的邮箱。",
       "id": "TU-03",
       "label": "版本 C · 用途结果开场",
       "hookStyle": "用途结果开场",
@@ -216,15 +233,15 @@
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, I’m with Tripo.\n\nKeep character and prop models within your team's reach.\n\nTripo Studio Team Plan gives your game team a shared workspace to create and organize character and prop models. Authorized teammates can find and reuse those assets, rather than request another file handoff.\n\nSee the workflow, or request a team trial.",
-          "messageZh": "你好，我来自 Tripo。\n\n让角色与道具模型可供团队查找。\n\nTripo Studio 团队版提供共享工作区，让游戏团队创建并整理角色与道具模型。授权成员可以查找并复用这些资产，减少重复索要和交接文件的操作。\n\n可以先了解工作流程，也可以申请团队试用。",
+          "message": "Hi, we’re Tripo.\n\nKeep character and prop models within your team's reach.\n\nTripo Studio Team Plan gives your game team a shared workspace to create and organize character and prop models. Authorized teammates can find and reuse those assets, rather than request another file handoff.\n\nSee the workflow, or leave your details to discuss a team trial. Tripo will follow up about your team's needs and trial availability.",
+          "messageZh": "你好，我们是 Tripo。\n\n让角色与道具模型可供团队查找。\n\nTripo Studio 团队版提供共享工作区，让游戏团队创建并整理角色与道具模型。授权成员可以查找并复用这些资产，减少重复索要和交接文件的操作。\n\n可以先了解工作流程，也可以留下联系方式，沟通团队试用。Tripo 官方团队将跟进团队需求及试用安排。",
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             },
             {
               "id": "workflow",
@@ -250,30 +267,31 @@
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             }
           ]
         },
         {
           "id": "preflight",
           "labelZh": "回复 · 用同一份资产清单评估",
-          "message": "Choose a short character and prop list from your game. Have the teammates who need those assets test how they create, find and reuse shared models.\n\nReview each output against your project's art and technical requirements. Use the trial application to describe your team and the workflow you want to evaluate.",
-          "messageZh": "从自己的游戏中选一份简短的角色与道具清单，让需要这些资产的成员测试创建、查找和复用共享模型的过程。\n\n再按项目的美术与技术要求评估每个输出。在试用申请中说明团队情况，以及希望评估的工作流程。",
+          "message": "Choose a short character and prop list from your game. Have the teammates who need those assets test how they create, find and reuse shared models.\n\nReview each output against your project's art and technical requirements. Leave your contact details to discuss this workflow and a team trial with Tripo.",
+          "messageZh": "从自己的游戏中选一份简短的角色与道具清单，让需要这些资产的成员测试创建、查找和复用共享模型的过程。\n\n再按项目的美术与技术要求评估每个输出。留下联系方式，与 Tripo 官方团队沟通这项工作流程及团队试用。",
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             }
           ]
         }
       ],
-      "reviewStatus": "部分品牌核对／创意候选／未投放"
+      "objective": "lead-generation",
+      "reviewStatus": "部分品牌核对／原生留资审稿／未配置后台表单／未投放"
     },
     {
       "groupId": "teams-eu",
@@ -289,10 +307,15 @@
         "team-workspace",
         "brand-language",
         "visual-guideline",
-        "linkedin-spec"
+        "linkedin-spec",
+        "linkedin-form",
+        "linkedin-form-spec",
+        "linkedin-form-fields",
+        "linkedin-conversation",
+        "tripo-privacy"
       ],
-      "footer": "Apply with an email registered with Tripo. Trial access is subject to program terms and availability.",
-      "footerZh": "申请时使用已在 Tripo 注册的邮箱。能否获得试用，以活动条款和可用名额为准。",
+      "footer": "Trial access is subject to program terms and availability. A Tripo-registered email is required before trial benefits can be issued.",
+      "footerZh": "试用以活动条款和可用名额为准。试用权益发放前，需要核对已在 Tripo 注册的邮箱。",
       "id": "TE-01",
       "label": "版本 A · 提问开场",
       "hookStyle": "提问开场",
@@ -304,15 +327,15 @@
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, I’m with Tripo.\n\nWhich character and prop assets does your game project need?\n\nTripo Studio Team Plan lets your team create and organize character and prop models in a shared workspace. Review and refine the assets in your existing tools, then use the models that meet the project's requirements.\n\nSee the workflow, or request a team trial.",
-          "messageZh": "你好，我来自 Tripo。\n\n游戏项目需要哪些角色与道具资产？\n\nTripo Studio 团队版让团队在共享工作区中创建并整理角色与道具模型。先在已有工具中检查和完善资产，再把符合项目要求的模型用于项目。\n\n可以先了解工作流程，也可以申请团队试用。",
+          "message": "Hi, we’re Tripo.\n\nWhich character and prop assets does your game project need?\n\nTripo Studio Team Plan lets your team create and organize character and prop models in a shared workspace. Review and refine the assets in your existing tools, then use the models that meet the project's requirements.\n\nSee the workflow, or leave your details to discuss a team trial. Tripo will follow up about your team's needs and trial availability.",
+          "messageZh": "你好，我们是 Tripo。\n\n游戏项目需要哪些角色与道具资产？\n\nTripo Studio 团队版让团队在共享工作区中创建并整理角色与道具模型。先在已有工具中检查和完善资产，再把符合项目要求的模型用于项目。\n\n可以先了解工作流程，也可以留下联系方式，沟通团队试用。Tripo 官方团队将跟进团队需求及试用安排。",
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             },
             {
               "id": "workflow",
@@ -338,30 +361,31 @@
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             }
           ]
         },
         {
           "id": "preflight",
           "labelZh": "回复 · 按项目用途评估",
-          "message": "Choose a small part of your game project's asset list. Define how the characters or props will be used, along with the visual and technical requirements.\n\nEvaluate model fit and how the team accesses shared assets. Describe that project in your trial application; generation alone does not complete the game or guarantee commercial results.",
-          "messageZh": "从游戏项目的资产清单中选取一小部分，明确角色或道具的用途，以及美术和技术要求。\n\n评估模型是否适用，以及团队访问共享资产的过程。在试用申请中说明这项项目需求；生成资产本身不等于完成游戏，也不保证商业结果。",
+          "message": "Choose a small part of your game project's asset list. Define how the characters or props will be used, along with the visual and technical requirements.\n\nEvaluate model fit and how the team accesses shared assets. Leave your contact details to discuss the project and trial options with Tripo. Generation alone does not complete the game.",
+          "messageZh": "从游戏项目的资产清单中选取一小部分，明确角色或道具的用途，以及美术和技术要求。\n\n评估模型是否适用，以及团队访问共享资产的过程。留下联系方式，与 Tripo 官方团队沟通项目和试用安排。生成资产本身不等于完成游戏。",
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             }
           ]
         }
       ],
-      "reviewStatus": "部分品牌核对／创意候选／未投放"
+      "objective": "lead-generation",
+      "reviewStatus": "部分品牌核对／原生留资审稿／未配置后台表单／未投放"
     },
     {
       "groupId": "teams-eu",
@@ -377,10 +401,15 @@
         "team-workspace",
         "brand-language",
         "visual-guideline",
-        "linkedin-spec"
+        "linkedin-spec",
+        "linkedin-form",
+        "linkedin-form-spec",
+        "linkedin-form-fields",
+        "linkedin-conversation",
+        "tripo-privacy"
       ],
-      "footer": "Apply with an email registered with Tripo. Trial access is subject to program terms and availability.",
-      "footerZh": "申请时使用已在 Tripo 注册的邮箱。能否获得试用，以活动条款和可用名额为准。",
+      "footer": "Trial access is subject to program terms and availability. A Tripo-registered email is required before trial benefits can be issued.",
+      "footerZh": "试用以活动条款和可用名额为准。试用权益发放前，需要核对已在 Tripo 注册的邮箱。",
       "id": "TE-02",
       "label": "版本 B · 直接陈述",
       "hookStyle": "直接陈述",
@@ -392,15 +421,15 @@
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, I’m with Tripo.\n\nPut character and prop models to work in your game project.\n\nTripo Studio Team Plan lets your team create and organize character and prop models in a shared workspace. Review and refine the assets in your existing tools, then use the models that meet the project's requirements.\n\nSee the workflow, or request a team trial.",
-          "messageZh": "你好，我来自 Tripo。\n\n把角色与道具模型用于具体的游戏项目。\n\nTripo Studio 团队版让团队在共享工作区中创建并整理角色与道具模型。先在已有工具中检查和完善资产，再把符合项目要求的模型用于项目。\n\n可以先了解工作流程，也可以申请团队试用。",
+          "message": "Hi, we’re Tripo.\n\nPut character and prop models to work in your game project.\n\nTripo Studio Team Plan lets your team create and organize character and prop models in a shared workspace. Review and refine the assets in your existing tools, then use the models that meet the project's requirements.\n\nSee the workflow, or leave your details to discuss a team trial. Tripo will follow up about your team's needs and trial availability.",
+          "messageZh": "你好，我们是 Tripo。\n\n把角色与道具模型用于具体的游戏项目。\n\nTripo Studio 团队版让团队在共享工作区中创建并整理角色与道具模型。先在已有工具中检查和完善资产，再把符合项目要求的模型用于项目。\n\n可以先了解工作流程，也可以留下联系方式，沟通团队试用。Tripo 官方团队将跟进团队需求及试用安排。",
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             },
             {
               "id": "workflow",
@@ -426,30 +455,31 @@
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             }
           ]
         },
         {
           "id": "preflight",
           "labelZh": "回复 · 按项目用途评估",
-          "message": "Choose a small part of your game project's asset list. Define how the characters or props will be used, along with the visual and technical requirements.\n\nEvaluate model fit and how the team accesses shared assets. Describe that project in your trial application; generation alone does not complete the game or guarantee commercial results.",
-          "messageZh": "从游戏项目的资产清单中选取一小部分，明确角色或道具的用途，以及美术和技术要求。\n\n评估模型是否适用，以及团队访问共享资产的过程。在试用申请中说明这项项目需求；生成资产本身不等于完成游戏，也不保证商业结果。",
+          "message": "Choose a small part of your game project's asset list. Define how the characters or props will be used, along with the visual and technical requirements.\n\nEvaluate model fit and how the team accesses shared assets. Leave your contact details to discuss the project and trial options with Tripo. Generation alone does not complete the game.",
+          "messageZh": "从游戏项目的资产清单中选取一小部分，明确角色或道具的用途，以及美术和技术要求。\n\n评估模型是否适用，以及团队访问共享资产的过程。留下联系方式，与 Tripo 官方团队沟通项目和试用安排。生成资产本身不等于完成游戏。",
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             }
           ]
         }
       ],
-      "reviewStatus": "部分品牌核对／创意候选／未投放"
+      "objective": "lead-generation",
+      "reviewStatus": "部分品牌核对／原生留资审稿／未配置后台表单／未投放"
     },
     {
       "groupId": "teams-eu",
@@ -465,10 +495,15 @@
         "team-workspace",
         "brand-language",
         "visual-guideline",
-        "linkedin-spec"
+        "linkedin-spec",
+        "linkedin-form",
+        "linkedin-form-spec",
+        "linkedin-form-fields",
+        "linkedin-conversation",
+        "tripo-privacy"
       ],
-      "footer": "Apply with an email registered with Tripo. Trial access is subject to program terms and availability.",
-      "footerZh": "申请时使用已在 Tripo 注册的邮箱。能否获得试用，以活动条款和可用名额为准。",
+      "footer": "Trial access is subject to program terms and availability. A Tripo-registered email is required before trial benefits can be issued.",
+      "footerZh": "试用以活动条款和可用名额为准。试用权益发放前，需要核对已在 Tripo 注册的邮箱。",
       "id": "TE-03",
       "label": "版本 C · 用途结果开场",
       "hookStyle": "用途结果开场",
@@ -480,15 +515,15 @@
         {
           "id": "intro",
           "labelZh": "开场 · 同一诉求的不同表达",
-          "message": "Hi, I’m with Tripo.\n\nMove from character and prop ideas to models your team can develop.\n\nTripo Studio Team Plan lets your team create and organize character and prop models in a shared workspace. Review and refine the assets in your existing tools, then use the models that meet the project's requirements.\n\nSee the workflow, or request a team trial.",
-          "messageZh": "你好，我来自 Tripo。\n\n把角色与道具想法转成模型，供团队继续完善。\n\nTripo Studio 团队版让团队在共享工作区中创建并整理角色与道具模型。先在已有工具中检查和完善资产，再把符合项目要求的模型用于项目。\n\n可以先了解工作流程，也可以申请团队试用。",
+          "message": "Hi, we’re Tripo.\n\nMove from character and prop ideas to models your team can develop.\n\nTripo Studio Team Plan lets your team create and organize character and prop models in a shared workspace. Review and refine the assets in your existing tools, then use the models that meet the project's requirements.\n\nSee the workflow, or leave your details to discuss a team trial. Tripo will follow up about your team's needs and trial availability.",
+          "messageZh": "你好，我们是 Tripo。\n\n把角色与道具想法转成模型，供团队继续完善。\n\nTripo Studio 团队版让团队在共享工作区中创建并整理角色与道具模型。先在已有工具中检查和完善资产，再把符合项目要求的模型用于项目。\n\n可以先了解工作流程，也可以留下联系方式，沟通团队试用。Tripo 官方团队将跟进团队需求及试用安排。",
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             },
             {
               "id": "workflow",
@@ -514,30 +549,31 @@
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             }
           ]
         },
         {
           "id": "preflight",
           "labelZh": "回复 · 按项目用途评估",
-          "message": "Choose a small part of your game project's asset list. Define how the characters or props will be used, along with the visual and technical requirements.\n\nEvaluate model fit and how the team accesses shared assets. Describe that project in your trial application; generation alone does not complete the game or guarantee commercial results.",
-          "messageZh": "从游戏项目的资产清单中选取一小部分，明确角色或道具的用途，以及美术和技术要求。\n\n评估模型是否适用，以及团队访问共享资产的过程。在试用申请中说明这项项目需求；生成资产本身不等于完成游戏，也不保证商业结果。",
+          "message": "Choose a small part of your game project's asset list. Define how the characters or props will be used, along with the visual and technical requirements.\n\nEvaluate model fit and how the team accesses shared assets. Leave your contact details to discuss the project and trial options with Tripo. Generation alone does not complete the game.",
+          "messageZh": "从游戏项目的资产清单中选取一小部分，明确角色或道具的用途，以及美术和技术要求。\n\n评估模型是否适用，以及团队访问共享资产的过程。留下联系方式，与 Tripo 官方团队沟通项目和试用安排。生成资产本身不等于完成游戏。",
           "buttons": [
             {
               "id": "trial",
-              "label": "Request a team trial",
-              "labelZh": "申请团队试用",
-              "action": "website",
-              "url": "https://www.tripo3d.ai/programs/team-program"
+              "label": "Discuss a team trial",
+              "labelZh": "留资沟通团队试用",
+              "action": "leadgen",
+              "formId": "teams-trial"
             }
           ]
         }
       ],
-      "reviewStatus": "部分品牌核对／创意候选／未投放"
+      "objective": "lead-generation",
+      "reviewStatus": "部分品牌核对／原生留资审稿／未配置后台表单／未投放"
     },
     {
       "groupId": "api-us",
@@ -1068,6 +1104,62 @@
       "reviewStatus": "部分品牌核对／创意候选／未投放"
     }
   ],
+  "sender": {
+    "name": "Tripo",
+    "status": "user-confirmed-open",
+    "confirmedAt": "2026-10-12",
+    "backendVerified": false,
+    "basis": "用户确认 Tripo 官方领英发送者已开通；本次仅更新审稿网站，未操作广告后台。"
+  },
+  "leadForms": [
+    {
+      "id": "teams-trial",
+      "headline": "Discuss a Tripo team trial",
+      "headlineZh": "沟通 Tripo 团队试用",
+      "details": "Leave your contact details. Tripo will follow up about your team's workflow and trial availability.",
+      "detailsZh": "留下联系方式。Tripo 官方团队将跟进团队的工作流程需求及试用安排。",
+      "fields": [
+        {
+          "id": "firstName",
+          "label": "First name",
+          "labelZh": "名字"
+        },
+        {
+          "id": "lastName",
+          "label": "Last name",
+          "labelZh": "姓氏"
+        },
+        {
+          "id": "workEmail",
+          "label": "Work email",
+          "labelZh": "工作邮箱"
+        },
+        {
+          "id": "companyName",
+          "label": "Company name",
+          "labelZh": "公司名称"
+        },
+        {
+          "id": "jobTitle",
+          "label": "Job title",
+          "labelZh": "职位"
+        }
+      ],
+      "privacyUrl": "https://www.tripo3d.ai/privacy",
+      "privacyText": "Tripo will use your details to follow up on this team trial enquiry. See our Privacy Policy.",
+      "privacyTextZh": "Tripo 将使用这些信息跟进本次团队试用咨询。请查看隐私政策。",
+      "confirmation": {
+        "message": "Thanks. Your enquiry has been received. Tripo will follow up about your team's needs and trial availability. Trial access is not yet confirmed.",
+        "messageZh": "感谢咨询，需求已收到。Tripo 官方团队将跟进团队需求和试用安排。提交需求不等于试用已开通。",
+        "cta": "Learn more",
+        "ctaZh": "了解团队方案",
+        "url": "https://www.tripo3d.ai/programs/team-program"
+      },
+      "simulationOnly": true,
+      "backendStatus": "原生表单、线索权限与承接流程待广告后台单独核查；本网站未创建或激活表单。",
+      "followUp": "按用户已确认的官方身份，由有线索权限的 Tripo 团队在 Campaign Manager 或已配置的 CRM 跟进；正式试用发放前核对已注册 Tripo 的邮箱、适用条件与名额。不承诺自动同步、自动回复或固定响应时限。"
+    }
+  ],
   "copyScope": {
     "fixedGroups": [
       "teams-us",
@@ -1093,6 +1185,6 @@
     "newAudiences": 0,
     "newStrategies": 0
   },
-  "skillFallback": "技能云端读取失败；本轮使用本地ad-creative 2.8.2、copy-editing 2.0.0、Tripo workbench/claims 1.0.0。未宣称云端规则已同步。用户要求固定人群与方向，优先于技能中的扩展创意建议。",
-  "senderIdentityGate": "Hi, I’m with Tripo. 仅适用于真实经授权的Tripo发送者。网页是示意身份，不代表已取得sender授权。"
+  "skillFallback": "2026-10-12技能云端读取失败；本轮使用本地copy-editing 2.0.0、Tripo workbench/claims 1.0.0及impeccable 3.5.0。未宣称云端规则已同步。",
+  "senderIdentityGate": "用户已确认Tripo官方领英发送者开通（2026-10-12）。网站按此使用官方身份；本次未登录广告后台独立验证，也未配置原生表单或线索接收权限。"
 }

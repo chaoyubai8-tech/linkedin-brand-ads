@@ -11,11 +11,27 @@
   const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const safeUrl=value=>{try{if(!/^https?:\/\//i.test(String(value)))return '';const url=new URL(String(value));return ['http:','https:'].includes(url.protocol)?url.href:'';}catch{return '';}};
   const plain=value=>typeof value==='string'?value:typeof value==='number'?String(value):'';
-  let data, research={}, selected, mode='preview', steps=[], route=null;
+  let data, research={}, selected, mode='preview', steps=[], route=null, activeForm=null;
   let renderReady=false;
   const activeGroup=()=>groups.find(group=>group.id===selected?.groupId)||groups[0];
-  const getNode=id=>selected.nodes.find(node=>node.id===id);
-  const nodeName=(node,zh)=>zh?(node.labelZh||'回复'):(node.id==='intro'?'Opening':`Response ${selected.nodes.indexOf(node)}`);
+  const getNode=id=>selected?.nodes.find(node=>node.id===id);
+  const getLeadForm=id=>data?.leadForms?.find(form=>form.id===id);
+  const isTeams=()=>selected?.groupId.startsWith('teams');
+  const nodeName=(node,zh)=>!node?(zh?'回复待配置':'Response not configured'):zh?(node.labelZh||'回复'):(node.id==='intro'?'Opening':`Response ${selected.nodes.indexOf(node)}`);
+  const usedForms=()=>[...new Set(selected.nodes.flatMap(node=>node.buttons.filter(button=>button.action==='leadgen').map(button=>button.formId)))].map(getLeadForm).filter(Boolean);
+  const formValue=(form,key,zh)=>form?.[zh?`${key}Zh`:key]||'';
+  function actionDestination(button,zh=false){
+    if(button.action==='next')return `${zh?'预设下一条回复':'Show next message'} → ${nodeName(getNode(button.target),zh)}`;
+    if(button.action==='leadgen'){
+      const form=getLeadForm(button.formId);
+      return `${zh?'LinkedIn 原生 Lead Gen Form':'Native LinkedIn Lead Gen Form'} → ${formValue(form,'headline',zh)||button.formId}${zh?'（本站仅模拟）':' (site simulation only)'}`;
+    }
+    return safeUrl(button.url)|| (zh?'网页目的地待配置':'Website destination not configured');
+  }
+  function reveal(selector){
+    const element=$('mode-preview').querySelector(selector);if(!element)return;
+    element.focus({preventScroll:true});element.scrollIntoView({block:'center',behavior:'auto'});
+  }
   const paragraphs=text=>`<div class="message-body">${esc(text)}</div>`;
   const sourceItems=(all=false)=>{
     const entries=Array.isArray(research.sources)?research.sources:Object.entries(research.sources||{}).map(([id,value])=>typeof value==='string'?{id,url:value}:{id,...value});
@@ -26,7 +42,7 @@
     return merged.filter((item,index)=>{const url=safeUrl(item.url||item.link);return url&&merged.findIndex(other=>safeUrl(other.url||other.link)===url)===index;});
   };
   const sourceHtml=(all=false)=>`<ul class="source-list">${sourceItems(all).map(item=>`<li><a href="${esc(safeUrl(item.url||item.link))}" target="_blank" rel="noopener noreferrer">${esc(item.label||item.title||item.name||item.id||'官方来源')}</a>${item.type?`<span class="meta"> · ${esc(item.type)}</span>`:''}${item.note||item.boundary?`<p>${esc(item.note||item.boundary)}</p>`:''}${item.checked?`<span class="meta">核对日期：${esc(item.checked)}</span>`:''}</li>`).join('')}</ul>`;
-  function resetThread(){steps=[{id:'intro',choice:null}];route=null;}
+  function resetThread(){steps=[{id:'intro',choice:null}];route=null;activeForm=null;}
   function setHash(){const hash=`#${selected.id}/${mode}`;if(location.hash!==hash)history.replaceState(null,'',hash);}
   function choose(id,shouldFocus=false){
     const variant=data.variants.find(item=>item.id===id);if(!variant)return;
@@ -50,23 +66,63 @@
   function threadHtml(zh){
     return steps.map((step,index)=>{
       const node=getNode(step.id),last=index===steps.length-1;
-      const buttons=zh?`<ul class="translation-buttons">${node.buttons.map(button=>`<li>${esc(button.labelZh)}${last?'':`（${button.action==='next'?'继续了解':'外部目的页'}）`}</li>`).join('')}</ul>`:last?`<div class="message-actions">${node.buttons.map((button,buttonIndex)=>`<button type="button" ${buttonIndex===0?'class="primary-action"':''} data-node="${esc(node.id)}" data-button="${esc(button.id)}">${esc(button.label)}</button>`).join('')}</div>`:`<ul class="past-buttons">${node.buttons.map(button=>`<li>${esc(button.label)}</li>`).join('')}</ul>`;
+      if(!node)return '';
+      const actionKind=button=>button.action==='next'?'继续了解':button.action==='leadgen'?'原生留资表单':'外部目的页';
+      const primary=node.buttons.find(button=>button.action==='leadgen')||node.buttons[0];
+      const buttons=zh?`<ul class="translation-buttons">${node.buttons.map(button=>`<li>${esc(button.labelZh)} <span class="meta">（${actionKind(button)}）</span></li>`).join('')}</ul>`:last?`<div class="message-actions">${node.buttons.map(button=>`<button type="button" ${button===primary?'class="primary-action"':''} data-node="${esc(node.id)}" data-button="${esc(button.id)}">${esc(button.label)}</button>`).join('')}</div>`:`<ul class="past-buttons">${node.buttons.map(button=>`<li>${esc(button.label)}</li>`).join('')}</ul>`;
       return `<section class="message-step" data-step="${esc(node.id)}"><h3 class="step-title" tabindex="-1">${esc(nodeName(node,zh))}</h3>${paragraphs(zh?node.messageZh:node.message)}${buttons}${index===0?`<span class="platform-decline">${zh?'Not Interested · 平台自动入口':'Not Interested'}</span><span class="platform-note">${zh?'系统入口仅作说明，不是自定义按钮。':'Platform-provided option. Not a custom CTA.'}</span>`:''}${step.choice?`<p class="reader-choice">${zh?'你选择了':'Your selection'}：<strong>${esc(zh?step.choice.labelZh:step.choice.label)}</strong></p>`:''}</section>`;
     }).join('');
   }
+  function senderHtml(zh){
+    const confirmed=data.sender?.status==='user-confirmed-open';
+    if(!confirmed)return `<div class="sender-note">${zh?'发送者待授权 · 路径与左侧英文同步':'Sender to be authorized · No sender identity is claimed.'}</div>`;
+    const date=data.sender.confirmedAt?`${zh?' · 确认日期：':' · Confirmed: '}${esc(data.sender.confirmedAt)}`:'';
+    return `<div class="sender-note sender-confirmed"><strong>${esc(data.sender.name||'Tripo')} ${zh?'官方发送者 · 用户已确认开通':'official sender · user confirmed'}</strong><span>${zh?'仅记录用户确认；本站没有核验或修改领英后台权限。':'Records the user’s confirmation only. This site has not verified or changed Campaign Manager permissions.'}${date}</span></div>`;
+  }
+  function leadFormHtml(zh){
+    if(!activeForm)return '';
+    const form=getLeadForm(activeForm.id),lang=zh?'zh':'en';
+    if(!form)return `<section class="leadgen-preview"><h3 id="lead-form-title-${lang}" tabindex="-1">${zh?'表单文案未配置':'Form copy not configured'}</h3><button type="button" data-form-close>${zh?'回到消息':'Back to message'}</button></section>`;
+    const warning=zh?'本站仅模拟。没有提交、收集或保存信息，也没有开通试用。':'Site simulation only. No information is submitted, collected or stored. No trial is activated.';
+    const controls=`<div class="leadgen-actions"><button type="button" data-form-close>${zh?'关闭表单，回到消息':'Close form and return to message'}</button></div>`;
+    if(activeForm.stage==='confirmation'){
+      const confirmation=form.confirmation||{},url=safeUrl(confirmation.url);
+      return `<section class="leadgen-preview leadgen-confirmation" aria-labelledby="lead-confirmation-title-${lang}"><p class="form-kind">${zh?'原生表单确认页 · 模拟':'Native form confirmation · simulation'}</p><h3 id="lead-confirmation-title-${lang}" tabindex="-1">${zh?'没有提交或开通试用':'Nothing submitted. No trial activated.'}</h3><p class="simulation-warning">${esc(warning)}</p><h4>${zh?'拟定的确认文案':'Proposed confirmation copy'}</h4>${paragraphs(formValue(confirmation,'message',zh))}<div class="confirmation-destination"><strong>${zh?'确认页按钮':'Confirmation CTA'}：${esc(formValue(confirmation,'cta',zh))}</strong>${url?`<code>${esc(url)}</code><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${zh?'手动查看拟定目的页（非提交）':'Manually inspect proposed destination (not a submission)'}</a>`:`<p>${zh?'确认页目的地待配置。':'Confirmation destination not configured.'}</p>`}</div><div class="leadgen-actions"><button type="button" data-form-back>${zh?'回到表单预览':'Back to form preview'}</button><button type="button" data-form-close>${zh?'回到消息':'Back to message'}</button></div></section>`;
+    }
+    const privacyUrl=safeUrl(form.privacyUrl);
+    const fields=(form.fields||[]).map(field=>{
+      const id=`lead-field-${lang}-${String(field.id).replace(/[^a-zA-Z0-9_-]/g,'')}`;
+      return `<div class="leadgen-field"><label for="${esc(id)}">${esc(formValue(field,'label',zh))}</label><input id="${esc(id)}" type="text" value="" readonly disabled autocomplete="off" placeholder="${zh?'只读空字段示例 · 不填写':'Read-only blank example · do not fill'}" aria-describedby="lead-form-disclaimer-${lang}"></div>`;
+    }).join('');
+    return `<section class="leadgen-preview" aria-labelledby="lead-form-title-${lang}"><p class="form-kind">${zh?'LinkedIn 原生 Lead Gen Form · 站内模拟':'Native LinkedIn Lead Gen Form · site simulation'}</p><h3 id="lead-form-title-${lang}" tabindex="-1">${esc(formValue(form,'headline',zh))}</h3><p class="simulation-warning" id="lead-form-disclaimer-${lang}">${esc(warning)}</p>${paragraphs(formValue(form,'details',zh))}<div class="leadgen-fields">${fields}</div><div class="leadgen-privacy"><p>${esc(formValue(form,'privacyText',zh))}</p>${privacyUrl?`<a href="${esc(privacyUrl)}" target="_blank" rel="noopener noreferrer">${zh?'查看拟定隐私政策':'Inspect proposed privacy policy'}</a>`:''}</div><p class="form-config-note">${zh?'这只是网站展示。领英后台的正式表单、CRM 接收和跟进尚未在本站配置。':'This is a site-only mock. The live Campaign Manager form, CRM intake and follow-up are not configured here.'}</p><div class="leadgen-actions"><button type="button" class="primary-action" data-form-confirm>${zh?'预览提交后页面（不提交）':'Preview after-submit page (no submission)'}</button></div>${controls}</section>`;
+  }
   function renderPreview(){
-    $('mode-preview').innerHTML=`<div class="review-toolbar"><button type="button" data-reset>从开场重看</button><button type="button" data-copy="en">复制英文全文</button><button type="button" data-copy="zh">复制完整中文</button><button type="button" data-download>下载双语 TXT</button></div><p class="preview-note">点击英文按钮体验预设分支；外部按钮只显示目的地，须手动打开。这里不是自由聊天，也不是领英实际发送界面。</p><div class="bilingual-preview"><article class="message-preview" lang="en" aria-label="英文对话预览"><header class="preview-head"><strong>English copy</strong><span>Sponsored · Review only</span></header><div class="subject"><span>Subject · optional</span><strong>${esc(selected.subject)}</strong></div><div class="sender-note">Sender to be authorized · No sender identity is claimed.</div><div class="message-thread">${threadHtml(false)}</div><div class="custom-footer">${esc(selected.footer)}</div></article><article class="message-preview" aria-label="完整中文释义"><header class="preview-head"><strong>完整中文释义</strong><span>辅助审稿，不是第二份投放稿</span></header><div class="subject"><span>主题</span><strong>${esc(selected.subjectZh)}</strong></div><div class="sender-note">发送者待授权 · 路径与左侧英文同步</div><div class="message-thread">${threadHtml(true)}</div><div class="custom-footer">${esc(selected.footerZh)}</div></article></div><div id="destination-area">${routeHtml()}</div>`;
+    const note=isTeams()?'点击英文主按钮预览原生留资表单，次级按钮继续了解。表单字段为只读空白示例；确认页只是模拟，没有提交或开通试用。这里不是领英后台。':'点击英文按钮体验预设分支；外部按钮只显示目的地，须手动打开。这里不是自由聊天，也不是领英实际发送界面。';
+    $('mode-preview').innerHTML=`<div class="review-toolbar"><button type="button" data-reset>从开场重看</button><button type="button" data-copy="en">复制英文全文</button><button type="button" data-copy="zh">复制完整中文</button><button type="button" data-download>下载双语 TXT</button></div><p class="preview-note">${esc(note)}</p><div class="bilingual-preview"><article class="message-preview" lang="en" aria-label="英文对话预览"><header class="preview-head"><strong>English copy</strong><span>Sponsored · Review only</span></header><div class="subject"><span>Subject · optional</span><strong>${esc(selected.subject)}</strong></div>${senderHtml(false)}<div class="message-thread">${threadHtml(false)}${leadFormHtml(false)}</div><div class="custom-footer">${esc(selected.footer)}</div></article><article class="message-preview" aria-label="完整中文释义"><header class="preview-head"><strong>完整中文释义</strong><span>辅助审稿，不是第二份投放稿</span></header><div class="subject"><span>主题</span><strong>${esc(selected.subjectZh)}</strong></div>${senderHtml(true)}<div class="message-thread">${threadHtml(true)}${leadFormHtml(true)}</div><div class="custom-footer">${esc(selected.footerZh)}</div></article></div><div id="destination-area">${routeHtml()}</div>`;
   }
   function routeHtml(){
     if(!route)return '';
-    const url=safeUrl(route.url),group=activeGroup();
-    const explanation=group.id.startsWith('teams')?'按钮指向官方 Team Program 申请页；申请仍需按该页要求填写信息，名额与条款以官方页面为准。':'按钮指向 API Quick Start；文档点击不是注册、Key 创建或调用成功，工程接入与结果验收仍需完成。';
-    return `<section class="destination" aria-labelledby="destination-title"><h3 id="destination-title" tabindex="-1">已选：${esc(route.label)} · ${esc(route.labelZh)}</h3><p>${esc(explanation)}</p><code>${esc(url)}</code><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">手动打开官方目的页</a><p class="meta">审稿演示没有提交资料、预约、发送广告或追踪你的选择。</p></section>`;
+    const url=safeUrl(route.url);
+    const explanation='按钮指向 API Quick Start；文档点击不是注册、Key 创建或调用成功，工程接入与结果验收仍需完成。';
+    return `<section class="destination" aria-labelledby="destination-title"><h3 id="destination-title" tabindex="-1">已选：${esc(route.label)} · ${esc(route.labelZh)}</h3><p>${esc(explanation)}</p>${url?`<code>${esc(url)}</code><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">手动打开官方目的页</a>`:'<p>网页目的地待配置；没有自动跳转。</p>'}<p class="meta">审稿演示没有提交资料、预约、发送广告或追踪你的选择。</p></section>`;
+  }
+  function pathButtonHtml(button,zh){
+    if(button.action==='website'){
+      const url=safeUrl(button.url);
+      return url?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${zh?'正式网页目的页':'Official website destination'}</a>`:esc(actionDestination(button,zh));
+    }
+    return esc(actionDestination(button,zh));
+  }
+  function formDefinitionHtml(form,zh){
+    const confirmation=form.confirmation||{};
+    return `<div ${zh?'':'lang="en"'}><h4>${zh?'完整中文释义':'English form copy'}</h4><p><strong>${zh?'表单 ID':'Form ID'}</strong> · ${esc(form.id)}</p><h4>${zh?'表单标题':'Form headline'}</h4><pre>${esc(formValue(form,'headline',zh))}</pre><h4>${zh?'表单说明':'Form details'}</h4><pre>${esc(formValue(form,'details',zh))}</pre><h4>${zh?'拟定字段 · 预览不收集':'Proposed fields · preview collects nothing'}</h4><ul>${(form.fields||[]).map(field=>`<li>${esc(formValue(field,'label',zh))} <small>(${esc(field.id)})</small></li>`).join('')}</ul><h4>${zh?'隐私文字与政策':'Privacy copy and policy'}</h4><pre>${esc(formValue(form,'privacyText',zh))}</pre><p><code>${esc(safeUrl(form.privacyUrl)|| (zh?'隐私政策待配置':'Privacy policy not configured'))}</code></p><h4>${zh?'提交后的拟定确认文案':'Proposed after-submit confirmation'}</h4><pre>${esc(formValue(confirmation,'message',zh))}</pre><p><strong>${zh?'确认页按钮':'Confirmation CTA'}</strong> · ${esc(formValue(confirmation,'cta',zh))}<br><code>${esc(safeUrl(confirmation.url)|| (zh?'确认页目的地待配置':'Confirmation destination not configured'))}</code></p></div>`;
   }
   function renderPath(){
     const intro=getNode('intro');
-    const paths=intro.buttons.map(button=>`<li><strong>${esc(button.label)}<br><small>${esc(button.labelZh)}</small></strong><span>${button.action==='next'?`预设回复：${esc(getNode(button.target)?.labelZh||button.target)} → 明确外部出口`:`直接外部行动 → ${selected.groupId.startsWith('teams')?'官方团队申请页':'API Quick Start'}`}</span></li>`).join('');
-    $('mode-path').innerHTML=`<div class="path-summary"><h3>从意愿到下一步，只有必要的分支</h3><p>同一开场提供直接行动与两条了解路径；回复后仍回到本组正式目的页。没有假案例、假预约或订阅提醒。</p><ul class="path-options">${paths}</ul><p class="conclusion">结论：分支必须回答一个新问题，不靠更多按钮假装提供更多价值。</p></div>${selected.nodes.map(node=>`<section class="full-node"><h3>${esc(node.labelZh||node.id)}</h3><div class="full-node-pair"><div lang="en"><h4>英文原文 · ${Array.from(node.message).length} characters</h4><pre>${esc(node.message)}</pre><ul class="node-buttons">${node.buttons.map(button=>`<li>${esc(button.label)} → ${button.action==='next'?esc(getNode(button.target)?.labelZh||button.target):`<a href="${esc(safeUrl(button.url))}" target="_blank" rel="noopener noreferrer">正式目的页</a>`}</li>`).join('')}</ul></div><div><h4>完整中文释义</h4><pre>${esc(node.messageZh)}</pre><ul class="node-buttons">${node.buttons.map(button=>`<li>${esc(button.labelZh)} → ${button.action==='next'?esc(getNode(button.target)?.labelZh||button.target):'官方外部目的页'}</li>`).join('')}</ul></div></div></section>`).join('')}<section class="full-node"><h3>主题与补充说明</h3><div class="full-node-pair"><div lang="en"><p><strong>Subject</strong><br>${esc(selected.subject)}</p><p>${esc(selected.footer)}</p></div><div><p><strong>主题</strong><br>${esc(selected.subjectZh)}</p><p>${esc(selected.footerZh)}</p></div></div></section>`;
+    const paths=intro.buttons.map(button=>`<li><strong>${esc(button.label)}<br><small>${esc(button.labelZh)}</small></strong><span>${esc(actionDestination(button,true))}</span></li>`).join('');
+    const explanation=isTeams()?'开场提供原生表单留资与两条了解路径；预设回复后仍承接同一份团队试用沟通表单。网站只模拟界面，没有真实资料提交、CRM 接收或试用开通。':'同一开场提供直接行动与两条了解路径；回复后仍回到本组正式目的页。没有假案例、假预约或订阅提醒。';
+    const forms=usedForms().map(form=>`<section class="full-node"><h3>原生表单与确认页 · ${esc(form.id)}</h3><p class="simulation-warning">本站仅模拟表单结构；没有提交、收集、保存信息或开通试用。正式表单与 CRM 跟进仍需在后台配置。</p><div class="full-node-pair">${formDefinitionHtml(form,false)}${formDefinitionHtml(form,true)}</div></section>`).join('');
+    $('mode-path').innerHTML=`<div class="path-summary"><h3>从意愿到下一步，只有必要的分支</h3><p>${esc(explanation)}</p><ul class="path-options">${paths}</ul><p class="conclusion">结论：分支必须回答一个新问题，不靠更多按钮假装提供更多价值。</p></div>${selected.nodes.map(node=>`<section class="full-node"><h3>${esc(node.labelZh||node.id)}</h3><div class="full-node-pair"><div lang="en"><h4>英文原文 · ${Array.from(node.message).length} characters</h4><pre>${esc(node.message)}</pre><ul class="node-buttons">${node.buttons.map(button=>`<li>${esc(button.label)} → ${pathButtonHtml(button,false)}</li>`).join('')}</ul></div><div><h4>完整中文释义</h4><pre>${esc(node.messageZh)}</pre><ul class="node-buttons">${node.buttons.map(button=>`<li>${esc(button.labelZh)} → ${pathButtonHtml(button,true)}</li>`).join('')}</ul></div></div></section>`).join('')}${forms}<section class="full-node"><h3>主题与补充说明</h3><div class="full-node-pair"><div lang="en"><p><strong>Subject</strong><br>${esc(selected.subject)}</p><p>${esc(selected.footer)}</p></div><div><p><strong>主题</strong><br>${esc(selected.subjectZh)}</p><p>${esc(selected.footerZh)}</p></div></div></section>`;
   }
   function relevantCases(){const all=Array.isArray(research.cases)?research.cases:[];return all.filter(item=>!item.groups&&!item.groupIds||[...(item.groups||[]),...(item.groupIds||[])].includes(selected.groupId));}
   function renderWhy(){
@@ -80,8 +136,11 @@
   function renderCheck(){
     const brand=collection(research.brandAudit),launch=collection(research.launchChecklist);
     const selectedGroup=collection(research.groups).find(group=>[group.id,group.groupId].includes(selected.groupId));
-    const leaf=getNode('intro').buttons.find(button=>button.action==='website');
-    $('mode-check').innerHTML=`<section class="audit-section"><h3>本套文案的承接边界</h3><dl class="reason-list"><div><dt>最终动作</dt><dd>${esc(leaf?.label)} · ${esc(leaf?.labelZh)}<br><a href="${esc(safeUrl(leaf?.url))}" target="_blank" rel="noopener noreferrer">查看正式目的页</a></dd></div><div><dt>不是哪一种承诺</dt><dd>${selected.groupId.startsWith('teams')?'团队共享不是实时共编、完整项目管理或自动生产验收。':'调用成功不是生产验收通过；API 不等于内置查看器或自动发布的内容平台。'}</dd></div>${selectedGroup?.success||selectedGroup?.metric||selectedGroup?.metrics?`<div><dt>业务验证</dt><dd>${esc(plain(selectedGroup.success)||plain(selectedGroup.metric)||plain(selectedGroup.metrics))}</dd></div>`:''}</dl></section><section class="audit-section"><h3>品牌正文逐项检查</h3>${brand.length?auditHtml(brand):'<p>品牌正文以规范的字体、Logo、术语、承诺与文字检查为准；当前审稿版不代表已完成素材与账户验收。</p>'}<p class="conclusion">结论：英文与中文含义必须一致；配图、产品事实与按钮指向必须属于同一个产品和方向。</p></section><section class="audit-section"><h3>从候选稿到正式上线</h3>${launch.length?auditHtml(launch):'<p>开投前仍需核对发送者授权、目标与可投覆盖、正式配图、表单／落地页、事件回传及审核状态。本站不修改广告账户。</p>'}${selected.leadGenUpgrade?`<details class="case-note"><summary>Lead Gen 升级条件 · 不是已配置的功能</summary><p>候选按钮：${esc(selected.leadGenUpgrade.label)}（${esc(selected.leadGenUpgrade.labelZh)}）</p><p>${esc(selected.leadGenUpgrade.why)}</p></details>`:''}<p class="conclusion">结论：先选稿、补证据与承接，再完成账户验收；本站没有发送广告。</p></section><section class="audit-section"><h3>检查来源</h3>${sourceHtml(true)}</section>`;
+    const leaf=getNode('intro').buttons.find(button=>button.action==='leadgen'||button.action==='website');
+    const leafDestination=leaf?.action==='leadgen'?esc(actionDestination(leaf,true)):leaf?pathButtonHtml(leaf,true):'最终动作待配置';
+    const sender=isTeams()&&data.sender?.status==='user-confirmed-open'?`<div><dt>官方发送者</dt><dd>${esc(data.sender.name||'Tripo')} 官方发送者 · 用户已确认开通（${esc(data.sender.confirmedAt||'日期未记录')}）。本站未核验或修改后台权限。</dd></div>`:'';
+    const formBoundary=isTeams()?'<div><dt>网站与后台分开</dt><dd>这里仅有原生表单的站内模拟。真实 LinkedIn Lead Gen Form、隐私同意配置、CRM 接收和跟进仍需后台验收；本站没有提交或开通试用。</dd></div>':'';
+    $('mode-check').innerHTML=`<section class="audit-section"><h3>本套文案的承接边界</h3><dl class="reason-list"><div><dt>最终动作</dt><dd>${esc(leaf?.label)} · ${esc(leaf?.labelZh)}<br>${leafDestination}</dd></div>${sender}${formBoundary}<div><dt>不是哪一种承诺</dt><dd>${isTeams()?'团队共享不是实时共编、完整项目管理或自动生产验收。留资沟通不等于已获试用资格。':'调用成功不是生产验收通过；API 不等于内置查看器或自动发布的内容平台。'}</dd></div>${selectedGroup?.success||selectedGroup?.metric||selectedGroup?.metrics?`<div><dt>业务验证</dt><dd>${esc(plain(selectedGroup.success)||plain(selectedGroup.metric)||plain(selectedGroup.metrics))}</dd></div>`:''}</dl></section><section class="audit-section"><h3>品牌正文逐项检查</h3>${brand.length?auditHtml(brand):'<p>品牌正文以规范的字体、Logo、术语、承诺与文字检查为准；当前审稿版不代表已完成素材与账户验收。</p>'}<p class="conclusion">结论：英文与中文含义必须一致；配图、产品事实与按钮指向必须属于同一个产品和方向。</p></section><section class="audit-section"><h3>从候选稿到正式上线</h3>${launch.length?auditHtml(launch):'<p>开投前仍需核对发送者授权、目标与可投覆盖、正式配图、表单／落地页、事件回传及审核状态。本站不修改广告账户。</p>'}${!isTeams()&&selected.leadGenUpgrade?`<details class="case-note"><summary>Lead Gen 升级条件 · 不是已配置的功能</summary><p>候选按钮：${esc(selected.leadGenUpgrade.label)}（${esc(selected.leadGenUpgrade.labelZh)}）</p><p>${esc(selected.leadGenUpgrade.why)}</p></details>`:''}<p class="conclusion">结论：先选稿、补证据与承接，再完成账户验收；本站没有发送广告。</p></section><section class="audit-section"><h3>检查来源</h3>${sourceHtml(true)}</section>`;
   }
   function renderAll(){renderGroupNav();renderVariants();renderHeading();renderPreview();renderPath();renderWhy();renderCheck();renderClaims();renderModeNav();}
   function renderClaims(){
@@ -96,16 +155,20 @@
   function announce(message){$('feedback').textContent=message;}
   function exportCopy(language){
     const zh=language==='zh';
-    return [`${zh?'主题':'Subject'}: ${zh?selected.subjectZh:selected.subject}`,...selected.nodes.map(node=>[`${nodeName(node,zh)}\n${zh?node.messageZh:node.message}`,...node.buttons.map(button=>`${zh?'按钮':'Button'}: ${zh?button.labelZh:button.label} → ${button.action==='website'?button.url:nodeName(getNode(button.target),zh)}`)].join('\n\n')),`${zh?'补充说明':'Footer'}: ${zh?selected.footerZh:selected.footer}`].join('\n\n');
+    const formCopies=usedForms().map(form=>{
+      const confirmation=form.confirmation||{};
+      return [zh?'LinkedIn 原生 Lead Gen Form · 本站仅模拟':'Native LinkedIn Lead Gen Form · site simulation only',`${zh?'表单 ID':'Form ID'}: ${form.id}`,`${zh?'表单标题':'Headline'}: ${formValue(form,'headline',zh)}`,`${zh?'表单说明':'Details'}: ${formValue(form,'details',zh)}`,`${zh?'拟定字段（预览不填写、不收集）':'Proposed fields (not filled or collected in this preview)'}:\n${(form.fields||[]).map(field=>`- ${formValue(field,'label',zh)} (${field.id})`).join('\n')}`,`${zh?'隐私文字':'Privacy text'}: ${formValue(form,'privacyText',zh)}`,`${zh?'隐私政策 URL':'Privacy policy URL'}: ${safeUrl(form.privacyUrl)}`,`${zh?'提交后的拟定确认文案':'Proposed after-submit confirmation'}:\n${formValue(confirmation,'message',zh)}`,`${zh?'确认页按钮':'Confirmation CTA'}: ${formValue(confirmation,'cta',zh)}`,`${zh?'确认页目的地':'Confirmation destination'}: ${safeUrl(confirmation.url)}`,zh?'模拟声明：没有提交、收集或保存信息，也没有开通试用。正式表单和 CRM 接收尚未在本站配置。':'Simulation notice: Nothing is submitted, collected or stored. No trial is activated. The live form and CRM intake are not configured here.'].join('\n\n');
+    });
+    return [`${zh?'主题':'Subject'}: ${zh?selected.subjectZh:selected.subject}`,...selected.nodes.map(node=>[`${nodeName(node,zh)}\n${zh?node.messageZh:node.message}`,...node.buttons.map(button=>`${zh?'按钮':'Button'}: ${zh?button.labelZh:button.label} → ${button.action==='leadgen'?`${zh?'LinkedIn 原生 Lead Gen Form':'Native LinkedIn Lead Gen Form'} [${button.formId}]`:button.action==='website'?button.url:nodeName(getNode(button.target),zh)}`)].join('\n\n')),...formCopies,`${zh?'补充说明':'Footer'}: ${zh?selected.footerZh:selected.footer}`].join('\n\n');
   }
   async function copy(language){
-    try{await navigator.clipboard.writeText(exportCopy(language));announce(language==='zh'?'已复制完整中文文案与按钮路径，不含内部研究理由。':'已复制英文文案与按钮路径，不含内部研究理由。');}
+    try{await navigator.clipboard.writeText(exportCopy(language));announce(`${language==='zh'?'已复制完整中文':'已复制英文'}文案与按钮路径${usedForms().length?'，包括表单与拟定确认页':''}，不含内部研究理由。`);}
     catch{announce('浏览器不允许自动复制。请在“路径与全文”中选中文字复制，或下载双语 TXT。');}
   }
   function download(){
     const content=`${exportCopy('en')}\n\n${'='.repeat(32)}\n\n${exportCopy('zh')}\n`;
     const url=URL.createObjectURL(new Blob(['\uFEFF',content],{type:'text/plain;charset=utf-8'}));
-    const anchor=document.createElement('a');anchor.href=url;anchor.download=`Tripo-${selected.id}-conversation.txt`;document.body.append(anchor);anchor.click();anchor.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);announce('已下载本套双语 TXT，只含广告正文、按钮路径与补充说明。');
+    const anchor=document.createElement('a');anchor.href=url;anchor.download=`Tripo-${selected.id}-conversation.txt`;document.body.append(anchor);anchor.click();anchor.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);announce(`已下载本套双语 TXT，含广告正文、按钮路径${usedForms().length?'、表单与拟定确认页':''}及补充说明。`);
   }
   document.addEventListener('click',event=>{
     const button=event.target.closest('button');if(!button||!renderReady)return;
@@ -115,14 +178,37 @@
     if(button.hasAttribute('data-reset')){resetThread();renderPreview();$('mode-preview').querySelector('[data-reset]').focus({preventScroll:true});announce('已回到开场。');return;}
     if(button.dataset.copy){copy(button.dataset.copy);return;}
     if(button.hasAttribute('data-download')){download();return;}
+    if(button.hasAttribute('data-form-confirm')){
+      if(!activeForm)return;
+      activeForm={...activeForm,stage:'confirmation'};renderPreview();
+      reveal(`#lead-confirmation-title-${button.closest('[lang="en"]')?'en':'zh'}`);
+      announce('已预览拟定确认页。没有读取字段、提交资料或开通试用。');return;
+    }
+    if(button.hasAttribute('data-form-back')){
+      if(!activeForm)return;
+      activeForm={...activeForm,stage:'form'};renderPreview();
+      reveal(`#lead-form-title-${button.closest('[lang="en"]')?'en':'zh'}`);
+      announce('已回到只读表单预览。没有收集或保存资料。');return;
+    }
+    if(button.hasAttribute('data-form-close')){
+      const previous=activeForm;activeForm=null;renderPreview();
+      if(previous)reveal(`[data-node="${CSS.escape(previous.nodeId)}"][data-button="${CSS.escape(previous.buttonId)}"]`);
+      announce('已关闭表单预览并回到消息。没有提交或开通试用。');return;
+    }
     if(button.dataset.node){
       const node=getNode(button.dataset.node),action=node?.buttons.find(item=>item.id===button.dataset.button);if(!action)return;
       if(action.action==='next'){
+        if(!getNode(action.target)){announce('这条预设回复还未配置，请从开场重看。');return;}
         if(steps.some(step=>step.id===action.target)){announce('该回复已在本次路径中显示。可从开场重看。');return;}
-        steps[steps.length-1].choice=action;steps.push({id:action.target,choice:null});route=null;renderPreview();
-        $('mode-preview').querySelector(`[data-step="${CSS.escape(action.target)}"] .step-title`).focus({preventScroll:true});announce(`已显示回复：${getNode(action.target).labelZh}`);
+        steps[steps.length-1].choice=action;steps.push({id:action.target,choice:null});route=null;activeForm=null;renderPreview();
+        reveal(`[data-step="${CSS.escape(action.target)}"] .step-title`);announce(`已显示回复：${getNode(action.target).labelZh}`);
+      }else if(action.action==='leadgen'){
+        const form=getLeadForm(action.formId);
+        if(!form||form.simulationOnly!==true){announce('本站未配置这份安全的表单模拟；没有打开或提交真实表单。');return;}
+        activeForm={id:form.id,nodeId:node.id,buttonId:action.id,stage:'form'};route=null;renderPreview();
+        reveal('#lead-form-title-en');announce('已打开原生 Lead Gen Form 的只读模拟。没有提交、收集资料或开通试用。');
       }else if(action.action==='website'){
-        route=action;renderPreview();$('destination-title').focus({preventScroll:true});announce('已显示正式目的地。没有自动跳转或提交资料。');
+        route=action;activeForm=null;renderPreview();reveal('#destination-title');announce('已显示正式目的地。没有自动跳转或提交资料。');
       }
     }
   });
