@@ -1,0 +1,1242 @@
+{
+  "version": "2026-10-14-messaging-lab-v8-feedback",
+  "status": "独立反馈修订稿／旧版保留／未投放",
+  "evidenceNote": "依据《Tripo 广告文案反馈：API 与 Studio Team Plan》修改购买理由与评估入口；四组人群及各组三种开场不变。10项资产是建议试点规模，不是免费额度、保证结果或已开通的评测服务。",
+  "sourceMap": {
+    "approved-audiences": "用户本轮确认：美国 Teams 游戏与 API 游戏＋3D 资产讲工作流程；欧洲 Teams 游戏与 API 企业内容讲具体业务用途。",
+    "product-context": "Tripo Studio Context · 2026-10-08；本轮已读正文。",
+    "team-program": "https://www.tripo3d.ai/programs/team-program",
+    "team-workspace": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan",
+    "api-quick-start": "https://developers.tripo3d.ai/en/docs/quick-start",
+    "api-introduction": "https://developers.tripo3d.ai/en/docs/introduction",
+    "selling-points-r6": "用户提供产品卖点全览8页与阿里云／华为对话案例截图；仅提炼能力和表达结构，当前事实重新核对官方来源，不公开内部PDF原件。",
+    "studio-image-to-3d": "https://www.tripo3d.ai/features/image-to-3d-model",
+    "studio-text-to-3d": "https://www.tripo3d.ai/features/text-to-3d-model",
+    "api-texture": "https://developers.tripo3d.ai/en/docs/models-texture",
+    "api-retopology": "https://developers.tripo3d.ai/en/docs/mesh-decimate",
+    "api-convert": "https://developers.tripo3d.ai/en/docs/models-convert",
+    "api-rig-check": "https://developers.tripo3d.ai/en/docs/animations-rig-check",
+    "business-value-r7": "2026-10-13已授权读取当前Teams销售演示稿，完整提取正文并检查游戏、权益及定价关键页；只采纳产品机制，不公开原稿、不引用ROI估算。API机制另对照官方文档。",
+    "feedback-v8": "用户提供的《Tripo 广告文案反馈：API 与 Studio Team Plan》，3页；本版采纳购买逻辑、生成与交付边界、10项资产的完整流程评估，不新增人群或承诺代跑评测。",
+    "official-check-2026-10-14": "2026-10-14核对LinkedIn Conversation Ads规格、Tripo官方Team Program/Team Plan与API Introduction/Quick Start。"
+  },
+  "variants": [
+    {
+      "groupId": "teams-us",
+      "persona": "Teams · 美国游戏人群（沿用已确认人群，不新增角色或定向）",
+      "job": "游戏团队创建、集中管理和复用角色与道具资产，减少重复操作和文件交接。",
+      "copyIntent": "保留美国游戏人群的流程效率方向。用初始模型、共享积分、集中复用解释团队交付能力，再以10项真实资产的完整流程评估回答是否值得购买；不承诺量化节省或代跑服务。",
+      "qualification": "同一已确认的美国游戏人群；正文围绕团队角色与道具资产工作流，不另设角色筛选或人群条件。",
+      "objection": "共享工作区如何衔接已有资产工具？共享和复用不等于实时共编、版本管理或自动质量验收。",
+      "sourceKeys": [
+        "approved-audiences",
+        "product-context",
+        "team-program",
+        "team-workspace",
+        "business-value-r7",
+        "brand-language",
+        "visual-guideline",
+        "linkedin-spec",
+        "linkedin-form",
+        "linkedin-form-spec",
+        "linkedin-form-fields",
+        "linkedin-conversation",
+        "tripo-privacy",
+        "feedback-v8",
+        "official-check-2026-10-14"
+      ],
+      "footer": "Generated models are starting points; your team refines and approves final use. Trial access depends on program terms and availability; a Tripo-registered email is required before benefits are issued.",
+      "footerZh": "生成模型是制作起点，精修及最终使用仍由你的团队审核。试用以活动条款和可用名额为准；权益发放前须核对已在Tripo注册的邮箱。",
+      "id": "TU-01",
+      "label": "版本 A · 提问开场",
+      "hookStyle": "提问开场",
+      "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
+      "whyRelevant": "用同一工作需要提问，让读者先判断这件事是否与自己有关；不改变人群或诉求。",
+      "subject": "Is your game asset queue outgrowing your team?",
+      "subjectZh": "游戏资产需求增加，团队的制作能力能跟上吗？",
+      "nodes": [
+        {
+          "id": "intro",
+          "labelZh": "开场 · 同一诉求的不同表达",
+          "message": "Hi, we’re Tripo.\n\nIs a growing asset queue leaving your artists less time to refine the game?\n\nTripo Studio Team Plan helps your game team create first-pass 3D characters and props from text or images, pool credits and reuse assets in one workspace. Artists still refine and approve what ships.\n\nPlan a 10-asset pilot against your current process: generation, cleanup, review and reuse. Discuss your asset list and trial availability.",
+          "messageZh": "你好，我们是 Tripo。\n\n资产制作需求不断增加，是否挤占了美术成员完善游戏的时间？\n\nTripo Studio 团队版支持游戏团队从文字或图片生成角色与道具的初始3D模型，共享积分，并在同一工作区复用资产。最终用于项目的资产，仍由美术成员精修并审核。\n\n规划一次包含10项真实资产的试点，对照现有流程，评估生成、精修、审核与复用的投入。沟通你的资产清单及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            },
+            {
+              "id": "workflow",
+              "label": "See the team workflow",
+              "labelZh": "了解团队制作流程",
+              "action": "next",
+              "target": "workflow"
+            },
+            {
+              "id": "preflight",
+              "label": "What should we measure?",
+              "labelZh": "试点应该评估什么？",
+              "action": "next",
+              "target": "preflight"
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "labelZh": "回复 · 生成起点与团队交付",
+          "message": "Generate first-pass models from text or images, then let artists refine them in their existing tools and check them in the game.\n\nShared credits, access controls and a searchable asset library keep team resources together. Another teammate can find and reuse reviewed work rather than request a new file.\n\nPlan a 10-asset pilot to compare the whole process with how your team works today. Leave your details to discuss the plan and trial availability.",
+          "messageZh": "从文字或图片生成初始模型，再由美术成员在现有工具中精修，并在游戏中检查。\n\n共享积分、访问权限管理和可搜索的资产库，让团队资源集中管理。另一位成员可以查找并复用已审核的资产，减少重新索取文件的环节。\n\n规划包含10项资产的试点，把完整流程与团队现有做法进行比较。留下联系方式，沟通试点计划及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            }
+          ]
+        },
+        {
+          "id": "preflight",
+          "labelZh": "回复 · 10项资产的完整投入",
+          "message": "Choose 10 real characters and props. Define what counts as useful and approved for your game.\n\nCompare your current workflow with a pilot: time to first useful model, generation credits and retries, artist cleanup, review and engine checks. Record whether another teammate can find and reuse each approved asset.\n\nCount the full effort, not just generation time. Leave your details to discuss a pilot plan and trial availability.",
+          "messageZh": "选择10项真实角色与道具，先明确什么样的模型算可继续制作、什么样的资产算通过游戏项目验收。\n\n对照现有流程与试点：记录首个可继续制作的模型所需时间、生成积分与重试、美术精修、审核及引擎检查；再记录另一位成员能否找到并复用每项已审核的资产。\n\n统计完整投入，而不只看生成时间。留下联系方式，沟通试点计划及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            }
+          ]
+        }
+      ],
+      "objective": "lead-generation",
+      "reviewStatus": "反馈修订稿／未投放"
+    },
+    {
+      "groupId": "teams-us",
+      "persona": "Teams · 美国游戏人群（沿用已确认人群，不新增角色或定向）",
+      "job": "游戏团队创建、集中管理和复用角色与道具资产，减少重复操作和文件交接。",
+      "copyIntent": "保留美国游戏人群的流程效率方向。用初始模型、共享积分、集中复用解释团队交付能力，再以10项真实资产的完整流程评估回答是否值得购买；不承诺量化节省或代跑服务。",
+      "qualification": "同一已确认的美国游戏人群；正文围绕团队角色与道具资产工作流，不另设角色筛选或人群条件。",
+      "objection": "共享工作区如何衔接已有资产工具？共享和复用不等于实时共编、版本管理或自动质量验收。",
+      "sourceKeys": [
+        "approved-audiences",
+        "product-context",
+        "team-program",
+        "team-workspace",
+        "business-value-r7",
+        "brand-language",
+        "visual-guideline",
+        "linkedin-spec",
+        "linkedin-form",
+        "linkedin-form-spec",
+        "linkedin-form-fields",
+        "linkedin-conversation",
+        "tripo-privacy",
+        "feedback-v8",
+        "official-check-2026-10-14"
+      ],
+      "footer": "Generated models are starting points; your team refines and approves final use. Trial access depends on program terms and availability; a Tripo-registered email is required before benefits are issued.",
+      "footerZh": "生成模型是制作起点，精修及最终使用仍由你的团队审核。试用以活动条款和可用名额为准；权益发放前须核对已在Tripo注册的邮箱。",
+      "id": "TU-02",
+      "label": "版本 B · 直接陈述",
+      "hookStyle": "直接陈述",
+      "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
+      "whyRelevant": "直接说明同一项工作价值，减少开场铺垫；不增加新的用途、产品承诺或人群条件。",
+      "subject": "Create and reuse game assets in one workspace",
+      "subjectZh": "在同一工作区创建与复用游戏资产",
+      "nodes": [
+        {
+          "id": "intro",
+          "labelZh": "开场 · 同一诉求的不同表达",
+          "message": "Hi, we’re Tripo.\n\nGive your game team a starting point for new assets and a shared place to reuse them.\n\nTripo Studio Team Plan helps your game team create first-pass 3D characters and props from text or images, pool credits and reuse assets in one workspace. Artists still refine and approve what ships.\n\nPlan a 10-asset pilot against your current process: generation, cleanup, review and reuse. Discuss your asset list and trial availability.",
+          "messageZh": "你好，我们是 Tripo。\n\n为游戏团队的新资产提供初始模型，也为资产复用提供共享工作区。\n\nTripo Studio 团队版支持游戏团队从文字或图片生成角色与道具的初始3D模型，共享积分，并在同一工作区复用资产。最终用于项目的资产，仍由美术成员精修并审核。\n\n规划一次包含10项真实资产的试点，对照现有流程，评估生成、精修、审核与复用的投入。沟通你的资产清单及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            },
+            {
+              "id": "workflow",
+              "label": "See the team workflow",
+              "labelZh": "了解团队制作流程",
+              "action": "next",
+              "target": "workflow"
+            },
+            {
+              "id": "preflight",
+              "label": "What should we measure?",
+              "labelZh": "试点应该评估什么？",
+              "action": "next",
+              "target": "preflight"
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "labelZh": "回复 · 生成起点与团队交付",
+          "message": "Generate first-pass models from text or images, then let artists refine them in their existing tools and check them in the game.\n\nShared credits, access controls and a searchable asset library keep team resources together. Another teammate can find and reuse reviewed work rather than request a new file.\n\nPlan a 10-asset pilot to compare the whole process with how your team works today. Leave your details to discuss the plan and trial availability.",
+          "messageZh": "从文字或图片生成初始模型，再由美术成员在现有工具中精修，并在游戏中检查。\n\n共享积分、访问权限管理和可搜索的资产库，让团队资源集中管理。另一位成员可以查找并复用已审核的资产，减少重新索取文件的环节。\n\n规划包含10项资产的试点，把完整流程与团队现有做法进行比较。留下联系方式，沟通试点计划及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            }
+          ]
+        },
+        {
+          "id": "preflight",
+          "labelZh": "回复 · 10项资产的完整投入",
+          "message": "Choose 10 real characters and props. Define what counts as useful and approved for your game.\n\nCompare your current workflow with a pilot: time to first useful model, generation credits and retries, artist cleanup, review and engine checks. Record whether another teammate can find and reuse each approved asset.\n\nCount the full effort, not just generation time. Leave your details to discuss a pilot plan and trial availability.",
+          "messageZh": "选择10项真实角色与道具，先明确什么样的模型算可继续制作、什么样的资产算通过游戏项目验收。\n\n对照现有流程与试点：记录首个可继续制作的模型所需时间、生成积分与重试、美术精修、审核及引擎检查；再记录另一位成员能否找到并复用每项已审核的资产。\n\n统计完整投入，而不只看生成时间。留下联系方式，沟通试点计划及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            }
+          ]
+        }
+      ],
+      "objective": "lead-generation",
+      "reviewStatus": "反馈修订稿／未投放"
+    },
+    {
+      "groupId": "teams-us",
+      "persona": "Teams · 美国游戏人群（沿用已确认人群，不新增角色或定向）",
+      "job": "游戏团队创建、集中管理和复用角色与道具资产，减少重复操作和文件交接。",
+      "copyIntent": "保留美国游戏人群的流程效率方向。用初始模型、共享积分、集中复用解释团队交付能力，再以10项真实资产的完整流程评估回答是否值得购买；不承诺量化节省或代跑服务。",
+      "qualification": "同一已确认的美国游戏人群；正文围绕团队角色与道具资产工作流，不另设角色筛选或人群条件。",
+      "objection": "共享工作区如何衔接已有资产工具？共享和复用不等于实时共编、版本管理或自动质量验收。",
+      "sourceKeys": [
+        "approved-audiences",
+        "product-context",
+        "team-program",
+        "team-workspace",
+        "business-value-r7",
+        "brand-language",
+        "visual-guideline",
+        "linkedin-spec",
+        "linkedin-form",
+        "linkedin-form-spec",
+        "linkedin-form-fields",
+        "linkedin-conversation",
+        "tripo-privacy",
+        "feedback-v8",
+        "official-check-2026-10-14"
+      ],
+      "footer": "Generated models are starting points; your team refines and approves final use. Trial access depends on program terms and availability; a Tripo-registered email is required before benefits are issued.",
+      "footerZh": "生成模型是制作起点，精修及最终使用仍由你的团队审核。试用以活动条款和可用名额为准；权益发放前须核对已在Tripo注册的邮箱。",
+      "id": "TU-03",
+      "label": "版本 C · 用途结果开场",
+      "hookStyle": "用途结果开场",
+      "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
+      "whyRelevant": "先说同一任务希望达到的状态，再解释产品能力；这不是新增商业收益或效果保证。",
+      "subject": "Give artists more room to refine your game assets",
+      "subjectZh": "让美术成员有更多空间完善游戏资产",
+      "nodes": [
+        {
+          "id": "intro",
+          "labelZh": "开场 · 同一诉求的不同表达",
+          "message": "Hi, we’re Tripo.\n\nKeep artists focused on refinement, with generated starting models and shared assets.\n\nTripo Studio Team Plan helps your game team create first-pass 3D characters and props from text or images, pool credits and reuse assets in one workspace. Artists still refine and approve what ships.\n\nPlan a 10-asset pilot against your current process: generation, cleanup, review and reuse. Discuss your asset list and trial availability.",
+          "messageZh": "你好，我们是 Tripo。\n\n借助生成的初始模型和共享资产，让美术成员把精力放在完善资产上。\n\nTripo Studio 团队版支持游戏团队从文字或图片生成角色与道具的初始3D模型，共享积分，并在同一工作区复用资产。最终用于项目的资产，仍由美术成员精修并审核。\n\n规划一次包含10项真实资产的试点，对照现有流程，评估生成、精修、审核与复用的投入。沟通你的资产清单及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            },
+            {
+              "id": "workflow",
+              "label": "See the team workflow",
+              "labelZh": "了解团队制作流程",
+              "action": "next",
+              "target": "workflow"
+            },
+            {
+              "id": "preflight",
+              "label": "What should we measure?",
+              "labelZh": "试点应该评估什么？",
+              "action": "next",
+              "target": "preflight"
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "labelZh": "回复 · 生成起点与团队交付",
+          "message": "Generate first-pass models from text or images, then let artists refine them in their existing tools and check them in the game.\n\nShared credits, access controls and a searchable asset library keep team resources together. Another teammate can find and reuse reviewed work rather than request a new file.\n\nPlan a 10-asset pilot to compare the whole process with how your team works today. Leave your details to discuss the plan and trial availability.",
+          "messageZh": "从文字或图片生成初始模型，再由美术成员在现有工具中精修，并在游戏中检查。\n\n共享积分、访问权限管理和可搜索的资产库，让团队资源集中管理。另一位成员可以查找并复用已审核的资产，减少重新索取文件的环节。\n\n规划包含10项资产的试点，把完整流程与团队现有做法进行比较。留下联系方式，沟通试点计划及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            }
+          ]
+        },
+        {
+          "id": "preflight",
+          "labelZh": "回复 · 10项资产的完整投入",
+          "message": "Choose 10 real characters and props. Define what counts as useful and approved for your game.\n\nCompare your current workflow with a pilot: time to first useful model, generation credits and retries, artist cleanup, review and engine checks. Record whether another teammate can find and reuse each approved asset.\n\nCount the full effort, not just generation time. Leave your details to discuss a pilot plan and trial availability.",
+          "messageZh": "选择10项真实角色与道具，先明确什么样的模型算可继续制作、什么样的资产算通过游戏项目验收。\n\n对照现有流程与试点：记录首个可继续制作的模型所需时间、生成积分与重试、美术精修、审核及引擎检查；再记录另一位成员能否找到并复用每项已审核的资产。\n\n统计完整投入，而不只看生成时间。留下联系方式，沟通试点计划及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            }
+          ]
+        }
+      ],
+      "objective": "lead-generation",
+      "reviewStatus": "反馈修订稿／未投放"
+    },
+    {
+      "groupId": "teams-eu",
+      "persona": "Teams · 欧洲游戏人群（沿用已确认人群，不新增角色或定向）",
+      "job": "围绕具体游戏项目的角色与道具需求，说明团队方案如何支持资产准备和项目使用。",
+      "copyIntent": "保留欧洲游戏人群的具体游戏项目用途方向。让10项角色与道具进入实际场景检查，说明生成起点、项目精修、共享复用与验收的关系，不延伸到其他行业或收益保证。",
+      "qualification": "同一已确认的欧洲游戏人群；正文围绕具体游戏项目用途，不延伸新的细分角色或独立业务场景。",
+      "objection": "资产如何用于具体游戏项目？团队仍要核对美术与技术适用性并在自己的工具中整合；不把示例写成真实客户业绩。",
+      "sourceKeys": [
+        "approved-audiences",
+        "product-context",
+        "team-program",
+        "team-workspace",
+        "business-value-r7",
+        "brand-language",
+        "visual-guideline",
+        "linkedin-spec",
+        "linkedin-form",
+        "linkedin-form-spec",
+        "linkedin-form-fields",
+        "linkedin-conversation",
+        "tripo-privacy",
+        "feedback-v8",
+        "official-check-2026-10-14"
+      ],
+      "footer": "Generated models are starting points; your team refines and approves final use. Trial access depends on program terms and availability; a Tripo-registered email is required before benefits are issued.",
+      "footerZh": "生成模型是制作起点，精修及最终使用仍由你的团队审核。试用以活动条款和可用名额为准；权益发放前须核对已在Tripo注册的邮箱。",
+      "id": "TE-01",
+      "label": "版本 A · 提问开场",
+      "hookStyle": "提问开场",
+      "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
+      "whyRelevant": "用同一工作需要提问，让读者先判断这件事是否与自己有关；不改变人群或诉求。",
+      "subject": "Will your planned game assets work in the project?",
+      "subjectZh": "计划制作的游戏资产，能否真正用于项目？",
+      "nodes": [
+        {
+          "id": "intro",
+          "labelZh": "开场 · 同一诉求的不同表达",
+          "message": "Hi, we’re Tripo.\n\nCan the characters and props on your roadmap make it into the game, not just a preview?\n\nTripo Studio Team Plan starts with the characters and props your game needs. Generate initial 3D models from text or images, refine them in your existing tools, then keep reviewed assets in a shared workspace.\n\nPlan a 10-asset project pilot: check in-game use, artist effort and team reuse before choosing what ships. Discuss your project and trial availability.",
+          "messageZh": "你好，我们是 Tripo。\n\n规划中的角色与道具，能否真正进入游戏，而不只停在预览图中？\n\nTripo Studio 团队版从游戏实际需要的角色与道具入手：从文字或图片生成初始3D模型，在现有工具中精修，再将已审核的资产保留在共享工作区。\n\n规划包含10项资产的项目试点，评估游戏内使用、美术投入及团队复用，再决定哪些资产可用于交付。沟通你的项目需求及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            },
+            {
+              "id": "workflow",
+              "label": "Explore project use",
+              "labelZh": "了解具体项目用途",
+              "action": "next",
+              "target": "workflow"
+            },
+            {
+              "id": "preflight",
+              "label": "What should we test?",
+              "labelZh": "项目试点应测试什么？",
+              "action": "next",
+              "target": "preflight"
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "labelZh": "回复 · 进入真实游戏场景",
+          "message": "Start with characters and props planned for a game scene. Generate initial models, then have artists refine geometry and materials in their existing tools.\n\nCheck scale, mesh budget, materials and any required animation in the project. Keep approved assets in the shared library for the team to reuse.\n\nPlan a 10-asset pilot around this path, not just a gallery of outputs. Leave your details to discuss the project and trial availability.",
+          "messageZh": "从某个游戏场景计划使用的角色与道具开始。生成初始模型，再由美术成员在现有工具中完善几何与材质。\n\n在项目中检查比例、面数预算、材质及所需动画。将通过验收的资产保留在共享资产库，方便团队复用。\n\n围绕这条项目路径规划包含10项资产的试点，而不只是展示一组生成图。留下联系方式，沟通项目需求及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            }
+          ]
+        },
+        {
+          "id": "preflight",
+          "labelZh": "回复 · 按游戏项目验收10项资产",
+          "message": "Pick 10 characters and props with a defined use in your game. Set project checks before generating: visual fit, mesh budget, materials and animation where needed.\n\nCompare your current process with the pilot. Include generation, retries, artist refinement, review and in-game checks; record which assets pass and can be reused.\n\nThis tests project fit, not guaranteed savings. Leave your details to discuss the pilot and trial availability.",
+          "messageZh": "选择10项在游戏中有明确用途的角色与道具。生成前先确定项目检查要求：视觉适配、面数预算、材质，以及必要时的动画要求。\n\n对照现有制作流程与试点，计入生成、重试、美术精修、审核及游戏内检查，并记录哪些资产通过验收、可以复用。\n\n这用于判断方案是否适合项目，不代表保证节省。留下联系方式，沟通试点及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            }
+          ]
+        }
+      ],
+      "objective": "lead-generation",
+      "reviewStatus": "反馈修订稿／未投放"
+    },
+    {
+      "groupId": "teams-eu",
+      "persona": "Teams · 欧洲游戏人群（沿用已确认人群，不新增角色或定向）",
+      "job": "围绕具体游戏项目的角色与道具需求，说明团队方案如何支持资产准备和项目使用。",
+      "copyIntent": "保留欧洲游戏人群的具体游戏项目用途方向。让10项角色与道具进入实际场景检查，说明生成起点、项目精修、共享复用与验收的关系，不延伸到其他行业或收益保证。",
+      "qualification": "同一已确认的欧洲游戏人群；正文围绕具体游戏项目用途，不延伸新的细分角色或独立业务场景。",
+      "objection": "资产如何用于具体游戏项目？团队仍要核对美术与技术适用性并在自己的工具中整合；不把示例写成真实客户业绩。",
+      "sourceKeys": [
+        "approved-audiences",
+        "product-context",
+        "team-program",
+        "team-workspace",
+        "business-value-r7",
+        "brand-language",
+        "visual-guideline",
+        "linkedin-spec",
+        "linkedin-form",
+        "linkedin-form-spec",
+        "linkedin-form-fields",
+        "linkedin-conversation",
+        "tripo-privacy",
+        "feedback-v8",
+        "official-check-2026-10-14"
+      ],
+      "footer": "Generated models are starting points; your team refines and approves final use. Trial access depends on program terms and availability; a Tripo-registered email is required before benefits are issued.",
+      "footerZh": "生成模型是制作起点，精修及最终使用仍由你的团队审核。试用以活动条款和可用名额为准；权益发放前须核对已在Tripo注册的邮箱。",
+      "id": "TE-02",
+      "label": "版本 B · 直接陈述",
+      "hookStyle": "直接陈述",
+      "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
+      "whyRelevant": "直接说明同一项工作价值，减少开场铺垫；不增加新的用途、产品承诺或人群条件。",
+      "subject": "Test 3D generation on assets your game will use",
+      "subjectZh": "用游戏实际需要的资产评估3D生成",
+      "nodes": [
+        {
+          "id": "intro",
+          "labelZh": "开场 · 同一诉求的不同表达",
+          "message": "Hi, we’re Tripo.\n\nEvaluate 3D generation on the characters and props your game actually needs.\n\nTripo Studio Team Plan starts with the characters and props your game needs. Generate initial 3D models from text or images, refine them in your existing tools, then keep reviewed assets in a shared workspace.\n\nPlan a 10-asset project pilot: check in-game use, artist effort and team reuse before choosing what ships. Discuss your project and trial availability.",
+          "messageZh": "你好，我们是 Tripo。\n\n用游戏实际需要的角色与道具，评估3D生成是否适合这个项目。\n\nTripo Studio 团队版从游戏实际需要的角色与道具入手：从文字或图片生成初始3D模型，在现有工具中精修，再将已审核的资产保留在共享工作区。\n\n规划包含10项资产的项目试点，评估游戏内使用、美术投入及团队复用，再决定哪些资产可用于交付。沟通你的项目需求及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            },
+            {
+              "id": "workflow",
+              "label": "Explore project use",
+              "labelZh": "了解具体项目用途",
+              "action": "next",
+              "target": "workflow"
+            },
+            {
+              "id": "preflight",
+              "label": "What should we test?",
+              "labelZh": "项目试点应测试什么？",
+              "action": "next",
+              "target": "preflight"
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "labelZh": "回复 · 进入真实游戏场景",
+          "message": "Start with characters and props planned for a game scene. Generate initial models, then have artists refine geometry and materials in their existing tools.\n\nCheck scale, mesh budget, materials and any required animation in the project. Keep approved assets in the shared library for the team to reuse.\n\nPlan a 10-asset pilot around this path, not just a gallery of outputs. Leave your details to discuss the project and trial availability.",
+          "messageZh": "从某个游戏场景计划使用的角色与道具开始。生成初始模型，再由美术成员在现有工具中完善几何与材质。\n\n在项目中检查比例、面数预算、材质及所需动画。将通过验收的资产保留在共享资产库，方便团队复用。\n\n围绕这条项目路径规划包含10项资产的试点，而不只是展示一组生成图。留下联系方式，沟通项目需求及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            }
+          ]
+        },
+        {
+          "id": "preflight",
+          "labelZh": "回复 · 按游戏项目验收10项资产",
+          "message": "Pick 10 characters and props with a defined use in your game. Set project checks before generating: visual fit, mesh budget, materials and animation where needed.\n\nCompare your current process with the pilot. Include generation, retries, artist refinement, review and in-game checks; record which assets pass and can be reused.\n\nThis tests project fit, not guaranteed savings. Leave your details to discuss the pilot and trial availability.",
+          "messageZh": "选择10项在游戏中有明确用途的角色与道具。生成前先确定项目检查要求：视觉适配、面数预算、材质，以及必要时的动画要求。\n\n对照现有制作流程与试点，计入生成、重试、美术精修、审核及游戏内检查，并记录哪些资产通过验收、可以复用。\n\n这用于判断方案是否适合项目，不代表保证节省。留下联系方式，沟通试点及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            }
+          ]
+        }
+      ],
+      "objective": "lead-generation",
+      "reviewStatus": "反馈修订稿／未投放"
+    },
+    {
+      "groupId": "teams-eu",
+      "persona": "Teams · 欧洲游戏人群（沿用已确认人群，不新增角色或定向）",
+      "job": "围绕具体游戏项目的角色与道具需求，说明团队方案如何支持资产准备和项目使用。",
+      "copyIntent": "保留欧洲游戏人群的具体游戏项目用途方向。让10项角色与道具进入实际场景检查，说明生成起点、项目精修、共享复用与验收的关系，不延伸到其他行业或收益保证。",
+      "qualification": "同一已确认的欧洲游戏人群；正文围绕具体游戏项目用途，不延伸新的细分角色或独立业务场景。",
+      "objection": "资产如何用于具体游戏项目？团队仍要核对美术与技术适用性并在自己的工具中整合；不把示例写成真实客户业绩。",
+      "sourceKeys": [
+        "approved-audiences",
+        "product-context",
+        "team-program",
+        "team-workspace",
+        "business-value-r7",
+        "brand-language",
+        "visual-guideline",
+        "linkedin-spec",
+        "linkedin-form",
+        "linkedin-form-spec",
+        "linkedin-form-fields",
+        "linkedin-conversation",
+        "tripo-privacy",
+        "feedback-v8",
+        "official-check-2026-10-14"
+      ],
+      "footer": "Generated models are starting points; your team refines and approves final use. Trial access depends on program terms and availability; a Tripo-registered email is required before benefits are issued.",
+      "footerZh": "生成模型是制作起点，精修及最终使用仍由你的团队审核。试用以活动条款和可用名额为准；权益发放前须核对已在Tripo注册的邮箱。",
+      "id": "TE-03",
+      "label": "版本 C · 用途结果开场",
+      "hookStyle": "用途结果开场",
+      "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
+      "whyRelevant": "先说同一任务希望达到的状态，再解释产品能力；这不是新增商业收益或效果保证。",
+      "subject": "From asset concepts to your game's project checks",
+      "subjectZh": "从资产概念到游戏项目验收",
+      "nodes": [
+        {
+          "id": "intro",
+          "labelZh": "开场 · 同一诉求的不同表达",
+          "message": "Hi, we’re Tripo.\n\nGive artists a 3D starting point they can refine and test for a real game scene.\n\nTripo Studio Team Plan starts with the characters and props your game needs. Generate initial 3D models from text or images, refine them in your existing tools, then keep reviewed assets in a shared workspace.\n\nPlan a 10-asset project pilot: check in-game use, artist effort and team reuse before choosing what ships. Discuss your project and trial availability.",
+          "messageZh": "你好，我们是 Tripo。\n\n为美术成员提供可继续精修的3D起点，再放入真实游戏场景中检查。\n\nTripo Studio 团队版从游戏实际需要的角色与道具入手：从文字或图片生成初始3D模型，在现有工具中精修，再将已审核的资产保留在共享工作区。\n\n规划包含10项资产的项目试点，评估游戏内使用、美术投入及团队复用，再决定哪些资产可用于交付。沟通你的项目需求及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            },
+            {
+              "id": "workflow",
+              "label": "Explore project use",
+              "labelZh": "了解具体项目用途",
+              "action": "next",
+              "target": "workflow"
+            },
+            {
+              "id": "preflight",
+              "label": "What should we test?",
+              "labelZh": "项目试点应测试什么？",
+              "action": "next",
+              "target": "preflight"
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "labelZh": "回复 · 进入真实游戏场景",
+          "message": "Start with characters and props planned for a game scene. Generate initial models, then have artists refine geometry and materials in their existing tools.\n\nCheck scale, mesh budget, materials and any required animation in the project. Keep approved assets in the shared library for the team to reuse.\n\nPlan a 10-asset pilot around this path, not just a gallery of outputs. Leave your details to discuss the project and trial availability.",
+          "messageZh": "从某个游戏场景计划使用的角色与道具开始。生成初始模型，再由美术成员在现有工具中完善几何与材质。\n\n在项目中检查比例、面数预算、材质及所需动画。将通过验收的资产保留在共享资产库，方便团队复用。\n\n围绕这条项目路径规划包含10项资产的试点，而不只是展示一组生成图。留下联系方式，沟通项目需求及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            }
+          ]
+        },
+        {
+          "id": "preflight",
+          "labelZh": "回复 · 按游戏项目验收10项资产",
+          "message": "Pick 10 characters and props with a defined use in your game. Set project checks before generating: visual fit, mesh budget, materials and animation where needed.\n\nCompare your current process with the pilot. Include generation, retries, artist refinement, review and in-game checks; record which assets pass and can be reused.\n\nThis tests project fit, not guaranteed savings. Leave your details to discuss the pilot and trial availability.",
+          "messageZh": "选择10项在游戏中有明确用途的角色与道具。生成前先确定项目检查要求：视觉适配、面数预算、材质，以及必要时的动画要求。\n\n对照现有制作流程与试点，计入生成、重试、美术精修、审核及游戏内检查，并记录哪些资产通过验收、可以复用。\n\n这用于判断方案是否适合项目，不代表保证节省。留下联系方式，沟通试点及可用的试用安排。",
+          "buttons": [
+            {
+              "id": "trial",
+              "label": "Plan 10-asset pilot",
+              "labelZh": "留资规划10项资产试点",
+              "action": "leadgen",
+              "formId": "teams-trial"
+            }
+          ]
+        }
+      ],
+      "objective": "lead-generation",
+      "reviewStatus": "反馈修订稿／未投放"
+    },
+    {
+      "groupId": "api-us",
+      "persona": "API · 美国游戏＋3D资产人群（沿用已确认人群，不新增角色或定向）",
+      "job": "把 3D 生成接入自己的游戏工具或资产制作流程，提交任务、查询状态、取回模型，再进入后续使用。",
+      "copyIntent": "游戏和3D资产工具买现成的3D生成层，工程团队聚焦产品接入而非自建通用模型栈；用10项真实资产核对完整制作投入，不承诺省钱数字。",
+      "qualification": "同一已确认的美国游戏＋3D资产人群；正文围绕已有工具和资产流程，不另设技术岗位或人群条件。",
+      "objection": "如何衔接现有工具？接入由调用方实现，任务成功不等于游戏资产已通过验收，也不承诺免开发或一键上线。",
+      "sourceKeys": [
+        "approved-audiences",
+        "product-context",
+        "api-quick-start",
+        "api-introduction",
+        "business-value-r7",
+        "brand-language",
+        "visual-guideline",
+        "linkedin-spec",
+        "feedback-v8",
+        "official-check-2026-10-14"
+      ],
+      "footer": "Tripo provides the generation layer. Your team builds the integration and refines and approves generated models for the project.",
+      "footerZh": "Tripo提供生成层；接入由你的团队实现，生成模型仍由团队精修并按项目要求验收。",
+      "id": "AU-01",
+      "label": "版本 A · 提问开场",
+      "hookStyle": "提问开场",
+      "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
+      "whyRelevant": "用同一工作需要提问，让读者先判断这件事是否与自己有关；不改变人群或诉求。",
+      "subject": "Add 3D generation without building the model stack",
+      "subjectZh": "接入3D生成，不必从头搭建底层模型",
+      "nodes": [
+        {
+          "id": "intro",
+          "labelZh": "开场 · 同一诉求的不同表达",
+          "message": "Hi, we’re Tripo.\n\nCould your game asset tools offer 3D generation without your team building the underlying model stack?\n\nUse Tripo API as the 3D generation layer in your tools, rather than building the underlying model stack. Submit text or images, track asynchronous tasks and retrieve models. Your team controls the interface, asset review and engine checks.\n\nPlan a 10-asset API test to compare quality, retries, cleanup time and total cost before scaling.",
+          "messageZh": "你好，我们是 Tripo。\n\n游戏资产工具需要3D生成功能，是否一定要让团队从头搭建底层生成模型？\n\n把Tripo API作为工具中的3D生成层，不必从头搭建底层生成模型。提交文字或图片，查询异步任务状态，再取回模型；交互界面、资产审核和引擎检查仍由你的团队掌控。\n\n先规划一次10项真实资产的API测试，对比质量、重试、精修时间和总成本，再决定是否扩大使用。",
+          "buttons": [
+            {
+              "id": "preflight",
+              "label": "Plan 10-asset API test",
+              "labelZh": "规划10项资产的API测试",
+              "action": "next",
+              "target": "preflight"
+            },
+            {
+              "id": "workflow",
+              "label": "See the API workflow",
+              "labelZh": "查看API接入流程",
+              "action": "next",
+              "target": "workflow"
+            },
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "labelZh": "回复 · 接入生成层，保留项目验收",
+          "message": "Your tool submits text or images and receives a task ID. It checks status and retrieves the model after a successful task. Your team reviews geometry, materials and target-engine performance before approving the asset.\n\nTripo provides the generation layer; your team implements the interface and integration. Open Quick Start for the request flow.",
+          "messageZh": "你的工具提交文字或图片并取得任务ID，再查询状态，在任务成功后取回模型。团队检查几何、材质和目标引擎中的性能，决定资产是否通过验收。\n\nTripo提供生成层；交互界面和系统接入由你的团队实现。打开 Quick Start，查看请求流程。",
+          "buttons": [
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        },
+        {
+          "id": "preflight",
+          "labelZh": "回复 · 规划10项真实资产评估",
+          "message": "Choose 10 real game assets, including common and difficult cases. Set acceptance criteria, then record time to first approved output, accepted outputs, retries, cleanup, engine-review time and API cost. Include integration work when comparing total effort with your current process.\n\nThis is an evaluation plan, not a running benchmark. Open Quick Start when your team is ready to implement.",
+          "messageZh": "选择10项真实游戏资产，包含常见需求和难处理的情况。先设定验收标准，再记录首个验收通过输出所需时间、通过验收的输出、重试次数、精修、引擎检查时间和API费用；对比现有流程的总投入时，也计入接入所需的开发工作。\n\n这里提供评估方案，不会直接启动测试。准备实施时，打开 Quick Start。",
+          "buttons": [
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "反馈修订稿／未投放"
+    },
+    {
+      "groupId": "api-us",
+      "persona": "API · 美国游戏＋3D资产人群（沿用已确认人群，不新增角色或定向）",
+      "job": "把 3D 生成接入自己的游戏工具或资产制作流程，提交任务、查询状态、取回模型，再进入后续使用。",
+      "copyIntent": "游戏和3D资产工具买现成的3D生成层，工程团队聚焦产品接入而非自建通用模型栈；用10项真实资产核对完整制作投入，不承诺省钱数字。",
+      "qualification": "同一已确认的美国游戏＋3D资产人群；正文围绕已有工具和资产流程，不另设技术岗位或人群条件。",
+      "objection": "如何衔接现有工具？接入由调用方实现，任务成功不等于游戏资产已通过验收，也不承诺免开发或一键上线。",
+      "sourceKeys": [
+        "approved-audiences",
+        "product-context",
+        "api-quick-start",
+        "api-introduction",
+        "business-value-r7",
+        "brand-language",
+        "visual-guideline",
+        "linkedin-spec",
+        "feedback-v8",
+        "official-check-2026-10-14"
+      ],
+      "footer": "Tripo provides the generation layer. Your team builds the integration and refines and approves generated models for the project.",
+      "footerZh": "Tripo提供生成层；接入由你的团队实现，生成模型仍由团队精修并按项目要求验收。",
+      "id": "AU-02",
+      "label": "版本 B · 直接陈述",
+      "hookStyle": "直接陈述",
+      "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
+      "whyRelevant": "直接说明同一项工作价值，减少开场铺垫；不增加新的用途、产品承诺或人群条件。",
+      "subject": "Connect 3D generation to your game asset pipeline",
+      "subjectZh": "把3D生成接入游戏资产流程",
+      "nodes": [
+        {
+          "id": "intro",
+          "labelZh": "开场 · 同一诉求的不同表达",
+          "message": "Hi, we’re Tripo.\n\nA game asset pipeline needs more than a model download. It needs submission, status tracking and results your tools can use.\n\nUse Tripo API as the 3D generation layer in your tools, rather than building the underlying model stack. Submit text or images, track asynchronous tasks and retrieve models. Your team controls the interface, asset review and engine checks.\n\nPlan a 10-asset API test to compare quality, retries, cleanup time and total cost before scaling.",
+          "messageZh": "你好，我们是 Tripo。\n\n游戏资产流程需要的不只是下载一个模型，而是能接入自有工具的任务提交、状态查询和结果获取。\n\n把Tripo API作为工具中的3D生成层，不必从头搭建底层生成模型。提交文字或图片，查询异步任务状态，再取回模型；交互界面、资产审核和引擎检查仍由你的团队掌控。\n\n先规划一次10项真实资产的API测试，对比质量、重试、精修时间和总成本，再决定是否扩大使用。",
+          "buttons": [
+            {
+              "id": "preflight",
+              "label": "Plan 10-asset API test",
+              "labelZh": "规划10项资产的API测试",
+              "action": "next",
+              "target": "preflight"
+            },
+            {
+              "id": "workflow",
+              "label": "See the API workflow",
+              "labelZh": "查看API接入流程",
+              "action": "next",
+              "target": "workflow"
+            },
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "labelZh": "回复 · 接入生成层，保留项目验收",
+          "message": "Your tool submits text or images and receives a task ID. It checks status and retrieves the model after a successful task. Your team reviews geometry, materials and target-engine performance before approving the asset.\n\nTripo provides the generation layer; your team implements the interface and integration. Open Quick Start for the request flow.",
+          "messageZh": "你的工具提交文字或图片并取得任务ID，再查询状态，在任务成功后取回模型。团队检查几何、材质和目标引擎中的性能，决定资产是否通过验收。\n\nTripo提供生成层；交互界面和系统接入由你的团队实现。打开 Quick Start，查看请求流程。",
+          "buttons": [
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        },
+        {
+          "id": "preflight",
+          "labelZh": "回复 · 规划10项真实资产评估",
+          "message": "Choose 10 real game assets, including common and difficult cases. Set acceptance criteria, then record time to first approved output, accepted outputs, retries, cleanup, engine-review time and API cost. Include integration work when comparing total effort with your current process.\n\nThis is an evaluation plan, not a running benchmark. Open Quick Start when your team is ready to implement.",
+          "messageZh": "选择10项真实游戏资产，包含常见需求和难处理的情况。先设定验收标准，再记录首个验收通过输出所需时间、通过验收的输出、重试次数、精修、引擎检查时间和API费用；对比现有流程的总投入时，也计入接入所需的开发工作。\n\n这里提供评估方案，不会直接启动测试。准备实施时，打开 Quick Start。",
+          "buttons": [
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "反馈修订稿／未投放"
+    },
+    {
+      "groupId": "api-us",
+      "persona": "API · 美国游戏＋3D资产人群（沿用已确认人群，不新增角色或定向）",
+      "job": "把 3D 生成接入自己的游戏工具或资产制作流程，提交任务、查询状态、取回模型，再进入后续使用。",
+      "copyIntent": "游戏和3D资产工具买现成的3D生成层，工程团队聚焦产品接入而非自建通用模型栈；用10项真实资产核对完整制作投入，不承诺省钱数字。",
+      "qualification": "同一已确认的美国游戏＋3D资产人群；正文围绕已有工具和资产流程，不另设技术岗位或人群条件。",
+      "objection": "如何衔接现有工具？接入由调用方实现，任务成功不等于游戏资产已通过验收，也不承诺免开发或一键上线。",
+      "sourceKeys": [
+        "approved-audiences",
+        "product-context",
+        "api-quick-start",
+        "api-introduction",
+        "business-value-r7",
+        "brand-language",
+        "visual-guideline",
+        "linkedin-spec",
+        "feedback-v8",
+        "official-check-2026-10-14"
+      ],
+      "footer": "Tripo provides the generation layer. Your team builds the integration and refines and approves generated models for the project.",
+      "footerZh": "Tripo提供生成层；接入由你的团队实现，生成模型仍由团队精修并按项目要求验收。",
+      "id": "AU-03",
+      "label": "版本 C · 试点评估开场",
+      "hookStyle": "试点评估开场",
+      "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
+      "whyRelevant": "先说同一任务希望达到的状态，再解释产品能力；这不是新增商业收益或效果保证。",
+      "subject": "Test 3D generation on 10 real game assets",
+      "subjectZh": "先用10项真实游戏资产测试3D生成",
+      "nodes": [
+        {
+          "id": "intro",
+          "labelZh": "开场 · 同一诉求的不同表达",
+          "message": "Hi, we’re Tripo.\n\nBefore committing more engineering time, test how generated models fit 10 assets from your actual game pipeline.\n\nUse Tripo API as the 3D generation layer in your tools, rather than building the underlying model stack. Submit text or images, track asynchronous tasks and retrieve models. Your team controls the interface, asset review and engine checks.\n\nPlan a 10-asset API test to compare quality, retries, cleanup time and total cost before scaling.",
+          "messageZh": "你好，我们是 Tripo。\n\n投入更多开发时间前，先用实际游戏流程中的10项资产，测试生成模型是否满足项目要求。\n\n把Tripo API作为工具中的3D生成层，不必从头搭建底层生成模型。提交文字或图片，查询异步任务状态，再取回模型；交互界面、资产审核和引擎检查仍由你的团队掌控。\n\n先规划一次10项真实资产的API测试，对比质量、重试、精修时间和总成本，再决定是否扩大使用。",
+          "buttons": [
+            {
+              "id": "preflight",
+              "label": "Plan 10-asset API test",
+              "labelZh": "规划10项资产的API测试",
+              "action": "next",
+              "target": "preflight"
+            },
+            {
+              "id": "workflow",
+              "label": "See the API workflow",
+              "labelZh": "查看API接入流程",
+              "action": "next",
+              "target": "workflow"
+            },
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "labelZh": "回复 · 接入生成层，保留项目验收",
+          "message": "Your tool submits text or images and receives a task ID. It checks status and retrieves the model after a successful task. Your team reviews geometry, materials and target-engine performance before approving the asset.\n\nTripo provides the generation layer; your team implements the interface and integration. Open Quick Start for the request flow.",
+          "messageZh": "你的工具提交文字或图片并取得任务ID，再查询状态，在任务成功后取回模型。团队检查几何、材质和目标引擎中的性能，决定资产是否通过验收。\n\nTripo提供生成层；交互界面和系统接入由你的团队实现。打开 Quick Start，查看请求流程。",
+          "buttons": [
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        },
+        {
+          "id": "preflight",
+          "labelZh": "回复 · 规划10项真实资产评估",
+          "message": "Choose 10 real game assets, including common and difficult cases. Set acceptance criteria, then record time to first approved output, accepted outputs, retries, cleanup, engine-review time and API cost. Include integration work when comparing total effort with your current process.\n\nThis is an evaluation plan, not a running benchmark. Open Quick Start when your team is ready to implement.",
+          "messageZh": "选择10项真实游戏资产，包含常见需求和难处理的情况。先设定验收标准，再记录首个验收通过输出所需时间、通过验收的输出、重试次数、精修、引擎检查时间和API费用；对比现有流程的总投入时，也计入接入所需的开发工作。\n\n这里提供评估方案，不会直接启动测试。准备实施时，打开 Quick Start。",
+          "buttons": [
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "反馈修订稿／未投放"
+    },
+    {
+      "groupId": "api-eu",
+      "persona": "API · 欧洲企业内容人群（沿用已确认人群，不新增角色或定向）",
+      "job": "将 3D 生成接入企业自己的内容平台，围绕产品展示说明模型结果如何经检查后用于业务。",
+      "copyIntent": "企业内容平台为产品展示接入现成的3D生成层，不自建通用模型栈；保留产品形态和材质核对、查看器及发布责任，用10款真实产品评估适用范围。",
+      "qualification": "同一已确认的欧洲企业内容人群；正文固定产品展示这一已确认用途，不增加电商、目录或岗位细分。",
+      "objection": "生成结果如何用于产品展示？调用方负责质量检查和展示接入，API 不等于内置查看器，也不保证尺寸精准或提升销售。",
+      "sourceKeys": [
+        "approved-audiences",
+        "product-context",
+        "api-quick-start",
+        "api-introduction",
+        "business-value-r7",
+        "brand-language",
+        "visual-guideline",
+        "linkedin-spec",
+        "feedback-v8",
+        "official-check-2026-10-14"
+      ],
+      "footer": "Tripo provides the generation layer. Your team builds the viewer and integration, reviews product accuracy and approves final use.",
+      "footerZh": "Tripo提供生成层；查看器及系统接入由你的团队实现，并由团队核对产品准确性、审核最终使用。",
+      "id": "AE-01",
+      "label": "版本 A · 提问开场",
+      "hookStyle": "提问开场",
+      "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
+      "whyRelevant": "用同一工作需要提问，让读者先判断这件事是否与自己有关；不改变人群或诉求。",
+      "subject": "Add 3D generation to your product content platform",
+      "subjectZh": "为产品内容平台接入3D生成层",
+      "nodes": [
+        {
+          "id": "intro",
+          "labelZh": "开场 · 同一诉求的不同表达",
+          "message": "Hi, we’re Tripo.\n\nCould your content platform create 3D product assets without your team building the underlying generation model?\n\nUse Tripo API as the 3D generation layer in your content platform, rather than building the underlying model stack. Submit product images, track asynchronous tasks and retrieve models. Your team controls the viewer, product review and publishing.\n\nPlan a 10-asset API test to compare fidelity, retries, correction time and total cost before expanding.",
+          "messageZh": "你好，我们是 Tripo。\n\n为内容平台加入3D产品资产生成，是否一定要让团队从头搭建底层生成模型？\n\n把Tripo API作为内容平台中的3D生成层，不必从头搭建底层生成模型。提交产品图片，查询异步任务状态，再取回模型；查看器、产品准确性审核和发布仍由你的团队掌控。\n\n先规划一次10款真实产品的API测试，对比还原度、重试、人工修正时间和总成本，再决定是否扩大使用。",
+          "buttons": [
+            {
+              "id": "preflight",
+              "label": "Plan 10-asset API test",
+              "labelZh": "规划10项资产的API测试",
+              "action": "next",
+              "target": "preflight"
+            },
+            {
+              "id": "workflow",
+              "label": "See product workflow",
+              "labelZh": "查看产品展示接入流程",
+              "action": "next",
+              "target": "workflow"
+            },
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "labelZh": "回复 · 生成结果如何接入产品展示",
+          "message": "Your platform submits product images and receives a task ID. It checks status and retrieves the model after a successful task. Review shape, proportions and materials against the real product, then connect approved assets to your display.\n\nTripo provides the generation layer; your team implements the viewer and publishing workflow. Open Quick Start for the request flow.",
+          "messageZh": "平台提交产品图片并取得任务ID，再查询状态，在任务成功后取回模型。对照实物检查形态、比例与材质，再把验收通过的资产接入产品展示。\n\nTripo提供生成层；查看器和发布流程由你的团队实现。打开 Quick Start，查看请求流程。",
+          "buttons": [
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        },
+        {
+          "id": "preflight",
+          "labelZh": "回复 · 规划10款真实产品评估",
+          "message": "Choose 10 real products covering common and difficult shapes or materials. Define display requirements and review outputs against the originals. Record time to first approved output, accepted assets, retries, manual corrections and API cost, plus viewer and integration work.\n\nCompare the total effort with your current content process. This is a test plan, not a running benchmark. Open Quick Start to prepare implementation.",
+          "messageZh": "选择10款真实产品，覆盖常见及难处理的形态或材质。明确展示要求，并对照原产品审核输出；记录首个验收通过输出所需时间、通过验收的资产、重试、人工修正和API费用，同时计入查看器及系统接入的开发工作。\n\n对比现有内容流程的总投入。这里提供测试方案，不会直接启动测试；打开 Quick Start，准备实施。",
+          "buttons": [
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "反馈修订稿／未投放"
+    },
+    {
+      "groupId": "api-eu",
+      "persona": "API · 欧洲企业内容人群（沿用已确认人群，不新增角色或定向）",
+      "job": "将 3D 生成接入企业自己的内容平台，围绕产品展示说明模型结果如何经检查后用于业务。",
+      "copyIntent": "企业内容平台为产品展示接入现成的3D生成层，不自建通用模型栈；保留产品形态和材质核对、查看器及发布责任，用10款真实产品评估适用范围。",
+      "qualification": "同一已确认的欧洲企业内容人群；正文固定产品展示这一已确认用途，不增加电商、目录或岗位细分。",
+      "objection": "生成结果如何用于产品展示？调用方负责质量检查和展示接入，API 不等于内置查看器，也不保证尺寸精准或提升销售。",
+      "sourceKeys": [
+        "approved-audiences",
+        "product-context",
+        "api-quick-start",
+        "api-introduction",
+        "business-value-r7",
+        "brand-language",
+        "visual-guideline",
+        "linkedin-spec",
+        "feedback-v8",
+        "official-check-2026-10-14"
+      ],
+      "footer": "Tripo provides the generation layer. Your team builds the viewer and integration, reviews product accuracy and approves final use.",
+      "footerZh": "Tripo提供生成层；查看器及系统接入由你的团队实现，并由团队核对产品准确性、审核最终使用。",
+      "id": "AE-02",
+      "label": "版本 B · 直接陈述",
+      "hookStyle": "直接陈述",
+      "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
+      "whyRelevant": "直接说明同一项工作价值，减少开场铺垫；不增加新的用途、产品承诺或人群条件。",
+      "subject": "Build a 3D product workflow around your platform",
+      "subjectZh": "围绕现有平台构建3D产品内容流程",
+      "nodes": [
+        {
+          "id": "intro",
+          "labelZh": "开场 · 同一诉求的不同表达",
+          "message": "Hi, we’re Tripo.\n\nProduct images are a starting point. Your platform still needs a way to generate, review and publish useful 3D assets.\n\nUse Tripo API as the 3D generation layer in your content platform, rather than building the underlying model stack. Submit product images, track asynchronous tasks and retrieve models. Your team controls the viewer, product review and publishing.\n\nPlan a 10-asset API test to compare fidelity, retries, correction time and total cost before expanding.",
+          "messageZh": "你好，我们是 Tripo。\n\n产品图片只是起点。平台还需要一套生成、审核和发布3D资产的流程，才能把它们用于产品展示。\n\n把Tripo API作为内容平台中的3D生成层，不必从头搭建底层生成模型。提交产品图片，查询异步任务状态，再取回模型；查看器、产品准确性审核和发布仍由你的团队掌控。\n\n先规划一次10款真实产品的API测试，对比还原度、重试、人工修正时间和总成本，再决定是否扩大使用。",
+          "buttons": [
+            {
+              "id": "preflight",
+              "label": "Plan 10-asset API test",
+              "labelZh": "规划10项资产的API测试",
+              "action": "next",
+              "target": "preflight"
+            },
+            {
+              "id": "workflow",
+              "label": "See product workflow",
+              "labelZh": "查看产品展示接入流程",
+              "action": "next",
+              "target": "workflow"
+            },
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "labelZh": "回复 · 生成结果如何接入产品展示",
+          "message": "Your platform submits product images and receives a task ID. It checks status and retrieves the model after a successful task. Review shape, proportions and materials against the real product, then connect approved assets to your display.\n\nTripo provides the generation layer; your team implements the viewer and publishing workflow. Open Quick Start for the request flow.",
+          "messageZh": "平台提交产品图片并取得任务ID，再查询状态，在任务成功后取回模型。对照实物检查形态、比例与材质，再把验收通过的资产接入产品展示。\n\nTripo提供生成层；查看器和发布流程由你的团队实现。打开 Quick Start，查看请求流程。",
+          "buttons": [
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        },
+        {
+          "id": "preflight",
+          "labelZh": "回复 · 规划10款真实产品评估",
+          "message": "Choose 10 real products covering common and difficult shapes or materials. Define display requirements and review outputs against the originals. Record time to first approved output, accepted assets, retries, manual corrections and API cost, plus viewer and integration work.\n\nCompare the total effort with your current content process. This is a test plan, not a running benchmark. Open Quick Start to prepare implementation.",
+          "messageZh": "选择10款真实产品，覆盖常见及难处理的形态或材质。明确展示要求，并对照原产品审核输出；记录首个验收通过输出所需时间、通过验收的资产、重试、人工修正和API费用，同时计入查看器及系统接入的开发工作。\n\n对比现有内容流程的总投入。这里提供测试方案，不会直接启动测试；打开 Quick Start，准备实施。",
+          "buttons": [
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "反馈修订稿／未投放"
+    },
+    {
+      "groupId": "api-eu",
+      "persona": "API · 欧洲企业内容人群（沿用已确认人群，不新增角色或定向）",
+      "job": "将 3D 生成接入企业自己的内容平台，围绕产品展示说明模型结果如何经检查后用于业务。",
+      "copyIntent": "企业内容平台为产品展示接入现成的3D生成层，不自建通用模型栈；保留产品形态和材质核对、查看器及发布责任，用10款真实产品评估适用范围。",
+      "qualification": "同一已确认的欧洲企业内容人群；正文固定产品展示这一已确认用途，不增加电商、目录或岗位细分。",
+      "objection": "生成结果如何用于产品展示？调用方负责质量检查和展示接入，API 不等于内置查看器，也不保证尺寸精准或提升销售。",
+      "sourceKeys": [
+        "approved-audiences",
+        "product-context",
+        "api-quick-start",
+        "api-introduction",
+        "business-value-r7",
+        "brand-language",
+        "visual-guideline",
+        "linkedin-spec",
+        "feedback-v8",
+        "official-check-2026-10-14"
+      ],
+      "footer": "Tripo provides the generation layer. Your team builds the viewer and integration, reviews product accuracy and approves final use.",
+      "footerZh": "Tripo提供生成层；查看器及系统接入由你的团队实现，并由团队核对产品准确性、审核最终使用。",
+      "id": "AE-03",
+      "label": "版本 C · 试点评估开场",
+      "hookStyle": "试点评估开场",
+      "angle": "仅变化主题与开场表达；同组人群、方向、主体说明、CTA和后续回复固定。",
+      "whyRelevant": "先说同一任务希望达到的状态，再解释产品能力；这不是新增商业收益或效果保证。",
+      "subject": "Test 10 products before expanding your 3D offering",
+      "subjectZh": "扩大3D产品展示前，先测试10款真实产品",
+      "nodes": [
+        {
+          "id": "intro",
+          "labelZh": "开场 · 同一诉求的不同表达",
+          "message": "Hi, we’re Tripo.\n\nBefore expanding your 3D product offering, test 10 items from your actual catalog against your display requirements.\n\nUse Tripo API as the 3D generation layer in your content platform, rather than building the underlying model stack. Submit product images, track asynchronous tasks and retrieve models. Your team controls the viewer, product review and publishing.\n\nPlan a 10-asset API test to compare fidelity, retries, correction time and total cost before expanding.",
+          "messageZh": "你好，我们是 Tripo。\n\n扩大3D产品展示前，先从真实产品目录中选10款，按实际展示要求进行测试。\n\n把Tripo API作为内容平台中的3D生成层，不必从头搭建底层生成模型。提交产品图片，查询异步任务状态，再取回模型；查看器、产品准确性审核和发布仍由你的团队掌控。\n\n先规划一次10款真实产品的API测试，对比还原度、重试、人工修正时间和总成本，再决定是否扩大使用。",
+          "buttons": [
+            {
+              "id": "preflight",
+              "label": "Plan 10-asset API test",
+              "labelZh": "规划10项资产的API测试",
+              "action": "next",
+              "target": "preflight"
+            },
+            {
+              "id": "workflow",
+              "label": "See product workflow",
+              "labelZh": "查看产品展示接入流程",
+              "action": "next",
+              "target": "workflow"
+            },
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        },
+        {
+          "id": "workflow",
+          "labelZh": "回复 · 生成结果如何接入产品展示",
+          "message": "Your platform submits product images and receives a task ID. It checks status and retrieves the model after a successful task. Review shape, proportions and materials against the real product, then connect approved assets to your display.\n\nTripo provides the generation layer; your team implements the viewer and publishing workflow. Open Quick Start for the request flow.",
+          "messageZh": "平台提交产品图片并取得任务ID，再查询状态，在任务成功后取回模型。对照实物检查形态、比例与材质，再把验收通过的资产接入产品展示。\n\nTripo提供生成层；查看器和发布流程由你的团队实现。打开 Quick Start，查看请求流程。",
+          "buttons": [
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        },
+        {
+          "id": "preflight",
+          "labelZh": "回复 · 规划10款真实产品评估",
+          "message": "Choose 10 real products covering common and difficult shapes or materials. Define display requirements and review outputs against the originals. Record time to first approved output, accepted assets, retries, manual corrections and API cost, plus viewer and integration work.\n\nCompare the total effort with your current content process. This is a test plan, not a running benchmark. Open Quick Start to prepare implementation.",
+          "messageZh": "选择10款真实产品，覆盖常见及难处理的形态或材质。明确展示要求，并对照原产品审核输出；记录首个验收通过输出所需时间、通过验收的资产、重试、人工修正和API费用，同时计入查看器及系统接入的开发工作。\n\n对比现有内容流程的总投入。这里提供测试方案，不会直接启动测试；打开 Quick Start，准备实施。",
+          "buttons": [
+            {
+              "id": "docs",
+              "label": "Open Quick Start",
+              "labelZh": "打开 Quick Start",
+              "action": "website",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ]
+        }
+      ],
+      "reviewStatus": "反馈修订稿／未投放"
+    }
+  ],
+  "sender": {
+    "name": "Tripo",
+    "status": "user-confirmed-open",
+    "confirmedAt": "2026-10-12",
+    "backendVerified": false,
+    "basis": "用户确认 Tripo 官方领英发送者已开通；本次仅更新审稿网站，未操作广告后台。"
+  },
+  "leadForms": [
+    {
+      "id": "teams-trial",
+      "headline": "Discuss a 10-asset team pilot",
+      "headlineZh": "沟通10项资产的团队试点",
+      "details": "Discuss your 10-asset pilot plan and trial availability with Tripo. Your team defines project checks and approves final assets.",
+      "detailsZh": "与Tripo沟通10项资产试点计划及可用的试用安排。由你的团队确定项目检查要求并审核最终资产。",
+      "fields": [
+        {
+          "id": "firstName",
+          "label": "First name",
+          "labelZh": "名字"
+        },
+        {
+          "id": "lastName",
+          "label": "Last name",
+          "labelZh": "姓氏"
+        },
+        {
+          "id": "workEmail",
+          "label": "Work email",
+          "labelZh": "工作邮箱"
+        },
+        {
+          "id": "companyName",
+          "label": "Company name",
+          "labelZh": "公司名称"
+        },
+        {
+          "id": "jobTitle",
+          "label": "Job title",
+          "labelZh": "职位"
+        }
+      ],
+      "privacyUrl": "https://www.tripo3d.ai/privacy",
+      "privacyText": "Tripo will use your details to follow up on this team pilot enquiry. See our Privacy Policy.",
+      "privacyTextZh": "Tripo将使用这些信息跟进本次团队试点咨询。请查看隐私政策。",
+      "confirmation": {
+        "message": "Thanks for your enquiry. Tripo will follow up to discuss your asset list, pilot plan and trial availability. This is not confirmation of trial access or a managed benchmark service.",
+        "messageZh": "感谢咨询。Tripo将跟进沟通资产清单、试点计划及可用的试用安排。这不代表试用已开通，也不代表已提供代跑评测服务。",
+        "cta": "Learn more",
+        "ctaZh": "了解团队方案",
+        "url": "https://www.tripo3d.ai/programs/team-program"
+      },
+      "simulationOnly": true,
+      "backendStatus": "原生表单、线索权限与承接流程待广告后台单独核查；本网站未创建或激活表单。",
+      "followUp": "按用户已确认的官方身份，由有线索权限的 Tripo 团队在 Campaign Manager 或已配置的 CRM 跟进；正式试用发放前核对已注册 Tripo 的邮箱、适用条件与名额。不承诺自动同步、自动回复或固定响应时限。"
+    }
+  ],
+  "copyScope": {
+    "fixedGroups": [
+      "teams-us",
+      "teams-eu",
+      "api-us",
+      "api-eu"
+    ],
+    "versionsPerGroup": 3,
+    "variableFields": [
+      "subject",
+      "opening"
+    ],
+    "fixedFields": [
+      "audience",
+      "direction",
+      "proposition",
+      "productExplanation",
+      "closing",
+      "CTA",
+      "replies",
+      "destination"
+    ],
+    "newAudiences": 0,
+    "newStrategies": 0,
+    "versionPolicy": "新增feedback-v8子目录；旧版八个文件内容和原链接不变。",
+    "evaluationPolicy": "10项真实资产作为建议试点规模。是否开通试用、服务内容与实际评测由后续沟通确认。"
+  },
+  "skillFallback": "2026-10-14私有规则网站连接失败，使用本地Tripo workbench/claims 1.0.0、ad-creative 2.8.2与copy-editing 2.0.0；未宣称最新云端规则同步或完整品牌审核通过。",
+  "senderIdentityGate": "用户已确认Tripo官方领英发送者开通（2026-10-12）。网站按此使用官方身份；本次未登录广告后台独立验证，也未配置原生表单或线索接收权限。",
+  "previousVersion": {
+    "url": "../?v=989c4af#TE-01/preview",
+    "version": "2026-10-13-messaging-lab-r7-business-value"
+  }
+}
