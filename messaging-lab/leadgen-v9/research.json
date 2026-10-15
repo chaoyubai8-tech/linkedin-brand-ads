@@ -1,0 +1,25 @@
+{
+  "version": "2026-10-15-messaging-lab-v9-business-opening",
+  "audiencesUnchanged": true,
+  "variantCount": 12,
+  "teams": "原生留资表单为审核模拟；真实后台配置与线索承接需单独验收。",
+  "api": "技术引流；六版无原生留资表单。未新增API商务服务承诺。",
+  "reviewStatus": "已核对本轮文案、官方基础能力与按钮路线；私有规则库403，未完成最新品牌知识库全面审核。",
+  "sources": [
+    {
+      "title": "Teams",
+      "url": "https://www.tripo3d.ai/programs/team-program",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "title": "Tripo API",
+      "url": "https://developers.tripo3d.ai/en/docs/introduction",
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "title": "Conversation Ads规格",
+      "url": "https://www.linkedin.com/help/lms/answer/a426057",
+      "checkedAt": "2026-10-15"
+    }
+  ]
+}
