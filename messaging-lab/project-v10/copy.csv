@@ -1,0 +1,562 @@
+﻿"creative","group","field","English","中文","action","target/url"
+"TU-01","teams-us","subject","Could your next asset milestone involve less repeat work?","下一阶段资产交付，能否减少重复制作？","",""
+"TU-01","teams-us","intro","Hi,
+
+Could your team reach its next asset milestone with less repetitive modeling and fewer file handoffs?
+
+Tripo generates a 3D starting model from text or images. In the treasure-chest example, artists develop the generated base into material variants and finish it for a game.
+
+Tripo Studio Team Plan adds shared credits, member access and a searchable asset library to support your own team's creation and reuse.
+
+Leave your details to discuss your asset needs and available team-trial options.","你好，
+
+下一阶段资产交付，团队能否少一些重复建模与文件交接？
+
+Tripo 可从文字或图片生成3D初始模型。在宝箱制作示例中，美术成员基于生成模型制作不同材质版本，并完成游戏使用所需的处理。
+
+Tripo Studio 团队版则提供共享积分、成员权限和可搜索的资产库，支持你自己的团队开展制作与复用。
+
+留下联系方式，与 Tripo 沟通资产需求及当前可用的团队试用安排。","",""
+"TU-01","teams-us","intro/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TU-01","teams-us","intro/workflow","See the project workflow","查看项目制作流程","next","workflow"
+"TU-01","teams-us","intro/preflight","What should we measure?","应该评估哪些投入？","next","preflight"
+"TU-01","teams-us","workflow","The treasure-chest example starts with Tripo generation, Mesh Edit, Smart UV and PBR textures. Artists make material variants in Substance Painter and set the pivot and LODs, add collision, and build the opening interaction in Blender/Unreal.
+
+The character walkthrough shows generation, mesh repair, UV/texture work and rigging, followed by artist assembly and Unreal checks.
+
+For your team, evaluate these production steps alongside Team Plan's shared credits and asset library. Explore either walkthrough, or discuss your asset needs with Tripo.","宝箱示例从 Tripo 生成、Mesh Edit、Smart UV 和 PBR 贴图开始。美术成员在 Substance Painter 中制作不同材质版本，并在 Blender／Unreal 中完成轴心、LOD、碰撞和开箱交互等处理。
+
+角色流程展示生成、模型修复、UV／贴图处理与绑定，再由美术完成组装及 Unreal 检查。
+
+为你自己的团队评估时，可将这些制作环节与团队版的共享积分、资产库一起考虑。你可以查看任一完整制作流程，或与 Tripo 沟通资产需求。","",""
+"TU-01","teams-us","workflow/prop-project","View prop workflow","查看宝箱完整制作流程","website","https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+"TU-01","teams-us","workflow/character-project","View character workflow","查看角色完整制作流程","website","https://www.tripo3d.ai/blog/mesh-game-character-p-2"
+"TU-01","teams-us","workflow/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TU-01","teams-us","preflight","Choose a small set of real characters and props; 10 assets is one option, not a requirement. Compare your current process with generation, retries, artist cleanup, review and in-game checks.
+
+Record credits, artist hours, final acceptance and reuse, including the work needed after generation. This is how to judge cost and delivery fit for your team.
+
+Leave your details to discuss your asset needs and available team-trial options.","先选一小组真实角色与道具；10项资产是可选样本量，不是要求。对照现有流程，评估生成、重试、美术精修、审核及游戏内检查。
+
+记录积分、美术工时、最终验收和复用情况，也要计入生成后的处理。这些信息才有助于判断团队的成本与交付适配性。
+
+留下联系方式，与 Tripo 沟通资产需求及当前可用的团队试用安排。","",""
+"TU-01","teams-us","preflight/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TU-01","teams-us","footer","Generated models are starting points; your team refines and approves final use. Trial access depends on program terms and availability; a Tripo-registered email is required before benefits are issued.","生成模型是制作起点，精修及最终使用仍由你的团队审核。试用以活动条款和可用名额为准；权益发放前须核对已在Tripo注册的邮箱。","",""
+"TU-01","teams-us","form/headline","Discuss your game-asset needs","沟通游戏团队的资产需求","",""
+"TU-01","teams-us","form/details","Share your contact details to discuss your team's game assets, current workflow and available Tripo Studio Team Plan trial options. Trial access is subject to program terms and availability.","留下联系方式，与 Tripo 沟通游戏团队的资产需求、现有制作流程及当前可用的 Studio 团队版试用安排。试用以活动条款和可用名额为准。","",""
+"TU-01","teams-us","form/privacyText","Tripo will use your details to follow up on your team's asset needs and team-trial enquiry. See our Privacy Policy.","Tripo 将使用这些信息跟进团队资产需求及团队试用咨询。请查看隐私政策。","",""
+"TU-01","teams-us","form/field/firstName","First name","名字","",""
+"TU-01","teams-us","form/field/lastName","Last name","姓氏","",""
+"TU-01","teams-us","form/field/workEmail","Work email","工作邮箱","",""
+"TU-01","teams-us","form/field/companyName","Company name","公司名称","",""
+"TU-01","teams-us","form/field/jobTitle","Job title","职位","",""
+"TU-01","teams-us","form/privacy-url","https://www.tripo3d.ai/privacy","","website","https://www.tripo3d.ai/privacy"
+"TU-01","teams-us","form/confirmation/message","Thanks for your enquiry. Tripo will follow up to discuss your game's asset needs, workflow and available team-trial options. Submitting an enquiry does not activate a trial.","感谢咨询。Tripo 将跟进沟通游戏资产需求、制作流程及当前可用的团队试用安排。提交咨询不代表试用已开通。","","https://www.tripo3d.ai/programs/team-program"
+"TU-01","teams-us","form/confirmation/cta","View team-plan details","了解团队方案","","https://www.tripo3d.ai/programs/team-program"
+"TU-02","teams-us","subject","Create starting models. Reuse your team's assets.","生成初始模型，让团队资产可以复用","",""
+"TU-02","teams-us","intro","Hi,
+
+Use generated starting models and a shared asset library to reduce repeated work in your game pipeline.
+
+Tripo generates a 3D starting model from text or images. In the treasure-chest example, artists develop the generated base into material variants and finish it for a game.
+
+Tripo Studio Team Plan adds shared credits, member access and a searchable asset library to support your own team's creation and reuse.
+
+Leave your details to discuss your asset needs and available team-trial options.","你好，
+
+用生成的初始模型与共享资产库，减少游戏制作中的重复工作。
+
+Tripo 可从文字或图片生成3D初始模型。在宝箱制作示例中，美术成员基于生成模型制作不同材质版本，并完成游戏使用所需的处理。
+
+Tripo Studio 团队版则提供共享积分、成员权限和可搜索的资产库，支持你自己的团队开展制作与复用。
+
+留下联系方式，与 Tripo 沟通资产需求及当前可用的团队试用安排。","",""
+"TU-02","teams-us","intro/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TU-02","teams-us","intro/workflow","See the project workflow","查看项目制作流程","next","workflow"
+"TU-02","teams-us","intro/preflight","What should we measure?","应该评估哪些投入？","next","preflight"
+"TU-02","teams-us","workflow","The treasure-chest example starts with Tripo generation, Mesh Edit, Smart UV and PBR textures. Artists make material variants in Substance Painter and set the pivot and LODs, add collision, and build the opening interaction in Blender/Unreal.
+
+The character walkthrough shows generation, mesh repair, UV/texture work and rigging, followed by artist assembly and Unreal checks.
+
+For your team, evaluate these production steps alongside Team Plan's shared credits and asset library. Explore either walkthrough, or discuss your asset needs with Tripo.","宝箱示例从 Tripo 生成、Mesh Edit、Smart UV 和 PBR 贴图开始。美术成员在 Substance Painter 中制作不同材质版本，并在 Blender／Unreal 中完成轴心、LOD、碰撞和开箱交互等处理。
+
+角色流程展示生成、模型修复、UV／贴图处理与绑定，再由美术完成组装及 Unreal 检查。
+
+为你自己的团队评估时，可将这些制作环节与团队版的共享积分、资产库一起考虑。你可以查看任一完整制作流程，或与 Tripo 沟通资产需求。","",""
+"TU-02","teams-us","workflow/prop-project","View prop workflow","查看宝箱完整制作流程","website","https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+"TU-02","teams-us","workflow/character-project","View character workflow","查看角色完整制作流程","website","https://www.tripo3d.ai/blog/mesh-game-character-p-2"
+"TU-02","teams-us","workflow/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TU-02","teams-us","preflight","Choose a small set of real characters and props; 10 assets is one option, not a requirement. Compare your current process with generation, retries, artist cleanup, review and in-game checks.
+
+Record credits, artist hours, final acceptance and reuse, including the work needed after generation. This is how to judge cost and delivery fit for your team.
+
+Leave your details to discuss your asset needs and available team-trial options.","先选一小组真实角色与道具；10项资产是可选样本量，不是要求。对照现有流程，评估生成、重试、美术精修、审核及游戏内检查。
+
+记录积分、美术工时、最终验收和复用情况，也要计入生成后的处理。这些信息才有助于判断团队的成本与交付适配性。
+
+留下联系方式，与 Tripo 沟通资产需求及当前可用的团队试用安排。","",""
+"TU-02","teams-us","preflight/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TU-02","teams-us","footer","Generated models are starting points; your team refines and approves final use. Trial access depends on program terms and availability; a Tripo-registered email is required before benefits are issued.","生成模型是制作起点，精修及最终使用仍由你的团队审核。试用以活动条款和可用名额为准；权益发放前须核对已在Tripo注册的邮箱。","",""
+"TU-02","teams-us","form/headline","Discuss your game-asset needs","沟通游戏团队的资产需求","",""
+"TU-02","teams-us","form/details","Share your contact details to discuss your team's game assets, current workflow and available Tripo Studio Team Plan trial options. Trial access is subject to program terms and availability.","留下联系方式，与 Tripo 沟通游戏团队的资产需求、现有制作流程及当前可用的 Studio 团队版试用安排。试用以活动条款和可用名额为准。","",""
+"TU-02","teams-us","form/privacyText","Tripo will use your details to follow up on your team's asset needs and team-trial enquiry. See our Privacy Policy.","Tripo 将使用这些信息跟进团队资产需求及团队试用咨询。请查看隐私政策。","",""
+"TU-02","teams-us","form/field/firstName","First name","名字","",""
+"TU-02","teams-us","form/field/lastName","Last name","姓氏","",""
+"TU-02","teams-us","form/field/workEmail","Work email","工作邮箱","",""
+"TU-02","teams-us","form/field/companyName","Company name","公司名称","",""
+"TU-02","teams-us","form/field/jobTitle","Job title","职位","",""
+"TU-02","teams-us","form/privacy-url","https://www.tripo3d.ai/privacy","","website","https://www.tripo3d.ai/privacy"
+"TU-02","teams-us","form/confirmation/message","Thanks for your enquiry. Tripo will follow up to discuss your game's asset needs, workflow and available team-trial options. Submitting an enquiry does not activate a trial.","感谢咨询。Tripo 将跟进沟通游戏资产需求、制作流程及当前可用的团队试用安排。提交咨询不代表试用已开通。","","https://www.tripo3d.ai/programs/team-program"
+"TU-02","teams-us","form/confirmation/cta","View team-plan details","了解团队方案","","https://www.tripo3d.ai/programs/team-program"
+"TU-03","teams-us","subject","Put more artist time into finishing game assets","把更多美术投入放在游戏资产精修上","",""
+"TU-03","teams-us","intro","Hi,
+
+Give your artists more room to refine game assets, rather than rebuild starting meshes or chase files.
+
+Tripo generates a 3D starting model from text or images. In the treasure-chest example, artists develop the generated base into material variants and finish it for a game.
+
+Tripo Studio Team Plan adds shared credits, member access and a searchable asset library to support your own team's creation and reuse.
+
+Leave your details to discuss your asset needs and available team-trial options.","你好，
+
+让美术成员把更多精力用在完善游戏资产，而不是反复制作初始模型或追着找文件。
+
+Tripo 可从文字或图片生成3D初始模型。在宝箱制作示例中，美术成员基于生成模型制作不同材质版本，并完成游戏使用所需的处理。
+
+Tripo Studio 团队版则提供共享积分、成员权限和可搜索的资产库，支持你自己的团队开展制作与复用。
+
+留下联系方式，与 Tripo 沟通资产需求及当前可用的团队试用安排。","",""
+"TU-03","teams-us","intro/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TU-03","teams-us","intro/workflow","See the project workflow","查看项目制作流程","next","workflow"
+"TU-03","teams-us","intro/preflight","What should we measure?","应该评估哪些投入？","next","preflight"
+"TU-03","teams-us","workflow","The treasure-chest example starts with Tripo generation, Mesh Edit, Smart UV and PBR textures. Artists make material variants in Substance Painter and set the pivot and LODs, add collision, and build the opening interaction in Blender/Unreal.
+
+The character walkthrough shows generation, mesh repair, UV/texture work and rigging, followed by artist assembly and Unreal checks.
+
+For your team, evaluate these production steps alongside Team Plan's shared credits and asset library. Explore either walkthrough, or discuss your asset needs with Tripo.","宝箱示例从 Tripo 生成、Mesh Edit、Smart UV 和 PBR 贴图开始。美术成员在 Substance Painter 中制作不同材质版本，并在 Blender／Unreal 中完成轴心、LOD、碰撞和开箱交互等处理。
+
+角色流程展示生成、模型修复、UV／贴图处理与绑定，再由美术完成组装及 Unreal 检查。
+
+为你自己的团队评估时，可将这些制作环节与团队版的共享积分、资产库一起考虑。你可以查看任一完整制作流程，或与 Tripo 沟通资产需求。","",""
+"TU-03","teams-us","workflow/prop-project","View prop workflow","查看宝箱完整制作流程","website","https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+"TU-03","teams-us","workflow/character-project","View character workflow","查看角色完整制作流程","website","https://www.tripo3d.ai/blog/mesh-game-character-p-2"
+"TU-03","teams-us","workflow/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TU-03","teams-us","preflight","Choose a small set of real characters and props; 10 assets is one option, not a requirement. Compare your current process with generation, retries, artist cleanup, review and in-game checks.
+
+Record credits, artist hours, final acceptance and reuse, including the work needed after generation. This is how to judge cost and delivery fit for your team.
+
+Leave your details to discuss your asset needs and available team-trial options.","先选一小组真实角色与道具；10项资产是可选样本量，不是要求。对照现有流程，评估生成、重试、美术精修、审核及游戏内检查。
+
+记录积分、美术工时、最终验收和复用情况，也要计入生成后的处理。这些信息才有助于判断团队的成本与交付适配性。
+
+留下联系方式，与 Tripo 沟通资产需求及当前可用的团队试用安排。","",""
+"TU-03","teams-us","preflight/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TU-03","teams-us","footer","Generated models are starting points; your team refines and approves final use. Trial access depends on program terms and availability; a Tripo-registered email is required before benefits are issued.","生成模型是制作起点，精修及最终使用仍由你的团队审核。试用以活动条款和可用名额为准；权益发放前须核对已在Tripo注册的邮箱。","",""
+"TU-03","teams-us","form/headline","Discuss your game-asset needs","沟通游戏团队的资产需求","",""
+"TU-03","teams-us","form/details","Share your contact details to discuss your team's game assets, current workflow and available Tripo Studio Team Plan trial options. Trial access is subject to program terms and availability.","留下联系方式，与 Tripo 沟通游戏团队的资产需求、现有制作流程及当前可用的 Studio 团队版试用安排。试用以活动条款和可用名额为准。","",""
+"TU-03","teams-us","form/privacyText","Tripo will use your details to follow up on your team's asset needs and team-trial enquiry. See our Privacy Policy.","Tripo 将使用这些信息跟进团队资产需求及团队试用咨询。请查看隐私政策。","",""
+"TU-03","teams-us","form/field/firstName","First name","名字","",""
+"TU-03","teams-us","form/field/lastName","Last name","姓氏","",""
+"TU-03","teams-us","form/field/workEmail","Work email","工作邮箱","",""
+"TU-03","teams-us","form/field/companyName","Company name","公司名称","",""
+"TU-03","teams-us","form/field/jobTitle","Job title","职位","",""
+"TU-03","teams-us","form/privacy-url","https://www.tripo3d.ai/privacy","","website","https://www.tripo3d.ai/privacy"
+"TU-03","teams-us","form/confirmation/message","Thanks for your enquiry. Tripo will follow up to discuss your game's asset needs, workflow and available team-trial options. Submitting an enquiry does not activate a trial.","感谢咨询。Tripo 将跟进沟通游戏资产需求、制作流程及当前可用的团队试用安排。提交咨询不代表试用已开通。","","https://www.tripo3d.ai/programs/team-program"
+"TU-03","teams-us","form/confirmation/cta","View team-plan details","了解团队方案","","https://www.tripo3d.ai/programs/team-program"
+"TE-01","teams-eu","subject","Could generated assets fit your next game build?","生成资产，能否用于你的下一版游戏？","",""
+"TE-01","teams-eu","intro","Hi,
+
+Need props and characters for the next build, not just another 3D preview?
+
+Tripo's game workflows show a treasure chest developed into material variants and an opening interaction, plus a stylized character taken through artist finishing to animation in Unreal.
+
+Tripo Studio Team Plan adds shared credits, member access and a searchable asset library for your team's own production.
+
+Leave your details to discuss your game's asset needs and available team-trial options.","你好，
+
+下一版游戏需要的是可继续制作的道具与角色，而不只是一张3D预览，对吗？
+
+Tripo 的游戏制作示例展示了两种具体用途：宝箱经过处理，形成不同材质版本并实现开箱交互；风格化角色经美术精修后，在 Unreal 中展示动画。
+
+Tripo Studio 团队版则提供共享积分、成员权限和可搜索的资产库，服务于你自己的团队制作。
+
+留下联系方式，与 Tripo 沟通游戏项目的资产需求及当前可用的团队试用安排。","",""
+"TE-01","teams-eu","intro/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TE-01","teams-eu","intro/workflow","See the project workflow","查看项目制作流程","next","workflow"
+"TE-01","teams-eu","intro/preflight","What should we test?","项目适配应测试什么？","next","preflight"
+"TE-01","teams-eu","workflow","One example becomes an interactive treasure chest: generated base, local edits and material variants, then artist-built pivot, LOD, collision and opening behavior in Blender/Unreal.
+
+Another becomes an animated character: separate head/body generation, mesh and texture refinement, rig preview, artist assembly and final animation in Unreal.
+
+Use these as references for your game's own requirements. Explore either walkthrough, or leave your details to discuss a team trial.","一个示例做成交互宝箱：从生成基础模型、局部编辑和材质版本开始，再由美术成员在 Blender／Unreal 中完成轴心、LOD、碰撞和开箱效果。
+
+另一个示例做成动画角色：分别生成头部与身体，处理模型和贴图、预览绑定，再由美术完成组装及最终 Unreal 动画。
+
+用这些流程参照你自己游戏的要求。查看任一完整制作流程，或留下联系方式沟通团队试用。","",""
+"TE-01","teams-eu","workflow/prop-project","View prop workflow","查看宝箱完整制作流程","website","https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+"TE-01","teams-eu","workflow/character-project","View character workflow","查看角色完整制作流程","website","https://www.tripo3d.ai/blog/mesh-game-character-p-2"
+"TE-01","teams-eu","workflow/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TE-01","teams-eu","preflight","Select props and characters already planned for a game scene. Agree on style, mesh budget, materials, animation and in-engine acceptance before testing.
+
+Use the treasure-chest and character workflows as references, then record generation, retries, artist finishing and integration effort for your own assets. A 10-asset sample is optional.
+
+Leave your details to discuss your game project's requirements and available team-trial options.","选择已在游戏场景规划中的角色与道具。在测试前，先确定美术风格、面数预算、材质、动画及引擎内验收要求。
+
+以宝箱与角色的制作流程为参考，记录你自己资产的生成、重试、美术精修和整合投入。10项资产仅是可选样本。
+
+留下联系方式，与 Tripo 沟通游戏项目要求及当前可用的团队试用安排。","",""
+"TE-01","teams-eu","preflight/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TE-01","teams-eu","footer","Generated models are starting points; your team refines and approves final use. Trial access depends on program terms and availability; a Tripo-registered email is required before benefits are issued.","生成模型是制作起点，精修及最终使用仍由你的团队审核。试用以活动条款和可用名额为准；权益发放前须核对已在Tripo注册的邮箱。","",""
+"TE-01","teams-eu","form/headline","Discuss your game-asset needs","沟通游戏团队的资产需求","",""
+"TE-01","teams-eu","form/details","Share your contact details to discuss your team's game assets, current workflow and available Tripo Studio Team Plan trial options. Trial access is subject to program terms and availability.","留下联系方式，与 Tripo 沟通游戏团队的资产需求、现有制作流程及当前可用的 Studio 团队版试用安排。试用以活动条款和可用名额为准。","",""
+"TE-01","teams-eu","form/privacyText","Tripo will use your details to follow up on your team's asset needs and team-trial enquiry. See our Privacy Policy.","Tripo 将使用这些信息跟进团队资产需求及团队试用咨询。请查看隐私政策。","",""
+"TE-01","teams-eu","form/field/firstName","First name","名字","",""
+"TE-01","teams-eu","form/field/lastName","Last name","姓氏","",""
+"TE-01","teams-eu","form/field/workEmail","Work email","工作邮箱","",""
+"TE-01","teams-eu","form/field/companyName","Company name","公司名称","",""
+"TE-01","teams-eu","form/field/jobTitle","Job title","职位","",""
+"TE-01","teams-eu","form/privacy-url","https://www.tripo3d.ai/privacy","","website","https://www.tripo3d.ai/privacy"
+"TE-01","teams-eu","form/confirmation/message","Thanks for your enquiry. Tripo will follow up to discuss your game's asset needs, workflow and available team-trial options. Submitting an enquiry does not activate a trial.","感谢咨询。Tripo 将跟进沟通游戏资产需求、制作流程及当前可用的团队试用安排。提交咨询不代表试用已开通。","","https://www.tripo3d.ai/programs/team-program"
+"TE-01","teams-eu","form/confirmation/cta","View team-plan details","了解团队方案","","https://www.tripo3d.ai/programs/team-program"
+"TE-02","teams-eu","subject","From generated 3D to interactive game assets","从生成3D到可交互的游戏资产","",""
+"TE-02","teams-eu","intro","Hi,
+
+See how generated 3D can become an interactive prop or an animated character in a game.
+
+Tripo's game workflows show a treasure chest developed into material variants and an opening interaction, plus a stylized character taken through artist finishing to animation in Unreal.
+
+Tripo Studio Team Plan adds shared credits, member access and a searchable asset library for your team's own production.
+
+Leave your details to discuss your game's asset needs and available team-trial options.","你好，
+
+看看生成3D如何经过制作，成为游戏中的交互道具或动画角色。
+
+Tripo 的游戏制作示例展示了两种具体用途：宝箱经过处理，形成不同材质版本并实现开箱交互；风格化角色经美术精修后，在 Unreal 中展示动画。
+
+Tripo Studio 团队版则提供共享积分、成员权限和可搜索的资产库，服务于你自己的团队制作。
+
+留下联系方式，与 Tripo 沟通游戏项目的资产需求及当前可用的团队试用安排。","",""
+"TE-02","teams-eu","intro/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TE-02","teams-eu","intro/workflow","See the project workflow","查看项目制作流程","next","workflow"
+"TE-02","teams-eu","intro/preflight","What should we test?","项目适配应测试什么？","next","preflight"
+"TE-02","teams-eu","workflow","One example becomes an interactive treasure chest: generated base, local edits and material variants, then artist-built pivot, LOD, collision and opening behavior in Blender/Unreal.
+
+Another becomes an animated character: separate head/body generation, mesh and texture refinement, rig preview, artist assembly and final animation in Unreal.
+
+Use these as references for your game's own requirements. Explore either walkthrough, or leave your details to discuss a team trial.","一个示例做成交互宝箱：从生成基础模型、局部编辑和材质版本开始，再由美术成员在 Blender／Unreal 中完成轴心、LOD、碰撞和开箱效果。
+
+另一个示例做成动画角色：分别生成头部与身体，处理模型和贴图、预览绑定，再由美术完成组装及最终 Unreal 动画。
+
+用这些流程参照你自己游戏的要求。查看任一完整制作流程，或留下联系方式沟通团队试用。","",""
+"TE-02","teams-eu","workflow/prop-project","View prop workflow","查看宝箱完整制作流程","website","https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+"TE-02","teams-eu","workflow/character-project","View character workflow","查看角色完整制作流程","website","https://www.tripo3d.ai/blog/mesh-game-character-p-2"
+"TE-02","teams-eu","workflow/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TE-02","teams-eu","preflight","Select props and characters already planned for a game scene. Agree on style, mesh budget, materials, animation and in-engine acceptance before testing.
+
+Use the treasure-chest and character workflows as references, then record generation, retries, artist finishing and integration effort for your own assets. A 10-asset sample is optional.
+
+Leave your details to discuss your game project's requirements and available team-trial options.","选择已在游戏场景规划中的角色与道具。在测试前，先确定美术风格、面数预算、材质、动画及引擎内验收要求。
+
+以宝箱与角色的制作流程为参考，记录你自己资产的生成、重试、美术精修和整合投入。10项资产仅是可选样本。
+
+留下联系方式，与 Tripo 沟通游戏项目要求及当前可用的团队试用安排。","",""
+"TE-02","teams-eu","preflight/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TE-02","teams-eu","footer","Generated models are starting points; your team refines and approves final use. Trial access depends on program terms and availability; a Tripo-registered email is required before benefits are issued.","生成模型是制作起点，精修及最终使用仍由你的团队审核。试用以活动条款和可用名额为准；权益发放前须核对已在Tripo注册的邮箱。","",""
+"TE-02","teams-eu","form/headline","Discuss your game-asset needs","沟通游戏团队的资产需求","",""
+"TE-02","teams-eu","form/details","Share your contact details to discuss your team's game assets, current workflow and available Tripo Studio Team Plan trial options. Trial access is subject to program terms and availability.","留下联系方式，与 Tripo 沟通游戏团队的资产需求、现有制作流程及当前可用的 Studio 团队版试用安排。试用以活动条款和可用名额为准。","",""
+"TE-02","teams-eu","form/privacyText","Tripo will use your details to follow up on your team's asset needs and team-trial enquiry. See our Privacy Policy.","Tripo 将使用这些信息跟进团队资产需求及团队试用咨询。请查看隐私政策。","",""
+"TE-02","teams-eu","form/field/firstName","First name","名字","",""
+"TE-02","teams-eu","form/field/lastName","Last name","姓氏","",""
+"TE-02","teams-eu","form/field/workEmail","Work email","工作邮箱","",""
+"TE-02","teams-eu","form/field/companyName","Company name","公司名称","",""
+"TE-02","teams-eu","form/field/jobTitle","Job title","职位","",""
+"TE-02","teams-eu","form/privacy-url","https://www.tripo3d.ai/privacy","","website","https://www.tripo3d.ai/privacy"
+"TE-02","teams-eu","form/confirmation/message","Thanks for your enquiry. Tripo will follow up to discuss your game's asset needs, workflow and available team-trial options. Submitting an enquiry does not activate a trial.","感谢咨询。Tripo 将跟进沟通游戏资产需求、制作流程及当前可用的团队试用安排。提交咨询不代表试用已开通。","","https://www.tripo3d.ai/programs/team-program"
+"TE-02","teams-eu","form/confirmation/cta","View team-plan details","了解团队方案","","https://www.tripo3d.ai/programs/team-program"
+"TE-03","teams-eu","subject","See where generated 3D fits your game project","看清生成3D在游戏项目中能用在哪","",""
+"TE-03","teams-eu","intro","Hi,
+
+Plan your next game scene around assets your artists can refine, test and reuse.
+
+Tripo's game workflows show a treasure chest developed into material variants and an opening interaction, plus a stylized character taken through artist finishing to animation in Unreal.
+
+Tripo Studio Team Plan adds shared credits, member access and a searchable asset library for your team's own production.
+
+Leave your details to discuss your game's asset needs and available team-trial options.","你好，
+
+为下一个游戏场景准备美术成员可以精修、测试并复用的资产。
+
+Tripo 的游戏制作示例展示了两种具体用途：宝箱经过处理，形成不同材质版本并实现开箱交互；风格化角色经美术精修后，在 Unreal 中展示动画。
+
+Tripo Studio 团队版则提供共享积分、成员权限和可搜索的资产库，服务于你自己的团队制作。
+
+留下联系方式，与 Tripo 沟通游戏项目的资产需求及当前可用的团队试用安排。","",""
+"TE-03","teams-eu","intro/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TE-03","teams-eu","intro/workflow","See the project workflow","查看项目制作流程","next","workflow"
+"TE-03","teams-eu","intro/preflight","What should we test?","项目适配应测试什么？","next","preflight"
+"TE-03","teams-eu","workflow","One example becomes an interactive treasure chest: generated base, local edits and material variants, then artist-built pivot, LOD, collision and opening behavior in Blender/Unreal.
+
+Another becomes an animated character: separate head/body generation, mesh and texture refinement, rig preview, artist assembly and final animation in Unreal.
+
+Use these as references for your game's own requirements. Explore either walkthrough, or leave your details to discuss a team trial.","一个示例做成交互宝箱：从生成基础模型、局部编辑和材质版本开始，再由美术成员在 Blender／Unreal 中完成轴心、LOD、碰撞和开箱效果。
+
+另一个示例做成动画角色：分别生成头部与身体，处理模型和贴图、预览绑定，再由美术完成组装及最终 Unreal 动画。
+
+用这些流程参照你自己游戏的要求。查看任一完整制作流程，或留下联系方式沟通团队试用。","",""
+"TE-03","teams-eu","workflow/prop-project","View prop workflow","查看宝箱完整制作流程","website","https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+"TE-03","teams-eu","workflow/character-project","View character workflow","查看角色完整制作流程","website","https://www.tripo3d.ai/blog/mesh-game-character-p-2"
+"TE-03","teams-eu","workflow/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TE-03","teams-eu","preflight","Select props and characters already planned for a game scene. Agree on style, mesh budget, materials, animation and in-engine acceptance before testing.
+
+Use the treasure-chest and character workflows as references, then record generation, retries, artist finishing and integration effort for your own assets. A 10-asset sample is optional.
+
+Leave your details to discuss your game project's requirements and available team-trial options.","选择已在游戏场景规划中的角色与道具。在测试前，先确定美术风格、面数预算、材质、动画及引擎内验收要求。
+
+以宝箱与角色的制作流程为参考，记录你自己资产的生成、重试、美术精修和整合投入。10项资产仅是可选样本。
+
+留下联系方式，与 Tripo 沟通游戏项目要求及当前可用的团队试用安排。","",""
+"TE-03","teams-eu","preflight/trial","Discuss a team trial","沟通团队试用","leadgen","teams-trial"
+"TE-03","teams-eu","footer","Generated models are starting points; your team refines and approves final use. Trial access depends on program terms and availability; a Tripo-registered email is required before benefits are issued.","生成模型是制作起点，精修及最终使用仍由你的团队审核。试用以活动条款和可用名额为准；权益发放前须核对已在Tripo注册的邮箱。","",""
+"TE-03","teams-eu","form/headline","Discuss your game-asset needs","沟通游戏团队的资产需求","",""
+"TE-03","teams-eu","form/details","Share your contact details to discuss your team's game assets, current workflow and available Tripo Studio Team Plan trial options. Trial access is subject to program terms and availability.","留下联系方式，与 Tripo 沟通游戏团队的资产需求、现有制作流程及当前可用的 Studio 团队版试用安排。试用以活动条款和可用名额为准。","",""
+"TE-03","teams-eu","form/privacyText","Tripo will use your details to follow up on your team's asset needs and team-trial enquiry. See our Privacy Policy.","Tripo 将使用这些信息跟进团队资产需求及团队试用咨询。请查看隐私政策。","",""
+"TE-03","teams-eu","form/field/firstName","First name","名字","",""
+"TE-03","teams-eu","form/field/lastName","Last name","姓氏","",""
+"TE-03","teams-eu","form/field/workEmail","Work email","工作邮箱","",""
+"TE-03","teams-eu","form/field/companyName","Company name","公司名称","",""
+"TE-03","teams-eu","form/field/jobTitle","Job title","职位","",""
+"TE-03","teams-eu","form/privacy-url","https://www.tripo3d.ai/privacy","","website","https://www.tripo3d.ai/privacy"
+"TE-03","teams-eu","form/confirmation/message","Thanks for your enquiry. Tripo will follow up to discuss your game's asset needs, workflow and available team-trial options. Submitting an enquiry does not activate a trial.","感谢咨询。Tripo 将跟进沟通游戏资产需求、制作流程及当前可用的团队试用安排。提交咨询不代表试用已开通。","","https://www.tripo3d.ai/programs/team-program"
+"TE-03","teams-eu","form/confirmation/cta","View team-plan details","了解团队方案","","https://www.tripo3d.ai/programs/team-program"
+"AU-01","api-us","subject","Add 3D generation without building your own model","接入3D生成，不必从头自研底层模型","",""
+"AU-01","api-us","intro","Hi,
+
+Want 3D generation in your game-asset tools without building the underlying model yourself?
+
+Tripo API accepts text or images and returns 3D models through asynchronous tasks: submit, check status and retrieve the result. Your team builds the integration and reviews assets for the game.
+
+See how the requests work, or review what to measure before implementation. Open Quick Start when your team is ready to try the API.","你好，
+
+想为游戏资产工具接入3D生成，而不必自己从零搭建底层模型？
+
+Tripo API 支持提交文字或图片，通过异步任务生成3D模型：提交任务、查询状态，再取回结果。系统接入及游戏资产审核仍由你的团队完成。
+
+先了解请求流程，或查看实施前应评估哪些投入。团队准备尝试 API 时，可打开 Quick Start。","",""
+"AU-01","api-us","intro/workflow","See the API workflow","查看 API 接入流程","next","workflow"
+"AU-01","api-us","intro/preflight","What should we measure?","应该评估哪些投入？","next","preflight"
+"AU-01","api-us","intro/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AU-01","api-us","workflow","Your tool submits text or images and receives a task ID. It checks status and retrieves the model after a successful task.
+
+Your team implements the interface and integration, then reviews geometry, materials and target-engine performance. Tripo supplies the generation layer, not a finished game integration.
+
+Open Quick Start to review the request flow and prepare your integration.","你的工具提交文字或图片并取得任务 ID，随后查询状态，在任务成功后取回模型。
+
+交互界面及系统接入由你的团队开发，再由团队检查几何、材质和目标引擎中的性能。Tripo 提供生成层，而不是已经完成接入的游戏功能。
+
+打开 Quick Start，查看请求流程并准备接入。","",""
+"AU-01","api-us","workflow/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AU-01","api-us","preflight","For a focused evaluation, choose 10 real game assets covering common and difficult cases. Define acceptance criteria, then record time to first approved output, retries, cleanup, engine-review time and API cost.
+
+Include integration work when comparing the total effort with your current process.
+
+Use Quick Start to prepare a test your team can run.","进行小范围评估时，可选10项真实游戏资产，覆盖常见需求和难处理的情况。先确定验收标准，再记录首个验收通过输出所需时间、重试、精修、引擎检查时间和 API 费用。
+
+对比现有流程的总投入时，也计入系统接入所需的开发工作。
+
+通过 Quick Start 准备由你的团队实际执行测试。","",""
+"AU-01","api-us","preflight/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AU-01","api-us","footer","Tripo provides the generation layer. Your team builds the integration and refines and approves generated models for the project.","Tripo提供生成层；接入由你的团队实现，生成模型仍由团队精修并按项目要求验收。","",""
+"AU-02","api-us","subject","Connect 3D generation to your game-asset workflow","把3D生成接入游戏资产流程","",""
+"AU-02","api-us","intro","Hi,
+
+Add an existing 3D generation layer to your game-asset workflow while your engineers focus on integration.
+
+Tripo API accepts text or images and returns 3D models through asynchronous tasks: submit, check status and retrieve the result. Your team builds the integration and reviews assets for the game.
+
+See how the requests work, or review what to measure before implementation. Open Quick Start when your team is ready to try the API.","你好，
+
+把现成的3D生成层接入游戏资产流程，让工程团队专注于工具接入。
+
+Tripo API 支持提交文字或图片，通过异步任务生成3D模型：提交任务、查询状态，再取回结果。系统接入及游戏资产审核仍由你的团队完成。
+
+先了解请求流程，或查看实施前应评估哪些投入。团队准备尝试 API 时，可打开 Quick Start。","",""
+"AU-02","api-us","intro/workflow","See the API workflow","查看 API 接入流程","next","workflow"
+"AU-02","api-us","intro/preflight","What should we measure?","应该评估哪些投入？","next","preflight"
+"AU-02","api-us","intro/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AU-02","api-us","workflow","Your tool submits text or images and receives a task ID. It checks status and retrieves the model after a successful task.
+
+Your team implements the interface and integration, then reviews geometry, materials and target-engine performance. Tripo supplies the generation layer, not a finished game integration.
+
+Open Quick Start to review the request flow and prepare your integration.","你的工具提交文字或图片并取得任务 ID，随后查询状态，在任务成功后取回模型。
+
+交互界面及系统接入由你的团队开发，再由团队检查几何、材质和目标引擎中的性能。Tripo 提供生成层，而不是已经完成接入的游戏功能。
+
+打开 Quick Start，查看请求流程并准备接入。","",""
+"AU-02","api-us","workflow/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AU-02","api-us","preflight","For a focused evaluation, choose 10 real game assets covering common and difficult cases. Define acceptance criteria, then record time to first approved output, retries, cleanup, engine-review time and API cost.
+
+Include integration work when comparing the total effort with your current process.
+
+Use Quick Start to prepare a test your team can run.","进行小范围评估时，可选10项真实游戏资产，覆盖常见需求和难处理的情况。先确定验收标准，再记录首个验收通过输出所需时间、重试、精修、引擎检查时间和 API 费用。
+
+对比现有流程的总投入时，也计入系统接入所需的开发工作。
+
+通过 Quick Start 准备由你的团队实际执行测试。","",""
+"AU-02","api-us","preflight/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AU-02","api-us","footer","Tripo provides the generation layer. Your team builds the integration and refines and approves generated models for the project.","Tripo提供生成层；接入由你的团队实现，生成模型仍由团队精修并按项目要求验收。","",""
+"AU-03","api-us","subject","Bring 3D generation into the tools your team uses","在团队现有工具中使用3D生成","",""
+"AU-03","api-us","intro","Hi,
+
+Bring text-to-3D and image-to-3D generation into the tools your game team already uses.
+
+Tripo API accepts text or images and returns 3D models through asynchronous tasks: submit, check status and retrieve the result. Your team builds the integration and reviews assets for the game.
+
+See how the requests work, or review what to measure before implementation. Open Quick Start when your team is ready to try the API.","你好，
+
+把文字和图片生成3D模型的能力，接入游戏团队已经在用的工具。
+
+Tripo API 支持提交文字或图片，通过异步任务生成3D模型：提交任务、查询状态，再取回结果。系统接入及游戏资产审核仍由你的团队完成。
+
+先了解请求流程，或查看实施前应评估哪些投入。团队准备尝试 API 时，可打开 Quick Start。","",""
+"AU-03","api-us","intro/workflow","See the API workflow","查看 API 接入流程","next","workflow"
+"AU-03","api-us","intro/preflight","What should we measure?","应该评估哪些投入？","next","preflight"
+"AU-03","api-us","intro/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AU-03","api-us","workflow","Your tool submits text or images and receives a task ID. It checks status and retrieves the model after a successful task.
+
+Your team implements the interface and integration, then reviews geometry, materials and target-engine performance. Tripo supplies the generation layer, not a finished game integration.
+
+Open Quick Start to review the request flow and prepare your integration.","你的工具提交文字或图片并取得任务 ID，随后查询状态，在任务成功后取回模型。
+
+交互界面及系统接入由你的团队开发，再由团队检查几何、材质和目标引擎中的性能。Tripo 提供生成层，而不是已经完成接入的游戏功能。
+
+打开 Quick Start，查看请求流程并准备接入。","",""
+"AU-03","api-us","workflow/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AU-03","api-us","preflight","For a focused evaluation, choose 10 real game assets covering common and difficult cases. Define acceptance criteria, then record time to first approved output, retries, cleanup, engine-review time and API cost.
+
+Include integration work when comparing the total effort with your current process.
+
+Use Quick Start to prepare a test your team can run.","进行小范围评估时，可选10项真实游戏资产，覆盖常见需求和难处理的情况。先确定验收标准，再记录首个验收通过输出所需时间、重试、精修、引擎检查时间和 API 费用。
+
+对比现有流程的总投入时，也计入系统接入所需的开发工作。
+
+通过 Quick Start 准备由你的团队实际执行测试。","",""
+"AU-03","api-us","preflight/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AU-03","api-us","footer","Tripo provides the generation layer. Your team builds the integration and refines and approves generated models for the project.","Tripo提供生成层；接入由你的团队实现，生成模型仍由团队精修并按项目要求验收。","",""
+"AE-01","api-eu","subject","Add 3D product content without a self-built model","接入3D产品内容，不必自研底层模型","",""
+"AE-01","api-eu","intro","Hi,
+
+Looking to add 3D product content to your platform without building a generation model in-house?
+
+Tripo API generates 3D assets from product images, so your team can use an existing generation layer rather than develop its own model. Submit a task, check its status and retrieve the result for review and use in your platform.
+
+See the path from an image to a reviewed display asset, or check what to assess first. Open Quick Start to prepare the integration.","你好，
+
+想为平台加入3D产品内容，而不必内部自研底层生成模型？
+
+Tripo API 可从产品图片生成3D资产，让团队使用现成的生成层，而不必自研底层模型。提交任务、查询状态，再取回结果，经审核后接入自己的平台。
+
+先了解从图片到经审核展示资产的流程，或查看应先评估哪些要求。打开 Quick Start，准备系统接入。","",""
+"AE-01","api-eu","intro/workflow","See product workflow","查看产品展示接入流程","next","workflow"
+"AE-01","api-eu","intro/preflight","What should we assess?","应该评估哪些要求？","next","preflight"
+"AE-01","api-eu","intro/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AE-01","api-eu","workflow","Your platform submits product images and receives a task ID. It checks status and retrieves the model after a successful task.
+
+Check shape, dimensions and materials against the real product; correct or reject unsuitable outputs before display. Your team builds the viewer, integration and publishing workflow.
+
+Open Quick Start to review the request flow and prepare your integration.","平台提交产品图片并取得任务 ID，随后查询状态，在任务成功后取回模型。
+
+对照实物核对外观、尺寸和材质，在展示前修正或弃用不合适的输出。查看器、系统接入及发布流程由你的团队开发。
+
+打开 Quick Start，查看请求流程并准备接入。","",""
+"AE-01","api-eu","workflow/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AE-01","api-eu","preflight","For a focused evaluation, choose 10 real products covering common and difficult shapes or materials. Set display requirements and compare outputs with the actual products.
+
+Record accepted assets, retries, correction time and API cost. Include viewer and integration work when comparing the total effort with your current content process.
+
+Use Quick Start to prepare a test your team can run.","进行小范围评估时，可选10款真实产品，覆盖常见及难处理的外形或材质。先设定展示要求，再对照实物检查输出。
+
+记录通过验收的资产、重试、人工修正时间及 API 费用。对比现有内容流程的总投入时，也计入查看器与系统接入的开发工作。
+
+通过 Quick Start 准备由你的团队实际执行测试。","",""
+"AE-01","api-eu","preflight/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AE-01","api-eu","footer","Tripo provides the generation layer. Your team builds the viewer and integration, reviews product accuracy and approves final use.","Tripo提供生成层；查看器及系统接入由你的团队实现，并由团队核对产品准确性、审核最终使用。","",""
+"AE-02","api-eu","subject","Turn product images into 3D content for your platform","从产品图片出发，为平台制作3D内容","",""
+"AE-02","api-eu","intro","Hi,
+
+Use existing product images to generate 3D assets for your content platform.
+
+Tripo API generates 3D assets from product images, so your team can use an existing generation layer rather than develop its own model. Submit a task, check its status and retrieve the result for review and use in your platform.
+
+See the path from an image to a reviewed display asset, or check what to assess first. Open Quick Start to prepare the integration.","你好，
+
+用已有产品图片生成3D资产，用于自己的内容平台。
+
+Tripo API 可从产品图片生成3D资产，让团队使用现成的生成层，而不必自研底层模型。提交任务、查询状态，再取回结果，经审核后接入自己的平台。
+
+先了解从图片到经审核展示资产的流程，或查看应先评估哪些要求。打开 Quick Start，准备系统接入。","",""
+"AE-02","api-eu","intro/workflow","See product workflow","查看产品展示接入流程","next","workflow"
+"AE-02","api-eu","intro/preflight","What should we assess?","应该评估哪些要求？","next","preflight"
+"AE-02","api-eu","intro/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AE-02","api-eu","workflow","Your platform submits product images and receives a task ID. It checks status and retrieves the model after a successful task.
+
+Check shape, dimensions and materials against the real product; correct or reject unsuitable outputs before display. Your team builds the viewer, integration and publishing workflow.
+
+Open Quick Start to review the request flow and prepare your integration.","平台提交产品图片并取得任务 ID，随后查询状态，在任务成功后取回模型。
+
+对照实物核对外观、尺寸和材质，在展示前修正或弃用不合适的输出。查看器、系统接入及发布流程由你的团队开发。
+
+打开 Quick Start，查看请求流程并准备接入。","",""
+"AE-02","api-eu","workflow/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AE-02","api-eu","preflight","For a focused evaluation, choose 10 real products covering common and difficult shapes or materials. Set display requirements and compare outputs with the actual products.
+
+Record accepted assets, retries, correction time and API cost. Include viewer and integration work when comparing the total effort with your current content process.
+
+Use Quick Start to prepare a test your team can run.","进行小范围评估时，可选10款真实产品，覆盖常见及难处理的外形或材质。先设定展示要求，再对照实物检查输出。
+
+记录通过验收的资产、重试、人工修正时间及 API 费用。对比现有内容流程的总投入时，也计入查看器与系统接入的开发工作。
+
+通过 Quick Start 准备由你的团队实际执行测试。","",""
+"AE-02","api-eu","preflight/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AE-02","api-eu","footer","Tripo provides the generation layer. Your team builds the viewer and integration, reviews product accuracy and approves final use.","Tripo提供生成层；查看器及系统接入由你的团队实现，并由团队核对产品准确性、审核最终使用。","",""
+"AE-03","api-eu","subject","Build a 3D product-viewing experience","构建3D产品展示体验","",""
+"AE-03","api-eu","intro","Hi,
+
+Use 3D to show product form from more than one angle, starting with images your team already has.
+
+Tripo API generates 3D assets from product images, so your team can use an existing generation layer rather than develop its own model. Submit a task, check its status and retrieve the result for review and use in your platform.
+
+See the path from an image to a reviewed display asset, or check what to assess first. Open Quick Start to prepare the integration.","你好，
+
+从团队已有的图片出发，用3D展示产品的不同角度与形态。
+
+Tripo API 可从产品图片生成3D资产，让团队使用现成的生成层，而不必自研底层模型。提交任务、查询状态，再取回结果，经审核后接入自己的平台。
+
+先了解从图片到经审核展示资产的流程，或查看应先评估哪些要求。打开 Quick Start，准备系统接入。","",""
+"AE-03","api-eu","intro/workflow","See product workflow","查看产品展示接入流程","next","workflow"
+"AE-03","api-eu","intro/preflight","What should we assess?","应该评估哪些要求？","next","preflight"
+"AE-03","api-eu","intro/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AE-03","api-eu","workflow","Your platform submits product images and receives a task ID. It checks status and retrieves the model after a successful task.
+
+Check shape, dimensions and materials against the real product; correct or reject unsuitable outputs before display. Your team builds the viewer, integration and publishing workflow.
+
+Open Quick Start to review the request flow and prepare your integration.","平台提交产品图片并取得任务 ID，随后查询状态，在任务成功后取回模型。
+
+对照实物核对外观、尺寸和材质，在展示前修正或弃用不合适的输出。查看器、系统接入及发布流程由你的团队开发。
+
+打开 Quick Start，查看请求流程并准备接入。","",""
+"AE-03","api-eu","workflow/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AE-03","api-eu","preflight","For a focused evaluation, choose 10 real products covering common and difficult shapes or materials. Set display requirements and compare outputs with the actual products.
+
+Record accepted assets, retries, correction time and API cost. Include viewer and integration work when comparing the total effort with your current content process.
+
+Use Quick Start to prepare a test your team can run.","进行小范围评估时，可选10款真实产品，覆盖常见及难处理的外形或材质。先设定展示要求，再对照实物检查输出。
+
+记录通过验收的资产、重试、人工修正时间及 API 费用。对比现有内容流程的总投入时，也计入查看器与系统接入的开发工作。
+
+通过 Quick Start 准备由你的团队实际执行测试。","",""
+"AE-03","api-eu","preflight/docs","Open Quick Start","打开 Quick Start","website","https://developers.tripo3d.ai/en/docs/quick-start"
+"AE-03","api-eu","footer","Tripo provides the generation layer. Your team builds the viewer and integration, reviews product accuracy and approves final use.","Tripo提供生成层；查看器及系统接入由你的团队实现，并由团队核对产品准确性、审核最终使用。","",""
+"REFERENCE","teams-us,teams-eu","project/prop-p2","Tripo supplies an editable mesh, regional repair, UVs and a material starting point. Artists refine the materials and prepare the opening interaction in Blender, Substance Painter and Unreal.","Tripo 提供可编辑模型、局部修复、UV 与材质起点；美术继续在 Blender、Substance Painter 和 Unreal 中完善材质及开合交互。","website","https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+"REFERENCE","teams-us,teams-eu","project/character-p2","Tripo provides initial geometry, UVs, textures and rig previews. Artists assemble and refine the character, then test the finished rig and materials in Unreal.","Tripo 提供初始几何、UV、贴图和绑定预览；美术继续组装与精修，并在 Unreal 中检查最终绑定、动作和材质。","website","https://www.tripo3d.ai/blog/mesh-game-character-p-2"
+"REFERENCE","teams-us,teams-eu","project/team-workspace","Team Plan adds shared credits, a searchable asset library and member access controls. These team features are separate from the individual workflow examples above.","团队版提供共享积分、可搜索资产库和成员访问管理。以上两个制作项目用于说明生成与后续制作，团队功能另由官方产品说明支持。","website","https://www.tripo3d.ai/blog/tripo-turns-1-team-plan"

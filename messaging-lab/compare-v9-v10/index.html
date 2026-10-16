@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Tripo 领英站内信 V9、V10 中英文原文、流程和业务开头对比。">
+  <title>站内信 V9 / V10 对比 · Tripo</title>
+  <link rel="stylesheet" href="compare.css">
+  <script defer src="compare.js?v=project-comparison-r1"></script>
+</head>
+<body>
+  <a class="skip-link" href="#comparison">跳到文案对比</a>
+  <header class="topbar">
+    <strong class="wordmark">TRIPO</strong>
+    <nav aria-label="版本网站">
+      <a href="all-comparisons.html">12 套两版全文</a>
+      <a href="comparison.csv" download>下载对比 CSV</a>
+      <a id="v9-link" href="../leadgen-v9/#TE-01/preview">V9 业务开头与行动</a>
+      <a id="v10-link" href="../project-v10/#TE-01/preview">V10 项目与团队价值</a>
+      <a href="../compare-v7-v8-v9/#TE-01/intro/both">V7 / V8 / V9 历史对比</a>
+    </nav>
+  </header>
+  <main>
+    <div class="intro">
+      <div><h1>两版文案，放在一起看。</h1><p>四组人群不变。V10 加入制作项目与团队价值，不代表投放效果更好。</p></div>
+      <span class="date" id="date"></span>
+    </div>
+    <div id="loading" class="loading" role="status">正在载入两版中英文原文…</div>
+    <div id="error" class="error" hidden><h2>暂时无法载入对比</h2><p>请检查网络后重试，或通过顶部链接查看各版原文。</p><button id="retry" type="button">重新载入</button></div>
+    <div id="app" hidden>
+      <nav id="groups" class="groups" aria-label="已确认人群"></nav>
+      <div class="workspace">
+        <aside class="variant-sidebar"><h2>本组的 3 个文案版本</h2><nav id="variants" aria-label="文案版本"></nav></aside>
+        <div class="review-area">
+          <div class="selected-heading"><span id="variant-id" class="muted"></span><h2 id="variant-heading"></h2><p id="direction" class="muted"></p></div>
+          <div class="controls">
+            <div class="segmented" id="modes" role="group" aria-label="查看方式"><button type="button" data-mode="compare" aria-pressed="true">逐段对比</button><button type="button" data-mode="analysis" aria-pressed="false">改了什么</button></div>
+            <div class="segmented" id="languages" role="group" aria-label="原文语言"><button type="button" data-language="both" aria-pressed="true">中英对照</button><button type="button" data-language="en" aria-pressed="false">仅英文</button><button type="button" data-language="zh" aria-pressed="false">仅中文</button></div>
+          </div>
+          <nav id="parts" class="parts" aria-label="对比段落"></nav>
+          <div class="export-toolbar"><button id="copy" type="button">复制当前两版对照</button><button id="download" type="button">下载本套两版双语 TXT</button><button id="print" type="button">打印对比</button></div>
+          <p id="notice" class="muted" role="status" aria-live="polite"></p>
+          <div id="manual-copy" hidden><label for="copy-text">浏览器未允许自动复制，请选中以下文字并复制。</label><textarea id="copy-text" readonly rows="8"></textarea><button id="close-copy" type="button">收起</button></div>
+          <section id="comparison" tabindex="-1" aria-labelledby="part-heading"></section>
+          <section id="analysis" tabindex="-1" hidden aria-labelledby="analysis-heading"></section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer><span>仅展示与对照。不发送站内信，不收集或保存资料。</span><a id="footer-latest" href="../project-v10/#TE-01/preview">回到 V10 互动预览</a></footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "version": "2026-10-16-messaging-lab-v10-project-proof",
+  "checkedAt": "2026-10-16",
+  "audiencesUnchanged": true,
+  "apiVariantsUnchanged": true,
+  "projects": [
+    {
+      "id": "prop-p2",
+      "url": "https://www.tripo3d.ai/blog/game-ready-prop-p-2",
+      "scope": "Studio workflow demonstration, not a named customer ROI study or proof of Team Plan/API use."
+    },
+    {
+      "id": "character-p2",
+      "url": "https://www.tripo3d.ai/blog/mesh-game-character-p-2",
+      "scope": "A completed production walkthrough, not a promise of one-click delivery or a measured customer saving."
+    },
+    {
+      "id": "team-workspace",
+      "url": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan",
+      "scope": "No claim of real-time co-editing, automatic DCC write-back, or measured collaboration savings."
+    }
+  ],
+  "review": "已核对实际采用的公开项目、产品功能和文案分工；私有规则库网络读取失败，未完成完整品牌/L1审批。"
+}
