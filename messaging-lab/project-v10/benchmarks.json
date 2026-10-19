@@ -1,0 +1,380 @@
+{
+  "version": "2026-10-19-v10-benchmarks-huawei",
+  "checkedOn": "2026-10-19",
+  "notice": "左边是当前 V10 原文，右边是案例原文与中文解读。阿里云、华为、三一来自用户提供的站内信案例；Claude 来自官方官网／客户案例，未核实为领英站内信。四组人群与 V10 原文不变。下方新增每组 1 套候选稿。",
+  "personalisation": {
+    "summary": "是领英机制：广告主在正文插入个性化字段，投放时自动使用收件人的资料。后面的需求、卖点与回复路径仍由广告主预先写好；不是系统逐人推断采购意向。",
+    "macros": [
+      {
+        "token": "%FIRSTNAME%",
+        "meaning": "名字，用于称呼"
+      },
+      {
+        "token": "%COMPANYNAME%",
+        "meaning": "公司名称，连接工作场景"
+      },
+      {
+        "token": "%JOBTITLE%",
+        "meaning": "职位；不等于采购权限"
+      },
+      {
+        "token": "%INDUSTRY%",
+        "meaning": "行业；不等于具体业务需求"
+      }
+    ],
+    "caveat": "新候选稿先用名字＋公司，不机械拼接长职位。资料缺失、没有当前职位或关闭个性化时可能回退；官方不同帮助页对姓名回退描述不完全一致，上线前以本账户预览为准，并检查通用版本。正文图与桌面侧边横幅不同：消息图规格为 250×250 JPG/PNG、≤5MB，移动端显示可能不同。三一原例是正文后配图，非整条消息顶部；本页按该顺序演示，正式投放以后台预览为准。",
+    "sources": [
+      {
+        "label": "领英：个性化字段与回退",
+        "url": "https://www.linkedin.com/help/lms/answer/a422217"
+      },
+      {
+        "label": "领英：Conversation Ads 规格与图片",
+        "url": "https://www.linkedin.com/help/lms/answer/a426057"
+      },
+      {
+        "label": "领英：创建个性化广告",
+        "url": "https://www.linkedin.com/help/lms/answer/a424137"
+      }
+    ]
+  },
+  "refs": [
+    {
+      "id": "huawei",
+      "brand": "华为",
+      "title": "IdeaHub S2 · 办公协作",
+      "type": "Conversation Ads 案例",
+      "sourceLabel": "用户提供《LinkedIn Conversation Ads - Case Study》PDF，第 5 页",
+      "sourceUrl": "",
+      "image": "assets/benchmarks/huawei-message.png",
+      "imageAlt": "华为办公协作站内信原例，含开头、产品说明和三个行动按钮",
+      "openingEn": "Dear Lin,\n\nAs Senior Client Solution Manager - Linkedin Marketing Solution, are you ready to make your LinkedIn's office collaboration smart & seamless?",
+      "openingZh": "Lin 您好，\n\n作为 LinkedIn Marketing Solution 的高级客户解决方案经理，您准备好让 LinkedIn 的办公协作更智能、更顺畅了吗？",
+      "mechanismZh": "先把职位、公司和「办公协作」连接起来，再介绍 IdeaHub S2，随后用设备间会议切换、无线投屏和云会议三个能力支撑同一个主题。截图只能显示个性化后的结果，不能据此确认其后台用了哪些字段。",
+      "closingEn": "Would you like to learn more? \"Schedule a Call\" now and one of our representatives will get back to you shortly to discuss further.",
+      "closingZh": "想进一步了解吗？现在预约通话，销售代表会联系您继续沟通。",
+      "ctas": [
+        {
+          "en": "Schedule a Call",
+          "zh": "预约通话"
+        },
+        {
+          "en": "Explore the technology",
+          "zh": "了解技术"
+        },
+        {
+          "en": "Explore Case Studies",
+          "zh": "了解案例"
+        }
+      ],
+      "logic": [
+        "角色与公司 → 办公协作任务",
+        "IdeaHub S2 → 适用办公空间",
+        "三项能力 → 支撑同一协作利益",
+        "预约通话 / 深入了解 → 不同意向分流"
+      ],
+      "learn": "借鉴一条主题贯穿开头、产品机制和下一步；不是把每个人都称为 CEO，也不是只加姓名就完成个性化。",
+      "limit": "此处为原例引用，不代表已验证转化表现。实际职位不等于采购职责；字段要与既定人群匹配。"
+    },
+    {
+      "id": "alibaba",
+      "brand": "阿里云",
+      "title": "菜鸟 · 仓储作业与运营效率",
+      "type": "Conversation Ads 案例",
+      "sourceLabel": "用户提供《LinkedIn Conversation Ads - Case Study》PDF，第 6 页",
+      "sourceUrl": "",
+      "image": "assets/benchmarks/alibaba-message.png",
+      "imageAlt": "阿里云以菜鸟仓储结果切入的站内信原例",
+      "openingEn": "Hi Lin,\n\nDo you want to know how Cainiao, one of the largest express company achieved a daily average of 70 million cargo handling capacity and a 10-minute delivery from godown speed with 100% accuracy?",
+      "openingZh": "Lin 您好，\n\n想了解菜鸟如何实现日均 7,000 万货物处理能力、10 分钟出库及 100% 准确率吗？（数字为原广告表述，未在本次独立验证。）",
+      "mechanismZh": "先给具名客户及具体运营结果，再解释自动化仓库、硬件集成与 AGV 如何关联成本和作业效率；不是先问一个所有企业都可能回答「是」的宽泛问题。",
+      "closingEn": "View our demo now!",
+      "closingZh": "现在查看演示。",
+      "ctas": [
+        {
+          "en": "View Demo",
+          "zh": "查看演示"
+        },
+        {
+          "en": "Contact Us Now",
+          "zh": "联系我们"
+        }
+      ],
+      "logic": [
+        "菜鸟 + 具体运营结果",
+        "自动化仓储 → 解释实现机制",
+        "演示 / 联系 → 对应下一步"
+      ],
+      "learn": "我们可借鉴「具体工作 + 可验证的改变 + 演示」；没有同口径客户实测时，不能照搬它的数字式开头。",
+      "limit": "原例的数字只属于其案例表述，不是 Tripo 的能力、节省幅度或本轮投放效果。"
+    },
+    {
+      "id": "sany",
+      "brand": "三一",
+      "title": "矿山设备 · 首条消息配图",
+      "type": "Conversation Ads 案例",
+      "sourceLabel": "用户提供《LinkedIn Conversation Ads - Case Study》PDF，第 4 页",
+      "sourceUrl": "",
+      "image": "assets/benchmarks/sany-message.png",
+      "imageAlt": "三一原例在第一条消息的文字之后、CTA之前展示矿山设备图片",
+      "openingEn": "Hi Lin,\n\nSANY is a global leader in manufacturing mining machinery.\n\nAs a Senior Client Solution Manager - Linkedin Marketing Solution at LinkedIn, you might need mining machinery for your mining or quarrying projects.",
+      "openingZh": "Lin 您好，\n\n三一自述为矿山机械制造领域的全球领导者。\n\n作为 LinkedIn 的高级客户解决方案经理，您可能需要用于采矿或采石项目的机械设备。",
+      "mechanismZh": "正文讲设备配置与作业需求，紧接产品实物图，再给「联系我」与「告诉我产品优势」两条路径。图在第一条消息内、文字后、按钮前，不是必须先点下一条才能看到。",
+      "closingEn": "Are you interested in requesting a quote?",
+      "closingZh": "您是否有兴趣获取报价？",
+      "ctas": [
+        {
+          "en": "Yes, please reach out!",
+          "zh": "请联系我"
+        },
+        {
+          "en": "Tell me product benefits",
+          "zh": "介绍产品优势"
+        }
+      ],
+      "logic": [
+        "设备用途 → 配置与适用工作",
+        "第一条消息展示产品实物",
+        "联系 / 看优势 → 留资或继续了解"
+      ],
+      "learn": "借鉴第一条消息就用图展示产品；图与正文服务同一用途，而不是放一个无关的漂亮模型。",
+      "limit": "截图把 LinkedIn 销售岗位代入矿山采购需求，正说明「字段填入」不等于需求真实。借鉴配图与路径，不照抄这条人群推断。"
+    },
+    {
+      "id": "claude-enterprise",
+      "brand": "Claude · 企业",
+      "title": "Claude 企业方案官网",
+      "type": "官方企业方案落地页 · 非站内信",
+      "sourceLabel": "这是首屏副标题首句的原文节选，不是整段广告正文。",
+      "sourceUrl": "https://claude.com/solutions/enterprise",
+      "openingEn": "Put Claude to work across your organization.",
+      "openingZh": "让 Claude 在整个组织中发挥作用。",
+      "mechanismZh": "先提出组织级用途，再放客户与业务结果，区分员工使用和产品集成两条购买路径，随后解释功能、治理与部署，最后让读者选择相应方案。",
+      "closingEn": "Ready to bring Claude to your organization?",
+      "closingZh": "准备好将 Claude 引入你的组织了吗？",
+      "ctas": [
+        {
+          "en": "Get Enterprise plan",
+          "zh": "获取企业方案 · 首屏与页尾"
+        },
+        {
+          "en": "Build on Claude Platform",
+          "zh": "基于 Claude 平台构建 · 首屏与页尾"
+        }
+      ],
+      "logic": [
+        "先提出组织级用途，再放客户与业务结果，区分员工使用和产品集成两条购买路径，随后解释功能、治理与部署，最后让读者选择相应方案。"
+      ],
+      "learn": "把 Teams 与 API 的购买路径拆开；开头先给企业价值，不先介绍公司身份。官网的宽泛品牌标题不宜直接照搬为冷启动站内信。",
+      "limit": "该页汇集多个客户与产品，不能把其中任一结果说成 Claude 所有方案的统一承诺，更不能替代 Tripo 自身证据。"
+    },
+    {
+      "id": "claude-hubspot",
+      "brand": "Claude · HubSpot",
+      "title": "Claude × HubSpot：腾出时间做创造性工作",
+      "type": "官方客户案例 · 非站内信",
+      "sourceLabel": "这是案例页标题原文，不能标成领英广告开头。",
+      "sourceUrl": "https://claude.com/customers/hubspot",
+      "openingEn": "HubSpot reclaims time for creativity with Claude",
+      "openingZh": "HubSpot 借助 Claude，腾出更多时间从事创造性工作。",
+      "mechanismZh": "具名客户与时间价值开头 → 首屏展示特定工作的结果 → 解释重复工作和时间不足 → 说明接入现有工具与共享上下文的方式 → 展示工程、营销与客户成功的变化 → 以更高价值的人类工作收尾。",
+      "closingEn": "",
+      "closingZh": "原文结尾回到人的价值：工程师有更多时间做系统设计、理解理想工作流。没有出现索取 10 个任务或提交评测的结尾。（中文概述，非逐字引文。）",
+      "ctas": [
+        {
+          "en": "Try Claude",
+          "zh": "试用 Claude · 标题附近的页面按钮；不是末段 CTA"
+        }
+      ],
+      "logic": [
+        "具名客户与时间价值开头",
+        "首屏展示特定工作的结果",
+        "解释重复工作和时间不足",
+        "说明接入现有工具与共享上下文的方式",
+        "展示工程、营销与客户成功的变化",
+        "以更高价值的人类工作收尾。"
+      ],
+      "learn": "先让读者看到谁、什么工作、什么变化，再解释功能。Tripo 若缺乏同口径数据，可以使用有依据的项目过程或待验证的目标，不能搬用 40% 等数字。",
+      "limit": "官方案例，不是领英站内信。案例里的效率数字只适用于其具体工作流，不能移植为 Tripo 承诺。"
+    },
+    {
+      "id": "claude-figma",
+      "brand": "Claude · Figma",
+      "title": "Claude × Figma：让设计成为可交互软件",
+      "type": "官方平台集成案例 · 非站内信",
+      "sourceLabel": "这是官方案例标题原文，不是已核验的付费广告。",
+      "sourceUrl": "https://claude.com/customers/figma",
+      "openingEn": "Figma transforms ideas into interactive software with Claude",
+      "openingZh": "Figma 借助 Claude，将想法变成可交互的软件。",
+      "mechanismZh": "客户与最终用途开头 → 说明设计师、开发者和产品经理能完成的工作 → 解释设计交接摩擦 → 说明模型选型 → 展示 Claude 嵌入 Figma Sites 与 Make 的具体产品方式 → 以更快验证想法、更多角色参与开发收尾。",
+      "closingEn": "",
+      "closingZh": "末段总结产品开发方式的变化：工程师能参与设计、产品经理能做原型、设计师能交付软件；随后是客户引语和相关案例。（中文概述，非逐字引文。）",
+      "ctas": [
+        {
+          "en": "Try Claude",
+          "zh": "试用 Claude · 标题附近；不是站内信回复按钮"
+        }
+      ],
+      "logic": [
+        "客户与最终用途开头",
+        "说明设计师、开发者和产品经理能完成的工作",
+        "解释设计交接摩擦",
+        "说明模型选型",
+        "展示 Claude 嵌入 Figma Sites 与 Make 的具体产品方式",
+        "以更快验证想法、更多角色参与开发收尾。"
+      ],
+      "learn": "API 不只写提交、轮询、取回，而是先说客户最终可以在自己的产品中完成什么；后续再解释集成机制。Figma 自己的产品能力与 Claude 模型能力分开讲，适合借鉴为 Tripo API 的责任边界。",
+      "limit": "此处涉及软件原型与平台集成，不是 3D 生成或 Tripo 产品效果；只借鉴叙事结构。"
+    }
+  ],
+  "groups": {
+    "teams-us": {
+      "diagnosis": "V10 已提到资产生产与文件交接，但开头尚未把团队负责人关心的制作投入，与共享资产这一机制连得足够紧。加一个公司名本身不能补上这层逻辑。",
+      "closingDiagnosis": "10 项资产试点能帮助后续评估，却不应成为首次触达的全部利益。先让客户理解为什么值得了解团队方案，再在继续了解中讨论试点。",
+      "proposalEn": "Hi %FIRSTNAME%,\n\nIf %COMPANYNAME% is growing its game-asset library, making each new character or prop from scratch can tie up artists needed for the next milestone.",
+      "proposalZh": "%FIRSTNAME%，你好，\n\n如果 %COMPANYNAME% 的游戏资产需求正在增长，每个新角色或道具都从头制作，就可能挤占美术为下一阶段交付投入的时间。",
+      "why": "一条主题：把游戏资产的生成和复用组织起来，减少重复制作与交接；不扩展为招聘、实时共编或自动交付。",
+      "draft": {
+        "title": "Teams · 美国游戏：减少重复资产工作 · 新候选稿",
+        "theme": "把美术时间留给下一批资产，而不是重复制作与文件交接。",
+        "subject": "Less repeat work for your next game-asset batch",
+        "subjectZh": "下一批游戏资产，减少重复制作与交接",
+        "openingEn": "If %COMPANYNAME% is growing its game-asset library, making each new character or prop from scratch can tie up artists needed for the next milestone.",
+        "openingZh": "如果 %COMPANYNAME% 的游戏资产需求正在增长，每个新角色或道具都从头制作，就可能挤占美术为下一阶段交付投入的时间。",
+        "openingFallbackEn": "If your game-asset library is growing, making each new character or prop from scratch can tie up artists needed for the next milestone.",
+        "openingFallbackZh": "如果团队的游戏资产需求正在增长，每个新角色或道具都从头制作，就可能挤占美术为下一阶段交付投入的时间。",
+        "message": "Hi %FIRSTNAME%,\n\nIf %COMPANYNAME% is growing its game-asset library, making each new character or prop from scratch can tie up artists needed for the next milestone.\n\nTripo Studio Team Plan brings text/image-to-3D generation and shared assets into one workspace. Give artists starting models to refine, let teammates find and reuse shared assets, and manage pooled credits and member access together. Your artists still refine and approve what ships.\n\nWant to assess whether this could reduce the effort behind your next asset batch? Leave your details to discuss your workflow and Team Plan with Tripo, or see how the workflow works first.",
+        "messageZh": "%FIRSTNAME%，你好，\n\n如果 %COMPANYNAME% 的游戏资产需求正在增长，每个新角色或道具都从头制作，就可能挤占美术为下一阶段交付投入的时间。\n\nTripo Studio 团队版将文字／图片生成3D与共享资产放进同一个工作区。为美术提供可继续精修的初始模型，让成员找到并复用共享资产，同时统一管理共享积分与成员权限。最终精修和交付验收仍由你的美术团队负责。\n\n想评估它能否减少下一批资产的制作与协作投入？留下联系方式，与 Tripo 沟通现有流程和团队方案，也可以先了解具体流程。",
+        "buttons": [
+          {
+            "en": "Discuss Team Plan",
+            "zh": "沟通团队方案"
+          },
+          {
+            "en": "See the workflow",
+            "zh": "了解资产协作流程"
+          }
+        ],
+        "followupEn": "Start with 10 characters or props already planned for your project. Compare your current process with Tripo generation, retries, artist finishing, review and reuse. Record time to a useful starting model, total artist hours, handoffs and accepted assets. This gives your team a basis for judging cost and delivery fit—not just generation speed. Leave your details to agree on scope, access and who runs the pilot.",
+        "followupZh": "先从项目里已计划制作的角色或道具中选10项。对照现有流程，记录 Tripo 生成、重试、美术精修、审核及复用环节，统计可用初始模型所需时间、美术总工时、交接次数和通过验收的资产数。用这些信息判断成本与交付是否适配，而不是只看生成速度。留下联系方式，商定试点范围、使用安排及执行分工。",
+        "imageBriefZh": "首条消息配真实团队工作区／共享资产库截图，或真实道具制作起点与共享使用关系；不能用装饰性角色拼图代替团队协作证据。",
+        "image": {
+          "src": "https://cdn-blog.holymolly.ai/media/production/tripo-turns-1-team-plan-image-5.webp",
+          "alt": "Tripo 官方团队工作区与共享资产截图",
+          "caption": "Official Team Plan interface / 官方团队版界面；本图用于审核配图方向，投放前另按 250×250 导出。"
+        }
+      }
+    },
+    "teams-eu": {
+      "diagnosis": "V10 的开头把问题落在交期，但还需要更快说明 Tripo 处理资产制作中的哪一环。欧洲组的主题仍是具体游戏项目，而不是抽象地讲所有企业都想降本。",
+      "closingDiagnosis": "客户尚未看懂方案时就要求规划 10 项资产，投入感偏强。把咨询团队方案作为首步，十项试点留给确认适用后的回复。",
+      "proposalEn": "Hi %FIRSTNAME%,\n\nIf %COMPANYNAME% is preparing its next playable build, the goal is not more generated models. It is getting the right characters and props finished and tested for that project.",
+      "proposalZh": "%FIRSTNAME%，你好，\n\n如果 %COMPANYNAME% 正在准备下一个可玩版本，目标不是多生成一些模型，而是让项目需要的角色与道具完成制作并通过检查。",
+      "why": "一条主题：下一批角色、道具如何为可玩版本服务；生成提供制作起点，团队库组织复用，精修和引擎验收仍需执行。",
+      "draft": {
+        "title": "Teams · 欧洲游戏：为下一次游戏构建准备资产 · 新候选稿",
+        "theme": "围绕同一个游戏项目，从资产起点走到可审核、可复用的项目成果。",
+        "subject": "From asset requests to your next playable build",
+        "subjectZh": "从资产需求，到下一次可玩版本",
+        "openingEn": "If %COMPANYNAME% is preparing its next playable build, the goal is not more generated models. It is getting the right characters and props finished and tested for that project.",
+        "openingZh": "如果 %COMPANYNAME% 正在准备下一个可玩版本，目标不是多生成一些模型，而是让项目需要的角色与道具完成制作并通过检查。",
+        "openingFallbackEn": "If your team is preparing its next playable build, the goal is not more generated models. It is getting the right characters and props finished and tested for that project.",
+        "openingFallbackZh": "如果团队正在准备下一个可玩版本，目标不是多生成一些模型，而是让项目需要的角色与道具完成制作并通过检查。",
+        "message": "Hi %FIRSTNAME%,\n\nIf %COMPANYNAME% is preparing its next playable build, the goal is not more generated models. It is getting the right characters and props finished and tested for that project.\n\nTripo Studio Team Plan combines text/image-to-3D generation with a shared asset library, pooled credits and member access controls. Artists develop starting models in their existing tools, while teammates can find and reuse shared work. Your team retains final art and engine approval.\n\nWant to see where it could fit your next build? Explore a real prop workflow, or leave your details to discuss your project's asset needs and Team Plan with Tripo.",
+        "messageZh": "%FIRSTNAME%，你好，\n\n如果 %COMPANYNAME% 正在准备下一个可玩版本，目标不是多生成一些模型，而是让项目需要的角色与道具完成制作并通过检查。\n\nTripo Studio 团队版将文字／图片生成3D与共享资产库、共享积分和成员权限结合。美术在现有工具中继续完善初始模型，其他成员能够找到并复用共享成果。最终的美术与引擎验收仍由你的团队决定。\n\n想了解它能用于下一次游戏构建的哪些环节？可以先看一个真实道具制作流程，或留下联系方式，与 Tripo 沟通项目资产需求及团队方案。",
+        "buttons": [
+          {
+            "en": "Discuss your project",
+            "zh": "沟通项目与团队方案"
+          },
+          {
+            "en": "View prop workflow",
+            "zh": "查看道具制作流程"
+          }
+        ],
+        "followupEn": "In Tripo's treasure-chest walkthrough, artists develop a generated base into material variants and an opening interaction. It illustrates a Studio production workflow, not measured Team Plan savings. For your project, select 10 planned assets and agree on art, geometry and engine checks. Compare accepted assets, finishing effort and reuse with your current process. Discuss the scope and access with Tripo before starting.",
+        "followupZh": "在 Tripo 的宝箱制作示例中，美术基于生成模型继续制作材质变体和开箱交互。这展示的是 Studio 制作流程，不是团队版的降本实测。针对你自己的项目，选择10项已计划制作的资产，先约定美术、几何和引擎检查标准，再与现有流程比较验收通过的资产、后续制作投入及复用情况。开始前，与 Tripo 沟通范围及使用安排。",
+        "imageBriefZh": "首条消息配公开宝箱项目的真实完成画面，并明确为 Studio 制作示例。图与正文始终围绕同一个道具进入游戏项目的用途，不拼接无关椅子、角色或首饰。",
+        "image": {
+          "src": "https://cdn-blog.holymolly.ai/media/production/game-ready-prop-p-2-open-burgundy-treasure-chest-with-a-scroll-in-a-fantasy-interior-7daccca05ecd.webp",
+          "alt": "官方 Studio 制作流程中的宝箱完成画面",
+          "caption": "Studio workflow + artist refinement / Studio 制作示例，含美术精修；非 Team Plan 降本实测。"
+        }
+      }
+    },
+    "api-us": {
+      "diagnosis": "V10 具备提交任务、取回模型和评测逻辑，但需要先讲这些步骤为什么值得工程团队接入：减少重复的人工作业，而不是把 API 操作清单当作购买理由。",
+      "closingDiagnosis": "先让客户选择沟通接入或了解流程，再谈代表性资产和完整成本。不要开头就布置一份测试任务。",
+      "proposalEn": "Hi %FIRSTNAME%,\n\nIf %COMPANYNAME% is adding 3D generation to its game tools, an existing API lets your engineers focus on the tool instead of developing the underlying generation model.",
+      "proposalZh": "%FIRSTNAME%，你好，\n\n如果 %COMPANYNAME% 希望在游戏工具里加入3D生成，接入现成 API，就能让工程投入聚焦自己的工具，而不必从头开发底层生成模型。",
+      "why": "一条主题：把重复的 3D 生成工作放进现有工具；自动化的是调用流程，不是美术验收和游戏上线。",
+      "draft": {
+        "title": "API · 美国游戏＋3D资产：接入生成能力，不自建底层模型 · 新候选稿",
+        "theme": "将工程投入用于自己的游戏工具与资产流程，而不是从零开发生成模型。",
+        "subject": "Add 3D generation without building the model stack",
+        "subjectZh": "接入3D生成，不必从零自建底层模型",
+        "openingEn": "If %COMPANYNAME% is adding 3D generation to its game tools, an existing API lets your engineers focus on the tool instead of developing the underlying generation model.",
+        "openingZh": "如果 %COMPANYNAME% 希望在游戏工具里加入3D生成，接入现成 API，就能让工程投入聚焦自己的工具，而不必从头开发底层生成模型。",
+        "openingFallbackEn": "If your team is adding 3D generation to its game tools, an existing API lets your engineers focus on the tool instead of developing the underlying generation model.",
+        "openingFallbackZh": "如果团队希望在游戏工具里加入3D生成，接入现成 API，就能让工程投入聚焦自己的工具，而不必从头开发底层生成模型。",
+        "message": "Hi %FIRSTNAME%,\n\nIf %COMPANYNAME% is adding 3D generation to its game tools, an existing API lets your engineers focus on the tool instead of developing the underlying generation model.\n\nTripo API generates 3D models from text or images. Your tool submits tasks, checks status and retrieves outputs programmatically, so generation can become a repeatable step in your asset workflow. Your team builds the integration and retains the user experience, refinement and asset approval.\n\nWant to assess the integration effort and cost for your workflow? Leave your details to discuss it with Tripo, or explore the request-to-result flow first.",
+        "messageZh": "%FIRSTNAME%，你好，\n\n如果 %COMPANYNAME% 希望在游戏工具里加入3D生成，接入现成 API，就能让工程投入聚焦自己的工具，而不必从头开发底层生成模型。\n\nTripo API 可由文字或图片生成3D模型。工具通过程序提交任务、查询状态并取回输出，把生成接成资产流程中可重复调用的一环。系统接入由你的团队实现，交互体验、精修和资产验收仍由团队掌控。\n\n想评估它接入现有流程需要多少工作和成本？留下联系方式，与 Tripo 沟通，也可以先了解从请求到取回结果的完整流程。",
+        "buttons": [
+          {
+            "en": "Discuss API integration",
+            "zh": "沟通 API 接入"
+          },
+          {
+            "en": "See the API workflow",
+            "zh": "了解 API 请求流程"
+          }
+        ],
+        "followupEn": "Use 10 real game assets to compare the full workflow—not just the API response time. Agree on acceptance criteria, then record integration hours, generation and retry costs, artist cleanup, time to approval and engine checks. Include maintenance and accepted assets out of 10 when judging fit. Tripo supplies the generation layer; your team runs the benchmark unless a different arrangement is agreed. Leave your details to discuss scope and access.",
+        "followupZh": "用10项真实游戏资产比较完整流程，而不只看 API 响应时间。先确定验收标准，再记录接入工时、生成及重试费用、美术清理、通过验收所需时间和引擎检查。判断是否适配时，也计入维护工作和10项资产中的通过数量。Tripo 提供生成层；除非另有约定，基准测试由你的团队执行。留下联系方式，沟通范围及使用安排。",
+        "imageBriefZh": "首条消息配真实 API 请求、任务状态及返回模型的同一流程截图；模型必须可追溯到相应任务，不把 Studio 项目完成图冒称 API 输出或客户业绩。",
+        "image": {
+          "src": "https://chaoyubai8-tech.github.io/linkedin-brand-ads/assets/v19/concepts/deep-sea-engineer.png",
+          "alt": "既有 AI 游戏角色概念图，用于展示首条消息配图位置",
+          "caption": "AI concept · Not an API output / 既有 AI 概念图，非 Tripo API 输出；正式投放前换为同一任务可追溯的模型图。"
+        }
+      }
+    },
+    "api-eu": {
+      "diagnosis": "V10 已提到产品内容用途，但仍需明确企业平台最终给业务团队增加什么能力，避免开头先讲 API 实现或泛泛的成本压力。",
+      "closingDiagnosis": "先沟通产品展示需求与接入范围，再验证资产准确度、处理成本和展示效果；不承诺官方自带商城查看器或精确 CAD。",
+      "proposalEn": "Hi %FIRSTNAME%,\n\nIf %COMPANYNAME% wants to offer 3D product showcases, starting from existing product images could provide a route to 3D content without developing a generation model in-house.",
+      "proposalZh": "%FIRSTNAME%，你好，\n\n如果 %COMPANYNAME% 希望提供3D产品展示，可以评估从已有产品图片生成3D内容这条路径，而不必从头自研生成模型。",
+      "why": "一条主题：在内容平台里增加产品 3D 内容制作能力；模型生成、人工检查与平台展示三者分清。",
+      "draft": {
+        "title": "API · 欧洲企业内容：为产品展示接入3D内容 · 新候选稿",
+        "theme": "从产品图片到可审核的3D展示资产，围绕同一个产品展示用途说明接入价值。",
+        "subject": "A route from product images to 3D showcases",
+        "subjectZh": "从产品图片，到3D产品展示",
+        "openingEn": "If %COMPANYNAME% wants to offer 3D product showcases, starting from existing product images could provide a route to 3D content without developing a generation model in-house.",
+        "openingZh": "如果 %COMPANYNAME% 希望提供3D产品展示，可以评估从已有产品图片生成3D内容这条路径，而不必从头自研生成模型。",
+        "openingFallbackEn": "If your team wants to offer 3D product showcases, starting from existing product images could provide a route to 3D content without developing a generation model in-house.",
+        "openingFallbackZh": "如果团队希望提供3D产品展示，可以评估从已有产品图片生成3D内容这条路径，而不必从头自研生成模型。",
+        "message": "Hi %FIRSTNAME%,\n\nIf %COMPANYNAME% wants to offer 3D product showcases, starting from existing product images could provide a route to 3D content without developing a generation model in-house.\n\nTripo API turns images into starting 3D models. Your platform submits tasks, tracks progress and retrieves the results for review. Your team checks product details, corrects unsuitable outputs and builds the viewer and publishing experience.\n\nWant to assess whether it fits your content platform? Leave your details to discuss the use case and full implementation cost with Tripo, or explore how the product-content workflow connects.",
+        "messageZh": "%FIRSTNAME%，你好，\n\n如果 %COMPANYNAME% 希望提供3D产品展示，可以评估从已有产品图片生成3D内容这条路径，而不必从头自研生成模型。\n\nTripo API 将图片转为初始3D模型。平台提交任务、跟踪状态并取回结果供审核；产品细节检查、不合适输出的修正，以及查看器与发布体验的开发，仍由你的团队负责。\n\n想评估它是否适合现有内容平台？留下联系方式，与 Tripo 沟通展示用途及完整实施成本，也可以先了解产品内容流程如何接入。",
+        "buttons": [
+          {
+            "en": "Discuss API integration",
+            "zh": "沟通产品展示接入"
+          },
+          {
+            "en": "See product workflow",
+            "zh": "了解产品内容流程"
+          }
+        ],
+        "followupEn": "Choose 10 real products and define the display requirements. Compare shape, dimensions and materials with the originals; correct or reject unsuitable outputs before use. Record generation and retry fees, correction work, accepted assets, integration and viewer-development effort. Include maintenance when comparing total cost with your current process. Your team runs the benchmark unless agreed otherwise. Leave your details to discuss scope and access.",
+        "followupZh": "选择10款真实产品，先确定展示要求。对照实物检查外形、尺寸和材质，使用前修正或弃用不合适的输出。记录生成及重试费用、人工修正、验收通过的资产，以及系统接入和查看器开发投入；与现有流程比较总成本时，也计入维护工作。除非另有约定，基准测试由你的团队执行。留下联系方式，沟通范围及使用安排。",
+        "imageBriefZh": "首条消息配同一真实产品图片、对应生成模型及审核场景；若只有概念示意，明确标注，不冒称尺寸准确的商品数字孪生或平台自带查看器。",
+        "image": {
+          "src": "https://chaoyubai8-tech.github.io/linkedin-brand-ads/assets/v19/concepts/espresso-machine.png",
+          "alt": "既有 AI 咖啡机产品展示概念图，用于审核产品内容主题",
+          "caption": "AI concept · Not an API output / 既有 AI 概念图，非 Tripo API 输出；不证明商品还原精度或内置查看器。"
+        }
+      }
+    }
+  }
+}

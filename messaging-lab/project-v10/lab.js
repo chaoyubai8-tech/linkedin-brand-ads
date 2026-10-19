@@ -6,11 +6,12 @@
     {id:'api-us',label:'API · 美国游戏＋3D资产'},
     {id:'api-eu',label:'API · 欧洲企业内容'}
   ];
-  const modes=['preview','path','projects'];
+  const modes=['preview','benchmarks','path','projects'];
   const $=id=>document.getElementById(id);
   const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const safeUrl=value=>{try{if(!/^https?:\/\//i.test(String(value)))return '';const url=new URL(String(value));return ['http:','https:'].includes(url.protocol)?url.href:'';}catch{return '';}};
   let data, selected, mode='preview', steps=[], route=null, activeForm=null;
+  let benchmarks=null, benchmarkId='', benchmarkState='loading';
   let renderReady=false;
   const activeGroup=()=>groups.find(group=>group.id===selected?.groupId)||groups[0];
   const getNode=id=>selected?.nodes.find(node=>node.id===id);
@@ -54,6 +55,7 @@
   }
   function renderModeNav(){
     if(!availableModes().includes(mode))mode='preview';
+    if($('copy-tools'))$('copy-tools').hidden=mode==='benchmarks';
     document.querySelectorAll('#mode-nav button').forEach(button=>{const current=button.dataset.mode===mode;button.hidden=!availableModes().includes(button.dataset.mode);button.setAttribute('aria-selected',String(current));button.tabIndex=current?0:-1;});
     modes.forEach(name=>{$(`mode-${name}`).hidden=name!==mode;});
   }
@@ -130,7 +132,56 @@
     const projects=selectedProjects();
     $('mode-projects').innerHTML=projects.length?`<div class="project-intro"><h3>制作项目 / Production references</h3><p>查看原始制作过程，区分生成、美术精修与团队使用。项目演示不等于客户降本实测。</p></div>${projects.map(project=>`<article class="project-reference">${safeUrl(project.image)?`<img class="project-image" data-project-image src="${esc(safeUrl(project.image))}" alt="${esc([project.imageAlt,project.imageAltZh].filter(Boolean).join(' / ')||project.titleZh||project.title)}" loading="lazy" decoding="async">`:''}<div class="project-pair"><section lang="en"><h3>${esc(project.title)}</h3><p>${esc(project.summary)}</p><p class="project-scope">${esc(project.scope)}</p></section><section lang="zh-CN"><h3>${esc(project.titleZh)}</h3><p>${esc(project.summaryZh)}</p><p class="project-scope">${esc(project.scopeZh)}</p></section></div>${safeUrl(project.url)?`<a class="project-source" href="${esc(safeUrl(project.url))}" target="_blank" rel="noopener noreferrer">${project.id==='team-workspace'?'查看官方团队方案 / View Team Plan details':'查看官方完整流程 / View the original workflow'} <span aria-hidden="true">↗</span></a>`:''}</article>`).join('')}`:'';
   }
-  function renderAll(){renderGroupNav();renderVariants();renderHeading();renderCopyTools();renderPreview();renderPath();renderProjects();renderModeNav();}
+  function benchmarkImage(value){
+    const path=String(value||'');
+    if(/^https:\/\//i.test(path))return safeUrl(path);
+    return /^(?:\.\/)?assets\/[a-zA-Z0-9_./-]+\.(?:png|jpe?g|webp)$/i.test(path)&&!path.split('/').includes('..')?path:'';
+  }
+  const benchmarkParagraphs=(value,lang)=>`<div class="benchmark-prose"${lang?` lang="${esc(lang)}"`:''}>${esc(value)}</div>`;
+  function benchmarkOriginal(intro,zh){
+    return `<section class="benchmark-language" lang="${zh?'zh-CN':'en'}"><h4>${zh?'中文':'English'}</h4><p class="benchmark-subject"><span>${zh?'主题':'Subject'}</span><strong>${esc(zh?selected.subjectZh:selected.subject)}</strong></p>${benchmarkParagraphs(zh?intro.messageZh:intro.message)}<ul class="benchmark-ctas" aria-label="${zh?'原稿按钮文案':'Current CTA labels'}">${intro.buttons.map(button=>`<li>${esc(zh?button.labelZh:button.label)}</li>`).join('')}</ul></section>`;
+  }
+  function benchmarkPersonalisation(){
+    const item=benchmarks?.personalisation;if(!item)return '';
+    const macros=(item.macros||[]).map(macro=>`<li><code>${esc(macro.token)}</code><span>${esc(macro.meaning)}</span></li>`).join('');
+    const sources=(item.sources||[]).filter(source=>safeUrl(source.url)).map(source=>`<a href="${esc(safeUrl(source.url))}" target="_blank" rel="noopener noreferrer">${esc(source.label)}</a>`).join('');
+    return `<details class="benchmark-personalisation"><summary>华为开头如何带入姓名、职位与公司？</summary><p>${esc(item.summary)}</p>${macros?`<ul class="benchmark-macros">${macros}</ul>`:''}<p class="benchmark-personalisation-caveat">${esc(item.caveat)}</p>${sources?`<div class="benchmark-source-links">${sources}</div>`:''}</details>`;
+  }
+  function benchmarkDraft(draft){
+    if(!draft)return '';
+    const image=benchmarkImage(draft.image?.src);
+    const column=zh=>`<article class="benchmark-draft-message" lang="${zh?'zh-CN':'en'}"><header class="preview-head"><strong>${zh?'中文':'English'}</strong><span>${zh?'候选稿':'Candidate'}</span></header><div class="benchmark-draft-body"><p class="benchmark-subject"><span>${zh?'主题':'Subject'}</span><strong>${esc(zh?draft.subjectZh:draft.subject)}</strong></p>${benchmarkParagraphs(zh?draft.messageZh:draft.message)}${image?`<figure class="benchmark-draft-figure"><img data-benchmark-draft-image src="${esc(image)}" alt="${esc(draft.image?.alt||'首条站内信配图候选')}" loading="lazy" decoding="async"><p class="benchmark-image-error" hidden>${zh?'配图暂未载入。下方保留图片来源与使用边界说明。':'Image unavailable. Its source and usage limits remain below.'}</p>${draft.image?.caption?`<figcaption>${esc(draft.image.caption)}</figcaption>`:''}</figure>`:''}<ul class="benchmark-ctas" aria-label="${zh?'候选按钮文案':'Candidate CTA labels'}">${(draft.buttons||[]).map(button=>`<li>${esc(zh?button.zh:button.en)}</li>`).join('')}</ul>${(zh?draft.followupZh:draft.followupEn)?`<section class="benchmark-draft-followup"><h4>${zh?'选择进一步了解后的回复':'Response after choosing to learn more'}</h4>${benchmarkParagraphs(zh?draft.followupZh:draft.followupEn)}</section>`:''}</div></article>`;
+    return `<section class="benchmark-draft" aria-labelledby="benchmark-draft-title"><h3 id="benchmark-draft-title">${esc(draft.title||'新候选稿 · 华为结构＋三一首条配图（未覆盖 V10）')}</h3><p class="benchmark-draft-note">文案与配图位置供审核；不替换当前 V10，也不发送或收集资料。</p><div class="benchmark-pair">${column(false)}${column(true)}</div></section>`;
+  }
+  function renderBenchmarks(){
+    const panel=$('mode-benchmarks');
+    if(benchmarkState==='loading'){
+      panel.innerHTML='<p class="loading" role="status">正在读取同行案例。当前 V10 文案保持不变。</p>';return;
+    }
+    if(benchmarkState==='error'||!benchmarks?.refs?.length){
+      panel.innerHTML='<div class="error"><h3>同行案例暂未载入</h3><p>当前 V10 文案与流程仍可正常查看。</p><button type="button" data-benchmark-retry>重新读取案例</button></div>';return;
+    }
+    const reference=benchmarks.refs.find(item=>item.id===benchmarkId)||benchmarks.refs[0];
+    benchmarkId=reference.id;
+    const intro=getNode('intro'),analysis=benchmarks.groups?.[selected.groupId],sourceUrl=safeUrl(reference.sourceUrl),image=benchmarkImage(reference.image);
+    const source=sourceUrl?`<a href="${esc(sourceUrl)}" target="_blank" rel="noopener noreferrer">${esc(reference.sourceLabel||'查看原始来源')} <span aria-hidden="true">↗</span></a>`:`<span>${esc(reference.sourceLabel||'用户提供的原始案例')}</span>`;
+    const screenshot=image?`<details class="benchmark-image"><summary>展开原案例截图</summary><a href="${esc(image)}" target="_blank" rel="noopener noreferrer" aria-label="在新标签页查看${esc(reference.brand)}原案例截图"><img data-benchmark-image src="${esc(image)}" alt="${esc(reference.imageAlt||`${reference.brand} 原案例消息截图`)}" loading="lazy" decoding="async"></a><p class="benchmark-image-error" hidden>截图暂未载入，请使用上方来源信息核对。</p></details>`:'';
+    const ctas=(reference.ctas||[]).map(cta=>`<li><span lang="en">${esc(cta.en)}</span>${cta.zh?`<span>${esc(cta.zh)}</span>`:''}</li>`).join('');
+    panel.innerHTML=`<div class="benchmark-intro"><h3>把开头、卖点和下一步放在一起看</h3><p>${esc(benchmarks.notice||'左侧是当前 V10 原稿，右侧是来源明确的同行参考。对照不改动现有文案。')}</p></div><div class="benchmark-selector" role="group" aria-label="选择同行参考">${benchmarks.refs.map(item=>`<button type="button" data-benchmark="${esc(item.id)}" aria-pressed="${item.id===reference.id}">${esc(item.brand)}</button>`).join('')}</div>${benchmarkPersonalisation()}<div class="benchmark-pair"><article class="benchmark-column" aria-labelledby="benchmark-current-title"><header class="benchmark-column-head"><h3 id="benchmark-current-title">当前 V10 · ${esc(selected.id)}</h3><p>${esc(activeGroup().label)} · 原稿未改</p></header><div class="benchmark-column-body">${benchmarkOriginal(intro,false)}${benchmarkOriginal(intro,true)}</div></article><article class="benchmark-column" aria-labelledby="benchmark-reference-title"><header class="benchmark-column-head"><h3 id="benchmark-reference-title">${esc(reference.brand)}</h3><p class="benchmark-source-type">${esc(reference.type)}</p></header><div class="benchmark-column-body"><h4 class="benchmark-reference-title">${esc(reference.title)}</h4><div class="benchmark-source">${source}</div>${screenshot}<section class="benchmark-excerpt"><h4>开头 · 原文摘录</h4>${benchmarkParagraphs(reference.openingEn,'en')}${benchmarkParagraphs(reference.openingZh,'zh-CN')}</section><section class="benchmark-excerpt"><h4>卖点承接 · 结构解读</h4>${benchmarkParagraphs(reference.mechanismZh,'zh-CN')}</section><section class="benchmark-excerpt"><h4>结尾与行动</h4>${reference.closingEn?benchmarkParagraphs(reference.closingEn,'en'):''}${reference.closingZh?benchmarkParagraphs(reference.closingZh,'zh-CN'):''}${ctas?`<ul class="benchmark-ctas benchmark-ctas-translated" aria-label="同行案例按钮文案">${ctas}</ul>`:''}</section>${Array.isArray(reference.logic)&&reference.logic.length?`<section class="benchmark-excerpt"><h4>它的推进顺序</h4><ol class="benchmark-logic">${reference.logic.map(item=>`<li>${esc(item)}</li>`).join('')}</ol></section>`:''}<section class="benchmark-excerpt benchmark-learning"><h4>可借鉴什么</h4><p>${esc(reference.learn)}</p><p class="benchmark-limit">${esc(reference.limit)}</p></section></div></article></div>${analysis?`<section class="benchmark-analysis" aria-labelledby="benchmark-analysis-title"><h3 id="benchmark-analysis-title">回看本组 V10：开头与结尾</h3><dl class="benchmark-diagnosis"><div><dt>开头</dt><dd>${esc(analysis.diagnosis)}</dd></div><div><dt>结尾</dt><dd>${esc(analysis.closingDiagnosis)}</dd></div></dl><div class="benchmark-proposal"><h4>建议开头 · 未替换 V10</h4><div class="benchmark-proposal-pair">${benchmarkParagraphs(analysis.proposalEn,'en')}${benchmarkParagraphs(analysis.proposalZh,'zh-CN')}</div><p>${esc(analysis.why)}</p></div></section>${benchmarkDraft(analysis.draft)}`:''}`;
+  }
+  async function loadBenchmarks(){
+    if(benchmarkState==='loading'&&benchmarks)return;
+    benchmarkState='loading';if(renderReady)renderBenchmarks();
+    try{
+      const response=await fetch('benchmarks.json?v=benchmarks-20261019',{cache:'no-cache'});
+      if(!response.ok)throw new Error('references unavailable');
+      const incoming=await response.json();
+      if(!Array.isArray(incoming.refs)||!incoming.refs.length||incoming.refs.some(item=>!item.id||!item.brand))throw new Error('references invalid');
+      benchmarks=incoming;benchmarkState='ready';
+    }catch{benchmarkState='error';}
+    if(renderReady)renderBenchmarks();
+  }
+  function renderAll(){renderGroupNav();renderVariants();renderHeading();renderCopyTools();renderPreview();renderPath();renderProjects();renderBenchmarks();renderModeNav();}
   function announce(message){$('feedback').textContent=message;}
   function exportCopy(language){
     const zh=language==='zh';
@@ -149,12 +200,24 @@
     const url=URL.createObjectURL(new Blob(['\uFEFF',content],{type:'text/plain;charset=utf-8'}));
     const anchor=document.createElement('a');anchor.href=url;anchor.download=`Tripo-${selected.id}-conversation.txt`;document.body.append(anchor);anchor.click();anchor.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);announce('已下载双语 TXT。');
   }
-  document.addEventListener('error',event=>{if(event.target.matches?.('[data-project-image]'))event.target.hidden=true;},true);
+  document.addEventListener('error',event=>{
+    if(event.target.matches?.('[data-project-image]'))event.target.hidden=true;
+    if(event.target.matches?.('[data-benchmark-image]')){
+      event.target.closest('a').hidden=true;
+      event.target.closest('.benchmark-image').querySelector('.benchmark-image-error').hidden=false;
+    }
+    if(event.target.matches?.('[data-benchmark-draft-image]')){
+      event.target.hidden=true;
+      event.target.closest('.benchmark-draft-figure').querySelector('.benchmark-image-error').hidden=false;
+    }
+  },true);
   document.addEventListener('click',event=>{
     const button=event.target.closest('button');if(!button||!renderReady)return;
     if(button.dataset.group){choose(data.variants.find(item=>item.groupId===button.dataset.group).id,true);return;}
     if(button.dataset.variant){choose(button.dataset.variant,true);return;}
     if(button.dataset.mode){mode=modes.includes(button.dataset.mode)?button.dataset.mode:'preview';renderModeNav();setHash();return;}
+    if(button.dataset.benchmark){benchmarkId=button.dataset.benchmark;renderBenchmarks();$('mode-benchmarks').querySelector(`[data-benchmark="${CSS.escape(benchmarkId)}"]`)?.focus({preventScroll:true});announce(`已切换同行参考：${button.textContent}。`);return;}
+    if(button.hasAttribute('data-benchmark-retry')){loadBenchmarks();return;}
     if(button.hasAttribute('data-reset')){resetThread();renderPreview();$('mode-preview').querySelector('[data-reset]').focus({preventScroll:true});announce('已回到开场。');return;}
     if(button.dataset.copy){copy(button.dataset.copy);return;}
     if(button.hasAttribute('data-download')){download();return;}
@@ -218,5 +281,6 @@
       announce('文案未载入。');
     }
   }
+  loadBenchmarks();
   start();
 })();

@@ -6,8 +6,8 @@
   <meta name="description" content="Tripo Teams 与 API 领英站内信审核稿：四组人群、十二版中英文案及完整流程。">
   <title>Tripo 领英站内信 · V10 · 10资产试点修订</title>
   <link rel="preload" href="../../assets/v9/InstrumentSans-Regular.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="lab.css?v=pdf-v10-20261019">
-  <script src="lab.js?v=pdf-v10-20261019" defer></script>
+  <link rel="stylesheet" href="lab.css?v=benchmarks-20261019">
+  <script src="lab.js?v=benchmarks-20261019" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#workspace">跳到文案审阅</a>
@@ -27,11 +27,13 @@
         <header id="selected-heading" class="selected-heading"><h2>选择文案版本</h2></header>
         <div id="mode-nav" class="mode-nav" role="tablist" aria-label="审阅方式">
           <button id="tab-preview" role="tab" aria-selected="true" aria-controls="mode-preview" tabindex="0" data-mode="preview">中英版式预览</button>
+          <button id="tab-benchmarks" role="tab" aria-selected="false" aria-controls="mode-benchmarks" tabindex="-1" data-mode="benchmarks">同行对照</button>
           <button id="tab-path" role="tab" aria-selected="false" aria-controls="mode-path" tabindex="-1" data-mode="path">流程与双语全文</button>
           <button id="tab-projects" role="tab" aria-selected="false" aria-controls="mode-projects" tabindex="-1" data-mode="projects" hidden>项目参考</button>
         </div>
         <div id="copy-tools" class="review-toolbar"></div>
         <section id="mode-preview" role="tabpanel" aria-labelledby="tab-preview" class="mode-panel"><p class="loading">正在读取中英文案。</p></section>
+        <section id="mode-benchmarks" role="tabpanel" aria-labelledby="tab-benchmarks" class="mode-panel" hidden></section>
         <section id="mode-path" role="tabpanel" aria-labelledby="tab-path" class="mode-panel" hidden></section>
         <section id="mode-projects" role="tabpanel" aria-labelledby="tab-projects" class="mode-panel" hidden></section>
         <p id="feedback" class="sr-only" role="status" aria-live="polite"></p>
