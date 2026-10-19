@@ -1,8 +1,26 @@
 {
-  "version": "2026-10-16-messaging-lab-v10-project-proof",
-  "checkedAt": "2026-10-16",
+  "version": "2026-10-19-messaging-lab-v10-pdf-revision",
+  "checkedAt": "2026-10-19",
   "audiencesUnchanged": true,
-  "apiVariantsUnchanged": true,
+  "allVariantsRevised": true,
+  "sourceStatus": "2026-10-19私有规则库/api/library返回403；使用本地workbench/claims 1.0.0、copy-editing 2.0.0、ad-creative 2.8.2、Impeccable 3.5.0及已读品牌资料、当前官方来源。未声称完成全量品牌/L1审批。",
+  "feedbackCoverage": [
+    "购买理由",
+    "Teams/API买方逻辑区分",
+    "生成与交付分开",
+    "10项真实资产试点CTA",
+    "完整成本和验收指标",
+    "输入/任务/审核/版本留痕",
+    "中英正文、按钮、表单和确认页一致"
+  ],
+  "notAssumed": [
+    "客户降本比例",
+    "免费或Tripo代跑评测服务",
+    "一键交付",
+    "自动DCC回存",
+    "内置查看器",
+    "完整品牌/L1审批"
+  ],
   "projects": [
     {
       "id": "prop-p2",
@@ -19,6 +37,5 @@
       "url": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan",
       "scope": "No claim of real-time co-editing, automatic DCC write-back, or measured collaboration savings."
     }
-  ],
-  "review": "已核对实际采用的公开项目、产品功能和文案分工；私有规则库网络读取失败，未完成完整品牌/L1审批。"
+  ]
 }

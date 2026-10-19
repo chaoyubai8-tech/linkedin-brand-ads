@@ -35,8 +35,6 @@
   const paragraphs=text=>`<div class="message-body">${esc(text)}</div>`;
   function resetThread(){
     steps=[{id:'intro',choice:null}];route=null;activeForm=null;
-    const button=getNode('intro')?.buttons.find(item=>item.action==='leadgen');
-    if(button&&getLeadForm(button.formId)?.simulationOnly===true)activeForm={id:button.formId,nodeId:'intro',buttonId:button.id,stage:'form'};
   }
   function setHash(){const hash=`#${selected.id}/${mode}`;if(location.hash!==hash)history.replaceState(null,'',hash);}
   function choose(id,shouldFocus=false){
@@ -208,7 +206,7 @@
   window.addEventListener('hashchange',restoreHash);
   async function start(){
     try{
-      const response=await fetch('copy.json',{cache:'no-cache'});if(!response.ok)throw new Error('copy unavailable');data=await response.json();
+      const response=await fetch('copy.json?v=pdf-v10-20261019',{cache:'no-cache'});if(!response.ok)throw new Error('copy unavailable');data=await response.json();
       if(!Array.isArray(data.variants)||data.variants.length!==12||data.variants.some(item=>!groups.some(group=>group.id===item.groupId)||!Array.isArray(item.nodes)||!item.nodes.find(node=>node.id==='intro')))throw new Error('copy invalid');
       const [id,requestedMode]=location.hash.slice(1).split('/');selected=data.variants.find(item=>item.id===id)||data.variants[0];mode=modes.includes(requestedMode)?requestedMode:'preview';
       resetThread();renderAll();setHash();renderReady=true;
