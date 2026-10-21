@@ -1,0 +1,668 @@
+{
+  "version": "V16",
+  "date": "2026-10-21",
+  "title": "Tripo 领英站内信 · V16",
+  "note": "审稿预览，不发送消息、不收集信息。姓名字段在正式广告中由领英动态填入。图片类型见图注。",
+  "groups": [
+    {
+      "id": "TU-01",
+      "label": "Teams · 美国游戏",
+      "theme": {
+        "en": "Making and sharing game props",
+        "zh": "游戏道具制作与团队共享"
+      },
+      "followup": {
+        "en": "The pilot would use 10 real props or characters from your team's project, with the same quality requirements you use today.\n\nYour artists would record the time to the first useful model, generation and retry costs, then the cleanup and review needed for approval. Depending on the asset, checks can include topology, polygon count, UVs, materials, formats, rigging and the result in your game engine. They would also note whether a teammate can find and reuse the approved work without another handoff. Admins would track time spent managing credits and member access.\n\nInclude unsuccessful attempts in the total, then compare the cost per approved asset with your current process. This covers the work needed to get usable assets, not just a quick generation result.\n\nFiles refined outside Tripo remain in your team's production workflow. Your team keeps the approval records and any required disclosures under its own policies.\n\nContact us today to set up your team's 10-asset pilot. The scope, access, fees and division of work will be agreed before it starts.",
+        "zh": "试点围绕您团队项目里的 10 个真实道具或角色开展，质量要求仍按团队现有标准。\n\n美术会记录拿到首个可用模型的时间、生成与重试费用，以及做到验收通过所需的清理修改和审核。按资产的实际用途，检查拓扑、面数、UV、材质、格式、需要时的绑定，以及游戏引擎内的效果。也看看另一位成员能不能找到并复用已审核成果，少一次交接；管理员则记录积分和权限管理花了多少时间。\n\n没有通过的尝试也计入总成本，再与现有流程比较：最终每个通过验收的资产，实际花了多少钱、多少工时。不只看生成一个模型有多快。\n\n在 Tripo 外精修的文件，仍由团队在自己的制作流程里管理。审核记录和必要披露，也按照团队自身规范保留。\n\n立即联系我们，安排您团队的 10 个资产试点。开始前会确认具体内容、使用权限、费用和双方分工。"
+      },
+      "image": {
+        "src": "https://cdn-blog.holymolly.ai/media/production/assets.webp",
+        "alt": {
+          "en": "Tripo Team Plan shared asset workspace",
+          "zh": "Tripo 团队版共享资产工作区"
+        },
+        "caption": {
+          "en": "Official Team Plan product illustration.",
+          "zh": "Tripo 官方团队版产品示意。"
+        },
+        "sourceUrl": "https://www.tripo3d.ai/programs/team-program"
+      },
+      "buttons": {
+        "primary": {
+          "en": "Request a 10-asset pilot",
+          "zh": "申请 10 个资产团队试点"
+        },
+        "secondary": {
+          "en": "See how it works",
+          "zh": "看看具体怎么用"
+        }
+      },
+      "followupButtons": [
+        {
+          "label": {
+            "en": "Request a 10-asset pilot",
+            "zh": "申请 10 个资产团队试点"
+          },
+          "action": "form"
+        },
+        {
+          "label": {
+            "en": "See Team Plan",
+            "zh": "查看团队方案"
+          },
+          "action": "link",
+          "url": "https://www.tripo3d.ai/programs/team-program"
+        }
+      ],
+      "form": {
+        "title": {
+          "en": "Request a 10-asset Team Plan pilot",
+          "zh": "申请 10 个资产的团队试点"
+        },
+        "description": {
+          "en": "Request a pilot with 10 real project assets. Compare Team Plan with your current process, including the time and cost of approved work.",
+          "zh": "申请用项目里的 10 个真实资产开展团队试点。比较 Team Plan 与现有流程，包括最终通过验收的工时和成本。"
+        },
+        "confirmation": {
+          "en": "Thank you for your request. Tripo will contact you to arrange the 10-asset team pilot. Scope, access, fees and who does the work will be agreed before starting. This form does not activate a trial.",
+          "zh": "谢谢，申请已收到。Tripo 将联系您，安排 10 个资产的团队试点。开始前会确认具体内容、使用权限、费用和双方分工。提交表单不会自动开通试用。"
+        },
+        "destination": {
+          "url": "https://www.tripo3d.ai/programs/team-program",
+          "label": {
+            "en": "Learn More",
+            "zh": "了解更多"
+          }
+        },
+        "fields": [
+          {
+            "id": "firstName",
+            "label": {
+              "en": "First name",
+              "zh": "名字"
+            }
+          },
+          {
+            "id": "lastName",
+            "label": {
+              "en": "Last name",
+              "zh": "姓氏"
+            }
+          },
+          {
+            "id": "workEmail",
+            "label": {
+              "en": "Work email",
+              "zh": "工作邮箱"
+            }
+          },
+          {
+            "id": "companyName",
+            "label": {
+              "en": "Company name",
+              "zh": "公司名称"
+            }
+          },
+          {
+            "id": "jobTitle",
+            "label": {
+              "en": "Job title",
+              "zh": "职位"
+            }
+          }
+        ],
+        "privacyUrl": "https://www.tripo3d.ai/privacy",
+        "privacyText": {
+          "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+          "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+        }
+      },
+      "variants": [
+        {
+          "id": "TU-01",
+          "label": {
+            "en": "A · Next game update",
+            "zh": "A · 下一版游戏"
+          },
+          "subject": {
+            "en": "Less modeling from scratch for your next game update",
+            "zh": "下一版游戏，让团队少从零建模"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nIs your team making new props for the next game update? Your artists can use Tripo to generate starting models from reference images, rather than build the initial shapes from scratch. They still refine and check the models for the game.\n\nTripo Studio Team Plan brings generated assets, shared credits and member access into one workspace. Your artists can find and reuse shared models instead of making the same starting point again or waiting for another file handoff. Admins can manage people and usage in one place rather than across separate accounts.\n\nContact us today to set up your team's 10-asset pilot. The comparison includes edits and review, so your team can compare the full cost of approved assets with its current process.",
+            "zh": "%FIRSTNAME%，您好，\n\n您的团队正在为下一版游戏制作新道具吗？美术可以用 Tripo 从参考图生成初版模型，不必先从零建模，再由团队按游戏要求继续修改和检查。\n\nTripo Studio Team Plan 把生成资产、共享积分和成员权限放进同一个工作区。美术可以找到并复用共享模型，少做一遍相同的初版模型，也少等一次文件交接。管理员能统一管理成员和用量，不必分别处理多个账号。\n\n立即联系我们，安排您团队的 10 个资产试点。修改和审核也会算进去，方便团队与现有流程比较最终通过验收的资产总成本。"
+          }
+        },
+        {
+          "id": "TU-02",
+          "label": {
+            "en": "B · New level",
+            "zh": "B · 新关卡制作"
+          },
+          "subject": {
+            "en": "New level props, without starting every model from scratch",
+            "zh": "新关卡的道具，不必每个都从零建模"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nFor a new level, your artists can use Tripo to generate starting models for crates or furniture instead of modeling each one from scratch. They then refine the shapes and materials for the scene.\n\nTripo Studio Team Plan brings generated assets, shared credits and member access into one workspace. Your artists can find and reuse shared models instead of making the same starting point again or waiting for another file handoff. Admins can manage people and usage in one place rather than across separate accounts.\n\nContact us today to set up your team's 10-asset pilot. The comparison includes edits and review, so your team can compare the full cost of approved assets with its current process.",
+            "zh": "%FIRSTNAME%，您好，\n\n做新关卡的木箱、家具时，您的美术团队可以用 Tripo 先生成初版模型，不必每个都从零建模，再按场景要求修改造型和材质。\n\nTripo Studio Team Plan 把生成资产、共享积分和成员权限放进同一个工作区。美术可以找到并复用共享模型，少做一遍相同的初版模型，也少等一次文件交接。管理员能统一管理成员和用量，不必分别处理多个账号。\n\n立即联系我们，安排您团队的 10 个资产试点。修改和审核也会算进去，方便团队与现有流程比较最终通过验收的资产总成本。"
+          }
+        },
+        {
+          "id": "TU-03",
+          "label": {
+            "en": "C · Reusing shared models",
+            "zh": "C · 复用共享模型"
+          },
+          "subject": {
+            "en": "Reuse shared models without another file handoff",
+            "zh": "复用团队共享模型，少等一次文件交接"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nThe next game update may need both familiar props and new ones. Your artists can keep suitable models in use and generate starting models for what's missing.\n\nTripo Studio Team Plan brings generated assets, shared credits and member access into one workspace. Your artists can find and reuse shared models instead of making the same starting point again or waiting for another file handoff. Admins can manage people and usage in one place rather than across separate accounts.\n\nContact us today to set up your team's 10-asset pilot. The comparison includes edits and review, so your team can compare the full cost of approved assets with its current process.",
+            "zh": "%FIRSTNAME%，您好，\n\n下一版游戏可能既要用到现有道具，也需要新道具。您的美术团队可以沿用适合的模型，缺少的部分再生成初版。\n\nTripo Studio Team Plan 把生成资产、共享积分和成员权限放进同一个工作区。美术可以找到并复用共享模型，少做一遍相同的初版模型，也少等一次文件交接。管理员能统一管理成员和用量，不必分别处理多个账号。\n\n立即联系我们，安排您团队的 10 个资产试点。修改和审核也会算进去，方便团队与现有流程比较最终通过验收的资产总成本。"
+          }
+        }
+      ],
+      "footer": {
+        "en": "Generated models are starting points. Your team handles refinement, approval and final use.",
+        "zh": "生成模型是制作起点。修改、验收及最终用途由您的团队负责。"
+      }
+    },
+    {
+      "id": "TE-01",
+      "label": "Teams · 欧洲游戏",
+      "theme": {
+        "en": "Game props for your team's project",
+        "zh": "用于团队实际游戏项目的道具"
+      },
+      "followup": {
+        "en": "The treasure-chest walkthrough shows the work after generation: an artist refines the model, changes materials and adds an opening interaction. It is a Studio example with artist work, not a measured Team Plan savings result.\n\nFor your game, the pilot would use 10 real props already on the schedule. Your team would record the time to the first useful model, generation and retry costs, refinement, review and checks in your engine. Depending on the prop, checks can include topology, polygon count, UVs, materials, formats and rigging.\n\nAlongside the prop work, the team would track reuse, file handoffs and time spent managing credits and permissions. Include failed attempts in the total, then compare the cost per approved prop with your existing process. Only work that passes your team's checks goes into the game. Your team keeps generation and review records and makes any required disclosures under its own policies.\n\nContact us today to set up your team's 10-asset pilot. The scope, access, fees and who does the work will be agreed before starting.",
+        "zh": "宝箱示例展示了生成之后的工作：美术继续精修模型、调整材质，并加入开箱交互。这是包含美术制作的 Studio 示例，不是 Team Plan 的实测降本结果。\n\n针对您的游戏，试点会选取排期里的 10 个真实道具。由团队记录首个可用模型的时间、生成与重试费用、精修、审核和引擎检查。按每个道具的用途，检查拓扑、面数、UV、材质、格式，以及需要时的绑定。\n\n团队也会记录资产复用、文件交接，以及积分和权限管理的工时。失败的尝试同样计入总成本，再与现有流程比较每个最终通过验收的道具花了多少钱、多少工时。只有通过您团队检查的资产才进入游戏。生成和审核记录，以及必要披露，也按照团队自身规范保留和处理。\n\n立即联系我们，安排您团队的 10 个资产试点。开始前会确认具体内容、使用权限、费用和双方分工。"
+      },
+      "image": {
+        "src": "https://cdn-blog.holymolly.ai/media/production/game-ready-prop-p-2-open-burgundy-treasure-chest-with-a-scroll-in-a-fantasy-interior-7daccca05ecd.webp",
+        "alt": {
+          "en": "Treasure chest from an official Tripo Studio workflow",
+          "zh": "Tripo 官方 Studio 制作流程中的宝箱"
+        },
+        "caption": {
+          "en": "Studio workflow example, including artist refinement.",
+          "zh": "Studio 制作示例，含美术精修。"
+        },
+        "sourceUrl": "https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+      },
+      "buttons": {
+        "primary": {
+          "en": "Request a 10-asset pilot",
+          "zh": "申请 10 个资产团队试点"
+        },
+        "secondary": {
+          "en": "See the prop example",
+          "zh": "看看道具制作示例"
+        }
+      },
+      "followupButtons": [
+        {
+          "label": {
+            "en": "Request a 10-asset pilot",
+            "zh": "申请 10 个资产团队试点"
+          },
+          "action": "form"
+        },
+        {
+          "label": {
+            "en": "Read the walkthrough",
+            "zh": "阅读宝箱制作示例"
+          },
+          "action": "link",
+          "url": "https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+        }
+      ],
+      "form": {
+        "title": {
+          "en": "Request a 10-asset pilot for your game",
+          "zh": "为游戏项目申请 10 个资产的试点"
+        },
+        "description": {
+          "en": "Request a Team Plan pilot with 10 real game props. Compare the cost of approved assets with your current workflow, including refinement and engine checks.",
+          "zh": "申请用 10 个真实游戏道具开展 Team Plan 试点。把精修和引擎检查也算进去，与现有流程比较最终通过验收的资产成本。"
+        },
+        "confirmation": {
+          "en": "Thank you for your request. Tripo will contact you to arrange a 10-asset pilot for your game. We'll confirm the scope, access, fees and division of work before starting. This form does not activate a trial.",
+          "zh": "谢谢，申请已收到。Tripo 将联系您，为游戏项目安排 10 个资产的试点。开始前会确认具体内容、使用权限、费用和双方分工。提交表单不会自动开通试用。"
+        },
+        "destination": {
+          "url": "https://www.tripo3d.ai/programs/team-program",
+          "label": {
+            "en": "Learn More",
+            "zh": "了解更多"
+          }
+        },
+        "fields": [
+          {
+            "id": "firstName",
+            "label": {
+              "en": "First name",
+              "zh": "名字"
+            }
+          },
+          {
+            "id": "lastName",
+            "label": {
+              "en": "Last name",
+              "zh": "姓氏"
+            }
+          },
+          {
+            "id": "workEmail",
+            "label": {
+              "en": "Work email",
+              "zh": "工作邮箱"
+            }
+          },
+          {
+            "id": "companyName",
+            "label": {
+              "en": "Company name",
+              "zh": "公司名称"
+            }
+          },
+          {
+            "id": "jobTitle",
+            "label": {
+              "en": "Job title",
+              "zh": "职位"
+            }
+          }
+        ],
+        "privacyUrl": "https://www.tripo3d.ai/privacy",
+        "privacyText": {
+          "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+          "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+        }
+      },
+      "variants": [
+        {
+          "id": "TE-01",
+          "label": {
+            "en": "A · Next game update",
+            "zh": "A · 下一版游戏"
+          },
+          "subject": {
+            "en": "Next game update? Reuse props instead of remaking them",
+            "zh": "下一版游戏，复用道具少做重复工作"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nDoes the next game update need props your team has already made? Your artists can reuse suitable models and generate starting models for what is missing, then adjust the shapes and materials for the game.\n\nTripo Studio Team Plan gives your artists one workspace to generate and share those starting models. Teammates can reuse available assets instead of repeating the same modeling and file handoffs. Shared credits and member permissions are managed together, so the team can work from the same resources while artists keep control of what enters the game.\n\nContact us today to set up your team's 10-asset pilot. Your team can compare the cost of approved props, including refinement and engine checks, with its current process. You can also see the treasure-chest example first.",
+            "zh": "%FIRSTNAME%，您好，\n\n下一版游戏要用的道具，您的团队是不是已经做过其中一些？美术可以复用适合的模型，缺的部分再用 Tripo 生成初版，然后按游戏要求调整造型和材质。\n\nTripo Studio Team Plan 让美术在同一个工作区生成和共享初版模型。成员可以复用已有资产，少一些重复建模和文件交接。共享积分和成员权限也能统一管理，团队共用资源，哪些资产进入游戏仍由美术审核决定。\n\n立即联系我们，安排您团队的 10 个资产试点。把精修和引擎检查也算进去，再与现有流程比较通过验收的道具成本。也可以先看看宝箱制作示例。"
+          }
+        },
+        {
+          "id": "TE-02",
+          "label": {
+            "en": "B · New level",
+            "zh": "B · 新关卡制作"
+          },
+          "subject": {
+            "en": "New level props, with less modeling from scratch",
+            "zh": "新关卡的道具，让团队少从零建模"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nA new level may need crates, furniture and other props. Your artists can use reference images to generate starting models in Tripo instead of building each one by hand, then refine and test them for the game.\n\nTripo Studio Team Plan gives your artists one workspace to generate and share those starting models. Teammates can reuse available assets instead of repeating the same modeling and file handoffs. Shared credits and member permissions are managed together, so the team can work from the same resources while artists keep control of what enters the game.\n\nContact us today to set up your team's 10-asset pilot. Your team can compare the cost of approved props, including refinement and engine checks, with its current process. You can also see the treasure-chest example first.",
+            "zh": "%FIRSTNAME%，您好，\n\n新关卡需要木箱、家具等道具时，您的美术团队可以用参考图在 Tripo 里生成初版，不必都先手工建模，再继续修改并放进游戏检查。\n\nTripo Studio Team Plan 让美术在同一个工作区生成和共享初版模型。成员可以复用已有资产，少一些重复建模和文件交接。共享积分和成员权限也能统一管理，团队共用资源，哪些资产进入游戏仍由美术审核决定。\n\n立即联系我们，安排您团队的 10 个资产试点。把精修和引擎检查也算进去，再与现有流程比较通过验收的道具成本。也可以先看看宝箱制作示例。"
+          }
+        },
+        {
+          "id": "TE-03",
+          "label": {
+            "en": "C · Treasure-chest example",
+            "zh": "C · 宝箱制作示例"
+          },
+          "subject": {
+            "en": "A game chest without modeling from scratch",
+            "zh": "制作游戏宝箱，不必从零建模"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nIn Tripo's treasure-chest walkthrough, the artist starts with a generated model instead of modeling from scratch, then adds materials and an opening interaction. Your team could take the same approach for props in the next game update.\n\nTripo Studio Team Plan gives your artists one workspace to generate and share those starting models. Teammates can reuse available assets instead of repeating the same modeling and file handoffs. Shared credits and member permissions are managed together, so the team can work from the same resources while artists keep control of what enters the game.\n\nContact us today to set up your team's 10-asset pilot. Your team can compare the cost of approved props, including refinement and engine checks, with its current process. You can also see the treasure-chest example first.",
+            "zh": "%FIRSTNAME%，您好，\n\nTripo 的宝箱制作示例里，美术从生成模型开始，不必先从零搭建宝箱，再继续制作材质和开箱交互。下一版游戏需要的道具，您的团队也可以参考这种做法。\n\nTripo Studio Team Plan 让美术在同一个工作区生成和共享初版模型。成员可以复用已有资产，少一些重复建模和文件交接。共享积分和成员权限也能统一管理，团队共用资源，哪些资产进入游戏仍由美术审核决定。\n\n立即联系我们，安排您团队的 10 个资产试点。把精修和引擎检查也算进去，再与现有流程比较通过验收的道具成本。也可以先看看宝箱制作示例。"
+          }
+        }
+      ],
+      "footer": {
+        "en": "Generated models are starting points. Your team handles refinement, approval and final use.",
+        "zh": "生成模型是制作起点。修改、验收及最终用途由您的团队负责。"
+      }
+    },
+    {
+      "id": "AU-01",
+      "label": "API · 美国游戏＋3D资产",
+      "theme": {
+        "en": "3D generation in your team's game tools",
+        "zh": "在团队现有游戏工具里接入 3D 生成"
+      },
+      "followup": {
+        "en": "Your engineers connect the API to your asset tool: submit text or images, check task status and retrieve the model if generation succeeds. Artists then refine it in their usual tools. A completed generation task is not project approval.\n\nThe proposed test uses the same 10 real asset briefs or reference images to compare API generation with your current workflow. Your team sets the acceptance checks: topology, polygon count, UVs, rigging, file formats and behavior in the target engine, as relevant to each asset.\n\nAlongside the time to the first approved model, the comparison records generation and retry fees, artist cleanup and review time, plus integration and maintenance work. The total includes rejected attempts and rework, rather than counting only successful generations.\n\nYour team keeps generation and review records, and handles any required disclosures in its own process. Contact us today to set up your 10-asset API test. Scope, access, costs and responsibilities will be agreed before work begins.",
+        "zh": "您的工程团队把 API 接入资产工具：提交文字或图片、查询任务状态，在生成成功后取回模型。美术再用熟悉的软件继续修改。生成任务完成，不代表模型已通过项目验收。\n\n计划用项目里的 10 个真实资产需求或参考图，与当前制作流程做对比。您的团队按资产用途确定验收项，包括拓扑、面数、UV、绑定、文件格式和目标引擎中的表现。\n\n除首个模型通过验收的耗时外，也记录生成与重试费用、美术清理和审核工时，以及接入和维护工作。总投入包含失败尝试和返工，而不是只统计成功生成的次数。\n\n生成与审核记录及必要的披露，由您的团队按自身规范处理。立即联系我们，安排您的 10 个资产 API 测试。开始前会确认范围、使用权限、费用和分工。"
+      },
+      "image": {
+        "src": "../../assets/v19/concepts/deep-sea-engineer.png",
+        "alt": {
+          "en": "AI-generated game character concept",
+          "zh": "AI生成的游戏角色概念图"
+        },
+        "caption": {
+          "en": "AI-generated visual concept. Not a Tripo API output.",
+          "zh": "AI生成视觉概念图，非 Tripo API 输出。"
+        },
+        "sourceUrl": ""
+      },
+      "buttons": {
+        "primary": {
+          "en": "Request a 10-asset test",
+          "zh": "申请 10 个资产 API 测试"
+        },
+        "secondary": {
+          "en": "See the test plan",
+          "zh": "查看测试方案"
+        }
+      },
+      "followupButtons": [
+        {
+          "label": {
+            "en": "Request a 10-asset test",
+            "zh": "申请 10 个资产 API 测试"
+          },
+          "action": "form"
+        },
+        {
+          "label": {
+            "en": "Read the API docs",
+            "zh": "查看 API 接入文档"
+          },
+          "action": "link",
+          "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+        }
+      ],
+      "form": {
+        "title": {
+          "en": "Request a 10-asset API test for your game tools",
+          "zh": "申请游戏工具的 10 个资产 API 测试"
+        },
+        "description": {
+          "en": "Request an API test using 10 real project assets, comparing integration work and the cost of approved models with your current process.",
+          "zh": "申请 10 个真实项目资产的 API 测试，与当前流程比较接入工作及模型通过验收的总成本。"
+        },
+        "confirmation": {
+          "en": "Thank you for your request. Tripo will contact you to arrange the 10-asset API test. Scope, access, fees and responsibilities will be agreed before testing. This request does not start a test or activate API access.",
+          "zh": "谢谢，申请已收到。Tripo 将联系您，安排 10 个资产的 API 测试。测试前确认范围、使用权限、费用和分工；提交申请不会自动启动测试或开通 API。"
+        },
+        "destination": {
+          "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+          "label": {
+            "en": "Learn More",
+            "zh": "了解更多"
+          }
+        },
+        "fields": [
+          {
+            "id": "firstName",
+            "label": {
+              "en": "First name",
+              "zh": "名字"
+            }
+          },
+          {
+            "id": "lastName",
+            "label": {
+              "en": "Last name",
+              "zh": "姓氏"
+            }
+          },
+          {
+            "id": "workEmail",
+            "label": {
+              "en": "Work email",
+              "zh": "工作邮箱"
+            }
+          },
+          {
+            "id": "companyName",
+            "label": {
+              "en": "Company name",
+              "zh": "公司名称"
+            }
+          },
+          {
+            "id": "jobTitle",
+            "label": {
+              "en": "Job title",
+              "zh": "职位"
+            }
+          }
+        ],
+        "privacyUrl": "https://www.tripo3d.ai/privacy",
+        "privacyText": {
+          "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+          "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+        }
+      },
+      "variants": [
+        {
+          "id": "AU-01",
+          "label": {
+            "en": "A · Reference images",
+            "zh": "A · 参考图生成"
+          },
+          "subject": {
+            "en": "Add image-to-3D without developing your own AI model",
+            "zh": "接入图生 3D，不必自研 AI 模型"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nDoes your team want artists to generate starting models from reference images inside your asset tool?\n\nTripo API adds text-to-3D and image-to-3D generation to your existing tools, without your team building and maintaining the generation model. Your engineers handle the integration. Artists refine the results in their usual software, while your team keeps control of the interface, project standards and final approval.\n\nYour team can compare 10 real project assets with its current workflow, including integration work, generation and retry fees, and artist cleanup. The comparison covers what it takes to reach an approved model, not just a generated one.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "%FIRSTNAME%，您好，\n\n您的团队想让美术在自己的资产工具里，用参考图生成初版模型吗？\n\nTripo API 可以把文生 3D 和图生 3D 接入现有工具，团队不必自建和维护底层生成模型。工程团队负责接入，美术用熟悉的软件继续修改；工具界面、项目标准和最终验收仍由您的团队掌握。\n\n团队可以拿项目里的 10 个真实资产，与现有流程做一次对比，把接入工作、生成与重试费用和美术清理都计入。比较的是模型达到验收要求的总投入，而不只是生成一个模型。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          }
+        },
+        {
+          "id": "AU-02",
+          "label": {
+            "en": "B · Game update",
+            "zh": "B · 游戏更新"
+          },
+          "subject": {
+            "en": "Less from-scratch modeling for your next game update",
+            "zh": "下一次游戏更新，让美术少从零建模"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nIs your team making new props for the next game update? Some can start as generated models in your existing tools, giving artists a starting point to refine instead of building every prop from scratch.\n\nTripo API adds text-to-3D and image-to-3D generation to your existing tools, without your team building and maintaining the generation model. Your engineers handle the integration. Artists refine the results in their usual software, while your team keeps control of the interface, project standards and final approval.\n\nYour team can compare 10 real project assets with its current workflow, including integration work, generation and retry fees, and artist cleanup. The comparison covers what it takes to reach an approved model, not just a generated one.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "%FIRSTNAME%，您好，\n\n您的团队正在为下一次游戏更新制作新道具吗？其中一部分可以先在现有工具里生成初版，让美术从修改和细化开始，不必每个道具都从零建模。\n\nTripo API 可以把文生 3D 和图生 3D 接入现有工具，团队不必自建和维护底层生成模型。工程团队负责接入，美术用熟悉的软件继续修改；工具界面、项目标准和最终验收仍由您的团队掌握。\n\n团队可以拿项目里的 10 个真实资产，与现有流程做一次对比，把接入工作、生成与重试费用和美术清理都计入。比较的是模型达到验收要求的总投入，而不只是生成一个模型。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          }
+        },
+        {
+          "id": "AU-03",
+          "label": {
+            "en": "C · Early prototypes",
+            "zh": "C · 前期原型"
+          },
+          "subject": {
+            "en": "Test level ideas without starting every prop from scratch",
+            "zh": "测试关卡想法，不必每个道具都从零做起"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nIs your team trying out a new level? Artists can generate starting props from short briefs in your own tools, then adjust them for the prototype instead of building every initial model by hand.\n\nTripo API adds text-to-3D and image-to-3D generation to your existing tools, without your team building and maintaining the generation model. Your engineers handle the integration. Artists refine the results in their usual software, while your team keeps control of the interface, project standards and final approval.\n\nYour team can compare 10 real project assets with its current workflow, including integration work, generation and retry fees, and artist cleanup. The comparison covers what it takes to reach an approved model, not just a generated one.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "%FIRSTNAME%，您好，\n\n您的团队在尝试新的关卡想法吗？美术可以在自己的工具里，用简短描述生成初版道具，再按原型需要调整，不必先把每个初版模型都手工做出来。\n\nTripo API 可以把文生 3D 和图生 3D 接入现有工具，团队不必自建和维护底层生成模型。工程团队负责接入，美术用熟悉的软件继续修改；工具界面、项目标准和最终验收仍由您的团队掌握。\n\n团队可以拿项目里的 10 个真实资产，与现有流程做一次对比，把接入工作、生成与重试费用和美术清理都计入。比较的是模型达到验收要求的总投入，而不只是生成一个模型。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          }
+        }
+      ],
+      "footer": {
+        "en": "Tripo provides generation. Your team handles integration, refinement and final approval.",
+        "zh": "Tripo 提供生成能力；您的团队负责接入、修改和最终验收。"
+      }
+    },
+    {
+      "id": "AE-01",
+      "label": "API · 欧洲企业内容",
+      "theme": {
+        "en": "3D product content for your pages and platform",
+        "zh": "为产品页面和内容平台制作 3D 展示"
+      },
+      "followup": {
+        "en": "Your engineers connect the API to your platform: submit product images, check task status and retrieve the models if generation succeeds. Your content team checks them against the products and makes corrections. Your team handles the viewer and approves publication.\n\nThe proposed test uses images from 10 real products to compare API generation with your current workflow. Checks cover product accuracy and, where relevant, topology, polygon count, UVs, file formats and performance in your page viewer.\n\nThe comparison records time to the first approved model, generation and retry fees, manual cleanup and review, plus integration and maintenance work. The total includes rejected attempts and rework, rather than treating a generated model as a finished product asset.\n\nYour team keeps generation and review records, and handles any required disclosures in its own process. Contact us today to set up your 10-asset API test. Scope, access, fees and responsibilities will be agreed before work begins.",
+        "zh": "您的工程团队把 API 接入平台：提交产品图片、查询任务状态，在生成成功后取回模型。内容团队对照真实产品检查和修正，由您的团队负责查看器和发布验收。\n\n计划用 10 款真实产品的图片，对比 API 生成与当前制作流程。验收检查产品还原情况，并按用途核对拓扑、面数、UV、文件格式及页面查看器中的表现。\n\n评测记录首个模型通过验收的耗时、生成与重试费用、人工清理和审核，以及接入和维护工作。总投入包含失败尝试和返工，不把刚生成的模型直接当作已完成的产品资产。\n\n生成与审核记录及必要的披露，由您的团队按自身规范处理。立即联系我们，安排您的 10 个资产 API 测试。开始前会确认范围、使用权限、费用和分工。"
+      },
+      "image": {
+        "src": "../../assets/v19/concepts/espresso-machine.png",
+        "alt": {
+          "en": "AI-generated product visualization concept",
+          "zh": "AI生成的产品展示概念图"
+        },
+        "caption": {
+          "en": "AI-generated visual concept. Not a Tripo API output.",
+          "zh": "AI生成视觉概念图，非 Tripo API 输出。"
+        },
+        "sourceUrl": ""
+      },
+      "buttons": {
+        "primary": {
+          "en": "Request a 10-asset test",
+          "zh": "申请 10 个资产 API 测试"
+        },
+        "secondary": {
+          "en": "See the test plan",
+          "zh": "查看测试方案"
+        }
+      },
+      "followupButtons": [
+        {
+          "label": {
+            "en": "Request a 10-asset test",
+            "zh": "申请 10 个资产 API 测试"
+          },
+          "action": "form"
+        },
+        {
+          "label": {
+            "en": "Read the API docs",
+            "zh": "查看 API 接入文档"
+          },
+          "action": "link",
+          "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+        }
+      ],
+      "form": {
+        "title": {
+          "en": "Request a 10-asset API test for product content",
+          "zh": "申请产品内容的 10 个资产 API 测试"
+        },
+        "description": {
+          "en": "Request an API test using 10 real product assets, comparing integration and the cost of approved models with your current process.",
+          "zh": "申请 10 个真实产品资产的 API 测试，与当前流程比较接入工作和模型通过展示验收的总成本。"
+        },
+        "confirmation": {
+          "en": "Thank you for your request. Tripo will contact you to arrange the 10-asset API test for your product content. Scope, access, fees and responsibilities will be agreed before testing. This request does not start a test or activate API access.",
+          "zh": "谢谢，申请已收到。Tripo 将联系您，安排产品内容的 10 个资产 API 测试。测试前确认范围、使用权限、费用和分工；提交申请不会自动启动测试或开通 API。"
+        },
+        "destination": {
+          "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+          "label": {
+            "en": "Learn More",
+            "zh": "了解更多"
+          }
+        },
+        "fields": [
+          {
+            "id": "firstName",
+            "label": {
+              "en": "First name",
+              "zh": "名字"
+            }
+          },
+          {
+            "id": "lastName",
+            "label": {
+              "en": "Last name",
+              "zh": "姓氏"
+            }
+          },
+          {
+            "id": "workEmail",
+            "label": {
+              "en": "Work email",
+              "zh": "工作邮箱"
+            }
+          },
+          {
+            "id": "companyName",
+            "label": {
+              "en": "Company name",
+              "zh": "公司名称"
+            }
+          },
+          {
+            "id": "jobTitle",
+            "label": {
+              "en": "Job title",
+              "zh": "职位"
+            }
+          }
+        ],
+        "privacyUrl": "https://www.tripo3d.ai/privacy",
+        "privacyText": {
+          "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+          "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+        }
+      },
+      "variants": [
+        {
+          "id": "AE-01",
+          "label": {
+            "en": "A · Product pages",
+            "zh": "A · 产品页面"
+          },
+          "subject": {
+            "en": "Add 3D product views without building a generation model",
+            "zh": "增加产品 3D 展示，不必自研生成模型"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nIs your team adding 3D views to product pages? Your engineers can focus on getting that experience into your site, with Tripo providing the model generation.\n\nTripo API adds image-to-3D generation to your content platform without your engineers building and maintaining the generation model. Your content team checks and refines the outputs against the actual products. Your engineers connect the models to your chosen viewer; your team controls the customer experience, review and publishing.\n\nA 10-asset API test can use images of real products to compare your current workflow with API generation, through to models approved for your pages. Your team can include integration, model corrections and review in the time and cost comparison.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "%FIRSTNAME%，您好，\n\n您的团队准备给产品页面增加 3D 展示吗？工程团队可以专注把展示体验接进网站，模型生成这部分交给 Tripo。\n\nTripo API 可以为内容平台接入图生 3D，工程团队不必自建和维护生成模型。内容团队对照真实产品检查和修改结果，工程团队将模型接入您选用的查看器；客户体验、审核和发布仍由您的团队掌握。\n\n一次 10 个资产的 API 测试，可以用真实产品图片比较现有流程与 API 生成，从制作一直记录到模型通过页面展示要求的验收。接入、模型修正和审核，都计入工时和成本。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          }
+        },
+        {
+          "id": "AE-02",
+          "label": {
+            "en": "B · Catalogue update",
+            "zh": "B · 产品目录更新"
+          },
+          "subject": {
+            "en": "Less from-scratch modeling for your product catalogue",
+            "zh": "更新产品目录，少从零制作 3D 模型"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nDoes your team have the photos for its next catalogue update, but still need 3D models? It can use those photos to generate starting models, then correct them against the products instead of building every model from scratch.\n\nTripo API adds image-to-3D generation to your content platform without your engineers building and maintaining the generation model. Your content team checks and refines the outputs against the actual products. Your engineers connect the models to your chosen viewer; your team controls the customer experience, review and publishing.\n\nA 10-asset API test can use images of real products to compare your current workflow with API generation, through to models approved for your pages. Your team can include integration, model corrections and review in the time and cost comparison.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "%FIRSTNAME%，您好，\n\n下一次产品目录更新，团队已经备好图片，但还缺 3D 模型吗？可以用这些图片生成初版，再对照实物修正，不必每个模型都从零做起。\n\nTripo API 可以为内容平台接入图生 3D，工程团队不必自建和维护生成模型。内容团队对照真实产品检查和修改结果，工程团队将模型接入您选用的查看器；客户体验、审核和发布仍由您的团队掌握。\n\n一次 10 个资产的 API 测试，可以用真实产品图片比较现有流程与 API 生成，从制作一直记录到模型通过页面展示要求的验收。接入、模型修正和审核，都计入工时和成本。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          }
+        },
+        {
+          "id": "AE-03",
+          "label": {
+            "en": "C · Content platform",
+            "zh": "C · 内容平台功能"
+          },
+          "subject": {
+            "en": "Add 3D generation without training your own AI model",
+            "zh": "给内容平台加上 3D 生成，不必自研 AI 模型"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nCould editors request a 3D model from a product photo without leaving your content platform? Your engineers can build that feature around an existing generation API.\n\nTripo API adds image-to-3D generation to your content platform without your engineers building and maintaining the generation model. Your content team checks and refines the outputs against the actual products. Your engineers connect the models to your chosen viewer; your team controls the customer experience, review and publishing.\n\nA 10-asset API test can use images of real products to compare your current workflow with API generation, through to models approved for your pages. Your team can include integration, model corrections and review in the time and cost comparison.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "%FIRSTNAME%，您好，\n\n能否让编辑不用离开内容平台，就能用产品图发起 3D 模型生成？您的工程团队可以通过接入现有的生成 API，来实现这项功能。\n\nTripo API 可以为内容平台接入图生 3D，工程团队不必自建和维护生成模型。内容团队对照真实产品检查和修改结果，工程团队将模型接入您选用的查看器；客户体验、审核和发布仍由您的团队掌握。\n\n一次 10 个资产的 API 测试，可以用真实产品图片比较现有流程与 API 生成，从制作一直记录到模型通过页面展示要求的验收。接入、模型修正和审核，都计入工时和成本。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          }
+        }
+      ],
+      "footer": {
+        "en": "Tripo provides generation. Your team handles integration, corrections and approval for publication.",
+        "zh": "Tripo 提供生成能力；您的团队负责接入、修正和发布验收。"
+      }
+    }
+  ]
+}
