@@ -1,0 +1,3244 @@
+{
+  "version": "V23",
+  "date": "2026-10-23",
+  "note": {
+    "en": "Read-only review · US and Europe have separate copy. No messages are sent and no personal information is collected. Test scope, support, access and fees require confirmation.",
+    "zh": "审稿预览 · 美国与欧洲独立文案，不发送消息或收集信息。测试范围、支持、使用权限及费用需另行确认。"
+  },
+  "groups": [
+    {
+      "id": "TU",
+      "label": "Teams · 美国游戏",
+      "theme": {
+        "en": "Game-studio and art-production teams · US",
+        "zh": "美国游戏工作室与美术制作团队"
+      },
+      "image": {
+        "src": "https://cdn-blog.holymolly.ai/media/production/assets.webp",
+        "alt": {
+          "en": "Tripo Team Plan shared asset workspace",
+          "zh": "Tripo 团队版共享资产工作区"
+        },
+        "caption": {
+          "en": "Official Team Plan product illustration.",
+          "zh": "Tripo 官方团队版产品示意。"
+        },
+        "sourceUrl": "https://www.tripo3d.ai/programs/team-program"
+      },
+      "form": {
+        "fields": [
+          {
+            "id": "firstName",
+            "label": {
+              "en": "First name",
+              "zh": "名字"
+            }
+          },
+          {
+            "id": "lastName",
+            "label": {
+              "en": "Last name",
+              "zh": "姓氏"
+            }
+          },
+          {
+            "id": "workEmail",
+            "label": {
+              "en": "Work email",
+              "zh": "工作邮箱"
+            }
+          },
+          {
+            "id": "companyName",
+            "label": {
+              "en": "Company name",
+              "zh": "公司名称"
+            }
+          },
+          {
+            "id": "jobTitle",
+            "label": {
+              "en": "Job title",
+              "zh": "职位"
+            }
+          }
+        ],
+        "privacyUrl": "https://www.tripo3d.ai/privacy",
+        "privacyText": {
+          "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+          "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+        },
+        "destination": {
+          "url": "https://www.tripo3d.ai/programs/team-program",
+          "label": {
+            "en": "Learn More",
+            "zh": "了解更多"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "TU-01",
+          "angleId": "S1",
+          "label": {
+            "en": "Less modeling from scratch",
+            "zh": "少从零建模"
+          },
+          "subject": {
+            "en": "Stop rebuilding every starting mesh for your next update",
+            "zh": "下一版更新，别再从零搭每个初版造型"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nYour game's next update has a list of props that all need starting geometry built by hand before artists can refine them.\n\nTripo Studio Team Plan gives your art team a shared workspace to generate those starting models from text or reference images, then refine them in their existing tools — reducing the initial geometry work; your team still handles cleanup and approval.\n• **Tripo generates the starting geometry:** Artists get a usable base mesh for props on the project list.\n• **Your team handles refinement and approval:** Artists adjust the shape and materials, review the result in the engine, and approve what meets the game's requirements.\n\n**To help you evaluate the real cost savings,** we'd be happy to help plan a pilot with 10 real project assets. Compare time through final approval, including generation, cleanup and testing.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n游戏下一版更新的资产清单上有40个道具。每一个都要美术先搭出初版几何体，才能开始精修。\n\nTripo Studio Team Plan为美术团队提供共享工作区，可以从文字或参考图生成初版模型，再放进现有工具里精修——减少初版建模工作，同时不增加后续返修负担。\n• **Tripo生成初版几何体：** 为项目清单上的道具提供可用的基础网格。\n• **您的团队负责精修和验收：** 美术调整造型和材质，在引擎中审核结果，批准符合游戏要求的资产。\n\n**为了帮您评估实际节省成本，** 我们愿意一起规划用10个真实项目资产做试点。比较到最终验收的时间，包括生成、清理和测试。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "The goal is less initial modeling without creating more repair work later.\n\nFor 10 assets from your team's game project, we'd be happy to help plan a comparison against the current workflow. The same briefs and quality requirements should apply to both approaches.\n• Track the time to the first useful starting model, plus generation and retry fees, including unsuccessful attempts.\n• Include artist cleanup, materials, review, tool compatibility and engine checks through final approval.\n\nThat comparison shows which assets need less total work and which are better made with the current process. Your team keeps the art direction and final approval.\n\nBefore starting, Tripo and your team need to agree the asset list, available evaluation support, who runs the checks and which records can be supplied. Scope, availability, access and fees also need confirmation.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "目标是减少初版建模工作，而不是把省下来的工作变成后续返修。\n\n我们愿意一起规划，拿您团队游戏项目里的 10 个资产，与现有流程做对比。两种方式沿用相同的需求和质量标准。\n• 记录得到首个可用初版的时间，以及生成和重试费用，包括失败尝试的实际成本。\n• 从美术清理、材质制作、审核、工具适配，一直计入引擎检查和最终验收。\n\n这样能看清哪些资产的总投入更少，哪些仍适合按现有方式制作。美术方向和最终验收仍由您的团队掌握。\n\n开始前，Tripo 与您的团队需确认资产清单、可提供的评测支持、谁执行检查，以及可提供哪些记录。范围、是否可安排、使用权限和费用也需确认。\n\n立即联系我们，安排您团队的 10 个资产试点。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Plan a 10-asset pilot",
+              "zh": "安排 10 个资产试点"
+            },
+            "secondary": {
+              "en": "See the modeling workflow",
+              "zh": "看看初版模型怎么接着做"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Plan a 10-asset pilot",
+                "zh": "安排 10 个资产试点"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See Team Plan",
+                "zh": "查看团队方案"
+              },
+              "action": "link",
+              "url": "https://www.tripo3d.ai/programs/team-program"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://www.tripo3d.ai/programs/team-program",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Plan a 10-asset modeling pilot",
+              "zh": "规划 10 个资产的初版建模试点"
+            },
+            "description": {
+              "en": "Compare generated starting models with your current game workflow using 10 real assets, including refinement, time, cost and quality.",
+              "zh": "用 10 个真实游戏资产，对比生成初版与现有流程，计入精修，并比较工时、成本和质量。"
+            },
+            "confirmation": {
+              "en": "Thanks for contacting Tripo. We'll follow up to plan your team's 10-asset comparison. Scope, evaluation support, responsibilities, access and fees need agreement before starting. This request does not activate a trial.",
+              "zh": "感谢联系 Tripo。我们将跟进您团队的 10 个资产对比计划。开始前需确认范围、评测支持、分工、使用权限和费用。提交申请不会自动开通试用。"
+            }
+          },
+          "footer": {
+            "en": "Generated models are starting points; your team refines and approves them for the game.",
+            "zh": "生成模型是制作起点，仍由您的团队精修，并按游戏要求验收。"
+          },
+          "image": {
+            "src": "https://cdn-blog.holymolly.ai/media/production/game-ready-prop-p-2-open-burgundy-treasure-chest-with-a-scroll-in-a-fantasy-interior-7daccca05ecd.webp",
+            "alt": {
+              "en": "Treasure chest from an official Tripo Studio workflow",
+              "zh": "Tripo 官方 Studio 制作流程中的宝箱"
+            },
+            "caption": {
+              "en": "Studio workflow example, including artist refinement.",
+              "zh": "Studio 制作示例，含美术精修。"
+            },
+            "sourceUrl": "https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+          }
+        },
+        {
+          "id": "TU-02",
+          "angleId": "S3",
+          "label": {
+            "en": "From generation to game approval",
+            "zh": "从生成到游戏验收"
+          },
+          "subject": {
+            "en": "AI prop costs go beyond generation fees",
+            "zh": "AI道具的实际成本,不止生成费用"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nBefore expanding AI use in your next game update, you need to see the full cost: generation time, cleanup work, engine testing and the assets that don't pass review.\n\nWith Tripo Studio Team Plan, your artists generate starting models from text or reference images and refine them in their existing tools. That workflow lets you test the complete cost on your own game assets, not just preview images.\n• **Tripo provides the starting geometry:** Your artists get a model to develop against the game's technical requirements.\n• **Your team reviews against project standards:** Artists check topology, materials, engine compatibility and approve what meets the acceptance criteria.\n\nTripo's chest walkthrough shows the complete work from generation through game interaction.\n\n**To help you evaluate total project cost,** we propose that Tripo run an agreed evaluation of 10 real assets against your team's checklist and share the results. Supported checks, scope and fees need confirmation first.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n决定在下一版游戏更新中扩大AI使用之前，您需要看清完整成本：生成时间、清理工作、引擎测试，以及未通过审核的资产。\n\n使用Tripo Studio Team Plan，美术从文字或参考图生成初版，再在现有工具里精修。这套流程让您能用自己的游戏资产测试完整成本，而不只看预览图。\n• **Tripo提供初版几何体：** 美术获得可按游戏技术要求继续开发的模型。\n• **您的团队按项目标准审核：** 检查拓扑、材质、引擎兼容性，批准符合验收标准的资产。\n\nTripo的宝箱示例展示了从生成到游戏交互的完整制作过程。\n\n**为了帮您评估项目总成本，** 我们建议由Tripo按您团队的验收清单及双方约定的范围，对10个真实资产执行评测并分享结果。开始前需确认支持哪些检查、范围和费用。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "Your game's acceptance checklist is the starting point, not the quality of a preview image.\n\nWe propose that Tripo evaluate 10 real project assets against your team's checklist and share the results. Before starting, we need to agree which checks Tripo can support, the scope, fees and records to deliver.\n• The checklist can cover topology, polygon count, UVs, materials and file formats, plus rigging, interaction and target-engine checks where relevant and supported.\n• Compare quality, total time and cost through approval: generation and retry fees, unsuccessful attempts, artist cleanup, review, tool compatibility and engine testing.\n\nYour artists still handle cleanup and revisions. Your team retains final approval and handles checks outside the agreed scope. The chest walkthrough illustrates one Studio workflow; it does not establish that every generated model will pass.\n\nConfirm availability and access with Tripo before starting.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "检查从您游戏的验收清单开始，而不是只看预览图好不好看。\n\n我们建议由 Tripo 按您团队的验收清单，评测 10 个真实项目资产并分享结果。开始前，双方需约定 Tripo 能支持哪些检查、评测范围、费用，以及交付哪些记录。\n• 清单可包括拓扑、面数、UV、材质和文件格式；绑定、交互和目标引擎检查，则按资产需要及确认可支持的范围安排。\n• 比较从生成到验收的质量、总工时和总成本：生成与重试费用、失败尝试、美术清理、审核、工具适配及引擎测试都计入。\n\n清理和修改仍由您的美术负责，最终验收及约定范围之外的检查仍由您的团队负责。宝箱示例展示的是一条 Studio 制作流程，不代表每个生成模型都会通过。\n\n开始前，还需与 Tripo 确认是否可安排及使用权限。\n\n立即联系我们，安排您团队的 10 个资产试点。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Plan a 10-asset pilot",
+              "zh": "安排 10 个资产试点"
+            },
+            "secondary": {
+              "en": "See the approval steps",
+              "zh": "看看从生成到验收的步骤"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Plan a 10-asset pilot",
+                "zh": "安排 10 个资产试点"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See the prop walkthrough",
+                "zh": "查看道具制作示例"
+              },
+              "action": "link",
+              "url": "https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://www.tripo3d.ai/programs/team-program",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Review 10 assets against your game's standards",
+              "zh": "按您的游戏标准检查 10 个资产"
+            },
+            "description": {
+              "en": "Plan a 10-asset pilot that compares quality, time and total cost from the generated model through artist refinement and game approval.",
+              "zh": "规划 10 个资产试点，从生成模型、美术精修到游戏验收，比较质量、工时和总成本。"
+            },
+            "confirmation": {
+              "en": "Thanks for contacting Tripo. We'll follow up about a 10-asset review against your game's requirements. Criteria, evaluation support, records, responsibilities, access and fees need agreement first. This request does not activate a trial.",
+              "zh": "感谢联系 Tripo。我们将跟进按您游戏要求进行的 10 个资产检查。开始前需确认标准、评测支持、记录、分工、使用权限和费用。提交申请不会自动开通试用。"
+            }
+          },
+          "footer": {
+            "en": "A generated model still needs project review; your team keeps final approval.",
+            "zh": "生成模型仍需按项目要求审核，最终验收由您的团队负责。"
+          },
+          "image": {
+            "src": "https://cdn-blog.holymolly.ai/media/production/game-ready-prop-p-2-open-burgundy-treasure-chest-with-a-scroll-in-a-fantasy-interior-7daccca05ecd.webp",
+            "alt": {
+              "en": "Treasure chest from an official Tripo Studio workflow",
+              "zh": "Tripo 官方 Studio 制作流程中的宝箱"
+            },
+            "caption": {
+              "en": "Studio workflow example, including artist refinement.",
+              "zh": "Studio 制作示例，含美术精修。"
+            },
+            "sourceUrl": "https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+          }
+        },
+        {
+          "id": "TU-03",
+          "angleId": "S4",
+          "label": {
+            "en": "Shared models, fewer handoffs",
+            "zh": "共享复用，减少重复交接"
+          },
+          "subject": {
+            "en": "Stop rebuilding props your team already reviewed",
+            "zh": "团队已审核的道具,别再重做一遍"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nYour team reviews and approves props for one game build. When the next build needs similar assets, artists rebuild them or request the same file through another handoff.\n\nTripo Studio Team Plan pools team-generated models in a shared library with visible credit usage and member activity. Artists find previously reviewed work; you avoid rebuilding or re-requesting files — saving handoff time without removing your existing approval process.\n• **Tripo keeps team resources in one workspace:** Artists search shared models under the workspace visibility settings; admins monitor the credit pool and member usage.\n• **Your team controls what gets reused:** Artists use their existing review process to identify approved work, then check changes against the next build's requirements.\n\n**To help you evaluate collaboration savings,** we'd be happy to help plan a pilot with 10 real assets. Compare reuse frequency, handoff count, admin time and final quality.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n团队为一次游戏构建审核并批准道具。下一次构建需要相似资产时，美术要么重做，要么再次请求同一个文件，增加一次交接。\n\nTripo Studio Team Plan将团队生成的模型汇集到共享库，可查看积分使用和成员活动。美术能找到之前审核过的成果;避免重做或重复请求文件——节省交接时间，同时保留现有审核流程。\n• **Tripo在同一工作区集中管理团队资源：** 美术按工作区可见设置搜索共享模型;管理员监控积分池和成员用量。\n• **您的团队控制复用内容：** 美术用现有审核流程识别已批准的成果，再检查修改是否符合下一次构建的要求。\n\n**为了帮您评估协作节省效果，** 我们愿意一起规划用10个真实资产做试点，比较复用频率、交接次数、管理时间和最终质量。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "The useful saving is work your team no longer has to repeat, not simply a file opened by a second person.\n\nFor 10 real game assets, we'd be happy to help plan a comparison with your current handoffs.\n• Record reuse count, handoff count and admin time: how often artists reuse reviewed work, how many file handoffs it takes, and time spent managing access, credits and member usage.\n• Include changes, review and engine checks for each reused asset, plus original generation and retry fees, unsuccessful attempts and cleanup.\n\nCompare time, total cost and final quality. Reuse does not automatically mean less work.\n\nTeam Plan provides a shared library, pooled credits and member-usage visibility. Your existing workflow identifies reviewed or approved work and handles externally refined files; the library does not replace that review process. Before starting, agree with Tripo on the assets, available support and records, responsibilities, access, availability and fees.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "真正值得比较的是团队少重复了哪些工作，而不只是同一个文件被第二个人打开。\n\n我们愿意一起规划，用 10 个真实游戏资产，与当前交接方式做对比。\n• 记录复用次数、交接次数和管理时间：已审核成果被复用多少次，经历多少次文件交接，以及管理访问权限、积分和成员用量花了多久。\n• 计入每个复用资产所需的修改、审核和引擎检查，也包括原始生成和重试费用、失败尝试及清理工作。\n\n比较工时、总成本和最终质量。复用并不自动代表制作工作更少。\n\nTeam Plan 提供共享资产库、共享积分池和成员用量查看。怎样识别已审核或已批准的成果、如何处理外部精修文件，仍按团队现有流程安排；资产库不会替代审核。开始前，需与 Tripo 确认资产、可提供的支持和记录、分工、使用权限、是否可安排及费用。\n\n立即联系我们，安排您团队的 10 个资产试点。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Plan a 10-asset pilot",
+              "zh": "安排 10 个资产试点"
+            },
+            "secondary": {
+              "en": "See the shared workflow",
+              "zh": "看看团队怎样共享复用"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Plan a 10-asset pilot",
+                "zh": "安排 10 个资产试点"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See the shared workspace",
+                "zh": "查看团队共享工作区"
+              },
+              "action": "link",
+              "url": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://www.tripo3d.ai/programs/team-program",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Plan a 10-asset reuse pilot for your game team",
+              "zh": "为游戏团队规划 10 个资产复用试点"
+            },
+            "description": {
+              "en": "Compare shared-library use with current handoffs across 10 game assets, including repeated work, total cost and quality at approval.",
+              "zh": "用 10 个游戏资产对比共享资产库与现有交接方式，计入重复工作、总成本和验收时的质量。"
+            },
+            "confirmation": {
+              "en": "Thanks for contacting Tripo. We'll follow up about your team's 10-asset reuse pilot. Assets, handoffs, support, records, responsibilities, access and fees need agreement before starting. This request does not activate a trial.",
+              "zh": "感谢联系 Tripo。我们将跟进团队的 10 个资产复用试点。开始前需确认资产、交接步骤、支持、记录、分工、使用权限和费用。提交申请不会自动开通试用。"
+            }
+          },
+          "footer": {
+            "en": "Your team reviews reused models and manages approval through its existing workflow.",
+            "zh": "复用模型仍由您的团队审核，并按现有流程完成验收。"
+          }
+        },
+        {
+          "id": "TU-04",
+          "angleId": "S5",
+          "label": {
+            "en": "Team access and review responsibility",
+            "zh": "团队访问控制与审核责任"
+          },
+          "subject": {
+            "en": "Give each artist their own access to shared game assets",
+            "zh": "每位美术独立访问,共享游戏资产统一管理"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nWhen your game team shares login credentials, member changes mean resetting passwords, updating access lists and tracking who used the shared account. That admin work repeats with each hire or departure.\n\nTripo Studio Team Plan gives each team member their own workspace access while keeping shared models and credits in one place. Admins manage member roles and monitor usage without shared logins.\n• **Tripo separates member access from shared resources:** Each artist logs in independently; admins add or remove members and adjust roles through the workspace panel.\n• **Your team keeps control over permissions:** Admins decide visibility settings for shared work and monitor credit usage by member.\n\n**To help you evaluate admin time savings,** we'd be happy to help plan a pilot with 10 real assets. Compare access management work, member-change handling and time tracking usage.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n游戏团队共用登录凭证时，成员变动意味着重置密码、更新访问清单、追踪谁用了共享账号。每次入职或离职，这些管理工作都要重复一遍。\n\nTripo Studio Team Plan让每位团队成员独立访问工作区，同时将共享模型和积分集中管理。管理员无需共享登录，即可管理成员角色和监控用量。\n• **Tripo将成员访问与共享资源分离：** 每位美术独立登录;管理员通过工作区面板添加或移除成员，调整角色。\n• **您的团队保留权限控制：** 管理员决定共享工作的可见设置，按成员监控积分使用。\n\n**为了帮您评估管理时间节省，** 我们愿意一起规划用10个真实资产做试点，比较访问管理工作、成员变动处理和用量追踪时间。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "Access controls help your team manage who can work with generated assets. Approval still belongs to your production process.\n\nFor a 10-asset pilot, we'd be happy to help plan checks of invitations, role changes, member removal and asset visibility against your team's working arrangements. Administrators retain visibility across the workspace; member usage data is not a complete generation or approval history.\n\nYour team sets its own input-rights, review, disclosure and final-use requirements. Before starting, agree with Tripo which records and support are available, who keeps them and who performs each check.\n\nThe comparison should include administration and review time, generation and retry fees, unsuccessful attempts, artist refinement and engine checks. This puts access-management costs alongside the quality of the approved assets, without treating the pilot as a compliance certificate.\n\nScope, availability, access, responsibilities and fees need confirmation. Contact us today to set up your team's 10-asset pilot.",
+            "zh": "访问控制帮助团队管理谁可以处理生成资产；资产是否通过，仍由制作流程决定。\n\n我们愿意一起规划 10 个资产试点，按团队实际分工检查成员邀请、角色调整、成员移除和资产可见范围。管理员仍能查看整个工作区；成员使用数据不等于完整的生成或审批历史。\n\n输入素材权利、审核、披露和最终用途要求，仍由您的团队确定。开始前，需与 Tripo 确认可提供哪些记录和支持、谁保存记录，以及谁执行各项检查。\n\n比较时应计入管理和审核工时、生成与重试费用、失败尝试、美术精修和引擎检查。把权限管理成本与通过验收资产的质量一起评估，不把试点当作合规认证。\n\n范围、是否可安排、使用权限、双方分工和费用需先确认。立即联系我们，安排您团队的 10 个资产试点。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Plan a 10-asset pilot",
+              "zh": "安排 10 个资产试点"
+            },
+            "secondary": {
+              "en": "See team access controls",
+              "zh": "看看团队访问控制"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Plan a 10-asset pilot",
+                "zh": "安排 10 个资产试点"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "Read about team controls",
+                "zh": "阅读团队管理说明"
+              },
+              "action": "link",
+              "url": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://www.tripo3d.ai/programs/team-program",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Review team access with a 10-asset pilot",
+              "zh": "用 10 个资产试点检查团队访问权限"
+            },
+            "description": {
+              "en": "Plan a pilot covering member access and review responsibilities for 10 game assets, with administration time, cost and quality checks.",
+              "zh": "围绕 10 个游戏资产，规划成员访问和审核分工试点，检查管理工时、成本及资产质量。"
+            },
+            "confirmation": {
+              "en": "Thanks for contacting Tripo. We'll follow up about the 10-asset access pilot. Controls, records, support, responsibilities, access and fees need agreement first. This request does not activate a trial or certify compliance.",
+              "zh": "感谢联系 Tripo。我们将跟进 10 个资产的权限试点。开始前需确认控制范围、记录、支持、分工、使用权限和费用。提交申请不会自动开通试用，也不代表合规认证。"
+            }
+          },
+          "footer": {
+            "en": "Access controls do not approve assets or replace your team's review and disclosure process.",
+            "zh": "访问控制不会自动批准资产，也不能替代团队的审核和披露流程。"
+          }
+        }
+      ],
+      "region": "US",
+      "productGroup": "TG"
+    },
+    {
+      "id": "AGU",
+      "label": "API · 美国游戏",
+      "theme": {
+        "en": "3D generation for your game's asset pipeline",
+        "zh": "游戏资产流程中的 3D 生成"
+      },
+      "image": {
+        "src": "../../assets/v19/concepts/deep-sea-engineer.png",
+        "alt": {
+          "en": "AI-generated game character concept",
+          "zh": "AI生成的游戏角色概念图"
+        },
+        "caption": {
+          "en": "AI-generated visual concept. Not a Tripo API output.",
+          "zh": "AI生成视觉概念图，非 Tripo API 输出。"
+        },
+        "sourceUrl": ""
+      },
+      "form": {
+        "fields": [
+          {
+            "id": "firstName",
+            "label": {
+              "en": "First name",
+              "zh": "名字"
+            }
+          },
+          {
+            "id": "lastName",
+            "label": {
+              "en": "Last name",
+              "zh": "姓氏"
+            }
+          },
+          {
+            "id": "workEmail",
+            "label": {
+              "en": "Work email",
+              "zh": "工作邮箱"
+            }
+          },
+          {
+            "id": "companyName",
+            "label": {
+              "en": "Company name",
+              "zh": "公司名称"
+            }
+          },
+          {
+            "id": "jobTitle",
+            "label": {
+              "en": "Job title",
+              "zh": "职位"
+            }
+          }
+        ],
+        "privacyUrl": "https://www.tripo3d.ai/privacy",
+        "privacyText": {
+          "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+          "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+        },
+        "destination": {
+          "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+          "label": {
+            "en": "Learn More",
+            "zh": "了解更多"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "AGU-01",
+          "angleId": "S1",
+          "label": {
+            "en": "Less initial modeling work",
+            "zh": "减少道具初版建模工作"
+          },
+          "subject": {
+            "en": "Stop building every base mesh from scratch for your next update",
+            "zh": "下一版更新,别从零搭每个基础网格"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nYour game's next update has props that all need base meshes built by hand before artists can refine them. That initial modeling work repeats for every asset.\n\nYour engineering team can put Tripo's API into your existing asset tools. Artists generate starting models from text or images through your tools, then refine them in their usual workflow — reducing base-mesh work; your team still handles cleanup and approval.\n• **Tripo API provides the generation service:** Your tools request a model; the API returns geometry your artists can develop.\n• **Your team handles refinement and approval:** Artists adjust models in your existing tools, review against game standards, and approve what meets requirements.\n\n**To help you evaluate implementation cost,** we'd be happy to help plan a pilot with 10 real project assets. Compare time through final approval, including API integration, generation and testing.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n游戏下一版更新的道具都需要美术先手工搭建基础网格，才能开始精修。这项初始建模工作，每个资产都要重复一遍。\n\n您的工程团队可以将Tripo API接入现有资产工具。美术通过您的工具，从文字或图像生成初版模型，再按常规流程精修——减少基础网格工作；清理和验收仍由您的团队负责。\n• **Tripo API提供生成服务：** 您的工具请求模型;API返回美术可以继续开发的几何体。\n• **您的团队负责精修和验收：** 美术在现有工具中调整模型，按游戏标准审核，批准符合要求的资产。\n\n**为了帮您评估实施成本，** 我们愿意一起规划用10个真实项目资产做试点，比较到最终验收的时间，包括API集成、生成和测试。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "A useful comparison ends with an approved game prop, not the first model file.\n\nFor a 10-asset API test, your team uses real prop briefs and its current acceptance criteria. For each asset, record the time to its first useful starting model and its first approved output. Include generation and retry fees, unsuccessful attempts, artist cleanup, materials, review and engine checks. Integration and ongoing maintenance count too.\n\nThe API supports generation requests, task status and model retrieval. Your engineers connect those steps to the asset tool; artists do the remaining production work. Topology, polygon count, UVs, formats and any necessary rigging are checked against the game's requirements.\n\nThe result should make it clear which props take less work, which need substantial repair and which are better handled by the current process.\n\nBefore testing, your team and Tripo agree the asset list, evaluation support, who performs the checks and who records the results, along with scope, availability, access and fees.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "有用的对比，要一直看到游戏道具通过验收，而不是拿到第一份模型文件就结束。\n\n10 个资产 API 测试使用团队真实的道具需求和现有验收标准。逐个资产记录拿到首个可用初版、得到首个通过验收的结果各需多长时间。生成与重试费用、失败尝试、美术清理、材质、审核、引擎检查，以及接入和后续维护，都计入投入。\n\nAPI 支持提交生成请求、查看任务状态和取回模型。工程团队将这些步骤接入资产工具，美术完成后续制作。拓扑、面数、UV、格式和需要时的绑定，仍按游戏要求检查。\n\n结果应当说明：哪些道具少花了工时，哪些还需大量修复，哪些继续用现有流程更合适。\n\n开始前，您的团队与 Tripo 确认资产清单、评测支持、检查和记录分工，以及范围、是否可安排、使用权限和费用。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "Compare the workload",
+              "zh": "看看制作投入怎么比"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See generation docs",
+                "zh": "查看生成接入文档"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "See the full workload for 10 game props",
+              "zh": "看清 10 个游戏道具的完整制作投入"
+            },
+            "description": {
+              "en": "Arrange a 10-asset API test to compare time, cost and final asset quality with your current prop-making process.",
+              "zh": "安排 10 个资产 API 测试，与现有道具制作流程比较工时、费用和验收质量。"
+            },
+            "confirmation": {
+              "en": "Thank you. We'll contact you about the 10-prop workload comparison. Before testing, we'll agree scope, support, responsibilities, availability, access and fees. This request does not activate API access.",
+              "zh": "谢谢，我们会联系您，沟通 10 个道具的制作投入对比。测试前先确认范围、支持、分工、是否可安排、使用权限和费用。申请不会自动开通 API。"
+            }
+          },
+          "footer": {
+            "en": "Generation provides a starting model; your team decides whether the refined asset meets the game's requirements.",
+            "zh": "生成提供初版模型；精修后的资产是否符合游戏要求，由您的团队决定。"
+          }
+        },
+        {
+          "id": "AGU-02",
+          "angleId": "S2",
+          "label": {
+            "en": "Integrate generation, not a new model stack",
+            "zh": "接入生成服务，不自研模型栈"
+          },
+          "subject": {
+            "en": "Add generation to your game tools without building the model stack",
+            "zh": "游戏工具加生成功能,不必自建模型技术栈"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nYour game studio wants generation in its asset tools. Building that capability internally means staffing a model R&D project alongside your product work.\n\nYour engineering team can connect Tripo's API to your existing tools instead of building the generation model. Your team develops the user experience, handles request states and maintains the integration — letting you ship the feature without staffing model R&D.\n• **Tripo API provides the generation service:** Your tools send text or image inputs; the API handles generation and returns models.\n• **Your team builds and maintains the product:** Engineers develop the user interface, manage async requests, handle errors and maintain the integration in your tools.\n\n**To help you evaluate build-vs-integrate cost,** we'd be happy to help plan a pilot comparison. Compare engineering time, ongoing maintenance and time to ship the feature.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n游戏工作室希望资产工具具备生成能力。内部构建这项能力意味着在产品工作之外，还要配备模型研发项目。\n\n您的工程团队可以将Tripo API接入现有工具，而不是自建生成模型。团队开发用户体验、处理请求状态、维护集成——让您能交付功能，同时无需配备模型研发。\n• **Tripo API提供生成服务：** 您的工具发送文字或图像输入;API处理生成并返回模型。\n• **您的团队构建和维护产品：** 工程师开发用户界面、管理异步请求、处理错误、在您的工具中维护集成。\n\n**为了帮您评估自建与集成的成本，** 我们愿意一起规划试点对比，比较工程时间、持续维护和功能交付时间。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "The API supplies generation; your team supplies the working feature in its game tool.\n\nA 10-asset test can separate the engineering work into request handling, asynchronous status updates, file retrieval, errors and retries. Your developers choose the interface and maintain those connections. They do not need to build the generation model to use this service.\n\nCompare integration and maintenance with your current setup. For each asset, record the time to its first approved output. Include generation and retry charges, failed attempts, artist refinement, review and engine checks. Otherwise, a low cost per call can hide the cost of producing an approved asset.\n\nYour team defines the acceptance checklist and retains the decision to release the feature. Before the test, agree with Tripo on available technical and evaluation support, who runs each check, who keeps the evidence, scope, availability, access and fees.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "API 提供生成服务，您的团队把它做成游戏工具里可以使用的功能。\n\n用 10 个资产测试，可以把工程工作分成请求处理、异步状态更新、文件取回、异常和重试。开发团队设计界面并维护这些衔接；使用这项服务不需要先自研生成模型。\n\n将一次性接入和后续维护投入，与现有方案比较，并逐个资产记录得到首个通过验收的结果所需的时间。同时计入生成与重试费用、失败尝试、美术精修、审核和引擎检查，避免只看到单次调用便宜，却漏掉资产通过验收的成本。\n\n团队制定验收清单，并决定功能是否发布。测试前，与 Tripo 确认技术及评测支持、谁检查、谁留存证据，以及范围、是否可安排、使用权限和费用。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "See what your team builds",
+              "zh": "看看团队需要开发什么"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See API workflow",
+                "zh": "查看 API 工作流程"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/introduction"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Size the integration work with 10 game assets",
+              "zh": "用 10 个游戏资产看清接入工作"
+            },
+            "description": {
+              "en": "Arrange a 10-asset API test to assess integration, maintenance, usage costs and the work needed to approve game assets.",
+              "zh": "安排 10 个资产 API 测试，评估接入、维护、调用费用，以及游戏资产通过验收所需的工作。"
+            },
+            "confirmation": {
+              "en": "Thank you. We'll contact you about the 10-asset integration test and the work your engineers would own. Scope, support, responsibilities, availability, access and fees will be agreed first. API access is not activated by this request.",
+              "zh": "谢谢，我们会联系您，沟通 10 个资产接入测试和工程团队承担的工作。先确认范围、支持、分工、是否可安排、使用权限和费用。申请不会开通 API。"
+            }
+          },
+          "footer": {
+            "en": "Using the generation service does not remove your team's integration or maintenance work.",
+            "zh": "使用生成服务，不代表团队无需接入或维护集成。"
+          }
+        },
+        {
+          "id": "AGU-03",
+          "angleId": "S3",
+          "label": {
+            "en": "Approve assets against the game standard",
+            "zh": "按游戏标准验收资产"
+          },
+          "subject": {
+            "en": "Test rework costs on real props before expanding AI use",
+            "zh": "先用真实道具测返工成本,再扩大AI使用"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nBefore expanding AI in your game workflow, you need to see the rework cost on real props: how much cleanup, testing and iteration it takes to get generated models through your approval process.\n\nYour engineering team puts Tripo's API into your asset tools. Artists generate models from requirements, refine them and test against game standards — letting you measure the complete cost on your own assets, not preview images.\n• **Tripo API provides generation:** Your tools request models; the API returns geometry your team refines.\n• **Your team measures quality and rework:** Artists test generated models against your checklist: topology, engine compatibility, iteration count to approval.\n\n**To help you evaluate expansion fit,** we propose that Tripo run an agreed evaluation of 10 real assets against your team's standards and share the results. Supported checks, scope and fees need confirmation first.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n在游戏工作流中扩大AI使用之前，您需要看清真实道具的返工成本：生成模型通过审批流程，需要多少清理、测试和迭代工作。\n\n您的工程团队将Tripo API接入资产工具。美术根据需求生成模型、精修、按游戏标准测试——让您能用自己的资产测量完整成本，而不是预览图。\n• **Tripo API提供生成：** 您的工具请求模型;API返回团队精修的几何体。\n• **您的团队测量质量和返工：** 美术按清单测试生成模型：拓扑、引擎兼容性、到批准的迭代次数。\n\n**为了帮您评估扩展适配，** 我们建议由Tripo按您团队的标准及双方约定的范围，对10个真实资产执行评测并分享结果。开始前需确认支持哪些检查、范围和费用。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "The acceptance checklist is the benchmark. Your team defines what each of the 10 game assets must meet before testing starts.\n\nDepending on the asset, checks can cover shape, art direction, topology, polygon count, UVs, materials, format and rigging. Artists refine the model and review the result in the target engine. A successful API task confirms generation, not approval.\n\nTrack which checks pass, what needs fixing and which assets are rejected. For each asset, compare time to its first approved output and total cost, including generation, retries, failed attempts, refinement, review, engine testing, integration and maintenance. This makes the trade-off visible when a convincing first result takes substantial work to finish.\n\nWe propose that Tripo run the agreed evaluation against your team’s checklist and share the results. Supported checks, scope, availability, access, fees and records need confirmation first. Your team handles integration and artist cleanup, and keeps final approval.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "验收清单就是对比标准。测试开始前，由您的团队说明这 10 个游戏资产分别需要达到什么要求。\n\n按资产用途，检查造型、美术风格、拓扑、面数、UV、材质、格式和绑定。美术精修模型，并在目标引擎审核结果。API 任务成功，只代表生成完成，不代表验收通过。\n\n记录哪些检查通过、哪里需要修、哪些资产未被采用。逐个资产比较得到首个通过验收的结果所需的时间和总成本，计入生成、重试、失败尝试、精修、审核、引擎测试、接入和维护。初版看着不错但后面还需大量加工，这部分代价也要看清。\n\n我们建议由 Tripo 按您的验收清单执行双方约定的评测，并分享结果。开始前，先确认可支持的检查项、范围、是否可安排、使用权限、费用和记录。接入与美术清理由您的团队负责，最终批准权不变。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "See the acceptance checks",
+              "zh": "查看验收检查内容"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See model workflow",
+                "zh": "查看模型处理流程"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Benchmark 10 assets against your game standards",
+              "zh": "按游戏标准评测 10 个资产"
+            },
+            "description": {
+              "en": "Arrange a 10-asset API test comparing final asset quality, time and full cost using your team's game-asset acceptance checklist.",
+              "zh": "按团队的游戏资产验收清单，安排 10 个资产 API 测试，比较通过验收的质量、工时和完整成本。"
+            },
+            "confirmation": {
+              "en": "Thank you. We'll contact you to define the 10-asset benchmark with your team. Acceptance criteria, support, records, responsibilities, availability, access and fees will be agreed before testing. This request does not activate API access.",
+              "zh": "谢谢，我们会联系您，与团队确定 10 个资产的评测方案。测试前确认标准、支持、记录、分工、是否可安排、使用权限和费用。申请不会自动开通 API。"
+            }
+          },
+          "footer": {
+            "en": "API task completion is not game approval; your team makes the final acceptance decision.",
+            "zh": "API 任务完成不等于游戏验收通过，最终验收由您的团队决定。"
+          }
+        },
+        {
+          "id": "AGU-04",
+          "angleId": "S5",
+          "label": {
+            "en": "Connect generation and approval records",
+            "zh": "把生成与批准记录连起来"
+          },
+          "subject": {
+            "en": "Find approved props without retracing every generation request",
+            "zh": "找到已批准的道具,不必重查每次生成请求"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nWhen reviewing AI-generated props, your team chases down which request created the file, what changed, and which version was approved. That tracing work repeats for every asset review.\n\nYour tools can store request details, changes and approval status alongside the file. Tripo's API provides generation task IDs your tools can link to internal records — letting reviewers find the approved version without retracing requests.\n• **Tripo API provides task identifiers:** Each generation returns an ID your tools can store with the asset file.\n• **Your team builds the record system:** Your tools store inputs, changes, approval notes and link them to Tripo task IDs for reference.\n\n**To help you evaluate tracing time savings,** we'd be happy to help plan a pilot with 10 real assets. Compare time spent finding approved versions and the records reviewers need.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n审核AI生成的道具时，团队要追查是哪次请求创建的文件、改了什么、批准的是哪个版本。每次资产审核，这项追溯工作都要重复。\n\n您的工具可以将请求详情、改动和批准状态存在文件旁。Tripo API提供生成任务ID，您的工具可以关联到内部记录——让审核者能找到批准版本，无需重新追溯请求。\n• **Tripo API提供任务标识符：** 每次生成返回一个ID，您的工具可以与资产文件一起存储。\n• **您的团队构建记录系统：** 您的工具存储输入、改动、批准备注，并关联Tripo任务ID供参考。\n\n**为了帮您评估追溯时间节省，** 我们愿意一起规划用10个真实资产做试点，比较查找已批准版本的时间及审核者需要的记录。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "For 10 game assets, the record test follows each request through the downloaded model, artist revisions and final decision.\n\nYour engineers save the original requests and retrieved files in your own system. Task IDs, status and output information help connect them; they do not supply the artist's edit history or your team's approval. Those records and links need to be built and retained by your team.\n\nFor each asset, record the time to its first approved output alongside missing links, rejected assets, failures and retries. Count integration and record maintenance, generation charges, retry fees, artist refinement, review and engine checks. Record quality and the work to keep it matter alongside the quality of the assets.\n\nBefore testing, agree with Tripo on the data and support available, responsibilities, scope, availability, access and fees. Your team sets retention and disclosure requirements and checks input rights. No compliance certification or rights clearance is included by implication.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "围绕 10 个游戏资产，记录测试从每次请求开始，跟踪下载模型、美术修改和最终决定。\n\n工程团队在自己的系统中保存原始请求和取回的文件。任务 ID、状态和输出信息可以帮助关联，但不会自动提供美术修改历史或团队批准结果。这些记录及关联需要您的团队建立和保留。\n\n逐个资产记录得到首个通过验收的结果所需的时间，同时检查记录缺口、未通过的资产、失败和重试。计入接入与记录维护、生成及重试费用、美术精修、审核和引擎检查。除了资产质量，还要看记录是否清楚、保留它们需要多少工作。\n\n测试前，与 Tripo 确认可提供的数据和支持、双方分工、范围、是否可安排、使用权限和费用。保存与披露要求、输入素材权利仍由团队核查，不默认包含合规认证或权利确认。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "See the record workflow",
+              "zh": "看看记录如何关联"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See task data",
+                "zh": "查看任务数据说明"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/task-query"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Link requests and approvals for 10 game assets",
+              "zh": "关联 10 个游戏资产的请求与批准"
+            },
+            "description": {
+              "en": "Arrange a 10-asset API test of your own records, linking requests, files, artist edits and approvals with clear responsibilities.",
+              "zh": "安排 10 个资产 API 测试，在您自己的记录中关联请求、文件、美术修改和批准，并明确分工。"
+            },
+            "confirmation": {
+              "en": "Thank you. We'll contact you about the records for your 10-asset test. Available data, support, responsibilities, scope, access and fees will be agreed first. This request does not activate API access or an audit service.",
+              "zh": "谢谢，我们会联系您，沟通 10 个资产测试所需的记录。先确认可用数据、支持、分工、范围、使用权限和费用。申请不会自动开通 API 或审计服务。"
+            }
+          },
+          "footer": {
+            "en": "Task information is not a complete audit trail; your team implements and retains its own records.",
+            "zh": "任务信息不等于完整审计记录；您的团队自行建立并保留相关记录。"
+          }
+        }
+      ],
+      "region": "US",
+      "productGroup": "AG"
+    },
+    {
+      "id": "AAU",
+      "label": "API · 美国3D资产制作",
+      "theme": {
+        "en": "3D asset tools, libraries and production pipelines",
+        "zh": "面向 3D 资产工具、资源库与制作管线负责人"
+      },
+      "image": {
+        "src": "../../assets/v19/concepts/espresso-machine.png",
+        "alt": {
+          "en": "AI-generated object concept for an asset-creation brief",
+          "zh": "用于资产制作需求的 AI 生成物体概念图"
+        },
+        "caption": {
+          "en": "AI-generated visual concept. Not a Tripo API output.",
+          "zh": "AI生成视觉概念图，非 Tripo API 输出。"
+        },
+        "sourceUrl": ""
+      },
+      "form": {
+        "fields": [
+          {
+            "id": "firstName",
+            "label": {
+              "en": "First name",
+              "zh": "名字"
+            }
+          },
+          {
+            "id": "lastName",
+            "label": {
+              "en": "Last name",
+              "zh": "姓氏"
+            }
+          },
+          {
+            "id": "workEmail",
+            "label": {
+              "en": "Work email",
+              "zh": "工作邮箱"
+            }
+          },
+          {
+            "id": "companyName",
+            "label": {
+              "en": "Company name",
+              "zh": "公司名称"
+            }
+          },
+          {
+            "id": "jobTitle",
+            "label": {
+              "en": "Job title",
+              "zh": "职位"
+            }
+          }
+        ],
+        "privacyUrl": "https://www.tripo3d.ai/privacy",
+        "privacyText": {
+          "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+          "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+        },
+        "destination": {
+          "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+          "label": {
+            "en": "Learn More",
+            "zh": "了解更多"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "AAU-01",
+          "angleId": "S1",
+          "label": {
+            "en": "Start with a model, not an empty scene",
+            "zh": "从初版模型开始，少做从零建模"
+          },
+          "subject": {
+            "en": "Stop building every base mesh from scratch in your pipeline",
+            "zh": "资产流程里,别从零搭每个基础网格"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nYour asset pipeline has a backlog of models that all need base geometry built by hand before artists can refine them. That initial modeling work repeats for each item.\n\nYour engineering team can put Tripo's API into your production tools. Artists generate starting models through your tools, then refine them in their usual workflow — reducing manual base-mesh work; your team still handles cleanup and approval.\n• **Tripo API provides the generation service:** Your tools request geometry; the API returns models your artists can develop.\n• **Your team handles refinement and approval:** Artists adjust models in your existing tools, review against delivery standards, and approve what meets client requirements.\n\n**To help you evaluate cost savings,** we'd be happy to help plan a pilot with 10 real pipeline assets. Compare time through client approval, including API integration, generation and testing.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n资产流程的待办清单里，所有模型都需要美术先手工搭建基础几何体，才能开始精修。这项初始建模工作，每个项目都要重复。\n\n您的工程团队可以将Tripo API接入生产工具。美术通过您的工具生成初版模型，再按常规流程精修——减少手工基础网格工作；清理和验收仍由您的团队负责。\n• **Tripo API提供生成服务：** 您的工具请求几何体;API返回美术可以继续开发的模型。\n• **您的团队负责精修和验收：** 美术在现有工具中调整模型，按交付标准审核，批准符合客户要求的资产。\n\n**为了帮您评估成本节省，** 我们愿意一起规划用10个真实流程资产做试点，比较到客户批准的时间，包括API集成、生成和测试。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "A useful cost comparison runs from the asset brief to the approved file, not just from a request to a generated model.\n\nFor 10 assets your team already needs, the test can compare starting from generation with your current workflow. Your artists refine both sets to the same requirements, then review geometry, materials and the files used in your production tools.\n\nFor each asset, record time to its first useful starting model and its first approved output. Include generation and retry fees, unsuccessful attempts, artist cleanup, review, file checks in the target production tool or viewer, integration and ongoing maintenance. It shows the effort per accepted asset and which types still make more sense to model by hand.\n\nYour team defines the acceptance checklist. Before starting, Tripo and your team would confirm who runs each part, what evaluation support and records are available, and the test scope, access and fees. Final approval stays with your team.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "制作成本要从资产需求算到文件验收通过，而不只是从提交请求算到模型生成。\n\n选取团队确实需要的 10 个资产，测试可以对比从生成模型开始与现有工作流的差别。美术按同一套要求精修两组资产，再检查几何、材质，以及制作工具中实际使用的文件。\n\n逐个资产记录拿到首个可用初版、得到首个通过验收的结果各需多长时间。比较包含生成与重试费用、失败尝试、人工清理、审核、在目标制作工具或查看器中的文件检查、接入和后续维护。您能据此判断每个通过验收的资产花了多少投入，哪些类型仍更适合手工建模。\n\n验收清单由您的团队定义。开始前，双方需确认各自执行哪些环节、可提供的评测支持和记录，以及测试范围、使用权限和费用。最终批准仍由您的团队决定。\n\n立即联系我们，安排 10 个资产的 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "See the cost breakdown",
+              "zh": "看看完整成本怎么比较"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "Read the API quick start",
+                "zh": "查看 API 接入文档"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Compare production costs on 10 real assets",
+              "zh": "用 10 个真实资产比较制作成本"
+            },
+            "description": {
+              "en": "Contact Tripo to plan a 10-asset API test comparing time, total cost and final asset quality with your current asset workflow.",
+              "zh": "联系 Tripo，规划 10 个资产的 API 测试，对比现有资产工作流的耗时、总成本与验收质量。"
+            },
+            "confirmation": {
+              "en": "Thank you. Tripo will follow up about your 10-asset cost comparison. Scope, evaluation support, responsibilities, records, access and fees need confirmation before testing; submitting this form does not activate API access.",
+              "zh": "感谢联系。Tripo 将跟进 10 个资产的成本对比测试。开始前需确认范围、评测支持、双方分工、记录、使用权限和费用；提交表单不会自动开通 API。"
+            }
+          },
+          "footer": {
+            "en": "Your artists refine the output, and your team approves the finished assets.",
+            "zh": "输出由您的美术精修，最终资产由您的团队批准。"
+          }
+        },
+        {
+          "id": "AAU-02",
+          "angleId": "S2",
+          "label": {
+            "en": "Build your asset tool, not a generation model",
+            "zh": "开发自己的资产工具，不另起生成模型研发"
+          },
+          "subject": {
+            "en": "Add generation to your tools without building the model stack",
+            "zh": "工具加生成,不必自建模型技术栈"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nYour production tools need a generation feature. Building that capability internally means staffing a model R&D project alongside your client work.\n\nYour engineering team can connect Tripo's API instead of building the generation model. Your team develops the user experience, handles states and maintains the integration — shipping the feature without R&D staff.\n• **Tripo API provides generation:** Your tools send inputs; the API handles generation and returns models.\n• **Your team builds the product feature:** Engineers develop the interface, manage async requests, handle errors and maintain the integration in your tools.\n\n**To help you evaluate build-vs-integrate cost,** we'd be happy to help plan a pilot. Compare engineering time, ongoing maintenance and time to feature release.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n生产工具需要生成功能。内部构建这项能力意味着在客户工作之外，还要配备模型研发项目。\n\n您的工程团队可以接入Tripo API，而不是自建生成模型。团队开发用户体验、处理状态、维护集成——交付功能，无需研发人员。\n• **Tripo API提供生成：** 您的工具发送输入;API处理生成并返回模型。\n• **您的团队构建产品功能：** 工程师开发界面、管理异步请求、处理错误、在您的工具中维护集成。\n\n**为了帮您评估自建与集成的成本，** 我们愿意一起规划试点，比较工程时间、持续维护和功能发布时间。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "Your product needs a working generation feature, not another model-development roadmap.\n\nThe 10-asset test follows asynchronous tasks inside your tool: users submit a generation request, track its status and retrieve a model they can refine. Tripo supplies the generation service. Your developers connect the interface, handle authentication and failed requests, and maintain the integration.\n\nThe comparison would cover initial engineering time and ongoing maintenance, as well as generation and retry fees, unsuccessful attempts, artist refinement, review and file checks in the target production tool or viewer. For each asset, record time to its first approved output and total cost against the quality users need.\n\nYour team defines the acceptance checklist. Before testing, Tripo and your team would agree on the scope, who runs each evaluation, available technical support and records, access and fees. Your team keeps control of the product experience and final approval.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "您的产品需要的是能够运行的生成功能，而不是再增加一条模型研发计划。\n\n10 个资产的测试可以在自己的工具里走通异步任务：用户提交生成请求、跟踪状态，再取回模型继续精修。Tripo 提供生成服务；开发团队负责界面衔接、认证、失败请求处理和集成维护。\n\n比较包含初始工程时间、持续维护、生成与重试费用、失败尝试、美术精修、审核和在目标制作工具或查看器中的文件检查。按用户需要的质量，逐个资产记录得到首个通过验收的结果所需的时间和总成本。\n\n验收清单由您的团队定义。测试前，双方需确认范围、谁执行各项评测、可提供的技术支持和记录、使用权限及费用。产品体验与最终批准仍由您的团队掌握。\n\n立即联系我们，安排 10 个资产的 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "See the build comparison",
+              "zh": "看看开发投入怎么比较"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "Read the API quick start",
+                "zh": "查看 API 接入文档"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Plan a 10-asset test inside your asset tool",
+              "zh": "为自己的资产工具规划 10 个资产测试"
+            },
+            "description": {
+              "en": "Plan a 10-asset API test with Tripo to compare feature-development effort, running costs and asset quality in your own tool.",
+              "zh": "与 Tripo 规划 10 个资产的 API 测试，比较自己工具中的功能开发投入、运行成本与资产质量。"
+            },
+            "confirmation": {
+              "en": "Thank you. Tripo will follow up about your 10-asset integration test. The feature scope, support, responsibilities, records, availability, access and fees need agreement first. This request does not activate API access.",
+              "zh": "感谢联系。Tripo 将跟进 10 个资产的接入测试。功能范围、支持、双方分工、记录、是否可安排、使用权限和费用需先确认；提交申请不会自动开通 API。"
+            }
+          },
+          "footer": {
+            "en": "Your developers build and maintain the integration; Tripo provides the generation service.",
+            "zh": "开发团队负责接入和维护，Tripo 提供生成服务。"
+          }
+        },
+        {
+          "id": "AAU-03",
+          "angleId": "S3",
+          "label": {
+            "en": "Keep refinement and approval in your workflow",
+            "zh": "精修与验收沿用自己的制作流程"
+          },
+          "subject": {
+            "en": "Test rework costs before scaling generated assets",
+            "zh": "扩大生成资产之前,先测清返工成本"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nBefore scaling AI in your production pipeline, you need to see rework costs on real assets: cleanup time, adjustments and iteration count to meet client standards.\n\nYour engineering team puts Tripo's API into your tools. Artists generate models, refine and test against delivery requirements — measuring the complete cost on your own assets, not preview images.\n• **Tripo API provides generation:** Your tools request models; the API returns geometry your team refines.\n• **Your team measures quality and rework:** Artists test generated models against your checklist: topology, delivery format, iterations to client approval.\n\n**To help you evaluate scaling fit,** we propose that Tripo run an agreed evaluation of 10 real assets against your standards and share the results. Supported checks, scope and fees need confirmation first.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n在生产流程中扩大AI使用之前，您需要看清真实资产的返工成本：清理时间、调整工作、达到客户标准的迭代次数。\n\n您的工程团队将Tripo API接入工具。美术生成模型、精修、按交付要求测试——用您自己的资产测量完整成本，而不是预览图。\n• **Tripo API提供生成：** 您的工具请求模型;API返回团队精修的几何体。\n• **您的团队测量质量和返工：** 美术按清单测试生成模型：拓扑、交付格式、到客户批准的迭代次数。\n\n**为了帮您评估扩展适配，** 我们建议由Tripo按您的标准及双方约定的范围，对10个真实资产执行评测并分享结果。开始前需确认支持哪些检查、范围和费用。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "The model needs to work in your production tools, not just look convincing in a preview.\n\nFor a 10-asset comparison, your team sets the geometry, topology, polygon count, UV, material, scale and file requirements that matter to the project. Your artists refine the generated models and review them in the intended software. Rigging checks belong in the test only where an asset needs them.\n\nFor each asset, compare quality, time to its first approved output and total cost: generation, retries, failed attempts, cleanup, review, file checks, integration and maintenance. Results that need too much repair remain part of the comparison.\n\nWe propose that Tripo run the agreed evaluation against your team’s production checklist and share the results. Confirm supported checks, scope, availability, access, fees and records before starting. Your team handles integration and artist cleanup, and keeps final approval.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "模型需要能在您的制作工具中使用，而不只是预览图看起来像成品。\n\n对比 10 个资产时，您的团队先确定项目需要的几何、拓扑、面数、UV、材质、尺寸和文件要求。美术精修生成模型，再放进目标软件审核；只有资产确实需要时，才加入绑定检查。\n\n逐个资产比较质量、得到首个通过验收的结果所需的时间和总成本：生成、重试、失败尝试、清理、审核、文件检查、接入与维护。需要大量修复的结果也保留在对比中。\n\n我们建议由 Tripo 按您的制作验收清单，执行双方约定的评测并分享结果。开始前，确认可支持的检查项、范围、是否可安排、使用权限、费用和记录。接入与美术清理由您的团队负责，最终批准权不变。\n\n立即联系我们，安排 10 个资产的 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "See the workflow test",
+              "zh": "看看现有流程怎么测试"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "Read the API quick start",
+                "zh": "查看 API 接入文档"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Test 10 assets in your production workflow",
+              "zh": "在现有制作流程中测试 10 个资产"
+            },
+            "description": {
+              "en": "Contact Tripo for a 10-asset API test comparing time, cost and quality from generated model to your team's final approval.",
+              "zh": "联系 Tripo，规划 10 个资产的 API 测试，比较从模型生成到团队最终批准的时间、成本和质量。"
+            },
+            "confirmation": {
+              "en": "Thank you. Tripo will follow up about testing 10 assets in your workflow. Your checklist, evaluation support, records, responsibilities, access and fees need confirmation first. This form does not activate API access.",
+              "zh": "感谢联系。Tripo 将跟进现有流程中的 10 个资产测试。验收清单、评测支持、记录、双方分工、使用权限和费用需先确认；提交表单不会自动开通 API。"
+            }
+          },
+          "footer": {
+            "en": "A successful generation task supplies a model; your team decides whether it meets its production standards.",
+            "zh": "生成任务成功会提供模型，是否达到制作标准仍由您的团队决定。"
+          }
+        },
+        {
+          "id": "AAU-04",
+          "angleId": "S5",
+          "label": {
+            "en": "Give reviewers the asset's history",
+            "zh": "让审核人查到资产的制作记录"
+          },
+          "subject": {
+            "en": "Find approved assets without chasing request records",
+            "zh": "找到已批准的资产,不必反复追请求记录"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nWhen reviewing AI assets, your team chases down generation requests, changes and approved versions. That record search repeats for every asset handover.\n\nYour tools can store request details, changes and approval status with the file. Tripo's API provides task IDs your tools link to internal records — letting reviewers find approved versions without chasing requests.\n• **Tripo API provides task identifiers:** Each generation returns an ID your tools store with asset files.\n• **Your team builds the record system:** Your tools store inputs, changes, client approval and link them to Tripo task IDs.\n\n**To help you evaluate tracing time savings,** we'd be happy to help plan a pilot with 10 real assets. Compare time finding approved versions and records reviewers need for handovers.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n审核AI资产时，团队要追查生成请求、改动和已批准版本。每次资产交付，这项记录搜索都要重复。\n\n您的工具可以将请求详情、改动和批准状态存在文件旁。Tripo API提供任务ID，您的工具可以关联到内部记录——让审核者能找到已批准版本，无需反复追请求。\n• **Tripo API提供任务标识符：** 每次生成返回一个ID，您的工具与资产文件一起存储。\n• **您的团队构建记录系统：** 您的工具存储输入、改动、客户批准，并关联Tripo任务ID。\n\n**为了帮您评估追溯时间节省，** 我们愿意一起规划用10个真实资产做试点，比较查找已批准版本的时间及审核者交付需要的记录。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "A reviewer needs more than a finished model: the original request, the changes made to it and the decision to approve it.\n\nFor 10 real assets, your developers can connect Tripo task IDs and results to records in your own tool. Your system stores the original requests and inputs, downloads the returned files, and links later edits, reviews and approvals. The API provides task information, not a complete audit trail.\n\nFor each asset, measure time to its first approved output, record-retrieval time and asset quality. Include integration, record maintenance, generation, retries, failed attempts, refinement, review and file checks in the intended production tool or viewer. Your team decides the input permissions, retention, disclosure and final-use requirements.\n\nBefore starting, Tripo and your team would confirm available task data, who runs the checks, evaluation support, records, scope, access and fees. Your team keeps final approval; task data does not establish asset rights or compliance.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "审核人需要的不只是最终模型，还包括原始请求、做过哪些修改，以及为什么批准使用。\n\n针对 10 个真实资产，开发团队可以把 Tripo 的任务 ID 和结果关联到自己工具中的记录。自己的系统保存原始请求与输入、下载返回文件，并关联后续修改、审核和批准。API 提供的是任务信息，不是完整审计记录。\n\n逐个资产记录得到首个通过验收的结果所需的时间，并比较查询记录的时间和资产质量。完整成本包含接入、记录维护、生成、重试、失败尝试、精修、审核，以及在目标制作工具或查看器中的文件检查。输入素材权限、保存期限、披露和最终用途要求由您的团队确定。\n\n开始前，双方需确认可取得的任务数据、谁执行检查、评测支持、记录、范围、使用权限和费用。最终批准由您的团队决定；任务信息不证明资产权利或合规。\n\n立即联系我们，安排 10 个资产的 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "See the record flow",
+              "zh": "看看记录如何衔接"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See task information",
+                "zh": "查看任务信息文档"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/task-query"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Trace requests and approvals across 10 assets",
+              "zh": "用 10 个资产核对请求与批准记录"
+            },
+            "description": {
+              "en": "Plan a 10-asset API test with Tripo to review record access, production time, cost and quality inside your own asset tool.",
+              "zh": "与 Tripo 规划 10 个资产的 API 测试，检查自己资产工具中的记录查询、制作时间、成本和质量。"
+            },
+            "confirmation": {
+              "en": "Thank you. Tripo will follow up about your 10-asset records test. Available data, support, responsibilities, scope, access and fees need confirmation first. This request neither activates API access nor certifies compliance.",
+              "zh": "感谢联系。Tripo 将跟进 10 个资产的记录测试。可取得的数据、支持、双方分工、范围、使用权限和费用需先确认；提交申请不会自动开通 API，也不代表合规认证。"
+            }
+          },
+          "footer": {
+            "en": "Your system keeps the original inputs and approvals; API task data is only part of that record.",
+            "zh": "原始输入和批准记录由您的系统保存；API 任务信息只是记录的一部分。"
+          }
+        }
+      ],
+      "region": "US",
+      "productGroup": "AA"
+    },
+    {
+      "id": "TE",
+      "label": "Teams · 欧洲游戏",
+      "theme": {
+        "en": "Game-studio and art-production teams · Europe",
+        "zh": "欧洲游戏工作室与美术制作团队"
+      },
+      "image": {
+        "src": "https://cdn-blog.holymolly.ai/media/production/assets.webp",
+        "alt": {
+          "en": "Tripo Team Plan shared asset workspace",
+          "zh": "Tripo 团队版共享资产工作区"
+        },
+        "caption": {
+          "en": "Official Team Plan product illustration.",
+          "zh": "Tripo 官方团队版产品示意。"
+        },
+        "sourceUrl": "https://www.tripo3d.ai/programs/team-program"
+      },
+      "form": {
+        "fields": [
+          {
+            "id": "firstName",
+            "label": {
+              "en": "First name",
+              "zh": "名字"
+            }
+          },
+          {
+            "id": "lastName",
+            "label": {
+              "en": "Last name",
+              "zh": "姓氏"
+            }
+          },
+          {
+            "id": "workEmail",
+            "label": {
+              "en": "Work email",
+              "zh": "工作邮箱"
+            }
+          },
+          {
+            "id": "companyName",
+            "label": {
+              "en": "Company name",
+              "zh": "公司名称"
+            }
+          },
+          {
+            "id": "jobTitle",
+            "label": {
+              "en": "Job title",
+              "zh": "职位"
+            }
+          }
+        ],
+        "privacyUrl": "https://www.tripo3d.ai/privacy",
+        "privacyText": {
+          "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+          "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+        },
+        "destination": {
+          "url": "https://www.tripo3d.ai/programs/team-program",
+          "label": {
+            "en": "Learn More",
+            "zh": "了解更多"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "TE-01",
+          "angleId": "S1",
+          "label": {
+            "en": "Starting models for a new level",
+            "zh": "新关卡道具，从初版模型起步"
+          },
+          "subject": {
+            "en": "Stop building every prop from scratch for the next level",
+            "zh": "下一关的道具,别每个都从零开始搭"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nThe next level has crates, lamps and furniture on the prop list. Each one starts with an artist manually building the base geometry before your team can refine materials and place assets in the scene.\n\nTripo Studio Team Plan gives your art team a shared workspace to generate those base models from text or reference images, then refine them in their existing tools — reducing manual base-mesh work; your team still handles cleanup and approval.\n• **Tripo generates the starting geometry:** Artists get a usable mesh for props on the level's asset list.\n• **Your team handles scene-specific refinement:** Artists adjust models to fit the level's visual style, review the result in the target engine, and approve what meets project requirements.\n\n**To help you evaluate time savings,** we'd be happy to help plan a pilot with 10 real level assets. Compare time to first usable base mesh and total time through final approval.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n下一关的道具清单上有箱子、灯具和家具。每一个都要美术先手工搭出基础几何体，团队才能开始精修材质、放进场景。\n\nTripo Studio Team Plan为美术团队提供共享工作区，可以从文字或参考图生成这些基础模型，再放进现有工具里精修——减少手工基础网格工作；清理和验收仍由您的团队负责。\n• **Tripo生成初版几何体：** 为关卡资产清单上的道具提供可用网格。\n• **您的团队负责场景专属精修：** 美术调整模型以适应关卡视觉风格，在目标引擎中审核结果，批准符合项目要求的资产。\n\n**为了帮您评估时间节省，** 我们愿意一起规划用10个真实关卡资产做试点，比较获得首个可用基础网格的时间及到最终验收的总时间。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "The level's asset list keeps the comparison grounded in work your artists actually need to deliver.\n\nWe'd be happy to help plan a pilot around 10 of those assets, using the same scene requirements as your current production process.\n• Compare the time to the first useful starting model, generation and retry fees, including unsuccessful attempts.\n• Add the geometry and material work, review, tool compatibility and engine checks needed to approve each prop.\n\nThe result should separate useful starting models from props that take more work to repair than to build another way. Your team keeps the scene's art direction and acceptance criteria.\n\nBefore starting, your team and Tripo need to agree the asset list, available evaluation support and records, and who carries out each check. Scope, availability, access and fees need confirmation too.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "关卡的资产清单，让对比落在美术真正需要交付的工作上。\n\n我们愿意一起规划，用其中 10 个资产做试点，沿用现有制作流程的场景要求。\n• 比较得到首个可用初版的时间，以及生成和重试费用，包括失败尝试的实际成本。\n• 加上道具通过验收所需的几何与材质制作、审核、工具适配和引擎检查。\n\n结果应当分清哪些初版确实有用，哪些修起来比换一种方式制作更费工。场景美术方向和验收标准仍由您的团队掌握。\n\n开始前，您的团队与 Tripo 需确认资产清单、可提供的评测支持和记录，以及每项检查的执行分工。范围、是否可安排、使用权限和费用也需确认。\n\n立即联系我们，安排您团队的 10 个资产试点。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Plan a 10-asset pilot",
+              "zh": "安排 10 个资产试点"
+            },
+            "secondary": {
+              "en": "See the level workflow",
+              "zh": "看看关卡道具怎样继续做"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Plan a 10-asset pilot",
+                "zh": "安排 10 个资产试点"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See Team Plan",
+                "zh": "查看团队方案"
+              },
+              "action": "link",
+              "url": "https://www.tripo3d.ai/programs/team-program"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://www.tripo3d.ai/programs/team-program",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Plan a 10-asset pilot for your next level",
+              "zh": "为下一关规划 10 个资产试点"
+            },
+            "description": {
+              "en": "Compare generated starting models with your level's current workflow across 10 assets, including refinement, time, cost and quality.",
+              "zh": "用关卡里的 10 个资产，对比生成初版与现有流程，计入精修，并比较工时、成本和质量。"
+            },
+            "confirmation": {
+              "en": "Thanks for contacting Tripo. We'll follow up to plan the 10-asset pilot for your level. Asset briefs, support, records, responsibilities, access and fees need agreement first. This request does not activate a trial.",
+              "zh": "感谢联系 Tripo。我们将跟进这一关的 10 个资产试点计划。开始前需确认资产需求、支持、记录、分工、使用权限和费用。提交申请不会自动开通试用。"
+            }
+          },
+          "footer": {
+            "en": "Your artists refine generated models for the level and approve them against the game's requirements.",
+            "zh": "生成模型仍需由美术按关卡要求精修，并按游戏标准验收。"
+          },
+          "image": {
+            "src": "https://cdn-blog.holymolly.ai/media/production/game-ready-prop-p-2-open-burgundy-treasure-chest-with-a-scroll-in-a-fantasy-interior-7daccca05ecd.webp",
+            "alt": {
+              "en": "Treasure chest from an official Tripo Studio workflow",
+              "zh": "Tripo 官方 Studio 制作流程中的宝箱"
+            },
+            "caption": {
+              "en": "Studio workflow example, including artist refinement.",
+              "zh": "Studio 制作示例，含美术精修。"
+            },
+            "sourceUrl": "https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+          }
+        },
+        {
+          "id": "TE-02",
+          "angleId": "S3",
+          "label": {
+            "en": "A prop that passes the game's checks",
+            "zh": "道具做到游戏验收通过"
+          },
+          "subject": {
+            "en": "See the full cost before using AI for the next level",
+            "zh": "下一关用AI之前,先看清完整制作成本"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nBefore committing the next level's props to an AI workflow, you need to see the complete production cost: generation time, rework to fit the level's style, engine testing and assets that don't pass.\n\nWith Tripo Studio Team Plan, your artists generate starting models from text or reference images and refine them in their existing tools. That workflow lets you test the full cost on real level assets, not just attractive preview images.\n• **Tripo provides the starting geometry:** Your artists get a model to develop against the level's technical and visual requirements.\n• **Your team reviews against level standards:** Artists check the result fits the scene, works in the target engine, and approve what meets acceptance criteria.\n\nTripo's chest walkthrough shows the work from generation through game interaction.\n\n**To help you evaluate project fit,** we propose that Tripo run an agreed evaluation of 10 real level assets against your team's criteria and share the results. Supported checks, scope and fees need confirmation first.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n在将下一关的道具交给AI工作流之前，您需要看清完整生产成本：生成时间、为适应关卡风格的返工、引擎测试，以及未通过的资产。\n\n使用Tripo Studio Team Plan，美术从文字或参考图生成初版，再在现有工具里精修。这套流程让您能用真实关卡资产测试完整成本，而不只看吸引人的预览图。\n• **Tripo提供初版几何体：** 美术获得可按关卡技术和视觉要求继续开发的模型。\n• **您的团队按关卡标准审核：** 检查结果是否适配场景、在目标引擎中是否正常，批准符合验收标准的资产。\n\nTripo的宝箱示例展示了从生成到游戏交互的制作过程。\n\n**为了帮您评估项目适配，** 我们建议由Tripo按您团队的标准及双方约定的范围，对10个真实关卡资产执行评测并分享结果。开始前需确认支持哪些检查、范围和费用。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "The chest walkthrough shows one prop moving from generation through artist work to an opening interaction. It is a Studio example, not a guarantee for other assets.\n\nFor 10 real assets from your game, we propose that Tripo run an evaluation against your team's checklist and share the results. First, both sides need to confirm supported checks, scope, fees and the records to deliver.\n• Assess topology, polygon count, UVs, materials and file formats against the scene's requirements.\n• Include target-engine, rigging or interaction checks where the prop needs them and Tripo can support them.\n\nYour artists still refine the props; your team gives final approval and handles checks outside the agreed scope. Compare quality, time and cost through approval, including generation and retry fees, unsuccessful attempts, revisions, review, tool compatibility and engine testing.\n\nAvailability and access also need confirmation before starting.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "宝箱示例展示了一个道具从生成、经过美术制作，到实现开箱交互的过程。这是 Studio 示例，不是对其他资产的效果保证。\n\n针对您游戏中的 10 个真实资产，我们建议由 Tripo 按您团队的验收清单执行评测并分享结果。双方需先确认支持哪些检查、评测范围、费用，以及交付哪些记录。\n• 按场景要求检查拓扑、面数、UV、材质和文件格式。\n• 道具需要目标引擎、绑定或交互检查时，按 Tripo 确认可支持的范围纳入评测。\n\n道具精修仍由您的美术负责，最终验收及约定范围之外的检查仍由您的团队负责。比较从生成到验收的质量、工时和成本时，生成与重试费用、失败尝试、修改、审核、工具适配和引擎测试都应计入。\n\n开始前，还需确认是否可安排及使用权限。\n\n立即联系我们，安排您团队的 10 个资产试点。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Plan a 10-asset pilot",
+              "zh": "安排 10 个资产试点"
+            },
+            "secondary": {
+              "en": "See the chest workflow",
+              "zh": "看看宝箱从生成到验收"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Plan a 10-asset pilot",
+                "zh": "安排 10 个资产试点"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See the prop walkthrough",
+                "zh": "查看道具制作示例"
+              },
+              "action": "link",
+              "url": "https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://www.tripo3d.ai/programs/team-program",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Check 10 props in your game's own workflow",
+              "zh": "用游戏现有流程检查 10 个道具"
+            },
+            "description": {
+              "en": "Plan a 10-asset pilot that follows your props through artist refinement and engine review, comparing quality, time and total cost.",
+              "zh": "规划 10 个资产试点，跟踪道具经过美术精修和引擎审核的过程，比较质量、工时和总成本。"
+            },
+            "confirmation": {
+              "en": "Thanks for contacting Tripo. We'll follow up about checking 10 props for your game build. Quality criteria, evaluation support, records, responsibilities, access and fees need agreement first. This request does not activate a trial.",
+              "zh": "感谢联系 Tripo。我们将跟进下一版游戏的 10 个道具检查。开始前需确认质量标准、评测支持、记录、分工、使用权限和费用。提交申请不会自动开通试用。"
+            }
+          },
+          "footer": {
+            "en": "A Studio example shows a workflow; your team still checks and approves every project asset.",
+            "zh": "Studio 示例展示的是制作流程，每个项目资产仍需由您的团队检查和验收。"
+          },
+          "image": {
+            "src": "https://cdn-blog.holymolly.ai/media/production/game-ready-prop-p-2-open-burgundy-treasure-chest-with-a-scroll-in-a-fantasy-interior-7daccca05ecd.webp",
+            "alt": {
+              "en": "Treasure chest from an official Tripo Studio workflow",
+              "zh": "Tripo 官方 Studio 制作流程中的宝箱"
+            },
+            "caption": {
+              "en": "Studio workflow example, including artist refinement.",
+              "zh": "Studio 制作示例，含美术精修。"
+            },
+            "sourceUrl": "https://www.tripo3d.ai/blog/game-ready-prop-p-2"
+          }
+        },
+        {
+          "id": "TE-03",
+          "angleId": "S4",
+          "label": {
+            "en": "Reuse props across game scenes",
+            "zh": "游戏场景之间复用道具"
+          },
+          "subject": {
+            "en": "Don't rebuild the same prop for every game scene",
+            "zh": "换一个游戏场景,同样的道具别再做一遍"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nYour team approves a crate for one scene. When another scene needs a similar prop, artists rebuild it or request the approved file through another handoff.\n\nTripo Studio Team Plan pools team-generated models in a shared library with visible credit and member usage. Artists find previously approved work; you avoid rebuilding or re-requesting — saving handoff work without removing scene-specific checks.\n• **Tripo keeps team resources in one workspace:** Artists search shared models; admins monitor credit pool and member usage through the workspace panel.\n• **Your team checks each scene's requirements:** Artists use their existing review to identify approved base work, then verify the asset fits the new scene's needs.\n\n**To help you evaluate reuse savings,** we'd be happy to help plan a pilot with 10 real assets. Compare reuse frequency, cross-scene adaptation work and handoff count.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n团队为一个场景批准了一个箱子。另一个场景需要相似道具时，美术要么重做，要么再次请求已批准的文件，增加一次交接。\n\nTripo Studio Team Plan将团队生成的模型汇集到共享库，可查看积分和成员用量。美术能找到之前批准的成果;避免重做或重复请求——节省交接工作，同时保留场景专属检查。\n• **Tripo在同一工作区集中管理团队资源：** 美术搜索共享模型;管理员通过工作区面板监控积分池和成员用量。\n• **您的团队检查每个场景的要求：** 美术用现有审核识别已批准的基础成果，再验证资产是否符合新场景需求。\n\n**为了帮您评估复用节省，** 我们愿意一起规划用10个真实资产做试点，比较复用频率、跨场景适配工作和交接次数。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "A crate approved for one scene may be a useful starting point for another. Its geometry or materials can still need changes.\n\nWe'd be happy to help plan a pilot with 10 real game assets, following reviewed work from one artist to the next.\n• Record reuse count and handoff count alongside admin time spent organizing files, managing access and checking pooled credits and member usage.\n• Compare changes, review and engine checks, plus original generation and retry fees, unsuccessful attempts and cleanup.\n\nThat shows the total time, cost and final quality, not just how many files were reused.\n\nTeam Plan supplies the shared library, credit pool and member-usage visibility. Your existing workflow identifies approved work and handles externally refined files. Reuse still needs review for the new scene. Before starting, agree with Tripo on the assets, available support, records, responsibilities, availability, access and fees.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "在一个场景里通过验收的木箱，可以成为另一个场景的制作起点，但几何或材质仍可能需要调整。\n\n我们愿意一起规划用 10 个真实游戏资产做试点，跟踪已审核成果从一位美术到下一位美术之间的使用情况。\n• 记录复用次数、交接次数和管理时间，包括整理文件、管理权限，以及查看共享积分和成员用量所需的时间。\n• 比较修改、审核和引擎检查，也计入原始生成与重试费用、失败尝试和清理工作。\n\n这样可以比较总工时、成本和最终质量，而不只是数复用了多少文件。\n\nTeam Plan 提供共享资产库、积分池和成员用量查看。怎样识别已批准成果、如何处理外部精修文件，仍按团队现有流程安排；复用后仍需按新场景要求审核。开始前，需与 Tripo 确认资产、可提供的支持、记录、分工、是否可安排、使用权限和费用。\n\n立即联系我们，安排您团队的 10 个资产试点。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Plan a 10-asset pilot",
+              "zh": "安排 10 个资产试点"
+            },
+            "secondary": {
+              "en": "See reuse between scenes",
+              "zh": "看看不同场景怎样复用"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Plan a 10-asset pilot",
+                "zh": "安排 10 个资产试点"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See the shared workspace",
+                "zh": "查看团队共享工作区"
+              },
+              "action": "link",
+              "url": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://www.tripo3d.ai/programs/team-program",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Plan reuse across scenes with 10 game assets",
+              "zh": "规划 10 个游戏资产的跨场景复用"
+            },
+            "description": {
+              "en": "Compare how 10 shared assets move between scenes and artists, including handoff time, revisions, total cost and approved quality.",
+              "zh": "比较 10 个共享资产在场景和美术之间的复用，计入交接工时、修改、总成本和验收质量。"
+            },
+            "confirmation": {
+              "en": "Thanks for contacting Tripo. We'll follow up about reusing 10 assets across your game scenes. Assets, support, records, handoffs, responsibilities, access and fees need agreement first. This request does not activate a trial.",
+              "zh": "感谢联系 Tripo。我们将跟进游戏场景之间的 10 个资产复用计划。开始前需确认资产、支持、记录、交接、分工、使用权限和费用。提交申请不会自动开通试用。"
+            }
+          },
+          "footer": {
+            "en": "Reused props still need the team's review for the new scene; reuse is not automatic approval.",
+            "zh": "复用道具仍需由团队按新场景要求审核，复用不等于自动验收通过。"
+          }
+        },
+        {
+          "id": "TE-04",
+          "angleId": "S5",
+          "label": {
+            "en": "Access during game production",
+            "zh": "游戏制作中的访问与责任"
+          },
+          "subject": {
+            "en": "Member changes shouldn't mean password resets for the whole team",
+            "zh": "成员变动,不该让整个团队重置密码"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nWhen your game team shares credentials, each member change means password resets, access list updates and tracking shared-account use. That admin work repeats with every hire or departure.\n\nTripo Studio Team Plan gives each member their own access while pooling shared models and credits in one workspace. Admins manage roles and monitor usage without shared logins.\n• **Tripo separates individual access from team resources:** Each artist logs in independently; admins add, remove or adjust member roles through the workspace panel.\n• **Your team keeps permission control:** Admins set visibility for shared work and monitor credit usage by member.\n\n**To help you evaluate admin time savings,** we'd be happy to help plan a pilot with 10 real assets. Compare access management work when members change and time spent tracking usage.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n游戏团队共享凭证时，每次成员变动意味着重置密码、更新访问清单、追踪共享账号使用。每次入职或离职，这些管理工作都要重复。\n\nTripo Studio Team Plan让每位成员独立访问，同时在一个工作区内汇集共享模型和积分。管理员无需共享登录，即可管理角色和监控用量。\n• **Tripo将个人访问与团队资源分离：** 每位美术独立登录;管理员通过工作区面板添加、移除或调整成员角色。\n• **您的团队保留权限控制：** 管理员设置共享工作的可见性，按成员监控积分使用。\n\n**为了帮您评估管理时间节省，** 我们愿意一起规划用10个真实资产做试点，比较成员变动时的访问管理工作及追踪用量的时间。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "The access setup should match the people working on the game, including when someone changes roles or leaves the project.\n\nWe'd be happy to help plan a pilot with 10 real assets to check invitations, role changes, removal of access and asset visibility. Administrators retain full workspace visibility. Member usage information can support management, but it is not a complete generation or approval record.\n\nYour production process still determines input rights, reviewers, final approval and any disclosure. Before starting, Tripo and your team need to agree which records and evaluation support are available, who retains records and who performs each check.\n\nCompare administration and review time, generation and retry fees, unsuccessful attempts, refinement and engine checks against your current workflow. That shows the cost of managing access alongside final asset quality; it does not certify compliance.\n\nScope, availability, access, responsibilities and fees need confirmation. Contact us today to set up your team's 10-asset pilot.",
+            "zh": "访问安排应当与参与游戏制作的人员相符，也包括成员变更角色或离开项目的情况。\n\n我们愿意一起规划，用 10 个真实资产检查成员邀请、角色调整、权限移除和资产可见范围。管理员仍能查看整个工作区。成员使用信息可辅助管理，但不是完整的生成或批准记录。\n\n输入素材权利、审核人员、最终批准和必要披露，仍由团队制作流程确定。开始前，Tripo 与您的团队需确认可提供哪些记录和评测支持、谁保存记录，以及谁执行各项检查。\n\n与现有流程比较时，计入管理和审核工时、生成与重试费用、失败尝试、精修和引擎检查。这样能把访问管理成本与最终资产质量一起看清，而不是获得合规认证。\n\n范围、是否可安排、使用权限、分工和费用需先确认。立即联系我们，安排您团队的 10 个资产试点。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Plan a 10-asset pilot",
+              "zh": "安排 10 个资产试点"
+            },
+            "secondary": {
+              "en": "See member controls",
+              "zh": "看看成员权限怎样调整"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Plan a 10-asset pilot",
+                "zh": "安排 10 个资产试点"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "Read about team controls",
+                "zh": "阅读团队管理说明"
+              },
+              "action": "link",
+              "url": "https://www.tripo3d.ai/blog/tripo-turns-1-team-plan"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://www.tripo3d.ai/programs/team-program",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Review changing team access with 10 game assets",
+              "zh": "用 10 个游戏资产检查成员权限变更"
+            },
+            "description": {
+              "en": "Plan a 10-asset pilot around member changes and asset visibility, comparing administration work, total cost and quality in your workflow.",
+              "zh": "围绕成员变更和资产可见范围规划 10 个资产试点，比较现有流程中的管理工作、总成本和质量。"
+            },
+            "confirmation": {
+              "en": "Thanks for contacting Tripo. We'll follow up about the 10-asset member-access pilot. Roles, visibility, records, support, responsibilities, access and fees need agreement first. This request does not activate a trial or certify compliance.",
+              "zh": "感谢联系 Tripo。我们将跟进 10 个资产的成员权限试点。开始前需确认角色、可见范围、记录、支持、分工、使用权限和费用。提交申请不会自动开通试用，也不代表合规认证。"
+            }
+          },
+          "footer": {
+            "en": "Member access and project approval are separate; your team remains responsible for review and final use.",
+            "zh": "成员访问权限与项目验收是两件事，审核和最终使用仍由您的团队负责。"
+          }
+        }
+      ],
+      "region": "EU",
+      "productGroup": "TG"
+    },
+    {
+      "id": "AGE",
+      "label": "API · 欧洲游戏",
+      "theme": {
+        "en": "Bring 3D generation into a specific game project or tool release",
+        "zh": "围绕具体游戏项目和工具发布，接入 3D 生成"
+      },
+      "image": {
+        "src": "../../assets/v19/concepts/deep-sea-engineer.png",
+        "alt": {
+          "en": "AI-generated game character concept",
+          "zh": "AI生成的游戏角色概念图"
+        },
+        "caption": {
+          "en": "AI-generated visual concept. Not a Tripo API output.",
+          "zh": "AI生成视觉概念图，非 Tripo API 输出。"
+        },
+        "sourceUrl": ""
+      },
+      "form": {
+        "fields": [
+          {
+            "id": "firstName",
+            "label": {
+              "en": "First name",
+              "zh": "名字"
+            }
+          },
+          {
+            "id": "lastName",
+            "label": {
+              "en": "Last name",
+              "zh": "姓氏"
+            }
+          },
+          {
+            "id": "workEmail",
+            "label": {
+              "en": "Work email",
+              "zh": "工作邮箱"
+            }
+          },
+          {
+            "id": "companyName",
+            "label": {
+              "en": "Company name",
+              "zh": "公司名称"
+            }
+          },
+          {
+            "id": "jobTitle",
+            "label": {
+              "en": "Job title",
+              "zh": "职位"
+            }
+          }
+        ],
+        "privacyUrl": "https://www.tripo3d.ai/privacy",
+        "privacyText": {
+          "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+          "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+        },
+        "destination": {
+          "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+          "label": {
+            "en": "Learn More",
+            "zh": "了解更多"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "AGE-01",
+          "angleId": "S1",
+          "label": {
+            "en": "Starting models for a playable level",
+            "zh": "为下一关准备道具初版"
+          },
+          "subject": {
+            "en": "Stop building base meshes from scratch for the next level",
+            "zh": "下一关的基础网格,别再从零搭建"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nThe next level needs crates and furniture. Each prop starts with an artist manually building the base geometry before refinement can begin.\n\nYour engineering team can put Tripo's API into your level-design tools. Artists generate starting models from descriptions through your tools, then refine them for the scene — reducing manual base-mesh work; your team still handles cleanup and approval.\n• **Tripo API provides the generation service:** Your tools request geometry; the API returns models artists can develop for the level.\n• **Your team handles level-specific work:** Artists adjust models to fit the scene, review in the target engine, and approve what meets level requirements.\n\n**To help you evaluate time savings,** we'd be happy to help plan a pilot with 10 real level props. Compare time to first usable base mesh and total time through level approval.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n下一关需要箱子和家具。每个道具都要美术先手工搭建基础几何体，才能开始精修。\n\n您的工程团队可以将Tripo API接入关卡设计工具。美术通过您的工具，从描述生成初版模型，再为场景精修——减少手工基础网格工作；清理和验收仍由您的团队负责。\n• **Tripo API提供生成服务：** 您的工具请求几何体;API返回美术可以为关卡继续开发的模型。\n• **您的团队负责关卡专属工作：** 美术调整模型以适应场景，在目标引擎中审核，批准符合关卡要求的资产。\n\n**为了帮您评估时间节省，** 我们愿意一起规划用10个真实关卡道具做试点，比较获得首个可用基础网格的时间及到关卡验收的总时间。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "For a playable level, the comparison needs to show how much work a prop takes from the first model to approval.\n\nThe test uses 10 real prop briefs from the level. Your team keeps the same requirements for shape, style, topology, materials and file format, with rigging checks where needed. Artists refine the retrieved files and check them in the game's engine.\n\nFor each asset, compare time to its first useful starting model and its first approved output, revisions, review and final quality with the current process. Include generation and retry fees, unsuccessful attempts, integration and ongoing maintenance. A quicker first result only helps if the remaining work makes sense for the level.\n\nYour team and Tripo agree the asset list, evaluation support, who checks each result and who records it. Scope, availability, access and fees are confirmed before testing. Your team decides which props enter production.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "针对一个可玩关卡，要比较的是道具从初版模型到验收通过，总共需要多少工作。\n\n测试以 10 个实际关卡道具的需求为依据。造型、风格、拓扑、材质和格式沿用团队原有要求，需要绑定的再检查绑定。美术精修取回的文件，并放进游戏引擎检查。\n\n逐个资产记录拿到首个可用初版、得到首个通过验收的结果各需多长时间，再把修改、审核和验收质量与现有制作方式比较。生成及重试费用、失败尝试、接入和持续维护都计入成本。初版更快，只有在后续工作也适合这个关卡时才有意义。\n\n您的团队与 Tripo 确认资产清单、评测支持、每项检查及记录分工。测试前确定范围、是否可安排、使用权限和费用。哪些道具进入制作，由您的团队决定。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "See the level-prop test",
+              "zh": "看看关卡道具如何测试"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See API Quick Start",
+                "zh": "查看 API 接入指南"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Compare 10 level props from first model to approval",
+              "zh": "比较 10 个关卡道具从初版到验收的投入"
+            },
+            "description": {
+              "en": "Arrange a 10-asset API test for your level. Compare time, cost and final asset quality against the way your team makes props today.",
+              "zh": "为实际关卡安排 10 个资产 API 测试，与团队现有道具制作方式比较工时、成本和验收质量。"
+            },
+            "confirmation": {
+              "en": "Thank you. We'll contact you about testing 10 props from your level. Before starting, we'll agree briefs, support, records, responsibilities, availability, access and fees. This request does not activate API access.",
+              "zh": "谢谢，我们会联系您，沟通关卡中的 10 个道具测试。开始前确认需求、支持、记录、分工、是否可安排、使用权限和费用。申请不会自动开通 API。"
+            }
+          },
+          "footer": {
+            "en": "Your artists refine the generated files; your team approves the props for the level.",
+            "zh": "生成文件由美术精修，哪些道具适用于关卡由您的团队批准。"
+          }
+        },
+        {
+          "id": "AGE-02",
+          "angleId": "S2",
+          "label": {
+            "en": "A generation feature for the next tool release",
+            "zh": "为下一次工具发布接入生成"
+          },
+          "subject": {
+            "en": "Ship the generation feature without staffing model R&D",
+            "zh": "交付生成功能,无需配备模型研发团队"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nYour next tool release needs a generation feature. Building the model internally means staffing an R&D project alongside feature development.\n\nYour engineering team can connect Tripo's API instead of building the generation model. Your team develops the interface, manages requests and maintains the integration — shipping the feature without model R&D staff.\n• **Tripo API provides generation:** Your tools send inputs; the API handles generation and returns models.\n• **Your team builds the product feature:** Engineers develop the interface, handle async states, manage errors and maintain the integration.\n\n**To help you evaluate implementation cost,** we'd be happy to help plan a pilot. Compare engineering time, ongoing maintenance and time to feature release.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n下一次工具发布需要生成功能。内部构建模型意味着在功能开发之外，还要配备研发项目。\n\n您的工程团队可以接入Tripo API，而不是自建生成模型。团队开发界面、管理请求、维护集成——交付功能，无需模型研发人员。\n• **Tripo API提供生成：** 您的工具发送输入;API处理生成并返回模型。\n• **您的团队构建产品功能：** 工程师开发界面、处理异步状态、管理错误、维护集成。\n\n**为了帮您评估实施成本，** 我们愿意一起规划试点，比较工程时间、持续维护和功能发布时间。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "A release test follows the feature an artist will actually use: enter a brief, wait for generation, retrieve the model and send it through production checks.\n\nAcross 10 real game assets, your developers assess request handling, asynchronous updates, failures, retries and file retrieval. Tripo provides the generation service; your team builds and maintains the working feature in your own tool.\n\nInclude integration and ongoing maintenance, generation and retry charges, failed attempts, artist cleanup, review and engine testing in the comparison. For each asset, measure time to its first approved output as well as whether the interface works. Your team defines quality requirements and decides if the feature is ready for release.\n\nBefore testing, agree with Tripo on the asset briefs, technical and evaluation support, checking and record-keeping responsibilities, scope, availability, access and fees. The test is an evaluation of the feature, not a promise of a finished integration.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "发布测试应当跟着美术真正会用的功能来做：输入需求、等待生成、取回模型，再进入制作检查。\n\n用 10 个真实游戏资产，开发团队评估请求处理、异步更新、失败、重试和文件取回。Tripo 提供生成服务，您的团队开发并维护自己工具中的完整功能。\n\n比较时计入接入和持续维护、生成及重试费用、失败尝试、美术清理、审核和引擎测试。除了界面是否可用，还要逐个资产记录得到首个通过验收的结果需要多久。团队制定质量要求，并决定功能是否可以发布。\n\n测试前，与 Tripo 确认资产需求、技术和评测支持、检查与记录分工、范围、是否可安排、使用权限和费用。这是功能评估，不是承诺直接交付完成的集成。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "Review the release work",
+              "zh": "看看发布前的开发工作"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "Explore the API",
+                "zh": "查看 API 功能"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/introduction"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Test the generation feature with 10 game assets",
+              "zh": "用 10 个游戏资产测试生成功能"
+            },
+            "description": {
+              "en": "Arrange a 10-asset API test for your tool release, from the artist's request to approved assets, including integration and running costs.",
+              "zh": "为工具发布安排 10 个资产 API 测试，从美术提交需求到资产验收，计入接入和运行成本。"
+            },
+            "confirmation": {
+              "en": "Thank you. We'll contact you about the 10-asset feature test for your tool release. Scope, technical support, records, responsibilities, availability, access and fees will be agreed first. This request does not activate API access.",
+              "zh": "谢谢，我们会联系您，沟通工具发布所需的 10 个资产功能测试。先确认范围、技术支持、记录、分工、是否可安排、使用权限和费用。申请不会开通 API。"
+            }
+          },
+          "footer": {
+            "en": "The API supplies generation, while your developers own the feature integration and its maintenance.",
+            "zh": "API 提供生成能力，功能接入与维护由您的开发团队负责。"
+          }
+        },
+        {
+          "id": "AGE-03",
+          "angleId": "S3",
+          "label": {
+            "en": "Make a decision on props for the build",
+            "zh": "判断哪些道具可以进游戏版本"
+          },
+          "subject": {
+            "en": "See rework costs on real level props before wider AI use",
+            "zh": "用真实关卡道具看清返工成本,再扩大AI使用"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nBefore committing the next level to AI generation, you need to see rework costs on real props: cleanup time, style adjustments and iteration count to pass level checks.\n\nYour engineering team puts Tripo's API into your tools. Artists generate models, refine for the level and test against standards — measuring the complete cost on real assets, not preview images.\n• **Tripo API provides generation:** Your tools request models; the API returns geometry your team refines for the level.\n• **Your team measures quality and rework:** Artists test against the level checklist: scene fit, engine compatibility, iterations to approval.\n\n**To help you evaluate level fit,** we propose that Tripo run an agreed evaluation of 10 real props against your standards and share the results. Supported checks, scope and fees need confirmation first.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n在将下一关交给AI生成之前，您需要看清真实道具的返工成本：清理时间、风格调整、通过关卡检查的迭代次数。\n\n您的工程团队将Tripo API接入工具。美术生成模型、为关卡精修、按标准测试——用真实资产测量完整成本，而不是预览图。\n• **Tripo API提供生成：** 您的工具请求模型;API返回团队为关卡精修的几何体。\n• **您的团队测量质量和返工：** 美术按关卡清单测试：场景适配、引擎兼容性、到批准的迭代次数。\n\n**为了帮您评估关卡适配，** 我们建议由Tripo按您的标准及双方约定的范围，对10个真实道具执行评测并分享结果。开始前需确认支持哪些检查、范围和费用。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "For the next game build, each tested prop needs a clear outcome: approved, needs more work or not suitable.\n\nYour team defines the checks for 10 actual assets. Shape, style, topology, polygon count, UVs, materials and format follow the project's requirements; rigging and interaction checks apply when relevant. The refined files are reviewed in the target engine, not judged only from their previews.\n\nFor each asset, record time to its first approved output, the changes required, artist and reviewer time, and reasons for rejection. Include generation and retry fees, failed attempts, integration and maintenance alongside engine testing. This shows the full cost of achieving the quality your game needs.\n\nWe propose that Tripo evaluate the props against your team’s agreed build checklist and share the results. Confirm supported checks, scope, availability, access, fees and evidence before testing. Your team still owns integration, artist cleanup and final acceptance.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "针对下一版游戏，每个测试道具都需要有明确结果：通过、还需修改，或者不适合。\n\n您的团队为 10 个实际资产制定检查项。造型、风格、拓扑、面数、UV、材质和格式按项目要求执行，适用时再检查绑定与交互。精修后的文件要在目标引擎里审核，不能只看预览。\n\n逐个资产记录得到首个通过验收的结果所需的时间、经历的修改、美术和审核工时，以及未通过的原因。生成及重试费用、失败尝试、接入、维护和引擎测试都纳入成本，才能看清达到游戏所需质量的完整投入。\n\n我们建议由 Tripo 按您的游戏版本检查清单，执行双方约定的道具评测并分享结果。测试前，确认可支持的检查项、范围、是否可安排、使用权限、费用和证据留存。接入、美术清理和最终验收仍由您的团队负责。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "See the build checks",
+              "zh": "看看游戏版本检查内容"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See API Quick Start",
+                "zh": "查看 API 接入指南"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Decide which of 10 props belong in the game build",
+              "zh": "判断 10 个道具哪些适合进入游戏版本"
+            },
+            "description": {
+              "en": "Arrange a 10-asset API test using your build's checks. Compare final asset quality, required fixes, time and full production cost.",
+              "zh": "按游戏版本的检查要求，安排 10 个资产 API 测试，比较验收质量、必要修改、工时和完整制作成本。"
+            },
+            "confirmation": {
+              "en": "Thank you. We'll contact you about checking 10 props for your game build. Requirements, support, evidence, responsibilities, availability, access and fees will be agreed before testing. This request does not activate API access.",
+              "zh": "谢谢，我们会联系您，沟通游戏版本中的 10 个道具检查。测试前确认要求、支持、证据、分工、是否可安排、使用权限和费用。申请不会开通 API。"
+            }
+          },
+          "footer": {
+            "en": "A generated file is not an approved game asset; your team reviews and accepts the final version.",
+            "zh": "生成文件不等于已验收的游戏资产，最终版本由您的团队审核和批准。"
+          }
+        },
+        {
+          "id": "AGE-04",
+          "angleId": "S5",
+          "label": {
+            "en": "Keep approval tied to the build version",
+            "zh": "批准记录与游戏版本对应"
+          },
+          "subject": {
+            "en": "Find the approved prop without retracing edit history",
+            "zh": "找到已批准进关卡的道具,不必重查修改记录"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nWhen a level build needs the approved prop version, your team retraces generation requests, changes and which version passed checks. That search repeats for every asset handover.\n\nYour tools can store request details, changes and approval status with the file. Tripo's API provides task IDs your tools link to version records — letting artists find the approved file without retracing edits.\n• **Tripo API provides task identifiers:** Each generation returns an ID your tools store with asset records.\n• **Your team builds the version system:** Your tools store inputs, changes, level approval and link them to Tripo task IDs.\n\n**To help you evaluate handover time savings,** we'd be happy to help plan a pilot with 10 real assets. Compare time finding approved versions and records artists need for level builds.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n关卡构建需要已批准的道具版本时，团队要重新追溯生成请求、改动、哪个版本通过检查。每次资产交付，这项搜索都要重复。\n\n您的工具可以将请求详情、改动和批准状态存在文件旁。Tripo API提供任务ID，您的工具可以关联到版本记录——让美术能找到已批准文件，无需重新追溯编辑。\n• **Tripo API提供任务标识符：** 每次生成返回一个ID，您的工具与资产记录一起存储。\n• **您的团队构建版本系统：** 您的工具存储输入、改动、关卡批准，并关联Tripo任务ID。\n\n**为了帮您评估交付时间节省，** 我们愿意一起规划用10个真实资产做试点，比较查找已批准版本的时间及美术关卡构建需要的记录。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "The 10-asset test follows the version used in the game build back to its generation request, artist changes and approval record.\n\nYour system must save original requests and retrieved files. The API's task ID, status and output information can help make those links, but the revision history, review decision and selected build version come from your team's records. Your developers build and maintain the connection.\n\nFor each asset, record time to its first approved output. Check what reviewers can find, missing information and who retains it, including failures, retries and rejected props. Count engineering, record maintenance, generation and retry fees, refinement, review and engine checks when comparing the work with your existing process.\n\nBefore testing, agree with Tripo on available data and support, responsibilities, scope, availability, access and fees. Your team determines retention, input-rights and disclosure requirements; the test does not establish ownership or certify compliance.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "10 个资产测试从游戏版本实际使用的文件出发，往回核对生成请求、美术修改和批准记录。\n\n原始请求和取回文件必须保存在您自己的系统里。API 的任务 ID、状态和输出信息可以帮助关联，但修改历史、审核决定和选入游戏的版本，来自团队自己的记录。开发团队负责建立和维护这些关联。\n\n逐个资产记录得到首个通过验收的结果所需的时间。检查审核者能找到什么、哪里缺信息、由谁保留记录，包含失败、重试和未通过的道具。与现有流程比较时，计入工程、记录维护、生成及重试费用、精修、审核和引擎检查。\n\n测试前，与 Tripo 确认可用数据和支持、分工、范围、是否可安排、使用权限和费用。保存期限、输入素材权利和披露要求仍由团队确定；测试不确认权属，也不认证合规。\n\n立即联系我们，安排您的 10 个资产 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "Check the approval trail",
+              "zh": "看看批准记录如何对应"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See task information",
+                "zh": "查看任务信息说明"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/task-query"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Match 10 game props to their approval records",
+              "zh": "核对 10 个游戏道具对应的批准记录"
+            },
+            "description": {
+              "en": "Arrange a 10-asset API test linking requests, revisions and the approved build version in your team's own records.",
+              "zh": "安排 10 个资产 API 测试，在团队自己的记录里关联请求、修改和获准进入游戏的版本。"
+            },
+            "confirmation": {
+              "en": "Thank you. We'll contact you about linking each of the 10 props to the approved file used in your game build. Data, support, records, responsibilities, access and fees will be agreed first. This request does not activate API access or an audit service.",
+              "zh": "谢谢，我们会联系您，沟通如何为这 10 个道具关联游戏中采用的文件版本和批准记录。先确认数据、支持、记录、分工、使用权限和费用。申请不会开通 API 或审计服务。"
+            }
+          },
+          "footer": {
+            "en": "Your team retains the request and approval history; API task data is not a complete audit trail.",
+            "zh": "请求与批准历史由您的团队保留，API 任务数据不是完整审计记录。"
+          }
+        }
+      ],
+      "region": "EU",
+      "productGroup": "AG"
+    },
+    {
+      "id": "AAE",
+      "label": "API · 欧洲3D资产制作",
+      "theme": {
+        "en": "3D asset tools, libraries and production pipelines",
+        "zh": "面向 3D 资产工具、资源库与制作管线负责人"
+      },
+      "image": {
+        "src": "../../assets/v19/concepts/espresso-machine.png",
+        "alt": {
+          "en": "AI-generated object concept for an asset-creation brief",
+          "zh": "用于资产制作需求的 AI 生成物体概念图"
+        },
+        "caption": {
+          "en": "AI-generated visual concept. Not a Tripo API output.",
+          "zh": "AI生成视觉概念图，非 Tripo API 输出。"
+        },
+        "sourceUrl": ""
+      },
+      "form": {
+        "fields": [
+          {
+            "id": "firstName",
+            "label": {
+              "en": "First name",
+              "zh": "名字"
+            }
+          },
+          {
+            "id": "lastName",
+            "label": {
+              "en": "Last name",
+              "zh": "姓氏"
+            }
+          },
+          {
+            "id": "workEmail",
+            "label": {
+              "en": "Work email",
+              "zh": "工作邮箱"
+            }
+          },
+          {
+            "id": "companyName",
+            "label": {
+              "en": "Company name",
+              "zh": "公司名称"
+            }
+          },
+          {
+            "id": "jobTitle",
+            "label": {
+              "en": "Job title",
+              "zh": "职位"
+            }
+          }
+        ],
+        "privacyUrl": "https://www.tripo3d.ai/privacy",
+        "privacyText": {
+          "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+          "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+        },
+        "destination": {
+          "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+          "label": {
+            "en": "Learn More",
+            "zh": "了解更多"
+          }
+        }
+      },
+      "variants": [
+        {
+          "id": "AAE-01",
+          "angleId": "S1",
+          "label": {
+            "en": "Move the next batch into refinement",
+            "zh": "让下一批资产从初版模型继续精修"
+          },
+          "subject": {
+            "en": "Stop building base meshes from scratch for the next delivery",
+            "zh": "下一批交付,别从零搭基础网格"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nThe next delivery batch has objects that all need base geometry built by hand before your artists can refine materials and details.\n\nYour engineering team can put Tripo's API into your production tools. Artists generate starting models through your tools, then refine them for delivery — reducing manual base-mesh work; your team still handles cleanup and approval.\n• **Tripo API provides generation:** Your tools request geometry; the API returns models your artists develop for the delivery.\n• **Your team handles client requirements:** Artists adjust models in your tools, review against delivery standards, and approve what meets client specs.\n\n**To help you evaluate time savings,** we'd be happy to help plan a pilot with 10 real delivery assets. Compare time to first usable base and total time through client approval.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n下一批交付里的物体，都需要美术先手工搭建基础几何体，才能开始精修材质和细节。\n\n您的工程团队可以将Tripo API接入生产工具。美术通过您的工具生成初版模型，再为交付精修——减少手工基础网格工作；清理和验收仍由您的团队负责。\n• **Tripo API提供生成：** 您的工具请求几何体;API返回美术为交付继续开发的模型。\n• **您的团队负责客户要求：** 美术在您的工具中调整模型，按交付标准审核，批准符合客户规格的资产。\n\n**为了帮您评估时间节省，** 我们愿意一起规划用10个真实交付资产做试点，比较获得首个可用基础模型的时间及到客户批准的总时间。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "One delivery brief makes the comparison concrete: 10 objects your team actually has to produce, with the same requirements for both methods.\n\nYour artists can start one set from generated models and use the current workflow for the other. They refine and review both sets against the brief, so the comparison covers the work needed to deliver, not just to generate.\n\nFor each asset, record time to its first useful starting model and its first approved output. Batch totals include generation and retry fees, unsuccessful attempts, modelling and material work, file checks in the target production tool or viewer, review, integration and ongoing maintenance. Quality is assessed on the accepted files. That lets you see which objects need less starting work and which still require substantial repair.\n\nYour team defines the acceptance checklist. Before testing, Tripo and your team would confirm the evaluation work each side performs, available support and records, scope, access and fees. Your team approves the delivery.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "用一份交付需求就能把对比落到实处：团队确实要制作的 10 件物体，两种方法沿用相同要求。\n\n美术可以让一组从生成模型开始，另一组沿用现有工作流；两组都按制作需求精修和审核。比较因此覆盖交付所需的工作，而不只看生成环节。\n\n逐个资产记录拿到首个可用初版、得到首个通过验收的结果各需多长时间。整批投入包含生成与重试费用、失败尝试、建模和材质工作、在目标制作工具或查看器中的文件检查、审核、接入与持续维护。质量按验收通过的文件评估。您能看到哪些物体少做了初始建模，哪些仍需要大量修复。\n\n验收清单由您的团队定义。测试前，双方需确认各自执行的评测、可提供的支持与记录、范围、使用权限和费用，交付批准仍由您的团队决定。\n\n立即联系我们，安排 10 个资产的 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "See the batch test",
+              "zh": "看看整批资产怎么测试"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See the API workflow",
+                "zh": "查看 API 工作流程"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Compare a delivery batch with a 10-asset test",
+              "zh": "用 10 个资产测试对比一批交付"
+            },
+            "description": {
+              "en": "Contact Tripo to compare time, cost and delivered quality on a 10-asset API test using one of your team's real production briefs.",
+              "zh": "联系 Tripo，按团队真实的制作需求规划 10 个资产 API 测试，比较整批交付的时间、成本和质量。"
+            },
+            "confirmation": {
+              "en": "Thank you. Tripo will follow up about your 10-asset batch test. The brief, evaluation roles, available support and records, access and fees need confirmation before starting. Submitting this request does not activate API access.",
+              "zh": "感谢联系。Tripo 将跟进整批 10 个资产的测试。开始前需确认制作需求、评测分工、可提供的支持与记录、使用权限和费用；提交申请不会自动开通 API。"
+            }
+          },
+          "footer": {
+            "en": "Your team refines the generated models and approves the files for delivery.",
+            "zh": "生成模型由您的团队精修，交付文件由团队批准。"
+          }
+        },
+        {
+          "id": "AAE-02",
+          "angleId": "S2",
+          "label": {
+            "en": "Put generation in your next tool release",
+            "zh": "在工具下一次更新中加入生成功能"
+          },
+          "subject": {
+            "en": "Ship the generation feature without model R&D staff",
+            "zh": "交付生成功能,无需模型研发人员"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nYour next tool update needs generation. Building the model internally means staffing R&D alongside your delivery work.\n\nYour engineering team can connect Tripo's API instead. Your team develops the interface, manages requests and maintains the integration — releasing the feature without R&D staff.\n• **Tripo API provides generation:** Your tools send inputs; the API handles generation and returns models.\n• **Your team builds the feature:** Engineers develop the interface, handle async states, manage errors and maintain the integration.\n\n**To help you evaluate implementation cost,** we'd be happy to help plan a pilot. Compare engineering time, maintenance and time to release.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n工具下次更新需要生成功能。内部构建模型意味着在交付工作之外，还要配备研发。\n\n您的工程团队可以接入Tripo API。团队开发界面、管理请求、维护集成——发布功能，无需研发人员。\n• **Tripo API提供生成：** 您的工具发送输入;API处理生成并返回模型。\n• **您的团队构建功能：** 工程师开发界面、处理异步状态、管理错误、维护集成。\n\n**为了帮您评估实施成本，** 我们愿意一起规划试点，比较工程时间、维护和发布时间。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "For your next release, the useful comparison is the complete feature a user will see: a request, its progress, a returned model and the option to keep working on it.\n\nA 10-asset test follows those asynchronous tasks inside your tool: submit the request, track its status and retrieve the output. Tripo runs generation; your developers connect the interface, manage authentication, handle failures and retries, and maintain the feature after release. Your team sets how users refine, review and approve the results.\n\nThe investment includes development and maintenance, generation and retry fees, unsuccessful attempts, artist refinement, file checks in the target production tool or viewer and review. For each asset, record time to its first approved output and total cost, with quality assessed against your requirements.\n\nBefore starting, Tripo and your team would confirm the acceptance checklist, who performs each evaluation, available support and records, scope, access and fees. You retain the product decisions and final approval.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "对下一次更新，值得比较的是用户真正看到的完整功能：发起请求、查看进度、收到模型，再继续制作。\n\n10 个资产的测试可以在自己的工具里走通异步任务：提交请求、跟踪状态，再取回结果。Tripo 运行生成服务；开发团队衔接界面、管理认证、处理失败与重试，并在发布后维护功能。用户如何精修、审核和批准结果，由您的团队设计。\n\n投入包含开发与维护、生成与重试费用、失败尝试、美术精修、在目标制作工具或查看器中的文件检查和审核。逐个资产记录得到首个通过验收的结果所需的时间和总成本，质量按您的要求评估。\n\n开始前，双方需确认验收清单、谁执行各项评测、可提供的支持和记录、范围、使用权限与费用。产品决策与最终批准仍由您掌握。\n\n立即联系我们，安排 10 个资产的 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "See the release test",
+              "zh": "看看新功能怎么测试"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See the API overview",
+                "zh": "查看 API 能力与接入说明"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/introduction"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Plan a 10-asset test for your next release",
+              "zh": "为下一次工具更新规划 10 个资产测试"
+            },
+            "description": {
+              "en": "Plan a 10-asset API test with Tripo to compare the development, running costs and asset quality of a generation feature in your own tool.",
+              "zh": "与 Tripo 规划 10 个资产的 API 测试，比较自己工具中生成功能的开发投入、运行成本与资产质量。"
+            },
+            "confirmation": {
+              "en": "Thank you. Tripo will follow up about your 10-asset feature test. Release scope, evaluation roles, available support and records, access and fees need agreement first. This request does not activate API access.",
+              "zh": "感谢联系。Tripo 将跟进 10 个资产的功能测试。发布范围、评测分工、可提供的支持与记录、使用权限和费用需先确认；提交申请不会自动开通 API。"
+            }
+          },
+          "footer": {
+            "en": "Your team owns the feature and its maintenance; Tripo operates the generation service.",
+            "zh": "功能及其维护由您的团队负责，Tripo 运行生成服务。"
+          }
+        },
+        {
+          "id": "AAE-03",
+          "angleId": "S3",
+          "label": {
+            "en": "One standard for the whole delivery",
+            "zh": "整批交付沿用同一套制作标准"
+          },
+          "subject": {
+            "en": "See rework costs before committing the whole batch",
+            "zh": "看清返工成本,再决定整批采用"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nBefore committing a full delivery batch to AI, you need to see rework on real assets: cleanup, client adjustments and iterations to delivery approval.\n\nYour engineering team puts Tripo's API into your tools. Artists generate models, refine for delivery and test against client standards — measuring complete cost on real assets, not preview images.\n• **Tripo API provides generation:** Your tools request models; the API returns geometry your team refines for delivery.\n• **Your team measures batch quality:** Artists test against delivery checklist: format, client specs, iterations to approval.\n\n**To help you evaluate batch fit,** we propose that Tripo run an agreed evaluation of 10 real assets against your standards and share results. Supported checks, scope and fees need confirmation first.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n在将整批交付交给AI之前，您需要看清真实资产的返工：清理、客户调整、到交付批准的迭代次数。\n\n您的工程团队将Tripo API接入工具。美术生成模型、为交付精修、按客户标准测试——用真实资产测量完整成本，而不是预览图。\n• **Tripo API提供生成：** 您的工具请求模型;API返回团队为交付精修的几何体。\n• **您的团队测量批次质量：** 美术按交付清单测试：格式、客户规格、到批准的迭代次数。\n\n**为了帮您评估批次适配，** 我们建议由Tripo按您的标准及双方约定的范围，对10个真实资产执行评测并分享结果。开始前需确认支持哪些检查、范围和费用。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "The recipient needs files that meet the brief, whether an asset began with generation or manual modelling.\n\nFor a 10-asset test, your team can use the same delivery checklist for both routes. It can cover geometry, topology, polygon count, UVs, materials, scale and the required file formats. Artists refine the models, open them in the intended software, review the results and approve the final files.\n\nFor each asset, compare delivered quality, time to its first approved output and total cost: generation, retries, failed attempts, cleanup, materials, file checks, review, integration and maintenance. Assets that fail a check remain visible in the results rather than disappearing from the totals.\n\nWe propose that Tripo evaluate the assets against your team’s agreed delivery checklist and share the results. Confirm supported checks, scope, availability, access, fees and records before testing. Your team owns integration, artist cleanup and final acceptance.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "接收方需要的是符合制作要求的文件，不论资产最初来自生成还是手工建模。\n\n测试 10 个资产时，两条路线可以沿用团队同一份交付清单，包括几何、拓扑、面数、UV、材质、尺寸和需要的文件格式。美术精修模型，在目标软件中打开文件、审核结果，再批准最终文件。\n\n逐个资产比较交付质量、得到首个通过验收的结果所需的时间和总成本：生成、重试、失败尝试、清理、材质、文件检查、审核、接入和维护。没有通过检查的资产仍保留在结果中，不从汇总里删除。\n\n我们建议由 Tripo 按您的交付清单，执行双方约定的资产评测并分享结果。测试前，确认可支持的检查项、范围、是否可安排、使用权限、费用和记录。接入、美术清理和最终验收仍由您的团队负责。\n\n立即联系我们，安排 10 个资产的 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "See the delivery test",
+              "zh": "看看交付质量怎么测试"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See the API workflow",
+                "zh": "查看 API 工作流程"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Use one delivery checklist for a 10-asset test",
+              "zh": "按同一份交付清单测试 10 个资产"
+            },
+            "description": {
+              "en": "Contact Tripo to plan a 10-asset API test comparing delivered quality, time and total cost under your team's existing acceptance checklist.",
+              "zh": "联系 Tripo，按团队现有验收清单规划 10 个资产 API 测试，比较交付质量、时间与总成本。"
+            },
+            "confirmation": {
+              "en": "Thank you. Tripo will follow up about your 10-asset delivery test. The checklist, evaluation roles, support, records, availability, access and fees need confirmation first. This request does not activate API access.",
+              "zh": "感谢联系。Tripo 将跟进 10 个资产的交付测试。检查清单、评测分工、支持、记录、是否可安排、使用权限和费用需先确认；提交申请不会自动开通 API。"
+            }
+          },
+          "footer": {
+            "en": "Your delivery requirements set the standard, and your team approves the final files.",
+            "zh": "交付要求决定验收标准，最终文件由您的团队批准。"
+          }
+        },
+        {
+          "id": "AAE-04",
+          "angleId": "S5",
+          "label": {
+            "en": "Connect revisions to the approved asset",
+            "zh": "把修改版本关联到最终批准的资产"
+          },
+          "subject": {
+            "en": "Find approved deliverables without retracing changes",
+            "zh": "找到已批准的交付成果,不必重查改动"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nWhen delivering assets, your team retraces generation requests, changes and which version the client approved. That handover search repeats for every delivery.\n\nYour tools can store request details, changes and approval with the file. Tripo's API provides task IDs your tools link to delivery records — letting your team find approved files without retracing changes.\n• **Tripo API provides task identifiers:** Each generation returns an ID your tools store with delivery files.\n• **Your team builds the delivery system:** Your tools store inputs, changes, client approval and link them to Tripo task IDs.\n\n**To help you evaluate handover time savings,** we'd be happy to help plan a pilot with 10 real assets. Compare time finding approved deliverables and records clients need.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n交付资产时，团队要重新追溯生成请求、改动、客户批准的是哪个版本。每次交付，这项交接搜索都要重复。\n\n您的工具可以将请求详情、改动和批准存在文件旁。Tripo API提供任务ID，您的工具可以关联到交付记录——让团队能找到已批准文件，无需重新追溯改动。\n• **Tripo API提供任务标识符：** 每次生成返回一个ID，您的工具与交付文件一起存储。\n• **您的团队构建交付系统：** 您的工具存储输入、改动、客户批准，并关联Tripo任务ID。\n\n**为了帮您评估交接时间节省，** 我们愿意一起规划用10个真实资产做试点，比较查找已批准交付成果的时间及客户需要的记录。\n\n立即联系我们，安排您团队的10个资产试点。"
+          },
+          "followup": {
+            "en": "Once an artist has refined a model, the final file needs to stay connected to the request and the review that approved it.\n\nA 10-asset test can follow those connections inside your own tool. Your developers save the original request and inputs, collect the API task ID and results, then link working versions, review notes and approvals. Tripo supplies generation task information; your system builds and keeps the wider record.\n\nFor each asset, record time to its first approved output. Compare history-retrieval time, asset quality and total cost: integration, record maintenance, generation, retries, unsuccessful attempts, refinement, review and file checks in the intended production tool or viewer. Your team sets input permissions, retention, disclosure and final-use requirements.\n\nBefore testing, both teams would confirm available information, who checks each record, evaluation support, scope, access and fees. Your team approves the asset; API task data is neither a complete audit trail nor proof of rights or compliance.\n\nContact us today to set up your 10-asset API test.",
+            "zh": "美术精修之后，最终文件仍需关联到原始请求，以及批准它的那次审核。\n\n10 个资产的测试可以在自己的工具里核对这些关联。开发团队保存原始请求和输入，收集 API 任务 ID 与结果，再关联工作版本、审核意见和批准记录。Tripo 提供生成任务信息，更完整的记录由自己的系统建立并保存。\n\n逐个资产记录得到首个通过验收的结果所需的时间。比较查找版本历史的时间、资产质量和总成本：接入、记录维护、生成、重试、失败尝试、精修、审核，以及在目标制作工具或查看器中的文件检查。输入素材权限、保存期限、披露和最终用途要求由您的团队确定。\n\n测试前，双方需确认可取得的信息、谁检查各项记录、评测支持、范围、使用权限和费用。资产由您的团队批准；API 任务信息既不是完整审计记录，也不证明权利或合规。\n\n立即联系我们，安排 10 个资产的 API 测试。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Request a 10-asset test",
+              "zh": "申请 10 个资产 API 测试"
+            },
+            "secondary": {
+              "en": "See the handover test",
+              "zh": "看看版本交接怎么测试"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Request a 10-asset test",
+                "zh": "申请 10 个资产 API 测试"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "Read the task query docs",
+                "zh": "查看任务查询文档"
+              },
+              "action": "link",
+              "url": "https://developers.tripo3d.ai/en/docs/task-query"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://developers.tripo3d.ai/en/docs/quick-start",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Connect requests and final versions on 10 assets",
+              "zh": "用 10 个资产关联请求与最终版本"
+            },
+            "description": {
+              "en": "Plan a 10-asset API test with Tripo to compare handover time, costs and quality, with requests, revisions and approvals in your own system.",
+              "zh": "与 Tripo 规划 10 个资产 API 测试，比较交接时间、成本和质量，并在自己的系统中关联请求、修改与批准。"
+            },
+            "confirmation": {
+              "en": "Thank you. Tripo will follow up about your 10-asset handover test. Available data, evaluation support, responsibilities, scope, access and fees need agreement first. This request does not activate API access or certify compliance.",
+              "zh": "感谢联系。Tripo 将跟进 10 个资产的交接测试。可取得的数据、评测支持、双方分工、范围、使用权限和费用需先确认；提交申请不会自动开通 API，也不代表合规认证。"
+            }
+          },
+          "footer": {
+            "en": "Your system keeps the version and approval records; Tripo provides generation task data.",
+            "zh": "版本和批准记录由您的系统保存，Tripo 提供生成任务信息。"
+          }
+        }
+      ],
+      "region": "EU",
+      "productGroup": "AA"
+    }
+  ]
+}
