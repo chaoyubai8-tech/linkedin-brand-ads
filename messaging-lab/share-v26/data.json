@@ -1,5 +1,5 @@
 {
-  "version": "V28",
+  "version": "V29",
   "date": "2026-10-25",
   "note": {
     "en": "Read-only review · US and Europe have separate copy. No messages are sent and no personal information is collected. Test scope, support, access and fees require confirmation.",
@@ -230,7 +230,7 @@
             },
             {
               "label": {
-                "en": "See the character workflow",
+                "en": "See a character workflow",
                 "zh": "查看角色制作示例"
               },
               "action": "link",
@@ -532,6 +532,120 @@
             "en": "Access controls do not approve assets or replace your team's review and disclosure process.",
             "zh": "访问控制不会自动批准资产，也不能替代团队的审核和披露流程。"
           }
+        },
+        {
+          "id": "TU-05",
+          "angleId": "CORE",
+          "label": {
+            "en": "Core pitch: one team workspace",
+            "zh": "核心版：团队共用一个工作区"
+          },
+          "subject": {
+            "en": "Keep your game's asset queue moving with AI 3D",
+            "zh": "游戏资产需求越来越多，团队用 AI 3D 跟上"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nEvery character or weapon request that becomes another handoff costs your team time before production starts, and the handoffs multiply as your asset list grows. With AI 3D in a shared workspace, artists can start from first-pass models sooner and find teammates' work without asking for files.\n\nTripo Studio Team Plan gives your team one workspace for first-pass 3D assets, pooled credits and controlled access. Artists generate from text or images, continue in Blender, Unity or Unreal, and keep reviewed work available for reuse.\n• **Tripo keeps the team's 3D work together:** Models, credits and member access in one workspace.\n• **Your artists still decide what ships:** They refine, review and approve every asset for the game.\n\n**To help you evaluate the ROI,** we'd be happy to help plan a pilot with 10 live characters or props. Compare time to first useful model, cleanup, review and reuse with your current process.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n每个角色或武器需求，如果都变成又一次交接，您的团队在正式制作前就会耗掉时间；游戏资产清单越长，这样的交接越多。把 AI 生成 3D 放进共享工作区，美术可以更早拿到初版模型，也能直接找到同事的成果，不用再找人要文件。\n\nTripo Studio Team Plan 为您的团队提供一个工作区，集中管理初版 3D 资产、共享积分和成员权限。美术用文字或图片生成，再到 Blender、Unity 或 Unreal 中继续制作，审核过的成果留在工作区里供团队复用。\n• **Tripo 把团队的 3D 工作放在一起：** 模型、积分池和成员权限都在同一个工作区。\n• **哪些资产上线，仍由美术决定：** 他们负责精修、审核，并批准进入游戏的每个资产。\n\n**为了帮您评估投入回报，** 我们愿意一起规划用 10 个正在制作的角色或道具做试点，与现有流程对比首个可用模型的时间、清理、审核和复用情况。\n\n立即联系我们，安排您团队的 10 个资产试点。"
+          },
+          "followup": {
+            "en": "The pilot uses work your team already has to deliver: 10 live characters or props from your current project.\n\nFor each asset, we'd be happy to help you track:\n• Generation, retries, artist refinement and review time, from request to approval.\n• Whether another teammate can find and reuse the result, and how many file handoffs it took.\n\nOnly assets that pass your project checks count. Comparing time, cost and quality with your current process shows where the shared workspace saves work and where your current process is still the better fit.\n\nGenerated outputs are starting points; your team remains responsible for refinement, approval and final use in the project. Before starting, Tripo and your team need to agree the asset list, available support, who records the results, access and fees.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "试点用的是您的团队本来就要交付的工作：当前项目里 10 个正在制作的角色或道具。\n\n我们愿意协助您逐个记录：\n• 从需求到批准，生成、重试、美术精修和审核各花了多少时间。\n• 其他同事能否找到并复用这个成果，中间经过了几次文件交接。\n\n只有通过项目检查的资产才算数。与现有流程对比工时、成本和质量，就能看清共享工作区在哪里省了工作，哪里仍是现有流程更合适。\n\n生成结果只是制作起点，精修、批准和在项目中的最终使用仍由您的团队负责。开始前，Tripo 与您的团队需确认资产清单、可提供的支持、由谁记录结果、使用权限和费用。\n\n立即联系我们，安排您团队的 10 个资产试点。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Plan a 10-asset pilot",
+              "zh": "安排 10 个资产试点"
+            },
+            "secondary": {
+              "en": "See how the team works",
+              "zh": "看看团队怎样协作"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Plan a 10-asset pilot",
+                "zh": "安排 10 个资产试点"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See Team Plan",
+                "zh": "查看团队方案"
+              },
+              "action": "link",
+              "url": "https://www.tripo3d.ai/programs/team-program"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://www.tripo3d.ai/programs/team-program",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Plan a 10-asset team pilot",
+              "zh": "规划 10 个资产的团队试点"
+            },
+            "description": {
+              "en": "Pilot Team Plan on 10 live characters or props from your project. Compare time to first useful model, cleanup, review and reuse with your current process.",
+              "zh": "用项目里 10 个正在制作的角色或道具试用 Team Plan，与现有流程对比首个可用模型的时间、清理、审核和复用。"
+            },
+            "confirmation": {
+              "en": "Thanks for contacting Tripo. We'll follow up to plan your team's 10-asset pilot. Scope, support, responsibilities, access and fees need agreement before starting. This request does not activate a trial.",
+              "zh": "感谢联系 Tripo。我们将跟进您团队的 10 个资产试点。开始前需确认范围、支持、分工、使用权限和费用。提交申请不会自动开通试用。"
+            }
+          },
+          "footer": {
+            "en": "Generated outputs are starting points. Your team remains responsible for refinement, approval, and final use in the project.",
+            "zh": "生成结果只是制作起点，精修、批准和在项目中的最终使用仍由您的团队负责。"
+          }
         }
       ],
       "region": "US",
@@ -832,8 +946,8 @@
             }
           },
           "footer": {
-            "en": "Using the generation service does not remove your team's integration or maintenance work.",
-            "zh": "使用生成服务，不代表团队无需接入或维护集成。"
+            "en": "Tripo provides the generation layer. Your team builds the integration and approves the outputs.",
+            "zh": "Tripo 提供生成层；集成由您的团队搭建，产出也由您的团队批准。"
           }
         },
         {
@@ -1363,8 +1477,8 @@
             }
           },
           "footer": {
-            "en": "Your developers build and maintain the integration; Tripo provides the generation service.",
-            "zh": "开发团队负责接入和维护，Tripo 提供生成服务。"
+            "en": "Tripo provides the generation layer. Your team builds the integration and approves the outputs.",
+            "zh": "Tripo 提供生成层；集成由您的团队搭建，产出也由您的团队批准。"
           }
         },
         {
@@ -1809,7 +1923,7 @@
               "zh": "安排 10 个资产试点"
             },
             "secondary": {
-              "en": "See the character workflow",
+              "en": "See a character workflow",
               "zh": "看看角色从生成到验收"
             }
           },
@@ -1823,7 +1937,7 @@
             },
             {
               "label": {
-                "en": "See the character workflow",
+                "en": "See a character workflow",
                 "zh": "查看角色制作示例"
               },
               "action": "link",
@@ -2125,6 +2239,120 @@
             "en": "Member access and project approval are separate; your team remains responsible for review and final use.",
             "zh": "成员访问权限与项目验收是两件事，审核和最终使用仍由您的团队负责。"
           }
+        },
+        {
+          "id": "TE-05",
+          "angleId": "CORE",
+          "label": {
+            "en": "Core pitch: one team workspace",
+            "zh": "核心版：团队共用一个工作区"
+          },
+          "subject": {
+            "en": "One AI 3D workspace for your whole game team",
+            "zh": "整个游戏团队，共用一个 AI 3D 工作区"
+          },
+          "intro": {
+            "en": "Hi %FIRSTNAME%,\n\nWhen every character or weapon request for the next milestone becomes another handoff, your team loses time before production even starts. AI 3D in a shared workspace can shorten that: artists start from a generated model and pick up approved work from teammates without chasing files.\n\nTripo Studio Team Plan puts first-pass 3D assets, pooled credits and controlled access in one workspace. Artists generate from text or images, continue in Blender, Unity or Unreal, and keep reviewed models available for reuse across scenes.\n• **Tripo brings the team's 3D work together:** Shared models, credits and member access in one place.\n• **Your artists decide what ships:** They refine, review and approve every asset for the game.\n\n**To help you evaluate the work involved,** we'd be happy to help plan a pilot with 10 live characters or props. Compare time to first useful model, cleanup, review and reuse with your current workflow.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "%FIRSTNAME%，您好，\n\n下一个里程碑里，每个角色或武器需求都多一次交接的话，还没开始制作，您团队的时间就先耗掉了。把 AI 生成 3D 放进共享工作区，可以缩短这一段：美术从生成模型起步，同事批准过的成果也能直接找到，不用再四处要文件。\n\nTripo Studio Team Plan 把初版 3D 资产、共享积分和成员权限放在同一个工作区。美术用文字或图片生成，再到 Blender、Unity 或 Unreal 中继续制作，审核过的模型留在工作区里，换个场景也能复用。\n• **Tripo 把团队的 3D 工作集中起来：** 共享模型、积分和成员权限都在一处。\n• **哪些资产上线，由美术决定：** 他们负责精修、审核，并批准用于游戏的每个资产。\n\n**为了帮您评估实际投入，** 我们愿意一起规划用 10 个正在制作的角色或道具做试点，与现有流程对比首个可用模型的时间、清理、审核和复用情况。\n\n立即联系我们，安排您团队的 10 个资产试点。"
+          },
+          "followup": {
+            "en": "The pilot works best with work already on your team's plate: 10 live characters or props from the current milestone.\n\nTogether with your producer or lead artist, we'd be happy to help track:\n• Generation, retries, artist refinement and review time for each asset.\n• Whether a second artist can find and reuse the approved result, and how many handoffs that took.\n\nOnly assets that pass your project checks count as finished. Comparing time, cost and quality with your current workflow shows where the shared workspace saves work and where it doesn't.\n\nGenerated outputs are starting points; your team remains responsible for refinement, approval and final use in the project. Before starting, Tripo and your team need to agree the asset list, available support, who records the results, access and fees.\n\nContact us today to set up your team's 10-asset pilot.",
+            "zh": "试点最好用团队手上的工作：当前里程碑里 10 个正在制作的角色或道具。\n\n我们愿意和您的制作人或主美一起，逐个记录：\n• 每个资产的生成、重试、美术精修和审核时间。\n• 另一位美术能否找到并复用已批准的成果，中间经过了几次交接。\n\n只有通过项目检查的资产才算完成。与现有流程对比工时、成本和质量，就能看出共享工作区在哪里省了工作、在哪里没有。\n\n生成结果只是制作起点，精修、批准和在项目中的最终使用仍由您的团队负责。开始前，Tripo 与您的团队需确认资产清单、可提供的支持、由谁记录结果、使用权限和费用。\n\n立即联系我们，安排您团队的 10 个资产试点。"
+          },
+          "buttons": {
+            "primary": {
+              "en": "Plan a 10-asset pilot",
+              "zh": "安排 10 个资产试点"
+            },
+            "secondary": {
+              "en": "See how sharing works",
+              "zh": "看看团队怎样共享成果"
+            }
+          },
+          "followupButtons": [
+            {
+              "label": {
+                "en": "Plan a 10-asset pilot",
+                "zh": "安排 10 个资产试点"
+              },
+              "action": "form"
+            },
+            {
+              "label": {
+                "en": "See Team Plan",
+                "zh": "查看团队方案"
+              },
+              "action": "link",
+              "url": "https://www.tripo3d.ai/programs/team-program"
+            }
+          ],
+          "form": {
+            "fields": [
+              {
+                "id": "firstName",
+                "label": {
+                  "en": "First name",
+                  "zh": "名字"
+                }
+              },
+              {
+                "id": "lastName",
+                "label": {
+                  "en": "Last name",
+                  "zh": "姓氏"
+                }
+              },
+              {
+                "id": "workEmail",
+                "label": {
+                  "en": "Work email",
+                  "zh": "工作邮箱"
+                }
+              },
+              {
+                "id": "companyName",
+                "label": {
+                  "en": "Company name",
+                  "zh": "公司名称"
+                }
+              },
+              {
+                "id": "jobTitle",
+                "label": {
+                  "en": "Job title",
+                  "zh": "职位"
+                }
+              }
+            ],
+            "privacyUrl": "https://www.tripo3d.ai/privacy",
+            "privacyText": {
+              "en": "Tripo will use your details to respond to this enquiry. See our Privacy Policy.",
+              "zh": "Tripo 将使用这些信息回复本次咨询。请查看隐私政策。"
+            },
+            "destination": {
+              "url": "https://www.tripo3d.ai/programs/team-program",
+              "label": {
+                "en": "Learn More",
+                "zh": "了解更多"
+              }
+            },
+            "title": {
+              "en": "Plan a 10-asset pilot for your game team",
+              "zh": "为游戏团队规划 10 个资产试点"
+            },
+            "description": {
+              "en": "Pilot Team Plan on 10 live characters or props from your current milestone, comparing time to first useful model, cleanup, review and reuse.",
+              "zh": "用当前里程碑里 10 个正在制作的角色或道具试用 Team Plan，对比首个可用模型的时间、清理、审核和复用。"
+            },
+            "confirmation": {
+              "en": "Thank you. We'll be in touch to plan your team's 10-asset pilot. Scope, support, responsibilities, access and fees need agreement before starting. This request does not activate a trial.",
+              "zh": "谢谢，我们会联系您规划团队的 10 个资产试点。开始前需确认范围、支持、分工、使用权限和费用。提交申请不会自动开通试用。"
+            }
+          },
+          "footer": {
+            "en": "Generated outputs are starting points; your team remains responsible for refinement, approval and final use in the project.",
+            "zh": "生成结果只是制作起点，精修、批准和在项目中的最终使用仍由您的团队负责。"
+          }
         }
       ],
       "region": "EU",
@@ -2425,8 +2653,8 @@
             }
           },
           "footer": {
-            "en": "The API supplies generation, while your developers own the feature integration and its maintenance.",
-            "zh": "API 提供生成能力，功能接入与维护由您的开发团队负责。"
+            "en": "Tripo provides the generation layer. Your team builds the integration and approves the outputs.",
+            "zh": "Tripo 提供生成层；集成由您的团队搭建，产出也由您的团队批准。"
           }
         },
         {
@@ -2956,8 +3184,8 @@
             }
           },
           "footer": {
-            "en": "Your team owns the feature and its maintenance; Tripo operates the generation service.",
-            "zh": "功能及其维护由您的团队负责，Tripo 运行生成服务。"
+            "en": "Tripo provides the generation layer. Your team builds the integration and approves the outputs.",
+            "zh": "Tripo 提供生成层；集成由您的团队搭建，产出也由您的团队批准。"
           }
         },
         {

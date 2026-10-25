@@ -75,7 +75,7 @@
   function compareHtml(group,languages){
     const base=data.groups.find(item=>item.id===group.groupId), lang=state.lang==='en'?'en':'zh';
     const versions=base.variants.map(variant=>resolveVariant(base,variant));
-    return `<p class="compare-note">${lang==='en'?'Four versions for the selected region. One benefit per version, each with its own follow-up, lead form and confirmation.':'当前地区的 4 个版本，每篇聚焦一个卖点，各自有完整的后续、留资表单与确认文案。'}</p>${versions.map(version=>`<section class="compare-version" data-compare-version="${esc(version.id)}"><header class="compare-heading"><h3>${esc(version.id)} · ${esc(variantName(version,lang))}</h3><div class="compare-actions"><button type="button" data-open-variant="${esc(version.id)}">${lang==='en'?'Preview this version':'预览这一版'}</button><button type="button" data-open-flow="${esc(version.id)}">${lang==='en'?'View full flow':'查看本版完整流程'}</button></div></header><div class="bilingual ${languages.length===1?'single':''}">${languages.map(language=>`<section class="language-panel" lang="${language==='zh'?'zh-CN':'en'}"><h4 class="language-label">${copyLabel[language]}</h4><article class="message"><div class="message-subject"><small>${language==='en'?'Subject':'主题'}</small><h3>${esc(text(version.subject,language))}</h3></div><div class="message-content"><div class="prose">${prose(text(version.intro,language))}</div>${footerHtml(version,language)}</div></article></section>`).join('')}</div></section>`).join('')}`;
+    return `<p class="compare-note">${lang==='en'?`${versions.length} versions for this group, each with its own follow-up, lead form and confirmation.`:`当前人群的 ${versions.length} 个版本，每篇都有完整的后续、留资表单与确认文案。`}</p>${versions.map(version=>`<section class="compare-version" data-compare-version="${esc(version.id)}"><header class="compare-heading"><h3>${esc(version.id)} · ${esc(variantName(version,lang))}</h3><div class="compare-actions"><button type="button" data-open-variant="${esc(version.id)}">${lang==='en'?'Preview this version':'预览这一版'}</button><button type="button" data-open-flow="${esc(version.id)}">${lang==='en'?'View full flow':'查看本版完整流程'}</button></div></header><div class="bilingual ${languages.length===1?'single':''}">${languages.map(language=>`<section class="language-panel" lang="${language==='zh'?'zh-CN':'en'}"><h4 class="language-label">${copyLabel[language]}</h4><article class="message"><div class="message-subject"><small>${language==='en'?'Subject':'主题'}</small><h3>${esc(text(version.subject,language))}</h3></div><div class="message-content"><div class="prose">${prose(text(version.intro,language))}</div>${footerHtml(version,language)}</div></article></section>`).join('')}</div></section>`).join('')}`;
   }
   function bindImages(root){ root.querySelectorAll('.ad-image img').forEach(img=>{ img.addEventListener('error',()=>{const fallback=document.createElement('div');fallback.className='image-fallback';fallback.textContent=img.closest('[lang]')?.lang==='en'?'Image unavailable. Please retry later.':'图片暂时无法加载，请稍后重试。';img.replaceWith(fallback);},{once:true}); }); }
   function render(){
@@ -93,7 +93,7 @@
     const languages=visibleLanguages();
     $('content').innerHTML=state.view==='compare'?compareHtml(g,languages):state.view==='flow'?flowHtml(g,languages):`<div class="bilingual ${languages.length===1?'single':''}">${languages.map(lang=>panel(g,state.node,lang)).join('')}</div>`;
     bindImages($('content'));
-    document.title=`${g.id} · ${g.label} · Tripo 站内信 V28`;
+    document.title=`${g.id} · ${g.label} · Tripo 站内信 V29`;
   }
   function focusReview(){ $('review').focus({preventScroll:true});$('review').scrollIntoView({block:'start',behavior:'auto'}); }
   function focusNode(){ $('content').focus({preventScroll:true}); $('content').scrollIntoView({block:'start',behavior:'auto'}); }
@@ -107,15 +107,15 @@
     catch { $('copy-text').value=value;$('copy-dialog').showModal();$('copy-text').focus();$('copy-text').select(); }
   }
   function download(){
-    const g=currentGroup(), content=`Tripo 领英站内信 · V28\n${data.date || ''}\n\n${groupText(g,'en')}\n\n${'—'.repeat(30)}\n\n${groupText(g,'zh')}\n\n${text(data.note,'zh')}`;
-    const blob=new Blob(['\ufeff',content],{type:'text/plain;charset=utf-8'}), url=URL.createObjectURL(blob), a=document.createElement('a');a.href=url;a.download=`Tripo-V28-${g.id}-EN-ZH.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);announce('已下载本版中英双语文案');
+    const g=currentGroup(), content=`Tripo 领英站内信 · V29\n${data.date || ''}\n\n${groupText(g,'en')}\n\n${'—'.repeat(30)}\n\n${groupText(g,'zh')}\n\n${text(data.note,'zh')}`;
+    const blob=new Blob(['\ufeff',content],{type:'text/plain;charset=utf-8'}), url=URL.createObjectURL(blob), a=document.createElement('a');a.href=url;a.download=`Tripo-V29-${g.id}-EN-ZH.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);announce('已下载本版中英双语文案');
   }
   function downloadAll(){
-    const content=`Tripo 领英站内信 · V28 · 全部 24 版\n${data.date || ''}\n\n${allVariants().map(group=>groupText(group,'en')+'\n\n'+groupText(group,'zh')).join('\n\n'+'═'.repeat(40)+'\n\n')}\n\n${text(data.note,'zh')}`;
-    const blob=new Blob(['\ufeff',content],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='Tripo-V28-All-24-EN-ZH.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);announce('已下载全部 24 版中英双语文案');
+    const content=`Tripo 领英站内信 · V29 · 全部 ${allVariants().length} 版\n${data.date || ''}\n\n${allVariants().map(group=>groupText(group,'en')+'\n\n'+groupText(group,'zh')).join('\n\n'+'═'.repeat(40)+'\n\n')}\n\n${text(data.note,'zh')}`;
+    const blob=new Blob(['\ufeff',content],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`Tripo-V29-All-${allVariants().length}-EN-ZH.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);announce(`已下载全部 ${allVariants().length} 版中英双语文案`);
   }
   function makePrint(){
-    $('print-document').innerHTML=allVariants().map(group=>`<article><h1>Tripo 领英站内信 · V28</h1><p class="print-meta">${esc(group.id)} · ${esc(variantName(group,'zh'))} · ${esc(group.label)} · ${esc(data.date || '')}</p>${flowHtml(group,['en','zh'],true)}<p class="print-meta">${esc(text(data.note,'zh'))}</p></article>`).join('');
+    $('print-document').innerHTML=allVariants().map(group=>`<article><h1>Tripo 领英站内信 · V29</h1><p class="print-meta">${esc(group.id)} · ${esc(variantName(group,'zh'))} · ${esc(group.label)} · ${esc(data.date || '')}</p>${flowHtml(group,['en','zh'],true)}<p class="print-meta">${esc(text(data.note,'zh'))}</p></article>`).join('');
     $('print-document').querySelectorAll('img').forEach(img=>img.loading='eager');bindImages($('print-document'));
   }
   async function printAll(){
@@ -131,9 +131,9 @@
       const result=await response.json();
       const bilingual=value=>['en','zh'].every(lang=>typeof value?.[lang]==='string'&&value[lang].trim());
       const validResolved=variant=>variant.id&&bilingual(variant.variantLabel)&&bilingual(variant.subject)&&bilingual(variant.intro)&&bilingual(variant.followup)&&bilingual(variant.footer)&&bilingual(variant.buttons?.primary)&&bilingual(variant.buttons?.secondary)&&Array.isArray(variant.followupButtons)&&variant.followupButtons.length>0&&variant.followupButtons.every(button=>bilingual(button.label)&&['form','link'].includes(button.action)&&(button.action!=='link'||validLink(button.url)))&&bilingual(variant.form?.title)&&bilingual(variant.form?.description)&&bilingual(variant.form?.confirmation)&&Array.isArray(variant.form?.fields)&&variant.form.fields.length>0&&variant.form.fields.every(field=>bilingual(field.label));
-      const identities={TU:['US','TG'],TE:['EU','TG'],AGU:['US','AG'],AGE:['EU','AG'],AAU:['US','AA'],AAE:['EU','AA']};
-      if(!Array.isArray(result.groups)||result.groups.length!==6||result.groups.map(group=>group.id).sort().join(',')!==Object.keys(identities).sort().join(',')||result.groups.some(group=>group.region!==identities[group.id]?.[0]||group.productGroup!==identities[group.id]?.[1]||typeof group.label!=='string'||!bilingual(group.theme)||!Array.isArray(group.variants)||group.variants.length!==4||group.variants.some(variant=>!validResolved(resolveVariant(group,variant))))||new Set(result.groups.flatMap(group=>group.variants.map(variant=>variant.id))).size!==24)throw new Error('Invalid content');
-      data=result;readHash();render();$('site-note').textContent=text(data.note,'zh') || '审稿预览 · 不会发送消息或收集信息。';$('edition').textContent=`美国／欧洲独立文案 · 6 组 × 4 版 · 每篇一个卖点 · ${data.date || '中英双语'}`;$('load-state').hidden=true;$('app').hidden=false;makePrint();
+      const identities={TU:['US','TG',5],TE:['EU','TG',5],AGU:['US','AG',4],AGE:['EU','AG',4],AAU:['US','AA',4],AAE:['EU','AA',4]};
+      if(!Array.isArray(result.groups)||result.groups.length!==6||result.groups.map(group=>group.id).sort().join(',')!==Object.keys(identities).sort().join(',')||result.groups.some(group=>group.region!==identities[group.id]?.[0]||group.productGroup!==identities[group.id]?.[1]||typeof group.label!=='string'||!bilingual(group.theme)||!Array.isArray(group.variants)||group.variants.length!==identities[group.id]?.[2]||group.variants.some(variant=>!validResolved(resolveVariant(group,variant))))||new Set(result.groups.flatMap(group=>group.variants.map(variant=>variant.id))).size!==26)throw new Error('Invalid content');
+      data=result;readHash();render();$('site-note').textContent=text(data.note,'zh') || '审稿预览 · 不会发送消息或收集信息。';$('edition').textContent=`美国／欧洲独立文案 · 6 组 26 版 · Teams 每组含 1 篇核心版 · ${data.date || '中英双语'}`;$('load-state').hidden=true;$('app').hidden=false;makePrint();
     } catch(error) { $('load-state').className='error';$('load-state').innerHTML='<p>暂时无法加载文案。请检查网络后重试。</p><button type="button" id="retry">重新加载</button>';$('retry').addEventListener('click',load); }
     finally {clearTimeout(timeout);}
   }
