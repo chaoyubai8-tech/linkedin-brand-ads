@@ -93,7 +93,7 @@
     const languages=visibleLanguages();
     $('content').innerHTML=state.view==='compare'?compareHtml(g,languages):state.view==='flow'?flowHtml(g,languages):`<div class="bilingual ${languages.length===1?'single':''}">${languages.map(lang=>panel(g,state.node,lang)).join('')}</div>`;
     bindImages($('content'));
-    document.title=`${g.id} · ${g.label} · Tripo 站内信 V30`;
+    document.title=`${g.id} · ${g.label} · Tripo 站内信 V31`;
   }
   function focusReview(){ $('review').focus({preventScroll:true});$('review').scrollIntoView({block:'start',behavior:'auto'}); }
   function focusNode(){ $('content').focus({preventScroll:true}); $('content').scrollIntoView({block:'start',behavior:'auto'}); }
@@ -107,15 +107,15 @@
     catch { $('copy-text').value=value;$('copy-dialog').showModal();$('copy-text').focus();$('copy-text').select(); }
   }
   function download(){
-    const g=currentGroup(), content=`Tripo 领英站内信 · V30\n${data.date || ''}\n\n${groupText(g,'en')}\n\n${'—'.repeat(30)}\n\n${groupText(g,'zh')}\n\n${text(data.note,'zh')}`;
-    const blob=new Blob(['\ufeff',content],{type:'text/plain;charset=utf-8'}), url=URL.createObjectURL(blob), a=document.createElement('a');a.href=url;a.download=`Tripo-V30-${g.id}-EN-ZH.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);announce('已下载本版中英双语文案');
+    const g=currentGroup(), content=`Tripo 领英站内信 · V31\n${data.date || ''}\n\n${groupText(g,'en')}\n\n${'—'.repeat(30)}\n\n${groupText(g,'zh')}\n\n${text(data.note,'zh')}`;
+    const blob=new Blob(['\ufeff',content],{type:'text/plain;charset=utf-8'}), url=URL.createObjectURL(blob), a=document.createElement('a');a.href=url;a.download=`Tripo-V31-${g.id}-EN-ZH.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);announce('已下载本版中英双语文案');
   }
   function downloadAll(){
-    const content=`Tripo 领英站内信 · V30 · 全部 ${allVariants().length} 版\n${data.date || ''}\n\n${allVariants().map(group=>groupText(group,'en')+'\n\n'+groupText(group,'zh')).join('\n\n'+'═'.repeat(40)+'\n\n')}\n\n${text(data.note,'zh')}`;
-    const blob=new Blob(['\ufeff',content],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`Tripo-V30-All-${allVariants().length}-EN-ZH.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);announce(`已下载全部 ${allVariants().length} 版中英双语文案`);
+    const content=`Tripo 领英站内信 · V31 · 全部 ${allVariants().length} 版\n${data.date || ''}\n\n${allVariants().map(group=>groupText(group,'en')+'\n\n'+groupText(group,'zh')).join('\n\n'+'═'.repeat(40)+'\n\n')}\n\n${text(data.note,'zh')}`;
+    const blob=new Blob(['\ufeff',content],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`Tripo-V31-All-${allVariants().length}-EN-ZH.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);announce(`已下载全部 ${allVariants().length} 版中英双语文案`);
   }
   function makePrint(){
-    $('print-document').innerHTML=allVariants().map(group=>`<article><h1>Tripo 领英站内信 · V30</h1><p class="print-meta">${esc(group.id)} · ${esc(variantName(group,'zh'))} · ${esc(group.label)} · ${esc(data.date || '')}</p>${flowHtml(group,['en','zh'],true)}<p class="print-meta">${esc(text(data.note,'zh'))}</p></article>`).join('');
+    $('print-document').innerHTML=allVariants().map(group=>`<article><h1>Tripo 领英站内信 · V31</h1><p class="print-meta">${esc(group.id)} · ${esc(variantName(group,'zh'))} · ${esc(group.label)} · ${esc(data.date || '')}</p>${flowHtml(group,['en','zh'],true)}<p class="print-meta">${esc(text(data.note,'zh'))}</p></article>`).join('');
     $('print-document').querySelectorAll('img').forEach(img=>img.loading='eager');bindImages($('print-document'));
   }
   async function printAll(){

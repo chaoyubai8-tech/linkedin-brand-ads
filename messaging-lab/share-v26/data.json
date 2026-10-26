@@ -1,6 +1,6 @@
 {
-  "version": "V30",
-  "date": "2026-10-25",
+  "version": "V31",
+  "date": "2026-10-26",
   "note": {
     "en": "Read-only review · US and Europe have separate copy. No messages are sent and no personal information is collected. Test scope, support, access and fees require confirmation.",
     "zh": "审稿预览 · 美国与欧洲独立文案，不发送消息或收集信息。测试范围、支持、使用权限及费用需另行确认。"
@@ -85,8 +85,8 @@
             "zh": "少从零建模"
           },
           "subject": {
-            "en": "Cut from-scratch modeling on your next update's props",
-            "zh": "下一版更新的道具，少做从零建模"
+            "en": "AI 3D lets your game team skip modeling props from scratch",
+            "zh": "用 AI 3D，您的游戏团队不用每个道具都从零建模"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nEach game update has a long list of props, and with AI 3D your team can get more of them in. Artists can start each prop from a generated model instead of building the first shape by hand, and spend that time on game-specific details.\n\nWith Tripo Studio Team Plan, artists generate first-pass models from text or images in one shared workspace, then continue in Blender, Unity or Unreal.\n• **Tripo handles the first pass:** Artists get a starting model for each prop on the list.\n• **Your team keeps creative control:** Artists refine shape and materials, review the result and decide what ships.\n\n**To help you evaluate the ROI,** we'd be happy to help plan a pilot with 10 live props. Compare time to first useful model, cleanup, review and total cost with your current process.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -199,8 +199,8 @@
             "zh": "从生成到游戏验收"
           },
           "subject": {
-            "en": "Know which AI props will pass your game's checks",
-            "zh": "哪些 AI 道具能过游戏验收，先弄清楚"
+            "en": "Find out which AI 3D props pass your game team's checks",
+            "zh": "先弄清哪些 AI 3D 道具能过您游戏团队的验收"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nYour team can make more props with AI 3D, but each one still has to pass your game's checks. Before using generated props more widely, you need to know which ones pass and what each takes to finish.\n\nWith Tripo Studio Team Plan, artists generate starting models and take them through the same refinement and engine checks as any other asset. Tripo's game-character walkthrough shows that path through assembly, rigging and engine testing.\n• **Tripo provides the starting model:** Artists get a base to develop for the game.\n• **Your team sets the standard:** Your checklist covers style, topology, materials and engine results; your team approves.\n\n**To help you evaluate project fit,** we propose that Tripo run an agreed evaluation of 10 real assets against your checklist and share the results. Supported checks, scope and fees need confirmation first.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -313,8 +313,8 @@
             "zh": "共享复用，减少重复交接"
           },
           "subject": {
-            "en": "Don't rebuild the AI props your team already approved",
-            "zh": "团队用 AI 做出的道具，别在下一版又重做"
+            "en": "Your game team shouldn't rebuild props it already approved",
+            "zh": "您的游戏团队，不该重做已经批准过的道具"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nWith several artists on your team generating 3D with AI, each update can get more props. If those models sit in separate accounts, though, approved ones are hard to find, and the next update may build them all over again.\n\nWith Tripo Studio Team Plan, models generated in team mode go into a shared library, with pooled credits and member usage alongside.\n• **Tripo keeps team resources in one place:** Artists find shared models under your visibility settings; admins see the credit pool and each member's usage.\n• **Your team decides what gets reused:** Your review process identifies approved work, and artists check any changes for the next build.\n\n**To help you evaluate the ROI,** we'd be happy to help plan a pilot with 10 real assets. Compare reuse, handoffs, admin time and final quality with your current workflow.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -427,8 +427,8 @@
             "zh": "团队访问控制与审核责任"
           },
           "subject": {
-            "en": "Give every artist their own AI 3D access",
-            "zh": "每位美术，各有自己的 AI 3D 权限"
+            "en": "Stop sharing one AI 3D account across your game team",
+            "zh": "您的游戏团队，别再共用一个 AI 3D 账号"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nWhen your whole art team can generate 3D with AI, each artist needs their own access. With one shared login, every join or departure means a password reset, and you can't see who used which credits.\n\nWith Tripo Studio Team Plan, each teammate has their own access, while admins manage roles, visibility and usage in one workspace.\n• **Tripo provides the controls:** Admins invite members, change roles, remove access and set what each person can see.\n• **Your team owns review and approval:** Who checks and approves game assets stays in your existing production workflow.\n\n**To help you evaluate the setup,** we'd be happy to help plan a pilot with 10 real game assets. Compare admin time and total cost, and check that approved assets still meet your standards.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -541,8 +541,8 @@
             "zh": "核心版：团队共用一个工作区"
           },
           "subject": {
-            "en": "Keep your game's asset queue moving with AI 3D",
-            "zh": "游戏资产需求越来越多，团队用 AI 3D 跟上"
+            "en": "Give your game team one AI 3D workspace and fewer handoffs",
+            "zh": "给您的游戏团队一个 AI 3D 工作区，少些文件交接"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nEvery character or weapon request that becomes another handoff costs your team time before production starts. With AI 3D in a shared workspace, artists can start from first-pass models sooner and find teammates' work without asking for files.\n\nTripo Studio Team Plan gives your team one workspace for first-pass 3D assets, pooled credits and controlled access. Artists continue in Blender, Unity or Unreal and keep reviewed work available for reuse.\n• **Tripo keeps the team's 3D work together:** Models, credits and member access in one workspace.\n• **Your artists still decide what ships:** They refine, review and approve every asset for the game.\n\n**To help you evaluate the ROI,** we'd be happy to help plan a pilot with 10 live characters or props. Compare time to first useful model, cleanup, review and reuse with your current process.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -730,8 +730,8 @@
             "zh": "减少道具初版建模工作"
           },
           "subject": {
-            "en": "Cut from-scratch modeling inside your game's asset tool",
-            "zh": "在自家资产工具里，少做从零建模"
+            "en": "Let your game artists start props from AI 3D in your tools",
+            "zh": "让您的游戏美术在自家工具里用 AI 3D 起步做道具"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nProps for each game update can come together faster with AI 3D, and your team can build generation into the asset tool artists already use. Then they don't hand-build the first shape of every prop; that time goes to refinement and review.\n\nBy integrating Tripo API, your tool can submit text or image jobs, track them asynchronously and retrieve the model for artists to refine.\n• **We handle generation:** Tripo creates the starting 3D model and returns the file through the API.\n• **You keep control:** Your engineers own the integration; your artists refine, review and approve each prop for the game.\n\n**To help you evaluate the ROI, let's plan a 10-asset API test.** Compare time to first approved output, generation and retry cost, artist cleanup and engine checks with your current process.\n\nContact us today to set up your 10-asset API test.",
@@ -844,8 +844,8 @@
             "zh": "接入生成服务，不自研模型栈"
           },
           "subject": {
-            "en": "Add 3D generation to game tools, not a model stack",
-            "zh": "游戏工具加上 3D 生成，不必自建模型栈"
+            "en": "Give your game team AI 3D tools without building a model",
+            "zh": "给您的游戏团队加上 AI 3D 生成，不用自己研发模型"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nPutting AI 3D inside your game tools lets artists generate models without switching to another app. Your team can ship that without becoming a 3D-model company; building the model in-house would mean staffing research and infrastructure outside your product roadmap.\n\nTripo API gives your existing tools a generation layer: submit a text brief or reference image, track the job asynchronously and retrieve the model inside the tool artists already use.\n• **We handle the generation service:** Tripo runs the model behind the API and returns task status and output files.\n• **You keep control:** Your team owns the UX, error handling, integration upkeep and approval of every asset.\n\n**To help you evaluate the engineering investment, let's plan a 10-asset API test.** Compare integration effort, maintenance, running cost and usable results before expanding the feature.\n\nContact us today to set up your 10-asset API test.",
@@ -958,8 +958,8 @@
             "zh": "按游戏标准验收资产"
           },
           "subject": {
-            "en": "See which generated props pass your game's checks",
-            "zh": "生成的道具能不能过验收，先用真实需求测"
+            "en": "Test AI 3D props against your game team's checks first",
+            "zh": "先按您游戏团队的标准，测一测 AI 3D 道具"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nYour art team can save modelling time with AI 3D, provided the generated props pass the same checks as every other game asset. Before you commit more art time, you need to know how many pass and what each takes to get there.\n\nYour developers can connect Tripo API to the existing asset tool and generate models from real game briefs. Artists then refine them and run the usual topology, UV, format and engine checks.\n• **We handle generation:** Tripo creates the starting model and makes its files available through the API.\n• **You keep control:** Your team defines the acceptance checklist, refines the result and approves only what meets it.\n\n**To help you evaluate production fit, let's plan a 10-asset API test.** Compare quality, time to approval and total cost with your current workflow.\n\nContact us today to set up your 10-asset API test.",
@@ -1072,8 +1072,8 @@
             "zh": "把生成与批准记录连起来"
           },
           "subject": {
-            "en": "Trace every AI game prop back to its request and approval",
-            "zh": "每个 AI 游戏道具，都能追到请求和批准记录"
+            "en": "Your game team can trace each AI 3D prop to its approval",
+            "zh": "您的游戏团队，每个 AI 3D 道具都追得到批准记录"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nWhen AI-generated props go into your game, your team needs to show where each one came from and who approved it. If that information sits in scattered messages, reviewers have to dig through them every time.\n\nYour developers can link Tripo API task IDs and outputs to request, revision and approval records in your own asset tool, so reviewers see the history beside the file.\n• **We handle generation:** Tripo generates the model and provides its task ID, status and output links.\n• **You keep control:** Your system stores the original request and files; your team records edits, review and approval in its own disclosure and audit process.\n\n**To help you evaluate that record flow, let's plan a 10-asset API test.** Check for missing records and compare the time and cost of keeping them, alongside asset quality.\n\nContact us today to set up your 10-asset API test.",
@@ -1261,8 +1261,8 @@
             "zh": "从初版模型开始，少做从零建模"
           },
           "subject": {
-            "en": "Shrink your asset backlog with less from-scratch modeling",
-            "zh": "资产积压越来越多，先少做从零建模"
+            "en": "AI 3D helps your 3D team keep up with growing asset orders",
+            "zh": "资产订单越来越多，AI 3D 帮您的 3D 团队跟上"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nAs your asset list grows, AI 3D can help your team keep up: not every item has to start from an empty scene. Starting some from a generated model lets artists put their hours into the details each brief asks for.\n\nWith Tripo API in your existing production tool, artists can request a first model from a text brief or reference image, such as a product display or an interactive device.\n• **We handle generation:** Tripo creates initial models and returns the files through the API.\n• **You keep control:** Your artists refine the models, review them in your current workflow and approve what enters your asset library.\n\n**To help you evaluate the ROI, let's plan a 10-asset API test.** Compare time to first approved output, total cost and quality with your current workflow, including work after generation.\n\nContact us today to set up your 10-asset API test.",
@@ -1375,8 +1375,8 @@
             "zh": "开发自己的资产工具，不另起生成模型研发"
           },
           "subject": {
-            "en": "Add 3D generation without building the model stack",
-            "zh": "产品加上 3D 生成，不必自建模型栈"
+            "en": "Your product team can add AI 3D without building a model",
+            "zh": "您的产品团队可以加上 AI 3D 生成，不用自己研发模型"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nAdding AI 3D to your product means your users can create 3D models without exporting to another tool. Your product team can offer that without becoming a 3D-model company; building the generation model yourself would mean a separate research and infrastructure program.\n\nTripo API gives your existing tools a generation layer: submit text or image jobs, track them asynchronously, retrieve the output and pass it through your own review and publishing flow.\n• **We handle generation:** Tripo runs the generation service and returns task status and completed model files.\n• **You keep control:** Your team owns the UX, project standards, integration upkeep and final approval.\n\n**To help you evaluate the investment, let's plan a 10-asset API test.** Compare integration effort, maintenance, running cost and output quality with your current workflow.\n\nContact us today to set up your 10-asset API test.",
@@ -1489,8 +1489,8 @@
             "zh": "精修与验收沿用自己的制作流程"
           },
           "subject": {
-            "en": "Measure the rework on generated assets before you scale",
-            "zh": "扩大使用生成资产前，先量出返工有多少"
+            "en": "See the rework AI 3D assets need before your team scales",
+            "zh": "您的团队扩大使用前，先看清 AI 3D 资产要返工多少"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nAI 3D can cut the time your team spends on first models, but generated assets still have to meet your delivery standard. Measuring the repair work on real assets first shows where generation saves time and where it doesn't.\n\nYour developers can connect Tripo API to the existing production tool, bringing models from text or reference images into the same refinement and review process as the files your team already delivers.\n• **We handle generation:** Tripo turns text or reference images into initial 3D models that your tool can retrieve.\n• **You keep control:** Your team sets the acceptance checklist, refines geometry and materials, and approves assets against it.\n\n**To help you evaluate that fit, let's plan a 10-asset API test.** Compare time, total cost and quality through final review, using the same standards as your current workflow.\n\nContact us today to set up your 10-asset API test.",
@@ -1603,8 +1603,8 @@
             "zh": "让审核人查到资产的制作记录"
           },
           "subject": {
-            "en": "Keep the record behind every AI asset",
-            "zh": "每个 AI 资产背后的请求和批准，都有据可查"
+            "en": "Your 3D team can show clients who approved each AI asset",
+            "zh": "您的 3D 团队，能向客户说清每个 AI 资产是谁批准的"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nClients may ask your team how an AI-generated asset was made and who signed it off. A record beside the file answers that, so nobody has to search old messages.\n\nYour developers can link Tripo API task information to records in your own asset tool, so reviewers see which input started the job and which version the team accepted.\n• **We handle generation:** Tripo generates the model and provides its task ID, status and output links.\n• **You keep control:** Your system stores the request and inputs; your team records edits, reviews and approvals in its own disclosure and audit process.\n\n**To help you evaluate the record flow, let's plan a 10-asset API test.** Compare time, cost and quality with your current workflow, and check that each file leads back to its request and approval.\n\nContact us today to set up your 10-asset API test.",
@@ -1792,8 +1792,8 @@
             "zh": "新关卡道具，从初版模型起步"
           },
           "subject": {
-            "en": "Give your artists a head start on the next level's assets",
-            "zh": "下一关的资产，美术不用每个都从零做"
+            "en": "Your game team can start the next level from AI 3D models",
+            "zh": "您的游戏团队做下一关，可以从 AI 3D 模型起步"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nA new level brings a long asset list, and AI 3D can help your art team get through it faster. Creatures, weapons and environment pieces can start from a generated model rather than a hand-built first shape, so artists spend more time fitting each one to the level.\n\nTripo Studio Team Plan gives your team one shared workspace to generate first-pass models from the level's references or briefs.\n• **Tripo creates the first pass:** A starting model for each asset you select.\n• **Your artists shape it for the scene:** They refine geometry and materials, then approve what goes in.\n\n**To help you evaluate the time saved,** we'd be happy to help plan a pilot with 10 real assets from that level. Compare time to first useful model and full effort to approval with your current process.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -1906,8 +1906,8 @@
             "zh": "道具做到游戏验收通过"
           },
           "subject": {
-            "en": "Find out what AI assets really take to finish",
-            "zh": "AI 资产做到能进游戏，到底要多少工作"
+            "en": "See what AI 3D assets cost your game team to finish",
+            "zh": "AI 3D 资产做到能进游戏，您的团队要投入多少"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nBuilding the next level with AI-generated assets can save your team time, but each one still needs modelling fixes, materials and engine testing. Before the level depends on them, you can find out which are worth that work.\n\nWith Tripo Studio Team Plan, artists generate a starting model, then develop it for the scene in their current tools. Tripo's game-character walkthrough follows one character through assembly, rigging and engine testing.\n• **Tripo supplies the starting model:** A shape your artists can refine and texture.\n• **Your team controls the finished asset:** Artists check materials, test rigging where needed and approve the result in the engine.\n\n**To help you evaluate your own assets,** we propose that Tripo test 10 real game assets against your team's agreed checklist and share the results. Supported checks, scope and fees need confirmation first.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -2020,8 +2020,8 @@
             "zh": "游戏场景之间复用道具"
           },
           "subject": {
-            "en": "Generate an asset once, reuse it across scenes",
-            "zh": "AI 资产生成一次，换场景接着用"
+            "en": "Let your game team reuse approved 3D assets across levels",
+            "zh": "让您的游戏团队在不同关卡复用已批准的 3D 资产"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nGenerating assets with AI can save your team modelling time. That saving is lost if a building or vehicle approved for one scene has to be made again for another. When artists find the approved version quickly, they can adapt it instead.\n\nTripo Studio Team Plan gives your team a shared library for models generated in team mode, plus pooled credits and member usage.\n• **Tripo brings team resources together:** Artists find models under your visibility settings; admins see credits and each member's usage.\n• **Your artists adapt approved work:** They identify reviewed models through your existing process, change them for the new scene and approve the result.\n\n**To help you evaluate reuse,** we'd be happy to help plan a pilot with 10 real assets. Compare reuse, handoffs, admin time, revision costs and quality with your current workflow.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -2134,8 +2134,8 @@
             "zh": "游戏制作中的访问与责任"
           },
           "subject": {
-            "en": "Keep AI 3D access in step with your game team",
-            "zh": "团队人员变动，AI 3D 权限随时跟上"
+            "en": "Update your game team's AI 3D access as people change",
+            "zh": "人员变动时，随时调整您游戏团队的 AI 3D 权限"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nWith AI 3D, more people on your team can create assets for the game, so access has to match who is on the project. Artists join, change roles and leave; with one shared login, every change means a reset and a chance of missing something.\n\nWith Tripo Studio Team Plan, admins invite members, change roles and remove access in one workspace, and each artist signs in with their own account.\n• **Tripo provides member controls:** Invite, change roles, remove access and set asset visibility as the team changes.\n• **Your team assigns review responsibility:** Who checks a prop and who approves it stays in your own production workflow.\n\n**To help you evaluate the setup,** we'd be happy to help plan a pilot with 10 real game assets. Compare admin time, total cost and approved-asset quality with your current process.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -2248,8 +2248,8 @@
             "zh": "核心版：团队共用一个工作区"
           },
           "subject": {
-            "en": "One AI 3D workspace for your whole game team",
-            "zh": "整个游戏团队，共用一个 AI 3D 工作区"
+            "en": "One AI 3D workspace means fewer handoffs for your game team",
+            "zh": "一个 AI 3D 工作区，您的游戏团队少些交接"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nWhen every character or weapon request for the next milestone becomes another handoff, your team loses time before production starts. AI 3D in a shared workspace can shorten that: artists start from a generated model and pick up teammates' approved work without chasing files.\n\nTripo Studio Team Plan puts first-pass 3D assets, pooled credits and controlled access in one workspace. Artists continue in Blender, Unity or Unreal and keep reviewed models ready to reuse.\n• **Tripo brings the team's 3D work together:** Models, credits and member access in one place.\n• **Your artists decide what ships:** They refine, review and approve every asset for the game.\n\n**To help you evaluate the fit,** we'd be happy to plan a pilot with 10 live characters or props. Compare time to first useful model, cleanup, review and reuse with your current workflow.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -2437,8 +2437,8 @@
             "zh": "为下一关准备道具初版"
           },
           "subject": {
-            "en": "Start the next level's assets from a generated model",
-            "zh": "下一关的资产，从生成模型起步"
+            "en": "Give your level artists AI 3D models to start from",
+            "zh": "给您的关卡美术提供可以起步的 AI 3D 模型"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nThe next level's vehicles, buildings and character gear can come together faster with AI 3D. Your art team can start them from a generated mesh instead of hand-building each one, leaving more time to shape every asset for the level.\n\nYour developers can add Tripo API to the studio's asset tool, so artists request starting models from the level's briefs or reference images and get the files in the same tool.\n• **We handle the first model:** Tripo generates the 3D file and returns it through the API.\n• **You keep control:** Your team maintains the integration, adjusts each asset for the level and approves the finished work.\n\n**To help you evaluate that approach, let's plan a 10-asset API test with assets from the level.** Compare time to first approved output, cost and quality with your current process.\n\nContact us today to set up your 10-asset API test.",
@@ -2551,8 +2551,8 @@
             "zh": "为下一次工具发布接入生成"
           },
           "subject": {
-            "en": "Ship prop generation without model R&D",
-            "zh": "下一版工具上线道具生成，不必另做模型研发"
+            "en": "Your developers can add AI 3D to game tools, no model R&D",
+            "zh": "您的开发团队不用做模型研发，也能给游戏工具加上 AI 3D"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nYour next game-tool release can let artists generate props with AI without leaving the tool. Your developers can ship it without putting an AI-model research project on the roadmap, and spend their time on the feature itself.\n\nTripo API supplies the generation layer behind that feature: artists enter a text brief or reference image, follow the task status and retrieve the model for production work.\n• **We handle the generation service:** Tripo processes each request and returns task information and output files.\n• **You keep control:** Your developers design the interface, handle errors and retries and maintain the integration; your artists refine, review and approve the assets.\n\n**To help you evaluate the release work, let's plan a 10-asset API test.** Compare integration effort, operating cost and the quality of usable results.\n\nContact us today to set up your 10-asset API test.",
@@ -2665,8 +2665,8 @@
             "zh": "判断哪些道具可以进游戏版本"
           },
           "subject": {
-            "en": "Know the rework before AI props go into your build",
-            "zh": "AI 道具进构建之前，先看清返工量"
+            "en": "Check AI 3D props before they reach your game team's build",
+            "zh": "AI 3D 道具进入您游戏团队的版本前，先检查一遍"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nGenerating the next level's props with AI can save your team time, as long as they pass your checks. Before the build relies on them, test real props first. Each one gets a clear answer: approved, needs more work or not suitable.\n\nYour developers connect Tripo API to the existing asset tool, bringing in models from text or reference images for artists to refine and check in the target engine.\n• **We handle generation:** Tripo creates model files that your developers retrieve through the API.\n• **You keep control:** Your artists refine the props, check them in the engine and approve the versions that meet the project's requirements.\n\n**To help you evaluate the finished result, let's plan a 10-asset API test.** Compare quality, time to approval and total cost with how you make these props today.\n\nContact us today to set up your 10-asset API test.",
@@ -2779,8 +2779,8 @@
             "zh": "批准记录与游戏版本对应"
           },
           "subject": {
-            "en": "Know which AI asset version made it into the build",
-            "zh": "进构建的是哪个 AI 资产版本，一查就清楚"
+            "en": "Help your game team find each AI asset's approved version",
+            "zh": "帮您的游戏团队找得到每个 AI 资产的批准版本"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nAI generation makes it easy to produce several versions of each character skin or weapon. When one goes into a playable build, your reviewers need to know which file was approved, without piecing the decision together from separate messages.\n\nYour developers can connect Tripo API task information to request, revision and approval records in your own asset tool, keeping the chosen file tied to the evidence your team saved.\n• **We handle generation:** Tripo generates the model and provides its task ID, status and output links.\n• **You keep control:** Your system saves requests and files; your team links revisions, records approval and decides which version enters the build.\n\n**To help you evaluate that handoff, let's plan a 10-asset API test.** Check record gaps and compare review time, recording cost and asset quality with your current process.\n\nContact us today to set up your 10-asset API test.",
@@ -2968,8 +2968,8 @@
             "zh": "让下一批资产从初版模型继续精修"
           },
           "subject": {
-            "en": "Spend modelling time on the next delivery's details",
-            "zh": "下一批交付，把建模时间留给细节"
+            "en": "AI 3D gives your 3D team more time for detail on deliveries",
+            "zh": "用 AI 3D，让您的 3D 团队把交付时间花在细节上"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nOn each delivery, AI 3D can give your team a faster start: some objects can begin from a generated model instead of a blank scene. That modelling time then goes into the details the brief calls for.\n\nYour developers can add that option to the existing production tool with Tripo API, using text or reference images to request the initial files and retrieve them when the job completes.\n• **We handle generation:** Tripo creates the initial models and provides files for your tool to retrieve.\n• **You keep control:** Your artists refine the objects, review them against the delivery brief and approve the finished files.\n\n**To help you evaluate a full batch, let's plan a 10-asset API test.** Compare time, cost and quality from brief to final approval, including any models that need extensive rework.\n\nContact us today to set up your 10-asset API test.",
@@ -3082,8 +3082,8 @@
             "zh": "在工具下一次更新中加入生成功能"
           },
           "subject": {
-            "en": "Offer model generation without building the model",
-            "zh": "下一版工具提供模型生成，不必自己做模型研发"
+            "en": "Let your engineers offer AI 3D without building a model",
+            "zh": "让您的工程团队提供 AI 3D 生成，不用自己研发模型"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nUsers of your asset tool can generate models without switching apps once it includes AI 3D. Your engineers can add it to the next version without a second programme to build the AI model itself, and stay focused on the feature users see.\n\nIntegrating Tripo API lets your developers build that feature around an existing generation layer, with requests, status and files connected to your workflow.\n• **We handle generation:** Tripo runs the service that turns text or images into models and returns status and result files.\n• **You keep control:** Your developers design and maintain the feature; your users refine, review and approve assets in the workflow your team builds.\n\n**To help you evaluate the release, let's plan a 10-asset API test.** Compare development time, running cost and quality against your current workflow, including integration and maintenance.\n\nContact us today to set up your 10-asset API test.",
@@ -3196,8 +3196,8 @@
             "zh": "整批交付沿用同一套制作标准"
           },
           "subject": {
-            "en": "Spot the rework before you commit a whole batch",
-            "zh": "整批采用之前，先测出返工量"
+            "en": "Test AI 3D assets before your team commits a whole batch",
+            "zh": "您的团队整批采用 AI 3D 资产之前，先测一测"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nAI-generated models can speed up your team's deliveries, but they have to pass the same checklist as your hand-made files. Before committing a whole delivery, a small test on real assets shows which objects are ready to refine and which are better made the current way.\n\nYour developers can bring Tripo API outputs into the existing tool, so artists refine models from real text or image briefs and compare them with the files your team normally delivers.\n• **We handle generation:** Tripo generates models from text or images and provides the files.\n• **You keep control:** Your delivery checklist sets the standard; your artists refine the files and approve them against the brief.\n\n**To help you evaluate delivery quality, let's plan a 10-asset API test.** Compare time, total cost and quality under one checklist, including revisions before approval.\n\nContact us today to set up your 10-asset API test.",
@@ -3310,8 +3310,8 @@
             "zh": "把修改版本关联到最终批准的资产"
           },
           "subject": {
-            "en": "Hand over every AI asset with its approval record",
-            "zh": "每个 AI 资产交接时，批准记录一起交"
+            "en": "Your 3D team can hand over AI assets with approval records",
+            "zh": "您的 3D 团队交付 AI 资产时，可以附上批准记录"
           },
           "intro": {
             "en": "Hi %FIRSTNAME%,\n\nWe're Tripo: from concept to production-ready 3D assets, inside your existing workflow.\n\nOnce AI-generated work goes into your deliveries, your team's approved files need to point back to the request and edits behind them. Otherwise the next reviewer has to ask each artist to reconstruct the history.\n\nYour developers can use Tripo API task information to connect generation with revision and approval records in your own production tool.\n• **We handle generation:** Tripo generates the model and provides its task ID, status and output links.\n• **You keep control:** Your system saves the requests and inputs, while your team records how artists refine, review and approve each version.\n\n**To help you evaluate that handover, let's plan a 10-asset API test.** Compare time, cost and quality with your current workflow, and check that every final file leads back to its request and approval.\n\nContact us today to set up your 10-asset API test.",
