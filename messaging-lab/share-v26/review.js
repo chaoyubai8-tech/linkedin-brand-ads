@@ -8,7 +8,7 @@
   const copyLabel = {en:'English',zh:'中文'};
   const steps = ['intro','followup','form','confirmation'];
   const stepNames = {intro:{en:'First message',zh:'首条消息'},followup:{en:'Product details',zh:'产品说明'},form:{en:'Lead form',zh:'留资表单'},confirmation:{en:'After submission',zh:'提交后'}};
-  let data = null, state = {id:'TU-01',view:'preview',lang:'both',node:'intro'}, statusTimer;
+  let data = null, state = {id:'TU-02',view:'preview',lang:'both',node:'intro'}, statusTimer;
 
   function inline(value) { return esc(value).replace(/\*\*([^*\n]+)\*\*/g,'<strong>$1</strong>'); }
   function plain(value) { return String(value).replace(/\*\*([^*\n]+)\*\*/g,'$1'); }
@@ -54,7 +54,7 @@
   function action(label, node, primary=false, inert=false){ return `<button type="button" class="${primary?'primary':''}" ${inert?'tabindex="-1"':`data-node="${node}"`}>${esc(label)}</button>`; }
   function formHtml(group,lang,inert=false){
     const f=group.form, privacy=validLink(f.privacyUrl);
-    return `<p class="form-kicker">${lang==='en'?'LinkedIn Lead Gen Form · Preview':'LinkedIn 原生留资表单 · 预览'}</p><h3 class="form-title">${esc(text(f.title,lang))}</h3><div class="prose">${prose(text(f.description,lang))}</div><p class="form-note">${lang==='en'?'Read-only preview. No information is submitted or stored.':'只读预览，不提交或保存任何信息。'}</p><div class="form-fields">${f.fields.map((field,i)=>`<label class="form-field">${esc(text(field.label,lang))}<input type="text" readonly aria-readonly="true" tabindex="-1" value="" placeholder="${lang==='en'?'Read-only preview':'只读字段示例'}" autocomplete="off" data-field="${esc(field.id || i)}"></label>`).join('')}</div><p class="privacy">${esc(text(f.privacyText,lang) || (lang==='en'?'Your information would be shared with Tripo AI to follow up on your request.':'提交后，您的信息将提供给 Tripo AI，用于跟进您的需求。'))}${privacy?` <a href="${esc(privacy)}" target="_blank" rel="noopener noreferrer">${lang==='en'?'Privacy policy':'隐私政策'}</a>`:''}</p><div class="message-actions">${action(lang==='en'?'Preview confirmation':'预览提交后','confirmation',true,inert)}</div>`;
+    return `<p class="form-kicker">${lang==='en'?'LinkedIn Lead Gen Form · Preview':'LinkedIn 原生留资表单 · 预览'}</p><h3 class="form-title">${esc(text(f.title,lang))}</h3><div class="prose">${prose(text(f.description,lang))}</div><p class="form-note">${lang==='en'?'Read-only preview. No information is submitted or stored.':'只读预览，不提交或保存任何信息。'}</p><div class="form-fields">${f.fields.map((field,i)=>`<label class="form-field">${esc(text(field.label,lang))}<input type="text" readonly aria-readonly="true" tabindex="-1" value="" placeholder="${lang==='en'?'Read-only preview':'只读字段示例'}" autocomplete="off" data-field="${esc(field.id || i)}"></label>`).join('')}</div><p class="privacy">${esc(text(f.privacyText,lang) || (lang==='en'?'Your information would be shared with Tripo to follow up on your request.':'提交后，您的信息将提供给 Tripo，用于跟进您的需求。'))}${privacy?` <a href="${esc(privacy)}" target="_blank" rel="noopener noreferrer">${lang==='en'?'Privacy policy':'隐私政策'}</a>`:''}</p><div class="message-actions">${action(lang==='en'?'Preview confirmation':'预览提交后','confirmation',true,inert)}</div>`;
   }
   function nodeHtml(group,node,lang,inert=false){
     if(node==='intro') return `<div class="prose">${prose(text(group.intro,lang))}</div>${footerHtml(group,lang)}${imageHtml(group,lang)}<div class="message-actions">${action(text(group.buttons.primary,lang),'form',true,inert)}${action(text(group.buttons.secondary,lang),'followup',false,inert)}</div>${platformOption(lang)}`;
@@ -67,7 +67,7 @@
     return `<p class="confirmation-marker">${lang==='en'?'Confirmation preview':'提交后文案预览'}</p><div class="prose">${prose(text(group.form.confirmation,lang))}</div>${href?`<div class="message-actions"><a class="primary" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(text(destination.label,lang))} ↗</a></div>`:''}`;
   }
   function panel(group,node,lang,inert=false){
-    return `<section class="language-panel" lang="${lang==='zh'?'zh-CN':'en'}"><h4 class="language-label">${copyLabel[lang]}</h4><article class="message"><header class="message-header"><strong>Tripo AI</strong><span>${lang==='en'?'Sponsored · Preview':'推广消息 · 预览'}</span></header>${node==='intro'?`<div class="message-subject"><small>${lang==='en'?'Subject':'主题'}</small><h3>${esc(text(group.subject,lang))}</h3></div>`:''}<div class="message-content">${nodeHtml(group,node,lang,inert)}</div></article>${node==='intro'?platformNote(lang):''}</section>`;
+    return `<section class="language-panel" lang="${lang==='zh'?'zh-CN':'en'}"><h4 class="language-label">${copyLabel[lang]}</h4><article class="message"><header class="message-header"><strong>Tripo</strong><span>${lang==='en'?'Sponsored · Preview':'推广消息 · 预览'}</span></header>${node==='intro'?`<div class="message-subject"><small>${lang==='en'?'Subject':'主题'}</small><h3>${esc(text(group.subject,lang))}</h3></div>`:''}<div class="message-content">${nodeHtml(group,node,lang,inert)}</div></article>${node==='intro'?platformNote(lang):''}</section>`;
   }
   function flowHtml(group,languages,print=false){
     return steps.map(node=>`<section class="flow-section" data-flow-section="${node}"><h3>${esc(text(stepNames[node],state.lang==='en'?'en':'zh'))}</h3><div class="bilingual ${languages.length===1?'single':''}">${languages.map(lang=>panel(group,node,lang,print)).join('')}</div></section>`).join('');
@@ -93,7 +93,7 @@
     const languages=visibleLanguages();
     $('content').innerHTML=state.view==='compare'?compareHtml(g,languages):state.view==='flow'?flowHtml(g,languages):`<div class="bilingual ${languages.length===1?'single':''}">${languages.map(lang=>panel(g,state.node,lang)).join('')}</div>`;
     bindImages($('content'));
-    document.title=`${g.id} · ${g.label} · Tripo AI 站内信 V32`;
+    document.title=`${g.id} · ${g.label} · Tripo 站内信 V37`;
   }
   function focusReview(){ $('review').focus({preventScroll:true});$('review').scrollIntoView({block:'start',behavior:'auto'}); }
   function focusNode(){ $('content').focus({preventScroll:true}); $('content').scrollIntoView({block:'start',behavior:'auto'}); }
@@ -107,15 +107,15 @@
     catch { $('copy-text').value=value;$('copy-dialog').showModal();$('copy-text').focus();$('copy-text').select(); }
   }
   function download(){
-    const g=currentGroup(), content=`Tripo AI 领英站内信 · V32\n${data.date || ''}\n\n${groupText(g,'en')}\n\n${'—'.repeat(30)}\n\n${groupText(g,'zh')}\n\n${text(data.note,'zh')}`;
-    const blob=new Blob(['\ufeff',content],{type:'text/plain;charset=utf-8'}), url=URL.createObjectURL(blob), a=document.createElement('a');a.href=url;a.download=`Tripo-AI-V32-${g.id}-EN-ZH.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);announce('已下载本版中英双语文案');
+    const g=currentGroup(), content=`Tripo 领英站内信 · V37\n${data.date || ''}\n\n${groupText(g,'en')}\n\n${'—'.repeat(30)}\n\n${groupText(g,'zh')}\n\n${text(data.note,'zh')}`;
+    const blob=new Blob(['\ufeff',content],{type:'text/plain;charset=utf-8'}), url=URL.createObjectURL(blob), a=document.createElement('a');a.href=url;a.download=`Tripo-V37-${g.id}-EN-ZH.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);announce('已下载本版中英双语文案');
   }
   function downloadAll(){
-    const content=`Tripo AI 领英站内信 · V32 · 全部 ${allVariants().length} 版\n${data.date || ''}\n\n${allVariants().map(group=>groupText(group,'en')+'\n\n'+groupText(group,'zh')).join('\n\n'+'═'.repeat(40)+'\n\n')}\n\n${text(data.note,'zh')}`;
-    const blob=new Blob(['\ufeff',content],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`Tripo-AI-V32-All-${allVariants().length}-EN-ZH.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);announce(`已下载全部 ${allVariants().length} 版中英双语文案`);
+    const content=`Tripo 领英站内信 · V37 · 全部 ${allVariants().length} 版\n${data.date || ''}\n\n${allVariants().map(group=>groupText(group,'en')+'\n\n'+groupText(group,'zh')).join('\n\n'+'═'.repeat(40)+'\n\n')}\n\n${text(data.note,'zh')}`;
+    const blob=new Blob(['\ufeff',content],{type:'text/plain;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`Tripo-V37-All-${allVariants().length}-EN-ZH.txt`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);announce(`已下载全部 ${allVariants().length} 版中英双语文案`);
   }
   function makePrint(){
-    $('print-document').innerHTML=allVariants().map(group=>`<article><h1>Tripo AI 领英站内信 · V32</h1><p class="print-meta">${esc(group.id)} · ${esc(variantName(group,'zh'))} · ${esc(group.label)} · ${esc(data.date || '')}</p>${flowHtml(group,['en','zh'],true)}<p class="print-meta">${esc(text(data.note,'zh'))}</p></article>`).join('');
+    $('print-document').innerHTML=allVariants().map(group=>`<article><h1>Tripo 领英站内信 · V37</h1><p class="print-meta">${esc(group.id)} · ${esc(variantName(group,'zh'))} · ${esc(group.label)} · ${esc(data.date || '')}</p>${flowHtml(group,['en','zh'],true)}<p class="print-meta">${esc(text(data.note,'zh'))}</p></article>`).join('');
     $('print-document').querySelectorAll('img').forEach(img=>img.loading='eager');bindImages($('print-document'));
   }
   async function printAll(){
@@ -131,9 +131,9 @@
       const result=await response.json();
       const bilingual=value=>['en','zh'].every(lang=>typeof value?.[lang]==='string'&&value[lang].trim());
       const validResolved=variant=>variant.id&&bilingual(variant.variantLabel)&&bilingual(variant.subject)&&bilingual(variant.intro)&&bilingual(variant.followup)&&bilingual(variant.footer)&&bilingual(variant.buttons?.primary)&&bilingual(variant.buttons?.secondary)&&Array.isArray(variant.followupButtons)&&variant.followupButtons.length>0&&variant.followupButtons.every(button=>bilingual(button.label)&&['form','link'].includes(button.action)&&(button.action!=='link'||validLink(button.url)))&&bilingual(variant.form?.title)&&bilingual(variant.form?.description)&&bilingual(variant.form?.confirmation)&&Array.isArray(variant.form?.fields)&&variant.form.fields.length>0&&variant.form.fields.every(field=>bilingual(field.label));
-      const identities={TU:['US','TG',5],TE:['EU','TG',5],AGU:['US','AG',4],AGE:['EU','AG',4],AAU:['US','AA',4],AAE:['EU','AA',4]};
-      if(!Array.isArray(result.groups)||result.groups.length!==6||result.groups.map(group=>group.id).sort().join(',')!==Object.keys(identities).sort().join(',')||result.groups.some(group=>group.region!==identities[group.id]?.[0]||group.productGroup!==identities[group.id]?.[1]||typeof group.label!=='string'||!bilingual(group.theme)||!Array.isArray(group.variants)||group.variants.length!==identities[group.id]?.[2]||group.variants.some(variant=>!validResolved(resolveVariant(group,variant))))||new Set(result.groups.flatMap(group=>group.variants.map(variant=>variant.id))).size!==26)throw new Error('Invalid content');
-      data=result;readHash();render();$('site-note').textContent=text(data.note,'zh') || '审稿预览 · 不会发送消息或收集信息。';$('edition').textContent=`美国／欧洲独立文案 · 6 组 26 版 · Teams 每组含 1 篇核心版 · ${data.date || '中英双语'}`;$('load-state').hidden=true;$('app').hidden=false;makePrint();
+      const identities={TU:['US','TG',3],TE:['EU','TG',4],AGU:['US','AG',4],AGE:['EU','AG',4],AAU:['US','AA',4],AAE:['EU','AA',4]};
+      if(!Array.isArray(result.groups)||result.groups.length!==6||result.groups.map(group=>group.id).sort().join(',')!==Object.keys(identities).sort().join(',')||result.groups.some(group=>group.region!==identities[group.id]?.[0]||group.productGroup!==identities[group.id]?.[1]||typeof group.label!=='string'||!bilingual(group.theme)||!Array.isArray(group.variants)||group.variants.length!==identities[group.id]?.[2]||group.variants.some(variant=>!validResolved(resolveVariant(group,variant))))||new Set(result.groups.flatMap(group=>group.variants.map(variant=>variant.id))).size!==23)throw new Error('Invalid content');
+      data=result;readHash();render();$('site-note').textContent=text(data.note,'zh') || '审稿预览 · 不会发送消息或收集信息。';$('edition').textContent=`美国／欧洲独立文案 · 6 组 23 版 · Teams 美国 3 篇、欧洲 4 篇 · ${data.date || '中英双语'}`;$('load-state').hidden=true;$('app').hidden=false;makePrint();
     } catch(error) { $('load-state').className='error';$('load-state').innerHTML='<p>暂时无法加载文案。请检查网络后重试。</p><button type="button" id="retry">重新加载</button>';$('retry').addEventListener('click',load); }
     finally {clearTimeout(timeout);}
   }
