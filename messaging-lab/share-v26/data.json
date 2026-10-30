@@ -1,6 +1,6 @@
 {
-  "version": "V38",
-  "date": "2026-10-28",
+  "version": "V39",
+  "date": "2026-10-30",
   "note": {
     "en": "Read-only review · US and Europe have separate copy. No messages are sent and no personal information is collected. Test scope, support, access and fees require confirmation.",
     "zh": "审稿预览 · 美国与欧洲独立文案，不发送消息或收集信息。测试范围、支持、使用权限及费用需另行确认。"
@@ -89,8 +89,8 @@
             "zh": "您的游戏团队，更多 3D 初稿，照样守住您的标准"
           },
           "intro": {
-            "en": "Hi %FIRSTNAME%,\n\nTripo Studio brings generative 3D modeling to production character and asset workflows.\n\nEach update brings a long list of props and characters. Generative 3D gives your team several options per asset quickly, but you still need to know which will pass your game's checks and what each takes to finish.\n\nWith Tripo Studio Team Plan, artists generate options from text or images and take the ones they pick through the same refinement and engine checks as any other asset. Tripo's game-character walkthrough shows that path through assembly, rigging and engine testing.\n• **Tripo gives your artists options:** Several starting models to choose from for each brief.\n• **Your team sets the standard:** Your checklist covers style, topology, materials and engine results; your team approves.\n\n**See how game teams run those checks.** We'd be happy to walk you through Team Plan in a short demo.\n\nBook a quick demo to see how it fits your team's workflow.",
-            "zh": "%FIRSTNAME%，您好，\n\nTripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n每次更新都有一长串道具和角色要做。生成式 3D 可以很快为您的团队提供每个资产的多个方案，但您仍需要知道哪些能通过游戏验收，每个还要投入多少才能完成。\n\n使用 Tripo Studio Team Plan，美术用文字或图片生成方案，选中的再走与其他资产相同的精修和引擎检查。Tripo 的游戏角色示例，展示了组装、绑定到引擎测试的过程。\n• **Tripo 给美术多个方案：** 每个需求都有几个初版模型可挑。\n• **您的团队制定标准：** 由您的验收清单检查风格、拓扑、材质和引擎效果，并由团队批准。\n\n**看看游戏团队怎么做这些检查。** 我们可以用一个简短演示，带您了解 Team Plan。\n\n预约一个简短演示，看看它是否适合您团队的流程。"
+            "en": "Hi %FIRSTNAME%,\n\nWe're Tripo. Tripo Studio brings generative 3D modeling to production character and asset workflows.\n\nEach update brings a long list of props and characters. Generative 3D gives your team several options per asset quickly, but you still need to know which will pass your game's checks and what each takes to finish.\n\nWith Tripo Studio Team Plan, artists generate options from text or images and take the ones they pick through the same refinement and engine checks as any other asset. Tripo's game-character walkthrough shows that path through assembly, rigging and engine testing.\n• **Tripo gives your artists options:** Several starting models to choose from for each brief.\n• **Your team sets the standard:** Your checklist covers style, topology, materials and engine results; your team approves.\n\n**See how game teams run those checks.** We'd be happy to walk you through Team Plan in a short demo.\n\nBook a quick demo to see how it fits your team's workflow.",
+            "zh": "%FIRSTNAME%，您好，\n\n我们是 Tripo。Tripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n每次更新都有一长串道具和角色要做。生成式 3D 可以很快为您的团队提供每个资产的多个方案，但您仍需要知道哪些能通过游戏验收，每个还要投入多少才能完成。\n\n使用 Tripo Studio Team Plan，美术用文字或图片生成方案，选中的再走与其他资产相同的精修和引擎检查。Tripo 的游戏角色示例，展示了组装、绑定到引擎测试的过程。\n• **Tripo 给美术多个方案：** 每个需求都有几个初版模型可挑。\n• **您的团队制定标准：** 由您的验收清单检查风格、拓扑、材质和引擎效果，并由团队批准。\n\n**看看游戏团队怎么做这些检查。** 我们可以用一个简短演示，带您了解 Team Plan。\n\n预约一个简短演示，看看它是否适合您团队的流程。"
           },
           "followup": {
             "en": "The pilot starts from your game's acceptance checklist.\n\nWe propose that Tripo evaluate 10 real project assets against your team's checklist and share the results. Before starting, we need to agree which checks Tripo can support, the scope, fees and records to deliver.\n• The checklist can cover topology, polygon count, UVs, materials and file formats, plus rigging, interaction and target-engine checks where relevant and supported.\n• Compare quality, total time and cost through approval: generation and retry fees, unsuccessful attempts, artist cleanup, review, tool compatibility and engine testing.\n\nYour artists still handle cleanup and revisions. Your team retains final approval and handles checks outside the agreed scope. The character walkthrough illustrates one workflow; it does not establish that every generated model will pass.\n\nConfirm availability and access with Tripo before starting.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -203,8 +203,8 @@
             "zh": "一个 3D 库，让您的游戏团队不再重复劳动"
           },
           "intro": {
-            "en": "Hi %FIRSTNAME%,\n\nTripo Studio brings generative 3D modeling to production character and asset workflows.\n\nA model your team rebuilds, or chases down from a colleague, is time already paid for. When generated models sit in separate accounts, the next update often starts over. A shared library keeps your team's work where anyone on the project can find and reuse it.\n\nWith Tripo Studio Team Plan, models generated in team mode go into a shared library, with pooled credits and member usage alongside.\n• **Tripo keeps team resources in one place:** Artists find shared models under your visibility settings; admins see the credit pool and each member's usage.\n• **Your team decides what gets reused:** Your review process identifies approved work, and artists check any changes for the next build.\n\n**See how a shared library works for a game team.** We'd be happy to show you Team Plan in a short demo.\n\nBook a quick demo to see it with your team's workflow.",
-            "zh": "%FIRSTNAME%，您好，\n\nTripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n团队重做一个模型，或者到处找同事要文件，花掉的都是已经付出过的时间。生成的模型如果散在各自的账号里，下次更新往往又要重来。共享库把团队的成果放在项目里每个人都找得到、用得上的地方。\n\n使用 Tripo Studio Team Plan，团队模式生成的模型进入共享资产库，共享积分和成员用量也在同一个工作区管理。\n• **Tripo 集中管理团队资源：** 美术按可见设置查找共享模型，管理员查看积分池和每位成员的用量。\n• **您的团队决定复用什么：** 由现有审核流程识别已批准的成果，美术再检查下一版所需的修改。\n\n**看看共享库在游戏团队里怎么用。** 我们可以用一个简短演示，带您了解 Team Plan。\n\n预约一个简短演示，看看它和您团队的流程怎么配合。"
+            "en": "Hi %FIRSTNAME%,\n\nWe're Tripo. Tripo Studio brings generative 3D modeling to production character and asset workflows.\n\nWhen your team rebuilds a model or chases a colleague for the file, it spends hours already paid for. If generated models sit in separate accounts, the next update often starts over. A shared library keeps your team's work where anyone on the project can find and reuse it.\n\nWith Tripo Studio Team Plan, your team's models go into one shared library, with pooled credits alongside.\n• **Tripo keeps team resources in one place:** Artists find shared models under your visibility settings; admins see the credit pool and each member's usage.\n• **Your team decides what gets reused:** Your review process identifies approved work, and artists check any changes for the next build.\n\n**See how a shared library works for a game team.** We'd be happy to show you Team Plan in a short demo.\n\nBook a quick demo to see it with your team's workflow.",
+            "zh": "%FIRSTNAME%，您好，\n\n我们是 Tripo。Tripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n您的团队每重做一个模型、每找同事要一次文件，花的都是已经付出过的工时。生成的模型如果散在各自的账号里，下次更新往往又要重来。共享库把您团队的成果放在项目里每个人都找得到、用得上的地方。\n\n使用 Tripo Studio Team Plan，您团队的模型都进同一个共享库，共享积分也在一起管理。\n• **Tripo 集中管理团队资源：** 美术按可见设置查找共享模型，管理员查看积分池和每位成员的用量。\n• **您的团队决定复用什么：** 由现有审核流程识别已批准的成果，美术再检查下一版所需的修改。\n\n**看看共享库在游戏团队里怎么用。** 我们可以用一个简短演示，带您了解 Team Plan。\n\n预约一个简短演示，看看它和您团队的流程怎么配合。"
           },
           "followup": {
             "en": "The saving to measure is the work your team no longer has to repeat.\n\nFor 10 real game assets, we'd be happy to help plan a comparison with your current handoffs.\n• Record reuse count, handoff count and admin time: how often artists reuse reviewed work, how many file handoffs it takes, and time spent managing access, credits and member usage.\n• Include changes, review and engine checks for each reused asset, plus original generation and retry fees, unsuccessful attempts and cleanup.\n\nCompare time, total cost and final quality. Reuse does not automatically mean less work.\n\nTeam Plan provides a shared library, pooled credits and member-usage visibility. Your existing workflow identifies reviewed or approved work and handles externally refined files; the library does not replace that review process. Before starting, agree with Tripo on the assets, available support and records, responsibilities, access, availability and fees.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -317,8 +317,8 @@
             "zh": "一个工作区，游戏团队每人一个账号"
           },
           "intro": {
-            "en": "Hi %FIRSTNAME%,\n\nTripo Studio brings generative 3D modeling to production character and asset workflows.\n\nAs more of your team uses generative 3D, shared logins become a management problem: each staff change means a password reset, and no one can see who used which credits. Individual access gives you a clear view of usage and keeps access in step with the people on the project.\n\nWith Tripo Studio Team Plan, each teammate has their own access, while admins manage roles, visibility and usage in one workspace.\n• **Tripo provides the controls:** Admins invite members, change roles and set what each person can see.\n• **Your team owns review and approval:** Who checks and approves game assets stays in your existing production workflow.\n\n**See how teams set up access.** We'd be happy to walk you through Team Plan in a short demo.\n\nBook a quick demo to see the admin view.",
-            "zh": "%FIRSTNAME%，您好，\n\nTripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n团队里用生成式 3D 的人越多，共用账号就越难管：人员一变动就得改密码，也看不出谁用了多少积分。每人一个账号，用量一目了然，权限也能始终跟上项目里实际在做事的人。\n\n使用 Tripo Studio Team Plan，每位成员使用自己的访问权限，管理员在同一个工作区管理角色、可见范围和用量。\n• **Tripo 提供管理控制：** 管理员可以邀请成员、调整角色，并设置每人可见的内容。\n• **您的团队负责审核和批准：** 谁检查、谁批准游戏资产，仍按您现有的制作流程安排。\n\n**看看团队怎么设置权限。** 我们可以用一个简短演示，带您了解 Team Plan。\n\n预约一个简短演示，看看管理员后台。"
+            "en": "Hi %FIRSTNAME%,\n\nWe're Tripo. Tripo Studio brings generative 3D modeling to production character and asset workflows.\n\nAs more of your team uses generative 3D, shared logins become a management problem: each staff change means a password reset, and no one can see who used which credits. Individual access gives you a clear view of usage and keeps access in step with the people on the project.\n\nWith Tripo Studio Team Plan, each teammate has their own access, while admins manage roles, visibility and usage in one workspace.\n• **Tripo provides the controls:** Admins invite members, change roles and set what each person can see.\n• **Your team owns review and approval:** Who checks and approves game assets stays in your existing production workflow.\n\n**See how teams set up access.** We'd be happy to walk you through Team Plan in a short demo.\n\nBook a quick demo to see the admin view.",
+            "zh": "%FIRSTNAME%，您好，\n\n我们是 Tripo。Tripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n团队里用生成式 3D 的人越多，共用账号就越难管：人员一变动就得改密码，也看不出谁用了多少积分。每人一个账号，用量一目了然，权限也能始终跟上项目里实际在做事的人。\n\n使用 Tripo Studio Team Plan，每位成员使用自己的访问权限，管理员在同一个工作区管理角色、可见范围和用量。\n• **Tripo 提供管理控制：** 管理员可以邀请成员、调整角色，并设置每人可见的内容。\n• **您的团队负责审核和批准：** 谁检查、谁批准游戏资产，仍按您现有的制作流程安排。\n\n**看看团队怎么设置权限。** 我们可以用一个简短演示，带您了解 Team Plan。\n\n预约一个简短演示，看看管理员后台。"
           },
           "followup": {
             "en": "Access controls help your team manage who can work with generated assets. Approval still belongs to your production process.\n\nFor a 10-asset pilot, we'd be happy to help plan checks of invitations, role changes, access updates and asset visibility against your team's working arrangements. Administrators retain visibility across the workspace; member usage data is not a complete generation or approval history.\n\nYour team sets its own input-rights, review, disclosure and final-use requirements. Before starting, agree with Tripo which records and support are available, who keeps them and who performs each check.\n\nThe comparison should include administration and review time, generation and retry fees, unsuccessful attempts, artist refinement and engine checks. This puts access-management costs alongside the quality of the approved assets, without treating the pilot as a compliance certificate.\n\nScope, availability, access, responsibilities and fees need confirmation. Contact us today to set up your team's 10-asset pilot.",
@@ -431,16 +431,16 @@
         "zh": "游戏资产流程中的 3D 生成"
       },
       "image": {
-        "src": "../../assets/v19/concepts/deep-sea-engineer.png",
+        "src": "api-p2-image-to-3d.gif",
         "alt": {
-          "en": "AI-generated game character concept",
-          "zh": "AI生成的游戏角色概念图"
+          "en": "Tripo P2 turns a character image into a 3D model",
+          "zh": "Tripo P2 把角色图片生成 3D 模型"
         },
         "caption": {
-          "en": "AI-generated visual concept. Not a Tripo API output.",
-          "zh": "AI生成视觉概念图，非 Tripo API 输出。"
+          "en": "From the Tripo developer site (P2 model page).",
+          "zh": "来自 Tripo 开发者网站（P2 模型页）。"
         },
-        "sourceUrl": ""
+        "sourceUrl": "https://developers.tripo3d.ai/en/models/p2"
       },
       "form": {
         "fields": [
@@ -962,16 +962,16 @@
         "zh": "面向 3D 资产工具、资源库与制作管线负责人"
       },
       "image": {
-        "src": "../../assets/v19/concepts/espresso-machine.png",
+        "src": "api-p2-image-to-3d.gif",
         "alt": {
-          "en": "AI-generated object concept for an asset-creation brief",
-          "zh": "用于资产制作需求的 AI 生成物体概念图"
+          "en": "Tripo P2 turns a character image into a 3D model",
+          "zh": "Tripo P2 把角色图片生成 3D 模型"
         },
         "caption": {
-          "en": "AI-generated visual concept. Not a Tripo API output.",
-          "zh": "AI生成视觉概念图，非 Tripo API 输出。"
+          "en": "From the Tripo developer site (P2 model page).",
+          "zh": "来自 Tripo 开发者网站（P2 模型页）。"
         },
-        "sourceUrl": ""
+        "sourceUrl": "https://developers.tripo3d.ai/en/models/p2"
       },
       "form": {
         "fields": [
@@ -1568,8 +1568,8 @@
             "zh": "下一关，给您的美术更多方案"
           },
           "intro": {
-            "en": "Hi %FIRSTNAME%,\n\nTripo Studio brings generative 3D modeling to production character and asset workflows.\n\nA new level brings a long asset list. Your art team can explore several 3D options for each creature, weapon or set piece, set aside the ones that don't fit and keep developing the ones that do.\n\nTripo Studio Team Plan gives your team one shared workspace to generate options from the level's references or briefs.\n• **Tripo offers the options:** Several starting models for each asset you select.\n• **Your artists shape the ones they keep:** They refine geometry and materials, then approve what goes in.\n\n**Would a short demo be useful?** We'd be glad to show how game teams use Team Plan on a level.\n\nBook a quick demo when it suits you.",
-            "zh": "%FIRSTNAME%，您好，\n\nTripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n新关卡要做一长串资产。您的美术团队可以为每个怪物、武器或场景物件尝试几个 3D 方案，放下不合适的，继续做合适的。\n\nTripo Studio Team Plan 为团队提供同一个共享工作区，用关卡参考图或文字需求生成方案。\n• **Tripo 提供方案：** 为您选定的每个资产生成几个起步模型。\n• **美术把留下的做完：** 精修几何体和材质，再批准进入关卡的资产。\n\n**需要一个简短演示吗？** 我们很乐意展示游戏团队怎样在关卡制作中使用 Team Plan。\n\n方便的时候，预约一个简短演示。"
+            "en": "Hi %FIRSTNAME%,\n\nWe're Tripo. Tripo Studio brings generative 3D modeling to production character and asset workflows.\n\nA new level brings a long asset list. Your art team can explore several 3D options for each creature, weapon or set piece, set aside the ones that don't fit and keep developing the ones that do.\n\nTripo Studio Team Plan gives your team one shared workspace to generate options from the level's references or briefs.\n• **Tripo offers the options:** Several starting models for each asset you select.\n• **Your artists shape the ones they keep:** They refine geometry and materials, then approve what goes in.\n\n**Would a short demo be useful?** We'd be glad to show how game teams use Team Plan on a level.\n\nBook a quick demo when it suits you.",
+            "zh": "%FIRSTNAME%，您好，\n\n我们是 Tripo。Tripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n新关卡要做一长串资产。您的美术团队可以为每个怪物、武器或场景物件尝试几个 3D 方案，放下不合适的，继续做合适的。\n\nTripo Studio Team Plan 为团队提供同一个共享工作区，用关卡参考图或文字需求生成方案。\n• **Tripo 提供方案：** 为您选定的每个资产生成几个起步模型。\n• **美术把留下的做完：** 精修几何体和材质，再批准进入关卡的资产。\n\n**需要一个简短演示吗？** 我们很乐意展示游戏团队怎样在关卡制作中使用 Team Plan。\n\n方便的时候，预约一个简短演示。"
           },
           "followup": {
             "en": "The level's asset list keeps the comparison grounded in work your artists need to deliver.\n\nWe'd be happy to help plan a pilot around 10 of those assets, using the same scene requirements as your current production process.\n• Compare the time to the first useful starting model, generation and retry fees, including unsuccessful attempts.\n• Add the geometry and material work, review, tool compatibility and engine checks needed to approve each prop.\n\nThe result should separate useful starting models from props that take more work to repair than to build another way. Your team keeps the scene's art direction and acceptance criteria.\n\nBefore starting, your team and Tripo need to agree the asset list, available evaluation support and records, and who carries out each check. Scope, availability, access and fees need confirmation too.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -1682,8 +1682,8 @@
             "zh": "下一个里程碑前，让美术先试几个 3D 方案"
           },
           "intro": {
-            "en": "Hi %FIRSTNAME%,\n\nTripo Studio brings generative 3D modeling to production character and asset workflows.\n\nBefore the next milestone, your artists can explore several 3D options for an asset, keep the ones that fit the level and leave the rest. Each model they keep still needs modelling fixes, materials and engine testing.\n\nWith Tripo Studio Team Plan, artists generate options, then develop the ones they keep for the scene in their current tools. Tripo's game-character walkthrough follows one character through assembly, rigging and engine testing.\n• **Tripo supplies the options:** Starting models your artists can refine and texture.\n• **Your team controls the finished asset:** Artists check materials, test rigging where needed and approve the result in the engine.\n\n**Would a short walkthrough help?** We'd be glad to show how game teams check generated assets in Team Plan.\n\nBook a quick demo to see the process.",
-            "zh": "%FIRSTNAME%，您好，\n\nTripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n下一个里程碑之前，美术可以为一个资产尝试几个 3D 方案，留下适合关卡的，其余放下。留下的每一个，仍要做建模修正、材质和引擎测试。\n\n使用 Tripo Studio Team Plan，美术生成方案后，把留下的在现有工具里为场景继续制作。Tripo 的游戏角色示例，完整展示了一个角色经过组装、绑定到引擎测试的过程。\n• **Tripo 提供方案：** 美术可以精修、上材质的起步模型。\n• **您的团队把控成品：** 美术检查材质，按需测试绑定，并在引擎中批准结果。\n\n**需要简短讲解一下吗？** 我们很乐意展示游戏团队怎样在 Team Plan 里检查生成资产。\n\n预约一个简短演示，看看具体流程。"
+            "en": "Hi %FIRSTNAME%,\n\nWe're Tripo. Tripo Studio brings generative 3D modeling to production character and asset workflows.\n\nBefore the next milestone, your artists can explore several 3D options for an asset, keep the ones that fit the level and leave the rest. Each model they keep still needs modelling fixes, materials and engine testing.\n\nWith Tripo Studio Team Plan, artists generate options, then develop the ones they keep for the scene in their current tools. Tripo's game-character walkthrough follows one character through assembly, rigging and engine testing.\n• **Tripo supplies the options:** Starting models your artists can refine and texture.\n• **Your team controls the finished asset:** Artists check materials, test rigging where needed and approve the result in the engine.\n\n**Would a short walkthrough help?** We'd be glad to show how game teams check generated assets in Team Plan.\n\nBook a quick demo to see the process.",
+            "zh": "%FIRSTNAME%，您好，\n\n我们是 Tripo。Tripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n下一个里程碑之前，美术可以为一个资产尝试几个 3D 方案，留下适合关卡的，其余放下。留下的每一个，仍要做建模修正、材质和引擎测试。\n\n使用 Tripo Studio Team Plan，美术生成方案后，把留下的在现有工具里为场景继续制作。Tripo 的游戏角色示例，完整展示了一个角色经过组装、绑定到引擎测试的过程。\n• **Tripo 提供方案：** 美术可以精修、上材质的起步模型。\n• **您的团队把控成品：** 美术检查材质，按需测试绑定，并在引擎中批准结果。\n\n**需要简短讲解一下吗？** 我们很乐意展示游戏团队怎样在 Team Plan 里检查生成资产。\n\n预约一个简短演示，看看具体流程。"
           },
           "followup": {
             "en": "The character walkthrough shows one game character moving from generation through artist assembly and rigging to engine testing. Results for other assets will vary.\n\nFor 10 real assets from your game, we propose that Tripo run an evaluation against your team's checklist and share the results. First, both sides need to confirm supported checks, scope, fees and the records to deliver.\n• Assess topology, polygon count, UVs, materials and file formats against the scene's requirements.\n• Include target-engine, rigging or interaction checks where the asset needs them and Tripo can support them.\n\nYour artists still refine the assets; your team gives final approval and handles checks outside the agreed scope. Compare quality, time and cost through approval, including generation and retry fees, unsuccessful attempts, revisions, review, tool compatibility and engine testing.\n\nAvailability and access also need confirmation before starting.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -1796,8 +1796,8 @@
             "zh": "您的游戏团队留下的模型，每个场景都能接着用"
           },
           "intro": {
-            "en": "Hi %FIRSTNAME%,\n\nTripo Studio brings generative 3D modeling to production character and asset workflows.\n\nYour artists can explore several 3D options and keep the ones that fit. That work is lost if a building or vehicle kept for one scene has to be made again for another. When artists find it quickly, they can adapt it instead.\n\nTripo Studio Team Plan gives your team a shared library for models generated in team mode, plus pooled credits and member usage.\n• **Tripo brings team resources together:** Artists find models under your visibility settings; admins see credits and each member's usage.\n• **Your artists adapt approved work:** They identify reviewed models through your existing process, change them for the new scene and approve the result.\n\n**Curious how teams share models across scenes?** We'd be glad to show you in a short demo.\n\nBook a quick demo whenever it suits your team.",
-            "zh": "%FIRSTNAME%，您好，\n\nTripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n美术可以尝试多个 3D 方案，留下合适的。可如果一个场景留下的建筑或载具，换个场景又要重做，这些工作就白费了。美术能很快找到它，就可以直接在上面修改。\n\nTripo Studio Team Plan 为团队提供共享资产库，存放团队模式生成的模型，同时提供共享积分和成员用量查看。\n• **Tripo 集中团队资源：** 美术按工作区可见设置查找模型，管理员查看积分池和每位成员的用量。\n• **美术改造已批准的成果：** 通过现有流程识别审核过的模型，按新场景修改，并批准结果。\n\n**想了解团队怎样跨场景共享模型？** 我们很乐意用一个简短演示展示给您看。\n\n方便的时候，为团队预约一个简短演示。"
+            "en": "Hi %FIRSTNAME%,\n\nWe're Tripo. Tripo Studio brings generative 3D modeling to production character and asset workflows.\n\nYour artists can explore several 3D options and keep the ones that fit. That work is lost if a building or vehicle kept for one scene has to be made again for another. When artists find it quickly, they can adapt it instead.\n\nTripo Studio Team Plan gives your team a shared library for models generated in team mode, plus pooled credits and member usage.\n• **Tripo brings team resources together:** Artists find models under your visibility settings; admins see credits and each member's usage.\n• **Your artists adapt approved work:** They identify reviewed models through your existing process, change them for the new scene and approve the result.\n\n**Curious how teams share models across scenes?** We'd be glad to show you in a short demo.\n\nBook a quick demo whenever it suits your team.",
+            "zh": "%FIRSTNAME%，您好，\n\n我们是 Tripo。Tripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n美术可以尝试多个 3D 方案，留下合适的。可如果一个场景留下的建筑或载具，换个场景又要重做，这些工作就白费了。美术能很快找到它，就可以直接在上面修改。\n\nTripo Studio Team Plan 为团队提供共享资产库，存放团队模式生成的模型，同时提供共享积分和成员用量查看。\n• **Tripo 集中团队资源：** 美术按工作区可见设置查找模型，管理员查看积分池和每位成员的用量。\n• **美术改造已批准的成果：** 通过现有流程识别审核过的模型，按新场景修改，并批准结果。\n\n**想了解团队怎样跨场景共享模型？** 我们很乐意用一个简短演示展示给您看。\n\n方便的时候，为团队预约一个简短演示。"
           },
           "followup": {
             "en": "A building or vehicle approved for one scene may be a useful starting point for another. Its geometry or materials can still need changes.\n\nWe'd be happy to help plan a pilot with 10 real game assets, following reviewed work from one artist to the next.\n• Record reuse count and handoff count alongside admin time spent organizing files, managing access and checking pooled credits and member usage.\n• Compare changes, review and engine checks, plus original generation and retry fees, unsuccessful attempts and cleanup.\n\nThat shows the total time, cost and final quality of reuse.\n\nTeam Plan supplies the shared library, credit pool and member-usage visibility. Your existing workflow identifies approved work and handles externally refined files. Reuse still needs review for the new scene. Before starting, agree with Tripo on the assets, available support, records, responsibilities, availability, access and fees.\n\nContact us today to set up your team's 10-asset pilot.",
@@ -1910,8 +1910,8 @@
             "zh": "制作的每个阶段，游戏团队的权限都能灵活调整"
           },
           "intro": {
-            "en": "Hi %FIRSTNAME%,\n\nTripo Studio brings generative 3D modeling to production character and asset workflows.\n\nWhen more of your artists explore and keep 3D options, access has to follow the people on the project. Teams change over a project; with one shared login, every change means a reset and a chance of missing something.\n\nWith Tripo Studio Team Plan, admins invite members and change roles in one workspace, and each artist signs in with their own account.\n• **Tripo provides member controls:** Invite members, change roles and set asset visibility at every stage of production.\n• **Your team assigns review responsibility:** Who checks a prop and who approves it stays in your own production workflow.\n\n**Would it help to see the admin view?** We'd be glad to walk you through it in a short demo.\n\nBook a quick demo when your team is ready.",
-            "zh": "%FIRSTNAME%，您好，\n\nTripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n尝试和保留 3D 方案的美术越多，权限越要跟着项目里的人走。项目里团队会有变动；共用一个账号，每次变动都要重设，还可能漏掉。\n\n使用 Tripo Studio Team Plan，管理员在同一个工作区邀请成员、调整角色，每位美术使用自己的账号登录。\n• **Tripo 提供成员管理：** 在制作的每个阶段邀请成员、调整角色、设置资产可见范围。\n• **您的团队分配审核责任：** 谁检查道具、谁批准，仍在您自己的制作流程中安排。\n\n**想看看管理员后台吗？** 我们很乐意用一个简短演示带您看一遍。\n\n团队方便的时候，预约一个简短演示。"
+            "en": "Hi %FIRSTNAME%,\n\nWe're Tripo. Tripo Studio brings generative 3D modeling to production character and asset workflows.\n\nWhen more of your artists explore and keep 3D options, access has to follow the people on the project. Teams change over a project; with one shared login, every change means a reset and a chance of missing something.\n\nWith Tripo Studio Team Plan, admins invite members and change roles in one workspace, and each artist signs in with their own account.\n• **Tripo provides member controls:** Invite members, change roles and set asset visibility at every stage of production.\n• **Your team assigns review responsibility:** Who checks a prop and who approves it stays in your own production workflow.\n\n**Would it help to see the admin view?** We'd be glad to walk you through it in a short demo.\n\nBook a quick demo when your team is ready.",
+            "zh": "%FIRSTNAME%，您好，\n\n我们是 Tripo。Tripo Studio 把生成式 3D 建模带进正式的角色和资产制作流程。\n\n尝试和保留 3D 方案的美术越多，权限越要跟着项目里的人走。项目里团队会有变动；共用一个账号，每次变动都要重设，还可能漏掉。\n\n使用 Tripo Studio Team Plan，管理员在同一个工作区邀请成员、调整角色，每位美术使用自己的账号登录。\n• **Tripo 提供成员管理：** 在制作的每个阶段邀请成员、调整角色、设置资产可见范围。\n• **您的团队分配审核责任：** 谁检查道具、谁批准，仍在您自己的制作流程中安排。\n\n**想看看管理员后台吗？** 我们很乐意用一个简短演示带您看一遍。\n\n团队方便的时候，预约一个简短演示。"
           },
           "followup": {
             "en": "Access should stay flexible as roles change during production.\n\nWe'd be happy to help plan a pilot with 10 real assets to check invitations, role changes, access updates and asset visibility. Administrators retain full workspace visibility. Member usage information can support management, but it is not a complete generation or approval record.\n\nYour production process still determines input rights, reviewers, final approval and any disclosure. Before starting, Tripo and your team need to agree which records and evaluation support are available, who retains records and who performs each check.\n\nCompare administration and review time, generation and retry fees, unsuccessful attempts, refinement and engine checks against your current workflow. That shows the cost of managing access alongside final asset quality; it does not certify compliance.\n\nScope, availability, access, responsibilities and fees need confirmation. Contact us today to set up your team's 10-asset pilot.",
@@ -2024,16 +2024,16 @@
         "zh": "围绕具体游戏项目和工具发布，接入 3D 生成"
       },
       "image": {
-        "src": "../../assets/v19/concepts/deep-sea-engineer.png",
+        "src": "api-p2-image-to-3d.gif",
         "alt": {
-          "en": "AI-generated game character concept",
-          "zh": "AI生成的游戏角色概念图"
+          "en": "Tripo P2 turns a character image into a 3D model",
+          "zh": "Tripo P2 把角色图片生成 3D 模型"
         },
         "caption": {
-          "en": "AI-generated visual concept. Not a Tripo API output.",
-          "zh": "AI生成视觉概念图，非 Tripo API 输出。"
+          "en": "From the Tripo developer site (P2 model page).",
+          "zh": "来自 Tripo 开发者网站（P2 模型页）。"
         },
-        "sourceUrl": ""
+        "sourceUrl": "https://developers.tripo3d.ai/en/models/p2"
       },
       "form": {
         "fields": [
@@ -2555,16 +2555,16 @@
         "zh": "面向 3D 资产工具、资源库与制作管线负责人"
       },
       "image": {
-        "src": "../../assets/v19/concepts/espresso-machine.png",
+        "src": "api-p2-image-to-3d.gif",
         "alt": {
-          "en": "AI-generated object concept for an asset-creation brief",
-          "zh": "用于资产制作需求的 AI 生成物体概念图"
+          "en": "Tripo P2 turns a character image into a 3D model",
+          "zh": "Tripo P2 把角色图片生成 3D 模型"
         },
         "caption": {
-          "en": "AI-generated visual concept. Not a Tripo API output.",
-          "zh": "AI生成视觉概念图，非 Tripo API 输出。"
+          "en": "From the Tripo developer site (P2 model page).",
+          "zh": "来自 Tripo 开发者网站（P2 模型页）。"
         },
-        "sourceUrl": ""
+        "sourceUrl": "https://developers.tripo3d.ai/en/models/p2"
       },
       "form": {
         "fields": [
